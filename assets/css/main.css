@@ -48,9 +48,9 @@ section { padding: 4rem 0; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
+  height: 80px;
 }
-.logo img { height: 44px; width: auto; }
+.logo img { height: 56px; width: auto; }
 .main-nav ul {
   display: flex;
   align-items: center;
@@ -58,7 +58,7 @@ section { padding: 4rem 0; }
 }
 .main-nav a {
   color: rgba(255,255,255,0.85);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.85rem;
   font-size: 0.9rem;
   font-weight: 500;
   transition: color 0.2s;
@@ -222,7 +222,7 @@ section { padding: 4rem 0; }
 /* --- Page Header --- */
 .page-header {
   background: #0a1628;
-  padding: 8rem 0 3rem;
+  padding: 8.5rem 0 3rem;
   text-align: center;
 }
 .page-header h1 { color: #fff; margin-bottom: 0.5rem; }
@@ -313,7 +313,7 @@ section { padding: 4rem 0; }
 .post-card-body h3 { font-size: 1.1rem; margin-top: 0.5rem; color: #0a1628; }
 
 /* Post single */
-.post-header { background: #0a1628; padding: 8rem 0 3rem; text-align: center; }
+.post-header { background: #0a1628; padding: 8.5rem 0 3rem; text-align: center; }
 .post-header time { color: #d4a843; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; }
 .post-header h1 { color: #fff; margin-top: 0.75rem; }
 .post-body { padding: 3rem 0; }
@@ -376,24 +376,24 @@ section { padding: 4rem 0; }
 .footer-partners { display: flex; justify-content: center; gap: 2rem; align-items: center; margin-bottom: 1.5rem; opacity: 0.5; }
 .footer-partners img { height: 28px; width: auto; filter: brightness(0) invert(1); }
 
-/* --- Mobile Responsive --- */
-@media (max-width: 768px) {
+/* --- Responsive: Tablet & Mobile Nav (≤1024px) --- */
+@media (max-width: 1024px) {
   .nav-toggle { display: block; z-index: 10; }
   .main-nav {
     display: none;
     position: absolute;
-    top: 72px;
+    top: 80px;
     left: 0;
     right: 0;
     background: #0a1628;
     padding: 1rem;
     border-top: 1px solid rgba(255,255,255,0.08);
-    max-height: calc(100vh - 72px);
+    max-height: calc(100vh - 80px);
     overflow-y: auto;
   }
   .main-nav.active { display: block; }
   .main-nav ul { flex-direction: column; gap: 0; }
-  .main-nav a { display: block; padding: 0.75rem 1rem; }
+  .main-nav a { display: block; padding: 0.75rem 1rem; font-size: 1rem; }
   .dropdown-menu {
     display: none;
     position: static;
@@ -404,16 +404,37 @@ section { padding: 4rem 0; }
     min-width: unset;
     border-radius: 0;
   }
-  /* On mobile, only show dropdown when .open class is set (via JS click) */
+  /* On mobile/tablet, only show dropdown when .open class is set (via JS click) */
   .dropdown:hover .dropdown-menu { display: none; }
   .dropdown.open > .dropdown-menu { display: block; }
   .dropdown.open > a::after { transform: rotate(180deg); }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .footer-brand { grid-column: 1 / -1; }
+}
+
+/* --- Responsive: Mobile (≤768px) --- */
+@media (max-width: 768px) {
   .hero { min-height: 80vh; }
   .hero-content h1 { font-size: 2.25rem; }
   .hero-stats { flex-direction: column; gap: 1.5rem; }
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .footer-brand { grid-column: auto; }
   section { padding: 3rem 0; }
   .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .post-grid { grid-template-columns: 1fr; }
+  .ghl-form-wrapper { padding: 1rem; margin: 1rem auto; }
+  .page-header { padding: 6rem 0 2rem; }
+  .post-header { padding: 6rem 0 2rem; }
+}
+
+/* --- Responsive: Small Mobile (≤480px) --- */
+@media (max-width: 480px) {
+  .container { padding: 0 1rem; }
+  .hero-content { padding: 5rem 0 3rem; }
+  .hero-cta { flex-direction: column; align-items: center; }
+  .btn { width: 100%; text-align: center; }
+  .placements-grid { grid-template-columns: 1fr 1fr; }
+  .coach-card img { width: 120px; height: 120px; }
 }
 
 /* --- Utility Classes (replacing inline styles) --- */
@@ -428,6 +449,10 @@ section { padding: 4rem 0; }
 .iframe-responsive { width: 100%; border: none; min-height: 500px; }
 .iframe-responsive-tall { width: 100%; border: none; min-height: 600px; }
 .map-embed { border: 0; }
+
+/* Ensure iframes never overflow containers */
+iframe { max-width: 100%; }
+.page-content iframe, .ghl-form-wrapper iframe { width: 100%; max-width: 100%; }
 
 /* --- 404 Page --- */
 .error-page { text-align: center; padding: 4rem 1.5rem; }

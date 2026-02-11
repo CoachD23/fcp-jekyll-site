@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.dropdown > a').forEach(link => {
     link.addEventListener('click', (e) => {
       // Only intercept on mobile-sized screens
-      if (window.innerWidth <= 768) {
+      if (window.innerWidth <= 1024) {
         e.preventDefault();
         const dd = link.parentElement;
         // Close other dropdowns
