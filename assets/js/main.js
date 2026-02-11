@@ -1,38 +1,48 @@
 // Florida Coastal Prep - Main JS
 
-// Mobile nav toggle
 document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('.main-nav');
+
+  // Mobile nav toggle
   if (toggle && nav) {
-    toggle.addEventListener('click', () => {
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation();
       nav.classList.toggle('active');
       toggle.classList.toggle('active');
+      toggle.setAttribute('aria-expanded', nav.classList.contains('active'));
+      // Close all dropdowns when closing nav
+      if (!nav.classList.contains('active')) {
+        document.querySelectorAll('.dropdown.open').forEach(dd => dd.classList.remove('open'));
+      }
     });
-    // Close on outside click
+
+    // Close nav on outside click
     document.addEventListener('click', (e) => {
       if (!nav.contains(e.target) && !toggle.contains(e.target)) {
         nav.classList.remove('active');
         toggle.classList.remove('active');
+        toggle.setAttribute('aria-expanded', 'false');
+        document.querySelectorAll('.dropdown.open').forEach(dd => dd.classList.remove('open'));
       }
     });
   }
 
-  // Mobile dropdown toggles
-  const dropdowns = document.querySelectorAll('.dropdown');
-  if (window.innerWidth <= 768) {
-    dropdowns.forEach(dd => {
-      const link = dd.querySelector('a');
-      if (link) {
-        link.addEventListener('click', (e) => {
-          if (window.innerWidth <= 768) {
-            e.preventDefault();
-            dd.classList.toggle('open');
-          }
+  // Mobile dropdown toggles - use event delegation so it works regardless of load width
+  document.querySelectorAll('.dropdown > a').forEach(link => {
+    link.addEventListener('click', (e) => {
+      // Only intercept on mobile-sized screens
+      if (window.innerWidth <= 768) {
+        e.preventDefault();
+        const dd = link.parentElement;
+        // Close other dropdowns
+        document.querySelectorAll('.dropdown.open').forEach(other => {
+          if (other !== dd) other.classList.remove('open');
         });
+        dd.classList.toggle('open');
       }
     });
-  }
+  });
 
   // Smooth scroll for anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
