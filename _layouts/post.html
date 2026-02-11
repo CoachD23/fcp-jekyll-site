@@ -27,8 +27,8 @@ layout: default
   <div class="container">
     <h2>More News</h2>
     <div class="post-grid">
-      {% assign related = site.posts | where_exp: "post", "post.url != page.url" | limit: 3 %}
-      {% for post in related %}
+      {% assign related = site.posts | where_exp: "post", "post.url != page.url"  %}
+      {% for post in related limit: 3 %}
       <a href="{{ post.url | relative_url }}" class="post-card">
         {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">{% endif %}
         <div class="post-card-body">
