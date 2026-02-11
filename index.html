@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+description: "Florida Coastal Prep is an elite basketball academy on Florida's Emerald Coast offering high school and post-graduate programs that bridge the gap to college athletics."
 hero_video: /assets/video/fcp-hero.mp4
 hero_poster: /assets/images/hero-poster.jpg
 hero_title: "Florida Coastal Prep"
@@ -8,7 +9,9 @@ hero_subtitle: "Where Future College Athletes Are Made"
 hero_stats: true
 ---
 
+
 {% include hero-video.html %}
+
 
 <!-- About FCP -->
 <section class="section-light">
@@ -29,121 +32,9 @@ hero_stats: true
   </div>
 </section>
 
+
 <!-- Programs -->
 <section>
   <div class="container">
     <div class="section-header">
       <h2>Our Programs</h2>
-      <p>Florida Coastal Prep has a plan for each player and a highly regimented schedule designed to optimize our players improvement and performance.</p>
-    </div>
-    <div class="grid-2">
-      <a href="/post-grad/" class="card">
-        <img src="/assets/images/post-grad-card.jpg" alt="Post Graduate Program" loading="lazy">
-        <div class="card-body">
-          <h3>Post Graduate Program</h3>
-          <p>For graduates seeking an extra year to develop their game, improve academics, and secure a college scholarship. Ages 18-20.</p>
-        </div>
-      </a>
-      <a href="/high-school/" class="card">
-        <img src="/assets/images/high-school-card.jpg" alt="High School Program" loading="lazy">
-        <div class="card-body">
-          <h3>National High School Program</h3>
-          <p>Our high school program offers NCAA approved coursework along with AP classes and dual credit courses with national basketball exposure.</p>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- Placements -->
-<section class="section-dark">
-  <div class="container">
-    <div class="section-header">
-      <h2>Where Our Athletes Play</h2>
-      <p>FCP alumni compete at every level of college basketball across the country.</p>
-    </div>
-    <div class="placements-grid">
-      <div class="placement">
-        <div class="player">Recent Signees</div>
-        <div class="school">NCAA Division I</div>
-      </div>
-      <div class="placement">
-        <div class="player">Program Alumni</div>
-        <div class="school">NCAA Division II</div>
-      </div>
-      <div class="placement">
-        <div class="player">Scholarship Athletes</div>
-        <div class="school">NAIA Programs</div>
-      </div>
-      <div class="placement">
-        <div class="player">Transfer Athletes</div>
-        <div class="school">JUCO Programs</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Testimonials Preview -->
-<section class="section-light">
-  <div class="container">
-    <div class="section-header">
-      <h2>What Families Say</h2>
-    </div>
-    <div class="grid-2">
-      <div class="card">
-        <div class="card-body">
-          <p>"Coach Lee DeForest was instrumental in putting my son in the position to compete against high level competition as well as in front of college coaches. My son matured and received a D1 scholarship and now plays for the Missouri Tigers."</p>
-          <p><strong>— Sean East Sr.</strong></p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <p>"My son played for Coach DeForest and he did an awesome job with my son. He was a great mentor, and did a fantastic job in getting him ready for the next level. My son had zero offers coming out high school, and after completing his time at FCP, he had plenty of offers."</p>
-          <p><strong>— Shawn Roy</strong></p>
-        </div>
-      </div>
-    </div>
-    <div style="text-align: center; margin-top: 2rem;">
-      <a href="/testimonials/" class="btn btn-primary">Read More Testimonials</a>
-    </div>
-  </div>
-</section>
-
-<!-- News Preview -->
-<section>
-  <div class="container">
-    <div class="section-header">
-      <h2>Florida Coastal Prep News</h2>
-    </div>
-    <div class="post-grid">
-      {% for post in site.posts limit:3 %}
-      <a href="{{ post.url | relative_url }}" class="post-card">
-        {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
-        {% else %}
-        <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
-        {% endif %}
-        <div class="post-card-body">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-          <h3>{{ post.title }}</h3>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
-    <div style="text-align: center; margin-top: 2rem;">
-      <a href="/blog/" class="btn btn-outline" style="color: #0a1628; border-color: #0a1628;">View All News</a>
-    </div>
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="cta-section">
-  <div class="container">
-    <h2>Ready to Take the Next Step?</h2>
-    <p>Join the FCP family and start your journey to college basketball. Limited roster spots available for the upcoming season.</p>
-    <div class="hero-cta">
-      <a href="/apply/" class="btn btn-primary">Apply Now</a>
-      <a href="/contact/" class="btn btn-outline">Contact Us</a>
-    </div>
-  </div>
-</section>
