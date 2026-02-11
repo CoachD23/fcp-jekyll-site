@@ -4,12 +4,15 @@
 <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
+
 {% seo %}
+
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+
 
 <!-- Structured Data: Organization -->
 <script type="application/ld+json">
@@ -32,41 +35,5 @@
   "email": "info@floridacoastalprep.com",
   "sport": "Basketball",
   "sameAs": [
-    "{{ site.social.facebook }}",
-    "{{ site.social.instagram }}",
-    "{{ site.social.twitter }}",
-    "{{ site.social.youtube }}"
-  ]
-}
-</script>
-
-{% if page.layout == 'post' %}
-<!-- Structured Data: Article (blog posts only) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "{{ page.title }}",
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "author": {
-    "@type": "Organization",
-    "name": "Florida Coastal Prep"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Florida Coastal Prep Sports Academy",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://floridacoastalprep.com/assets/images/fcp-logo.png"
-    }
-  },
-  "mainEntityOfPage": "{{ page.url | absolute_url }}"
-}
-</script>
-{% endif %}
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-{% if page.hero_video %}<link rel="preload" as="video" href="{{ page.hero_video | relative_url }}">{% endif %}
+    "{{ site.social_links.facebook }}",
+    "{{ site.social_links.instagram }}",
