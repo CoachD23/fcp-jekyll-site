@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11"> 
+	<title>Page not found &#8211; Florida Coastal Prep</title>
+
+		<!-- All in One SEO Pro 4.9.3 - aioseo.com -->
+	<meta name="robots" content="noindex" />
+	<meta name="google-site-verification" content="UA-57655471-2" />
+	<meta name="msvalidate.01" content="UA-57655471-2" />
+	<meta name="yandex-verification" content="UA-57655471-2" />
+	<meta name="baidu-site-verification" content="UA-57655471-2" />
+	<meta name="generator" content="All in One SEO Pro (AIOSEO) 4.9.3" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/floridacoastalprep.com\/wp-content\/uploads\/2025\/01\/f73bb20a-785d-4c6a-8c6d-5d4cd5083b61.jpg\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/floridacoastalprep.com#listItem","position":1,"name":"Home","item":"https:\/\/floridacoastalprep.com","nextItem":{"@type":"ListItem","@id":"#listItem","name":"404 - Page Not Found"}}]},{"@type":"Organization","@id":"https:\/\/floridacoastalprep.com\/#organization","name":"Florida Coastal Prep","description":"Sports Academy","url":"https:\/\/floridacoastalprep.com\/","telephone":"+18503602323","logo":{"@type":"ImageObject","url":"https:\/\/i0.wp.com\/floridacoastalprep.com\/wp-content\/uploads\/2022\/06\/new-version-1.png?w=433&ssl=1","@id":"https:\/\/floridacoastalprep.com\/wp-content\/uploads\/2025\/01\/f73bb20a-785d-4c6a-8c6d-5d4cd5083b61.jpg\/#organizationLogo"},"image":{"@id":"https:\/\/floridacoastalprep.com\/wp-content\/uploads\/2025\/01\/f73bb20a-785d-4c6a-8c6d-5d4cd5083b61.jpg\/#organizationLogo"},"sameAs":["https:\/\/www.facebook.com\/Florida-Coastal-Prep-Sports-Academy","https:\/\/twitter.com\/FLCoastalPrep","https:\/\/www.instagram.com\/flcoastalprep\/","https:\/\/www.youtube.com\/c\/FloridaCoastalPrep"]},{"@type":"WebPage","@id":"https:\/\/floridacoastalprep.com\/wp-content\/uploads\/2025\/01\/f73bb20a-785d-4c6a-8c6d-5d4cd5083b61.jpg\/#webpage","url":"https:\/\/floridacoastalprep.com\/wp-content\/uploads\/2025\/01\/f73bb20a-785d-4c6a-8c6d-5d4cd5083b61.jpg\/","inLanguage":"en","isPartOf":{"@id":"https:\/\/floridacoastalprep.com\/#website"},"breadcrumb":{"@id":"https:\/\/floridacoastalprep.com\/wp-content\/uploads\/2025\/01\/f73bb20a-785d-4c6a-8c6d-5d4cd5083b61.jpg\/#breadcrumblist"}},{"@type":"WebSite","@id":"https:\/\/floridacoastalprep.com\/#website","url":"https:\/\/floridacoastalprep.com\/","name":"Florida Coastal Prep","description":"Sports Academy","inLanguage":"en","publisher":{"@id":"https:\/\/floridacoastalprep.com\/#organization"}}]}
+		</script>
+		<!-- All in One SEO Pro -->
+
+<link rel="alternate" type="application/rss+xml" title="Florida Coastal Prep &raquo; Feed" href="https://floridacoastalprep.com/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v9.11.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-0J66GRZ7SW"  data-cfasync="false" data-wpfc-render="false" async></script>
+			<script data-cfasync="false" data-wpfc-render="false">
+				var mi_version = '9.11.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/floridacoastalprep.com\/wp-content\/uploads\/2025\/01\/f73bb20a-785d-4c6a-8c6d-5d4cd5083b61.jpg\/"};
+								if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-0J66GRZ7SW',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-0J66GRZ7SW', {"forceSSL":"true","link_attribution":"true","page_path":'\/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+							<!-- / Google Analytics by MonsterInsights -->
+		
+<link data-optimized="2" rel="stylesheet" href="https://floridacoastalprep.com/wp-content/litespeed/css/a63463814bfd7b16a82f5cab1cedbc61.css?ver=5c23e" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://floridacoastalprep.com/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.12.1" id="astra-flexibility-js"></script>
+<script id="astra-flexibility-js-after">
+typeof flexibility !== "undefined" && flexibility(document.documentElement);
+//# sourceURL=astra-flexibility-js-after
+</script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script id="jquery-js-after">
+!function($){"use strict";$(document).ready(function(){$(this).scrollTop()>100&&$(".hfe-scroll-to-top-wrap").removeClass("hfe-scroll-to-top-hide"),$(window).scroll(function(){$(this).scrollTop()<100?$(".hfe-scroll-to-top-wrap").fadeOut(300):$(".hfe-scroll-to-top-wrap").fadeIn(300)}),$(".hfe-scroll-to-top-wrap").on("click",function(){$("html, body").animate({scrollTop:0},300);return!1})})}(jQuery);
+!function($){'use strict';$(document).ready(function(){var bar=$('.hfe-reading-progress-bar');if(!bar.length)return;$(window).on('scroll',function(){var s=$(window).scrollTop(),d=$(document).height()-$(window).height(),p=d? s/d*100:0;bar.css('width',p+'%')});});}(jQuery);
+//# sourceURL=jquery-js-after
+</script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=9.11.1" id="monsterinsights-frontend-script-js" async data-wp-strategy="async"></script>
+<script data-cfasync="false" data-wpfc-render="false" id='monsterinsights-frontend-script-js-extra'>var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/floridacoastalprep.com","hash_tracking":"false","v4_id":"G-0J66GRZ7SW"};</script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/profilegrid-user-profiles-groups-and-communities/public/js/pg-profile-menu.js?ver=5.9.7.3" id="pg-profile-menu.js-js"></script>
+<script id="profilegrid-user-profiles-groups-and-communities-js-extra">
+var pm_ajax_object = {"ajax_url":"https://floridacoastalprep.com/wp-admin/admin-ajax.php","plugin_emoji_url":"https://floridacoastalprep.com/wp-content/plugins/profilegrid-user-profiles-groups-and-communities/public/partials/images/img","nonce":"30a35739a5"};
+var pm_error_object = {"valid_email":"Please enter a valid e-mail address.","valid_number":"Please enter a valid number.","valid_date":"Please enter a valid date (yyyy-mm-dd format).","required_field":"This is a required field.","required_comman_field":"Please fill all the required fields.","file_type":"This file type is not allowed.","short_password":"Your password should be at least 7 characters long.","pass_not_match":"Password and confirm password do not match.","user_exist":"Sorry, username already exists.","email_exist":"Sorry, email already exists.","show_more":"More...","show_less":"Show less","user_not_exit":"Username does not exists.","password_change_successfully":"Password changed Successfully","allow_file_ext":"jpg|jpeg|png|gif|webp|avif","valid_phone_number":"Please enter a valid phone number.","valid_mobile_number":"Please enter a valid mobile number.","valid_facebook_url":"Please enter a valid Facebook url.","valid_twitter_url":"Please enter a X url.","valid_google_url":"Please enter a valid Google url.","valid_linked_in_url":"Please enter a Linked In url.","valid_youtube_url":"Please enter a valid Youtube url.","valid_mixcloud_url":"Please enter a valid Mixcloud url.","valid_soundcloud_url":"Please enter a valid SoundCloud url.","valid_instagram_url":"Please enter a valid Instagram url.","crop_alert_error":"Please select a crop region then press submit.","admin_note_error":"Unable to add an empty note. Please write something and try again.","empty_message_error":"Unable to send an empty message. Please type something.","invite_limit_error":"Only ten users can be invited at a time.","no_more_result":"No More Result Found","delete_friend_request":"This will delete friend request from selected user(s). Do you wish to continue?","remove_friend":"This will remove selected user(s) from your friends list. Do you wish to continue?","accept_friend_request_conf":"This will accept request from selected user(s). Do you wish to continue?","cancel_friend_request":"This will cancel request from selected user(s). Do you wish to continue?","next":"Next","back":"Back","submit":"Submit","empty_chat_message":"I am sorry, I can't send an empty message. Please write something and try sending it again.","login_url":"https://floridacoastalprep.com/login/?password=changed"};
+var pm_fields_object = {"dateformat":"yy-mm-dd"};
+//# sourceURL=profilegrid-user-profiles-groups-and-communities-js-extra
+</script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/profilegrid-user-profiles-groups-and-communities/public/js/profile-magic-public.js?ver=5.9.7.3" id="profilegrid-user-profiles-groups-and-communities-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/profilegrid-user-profiles-groups-and-communities/public/js/modernizr-custom.min.js?ver=5.9.7.3" id="modernizr-custom.min.js-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.34.4" id="font-awesome-4-shim-js"></script>
+<link rel="https://api.w.org/" href="https://floridacoastalprep.com/wp-json/" /><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M8R7HZQL');</script>
+<!-- End Google Tag Manager --><meta name="generator" content="Elementor 3.34.4; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+			
+			<script><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11158472206"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11158472206');
+</script><!-- This site is converting visitors into subscribers and customers with TrustPulse - https://trustpulse.com -->
+<script>!function(w,d,s,n,r,a){(w._tpq=w._tpq||[]).push(['init',n]),(r=d.createElement(s)).type='text/javascript',r.src='https://a.trstplse.com/app/js/api.min.js',r.async=!0,(a=d.getElementsByTagName(s)[0]).parentNode.insertBefore(r,a)}(window,document,'script',9559);</script>
+<!-- / TrustPulse -->			<meta name="theme-color" content="#F3F3F3">
+			<link rel="icon" href="https://floridacoastalprep.com/wp-content/uploads/2022/06/cropped-cropped-Florida-Coastal-Prep-Sports-Academy-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://floridacoastalprep.com/wp-content/uploads/2022/06/cropped-cropped-Florida-Coastal-Prep-Sports-Academy-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://floridacoastalprep.com/wp-content/uploads/2022/06/cropped-cropped-Florida-Coastal-Prep-Sports-Academy-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://floridacoastalprep.com/wp-content/uploads/2022/06/cropped-cropped-Florida-Coastal-Prep-Sports-Academy-1-270x270.png" />
+		
+		</head>
+
+<body data-rsssl=1 itemtype='https://schema.org/WebPage' itemscope='itemscope' class="error404 wp-embed-responsive wp-theme-astra ehf-header ehf-footer ehf-template-astra ehf-stylesheet-astra jkit-color-scheme ast-desktop ast-separate-container ast-two-container ast-no-sidebar astra-4.12.1 group-blog ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header elementor-default elementor-kit-7 astra-addon-4.12.2 theme-astra">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8R7HZQL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- This site is converting visitors into subscribers and customers with TrustPulse - https://trustpulse.com -->
+<script>!function(w,d,s,n,r,a){(w._tpq=w._tpq||[]).push(['init',n]),(r=d.createElement(s)).type='text/javascript',r.src='https://a.trstplse.com/app/js/api.min.js',r.async=!0,(a=d.getElementsByTagName(s)[0]).parentNode.insertBefore(r,a)}(window,document,'script',9559);</script>
+<!-- / TrustPulse -->
+<a
+	class="skip-link screen-reader-text"
+	href="#content">
+		Skip to content</a>
+
+<div
+class="hfeed site" id="page">
+			<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+			<p class="main-title bhf-hidden" itemprop="headline"><a href="https://floridacoastalprep.com" title="Florida Coastal Prep" rel="home">Florida Coastal Prep</a></p>
+					<div data-elementor-type="wp-post" data-elementor-id="6921" class="elementor elementor-6921" data-elementor-post-type="elementor-hf">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-63fcec5 elementor-hidden-tablet elementor-hidden-mobile elementor-section-full_width jkit-sticky-element--enabled elementor-section-content-middle elementor-section-height-default elementor-section-height-default jkit-sticky-element-on--down jkit-sticky-position--sticky" data-id="63fcec5" data-element_type="section" data-settings="{&quot;jkit_sticky_top_position&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.1,&quot;sizes&quot;:[]},&quot;background_background&quot;:&quot;classic&quot;,&quot;jkit_sticky_device&quot;:&quot;desktop&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c0318e4" data-id="c0318e4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-21a149b elementor-widget elementor-widget-image" data-id="21a149b" data-element_type="widget" data-widget_type="image.default">
+																<a href="/home">
+							<img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" fetchpriority="high" width="433" height="468" data-src="https://floridacoastalprep.com/wp-content/uploads/2022/06/new-version-1.png" class="attachment-large size-large wp-image-8692" alt="" decoding="async" data-srcset="https://floridacoastalprep.com/wp-content/uploads/2022/06/new-version-1.png 433w, https://floridacoastalprep.com/wp-content/uploads/2022/06/new-version-1-278x300.png 278w" data-sizes="(max-width: 433px) 100vw, 433px" /><noscript><img fetchpriority="high" width="433" height="468" src="https://floridacoastalprep.com/wp-content/uploads/2022/06/new-version-1.png" class="attachment-large size-large wp-image-8692" alt="" decoding="async" srcset="https://floridacoastalprep.com/wp-content/uploads/2022/06/new-version-1.png 433w, https://floridacoastalprep.com/wp-content/uploads/2022/06/new-version-1-278x300.png 278w" sizes="(max-width: 433px) 100vw, 433px" /></noscript>								</a>
+															</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-61ac7b8" data-id="61ac7b8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-67c588d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="67c588d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-345f6d1 elementor-hidden-desktop" data-id="345f6d1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-94ae124 elementor-align-start elementor-hidden-desktop elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="94ae124" data-element_type="widget" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="jki jki-menu-line"></i>						</span>
+										<span class="elementor-icon-list-text">Menu</span>
+									</li>
+						</ul>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6d92daf" data-id="6d92daf" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-bb18a58 elementor-widget__width-inherit elementor-widget elementor-widget-jkit_nav_menu" data-id="bb18a58" data-element_type="widget" data-settings="{&quot;st_menu_item_text_normal_bg_background_background&quot;:&quot;classic&quot;,&quot;st_menu_item_text_hover_bg_background_background&quot;:&quot;classic&quot;,&quot;st_submenu_item_text_normal_bg_background_background&quot;:&quot;classic&quot;,&quot;st_submenu_item_text_hover_bg_background_background&quot;:&quot;classic&quot;}" data-widget_type="jkit_nav_menu.default">
+					<div  class="jeg-elementor-kit jkit-nav-menu break-point-mobile submenu-click-title jeg_module___698c7df1cd929"  data-item-indicator=""><button aria-label="open-menu" class="jkit-hamburger-menu"><svg aria-hidden="true" class="e-font-icon-svg e-fas-bars" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></button>
+        <div class="jkit-menu-wrapper"><div class="jkit-menu-container"><ul id="menu-main-menu" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top"><li id="menu-item-10061" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10061"><a aria-expanded="false" href="https://floridacoastalprep.com/news/" class="menu-link">About FCP<span role="application" class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0" aria-expanded="false" aria-label="Menu Toggle" aria-haspopup="true"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-9321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9321"><a href="https://floridacoastalprep.com/news/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>News</a></li>
+	<li id="menu-item-9884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9884"><a href="https://floridacoastalprep.com/testimonials/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Testimonials</a></li>
+	<li id="menu-item-9885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9885"><a href="https://floridacoastalprep.com/travel-area-information/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Travel &#038; Area Information</a></li>
+</ul>
+</li>
+<li id="menu-item-10062" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10062"><a aria-expanded="false" href="https://floridacoastalprep.com/highlights-games/" class="menu-link">Post Grad<span role="application" class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0" aria-expanded="false" aria-label="Menu Toggle" aria-haspopup="true"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-9882" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9882"><a href="https://floridacoastalprep.com/why-post-grad/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Why Post Grad</a></li>
+	<li id="menu-item-10190" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10190"><a href="https://floridacoastalprep.com/Spartan-Training-Center/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Spartan Training Center</a></li>
+	<li id="menu-item-6724" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6724"><a href="https://floridacoastalprep.com/housing/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Housing</a></li>
+	<li id="menu-item-8730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8730"><a href="https://floridacoastalprep.com/management-staff/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Coaches and Staff</a></li>
+	<li id="menu-item-9371" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9371"><a href="https://floridacoastalprep.com/post-grad-schedule/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Post Grad Schedule</a></li>
+	<li id="menu-item-6722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6722"><a href="https://floridacoastalprep.com/academics-2/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Academics</a></li>
+	<li id="menu-item-6725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6725"><a href="https://floridacoastalprep.com/tuition/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Tuition</a></li>
+</ul>
+</li>
+<li id="menu-item-9956" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9956"><a aria-expanded="false" href="https://floridacoastalprep.com/hs-academy/" class="menu-link">High School<span role="application" class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0" aria-expanded="false" aria-label="Menu Toggle" aria-haspopup="true"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-6799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6799"><a href="https://floridacoastalprep.com/hs-academy/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>National High School Program</a></li>
+	<li id="menu-item-12315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12315"><a href="https://floridacoastalprep.com/Spartan-Training-Center/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Spartan Training Center</a></li>
+	<li id="menu-item-9639" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9639"><a href="https://floridacoastalprep.com/housing/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Housing</a></li>
+	<li id="menu-item-8729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8729"><a href="https://floridacoastalprep.com/management-staff/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Coaches and Staff</a></li>
+	<li id="menu-item-6798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6798"><a href="https://floridacoastalprep.com/high-school-schedule/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>High School Schedule</a></li>
+	<li id="menu-item-10045" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10045"><a href="https://floridacoastalprep.com/tuition/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Tuition</a></li>
+</ul>
+</li>
+<li id="menu-item-9092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9092"><a aria-expanded="false" href="https://floridacoastalprep.com/mens-basketball/" class="menu-link">Contact Us<span role="application" class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0" aria-expanded="false" aria-label="Menu Toggle" aria-haspopup="true"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-10073" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10073"><a href="https://floridacoastalprep.com/mens-basketball/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Contact Us</a></li>
+	<li id="menu-item-8777" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8777"><a href="https://floridacoastalprep.com/payform/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Tuition Payment</a></li>
+</ul>
+</li>
+<li id="menu-item-8878" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8878"><a href="https://floridacoastalprep.com/apply/" class="menu-link">Apply</a></li>
+</ul></div>
+            <div class="jkit-nav-identity-panel">
+                <div class="jkit-nav-site-title"><a href="https://floridacoastalprep.com" class="jkit-nav-logo" aria-label="Home Link"></a></div>
+                <button aria-label="close-menu" class="jkit-close-menu"><svg aria-hidden="true" class="e-font-icon-svg e-fas-times" viewBox="0 0 352 512" xmlns="http://www.w3.org/2000/svg"><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg></button>
+            </div>
+        </div>
+        <div class="jkit-overlay"></div></div>				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2d7facf" data-id="2d7facf" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1be78eb hfe-search-layout-icon elementor-widget__width-auto elementor-widget elementor-widget-hfe-search-button" data-id="1be78eb" data-element_type="widget" data-settings="{&quot;input_icon_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;toggle_icon_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;input_icon_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;input_icon_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_icon_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_icon_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="hfe-search-button.default">
+				<div class="elementor-widget-container">
+							<form class="hfe-search-button-wrapper" role="search" action="https://floridacoastalprep.com/" method="get">
+
+						<div class = "hfe-search-icon-toggle">
+				<input placeholder="" class="hfe-search-form__input" type="search" name="s" title="Search" value="">
+				<i class="fas fa-search" aria-hidden="true"></i>
+			</div>
+					</form>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-db88035" data-id="db88035" data-element_type="column">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-fffcc35 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fffcc35" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9af466a" data-id="9af466a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0e84d05 elementor-widget__width-initial h_icon elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="0e84d05" data-element_type="widget" data-widget_type="social-icons.default">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-a773044" href="https://www.facebook.com/FloridaCoastalPrepSportsAcademy" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-facebook" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-3e3a472" href="https://twitter.com/FLCoastalPrep" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-12d6271" href="https://www.youtube.com/c/FloridaCoastalPrep" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-0b4fcd5" href="https://www.instagram.com/flcoastalprep/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b75e97b elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b75e97b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-09dbee7" data-id="09dbee7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-b5da281 elementor-widget elementor-widget-html" data-id="b5da281" data-element_type="widget" data-widget_type="html.default">
+					<script>jQuery(document).ready(function(){
+  jQuery("#d-icon").click(function(){
+    jQuery("#menu_Toggle").toggle();
+  });
+});
+</script>				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-85fbe33 elementor-hidden-desktop elementor-section-full_width elementor-hidden-tablet elementor-section-height-default elementor-section-height-default" data-id="85fbe33" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-519fbde" data-id="519fbde" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-49df213 elementor-widget elementor-widget-image" data-id="49df213" data-element_type="widget" data-widget_type="image.default">
+																<a href="/home">
+							<img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="1024" height="1024" data-src="https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo-1024x1024.png" class="attachment-large size-large wp-image-8650" alt="" decoding="async" data-srcset="https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo-1024x1024.png 1024w, https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo-300x300.png 300w, https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo-150x150.png 150w, https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo-768x768.png 768w, https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo-1536x1536.png 1536w, https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo.png 1600w" data-sizes="(max-width: 1024px) 100vw, 1024px" /><noscript><img width="1024" height="1024" src="https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo-1024x1024.png" class="attachment-large size-large wp-image-8650" alt="" decoding="async" srcset="https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo-1024x1024.png 1024w, https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo-300x300.png 300w, https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo-150x150.png 150w, https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo-768x768.png 768w, https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo-1536x1536.png 1536w, https://floridacoastalprep.com/wp-content/uploads/2022/06/FCP-Sports-Academy-Logo.png 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /></noscript>								</a>
+															</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8db2f72 mobile_enu" data-id="8db2f72" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4af45b3 hfe-nav-menu__align-center hfe-nav-menu__breakpoint-mobile elementor-widget-tablet__width-inherit hfe-submenu-animation-slide_up e-transform e-transform e-transform e-transform hfe-submenu-icon-arrow hfe-link-redirect-child elementor-widget elementor-widget-navigation-menu" data-id="4af45b3" data-element_type="widget" data-settings="{&quot;padding_horizontal_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;toggle_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;distance_from_menu_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;distance_from_menu_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:60,&quot;sizes&quot;:[]},&quot;_animation_mobile&quot;:&quot;none&quot;,&quot;padding_horizontal_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;dropdown_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;dropdown_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;dropdown_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;width_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;220&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="navigation-menu.default">
+				<div class="elementor-widget-container">
+								<div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__text hfe-animation__grow" data-layout="horizontal">
+				<div role="button" class="hfe-nav-menu__toggle elementor-clickable" tabindex="0" aria-label="Menu Toggle">
+					<span class="screen-reader-text">Menu</span>
+					<div class="hfe-nav-menu-icon">
+						<i aria-hidden="true"  class="icon icon-text-align-justify"></i>					</div>
+				</div>
+				<nav class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow" data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;icon icon-text-align-justify&quot;&gt;&lt;/i&gt;" data-close-icon="&lt;svg aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;e-font-icon-svg e-far-window-close&quot; viewBox=&quot;0 0 512 512&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path d=&quot;M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm0 394c0 3.3-2.7 6-6 6H54c-3.3 0-6-2.7-6-6V86c0-3.3 2.7-6 6-6h404c3.3 0 6 2.7 6 6v340zM356.5 194.6L295.1 256l61.4 61.4c4.6 4.6 4.6 12.1 0 16.8l-22.3 22.3c-4.6 4.6-12.1 4.6-16.8 0L256 295.1l-61.4 61.4c-4.6 4.6-12.1 4.6-16.8 0l-22.3-22.3c-4.6-4.6-4.6-12.1 0-16.8l61.4-61.4-61.4-61.4c-4.6-4.6-4.6-12.1 0-16.8l22.3-22.3c4.6-4.6 12.1-4.6 16.8 0l61.4 61.4 61.4-61.4c4.6-4.6 12.1-4.6 16.8 0l22.3 22.3c4.7 4.6 4.7 12.1 0 16.8z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;" data-full-width="yes">
+					<ul id="menu-1-4af45b3" class="hfe-nav-menu"><li id="menu-item-10060" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu"><div class="hfe-has-submenu-container" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false"><a aria-expanded="false" href="https://floridacoastalprep.com/news/" class = "hfe-menu-item">About FCP<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i class='fa'></i></span></a></div>
+<ul class="sub-menu">
+	<li id="menu-item-9324" class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu"><a href="https://floridacoastalprep.com/news/" class = "hfe-sub-menu-item">News</a></li>
+	<li id="menu-item-9809" class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu"><a href="https://floridacoastalprep.com/testimonials/" class = "hfe-sub-menu-item">Testimonials</a></li>
+	<li id="menu-item-9801" class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu"><a href="https://floridacoastalprep.com/travel-area-information/" class = "hfe-sub-menu-item">Area Info</a></li>
+</ul>
+</li>
+<li id="menu-item-10056" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu"><div class="hfe-has-submenu-container" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false"><a aria-expanded="false" href="https://floridacoastalprep.com/highlights-games/" class = "hfe-menu-item">Post Grad<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i class='fa'></i></span></a></div>
+<ul class="sub-menu">
+	<li id="menu-item-9833" class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu"><a href="https://floridacoastalprep.com/why-post-grad/" class = "hfe-sub-menu-item">Why Post Grad</a></li>
+	<li id="menu-item-10188" class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu"><a href="https://floridacoastalprep.com/Spartan-Training-Center/" class = "hfe-sub-menu-item">Spartan Training Center</a></li>
+	<li id="menu-item-8044" class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu"><a href="https://floridacoastalprep.com/housing/" class = "hfe-sub-menu-item">Housing</a></li>
+	<li id="menu-item-9317" class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu"><a href="https://floridacoastalprep.com/post-grad-schedule/" class = "hfe-sub-menu-item">Post Grad Schedule</a></li>
+	<li id="menu-item-8043" class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu"><a href="https://floridacoastalprep.com/academics-2/" class = "hfe-sub-menu-item">Academics</a></li>
+	<li id="menu-item-8844" class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu"><a href="https://floridacoastalprep.com/management-staff/" class = "hfe-sub-menu-item">Coaches and Staff</a></li>
+	<li id="menu-item-8045" class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu"><a href="https://floridacoastalprep.com/tuition/" class = "hfe-sub-menu-item">Tuition</a></li>
+</ul>
+</li>
+<li id="menu-item-10057" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu"><div class="hfe-has-submenu-container" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false"><a aria-expanded="false" href="https://floridacoastalprep.com/hs-academy/" class = "hfe-menu-item">High School<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i class='fa'></i></span></a></div>
+<ul class="sub-menu">
+	<li id="menu-item-8064" class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu"><a href="https://floridacoastalprep.com/hs-academy/" class = "hfe-sub-menu-item">National High School Program</a></li>
+	<li id="menu-item-10187" class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu"><a href="https://floridacoastalprep.com/Spartan-Training-Center/" class = "hfe-sub-menu-item">Spartan Training Center</a></li>
+	<li id="menu-item-10087" class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu"><a href="https://floridacoastalprep.com/housing/" class = "hfe-sub-menu-item">Housing</a></li>
+	<li id="menu-item-8063" class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu"><a href="https://floridacoastalprep.com/high-school-schedule/" class = "hfe-sub-menu-item">High School Schedule</a></li>
+	<li id="menu-item-8843" class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu"><a href="https://floridacoastalprep.com/management-staff/" class = "hfe-sub-menu-item">Coaches and Staff</a></li>
+	<li id="menu-item-10055" class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu"><a href="https://floridacoastalprep.com/tuition/" class = "hfe-sub-menu-item">Tuition</a></li>
+</ul>
+</li>
+<li id="menu-item-8877" class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu"><a href="https://floridacoastalprep.com/apply/" class = "hfe-menu-item">Apply</a></li>
+<li id="menu-item-9091" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu"><div class="hfe-has-submenu-container" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false"><a aria-expanded="false" href="https://floridacoastalprep.com/mens-basketball/" class = "hfe-menu-item">Contact Us<span class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i class='fa'></i></span></a></div>
+<ul class="sub-menu">
+	<li id="menu-item-10074" class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu"><a href="https://floridacoastalprep.com/mens-basketball/" class = "hfe-sub-menu-item">Contact Us</a></li>
+	<li id="menu-item-8845" class="menu-item menu-item-type-custom menu-item-object-custom hfe-creative-menu"><a href="https://floridacoastalprep.com/payform/" class = "hfe-sub-menu-item">Make a Payment</a></li>
+</ul>
+</li>
+</ul> 
+				</nav>
+			</div>
+							</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-21fdc95 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="21fdc95" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f1c4a94" data-id="f1c4a94" data-element_type="column">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+					</div>
+		</section>
+				</div>
+				</header>
+
+		<div id="content" class="site-content">
+		<div class="ast-container">
+		
+
+	<div id="primary" class="content-area primary">
+
+		
+		
+
+<section class="error-404 not-found">
+
+	
+	<div class="ast-404-layout-1" >
+
+	<header class="page-header"><h1 class="page-title">This page doesn&#039;t seem to exist.</h1></header><!-- .page-header -->
+	<div class="page-content">
+
+		<div class="page-sub-title">
+			It looks like the link pointing here was faulty. Maybe try searching?		</div>
+
+		<div class="ast-404-search">
+			<div class="widget widget_search"><form role="search" method="get" class="search-form" action="https://floridacoastalprep.com/">
+	<label for="search-field">
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" id="search-field" class="search-field"   placeholder="Search..." value="" name="s" tabindex="-1">
+					<button class="search-submit ast-search-submit" aria-label="Search Submit">
+				<span hidden>Search</span>
+				<i><span class="ast-icon icon-search"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="-893 477 142 142" enable-background="new -888 480 142 142" xml:space="preserve">
+						  <path d="M-787.4,568.7h-6.3l-2.4-2.4c7.9-8.7,12.6-20.5,12.6-33.1c0-28.4-22.9-51.3-51.3-51.3  c-28.4,0-51.3,22.9-51.3,51.3c0,28.4,22.9,51.3,51.3,51.3c12.6,0,24.4-4.7,33.1-12.6l2.4,2.4v6.3l39.4,39.4l11.8-11.8L-787.4,568.7  L-787.4,568.7z M-834.7,568.7c-19.7,0-35.5-15.8-35.5-35.5c0-19.7,15.8-35.5,35.5-35.5c19.7,0,35.5,15.8,35.5,35.5  C-799.3,553-815,568.7-834.7,568.7L-834.7,568.7z" />
+						  </svg></span></i>
+			</button>
+			</label>
+			<input type="submit" class="search-submit" value="Search">
+	</form>
+</div>		</div>
+
+	</div><!-- .page-content -->
+</div>
+
+	
+</section><!-- .error-404 -->
+
+		
+
+		
+	</div><!-- #primary -->
+
+
+	</div> <!-- ast-container -->
+	</div><!-- #content -->
+		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+			<div class='footer-width-fixer'>		<div data-elementor-type="wp-post" data-elementor-id="6859" class="elementor elementor-6859" data-elementor-post-type="elementor-hf">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-1d9029f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1d9029f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-06663b7" data-id="06663b7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-8f15818 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8f15818" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e20adbb" data-id="e20adbb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d51c2f7 elementor-widget elementor-widget-heading" data-id="d51c2f7" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">FLORIDA COASTAL PREP</h2>				</div>
+				<div class="elementor-element elementor-element-1723727 elementor-widget elementor-widget-text-editor" data-id="1723727" data-element_type="widget" data-widget_type="text-editor.default">
+									<p><em>Florida Coastal Prep Sports Academy is a National Prep School and Post Grad Athletic Institution. </em><em>An Equal Access/Equal Opportunity Institution.</em></p>								</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-babf610" data-id="babf610" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-9bbc8a1 elementor-widget elementor-widget-heading" data-id="9bbc8a1" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">CONTACT US</h2>				</div>
+				<div class="elementor-element elementor-element-084b089 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="084b089" data-element_type="widget" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-location-arrow" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M444.52 3.52L28.74 195.42c-47.97 22.39-31.98 92.75 19.19 92.75h175.91v175.91c0 51.17 70.36 67.17 92.75 19.19l191.9-415.78c15.99-38.39-25.59-79.97-63.97-63.97z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Florida Coastal Prep 217 Miracle Strip Pkwy SE Unit 117 Fort Walton Beach, Florida 32548</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-phone-alt" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg>						</span>
+										<span class="elementor-icon-list-text"> 850.961.2323</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="jki jki-email-light"></i>						</span>
+										<span class="elementor-icon-list-text">info@floridacoastalprep.com</span>
+									</li>
+						</ul>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0de88a2" data-id="0de88a2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-8072a5d elementor-widget elementor-widget-heading" data-id="8072a5d" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">OFFICE HOURS</h2>				</div>
+				<div class="elementor-element elementor-element-7d29a47 elementor-widget elementor-widget-text-editor" data-id="7d29a47" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>Monday – Friday: 8:00 AM – 5:00 PM <br /><span style="font-size: 16px;">Saturday: 8:00 AM – 1:00 PM</span></p>								</div>
+				<div class="elementor-element elementor-element-ebcb45c elementor-widget elementor-widget-image" data-id="ebcb45c" data-element_type="widget" data-widget_type="image.default">
+															<img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="105" height="54" data-src="https://floridacoastalprep.com/wp-content/uploads/2022/06/seal_image.png" class="attachment-large size-large wp-image-6862" alt="" decoding="async" /><noscript><img width="105" height="54" src="https://floridacoastalprep.com/wp-content/uploads/2022/06/seal_image.png" class="attachment-large size-large wp-image-6862" alt="" decoding="async" /></noscript>															</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-f7799c1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f7799c1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-59a7922" data-id="59a7922" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-8e6747a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8e6747a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1b46032" data-id="1b46032" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6d90681 elementor-widget elementor-widget-text-editor" data-id="6d90681" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>© Copyright 2026 &#8211; Florida Coastal Prep Sports Academy</p>								</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ba28f05" data-id="ba28f05" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-abaf8a7 hfe-nav-menu__align-center hfe-nav-menu__breakpoint-none hfe-submenu-icon-arrow hfe-submenu-animation-none hfe-link-redirect-child elementor-widget elementor-widget-navigation-menu" data-id="abaf8a7" data-element_type="widget" data-settings="{&quot;padding_horizontal_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;dropdown_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;dropdown_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;dropdown_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;width_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;220&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="navigation-menu.default">
+				<div class="elementor-widget-container">
+								<div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none" data-layout="horizontal">
+				<div role="button" class="hfe-nav-menu__toggle elementor-clickable" tabindex="0" aria-label="Menu Toggle">
+					<span class="screen-reader-text">Menu</span>
+					<div class="hfe-nav-menu-icon">
+											</div>
+				</div>
+				<nav class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow" data-toggle-icon="" data-close-icon="" data-full-width="">
+					<ul id="menu-1-abaf8a7" class="hfe-nav-menu"><li id="menu-item-6867" class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu"><a href="https://floridacoastalprep.com/terms-and-conditions/" class = "hfe-menu-item">Terms &#038; Conditions</a></li>
+<li id="menu-item-6869" class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu"><a href="https://floridacoastalprep.com/privacy-policy/" class = "hfe-menu-item">Privacy Policy</a></li>
+</ul> 
+				</nav>
+			</div>
+							</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f938e1b" data-id="f938e1b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-c8984e0 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="c8984e0" data-element_type="widget" data-widget_type="social-icons.default">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-8369f38" href="https://www.facebook.com/Florida-Coastal-Prep-Sports-Academy" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-facebook" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-f7ff617" href="https://twitter.com/FLCoastalPrep" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-aa3497b" href="https://www.youtube.com/c/FloridaCoastalPrep" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-8189cb7" href="https://www.instagram.com/flcoastalprep" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</div>		</footer>
+		</div><!-- #page -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/astra/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			
+
+
+
+
+<script id="astra-theme-js-js-extra">
+var astra = {"break_point":"921","isRtl":"","is_scroll_to_id":"","is_scroll_to_top":"","is_header_footer_builder_active":"1","responsive_cart_click":"flyout","is_dark_palette":"","revealEffectEnable":"","edit_post_url":"https://floridacoastalprep.com/wp-admin/post.php?post={{id}}&action=edit","ajax_url":"https://floridacoastalprep.com/wp-admin/admin-ajax.php","infinite_count":"2","infinite_total":"0","pagination":"number","infinite_scroll_event":"scroll","no_more_post_message":"No more posts to show.","grid_layout":{"desktop":1,"tablet":1,"mobile":1},"site_url":"https://floridacoastalprep.com","blogArchiveTitleLayout":"","blogArchiveTitleOn":"","show_comments":"Show Comments","enableHistoryPushState":"1","masonryEnabled":"","blogMasonryBreakPoint":"0"};
+//# sourceURL=astra-theme-js-js-extra
+</script>
+<script src="https://floridacoastalprep.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.12.1" id="astra-theme-js-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/embedpress/assets/js/gallery-justify.js?ver=1769721781" id="embedpress-gallery-justify-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/embedpress/assets/js/lazy-load.js?ver=1769721781" id="embedpress-lazy-load-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
+<script id="jquery-ui-datepicker-js-after">
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+//# sourceURL=jquery-ui-datepicker-js-after
+</script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.13.3" id="jquery-ui-accordion-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3" id="jquery-ui-mouse-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/ui/resizable.min.js?ver=1.13.3" id="jquery-ui-resizable-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.3" id="jquery-ui-draggable-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/ui/controlgroup.min.js?ver=1.13.3" id="jquery-ui-controlgroup-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/ui/checkboxradio.min.js?ver=1.13.3" id="jquery-ui-checkboxradio-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/ui/button.min.js?ver=1.13.3" id="jquery-ui-button-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/ui/dialog.min.js?ver=1.13.3" id="jquery-ui-dialog-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/ui/menu.min.js?ver=1.13.3" id="jquery-ui-menu-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script src="https://floridacoastalprep.com/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed" id="wp-a11y-js"></script>
+<script src="https://floridacoastalprep.com/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.13.3" id="jquery-ui-autocomplete-js"></script>
+<script id="profile-magic-footer.js-js-extra">
+var show_rm_sumbmission_tab = {"registration_tab":"0"};
+var pm_ajax_object = {"ajax_url":"https://floridacoastalprep.com/wp-admin/admin-ajax.php","plugin_emoji_url":"https://floridacoastalprep.com/wp-content/plugins/profilegrid-user-profiles-groups-and-communities/public/partials/images/img","nonce":"30a35739a5"};
+//# sourceURL=profile-magic-footer.js-js-extra
+</script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/profilegrid-user-profiles-groups-and-communities/public/js/profile-magic-footer.js?ver=5.9.7.3" id="profile-magic-footer.js-js"></script>
+<script id="heartbeat-js-extra">
+var heartbeatSettings = {"ajaxurl":"/wp-admin/admin-ajax.php"};
+//# sourceURL=heartbeat-js-extra
+</script>
+<script src="https://floridacoastalprep.com/wp-includes/js/heartbeat.min.js?ver=b48c6279632d1a476a36d145b510228b" id="heartbeat-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/profilegrid-user-profiles-groups-and-communities/public/js/pg-password-checker.js?ver=5.9.7.3" id="pg-password-checker.js-js"></script>
+<script id="profile-magic-admin-power.js-js-extra">
+var pm_error_object = {"valid_email":"Please enter a valid e-mail address.","valid_number":"Please enter a valid number.","valid_date":"Please enter a valid date (yyyy-mm-dd format).","required_field":"This is a required field.","required_comman_field":"Please fill all the required fields.","file_type":"This file type is not allowed.","short_password":"Your password should be at least 7 characters long.","pass_not_match":"Password and confirm password do not match.","user_exist":"Sorry, username already exists.","email_exist":"Sorry, email already exists.","show_more":"More...","show_less":"Show less","user_not_exit":"Username does not exists.","password_change_successfully":"Password changed Successfully","allow_file_ext":"jpg|jpeg|png|gif|webp|avif","valid_phone_number":"Please enter a valid phone number.","valid_mobile_number":"Please enter a valid mobile number.","valid_facebook_url":"Please enter a valid Facebook url.","valid_twitter_url":"Please enter a X url.","valid_google_url":"Please enter a valid Google url.","valid_linked_in_url":"Please enter a Linked In url.","valid_youtube_url":"Please enter a valid Youtube url.","valid_mixcloud_url":"Please enter a valid Mixcloud url.","valid_soundcloud_url":"Please enter a valid SoundCloud url.","valid_instagram_url":"Please enter a valid Instagram url.","crop_alert_error":"Please select a crop region then press submit.","admin_note_error":"Unable to add an empty note. Please write something and try again.","empty_message_error":"Unable to send an empty message. Please type something.","invite_limit_error":"Only ten users can be invited at a time.","no_more_result":"No More Result Found","delete_friend_request":"This will delete friend request from selected user(s). Do you wish to continue?","remove_friend":"This will remove selected user(s) from your friends list. Do you wish to continue?","accept_friend_request_conf":"This will accept request from selected user(s). Do you wish to continue?","cancel_friend_request":"This will cancel request from selected user(s). Do you wish to continue?","next":"Next","back":"Back","submit":"Submit","empty_chat_message":"I am sorry, I can't send an empty message. Please write something and try sending it again.","login_url":"https://floridacoastalprep.com/login/?password=changed"};
+var pm_fields_object = {"dateformat":"yy-mm-dd"};
+//# sourceURL=profile-magic-admin-power.js-js-extra
+</script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/profilegrid-user-profiles-groups-and-communities/public/js/profile-magic-admin-power.js?ver=5.9.7.3" id="profile-magic-admin-power.js-js"></script>
+<script id="astra-addon-js-js-extra">
+var astraAddon = {"is_elementor_active":"1","sticky_active":"","svgIconClose":"\u003Cspan class=\"ast-icon icon-close\"\u003E\u003Csvg viewBox=\"0 0 512 512\" aria-hidden=\"true\" role=\"img\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"18px\" height=\"18px\"\u003E\n                                \u003Cpath d=\"M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z\" /\u003E\n                            \u003C/svg\u003E\u003C/span\u003E","hf_account_show_menu_on":"hover","hf_account_action_type":"link","hf_account_logout_action":"link","is_header_builder_active":"1"};
+//# sourceURL=astra-addon-js-js-extra
+</script>
+<script src="https://floridacoastalprep.com/wp-content/uploads/astra-addon/astra-addon-698c043f91fbe9-43298748.js?ver=4.12.2" id="astra-addon-js-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/astra-addon/assets/js/minified/purify.min.js?ver=4.12.2" id="astra-dom-purify-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=3.7.8" id="elementskit-framework-js-frontend-js"></script>
+<script id="elementskit-framework-js-frontend-js-after">
+		var elementskit = {
+			resturl: 'https://floridacoastalprep.com/wp-json/elementskit/v1/',
+		}
+
+		
+//# sourceURL=elementskit-framework-js-frontend-js-after
+</script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=3.7.8" id="ekit-widget-scripts-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.34.4" id="elementor-webpack-runtime-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.34.4" id="elementor-frontend-modules-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.34.4","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_optimized_markup":true,"theme_builder_v2":true,"landing-pages":true,"nested-elements":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"e_interactions":true,"e_editor_one":true,"import-export-customization":true,"e_pro_variables":true},"urls":{"assets":"https:\/\/floridacoastalprep.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/floridacoastalprep.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/floridacoastalprep.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"7c59c950bb"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Page not found &#8211; Florida Coastal Prep","excerpt":""}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.34.4" id="elementor-frontend-js"></script>
+<script id="elementor-frontend-js-after">
+var jkit_ajax_url = "https://floridacoastalprep.com/?jkit-ajax-request=jkit_elements", jkit_nonce = "289d9c3d0d";
+//# sourceURL=elementor-frontend-js-after
+</script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/jeg-elementor-kit/assets/js/elements/sticky-element.js?ver=3.0.2" id="jkit-sticky-element-js"></script>
+<script id="wpforms-user-journey-js-extra">
+var wpforms_user_journey = {"is_ssl":"1","is_debug":"","storage_name":"_wpfuj","cleanup_cookie_name":"_wpfuj_cleanup","max_data_size":"10240","max_data_items":"100"};
+//# sourceURL=wpforms-user-journey-js-extra
+</script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/wpforms-user-journey/assets/js/wpforms-user-journey.min.js?ver=1.6.0" id="wpforms-user-journey-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/jeg-elementor-kit/assets/js/elements/nav-menu.js?ver=3.0.2" id="jkit-element-navmenu-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=2.8.2" id="hfe-frontend-js-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.33.2" id="elementor-pro-webpack-runtime-js"></script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/floridacoastalprep.com\/wp-admin\/admin-ajax.php","nonce":"815abe2a21","urls":{"assets":"https:\/\/floridacoastalprep.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/floridacoastalprep.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/floridacoastalprep.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.33.2" id="elementor-pro-frontend-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.33.2" id="pro-elements-handlers-js"></script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js?ver=3.7.8" id="animate-circle-js"></script>
+<script id="elementskit-elementor-js-extra">
+var ekit_config = {"ajaxurl":"https://floridacoastalprep.com/wp-admin/admin-ajax.php","nonce":"99b858f58a"};
+//# sourceURL=elementskit-elementor-js-extra
+</script>
+<script src="https://floridacoastalprep.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.7.8" id="elementskit-elementor-js"></script>
+			<script>
+			/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+			</script>
+			<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://floridacoastalprep.com/wp-includes/js/wp-emoji-release.min.js?ver=b48c6279632d1a476a36d145b510228b"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://floridacoastalprep.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+	<script data-no-optimize="1">window.lazyLoadOptions=Object.assign({},{threshold:300},window.lazyLoadOptions||{});!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?module.exports=e():"function"==typeof define&&define.amd?define(e):(t="undefined"!=typeof globalThis?globalThis:t||self).LazyLoad=e()}(this,function(){"use strict";function e(){return(e=Object.assign||function(t){for(var e=1;e<arguments.length;e++){var n,a=arguments[e];for(n in a)Object.prototype.hasOwnProperty.call(a,n)&&(t[n]=a[n])}return t}).apply(this,arguments)}function o(t){return e({},at,t)}function l(t,e){return t.getAttribute(gt+e)}function c(t){return l(t,vt)}function s(t,e){return function(t,e,n){e=gt+e;null!==n?t.setAttribute(e,n):t.removeAttribute(e)}(t,vt,e)}function i(t){return s(t,null),0}function r(t){return null===c(t)}function u(t){return c(t)===_t}function d(t,e,n,a){t&&(void 0===a?void 0===n?t(e):t(e,n):t(e,n,a))}function f(t,e){et?t.classList.add(e):t.className+=(t.className?" ":"")+e}function _(t,e){et?t.classList.remove(e):t.className=t.className.replace(new RegExp("(^|\\s+)"+e+"(\\s+|$)")," ").replace(/^\s+/,"").replace(/\s+$/,"")}function g(t){return t.llTempImage}function v(t,e){!e||(e=e._observer)&&e.unobserve(t)}function b(t,e){t&&(t.loadingCount+=e)}function p(t,e){t&&(t.toLoadCount=e)}function n(t){for(var e,n=[],a=0;e=t.children[a];a+=1)"SOURCE"===e.tagName&&n.push(e);return n}function h(t,e){(t=t.parentNode)&&"PICTURE"===t.tagName&&n(t).forEach(e)}function a(t,e){n(t).forEach(e)}function m(t){return!!t[lt]}function E(t){return t[lt]}function I(t){return delete t[lt]}function y(e,t){var n;m(e)||(n={},t.forEach(function(t){n[t]=e.getAttribute(t)}),e[lt]=n)}function L(a,t){var o;m(a)&&(o=E(a),t.forEach(function(t){var e,n;e=a,(t=o[n=t])?e.setAttribute(n,t):e.removeAttribute(n)}))}function k(t,e,n){f(t,e.class_loading),s(t,st),n&&(b(n,1),d(e.callback_loading,t,n))}function A(t,e,n){n&&t.setAttribute(e,n)}function O(t,e){A(t,rt,l(t,e.data_sizes)),A(t,it,l(t,e.data_srcset)),A(t,ot,l(t,e.data_src))}function w(t,e,n){var a=l(t,e.data_bg_multi),o=l(t,e.data_bg_multi_hidpi);(a=nt&&o?o:a)&&(t.style.backgroundImage=a,n=n,f(t=t,(e=e).class_applied),s(t,dt),n&&(e.unobserve_completed&&v(t,e),d(e.callback_applied,t,n)))}function x(t,e){!e||0<e.loadingCount||0<e.toLoadCount||d(t.callback_finish,e)}function M(t,e,n){t.addEventListener(e,n),t.llEvLisnrs[e]=n}function N(t){return!!t.llEvLisnrs}function z(t){if(N(t)){var e,n,a=t.llEvLisnrs;for(e in a){var o=a[e];n=e,o=o,t.removeEventListener(n,o)}delete t.llEvLisnrs}}function C(t,e,n){var a;delete t.llTempImage,b(n,-1),(a=n)&&--a.toLoadCount,_(t,e.class_loading),e.unobserve_completed&&v(t,n)}function R(i,r,c){var l=g(i)||i;N(l)||function(t,e,n){N(t)||(t.llEvLisnrs={});var a="VIDEO"===t.tagName?"loadeddata":"load";M(t,a,e),M(t,"error",n)}(l,function(t){var e,n,a,o;n=r,a=c,o=u(e=i),C(e,n,a),f(e,n.class_loaded),s(e,ut),d(n.callback_loaded,e,a),o||x(n,a),z(l)},function(t){var e,n,a,o;n=r,a=c,o=u(e=i),C(e,n,a),f(e,n.class_error),s(e,ft),d(n.callback_error,e,a),o||x(n,a),z(l)})}function T(t,e,n){var a,o,i,r,c;t.llTempImage=document.createElement("IMG"),R(t,e,n),m(c=t)||(c[lt]={backgroundImage:c.style.backgroundImage}),i=n,r=l(a=t,(o=e).data_bg),c=l(a,o.data_bg_hidpi),(r=nt&&c?c:r)&&(a.style.backgroundImage='url("'.concat(r,'")'),g(a).setAttribute(ot,r),k(a,o,i)),w(t,e,n)}function G(t,e,n){var a;R(t,e,n),a=e,e=n,(t=Et[(n=t).tagName])&&(t(n,a),k(n,a,e))}function D(t,e,n){var a;a=t,(-1<It.indexOf(a.tagName)?G:T)(t,e,n)}function S(t,e,n){var a;t.setAttribute("loading","lazy"),R(t,e,n),a=e,(e=Et[(n=t).tagName])&&e(n,a),s(t,_t)}function V(t){t.removeAttribute(ot),t.removeAttribute(it),t.removeAttribute(rt)}function j(t){h(t,function(t){L(t,mt)}),L(t,mt)}function F(t){var e;(e=yt[t.tagName])?e(t):m(e=t)&&(t=E(e),e.style.backgroundImage=t.backgroundImage)}function P(t,e){var n;F(t),n=e,r(e=t)||u(e)||(_(e,n.class_entered),_(e,n.class_exited),_(e,n.class_applied),_(e,n.class_loading),_(e,n.class_loaded),_(e,n.class_error)),i(t),I(t)}function U(t,e,n,a){var o;n.cancel_on_exit&&(c(t)!==st||"IMG"===t.tagName&&(z(t),h(o=t,function(t){V(t)}),V(o),j(t),_(t,n.class_loading),b(a,-1),i(t),d(n.callback_cancel,t,e,a)))}function $(t,e,n,a){var o,i,r=(i=t,0<=bt.indexOf(c(i)));s(t,"entered"),f(t,n.class_entered),_(t,n.class_exited),o=t,i=a,n.unobserve_entered&&v(o,i),d(n.callback_enter,t,e,a),r||D(t,n,a)}function q(t){return t.use_native&&"loading"in HTMLImageElement.prototype}function H(t,o,i){t.forEach(function(t){return(a=t).isIntersecting||0<a.intersectionRatio?$(t.target,t,o,i):(e=t.target,n=t,a=o,t=i,void(r(e)||(f(e,a.class_exited),U(e,n,a,t),d(a.callback_exit,e,n,t))));var e,n,a})}function B(e,n){var t;tt&&!q(e)&&(n._observer=new IntersectionObserver(function(t){H(t,e,n)},{root:(t=e).container===document?null:t.container,rootMargin:t.thresholds||t.threshold+"px"}))}function J(t){return Array.prototype.slice.call(t)}function K(t){return t.container.querySelectorAll(t.elements_selector)}function Q(t){return c(t)===ft}function W(t,e){return e=t||K(e),J(e).filter(r)}function X(e,t){var n;(n=K(e),J(n).filter(Q)).forEach(function(t){_(t,e.class_error),i(t)}),t.update()}function t(t,e){var n,a,t=o(t);this._settings=t,this.loadingCount=0,B(t,this),n=t,a=this,Y&&window.addEventListener("online",function(){X(n,a)}),this.update(e)}var Y="undefined"!=typeof window,Z=Y&&!("onscroll"in window)||"undefined"!=typeof navigator&&/(gle|ing|ro)bot|crawl|spider/i.test(navigator.userAgent),tt=Y&&"IntersectionObserver"in window,et=Y&&"classList"in document.createElement("p"),nt=Y&&1<window.devicePixelRatio,at={elements_selector:".lazy",container:Z||Y?document:null,threshold:300,thresholds:null,data_src:"src",data_srcset:"srcset",data_sizes:"sizes",data_bg:"bg",data_bg_hidpi:"bg-hidpi",data_bg_multi:"bg-multi",data_bg_multi_hidpi:"bg-multi-hidpi",data_poster:"poster",class_applied:"applied",class_loading:"litespeed-loading",class_loaded:"litespeed-loaded",class_error:"error",class_entered:"entered",class_exited:"exited",unobserve_completed:!0,unobserve_entered:!1,cancel_on_exit:!0,callback_enter:null,callback_exit:null,callback_applied:null,callback_loading:null,callback_loaded:null,callback_error:null,callback_finish:null,callback_cancel:null,use_native:!1},ot="src",it="srcset",rt="sizes",ct="poster",lt="llOriginalAttrs",st="loading",ut="loaded",dt="applied",ft="error",_t="native",gt="data-",vt="ll-status",bt=[st,ut,dt,ft],pt=[ot],ht=[ot,ct],mt=[ot,it,rt],Et={IMG:function(t,e){h(t,function(t){y(t,mt),O(t,e)}),y(t,mt),O(t,e)},IFRAME:function(t,e){y(t,pt),A(t,ot,l(t,e.data_src))},VIDEO:function(t,e){a(t,function(t){y(t,pt),A(t,ot,l(t,e.data_src))}),y(t,ht),A(t,ct,l(t,e.data_poster)),A(t,ot,l(t,e.data_src)),t.load()}},It=["IMG","IFRAME","VIDEO"],yt={IMG:j,IFRAME:function(t){L(t,pt)},VIDEO:function(t){a(t,function(t){L(t,pt)}),L(t,ht),t.load()}},Lt=["IMG","IFRAME","VIDEO"];return t.prototype={update:function(t){var e,n,a,o=this._settings,i=W(t,o);{if(p(this,i.length),!Z&&tt)return q(o)?(e=o,n=this,i.forEach(function(t){-1!==Lt.indexOf(t.tagName)&&S(t,e,n)}),void p(n,0)):(t=this._observer,o=i,t.disconnect(),a=t,void o.forEach(function(t){a.observe(t)}));this.loadAll(i)}},destroy:function(){this._observer&&this._observer.disconnect(),K(this._settings).forEach(function(t){I(t)}),delete this._observer,delete this._settings,delete this.loadingCount,delete this.toLoadCount},loadAll:function(t){var e=this,n=this._settings;W(t,n).forEach(function(t){v(t,e),D(t,n,e)})},restoreAll:function(){var e=this._settings;K(e).forEach(function(t){P(t,e)})}},t.load=function(t,e){e=o(e);D(t,e)},t.resetStatus=function(t){i(t)},t}),function(t,e){"use strict";function n(){e.body.classList.add("litespeed_lazyloaded")}function a(){console.log("[LiteSpeed] Start Lazy Load"),o=new LazyLoad(Object.assign({},t.lazyLoadOptions||{},{elements_selector:"[data-lazyloaded]",callback_finish:n})),i=function(){o.update()},t.MutationObserver&&new MutationObserver(i).observe(e.documentElement,{childList:!0,subtree:!0,attributes:!0})}var o,i;t.addEventListener?t.addEventListener("load",a,!1):t.attachEvent("onload",a)}(window,document);</script></body>
+</html>
+
+
+<!-- Page supported by LiteSpeed Cache 7.7 on 2026-02-11 13:02:41 -->

@@ -1,0 +1,411 @@
+[build]
+  command = "jekyll build"
+  publish = "_site"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+  RUBY_VERSION = "3.2"
+
+# =============================================================
+# 301 REDIRECTS — Preserves all Google-indexed WordPress URLs
+# Every old URL maps to its closest equivalent on the new site.
+# =============================================================
+
+# --- SLUG CHANGES (pages that exist but URL changed) ---
+[[redirects]]
+  from = "/about-fcp/"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/why-post-grad/"
+  to = "/post-grad/"
+  status = 301
+
+[[redirects]]
+  from = "/spartan-training-center/"
+  to = "/training/"
+  status = 301
+
+[[redirects]]
+  from = "/travel-area-information/"
+  to = "/area-info/"
+  status = 301
+
+[[redirects]]
+  from = "/academics-2/"
+  to = "/academics/"
+  status = 301
+
+[[redirects]]
+  from = "/management-staff/"
+  to = "/coaches/"
+  status = 301
+
+[[redirects]]
+  from = "/contact-us/"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/post-graduate/"
+  to = "/post-grad/"
+  status = 301
+
+[[redirects]]
+  from = "/privacy-policy/"
+  to = "/privacy/"
+  status = 301
+
+[[redirects]]
+  from = "/terms-and-conditions/"
+  to = "/terms/"
+  status = 301
+
+# --- LEGACY WORDPRESS PAGES → best match ---
+[[redirects]]
+  from = "/sports-performance-center/"
+  to = "/training/"
+  status = 301
+
+[[redirects]]
+  from = "/hs-academy/"
+  to = "/high-school/"
+  status = 301
+
+[[redirects]]
+  from = "/hs-academy-version-2/"
+  to = "/high-school/"
+  status = 301
+
+[[redirects]]
+  from = "/news/"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/information/"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/2025-fcp-info-page/"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/mens-basketball/"
+  to = "/post-grad/"
+  status = 301
+
+[[redirects]]
+  from = "/post-grad-schedule/"
+  to = "/post-grad/"
+  status = 301
+
+[[redirects]]
+  from = "/high-school-schedule/"
+  to = "/high-school/"
+  status = 301
+
+[[redirects]]
+  from = "/finance/"
+  to = "/tuition/"
+  status = 301
+
+[[redirects]]
+  from = "/coa/"
+  to = "/tuition/"
+  status = 301
+
+[[redirects]]
+  from = "/accreditation/"
+  to = "/academics/"
+  status = 301
+
+[[redirects]]
+  from = "/stay-connected/"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/basketballcontact/"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/employment/"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/viewbook/"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/virtual-tour/"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/hs-virtual-tour/"
+  to = "/high-school/"
+  status = 301
+
+[[redirects]]
+  from = "/accepting-applications/"
+  to = "/apply/"
+  status = 301
+
+[[redirects]]
+  from = "/schedule/"
+  to = "/post-grad/"
+  status = 301
+
+[[redirects]]
+  from = "/summercamps/"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/highlights-games/"
+  to = "/post-grad/"
+  status = 301
+
+[[redirects]]
+  from = "/payform/"
+  to = "/tuition/"
+  status = 301
+
+[[redirects]]
+  from = "/ccu/"
+  to = "/academics/"
+  status = 301
+
+[[redirects]]
+  from = "/skills-training/"
+  to = "/training/"
+  status = 301
+
+[[redirects]]
+  from = "/group-training/"
+  to = "/training/"
+  status = 301
+
+# --- ROSTER PAGES ---
+[[redirects]]
+  from = "/gold-team-roster/"
+  to = "/post-grad/"
+  status = 301
+
+[[redirects]]
+  from = "/black-team-roster/"
+  to = "/post-grad/"
+  status = 301
+
+[[redirects]]
+  from = "/red-team-roster/"
+  to = "/post-grad/"
+  status = 301
+
+[[redirects]]
+  from = "/hs-varsity-team-roster/"
+  to = "/high-school/"
+  status = 301
+
+[[redirects]]
+  from = "/hs-jv-team-roster/"
+  to = "/high-school/"
+  status = 301
+
+[[redirects]]
+  from = "/soccer-roster/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/soccer-schedule/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/soccer/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/soccer-team-housing/"
+  to = "/housing/"
+  status = 301
+
+# --- USER/AUTH/COMMUNITY JUNK (kill these) ---
+[[redirects]]
+  from = "/login/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/registration/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/my-profile/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/forgot-password/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/search-users/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/default-user-group/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/all-groups/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/user-blogs/"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/submit-new-blog-post/"
+  to = "/blog/"
+  status = 301
+
+# --- ELEMENTOR JUNK ---
+[[redirects]]
+  from = "/elementor-10225/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/elementor-7032/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/home-7-10/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/sample-page/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/test/"
+  to = "/"
+  status = 301
+
+# --- MISC WordPress pages ---
+[[redirects]]
+  from = "/playersocial/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/meals/"
+  to = "/housing/"
+  status = 301
+
+[[redirects]]
+  from = "/japan/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/elite-summer-camp-commuter/"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/elite-summer-camp-boarding/"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/spartan-skills-camp-23-27/"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/spartan-skills-camp-16-20/"
+  to = "/contact/"
+  status = 301
+
+# --- BLOG DATE-BASED URLs → CLEAN SLUG ---
+# WordPress: /2024/11/18/slug/  →  Jekyll: /slug/
+# Must use named params because :splat grabs too much
+[[redirects]]
+  from = "/2022/:m1/:m2/:slug/"
+  to = "/:slug/"
+  status = 301
+
+[[redirects]]
+  from = "/2023/:m1/:m2/:slug/"
+  to = "/:slug/"
+  status = 301
+
+[[redirects]]
+  from = "/2024/:m1/:m2/:slug/"
+  to = "/:slug/"
+  status = 301
+
+[[redirects]]
+  from = "/2025/:m1/:m2/:slug/"
+  to = "/:slug/"
+  status = 301
+
+[[redirects]]
+  from = "/2026/:m1/:m2/:slug/"
+  to = "/:slug/"
+  status = 301
+
+# --- WordPress feed URLs ---
+[[redirects]]
+  from = "/feed/"
+  to = "/feed.xml"
+  status = 301
+
+[[redirects]]
+  from = "/feed/atom/"
+  to = "/feed.xml"
+  status = 301
+
+# --- WordPress wp-content image hotlinks (keep working) ---
+[[redirects]]
+  from = "/wp-content/uploads/*"
+  to = "/assets/images/:splat"
+  status = 301
+
+# =============================================================
+# SECURITY HEADERS
+# =============================================================
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+
+# Cache static assets aggressively
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

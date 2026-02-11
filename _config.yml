@@ -1,0 +1,58 @@
+# Florida Coastal Prep Sports Academy - Jekyll Configuration
+title: Florida Coastal Prep Sports Academy
+description: "A high school and post-graduate basketball program bridging the gap between high school and college athletics."
+url: "https://floridacoastalprep.com"
+baseurl: ""
+
+# Contact
+email: info@floridacoastalprep.com
+phone: "850-961-2323"
+phone_alt: "850-360-2323"
+address: "217 Miracle Strip Pkwy SE Unit 117, Fort Walton Beach, Florida 32548"
+hours: "Mon-Fri 8AM-5PM | Sat 8AM-1PM"
+
+# Social
+social:
+  twitter: "https://twitter.com/Flcoastalprep"
+  instagram: "https://instagram.com/Flcoastalprep"
+  facebook: "https://facebook.com/FloridaCoastalPrep"
+  youtube: "https://youtube.com/@floridacoastalprep"
+
+# Build
+markdown: kramdown
+permalink: /:title/
+sass:
+  style: compressed
+
+# Collections for organized pages
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

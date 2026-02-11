@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <div class="container">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      <h1>{{ page.title }}</h1>
+      {% if page.excerpt %}<p class="post-excerpt">{{ page.excerpt | strip_html }}</p>{% endif %}
+    </div>
+  </header>
+  {% if page.image %}
+  <div class="post-hero">
+    <div class="container">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
+    </div>
+  </div>
+  {% endif %}
+  <div class="post-body">
+    <div class="container container-narrow">
+      {{ content }}
+    </div>
+  </div>
+</article>
+
+<section class="related-posts">
+  <div class="container">
+    <h2>More News</h2>
+    <div class="post-grid">
+      {% assign related = site.posts | where_exp: "post", "post.url != page.url" | limit: 3 %}
+      {% for post in related %}
+      <a href="{{ post.url | relative_url }}" class="post-card">
+        {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">{% endif %}
+        <div class="post-card-body">
+          <time>{{ post.date | date: "%B %d, %Y" }}</time>
+          <h3>{{ post.title }}</h3>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

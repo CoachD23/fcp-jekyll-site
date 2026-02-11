@@ -1,0 +1,49 @@
+<header class="site-header" id="header">
+  <div class="container nav-container">
+    <a href="{{ '/' | relative_url }}" class="logo">
+      <img src="{{ '/assets/images/fcp-logo.png' | relative_url }}" alt="Florida Coastal Prep" width="180" height="60">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" role="navigation">
+      <ul>
+        <li class="dropdown">
+          <a href="{{ '/about/' | relative_url }}">About</a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ '/about/' | relative_url }}">About FCP</a></li>
+            <li><a href="{{ '/blog/' | relative_url }}">News</a></li>
+            <li><a href="{{ '/testimonials/' | relative_url }}">Testimonials</a></li>
+            <li><a href="{{ '/area-info/' | relative_url }}">Travel & Area Info</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="{{ '/post-grad/' | relative_url }}">Post Grad</a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ '/post-grad/' | relative_url }}">Why Post Grad</a></li>
+            <li><a href="{{ '/post-grad/training/' | relative_url }}">Spartan Training Center</a></li>
+            <li><a href="{{ '/post-grad/housing/' | relative_url }}">Housing</a></li>
+            <li><a href="{{ '/post-grad/coaches/' | relative_url }}">Coaches & Staff</a></li>
+            <li><a href="{{ '/post-grad/schedule/' | relative_url }}">Schedule</a></li>
+            <li><a href="{{ '/academics/' | relative_url }}">Academics</a></li>
+            <li><a href="{{ '/tuition/' | relative_url }}">Tuition</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="{{ '/high-school/' | relative_url }}">High School</a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ '/high-school/' | relative_url }}">National HS Program</a></li>
+            <li><a href="{{ '/high-school/training/' | relative_url }}">Spartan Training Center</a></li>
+            <li><a href="{{ '/high-school/housing/' | relative_url }}">Housing</a></li>
+            <li><a href="{{ '/high-school/coaches/' | relative_url }}">Coaches & Staff</a></li>
+            <li><a href="{{ '/high-school/schedule/' | relative_url }}">Schedule</a></li>
+            <li><a href="{{ '/academics/' | relative_url }}">Academics</a></li>
+            <li><a href="{{ '/tuition/' | relative_url }}">Tuition</a></li>
+          </ul>
+        </li>
+        <li><a href="{{ '/apply/' | relative_url }}" class="nav-cta">Apply Now</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% if page.hero_video %}
+  {% include hero-video.html %}
+{% elsif page.hero_image %}
+<section class="hero hero-image" style="background-image: url('{{ page.hero_image | relative_url }}')">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <h1>{{ page.hero_title | default: page.title }}</h1>
+    {% if page.hero_subtitle %}<p class="hero-subtitle">{{ page.hero_subtitle }}</p>{% endif %}
+  </div>
+</section>
+{% else %}
+<section class="page-header">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+  </div>
+</section>
+{% endif %}
+
+<section class="page-content">
+  <div class="container">
+    {{ content }}
+  </div>
+</section>

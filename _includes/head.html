@@ -1,0 +1,80 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title and page.title != "Home" %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — Post-Grad & High School Basketball in Fort Walton Beach, FL{% endif %}</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+{% seo %}
+
+<!-- Open Graph -->
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ '/assets/images/fcp-logo.png' | absolute_url }}{% endif %}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+<!-- Structured Data: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsOrganization",
+  "name": "Florida Coastal Prep Sports Academy",
+  "url": "https://floridacoastalprep.com",
+  "logo": "https://floridacoastalprep.com/assets/images/fcp-logo.png",
+  "description": "{{ site.description }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "217 Miracle Strip Pkwy SE Unit 117",
+    "addressLocality": "Fort Walton Beach",
+    "addressRegion": "FL",
+    "postalCode": "32548",
+    "addressCountry": "US"
+  },
+  "telephone": "+18509612323",
+  "email": "info@floridacoastalprep.com",
+  "sport": "Basketball",
+  "sameAs": [
+    "{{ site.social.facebook }}",
+    "{{ site.social.instagram }}",
+    "{{ site.social.twitter }}",
+    "{{ site.social.youtube }}"
+  ]
+}
+</script>
+
+{% if page.layout == 'post' %}
+<!-- Structured Data: Article (blog posts only) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Organization",
+    "name": "Florida Coastal Prep"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Florida Coastal Prep Sports Academy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://floridacoastalprep.com/assets/images/fcp-logo.png"
+    }
+  },
+  "mainEntityOfPage": "{{ page.url | absolute_url }}"
+}
+</script>
+{% endif %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+{% if page.hero_video %}<link rel="preload" as="video" href="{{ page.hero_video | relative_url }}">{% endif %}
