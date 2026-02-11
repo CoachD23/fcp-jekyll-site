@@ -1,6 +1,54 @@
 ---
 layout: page
 title: Management & Staff
+description: "Meet Florida Coastal Prep's coaching staff — including NBA veteran Kenny Anderson — with experience spanning NCAA DI, professional leagues, and international basketball."
+subtitle: The Team Behind the Team
+---
+
+<div class="section-header" style="margin-bottom: 2rem;">
+  <h2>Executive Leadership</h2>
+</div>
+
+<div class="grid-2">
+  <div class="card">
+    <img src="/assets/images/coaches/vando-becheli.webp" alt="Vando Becheli" style="width:100%;border-radius:12px 12px 0 0;object-fit:cover;height:320px;">
+    <div class="card-body">
+      <h3>Vando Becheli</h3>
+      <p><strong>PG Director / Assistant Athletic Director</strong></p>
+      <p>Fifth-year National Post Grad Head Coach, formerly of Utah State University Eastern with over 120 wins in 8 seasons. His 2009-2010 team finished third in NJCAA after winning a Region XVIII championship. Brazilian native with 25 years of professional playing and coaching experience in Brazil's Top League, contributed to athlete development resulting in NBA placements and assisted with 2016 Rio Olympics.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="/assets/images/coaches/lee-deforest.webp" alt="Lee DeForest" style="width:100%;border-radius:12px 12px 0 0;object-fit:cover;height:320px;">
+    <div class="card-body">
+      <h3>Lee DeForest</h3>
+      <p><strong>Athletic Director / Director of Operations</strong></p>
+      <p>Seventh-year HS Director and Director of Operations with 25 years of basketball coaching across DI, DII, NAIA, and JUCO levels. Notable achievements include coaching Sean East (now in NBA G-League), Brandon Maclin (DePaul), Kylin Green (Houston Baptist), and Ring Malith (SIU Edwardsville).</p>
+    </div>
+  </div>
+</div>
+
+<div class="section-header" style="margin: 3rem 0 2rem;">
+  <h2>Coaching Staff</h2>
+</div>
+
+<div class="grid-2">
+  <div class="card">
+    <img src="/assets/images/coaches/kenny-anderson.png" alt="Kenny Anderson" style="width:100%;border-radius:12px 12px 0 0;object-fit:cover;height:320px;">
+    <div class="card-body">
+      <h3>Kenny Anderson</h3>
+      <p><strong>Basketball Coach / Skills Development Director</strong></p>
+      <p>Queens, NY native, second-season staff member, former Fisk University head coach. NBA legend: 1991 second overall draft pick (New Jersey Nets), 14-year NBA career across eight teams, 1994 NBA All-Star.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="/assets/images/coaches/richard-coleman.png" alt="Richard Coleman" style="width:100%;border-radius:12px 12px 0 0;object-fit:cover;height:320px;">
+    <div class="card-body">
+      <h3>Richard Coleman</h3>
+      <p><strong>Strength & Conditioning Coach / Personal Trainer / Mentor</strong></p>
+      <p>Over two decades in strength and conditioning. Former trainer with New England Patriots (1999-2004) and Minnesota Vikings (1999-2004). Started career in Atlanta, GA in 1997.</p>---
+layout: page
+title: Management & Staff
 subtitle: The Team Behind the Team
 ---
 
