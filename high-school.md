@@ -10,7 +10,7 @@ hero_subtitle: High School Basketball Academy
 
 ## Program Info
 
-- August 10 â May 30 (Dates may vary)
+- August 10 – May 30 (Dates may vary)
 - 2 on court practices/workouts per day
 - 3 Strength and Conditioning workouts per week
 - Schooling through Rocky Bayou Christian School
