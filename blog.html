@@ -34,41 +34,6 @@ description: "Stay up to date with Florida Coastal Prep news, player commitments
     <div class="section-header">
       <p>Check back soon for the latest news and updates from FCP.</p>
     </div>
-    {% endif %}---
-layout: default
-title: News & Updates
----
-
-<section class="page-header">
-  <div class="container">
-    <h1>News & Updates</h1>
-    <p class="page-subtitle">The latest from Florida Coastal Prep</p>
-  </div>
-</section>
-
-<section class="page-content">
-  <div class="container">
-    <div class="post-grid">
-      {% for post in site.posts %}
-      <a href="{{ post.url | relative_url }}" class="post-card">
-        {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
-        {% else %}
-        <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
-        {% endif %}
-        <div class="post-card-body">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-          <h3>{{ post.title }}</h3>
-          {% if post.excerpt %}<p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>{% endif %}
-        </div>
-      </a>
-      {% endfor %}
-    </div>
-
-    {% if site.posts.size == 0 %}
-    <div class="section-header">
-      <p>Check back soon for the latest news and updates from FCP.</p>
-    </div>
     {% endif %}
   </div>
 </section>
