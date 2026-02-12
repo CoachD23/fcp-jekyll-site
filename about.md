@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About FCP
-description: "Learn about Florida Coastal Prep Sports Academy â our mission, basketball philosophy, and commitment to developing student-athletes for college success on the Emerald Coast."
+description: "Learn about Florida Coastal Prep Sports Academy — our mission, basketball philosophy, and commitment to developing student-athletes for college success on the Emerald Coast."
 subtitle: Student-athlete advisors are standing by to help you
 hero_image: /assets/images/about-hero.jpg
 hero_title: About FCP
@@ -18,7 +18,7 @@ We direct each player that completes our program to achieve their greatest poten
 
 > "Love your program! First class treatment of players and you are pushing them to be their best! As Arnold Schwarzenegger once said, 'I'll be back!'"
 >
-> â **Paul Biancardi, ESPN Recruiting Director**
+> — **Paul Biancardi, ESPN Recruiting Director**
 
 ## Sample Basketball Schedule
 
@@ -38,14 +38,14 @@ We direct each player that completes our program to achieve their greatest poten
 - College recruiting and placement meeting
 - College application process overview
 
-### November â February
+### November – February
 - Team games and tournaments
 - Continued skill development
 - Focused individual development meeting
 - Continued recruiting and placement meetings
 - Narrowing of college placement
 
-### March â May
+### March – May
 - Finalize college selection
 - Complete enrollment paperwork
 - Focus on strength development
