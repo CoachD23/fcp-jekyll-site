@@ -3,6 +3,7 @@ layout: post
 title: "NBA Legend Kenny Anderson Joins Florida Coastal Prep Coaching Staff"
 date: 2024-06-21
 categories: [highlights]
+image: /assets/images/blog/kenny-visit.jpg
 ---
 
 Kenny Anderson's basketball journey began at Georgia Tech, where he was a standout player before being drafted by the New Jersey Nets in the first round of the 1991 NBA Draft. Over his 14-year career in the NBA, Anderson played for several teams, showcasing his exceptional talent and leadership. He earned a reputation as one of the league's premier point guards, known for his agility, vision, and ability to control the game.

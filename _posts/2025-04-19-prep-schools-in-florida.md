@@ -3,6 +3,7 @@ layout: post
 title: "Basketball Prep Schools in Florida"
 date: 2025-04-19
 categories: [recruiting]
+image: /assets/images/about-fcp.jpg
 ---
 
 ## Prep School Basketball in Florida

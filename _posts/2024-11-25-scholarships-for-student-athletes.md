@@ -3,6 +3,7 @@ layout: post
 title: "Everything You Need to Know About Scholarships for Student-Athletes"
 date: 2024-11-25
 categories: [recruiting]
+image: /assets/images/blog-scholarships.jpg
 ---
 
 There are plenty of scholarships available to help student-athletes cover tuition, fees, and living expenses. This guide covers funding options for both two-year community colleges and four-year universities, exploring opportunities for domestic and international students.

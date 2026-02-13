@@ -3,6 +3,7 @@ layout: post
 title: "How to Get Noticed by College Scouts"
 date: 2024-11-16
 categories: [recruiting]
+image: /assets/images/training/gym-main.jpg
 ---
 
 Competition for college basketball spots is fierce, but specific actionable steps can improve your visibility to scouts and recruiters.

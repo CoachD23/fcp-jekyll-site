@@ -3,6 +3,7 @@ layout: post
 title: "FCP Falls Short at #7 Florida Southwestern College"
 date: 2022-12-31
 categories: [game-recap]
+image: /assets/images/training/gym-main.jpg
 ---
 
 Florida Coastal Prep faced a challenging road matchup at Suncoast Credit Union Arena competing against nationally-ranked Florida Southwestern College. The Buccaneers, positioned at #7 in NJCAA rankings, demonstrated their status as one of Florida's elite teams throughout the contest.

@@ -3,6 +3,7 @@ layout: post
 title: "NBA Champion Shares Insight on Life and Hoops"
 date: 2023-01-31
 categories: [highlights]
+image: /assets/images/training/spartan-center.jpg
 ---
 
 Mike Dunlap, an experienced NBA and collegiate coach with over 40 years in both the collegiate and professional ranks, recently visited Florida Coastal Prep to share his insights on work ethic and basketball with the players. Having served as head coach for various universities, including Loyola Marymount and St. John's, and as an NBA head coach for the Charlotte Bobcats and assistant coach with the Denver Nuggets, Dunlap brought a wealth of knowledge and experience to the FCP program.

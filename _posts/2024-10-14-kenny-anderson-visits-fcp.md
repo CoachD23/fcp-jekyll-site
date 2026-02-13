@@ -3,6 +3,7 @@ layout: post
 title: "Kenny Anderson's Visit Leaves Florida Coastal Players Inspired On and Off the Court"
 date: 2024-10-14
 categories: [highlights]
+image: /assets/images/blog-kenny.jpg
 ---
 
 Florida Coastal Prep recently hosted basketball legend Kenny Anderson for an impactful visit with our Post Grad Players. Anderson, a former NBA point guard who played for teams including the New Jersey Nets, Boston Celtics, and Charlotte Hornets, brought invaluable experience and wisdom to the academy.

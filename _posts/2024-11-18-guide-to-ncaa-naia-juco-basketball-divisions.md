@@ -3,6 +3,7 @@ layout: post
 title: "A Complete Guide to NCAA, NAIA, and JUCO Basketball Divisions"
 date: 2024-11-18
 categories: [recruiting]
+image: /assets/images/blog-divisions.jpg
 ---
 
 Understanding different athletic divisions represents a critical decision for aspiring student-athletes. Each division provides distinct opportunities, competitive environments, and financial support packages.
