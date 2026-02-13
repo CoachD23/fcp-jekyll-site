@@ -14,14 +14,13 @@ description: "Meet the Florida Coastal Prep Sports Academy roster. View player p
 <section class="page-content">
   <div class="container">
 
+    {% if site.roster.size > 0 %}
     <!-- Program Filter -->
     <div class="roster-filters" role="navigation" aria-label="Roster filters">
       <button class="roster-filter active" data-program="all">All Players</button>
       <button class="roster-filter" data-program="post-grad">Post Graduate</button>
       <button class="roster-filter" data-program="high-school">High School</button>
     </div>
-
-    {% if site.roster.size > 0 %}
     <div class="roster-grid">
       {% for player in site.roster %}
       <div class="roster-card" data-program="{{ player.program }}">
