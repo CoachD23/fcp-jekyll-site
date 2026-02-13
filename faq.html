@@ -285,3 +285,25 @@ description: "Frequently asked questions about Florida Coastal Prep Sports Acade
     </div>
   </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var questions = document.querySelectorAll('.faq-question');
+  questions.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var item = btn.closest('.faq-item');
+      var isOpen = item.classList.contains('active');
+      // Close all
+      document.querySelectorAll('.faq-item.active').forEach(function(openItem) {
+        openItem.classList.remove('active');
+        openItem.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      });
+      // Toggle clicked
+      if (!isOpen) {
+        item.classList.add('active');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+});
+</script>
