@@ -84,7 +84,7 @@ subtitle: The Team Behind the Team
   <h2>Admissions</h2>
 </div>
 
-<div class="staff-grid cols-2">
+<div class="staff-grid cols-1">
   <div class="staff-card">
     <img src="/assets/images/coaches/alba-reyes.webp" alt="Alba Reyes" class="staff-photo">
     <h3>Alba Reyes</h3>
