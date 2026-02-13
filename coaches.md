@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Management & Staff
+title: "Management & Staff"
 description: "Meet Florida Coastal Prep's coaching staff â including NBA veteran Kenny Anderson â with experience spanning NCAA DI, professional leagues, and international basketball."
 subtitle: The Team Behind the Team
 ---

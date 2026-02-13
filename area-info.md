@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Travel & Area Info
+title: "Travel & Area Info"
 description: "Plan your visit to Florida Coastal Prep on the Emerald Coast. Find travel info, nearby airports, local attractions, and what makes Fort Walton Beach home."
 subtitle: Welcome to the Emerald Coast
 ---
