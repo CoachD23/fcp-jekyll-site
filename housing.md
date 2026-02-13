@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Housing Options
-description: "Florida Coastal Prep offers beach condos, team houses, and resort-style apartments on the Emerald Coast with house coaches ensuring student-athlete safety."
 subtitle: Beach and Team House
-hero_image: /assets/images/housing-hero.jpg
+# hero_image: /assets/images/housing-hero.jpg  # TODO: add hero image
 hero_title: Housing Options
 hero_subtitle: Beach and Team House
 ---

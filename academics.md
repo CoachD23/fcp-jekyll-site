@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Academics
-description: "Academics at Florida Coastal Prep include dual enrollment through NW Florida State College, AP and honors courses, ACT prep, and personalized college readiness support."
 subtitle: Education That Prepares You for College
-hero_image: /assets/images/academics-hero.jpg
+# hero_image: /assets/images/academics-hero.jpg  # TODO: add hero image
 hero_title: Academics
 hero_subtitle: Education That Prepares You for College
 ---
@@ -31,11 +30,11 @@ All student athletes must provide high school transcripts, SAT/ACT test scores t
 
 ## Faculty & Staff
 
-**Dr. Joanna Johannes** â Holds degrees from USF, Nova Southeastern University, and Northeastern University (PhD in Higher Education Leadership)
+**Dr. Joanna Johannes** — Holds degrees from USF, Nova Southeastern University, and Northeastern University (PhD in Higher Education Leadership)
 
-**JoAnn Wood** â Florida Certified Teacher with 20+ years in high school English education
+**JoAnn Wood** — Florida Certified Teacher with 20+ years in high school English education
 
-**Bill Emerson** â Math educator with 30+ years experience, formerly Santa Rosa County Assistant Superintendent
+**Bill Emerson** — Math educator with 30+ years experience, formerly Santa Rosa County Assistant Superintendent
 
 <div class="cta-section" style="margin-top: 3rem; border-radius: 12px;">
   <h2>Learn More About Our Academics</h2>

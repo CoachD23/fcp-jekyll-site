@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Why Post Grad?
-description: "Discover how a post-graduate year at Florida Coastal Prep develops skills, increases college exposure, and strengthens your path to an NCAA basketball scholarship."
 subtitle: Postgraduate Year at Florida Coastal Prep
-hero_image: /assets/images/post-grad-hero.jpg
+# hero_image: /assets/images/post-grad-hero.jpg  # TODO: add hero image
 hero_title: Why a Gap Year at Florida Coastal Prep?
 hero_subtitle: An Alternative to Traditional Gap Year
 ---
@@ -44,19 +43,23 @@ As a result, it is much harder for younger high school athletes to earn a spot o
 
 2. **Physical Development:** Players can use the PG year to improve their physical attributes, such as strength, speed, and agility. This extra year of training can help players improve their overall athleticism, which is crucial for success at the college level.
 
-3. **Enhanced Exposure:** A PG year at Florida Coastal Prep gives players the opportunity to compete on a national stage, gaining exposure to college coaches and scouts who may not have seen them during their high school career.
+3. **Exposure to College Coaches:** The PG year provides players with additional opportunities to showcase their skills to college coaches. This exposure can lead to more scholarship offers and opportunities to play at the next level.
 
-4. **Informed School Selection:** With additional time and guidance from experienced coaches, players can make more informed decisions about which college program is the best fit for their academic and athletic goals.
+4. **More Time to Choose the Right School:** The PG year provides players with more time to find the right college program. With an extra year to consider their options, players can make a more informed decision about where they want to continue their athletic and academic pursuits.
 
-5. **Academic Strengthening:** The extra year allows students to improve their GPA, complete additional coursework, or raise standardized test scores, making them stronger candidates for college admissions and athletic scholarships.
+5. **Improved Academics:** For players who need to improve their academic standing, the PG year can provide an opportunity to take additional courses and improve their GPA. This can make them more attractive to college coaches and increase their chances of receiving a scholarship offer.
 
-6. **College Game Preparation:** The PG year bridges the gap between high school and college basketball, preparing players for the faster pace, increased physicality, and higher expectations of the collegiate game.
+6. **Better Prepared for the College Game:** The PG year can help players adjust to the more demanding college game. They can use this year to get acclimated to the pace, intensity, and physicality of college basketball.
 
-7. **Increased Maturity:** An additional year of development in a structured, college-like environment helps players grow emotionally and mentally, building the resilience and discipline needed to succeed at the next level.
+7. **Increased Maturity:** The PG year can help players develop their maturity and leadership skills. This extra year of high school can help players become more responsible and better equipped to handle the challenges of college life.
+
+In conclusion, a post-graduate year can provide many benefits for basketball players who are looking to improve their skills and increase their opportunities to play at the next level. It can also help players make a more informed decision about their college program and prepare them for the challenges of college basketball.
 
 <div class="cta-section" style="margin-top: 3rem; border-radius: 12px;">
-  <h2>Ready to Take the Next Step?</h2>
-  <p>A post-graduate year at FCP could be the difference between a scholarship offer and being overlooked. Start your journey today.</p>
-  <a href="/apply/" class="btn btn-primary" style="margin-right: 1rem;">Apply Now</a>
-  <a href="/tuition/" class="btn btn-outline">View Tuition & Fees</a>
+  <h2>Apply for the Post Grad Program</h2>
+  <p>Roster spots are limited. Don't wait.</p>
+  <div class="hero-cta">
+    <a href="/apply/" class="btn btn-primary">Apply Now</a>
+    <a href="/tuition/" class="btn btn-outline">View Tuition</a>
+  </div>
 </div>

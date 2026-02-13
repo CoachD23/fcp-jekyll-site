@@ -1,8 +1,12 @@
 <section class="hero hero-video">
   <div class="hero-video-bg">
-    <video autoplay muted loop playsinline poster="{{ page.hero_poster | default: '/assets/images/hero-poster.jpg' | relative_url }}">
+    {% if page.hero_video %}
+    <video autoplay muted loop playsinline poster="{{ page.hero_poster | default: '/assets/images/homepage-hero.jpeg' | relative_url }}">
       <source src="{{ page.hero_video | relative_url }}" type="video/mp4">
     </video>
+    {% else %}
+    <img src="{{ page.hero_poster | default: '/assets/images/homepage-hero.jpeg' | relative_url }}" alt="{{ page.hero_title | default: 'Florida Coastal Prep' }}" class="hero-bg-image">
+    {% endif %}
     <div class="hero-overlay"></div>
   </div>
   <div class="container hero-content">

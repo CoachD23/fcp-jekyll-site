@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Spartan Training Center
-description: "Train at the Spartan Training Center â a 14,000 sq ft facility with an NBA-dimension hardwood court, turf zone, and 24/7 availability for FCP athletes."
 subtitle: Our Newly Renovated 14,000 sq ft Facility
-hero_image: /assets/images/training-center-hero.jpg
+# hero_image: /assets/images/training-center-hero.jpg  # TODO: add hero image
 hero_title: Spartan Training Center
 hero_subtitle: World-Class Training Facility
 ---
