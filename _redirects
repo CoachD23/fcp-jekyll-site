@@ -1,0 +1,201 @@
+# ============================================================
+# FCP WordPress → Jekyll Migration Redirects
+# All 301 permanent redirects to preserve SEO equity
+# ============================================================
+
+# ----------------------------------------------------------
+# 1. CORE PAGES — WordPress slugs that changed in Jekyll
+# ----------------------------------------------------------
+/about-fcp/                    /about/         301
+/contact-us/                   /contact/       301
+/why-post-grad/                /post-grad/     301
+/post-graduate/                /post-grad/     301
+/academics-2/                  /academics/     301
+/privacy-policy/               /privacy/       301
+/terms-and-conditions/         /terms/         301
+/travel-area-information/      /area-info/     301
+
+# ----------------------------------------------------------
+# 2. BLOG POSTS — WordPress date-based URLs → flat Jekyll URLs
+# ----------------------------------------------------------
+/2025/04/19/prep-schools-in-florida/                                               /prep-schools-in-florida/                       301
+/2024/11/25/everything-you-need-to-know-about-scholarships-for-student-athletes/   /scholarships-for-student-athletes/              301
+/2024/11/18/a-complete-guide-to-ncaa-naia-and-juco-basketball-divisions/           /guide-to-ncaa-naia-juco-basketball-divisions/   301
+/2024/11/16/how-to-get-noticed-by-college-scouts/                                  /how-to-get-noticed-by-college-scouts/            301
+/2024/11/16/catch-all-the-action-and-celebrate-our-fcp-stars/                      /blog/                                           301
+/2024/10/14/kenny-andersons-visit-leaves-florida-coastal-players-inspired-on-and-off-the-court/  /kenny-anderson-visits-fcp/          301
+/2024/07/12/florida-coastal-preps-postgraduate-program/                            /florida-coastal-preps-postgraduate-program/      301
+/2024/06/21/nba-legend-kenny-anderson-joins-florida-coastal-prep-coaching-staff/   /kenny-anderson-joins-fcp-coaching-staff/         301
+/2023/01/31/paul-biancardi-returns-to-fcp/                                         /paul-biancardi-returns-to-fcp/                   301
+/2023/01/31/nba-champion-shares-insight-on-life-and-hoops/                         /nba-champion-shares-insight/                     301
+/2023/01/31/elementor-9576/                                                        /blog/                                           301
+/2022/12/31/fcp-falls-short-at-7-florida-southwestern-college/                     /fcp-falls-short-at-florida-southwestern/         301
+/2022/07/03/espns-paul-biancardi-visits-fcp/                                       /espns-paul-biancardi-visits-fcp/                 301
+/2022/07/02/west-florida-invitational-champions/                                   /west-florida-invitational-champions/             301
+/2022/06/30/former-spartan-to-campbellsville-university/                           /former-spartan-to-campbellsville-university/     301
+/2022/06/29/spartan-spotlight-terrian-roy/                                         /spartan-spotlight-terrian-roy/                   301
+/2022/06/14/nadav-naim-commits-to-d1-juco/                                         /nadav-naim-commits-to-d1-juco/                   301
+/2022/06/14/lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry/  /blog/                                      301
+
+# ----------------------------------------------------------
+# 3. TRAINING & FACILITIES pages → /training/
+# ----------------------------------------------------------
+/sports-performance-center/    /training/      301
+/spartan-training-center/      /training/      301
+/skills-training/              /training/      301
+/group-training/               /training/      301
+
+# ----------------------------------------------------------
+# 4. ROSTER pages → /roster/
+# ----------------------------------------------------------
+/hs-varsity-team-roster/       /roster/        301
+/hs-jv-team-roster/            /roster/        301
+/gold-team-roster/             /roster/        301
+/black-team-roster/            /roster/        301
+/red-team-roster/              /roster/        301
+/soccer-roster/                /roster/        301
+/playersocial/                 /roster/        301
+/mens-basketball/              /roster/        301
+
+# ----------------------------------------------------------
+# 5. NEWS / BLOG alternate URLs → /blog/
+# ----------------------------------------------------------
+/news/                         /blog/          301
+/highlights-games/             /blog/          301
+/user-blogs/                   /blog/          301
+/submit-new-blog-post/         /blog/          301
+
+# ----------------------------------------------------------
+# 6. SCHEDULE pages → program pages
+# ----------------------------------------------------------
+/schedule/                     /about/         301
+/post-grad-schedule/           /post-grad/     301
+/high-school-schedule/         /high-school/   301
+
+# ----------------------------------------------------------
+# 7. HIGH SCHOOL program variants → /high-school/
+# ----------------------------------------------------------
+/hs-academy/                   /high-school/   301
+/hs-academy-version-2/         /high-school/   301
+/hs-virtual-tour/              /high-school/   301
+
+# ----------------------------------------------------------
+# 8. CONTACT / CONNECT variants → /contact/
+# ----------------------------------------------------------
+/basketballcontact/            /contact/       301
+/stay-connected/               /contact/       301
+
+# ----------------------------------------------------------
+# 9. FINANCIAL / PAYMENT pages → /tuition/
+# ----------------------------------------------------------
+/finance/                      /tuition/       301
+/payform/                      /tuition/       301
+
+# ----------------------------------------------------------
+# 10. INFO / ABOUT variants → relevant pages
+# ----------------------------------------------------------
+/information/                  /about/         301
+/2025-fcp-info-page/           /about/         301
+/viewbook/                     /about/         301
+/virtual-tour/                 /about/         301
+/management-staff/             /coaches/       301
+/accreditation/                /academics/     301
+/meals/                        /housing/       301
+/coa/                          /about/         301
+/ccu/                          /about/         301
+
+# ----------------------------------------------------------
+# 11. SUMMER CAMPS → /apply/
+# ----------------------------------------------------------
+/summercamps/                  /apply/         301
+/elite-summer-camp-commuter/   /apply/         301
+/elite-summer-camp-boarding/   /apply/         301
+/spartan-skills-camp-23-27/    /apply/         301
+/spartan-skills-camp-16-20/    /apply/         301
+
+# ----------------------------------------------------------
+# 12. SOCCER pages → homepage (program not on new site)
+# ----------------------------------------------------------
+/soccer/                       /              301
+/soccer-schedule/              /              301
+/soccer-team-housing/          /housing/      301
+
+# ----------------------------------------------------------
+# 13. WORDPRESS JUNK / SYSTEM pages → homepage
+# ----------------------------------------------------------
+/elementor-10225/              /              301
+/elementor-7032/               /              301
+/test/                         /              301
+/sample-page/                  /              301
+/home-7-10/                    /              301
+/japan/                        /              301
+/default-user-group/           /              301
+/all-groups/                   /              301
+/search-users/                 /              301
+/my-profile/                   /              301
+/login/                        /              301
+/forgot-password/              /              301
+/registration/                 /apply/        301
+/accepting-applications/       /apply/        301
+
+# ----------------------------------------------------------
+# 14. WORDPRESS CATEGORY archives → /blog/
+# ----------------------------------------------------------
+/category/spartan-spotlight/                     /blog/   301
+/category/fcp-commitment/                        /blog/   301
+/category/florida-coastal-prep-sports-academy/   /blog/   301
+/category/post-grad-basketball/                  /blog/   301
+/category/high-school-basketball/                /blog/   301
+/category/fcp-highlights/                        /blog/   301
+/category/*                                      /blog/   301
+
+# ----------------------------------------------------------
+# 15. WORDPRESS TAG archives → /blog/
+# ----------------------------------------------------------
+/tag/post-grad-basketball/     /blog/   301
+/tag/high-school-basketball/   /blog/   301
+/tag/florida-coastal-prep/     /blog/   301
+/tag/spartan-spotlight/        /blog/   301
+/tag/terrian-roy/              /blog/   301
+/tag/nadav-naim/               /blog/   301
+/tag/fcp/                      /blog/   301
+/tag/florida-southwestern-college/  /blog/  301
+/tag/kennyanderson/            /blog/   301
+/tag/collegescouts/            /blog/   301
+/tag/recruiting/               /blog/   301
+/tag/recruiters/               /blog/   301
+/tag/ncaa/                     /blog/   301
+/tag/naia/                     /blog/   301
+/tag/juco/                     /blog/   301
+/tag/basketballdivisions/      /blog/   301
+/tag/scholarship/              /blog/   301
+/tag/basketballscholarship/    /blog/   301
+/tag/scholarshipforstudentathletes/  /blog/  301
+/tag/prep-school/              /blog/   301
+/tag/florida/                  /blog/   301
+/tag/sports-in-florida/        /blog/   301
+/tag/*                         /blog/   301
+
+# ----------------------------------------------------------
+# 16. WORDPRESS SYSTEM / API URLs
+# ----------------------------------------------------------
+/wp-admin/*                    /              301
+/wp-login.php                  /              301
+/wp-content/uploads/*          /              301
+/wp-json/*                     /              301
+/wp-includes/*                 /              301
+/xmlrpc.php                    /              301
+
+# ----------------------------------------------------------
+# 17. RSS FEED redirect
+# ----------------------------------------------------------
+/feed/                         /feed.xml      301
+/feed                          /feed.xml      301
+/rss/                          /feed.xml      301
+/blog/feed/                    /feed.xml      301
+
+# ----------------------------------------------------------
+# 18. PAGINATION patterns (WordPress uses /page/2/, etc.)
+# ----------------------------------------------------------
+/page/*                        /blog/         301
+/blog/page/*                   /blog/         301
