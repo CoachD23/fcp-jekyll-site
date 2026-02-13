@@ -50,7 +50,7 @@ subtitle: The Team Behind the Team
     </div>
   </div>
   <div class="card">
-    <img src="/assets/images/coaches/jared-dugan.webp" alt="Jared Dugan" style="width:100%;border-radius:12px 12px 0 0;object-fit:cover;height:320px;">
+    <img src="/assets/images/coaches/jared-dugan.png" alt="Jared Dugan" style="width:100%;border-radius:12px 12px 0 0;object-fit:cover;height:320px;">
     <div class="card-body">
       <h3>Jared Dugan</h3>
       <p><strong>Head PG Coach / Recruiting Coordinator</strong></p>
@@ -58,7 +58,7 @@ subtitle: The Team Behind the Team
     </div>
   </div>
   <div class="card">
-    <img src="/assets/images/coaches/tyler-martin.webp" alt="Tyler Martin" style="width:100%;border-radius:12px 12px 0 0;object-fit:cover;height:320px;">
+    <img src="/assets/images/coaches/tyler-martin.png" alt="Tyler Martin" style="width:100%;border-radius:12px 12px 0 0;object-fit:cover;height:320px;">
     <div class="card-body">
       <h3>Tyler Martin</h3>
       <p><strong>Head Skill Development Coach</strong></p>
@@ -66,7 +66,7 @@ subtitle: The Team Behind the Team
     </div>
   </div>
   <div class="card">
-    <img src="/assets/images/coaches/guanda-huang.webp" alt="Guanda Huang" style="width:100%;border-radius:12px 12px 0 0;object-fit:cover;height:320px;">
+    <img src="/assets/images/coaches/dada-huang.png" alt="Guanda Huang" style="width:100%;border-radius:12px 12px 0 0;object-fit:cover;height:320px;">
     <div class="card-body">
       <h3>Guanda "Dada" Huang</h3>
       <p><strong>International Recruiter</strong></p>

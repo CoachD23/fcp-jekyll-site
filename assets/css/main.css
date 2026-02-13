@@ -63,14 +63,7 @@ section { padding: 4rem 0; }
   white-space: nowrap;
 }
 .main-nav a:hover { color: #d4a843; }
-.nav-cta {
-  background: #fff !important;
-  color: #c41e3a !important;
-  padding: 0.5rem 1.25rem !important;
-  border-radius: 6px;
-  font-weight: 600 !important;
-}
-.nav-cta:hover { background: #f0f0f0 !important; color: #a8182f !important; }
+/* nav-cta removed — Apply is a plain link now */
 
 /* Dropdown */
 .dropdown { position: relative; }
@@ -135,6 +128,7 @@ section { padding: 4rem 0; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
 }
 .hero-overlay {
   position: absolute;
