@@ -151,34 +151,7 @@ section { padding: 4rem 0; }
   margin-bottom: 1rem;
   text-shadow: 0 2px 20px rgba(0,0,0,0.3);
 }
-.hero-subtitle {
-  color: rgba(255,255,255,0.9);
-  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-  font-weight: 400;
-  margin-bottom: 2.5rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .hero-cta { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
-
-/* Hero stats bar */
-.hero-stats {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  margin-top: 3.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid rgba(255,255,255,0.15);
-}
-.stat { text-align: center; }
-.stat-number {
-  display: block;
-  color: #d4a843;
-  font-size: 1.75rem;
-  font-weight: 800;
-}
-.stat-label { color: rgba(255,255,255,0.7); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
 
 /* Hero image variant */
 .hero-image {
@@ -215,12 +188,46 @@ section { padding: 4rem 0; }
 
 /* --- Page Header --- */
 .page-header {
-  background: #0a1628;
-  padding: 8.5rem 0 3rem;
+  background: linear-gradient(135deg, #0a1628 0%, #152238 50%, #0d1b30 100%);
+  padding: 9rem 0 3.5rem;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
-.page-header h1 { color: #fff; margin-bottom: 0.5rem; }
-.page-subtitle { color: rgba(255,255,255,0.7); font-size: 1.15rem; }
+.page-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at 30% 50%, rgba(196,30,58,0.08) 0%, transparent 60%),
+              radial-gradient(ellipse at 70% 50%, rgba(212,168,67,0.06) 0%, transparent 60%);
+  pointer-events: none;
+}
+.page-header .container { position: relative; z-index: 1; }
+.page-header h1 {
+  color: #fff;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.75rem;
+}
+.page-header h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #d4a843;
+  margin: 0.75rem auto 0;
+  border-radius: 2px;
+}
+.page-subtitle {
+  color: rgba(255,255,255,0.7);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+}
 
 /* --- Page Content --- */
 .page-content { padding: 3rem 0 4rem; }
@@ -272,22 +279,6 @@ section { padding: 4rem 0; }
 .coach-card h3 { font-size: 1.1rem; margin-bottom: 0.25rem; }
 .coach-card .role { color: #c41e3a; font-weight: 600; font-size: 0.9rem; }
 .coach-card .bio { color: #666; font-size: 0.9rem; margin-top: 0.5rem; }
-
-/* --- Placements / Stats --- */
-.placements-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1.5rem;
-}
-.placement {
-  text-align: center;
-  padding: 1.5rem;
-  border-radius: 10px;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
-}
-.placement .player { font-weight: 700; color: #d4a843; margin-bottom: 0.25rem; }
-.placement .school { font-size: 0.9rem; color: rgba(255,255,255,0.7); }
 
 /* --- Blog / News --- */
 .post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; }

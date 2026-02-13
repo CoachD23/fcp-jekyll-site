@@ -7,30 +7,5 @@
     {% else %}
     <img src="{{ page.hero_poster | default: '/assets/images/homepage-hero.jpeg' | relative_url }}" alt="{{ page.hero_title | default: 'Florida Coastal Prep' }}" class="hero-bg-image">
     {% endif %}
-    <div class="hero-overlay"></div>
-  </div>
-  <div class="container hero-content">
-    <h1>{{ page.hero_title | default: "Florida Coastal Prep" }}</h1>
-    <p class="hero-subtitle">{{ page.hero_subtitle | default: "Where Future College Athletes Are Made" }}</p>
-    <div class="hero-cta">
-      <a href="{{ '/apply/' | relative_url }}" class="btn btn-primary">Apply Now</a>
-      <a href="{{ '/post-grad/' | relative_url }}" class="btn btn-outline">Explore Programs</a>
-    </div>
-    {% if page.hero_stats %}
-    <div class="hero-stats">
-      <div class="stat">
-        <span class="stat-number">200+</span>
-        <span class="stat-label">College Placements</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">25</span>
-        <span class="stat-label">Years Coaching</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">DI-JUCO</span>
-        <span class="stat-label">All Levels</span>
-      </div>
-    </div>
-    {% endif %}
   </div>
 </section>
