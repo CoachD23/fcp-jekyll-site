@@ -2,6 +2,7 @@
 layout: page
 title: Academics
 subtitle: Education That Prepares You for College
+description: "NCAA-approved academics at Florida Coastal Prep include AP courses, dual enrollment, ACT/SAT prep, and a high school diploma through Lighthouse Christian Academy."
 # hero_image: /assets/images/academics-hero.jpg  # TODO: add hero image
 hero_title: Academics
 hero_subtitle: Education That Prepares You for College

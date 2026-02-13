@@ -47,6 +47,8 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  roster:
+    output: false
 
 # Plugins
 plugins:

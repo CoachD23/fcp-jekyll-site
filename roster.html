@@ -1,0 +1,100 @@
+---
+layout: default
+title: "Roster"
+description: "Meet the Florida Coastal Prep Sports Academy roster. View player profiles, positions, and highlights for our post-graduate and high school basketball teams."
+---
+
+<section class="page-header">
+  <div class="container">
+    <h1>Player Roster</h1>
+    <p class="page-subtitle">Meet the Florida Coastal Prep Spartans</p>
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container">
+
+    <!-- Program Filter -->
+    <div class="roster-filters" role="navigation" aria-label="Roster filters">
+      <button class="roster-filter active" data-program="all">All Players</button>
+      <button class="roster-filter" data-program="post-grad">Post Graduate</button>
+      <button class="roster-filter" data-program="high-school">High School</button>
+    </div>
+
+    {% if site.roster.size > 0 %}
+    <div class="roster-grid">
+      {% for player in site.roster %}
+      <div class="roster-card" data-program="{{ player.program }}">
+        <div class="roster-card-image">
+          {% if player.image %}
+          <img src="{{ player.image | relative_url }}" alt="{{ player.name }}" loading="lazy">
+          {% else %}
+          <img src="/assets/images/roster/placeholder.jpg" alt="{{ player.name }}" loading="lazy">
+          {% endif %}
+          <span class="roster-number">#{{ player.number }}</span>
+        </div>
+        <div class="roster-card-info">
+          <h3>{{ player.name }}</h3>
+          <p class="roster-position">{{ player.position }}</p>
+          <div class="roster-stats">
+            {% if player.height %}<span>{{ player.height }}</span>{% endif %}
+            {% if player.weight %}<span>{{ player.weight }}</span>{% endif %}
+            {% if player.class %}<span>{{ player.class }}</span>{% endif %}
+          </div>
+          <p class="roster-hometown">{{ player.hometown }}</p>
+          {% if player.previous_school %}<p class="roster-school">{{ player.previous_school }}</p>{% endif %}
+          {% if player.hudl != "" %}
+          <a href="{{ player.hudl }}" class="roster-hudl" target="_blank" rel="noopener">View Hudl Profile &rarr;</a>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="roster-coming-soon">
+      <div class="section-header">
+        <h2>Roster Coming Soon</h2>
+        <p>Our upcoming season roster is being finalized. Check back soon to meet the players, or follow us on social media for announcements.</p>
+        <div style="margin-top: 2rem;">
+          <a href="/apply/" class="btn btn-primary">Apply for a Roster Spot</a>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>Want to Join the Roster?</h2>
+    <p>Roster spots are limited. Apply now to start your journey to college basketball.</p>
+    <div class="hero-cta">
+      <a href="/apply/" class="btn btn-primary">Apply Now</a>
+      <a href="/contact/" class="btn btn-outline">Contact Coaches</a>
+    </div>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var filters = document.querySelectorAll('.roster-filter');
+  var cards = document.querySelectorAll('.roster-card');
+
+  filters.forEach(function(filter) {
+    filter.addEventListener('click', function() {
+      filters.forEach(function(f) { f.classList.remove('active'); });
+      filter.classList.add('active');
+
+      var program = filter.getAttribute('data-program');
+      cards.forEach(function(card) {
+        if (program === 'all' || card.getAttribute('data-program') === program) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script>

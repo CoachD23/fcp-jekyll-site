@@ -1,29 +1,72 @@
 ---
 layout: default
 title: "News & Updates"
+description: "Latest news, game recaps, recruiting tips, player commitments, and program updates from Florida Coastal Prep Sports Academy."
 ---
 
 <section class="page-header">
   <div class="container">
-    <h1>News & Updates</h1>
-    <p class="page-subtitle">The latest from Florida Coastal Prep</p>
+    <h1>FCP News Center</h1>
+    <p class="page-subtitle">Commitments, game recaps, recruiting tips, and program updates</p>
   </div>
 </section>
 
 <section class="page-content">
   <div class="container">
-    <div class="post-grid">
-      {% for post in site.posts %}
-      <a href="{{ post.url | relative_url }}" class="post-card">
-        {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+
+    <!-- Category Filter Bar -->
+    <div class="news-filters" role="navigation" aria-label="News categories">
+      <button class="news-filter active" data-category="all">All News</button>
+      <button class="news-filter" data-category="commitments">Commitments</button>
+      <button class="news-filter" data-category="game-recap">Game Recaps</button>
+      <button class="news-filter" data-category="highlights">Highlights</button>
+      <button class="news-filter" data-category="recruiting">Recruiting</button>
+      <button class="news-filter" data-category="program">Program</button>
+    </div>
+
+    <!-- Featured / Latest Post -->
+    {% assign latest = site.posts.first %}
+    {% if latest %}
+    <a href="{{ latest.url | relative_url }}" class="featured-post">
+      <div class="featured-post-image">
+        {% if latest.image %}
+        <img src="{{ latest.image | relative_url }}" alt="{{ latest.title }}" loading="lazy">
         {% else %}
-        <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
+        <img src="/assets/images/blog/blog-default.jpg" alt="{{ latest.title }}" loading="lazy">
         {% endif %}
-        <div class="post-card-body">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+      </div>
+      <div class="featured-post-content">
+        {% for cat in latest.categories %}
+        <span class="news-badge news-badge--{{ cat }}">{{ cat | replace: '-', ' ' }}</span>
+        {% endfor %}
+        <h2>{{ latest.title }}</h2>
+        <time datetime="{{ latest.date | date_to_xmlschema }}">{{ latest.date | date: "%B %d, %Y" }}</time>
+        {% if latest.excerpt %}<p>{{ latest.excerpt | strip_html | truncatewords: 40 }}</p>{% endif %}
+        <span class="featured-read-more">Read Full Story &rarr;</span>
+      </div>
+    </a>
+    {% endif %}
+
+    <!-- Post Grid -->
+    <div class="news-grid">
+      {% for post in site.posts offset:1 %}
+      <a href="{{ post.url | relative_url }}" class="news-card" data-categories="{{ post.categories | join: ' ' }}">
+        <div class="news-card-image">
+          {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+          {% else %}
+          <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
+          {% endif %}
+        </div>
+        <div class="news-card-body">
+          <div class="news-card-meta">
+            {% for cat in post.categories %}
+            <span class="news-badge news-badge--{{ cat }}">{{ cat | replace: '-', ' ' }}</span>
+            {% endfor %}
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+          </div>
           <h3>{{ post.title }}</h3>
-          {% if post.excerpt %}<p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>{% endif %}
+          {% if post.excerpt %}<p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>{% endif %}
         </div>
       </a>
       {% endfor %}
@@ -34,5 +77,57 @@ title: "News & Updates"
       <p>Check back soon for the latest news and updates from FCP.</p>
     </div>
     {% endif %}
+
+    <!-- No Results Message (hidden by default) -->
+    <div class="news-no-results" style="display: none;">
+      <p>No articles found in this category. Check back soon for more updates!</p>
+    </div>
+
   </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filters = document.querySelectorAll('.news-filter');
+  const cards = document.querySelectorAll('.news-card');
+  const featured = document.querySelector('.featured-post');
+  const noResults = document.querySelector('.news-no-results');
+
+  filters.forEach(function(filter) {
+    filter.addEventListener('click', function() {
+      // Update active state
+      filters.forEach(function(f) { f.classList.remove('active'); });
+      filter.classList.add('active');
+
+      var category = filter.getAttribute('data-category');
+      var visibleCount = 0;
+
+      // Filter cards
+      cards.forEach(function(card) {
+        var cats = card.getAttribute('data-categories');
+        if (category === 'all' || cats.indexOf(category) !== -1) {
+          card.style.display = '';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      // Show/hide featured post
+      if (featured) {
+        if (category === 'all') {
+          featured.style.display = '';
+          visibleCount++;
+        } else {
+          featured.style.display = 'none';
+        }
+      }
+
+      // Show no results message
+      if (noResults) {
+        noResults.style.display = visibleCount === 0 ? '' : 'none';
+      }
+    });
+  });
+});
+</script>

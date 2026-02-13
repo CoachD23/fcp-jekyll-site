@@ -34,6 +34,7 @@
           <li><a href="{{ '/apply/' | relative_url }}">Apply Now</a></li>
           <li><a href="{{ '/contact/' | relative_url }}">Contact Us</a></li>
           <li><a href="{{ '/blog/' | relative_url }}">News</a></li>
+          <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
           <li><a href="{{ '/testimonials/' | relative_url }}">Testimonials</a></li>
         </ul>
       </div>
@@ -45,6 +46,16 @@
         <p class="hours">{{ site.hours }}</p>
       </div>
     </div>
+    <!-- Newsletter Signup -->
+    <div class="footer-newsletter">
+      <h4>Stay in the Loop</h4>
+      <p>Get recruiting tips, game recaps, and program updates delivered to your inbox.</p>
+      <form class="newsletter-form" action="https://api.leadconnectorhq.com/widget/form/41vI0yGp6HJG0JBllaVt" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required aria-label="Email address for newsletter">
+        <button type="submit" class="btn btn-gold">Subscribe</button>
+      </form>
+    </div>
+
     <div class="footer-bottom">
       <div class="footer-partners">
         <img src="{{ '/assets/images/partners/hudl.png' | relative_url }}" alt="Hudl" height="30">

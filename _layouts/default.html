@@ -4,8 +4,9 @@
   {% include head.html %}
 </head>
 <body class="{{ page.body_class }}">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   {% include nav.html %}
-  <main>
+  <main id="main-content">
     {{ content }}
   </main>
   {% include footer.html %}
@@ -15,5 +16,11 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0J66GRZ7SW"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-0J66GRZ7SW');</script>
   {% endif %}
+
+  <!-- GHL Chat Widget -->
+  <script src="https://widgets.leadconnectorhq.com/loader.js"
+    data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+    data-widget-id="jBDUi7Sma6tCl3eXKBmX">
+  </script>
 </body>
 </html>

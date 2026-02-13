@@ -2,6 +2,7 @@
 layout: page
 title: National High School Program
 subtitle: High School Basketball Academy
+description: "Florida Coastal Prep's national high school basketball program features NCAA-approved coursework, dual enrollment, daily training, and a national game schedule for maximum college exposure."
 # hero_image: /assets/images/high-school-hero.jpg  # TODO: add hero image
 hero_title: National High School Program
 hero_subtitle: High School Basketball Academy

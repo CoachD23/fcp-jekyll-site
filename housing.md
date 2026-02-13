@@ -2,6 +2,7 @@
 layout: page
 title: Housing Options
 subtitle: Beach and Team House
+description: "Explore housing options at Florida Coastal Prep including beach condos, waterfront houses, team houses, and resort-style apartments along the Emerald Coast."
 hero_title: Housing Options
 hero_subtitle: Beach and Team House
 ---
