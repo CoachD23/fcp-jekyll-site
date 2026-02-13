@@ -42,14 +42,6 @@ subtitle: The Team Behind the Team
     </div>
   </div>
   <div class="card">
-    <img src="/assets/images/coaches/richard-coleman.png" alt="Richard Coleman" style="width:100%;border-radius:12px 12px 0 0;object-fit:cover;height:320px;">
-    <div class="card-body">
-      <h3>Richard Coleman</h3>
-      <p><strong>Strength & Conditioning Coach / Personal Trainer / Mentor</strong></p>
-      <p>Over two decades in strength and conditioning. Former trainer with New England Patriots (1999-2004) and Minnesota Vikings (1999-2004). Started career in Atlanta, GA in 1997.</p>
-    </div>
-  </div>
-  <div class="card">
     <img src="/assets/images/coaches/jared-dugan.png" alt="Jared Dugan" style="width:100%;border-radius:12px 12px 0 0;object-fit:cover;height:320px;">
     <div class="card-body">
       <h3>Jared Dugan</h3>
