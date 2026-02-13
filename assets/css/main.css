@@ -292,6 +292,40 @@ section { padding: 4rem 0; }
 .card-body p { color: #666; font-size: 0.95rem; }
 
 /* --- Staff / Coach Cards --- */
+.staff-grid { display: grid; gap: 2.5rem; }
+.staff-grid.cols-2 { grid-template-columns: repeat(2, 1fr); max-width: 800px; margin: 0 auto; }
+.staff-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+.staff-card {
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.staff-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
+.staff-card .staff-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  margin: 0 auto 1.25rem;
+  display: block;
+  background: #f0f0f0;
+  border: 4px solid #e8e8e8;
+}
+.staff-card h3 { font-size: 1.15rem; margin-bottom: 0.3rem; color: #0a1628; }
+.staff-card .staff-role { color: #c41e3a; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.75rem; }
+.staff-card .staff-bio { color: #555; font-size: 0.9rem; line-height: 1.6; }
+@media (max-width: 768px) {
+  .staff-grid.cols-2, .staff-grid.cols-3 { grid-template-columns: 1fr; max-width: 400px; margin: 0 auto; }
+  .staff-card .staff-photo { width: 180px; height: 180px; }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .staff-grid.cols-3 { grid-template-columns: repeat(2, 1fr); }
+}
+/* Legacy coach-card support */
 .coach-card { text-align: center; }
 .coach-card img { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin: 0 auto 1rem; }
 .coach-card h3 { font-size: 1.1rem; margin-bottom: 0.25rem; }
