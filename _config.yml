@@ -73,6 +73,10 @@ defaults:
     values:
       layout: "page"
 
+# Include files that start with underscore (needed for Netlify _redirects)
+include:
+  - _redirects
+
 # Exclude from build
 exclude:
   - README.md
