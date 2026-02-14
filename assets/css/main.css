@@ -1305,6 +1305,718 @@ iframe { max-width: 100%; }
   background: rgba(212,168,67,0.12);
 }
 
+/* ============================================
+   Page Components — Staff, Housing, Training,
+   Programs, Post-Grad (BlackRock×Duke Premium)
+   ============================================ */
+
+/* --- Page Intro --- */
+.page-intro {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 1.5rem 0;
+}
+.page-intro p {
+  font-size: 1.15rem;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* --- Section Headers (Shared Pattern) --- */
+.staff-section {
+  padding: 4rem 0;
+}
+.staff-section > .staff-section-header,
+.staff-section > .executive-grid,
+.staff-section > .coaching-grid,
+.staff-section > .advisory-grid,
+.staff-section > .admissions-feature,
+.staff-section > .feature-grid {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.staff-section-dark {
+  background: #0a1628;
+  padding: 4rem 0;
+}
+.staff-section-dark h2,
+.staff-section-dark h3 { color: #fff; }
+.staff-section-dark p { color: rgba(255,255,255,0.8); }
+
+.staff-section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.section-label {
+  display: inline-block;
+  color: #c41e3a;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+.staff-section-dark .section-label {
+  color: #d4a843;
+}
+.gold-rule {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #d4a843, #c49a38);
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
+/* --- Executive Team --- */
+.executive-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+.executive-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.executive-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 50px rgba(0,0,0,0.14);
+}
+.executive-photo {
+  position: relative;
+  height: 340px;
+  overflow: hidden;
+}
+.executive-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.6s;
+}
+.executive-card:hover .executive-photo img {
+  transform: scale(1.04);
+}
+.executive-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(0deg, rgba(10,22,40,0.85) 0%, transparent 100%);
+}
+.exec-title {
+  color: #d4a843;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.executive-info {
+  padding: 1.75rem;
+}
+.executive-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+.exec-role {
+  color: #c41e3a;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.exec-bio {
+  color: #555;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+.exec-stats {
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+.exec-stat {
+  text-align: center;
+}
+.exec-stat strong {
+  display: block;
+  color: #c41e3a;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+.exec-stat span {
+  display: block;
+  color: #888;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.2rem;
+}
+
+/* --- Coaching Staff --- */
+.coaching-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.coach-profile {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 1.5rem;
+  transition: background 0.3s, border-color 0.3s, transform 0.3s;
+}
+.coach-profile:hover {
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(212,168,67,0.25);
+  transform: translateY(-3px);
+}
+.coach-img-wrapper {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.coach-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.coach-badge {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: #c41e3a;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+.coach-details h3 {
+  color: #fff;
+  font-size: 1.15rem;
+  margin-bottom: 0.25rem;
+}
+.coach-title {
+  color: #d4a843;
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.coach-bio {
+  color: rgba(255,255,255,0.65);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+/* --- Advisory Board --- */
+.advisory-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.advisor-card {
+  text-align: center;
+  background: #fff;
+  border-radius: 14px;
+  padding: 2.5rem 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.advisor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+.advisor-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1.25rem;
+  border: 3px solid rgba(212,168,67,0.2);
+}
+.advisor-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+.advisor-role {
+  color: #666;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+/* --- Admissions Feature --- */
+.admissions-feature {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.admissions-feature .advisor-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.admissions-feature .advisor-card h3 {
+  color: #fff;
+}
+.admissions-feature .advisor-role {
+  color: rgba(255,255,255,0.7);
+}
+.admissions-feature .advisor-card img {
+  border-color: rgba(212,168,67,0.3);
+}
+
+/* --- Housing Sections --- */
+.housing-section {
+  padding: 3rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.housing-section > .staff-section-header {
+  padding: 0 1.5rem;
+}
+.housing-section-alt {
+  background: #f7f8fa;
+  max-width: 100%;
+  padding: 3rem 0;
+}
+.housing-section-alt > .staff-section-header,
+.housing-section-alt > .housing-layout {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.housing-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 3rem;
+  align-items: start;
+  padding: 0 1.5rem;
+}
+.housing-layout-reverse {
+  direction: rtl;
+}
+.housing-layout-reverse > * {
+  direction: ltr;
+}
+
+/* Housing Gallery */
+.housing-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.gallery-main {
+  border-radius: 14px;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+}
+.gallery-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.gallery-main:hover img {
+  transform: scale(1.03);
+}
+.gallery-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+.gallery-row img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s;
+}
+.gallery-row img:hover {
+  transform: scale(1.03);
+}
+
+/* Housing Info */
+.housing-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.housing-info p {
+  color: #444;
+  font-size: 1.02rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+.housing-highlights {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+.highlight-item {
+  text-align: center;
+  min-width: 70px;
+}
+.highlight-item strong {
+  display: block;
+  color: #c41e3a;
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+.highlight-item span {
+  display: block;
+  color: #888;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.25rem;
+}
+
+/* Interior Gallery */
+.interior-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.interior-gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s;
+}
+.interior-gallery img:hover {
+  transform: scale(1.04);
+}
+
+/* --- Facility Stats (Training Page) --- */
+.facility-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.facility-stat {
+  text-align: center;
+  min-width: 100px;
+}
+.facility-stat strong {
+  display: block;
+  color: #c41e3a;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1;
+}
+.facility-stat span {
+  display: block;
+  color: #888;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 0.35rem;
+}
+
+/* Facility Gallery */
+.facility-gallery {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  padding: 0 1.5rem;
+}
+.facility-main {
+  border-radius: 14px;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+}
+.facility-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.facility-main:hover img {
+  transform: scale(1.03);
+}
+.facility-side {
+  border-radius: 14px;
+  overflow: hidden;
+}
+.facility-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.facility-side:hover img {
+  transform: scale(1.03);
+}
+
+/* --- Feature Grid (Shared) --- */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.feature-card {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: background 0.3s, border-color 0.3s, transform 0.3s;
+}
+.feature-card:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(212,168,67,0.25);
+  transform: translateY(-4px);
+}
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.feature-card h3 {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+.feature-card p {
+  color: rgba(255,255,255,0.65);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* --- Program Highlights Bar --- */
+.program-highlights {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto 1rem;
+  flex-wrap: wrap;
+}
+.program-highlight {
+  text-align: center;
+  min-width: 100px;
+}
+.program-highlight strong {
+  display: block;
+  color: #c41e3a;
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 1;
+}
+.program-highlight span {
+  display: block;
+  color: #888;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 0.35rem;
+}
+
+/* --- Program Grid (Image + Details) --- */
+.program-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.program-image {
+  border-radius: 14px;
+  overflow: hidden;
+}
+.program-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 360px;
+  transition: transform 0.5s;
+}
+.program-image:hover img {
+  transform: scale(1.03);
+}
+.program-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.program-details p {
+  color: #444;
+  font-size: 1.02rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+.program-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+.program-list li {
+  position: relative;
+  padding: 0.6rem 0 0.6rem 1.75rem;
+  color: #333;
+  font-size: 0.95rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.program-list li:last-child {
+  border-bottom: none;
+}
+.program-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background: #c41e3a;
+  border-radius: 50%;
+}
+
+/* --- Program Offers (Post-Grad) --- */
+.program-offers {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.offer-item {
+  background: #fff;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border-left: 4px solid #c41e3a;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.offer-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+.offer-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #0a1628;
+}
+.offer-item p {
+  color: #555;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+/* ============================================
+   Responsive — New Page Components
+   ============================================ */
+
+/* Tablet (<=1024px) */
+@media (max-width: 1024px) {
+  .executive-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .coaching-grid { grid-template-columns: 1fr; }
+  .advisory-grid { grid-template-columns: repeat(3, 1fr); }
+  .housing-layout { grid-template-columns: 1fr; gap: 2rem; }
+  .housing-layout-reverse { direction: ltr; }
+  .facility-gallery { grid-template-columns: 1fr; }
+  .facility-side { aspect-ratio: 16 / 7; }
+  .program-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .program-image img { min-height: 280px; }
+  .feature-grid { grid-template-columns: repeat(2, 1fr); }
+  .interior-gallery { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Mobile (<=768px) */
+@media (max-width: 768px) {
+  .staff-section { padding: 3rem 0; }
+  .staff-section-dark { padding: 3rem 0; }
+  .executive-photo { height: 260px; }
+  .coach-profile {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 1rem;
+  }
+  .coach-img-wrapper {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  .advisory-grid { grid-template-columns: 1fr; }
+  .advisor-card { padding: 2rem 1.5rem; }
+  .housing-section { padding: 2rem 0; }
+  .housing-section-alt { padding: 2rem 0; }
+  .gallery-row img { height: 110px; }
+  .housing-highlights { flex-wrap: wrap; gap: 1rem; justify-content: center; }
+  .facility-stats { gap: 2rem; }
+  .feature-grid { grid-template-columns: 1fr; }
+  .program-highlights { gap: 2rem; }
+  .offer-grid { grid-template-columns: 1fr; }
+  .interior-gallery { grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+  .interior-gallery img { height: 160px; }
+  .page-intro { padding: 1.5rem 1rem 0; }
+  .page-intro p { font-size: 1.05rem; }
+  .exec-stats { flex-wrap: wrap; gap: 1rem; justify-content: center; }
+}
+
+/* Small Mobile (<=480px) */
+@media (max-width: 480px) {
+  .executive-photo { height: 220px; }
+  .executive-info { padding: 1.25rem; }
+  .executive-info h3 { font-size: 1.25rem; }
+  .exec-bio { font-size: 0.88rem; }
+  .exec-stat strong { font-size: 1.25rem; }
+  .coach-img-wrapper { width: 100px; height: 100px; }
+  .facility-stats { gap: 1.5rem; }
+  .facility-stat strong { font-size: 1.5rem; }
+  .program-highlights { gap: 1.5rem; }
+  .program-highlight strong { font-size: 1.4rem; }
+  .gallery-row img { height: 90px; }
+  .interior-gallery { grid-template-columns: 1fr; }
+  .interior-gallery img { height: 180px; }
+  .housing-layout { gap: 1.5rem; }
+  .offer-item { padding: 1.5rem; }
+  .advisor-card img { width: 100px; height: 100px; }
+}
+
 /* --- 404 Page --- */
 .error-page { text-align: center; padding: 4rem 1.5rem; }
 .error-page p { font-size: 1.2rem; margin-bottom: 2rem; }

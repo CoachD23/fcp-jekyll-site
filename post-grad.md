@@ -2,60 +2,117 @@
 layout: page
 title: Why Post Grad?
 subtitle: Postgraduate Year at Florida Coastal Prep
-# hero_image: /assets/images/post-grad-hero.jpg  # TODO: add hero image
-hero_title: Why a Gap Year at Florida Coastal Prep?
-hero_subtitle: An Alternative to Traditional Gap Year
+hero_image: /assets/images/about-hero.jpg
+hero_title: Why a Post-Graduate Year?
+hero_subtitle: The Bridge Between High School and College Basketball
 ---
 
-## What is a Post-Graduate Year?
+<div class="page-intro fade-in">
+  <p>A postgraduate year at Florida Coastal Prep is a development-focused gap year. The primary objective is to strengthen students' candidacy for admission and increase their potential for success in college — academically, athletically, and personally.</p>
+</div>
 
-Many high school graduates are familiar with the concept of a gap year after graduation. While little data is kept on the exact number of students taking a gap year, it is reported that gap years' popularity has been on the rise over the past few years, with an estimated 22% increase in gap year participation since 2015.
+<!-- What is PG -->
+<div class="program-grid fade-in">
+  <div class="program-image">
+    <img src="/assets/images/training/gym-main.jpg" alt="Athletes training on the Spartan Training Center court">
+  </div>
+  <div class="program-details">
+    <div class="staff-section-header" style="text-align: left;">
+      <span class="section-label">Overview</span>
+      <h2>What is a Post-Graduate Year?</h2>
+      <div class="gold-rule" style="margin: 0;"></div>
+    </div>
+    <p>While gap year popularity has risen — with an estimated 22% increase since 2015 — a PG year at FCP is different. It's structured, competitive, and designed to make you a stronger college candidate from every angle.</p>
+    <p>Our program combines elite basketball development, academic improvement, and the maturity that comes from living in a competitive team environment.</p>
+  </div>
+</div>
 
-A postgraduate (PG) year at Florida Coastal Prep is a development-focused gap year. The primary objective of a PG year is to strengthen students' candidacy for admission and increase their potential for success in college.
+<!-- Benefits -->
+<div class="staff-section staff-section-dark" style="margin-top: 3rem;">
+  <div class="staff-section-header">
+    <span class="section-label">Advantages</span>
+    <h2>Why Choose a PG Year?</h2>
+    <div class="gold-rule"></div>
+  </div>
 
-## Taking a PG year at Florida Coastal Prep provides several benefits, including:
+  <div class="feature-grid">
+    <div class="feature-card fade-in">
+      <div class="feature-icon">📚</div>
+      <h3>Academic Improvement</h3>
+      <p>Take college courses through dual enrollment or prepare for the ACT/SAT to strengthen your transcript.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon">📈</div>
+      <h3>Increased Exposure</h3>
+      <p>A national schedule and our coaching network create more opportunities for scholarship offers.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon">💪</div>
+      <h3>Physical Development</h3>
+      <p>An extra year to improve strength, speed, and agility — critical for competing at the college level.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon">🧠</div>
+      <h3>Greater Maturity</h3>
+      <p>Develop leadership skills, time management, and mental toughness in a tight-knit team environment.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon">🎯</div>
+      <h3>Better College Fit</h3>
+      <p>More time to find the right program — make an informed decision instead of a rushed one.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon">🏀</div>
+      <h3>College-Ready Game</h3>
+      <p>Adjust to the pace, intensity, and physicality of college basketball before you get there.</p>
+    </div>
+  </div>
+</div>
 
-**Academic Improvement:** Students who take a PG year at Florida Coastal Prep can choose to take college courses through our dual enrollment partner or prepare for the ACT.
+<!-- Program Offers -->
+<div class="program-offers fade-in" style="margin-top: 3rem;">
+  <div class="staff-section-header">
+    <span class="section-label">Program</span>
+    <h2>What the Program Offers</h2>
+    <div class="gold-rule"></div>
+  </div>
 
-**Increased Athletic Opportunities:** Florida Coastal Prep offers a variety of strategies that increase exposure along with developing their athletic abilities to increase their chances of being recruited by colleges.
+  <div class="offer-grid">
+    <div class="offer-item">
+      <h3>Exposure</h3>
+      <p>National schedule provides opportunities for players to showcase abilities to college recruiters.</p>
+    </div>
+    <div class="offer-item">
+      <h3>Recruiting</h3>
+      <p>Experienced staff helps navigate the recruitment process and gain exposure to a wide range of programs.</p>
+    </div>
+    <div class="offer-item">
+      <h3>Player Development</h3>
+      <p>High-level training and coaching focused on helping players reach their full potential.</p>
+    </div>
+    <div class="offer-item">
+      <h3>National Schedule</h3>
+      <p>Compete against the best prep programs in the country — valuable experience and diverse styles of play.</p>
+    </div>
+  </div>
+</div>
 
-**Greater Social, Emotional, and Mental Development:** In a tight-knit community like Florida Coastal Prep, students have the opportunity to learn and grow collaboratively, developing their social, emotional, and mental skills.
+<!-- COVID Impact -->
+<div class="staff-section staff-section-dark" style="margin-top: 3rem;">
+  <div class="staff-section-header">
+    <span class="section-label">Recruiting Landscape</span>
+    <h2>Why PG Matters More Than Ever</h2>
+    <div class="gold-rule"></div>
+  </div>
+  <div class="page-intro" style="max-width: 800px; margin: 0 auto;">
+    <p>The COVID-19 pandemic changed college recruiting permanently. The extra year of eligibility granted to existing college athletes means rosters are older and spots are fewer. Coaches now look for experienced players who can contribute immediately.</p>
+    <p>A post-graduate year gives you the edge — more film, better stats, greater maturity, and a stronger academic profile. It's no longer optional for many players; it's the smartest path to a college roster.</p>
+  </div>
+</div>
 
-**Extended College Readiness:** Florida Coastal Prep provides a structured college-like environment, allowing students to practice time management, school/life balance, and social skills that are crucial to success in college and beyond.
+<div id="schedule"></div>
 
-## The Program Offers:
-
-- **Exposure:** The program's national schedule provides plenty of opportunities for players to showcase their abilities to college recruiters and boost their recruitment prospects.
-- **Recruiting:** The program's experienced coaching staff helps players navigate the recruitment process and gain exposure to a wide range of college programs.
-- **Player development:** With a focus on player development, the program offers high-level training and coaching to help players reach their full potential.
-- **National schedule:** The program's national schedule allows players to compete against some of the best high school basketball teams in the country, providing valuable experience and exposure to different styles of play.
-- **Competition:** The program's competitive environment challenges players to improve their skills and perform at their best, helping them to prepare for the rigors of college basketball.
-
-## What did COVID-19 change about recruiting?
-
-The COVID-19 pandemic has made it harder to earn NCAA basketball scholarships, and the best college teams are now older due to an extra year of eligibility granted to student-athletes. Coaches are now looking for experienced players who can contribute immediately to the team's success, rather than taking a chance on a younger, less experienced athlete.
-
-As a result, it is much harder for younger high school athletes to earn a spot on a team. Pursuing post-grad studies can increase a player's chances of earning a scholarship by providing an extra year to develop skills and gain experience.
-
-## What is the benefit of a post grad year?
-
-1. **Improved Skills:** The additional year of eligibility allows players to further develop their skills and increase their proficiency in the game. Players can use the PG year to work on their weak areas and build on their strengths.
-
-2. **Physical Development:** Players can use the PG year to improve their physical attributes, such as strength, speed, and agility. This extra year of training can help players improve their overall athleticism, which is crucial for success at the college level.
-
-3. **Exposure to College Coaches:** The PG year provides players with additional opportunities to showcase their skills to college coaches. This exposure can lead to more scholarship offers and opportunities to play at the next level.
-
-4. **More Time to Choose the Right School:** The PG year provides players with more time to find the right college program. With an extra year to consider their options, players can make a more informed decision about where they want to continue their athletic and academic pursuits.
-
-5. **Improved Academics:** For players who need to improve their academic standing, the PG year can provide an opportunity to take additional courses and improve their GPA. This can make them more attractive to college coaches and increase their chances of receiving a scholarship offer.
-
-6. **Better Prepared for the College Game:** The PG year can help players adjust to the more demanding college game. They can use this year to get acclimated to the pace, intensity, and physicality of college basketball.
-
-7. **Increased Maturity:** The PG year can help players develop their maturity and leadership skills. This extra year of high school can help players become more responsible and better equipped to handle the challenges of college life.
-
-In conclusion, a post-graduate year can provide many benefits for basketball players who are looking to improve their skills and increase their opportunities to play at the next level. It can also help players make a more informed decision about their college program and prepare them for the challenges of college basketball.
-
-<div class="cta-section" style="margin-top: 3rem; border-radius: 12px;">
+<div class="cta-section" style="margin-top: 0; border-radius: 0;">
   <h2>Apply for the Post Grad Program</h2>
   <p>Roster spots are limited. Don't wait.</p>
   <div class="hero-cta">

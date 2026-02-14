@@ -1,42 +1,152 @@
 ---
 layout: page
 title: Housing Options
-subtitle: Beach and Team House
-# hero_image: /assets/images/housing-hero.jpg  # TODO: add hero image
+subtitle: Beach Living on the Emerald Coast
+hero_image: /assets/images/housing/pool-gulf.webp
 hero_title: Housing Options
-hero_subtitle: Beach and Team House
+hero_subtitle: Beach Living on the Emerald Coast
 ---
 
-In addition to offering a variety of housing options, we place a high priority on ensuring the safety and well-being of our student-athletes. Our house coach is always present to ensure that all housing arrangements are safe and secure.
+<div class="page-intro fade-in">
+  <p>In addition to offering a variety of housing options, we place a high priority on ensuring the safety and well-being of our student-athletes. Our house coach is always present, and each option is carefully selected to provide a safe, comfortable environment that allows athletes to focus on their training and development.</p>
+</div>
 
-All of our housing options are carefully selected to provide a safe and comfortable environment for our athletes. In addition, each housing option offers unique benefits that make them a great choice for our student-athletes.
+<!-- Beach Condos -->
+<div class="housing-section fade-in">
+  <div class="staff-section-header">
+    <span class="section-label">Waterfront</span>
+    <h2>Beach Condos</h2>
+    <div class="gold-rule"></div>
+  </div>
+  <div class="housing-layout">
+    <div class="housing-gallery">
+      <div class="gallery-main">
+        <img src="/assets/images/housing/beach-condo-1.jpg" alt="Beach condo exterior on the Emerald Coast">
+      </div>
+      <div class="gallery-row">
+        <img src="/assets/images/housing/beach-condo-2.jpg" alt="Beach condo second view">
+        <img src="/assets/images/housing/beach-view.webp" alt="View from the beach condos">
+      </div>
+    </div>
+    <div class="housing-info">
+      <p>Five units split into multiple 2-bed/1-bath units nestled along the picturesque Emerald Coast. Just a 3-minute stroll from the pristine white sands of the Gulf of Mexico.</p>
+      <p>Comprising two duplex buildings with a total of four units, one flat studio plus a magnificent standalone house right on the water — this property is a rare gem.</p>
+      <div class="housing-highlights">
+        <div class="highlight-item"><strong>5</strong><span>Units Available</span></div>
+        <div class="highlight-item"><strong>3 min</strong><span>To the Beach</span></div>
+        <div class="highlight-item"><strong>Gulf</strong><span>Views</span></div>
+      </div>
+    </div>
+  </div>
+</div>
 
-Regardless of the option chosen, our student-athletes can expect a safe, comfortable, and enjoyable living experience that will allow them to focus on their training and development. Whether it's the beach, shopping, or sports facilities, all of our housing options are conveniently located to ensure that our athletes have access to everything they need to succeed.
+<!-- Beach House -->
+<div class="housing-section housing-section-alt fade-in">
+  <div class="staff-section-header">
+    <span class="section-label">Luxury</span>
+    <h2>Beach House</h2>
+    <div class="gold-rule"></div>
+  </div>
+  <div class="housing-layout housing-layout-reverse">
+    <div class="housing-gallery">
+      <div class="gallery-main">
+        <img src="/assets/images/housing/beach-house-1.jpg" alt="Beach house exterior with private pool">
+      </div>
+      <div class="gallery-row">
+        <img src="/assets/images/housing/beach-house-2.jpg" alt="Beach house second view">
+        <img src="/assets/images/housing/pool.jpg" alt="Private pool at beach house">
+      </div>
+    </div>
+    <div class="housing-info">
+      <p>A multi-level vacation home with a private pool and patio. Located just steps from Beach Access #1 on Okaloosa Island with beautiful Gulf of Mexico views from the third floor balconies.</p>
+      <p>The common area features 12' ceilings, a kitchen island with bar seating, dining room, and covered patios overlooking the pool.</p>
+      <div class="housing-highlights">
+        <div class="highlight-item"><strong>3</strong><span>Levels</span></div>
+        <div class="highlight-item"><strong>Private</strong><span>Pool</span></div>
+        <div class="highlight-item"><strong>Gulf</strong><span>Balconies</span></div>
+      </div>
+    </div>
+  </div>
+</div>
 
-## Beach Condos
+<!-- Team Houses -->
+<div class="housing-section fade-in">
+  <div class="staff-section-header">
+    <span class="section-label">Team Living</span>
+    <h2>Team Houses</h2>
+    <div class="gold-rule"></div>
+  </div>
+  <div class="housing-layout">
+    <div class="housing-gallery">
+      <div class="gallery-main">
+        <img src="/assets/images/housing/team-house-1.jpg" alt="Team house living area">
+      </div>
+      <div class="gallery-row">
+        <img src="/assets/images/housing/team-house-2.jpg" alt="Team house second view">
+        <img src="/assets/images/housing/living-room.webp" alt="Team house living room">
+      </div>
+    </div>
+    <div class="housing-info">
+      <p>One of our most popular options. Multiple configurations available — all include bedrooms, bathrooms, full kitchens, big screen TVs, and lounge areas.</p>
+      <p>The communal space encourages team building, strategy sessions, and bonding. Particularly popular because athletes live and grow together under one roof.</p>
+      <div class="housing-highlights">
+        <div class="highlight-item"><strong>Full</strong><span>Kitchen</span></div>
+        <div class="highlight-item"><strong>Team</strong><span>Lounge</span></div>
+        <div class="highlight-item"><strong>Big Screen</strong><span>TVs</span></div>
+      </div>
+    </div>
+  </div>
+</div>
 
-This housing option is 5 units split into multiple 2 bed and 1 bath units nestled along the picturesque Emerald Coast, this waterfront property offers the epitome of coastal living. Just a leisurely 3-minute stroll from the pristine white sands of the Gulf of Mexico, this oasis beckons with its unbeatable location and breathtaking views.
+<!-- El Matador Housing -->
+<div class="housing-section housing-section-alt fade-in">
+  <div class="staff-section-header">
+    <span class="section-label">Resort</span>
+    <h2>El Matador Housing</h2>
+    <div class="gold-rule"></div>
+  </div>
+  <div class="housing-layout housing-layout-reverse">
+    <div class="housing-gallery">
+      <div class="gallery-main">
+        <img src="/assets/images/housing/standish.webp" alt="El Matador resort housing">
+      </div>
+      <div class="gallery-row">
+        <img src="/assets/images/housing/kitchen.webp" alt="Fully furnished kitchen">
+        <img src="/assets/images/housing/bedrooms.webp" alt="Furnished bedrooms">
+      </div>
+    </div>
+    <div class="housing-info">
+      <p>Fully furnished 2-bed/2-bath apartments with cable, Wi-Fi, and full access to a one-of-a-kind beach resort. Located next to 17 miles of uninhabited beach.</p>
+      <p>The 12-acre resort offers two pools, tennis/pickleball and basketball courts, a fitness center, whirlpools, saunas, and meeting rooms.</p>
+      <div class="housing-highlights">
+        <div class="highlight-item"><strong>2/2</strong><span>Bed/Bath</span></div>
+        <div class="highlight-item"><strong>12 Acre</strong><span>Resort</span></div>
+        <div class="highlight-item"><strong>17 mi</strong><span>Beach Access</span></div>
+      </div>
+    </div>
+  </div>
+</div>
 
-Comprising two duplex buildings with a total of four units, one flat studio plus a magnificent standalone house right on the water, this property is a rare gem. Our student-athletes love this option for its ample space, convenience to teammates, and proximity to the beach and local attractions.
+<!-- Interior Gallery -->
+<div class="staff-section staff-section-dark" style="padding: 3rem 0;">
+  <div class="staff-section-header">
+    <span class="section-label">Interiors</span>
+    <h2>Inside Our Housing</h2>
+    <div class="gold-rule"></div>
+  </div>
+  <div class="interior-gallery">
+    <img src="/assets/images/housing/kitchen-2.webp" alt="Modern kitchen" class="fade-in">
+    <img src="/assets/images/housing/bathroom.jpg" alt="Clean bathroom" class="fade-in">
+    <img src="/assets/images/housing/hallway.jpg" alt="Housing hallway" class="fade-in">
+    <img src="/assets/images/housing/beach.jpg" alt="Beach steps away" class="fade-in">
+  </div>
+</div>
 
-## Beach House
-
-This housing option is a multi-level vacation home with a private pool and patio. Located just steps away from Beach Access #1 on Okaloosa Island, this home offers beautiful views of the Gulf of Mexico and the intracoastal waterway from the balconies on the third floor.
-
-The common area living room features 12' ceilings, a kitchen island with bar seating, a dining room table, and covered patios overlooking the pool. Our student-athletes love this option for its luxurious amenities and proximity to the beach and local attractions.
-
-## Team Houses
-
-One of our most popular options is one of our Team Houses. We have different options, but all include, bedrooms, bathrooms, full kitchens, big screen TVs, and lounge areas.
-
-The Team Houses offer an environment that encourages both relaxation and team building. The lounge area and big screen TVs provide an excellent communal space for relaxation, entertainment, or even team strategizing. The option to review gameplays together or enjoy downtime watching shows or movies can indeed foster camaraderie and a stronger team dynamic. This option is particularly popular among our players because it provides a great opportunity for camaraderie and bonding under one roof.
-
-## El Matador Housing
-
-Our players stay in fully furnished 2 bed/2 bathroom apartments. Cable, Wi/Fi, and full access to a one of a kind beach resort is included. Our housing units are located next to 17 miles of uninhabited beach with a 12-acre beach resort that offers an array of amenities which includes two pools, tennis/pickle ball and basketball courts, a fitness center, whirlpools, saunas, and meeting rooms.
-
-<div class="cta-section" style="margin-top: 3rem; border-radius: 12px;">
+<div class="cta-section" style="margin-top: 0; border-radius: 0;">
   <h2>Questions About Housing?</h2>
   <p>We're happy to walk you through the details and set up a visit.</p>
-  <a href="/contact/" class="btn btn-primary">Contact Us</a>
+  <div class="hero-cta">
+    <a href="/contact/" class="btn btn-primary">Contact Us</a>
+    <a href="/apply/" class="btn btn-outline">Apply Now</a>
+  </div>
 </div>
