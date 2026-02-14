@@ -897,6 +897,7 @@ section { padding: 4rem 0; }
   .instagram-section { padding: 3rem 0 2rem; }
   .video-hub-section { padding: 3rem 0; }
   .video-hub-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .testimonial-quote { font-size: 2.5rem; }
 }
 
 /* --- Responsive: Small Mobile (<=480px) --- */
@@ -918,6 +919,8 @@ section { padding: 4rem 0; }
   .instagram-icon svg { width: 24px; height: 24px; }
   .news-ticker-label { padding: 0.5rem 0.75rem; font-size: 0.55rem; }
   .news-ticker-label::after { right: -6px; width: 12px; }
+  .partners-logos { gap: 1rem; }
+  .partners-logos img { height: 24px; }
 }
 
 /* --- Utility Classes --- */
