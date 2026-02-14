@@ -74,8 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     }, {
-      threshold: 0.15,
-      rootMargin: '0px 0px -50px 0px'
+      threshold: 0.01,
+      rootMargin: '0px 0px -30px 0px'
     });
     fadeElements.forEach(el => fadeObserver.observe(el));
   }
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
           staggerObserver.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.2 });
+    }, { threshold: 0.05 });
     staggerGrids.forEach(el => staggerObserver.observe(el));
   }
 });

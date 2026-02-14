@@ -1113,6 +1113,7 @@ iframe { max-width: 100%; }
   color: inherit;
   transition: background 0.2s, box-shadow 0.2s;
   flex: 1;
+  max-height: 120px;
 }
 .editorial-card:hover {
   background: #eef0f4;
@@ -1122,6 +1123,7 @@ iframe { max-width: 100%; }
 .editorial-card-image {
   height: 100%;
   min-height: 95px;
+  max-height: 120px;
   overflow: hidden;
 }
 .editorial-card-image img {
