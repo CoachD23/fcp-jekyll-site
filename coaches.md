@@ -90,7 +90,7 @@ hero_subtitle: The Team Behind the Team
 
     <div class="coach-profile fade-in">
       <div class="coach-img-wrapper">
-        <img src="/assets/images/coaches/richard-coleman.png" alt="Richard Coleman">
+        <img src="/assets/images/coaches/richard-coleman.webp" alt="Richard Coleman">
         <div class="coach-badge">NFL Trainer</div>
       </div>
       <div class="coach-details">
@@ -124,7 +124,7 @@ hero_subtitle: The Team Behind the Team
 
     <div class="coach-profile fade-in">
       <div class="coach-img-wrapper">
-        <img src="/assets/images/coaches/dada-huang.png" alt="Guanda Dada Huang">
+        <img src="/assets/images/coaches/dada-huang.webp" alt="Guanda Dada Huang">
       </div>
       <div class="coach-details">
         <h3>Guanda "Dada" Huang</h3>
