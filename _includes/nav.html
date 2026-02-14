@@ -1,7 +1,7 @@
 <header class="site-header" id="header">
   <div class="container nav-container">
     <a href="{{ '/' | relative_url }}" class="logo">
-      <img src="{{ '/assets/images/fcp-logo.png' | relative_url }}" alt="Florida Coastal Prep">
+      <img src="{{ '/assets/images/fcp-logo.png' | relative_url }}" alt="Florida Coastal Prep" width="52" height="56">
     </a>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -12,7 +12,6 @@
           <a href="{{ '/about/' | relative_url }}">About</a>
           <ul class="dropdown-menu">
             <li><a href="{{ '/about/' | relative_url }}">About FCP</a></li>
-            <li><a href="{{ '/roster/' | relative_url }}">Roster</a></li>
             <li><a href="{{ '/blog/' | relative_url }}">News</a></li>
             <li><a href="{{ '/testimonials/' | relative_url }}">Testimonials</a></li>
             <li><a href="{{ '/area-info/' | relative_url }}">Travel & Area Info</a></li>
@@ -42,12 +41,11 @@
             <li><a href="{{ '/tuition/' | relative_url }}">Tuition</a></li>
           </ul>
         </li>
-        <li><a href="{{ '/apply/' | relative_url }}">Apply</a></li>
+        <li><a href="{{ '/apply/' | relative_url }}" class="nav-cta">Apply Now</a></li>
         <li class="dropdown">
           <a href="{{ '/contact/' | relative_url }}">Contact</a>
           <ul class="dropdown-menu">
             <li><a href="{{ '/contact/' | relative_url }}">Contact Us</a></li>
-            <li><a href="{{ '/faq/' | relative_url }}">FAQ / Parents</a></li>
             <li><a href="{{ '/tuition/#payment' | relative_url }}">Make a Payment</a></li>
           </ul>
         </li>

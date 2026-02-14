@@ -2,7 +2,6 @@
 layout: page
 title: Why Post Grad?
 subtitle: Postgraduate Year at Florida Coastal Prep
-description: "Discover why a post-graduate year at Florida Coastal Prep can help you develop your basketball skills, improve academics, and earn a college scholarship. Ages 18-20."
 # hero_image: /assets/images/post-grad-hero.jpg  # TODO: add hero image
 hero_title: Why a Gap Year at Florida Coastal Prep?
 hero_subtitle: An Alternative to Traditional Gap Year

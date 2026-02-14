@@ -11,15 +11,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
 
-<!-- Structured Data: Organization + LocalBusiness -->
+<!-- Structured Data: Organization -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": ["SportsOrganization", "LocalBusiness"],
+  "@type": "SportsOrganization",
   "name": "Florida Coastal Prep Sports Academy",
   "url": "https://floridacoastalprep.com",
   "logo": "https://floridacoastalprep.com/assets/images/fcp-logo.png",
-  "image": "https://floridacoastalprep.com/assets/images/homepage-hero.jpeg",
   "description": "{{ site.description }}",
   "address": {
     "@type": "PostalAddress",
@@ -29,43 +28,14 @@
     "postalCode": "32548",
     "addressCountry": "US"
   },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 30.4058,
-    "longitude": -86.6186
-  },
   "telephone": "+18509612323",
   "email": "info@floridacoastalprep.com",
   "sport": "Basketball",
-  "priceRange": "$$$$",
-  "openingHours": ["Mo-Fr 08:00-17:00", "Sa 08:00-13:00"],
   "sameAs": [
-    "https://twitter.com/Flcoastalprep",
-    "https://instagram.com/Flcoastalprep",
-    "https://facebook.com/FloridaCoastalPrep",
-    "https://youtube.com/@floridacoastalprep"
-  ]
-}
-</script>
-
-<!-- Structured Data: BreadcrumbList -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "{{ '/' | absolute_url }}"
-    }{% if page.url != '/' %},
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "{{ page.title }}",
-      "item": "{{ page.url | absolute_url }}"
-    }{% endif %}
+    "{{ site.social.facebook }}",
+    "{{ site.social.instagram }}",
+    "{{ site.social.twitter }}",
+    "{{ site.social.youtube }}"
   ]
 }
 </script>
@@ -78,11 +48,9 @@
   "@type": "Article",
   "headline": "{{ page.title }}",
   "datePublished": "{{ page.date | date_to_xmlschema }}",
-  {% if page.image %}"image": "{{ page.image | absolute_url }}",{% endif %}
   "author": {
     "@type": "Organization",
-    "name": "Florida Coastal Prep Sports Academy",
-    "url": "https://floridacoastalprep.com"
+    "name": "Florida Coastal Prep"
   },
   "publisher": {
     "@type": "Organization",

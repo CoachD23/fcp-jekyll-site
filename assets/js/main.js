@@ -62,4 +62,72 @@ document.addEventListener('DOMContentLoaded', () => {
       header.classList.toggle('scrolled', window.scrollY > 50);
     }, { passive: true });
   }
+
+  // --- Scroll-triggered fade-in animations ---
+  const fadeElements = document.querySelectorAll('.fade-in');
+  if (fadeElements.length > 0) {
+    const fadeObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          fadeObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.15,
+      rootMargin: '0px 0px -50px 0px'
+    });
+    fadeElements.forEach(el => fadeObserver.observe(el));
+  }
+
+  // --- Animated number counter ---
+  const impactNumbers = document.querySelectorAll('.impact-number[data-count]');
+  if (impactNumbers.length > 0) {
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounter(entry.target);
+          counterObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    impactNumbers.forEach(el => counterObserver.observe(el));
+  }
+
+  function animateCounter(el) {
+    const target = parseInt(el.getAttribute('data-count'), 10);
+    const duration = 1800;
+    const start = performance.now();
+
+    function update(now) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      // Ease-out curve
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = Math.round(eased * target);
+      el.textContent = current.toLocaleString();
+      if (progress < 1) {
+        requestAnimationFrame(update);
+      }
+    }
+    requestAnimationFrame(update);
+  }
+
+  // --- Staggered fade-in for grid children ---
+  const staggerGrids = document.querySelectorAll('.levels-grid, .impact-grid, .program-cards');
+  if (staggerGrids.length > 0) {
+    const staggerObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const children = entry.target.children;
+          Array.from(children).forEach((child, i) => {
+            child.style.transitionDelay = `${i * 0.1}s`;
+            child.classList.add('visible');
+          });
+          staggerObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+    staggerGrids.forEach(el => staggerObserver.observe(el));
+  }
 });

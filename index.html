@@ -1,28 +1,68 @@
 ---
 layout: default
 title: Home
-description: "Florida Coastal Prep Sports Academy offers post-graduate and high school basketball programs in Fort Walton Beach, FL. Develop your game, earn a college scholarship, and train with former college and pro coaches."
 # hero_video: /assets/video/fcp-hero.mp4
 hero_poster: /assets/images/homepage-hero.jpeg
 hero_title: "Florida Coastal Prep"
+hero_subtitle: "Where Future College Athletes Are Made"
+hero_stats: true
 ---
 
 {% include hero-video.html %}
 
-<!-- About FCP -->
+<!-- Impact Stats Bar -->
+<section class="impact-bar">
+  <div class="container">
+    <div class="impact-grid">
+      <div class="impact-item fade-in">
+        <span class="impact-number" data-count="500">0</span><span class="impact-plus">+</span>
+        <span class="impact-label">College Commitments</span>
+      </div>
+      <div class="impact-item fade-in">
+        <span class="impact-number" data-count="25">0</span><span class="impact-plus">+</span>
+        <span class="impact-label">Years of Coaching</span>
+      </div>
+      <div class="impact-item fade-in">
+        <span class="impact-number" data-count="488">0</span><span class="impact-plus">+</span>
+        <span class="impact-label">Training Videos</span>
+      </div>
+      <div class="impact-item fade-in">
+        <span class="impact-number" data-count="140">0</span><span class="impact-plus">K Views</span>
+        <span class="impact-label">Docuseries Episode 1</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Highlights Reel -->
+<section class="section-dark video-showcase">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">See It In Action</span>
+      <h2>FCP Highlights</h2>
+      <p>Watch our athletes compete against nationally ranked programs and college developmental teams.</p>
+    </div>
+    <div class="video-embed-wrapper fade-in">
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/eiI-4kFQKt8?rel=0&modestbranding=1" title="Florida Coastal Prep 2022 Highlights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About FCP - Compact -->
 <section class="section-light">
   <div class="container">
-    <div class="section-header">
-      <h2>Florida Coastal Prep Sports Academy</h2>
-    </div>
-    <div class="grid-2">
-      <div>
-        <p>Florida Coastal Prep Sports Academy, located in Fort Walton Beach, Florida, is a high school and post-graduate opportunity for players seeking to earn a college scholarship to pay for their academic degree.</p>
-        <p>Florida Coastal Prep Sports Academy has partnered with Lighthouse Christian Academy to offer a high school diploma that features dual credit courses and AP courses along with NCAA approved coursework. This program gives students an added level of flexibility and convenience when it comes to your choice of education. Engaging lesson plans, 24/7 access, and experienced, certified LCA teachers working with your student will bring schooling to a new level. All core classes are accredited and NCAA approved.</p>
+    <div class="about-split fade-in">
+      <div class="about-text">
+        <span class="section-tag">About The Academy</span>
+        <h2>Built for the Next Level</h2>
+        <p>Florida Coastal Prep Sports Academy is a high school and post-graduate opportunity for players seeking to earn a college scholarship. Located in Fort Walton Beach, Florida, we partner with Lighthouse Christian Academy to offer NCAA-approved coursework, AP courses, and dual credit options.</p>
+        <p>Our experienced team of former college and professional coaches brings an extensive network of connections and college coaching experience. Every player gets a customized development plan designed to make them college-ready on day one.</p>
+        <a href="/about/" class="btn btn-primary">Learn More About FCP</a>
       </div>
-      <div>
-        <p>Our housing and facilities are world-class offering the best in training and beach living. In addition, we compete against nationally ranked prep programs, college developmental programs and junior colleges affording our players national exposure and recruiting opportunity.</p>
-        <p>Florida Coastal Prep is driven by our experienced team of former college and professional coaches. Every coach on our staff has an extensive network of connections along with college coaching experience. Our management and coaching staff is dedicated to providing training and skill development that will prepare our players to be college ready on day 1.</p>
+      <div class="about-image">
+        <img src="/assets/images/about-fcp.jpg" alt="FCP Athletes Training" loading="lazy" class="rounded">
       </div>
     </div>
   </div>
@@ -31,50 +71,134 @@ hero_title: "Florida Coastal Prep"
 <!-- Programs -->
 <section>
   <div class="container">
-    <div class="section-header">
+    <div class="section-header fade-in">
+      <span class="section-tag">Pathways</span>
       <h2>Our Programs</h2>
-      <p>Florida Coastal Prep has a plan for each player and a highly regimented schedule designed to optimize our players improvement and performance.</p>
+      <p>A plan for each player and a highly regimented schedule designed to optimize improvement and performance.</p>
     </div>
-    <div class="grid-2">
-      <a href="/post-grad/" class="card">
-        <img src="/assets/images/about-fcp.jpg" alt="Post Graduate Program" loading="lazy">
-        <div class="card-body">
+    <div class="program-cards fade-in">
+      <a href="/post-grad/" class="program-card">
+        <div class="program-card-image">
+          <img src="/assets/images/training/gym-main.jpg" alt="Post Graduate Program" loading="lazy">
+          <div class="program-card-overlay"></div>
+        </div>
+        <div class="program-card-content">
+          <span class="program-card-tag">Ages 18-20</span>
           <h3>Post Graduate Program</h3>
-          <p>For graduates seeking an extra year to develop their game, improve academics, and secure a college scholarship. Ages 18-20.</p>
+          <p>An extra year to develop your game, improve academics, and secure a college scholarship with national exposure.</p>
+          <span class="program-card-link">Explore Program &rarr;</span>
         </div>
       </a>
-      <a href="/high-school/" class="card">
-        <img src="/assets/images/blog-kenny.jpg" alt="High School Program" loading="lazy">
-        <div class="card-body">
+      <a href="/high-school/" class="program-card">
+        <div class="program-card-image">
+          <img src="/assets/images/training/spartan-center.jpg" alt="High School Program" loading="lazy">
+          <div class="program-card-overlay"></div>
+        </div>
+        <div class="program-card-content">
+          <span class="program-card-tag">Grades 9-12</span>
           <h3>National High School Program</h3>
-          <p>Our high school program offers NCAA approved coursework along with AP classes and dual credit courses with national basketball exposure.</p>
+          <p>NCAA-approved coursework with AP classes and dual credit courses alongside national basketball exposure.</p>
+          <span class="program-card-link">Explore Program &rarr;</span>
         </div>
       </a>
     </div>
   </div>
 </section>
 
-<!-- Testimonials Preview -->
-<section class="section-light">
+<!-- Docuseries Feature -->
+<section class="docuseries-section">
   <div class="container">
-    <div class="section-header">
-      <h2>What Families Say</h2>
-    </div>
-    <div class="grid-2">
-      <div class="card">
-        <div class="card-body">
-          <p>"Coach Lee DeForest was instrumental in putting my son in the position to compete against high level competition as well as in front of college coaches. My son matured and received a D1 scholarship and now plays for the Missouri Tigers."</p>
-          <p><strong>— Sean East Sr.</strong></p>
-        </div>
+    <div class="docuseries-layout fade-in">
+      <div class="docuseries-text">
+        <span class="section-tag section-tag-light">Original Series</span>
+        <h2>6 Months to Change Everything</h2>
+        <p>Follow our athletes through the grind, the growth, and the breakthroughs. Our docuseries has reached <strong>140,000+ views</strong> and counting, giving families an inside look at the FCP experience.</p>
+        <a href="https://www.youtube.com/@FloridaCoastalPrep" target="_blank" rel="noopener" class="btn btn-outline">Watch on YouTube</a>
       </div>
-      <div class="card">
-        <div class="card-body">
-          <p>"My son played for Coach DeForest and he did an awesome job with my son. He was a great mentor, and did a fantastic job in getting him ready for the next level. My son had zero offers coming out high school, and after completing his time at FCP, he had plenty of offers."</p>
-          <p><strong>— Shawn Roy</strong></p>
+      <div class="docuseries-video">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/videoseries?list=PLiN-7TkKOQVPGcUWuJLQLGJmULicFLJZj&rel=0" title="6 Months to Change Everything - FCP Docuseries" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
     </div>
-    <div style="text-align: center; margin-top: 2rem;">
+  </div>
+</section>
+
+<!-- Where Our Athletes Play -->
+<section class="section-dark placements-section">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Results</span>
+      <h2>Where Our Athletes Play</h2>
+      <p>FCP alumni compete at every level of college basketball across the country.</p>
+    </div>
+    <div class="levels-grid fade-in">
+      <div class="level-card">
+        <div class="level-icon">DI</div>
+        <h3>NCAA Division I</h3>
+        <p>Our top athletes earn scholarships to the highest level of college basketball.</p>
+      </div>
+      <div class="level-card">
+        <div class="level-icon">DII</div>
+        <h3>NCAA Division II</h3>
+        <p>Competitive programs that offer strong academics alongside basketball.</p>
+      </div>
+      <div class="level-card">
+        <div class="level-icon">NAIA</div>
+        <h3>NAIA Programs</h3>
+        <p>Scholarship opportunities across hundreds of NAIA member institutions.</p>
+      </div>
+      <div class="level-card">
+        <div class="level-icon">JUCO</div>
+        <h3>Junior College</h3>
+        <p>A proven pathway for athletes to develop and transfer to four-year programs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Partner Logos -->
+<section class="partners-bar">
+  <div class="container">
+    <div class="partners-header fade-in">
+      <span class="section-tag">Trusted By</span>
+    </div>
+    <div class="partners-logos fade-in">
+      <img src="/assets/images/partners/adidas.png" alt="Adidas" loading="lazy">
+      <img src="/assets/images/partners/hudl.png" alt="Hudl" loading="lazy">
+      <img src="/assets/images/partners/jr-nba.png" alt="Jr. NBA" loading="lazy">
+      <img src="/assets/images/partners/ussa.png" alt="USSA" loading="lazy">
+      <img src="/assets/images/partners/seal.png" alt="Seal" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="section-light testimonials-section">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Families</span>
+      <h2>What Parents Say</h2>
+    </div>
+    <div class="testimonials-grid fade-in">
+      <div class="testimonial-card">
+        <div class="testimonial-quote">"</div>
+        <p>Coach Lee DeForest was instrumental in putting my son in the position to compete against high level competition as well as in front of college coaches. My son matured and received a D1 scholarship and now plays for the Missouri Tigers.</p>
+        <div class="testimonial-author">
+          <strong>Sean East Sr.</strong>
+          <span>Parent &middot; Son signed D1</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-quote">"</div>
+        <p>My son played for Coach DeForest and he did an awesome job with my son. He was a great mentor, and did a fantastic job in getting him ready for the next level. My son had zero offers coming out high school, and after completing his time at FCP, he had plenty of offers.</p>
+        <div class="testimonial-author">
+          <strong>Shawn Roy</strong>
+          <span>Parent &middot; Son received multiple offers</span>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-2 fade-in">
       <a href="/testimonials/" class="btn btn-primary">Read More Testimonials</a>
     </div>
   </div>
@@ -83,10 +207,11 @@ hero_title: "Florida Coastal Prep"
 <!-- News Preview -->
 <section>
   <div class="container">
-    <div class="section-header">
-      <h2>Florida Coastal Prep News</h2>
+    <div class="section-header fade-in">
+      <span class="section-tag">Updates</span>
+      <h2>FCP News</h2>
     </div>
-    <div class="post-grid">
+    <div class="post-grid fade-in">
       {% for post in site.posts limit:3 %}
       <a href="{{ post.url | relative_url }}" class="post-card">
         {% if post.image %}
@@ -101,7 +226,7 @@ hero_title: "Florida Coastal Prep"
       </a>
       {% endfor %}
     </div>
-    <div style="text-align: center; margin-top: 2rem;">
+    <div class="text-center mt-2 fade-in">
       <a href="/blog/" class="btn btn-outline" style="color: #0a1628; border-color: #0a1628;">View All News</a>
     </div>
   </div>
@@ -109,9 +234,10 @@ hero_title: "Florida Coastal Prep"
 
 <!-- CTA -->
 <section class="cta-section">
-  <div class="container">
+  <div class="container fade-in">
+    <span class="section-tag section-tag-light">Limited Roster Spots</span>
     <h2>Ready to Take the Next Step?</h2>
-    <p>Join the FCP family and start your journey to college basketball. Limited roster spots available for the upcoming season.</p>
+    <p>Join the FCP family and start your journey to college basketball.</p>
     <div class="hero-cta">
       <a href="/apply/" class="btn btn-primary">Apply Now</a>
       <a href="/contact/" class="btn btn-outline">Contact Us</a>
