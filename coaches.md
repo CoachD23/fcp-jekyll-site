@@ -90,18 +90,6 @@ hero_subtitle: The Team Behind the Team
 
     <div class="coach-profile fade-in">
       <div class="coach-img-wrapper">
-        <img src="/assets/images/coaches/richard-coleman.webp" alt="Richard Coleman">
-        <div class="coach-badge">NFL Trainer</div>
-      </div>
-      <div class="coach-details">
-        <h3>Richard Coleman</h3>
-        <p class="coach-title">Strength & Conditioning Coach / Personal Trainer / Mentor</p>
-        <p class="coach-bio">Over two decades in strength and conditioning. Former trainer with New England Patriots (1999-2004) and Minnesota Vikings (1999-2004).</p>
-      </div>
-    </div>
-
-    <div class="coach-profile fade-in">
-      <div class="coach-img-wrapper">
         <img src="/assets/images/coaches/dmitry-utolin.webp" alt="Dmitry Utolin">
       </div>
       <div class="coach-details">
