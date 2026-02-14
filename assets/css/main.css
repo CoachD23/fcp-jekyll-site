@@ -51,7 +51,7 @@ section { padding: 4rem 0; }
   height: 80px;
 }
 .logo img { height: 56px; width: auto; }
-.main-nav ul {
+.main-nav > ul {
   display: flex;
   align-items: center;
   gap: 0.25rem;
@@ -830,7 +830,7 @@ section { padding: 4rem 0; }
     overflow-y: auto;
   }
   .main-nav.active { display: block; }
-  .main-nav ul { flex-direction: column; gap: 0; }
+  .main-nav > ul { flex-direction: column; gap: 0; }
   .main-nav a { display: block; padding: 0.75rem 1rem; font-size: 1rem; }
   .dropdown-menu {
     display: none;
