@@ -52,4 +52,4 @@ If you have questions about this Privacy Policy, contact us at:
 
 **Email:** info@floridacoastalprep.com
 **Phone:** 850-961-2323
-**Address:** 217 Miracle Strip Pkwy SE Unit 117, Fort Walton Beach, FL 32548
+**Address:** 33 Jet Drive NW, Fort Walton Beach, FL 32548
