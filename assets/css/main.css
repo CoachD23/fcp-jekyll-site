@@ -1391,14 +1391,14 @@ iframe { max-width: 100%; }
 }
 .executive-photo {
   position: relative;
-  height: 340px;
+  height: 240px;
   overflow: hidden;
 }
 .executive-photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top center;
+  object-position: center 20%;
   transition: transform 0.6s;
 }
 .executive-card:hover .executive-photo img {
@@ -1968,7 +1968,7 @@ iframe { max-width: 100%; }
 @media (max-width: 768px) {
   .staff-section { padding: 3rem 0; }
   .staff-section-dark { padding: 3rem 0; }
-  .executive-photo { height: 260px; }
+  .executive-photo { height: 220px; }
   .coach-profile {
     grid-template-columns: 1fr;
     text-align: center;
@@ -1999,7 +1999,7 @@ iframe { max-width: 100%; }
 
 /* Small Mobile (<=480px) */
 @media (max-width: 480px) {
-  .executive-photo { height: 220px; }
+  .executive-photo { height: 180px; }
   .executive-info { padding: 1.25rem; }
   .executive-info h3 { font-size: 1.25rem; }
   .exec-bio { font-size: 0.88rem; }
