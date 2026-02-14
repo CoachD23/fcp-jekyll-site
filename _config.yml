@@ -3,15 +3,6 @@ title: Florida Coastal Prep Sports Academy
 description: "A high school and post-graduate basketball program bridging the gap between high school and college athletics."
 url: "https://floridacoastalprep.com"
 baseurl: ""
-locale: "en_US"
-
-# Default OG image (used when pages don't specify their own)
-image: /assets/images/homepage-hero.jpeg
-
-# Twitter / X handle for Twitter Cards
-twitter:
-  username: Flcoastalprep
-  card: summary_large_image
 
 # Contact
 email: info@floridacoastalprep.com
@@ -22,17 +13,8 @@ hours: "Mon-Fri 8AM-5PM | Sat 8AM-1PM"
 
 # Social
 social:
-  name: Florida Coastal Prep Sports Academy
-  links:
-    - "https://twitter.com/Flcoastalprep"
-    - "https://instagram.com/Flcoastalprep"
-    - "https://facebook.com/FloridaCoastalPrep"
-    - "https://youtube.com/@floridacoastalprep"
-
-# Social URLs (for footer and structured data)
-social_links:
   twitter: "https://twitter.com/Flcoastalprep"
-  instagram: "https://instagram.com/Flcoastalprep"
+  instagram: "https://instagram.com/FLCoastalPrep"
   facebook: "https://facebook.com/FloridaCoastalPrep"
   youtube: "https://youtube.com/@floridacoastalprep"
 
@@ -47,8 +29,6 @@ collections:
   pages:
     output: true
     permalink: /:path/
-  roster:
-    output: false
 
 # Plugins
 plugins:
@@ -60,10 +40,6 @@ plugins:
 defaults:
   - scope:
       path: ""
-    values:
-      image: /assets/images/homepage-hero.jpeg
-  - scope:
-      path: ""
       type: "posts"
     values:
       layout: "post"
@@ -72,10 +48,6 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-
-# Include files that start with underscore (needed for Netlify _redirects)
-include:
-  - _redirects
 
 # Exclude from build
 exclude:

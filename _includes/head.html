@@ -4,6 +4,17 @@
 <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
+<!-- Open Graph / Social Sharing -->
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{% if page.title and page.title != 'Home' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:image" content="{{ '/assets/images/about-fcp.jpg' | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@Flcoastalprep">
+<meta name="twitter:image" content="{{ '/assets/images/about-fcp.jpg' | absolute_url }}">
+
 {% seo %}
 
 <!-- Favicon -->

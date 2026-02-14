@@ -1,14 +1,35 @@
 ---
 layout: default
 title: Home
-# hero_video: /assets/video/fcp-hero.mp4
 hero_poster: /assets/images/homepage-hero.jpeg
 hero_title: "Florida Coastal Prep"
 hero_subtitle: "Where Future College Athletes Are Made"
 hero_stats: true
+description: "Florida Coastal Prep Sports Academy — a premier post-graduate and high school basketball program in Fort Walton Beach, FL. 500+ college commitments. Apply today."
 ---
 
 {% include hero-video.html %}
+
+<!-- Breaking News Ticker -->
+<div class="news-ticker">
+  <div class="news-ticker-label">Latest</div>
+  <div class="news-ticker-track">
+    <div class="news-ticker-content">
+      {% for post in site.posts limit:6 %}
+      <a href="{{ post.url | relative_url }}" class="ticker-item">
+        <span class="ticker-cat">{{ post.categories | first | upcase }}</span>
+        {{ post.title }}
+      </a>
+      {% endfor %}
+      {% for post in site.posts limit:6 %}
+      <a href="{{ post.url | relative_url }}" class="ticker-item" aria-hidden="true">
+        <span class="ticker-cat">{{ post.categories | first | upcase }}</span>
+        {{ post.title }}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
 
 <!-- Impact Stats Bar -->
 <section class="impact-bar">
@@ -34,36 +55,100 @@ hero_stats: true
   </div>
 </section>
 
-<!-- Highlights Reel -->
-<section class="section-dark video-showcase">
+<!-- FCP Newsroom — Editorial Feature -->
+<section class="newsroom-section">
   <div class="container">
-    <div class="section-header fade-in">
-      <span class="section-tag">See It In Action</span>
-      <h2>FCP Highlights</h2>
-      <p>Watch our athletes compete against nationally ranked programs and college developmental teams.</p>
+    <div class="newsroom-header fade-in">
+      <span class="section-tag">FCP Newsroom</span>
+      <h2>Stories &amp; Updates</h2>
     </div>
-    <div class="video-embed-wrapper fade-in">
-      <div class="video-embed">
-        <iframe src="https://www.youtube.com/embed/eiI-4kFQKt8?rel=0&modestbranding=1" title="Florida Coastal Prep 2022 Highlights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <div class="editorial-grid fade-in">
+      {% assign featured = site.posts | first %}
+      <a href="{{ featured.url | relative_url }}" class="editorial-feature">
+        <div class="editorial-feature-image">
+          {% if featured.image %}
+          <img src="{{ featured.image | relative_url }}" alt="{{ featured.title }}" loading="lazy">
+          {% elsif featured.categories contains 'highlights' %}
+          <img src="/assets/images/blog/kenny-visit.jpg" alt="{{ featured.title }}" loading="lazy">
+          {% elsif featured.categories contains 'recruiting' %}
+          <img src="/assets/images/blog/scholarships.jpg" alt="{{ featured.title }}" loading="lazy">
+          {% elsif featured.categories contains 'commitments' %}
+          <img src="/assets/images/training/gym-main.jpg" alt="{{ featured.title }}" loading="lazy">
+          {% else %}
+          <img src="/assets/images/about-fcp.jpg" alt="{{ featured.title }}" loading="lazy">
+          {% endif %}
+          <div class="editorial-overlay"></div>
+        </div>
+        <div class="editorial-feature-text">
+          <span class="editorial-cat">{{ featured.categories | first | replace: '-', ' ' | upcase }}</span>
+          <h3>{{ featured.title }}</h3>
+          <p>{{ featured.excerpt | strip_html | truncate: 160 }}</p>
+          <time datetime="{{ featured.date | date_to_xmlschema }}">{{ featured.date | date: "%B %d, %Y" }}</time>
+        </div>
+      </a>
+      <div class="editorial-sidebar">
+        {% for post in site.posts limit:4 offset:1 %}
+        <a href="{{ post.url | relative_url }}" class="editorial-card">
+          <div class="editorial-card-image">
+            {% if post.image %}
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+            {% elsif post.categories contains 'highlights' %}
+            <img src="/assets/images/blog/kenny-visit.jpg" alt="{{ post.title }}" loading="lazy">
+            {% elsif post.categories contains 'recruiting' %}
+            <img src="/assets/images/blog/scholarships.jpg" alt="{{ post.title }}" loading="lazy">
+            {% elsif post.categories contains 'commitments' %}
+            <img src="/assets/images/training/gym-main.jpg" alt="{{ post.title }}" loading="lazy">
+            {% elsif post.categories contains 'game-recap' %}
+            <img src="/assets/images/training/spartan-center.jpg" alt="{{ post.title }}" loading="lazy">
+            {% else %}
+            <img src="/assets/images/about-fcp.jpg" alt="{{ post.title }}" loading="lazy">
+            {% endif %}
+          </div>
+          <div class="editorial-card-text">
+            <span class="editorial-cat-sm">{{ post.categories | first | replace: '-', ' ' | upcase }}</span>
+            <h4>{{ post.title }}</h4>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+          </div>
+        </a>
+        {% endfor %}
       </div>
+    </div>
+    <div class="text-center mt-2 fade-in">
+      <a href="/blog/" class="btn btn-outline-dark">View All News &rarr;</a>
     </div>
   </div>
 </section>
 
-<!-- About FCP - Compact -->
-<section class="section-light">
+<!-- Instagram Spotlight -->
+<section class="instagram-section">
   <div class="container">
-    <div class="about-split fade-in">
-      <div class="about-text">
-        <span class="section-tag">About The Academy</span>
-        <h2>Built for the Next Level</h2>
-        <p>Florida Coastal Prep Sports Academy is a high school and post-graduate opportunity for players seeking to earn a college scholarship. Located in Fort Walton Beach, Florida, we partner with Lighthouse Christian Academy to offer NCAA-approved coursework, AP courses, and dual credit options.</p>
-        <p>Our experienced team of former college and professional coaches brings an extensive network of connections and college coaching experience. Every player gets a customized development plan designed to make them college-ready on day one.</p>
-        <a href="/about/" class="btn btn-primary">Learn More About FCP</a>
+    <div class="instagram-header fade-in">
+      <div class="instagram-icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
       </div>
-      <div class="about-image">
-        <img src="/assets/images/about-fcp.jpg" alt="FCP Athletes Training" loading="lazy" class="rounded">
-      </div>
+      <h2>@FLCoastalPrep</h2>
+      <p>Follow our athletes, behind-the-scenes training, game highlights, and the FCP lifestyle on Instagram.</p>
+    </div>
+    <div class="instagram-grid fade-in">
+      <a href="https://instagram.com/FLCoastalPrep" target="_blank" rel="noopener" class="instagram-card">
+        <img src="/assets/images/training/gym-main.jpg" alt="FCP Training" loading="lazy">
+        <div class="instagram-card-overlay"><span>View on Instagram</span></div>
+      </a>
+      <a href="https://instagram.com/FLCoastalPrep" target="_blank" rel="noopener" class="instagram-card">
+        <img src="/assets/images/training/spartan-center.jpg" alt="Spartan Center" loading="lazy">
+        <div class="instagram-card-overlay"><span>View on Instagram</span></div>
+      </a>
+      <a href="https://instagram.com/FLCoastalPrep" target="_blank" rel="noopener" class="instagram-card">
+        <img src="/assets/images/housing/beach.jpg" alt="FCP Beach Life" loading="lazy">
+        <div class="instagram-card-overlay"><span>View on Instagram</span></div>
+      </a>
+      <a href="https://instagram.com/FLCoastalPrep" target="_blank" rel="noopener" class="instagram-card">
+        <img src="/assets/images/housing/pool.jpg" alt="FCP Lifestyle" loading="lazy">
+        <div class="instagram-card-overlay"><span>View on Instagram</span></div>
+      </a>
+    </div>
+    <div class="text-center mt-2 fade-in">
+      <a href="https://instagram.com/FLCoastalPrep" target="_blank" rel="noopener" class="btn btn-instagram">Follow @FLCoastalPrep</a>
     </div>
   </div>
 </section>
@@ -74,7 +159,7 @@ hero_stats: true
     <div class="section-header fade-in">
       <span class="section-tag">Pathways</span>
       <h2>Our Programs</h2>
-      <p>A plan for each player and a highly regimented schedule designed to optimize improvement and performance.</p>
+      <p>A structured plan for each player. Highly regimented schedules designed to optimize improvement and performance.</p>
     </div>
     <div class="program-cards fade-in">
       <a href="/post-grad/" class="program-card">
@@ -105,20 +190,49 @@ hero_stats: true
   </div>
 </section>
 
-<!-- Docuseries Feature -->
-<section class="docuseries-section">
+<!-- Video Hub: Highlights + Docuseries -->
+<section class="video-hub-section">
   <div class="container">
-    <div class="docuseries-layout fade-in">
-      <div class="docuseries-text">
-        <span class="section-tag section-tag-light">Original Series</span>
-        <h2>6 Months to Change Everything</h2>
-        <p>Follow our athletes through the grind, the growth, and the breakthroughs. Our docuseries has reached <strong>140,000+ views</strong> and counting, giving families an inside look at the FCP experience.</p>
-        <a href="https://www.youtube.com/@FloridaCoastalPrep" target="_blank" rel="noopener" class="btn btn-outline">Watch on YouTube</a>
+    <div class="section-header fade-in">
+      <span class="section-tag section-tag-light">Watch</span>
+      <h2>FCP On Film</h2>
+      <p>From highlight reels to our original docuseries with 140,000+ views — see the FCP experience firsthand.</p>
+    </div>
+    <div class="video-hub-grid fade-in">
+      <div class="video-hub-item">
+        <h3>Season Highlights</h3>
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/eiI-4kFQKt8?rel=0&modestbranding=1" title="Florida Coastal Prep 2022 Highlights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <p class="video-hub-desc">Watch our athletes compete against nationally ranked programs and college developmental teams.</p>
       </div>
-      <div class="docuseries-video">
+      <div class="video-hub-item">
+        <h3>6 Months to Change Everything</h3>
         <div class="video-embed">
           <iframe src="https://www.youtube.com/embed/videoseries?list=PLiN-7TkKOQVPGcUWuJLQLGJmULicFLJZj&rel=0" title="6 Months to Change Everything - FCP Docuseries" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
+        <p class="video-hub-desc">Our original docuseries following athletes through the grind, the growth, and the breakthroughs.</p>
+      </div>
+    </div>
+    <div class="text-center mt-2 fade-in">
+      <a href="https://www.youtube.com/@FloridaCoastalPrep" target="_blank" rel="noopener" class="btn btn-outline">Subscribe on YouTube</a>
+    </div>
+  </div>
+</section>
+
+<!-- About FCP - Compact -->
+<section class="section-light">
+  <div class="container">
+    <div class="about-split fade-in">
+      <div class="about-text">
+        <span class="section-tag">About The Academy</span>
+        <h2>Built for the Next Level</h2>
+        <p>Florida Coastal Prep Sports Academy is a high school and post-graduate opportunity for players seeking to earn a college scholarship. Located in Fort Walton Beach, Florida, we partner with Lighthouse Christian Academy to offer NCAA-approved coursework, AP courses, and dual credit options.</p>
+        <p>Our experienced team of former college and professional coaches — including NBA legend Kenny Anderson — brings an extensive network of connections and college coaching experience. Every player gets a customized development plan designed to make them college-ready on day one.</p>
+        <a href="/about/" class="btn btn-primary">Learn More About FCP</a>
+      </div>
+      <div class="about-image">
+        <img src="/assets/images/about-fcp.jpg" alt="FCP Athletes Training" loading="lazy" class="rounded">
       </div>
     </div>
   </div>
@@ -128,7 +242,7 @@ hero_stats: true
 <section class="section-dark placements-section">
   <div class="container">
     <div class="section-header fade-in">
-      <span class="section-tag">Results</span>
+      <span class="section-tag section-tag-light">Results</span>
       <h2>Where Our Athletes Play</h2>
       <p>FCP alumni compete at every level of college basketball across the country.</p>
     </div>
@@ -182,7 +296,7 @@ hero_stats: true
     </div>
     <div class="testimonials-grid fade-in">
       <div class="testimonial-card">
-        <div class="testimonial-quote">"</div>
+        <div class="testimonial-quote">&ldquo;</div>
         <p>Coach Lee DeForest was instrumental in putting my son in the position to compete against high level competition as well as in front of college coaches. My son matured and received a D1 scholarship and now plays for the Missouri Tigers.</p>
         <div class="testimonial-author">
           <strong>Sean East Sr.</strong>
@@ -190,7 +304,7 @@ hero_stats: true
         </div>
       </div>
       <div class="testimonial-card">
-        <div class="testimonial-quote">"</div>
+        <div class="testimonial-quote">&ldquo;</div>
         <p>My son played for Coach DeForest and he did an awesome job with my son. He was a great mentor, and did a fantastic job in getting him ready for the next level. My son had zero offers coming out high school, and after completing his time at FCP, he had plenty of offers.</p>
         <div class="testimonial-author">
           <strong>Shawn Roy</strong>
@@ -204,34 +318,6 @@ hero_stats: true
   </div>
 </section>
 
-<!-- News Preview -->
-<section>
-  <div class="container">
-    <div class="section-header fade-in">
-      <span class="section-tag">Updates</span>
-      <h2>FCP News</h2>
-    </div>
-    <div class="post-grid fade-in">
-      {% for post in site.posts limit:3 %}
-      <a href="{{ post.url | relative_url }}" class="post-card">
-        {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
-        {% else %}
-        <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
-        {% endif %}
-        <div class="post-card-body">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-          <h3>{{ post.title }}</h3>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
-    <div class="text-center mt-2 fade-in">
-      <a href="/blog/" class="btn btn-outline" style="color: #0a1628; border-color: #0a1628;">View All News</a>
-    </div>
-  </div>
-</section>
-
 <!-- CTA -->
 <section class="cta-section">
   <div class="container fade-in">
@@ -241,6 +327,17 @@ hero_stats: true
     <div class="hero-cta">
       <a href="/apply/" class="btn btn-primary">Apply Now</a>
       <a href="/contact/" class="btn btn-outline">Contact Us</a>
+    </div>
+    <div class="cta-social">
+      <a href="https://instagram.com/FLCoastalPrep" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      </a>
+      <a href="https://youtube.com/@floridacoastalprep" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      </a>
+      <a href="https://twitter.com/Flcoastalprep" target="_blank" rel="noopener" aria-label="Twitter/X">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
     </div>
   </div>
 </section>
