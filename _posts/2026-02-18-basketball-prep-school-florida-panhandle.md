@@ -6,7 +6,7 @@ date: 2026-02-18
 categories: [basketball, recruiting]
 tags: [florida-panhandle, fort-walton-beach, prep-school, basketball-development, parent-guide, d1-recruiting]
 author: "Coach Lee DeForest"
-image: /assets/images/blog/basketball-prep-school-florida-panhandle.jpg
+image: /assets/images/blog/blog-default.jpg
 ---
 
 Most basketball families in Northwest Florida already know the challenge: the talent is here, but the development infrastructure isn't as visible as it is in South Florida or central Florida. Families near Pensacola, Fort Walton Beach, Destin, and Panama City Beach often end up driving hours for elite training, or researching programs hundreds of miles away, because they don't know what's available closer to home.
@@ -23,7 +23,7 @@ A third option has emerged, and it's right here on the Emerald Coast.
 
 ## What Is a Basketball Prep School?
 
-Before evaluating options, it helps to understand what a basketball prep school actually is — and how it differs from a high school with a good basketball program, or a club team, or a training academy.
+Before evaluating options, it helps to understand what a basketball prep school actually is — and how it differs from a high school with a good basketball program, a club team, or a training academy.
 
 A basketball prep school combines structured academics with a high-level competitive basketball program. Players are enrolled as students, completing coursework toward a diploma or post-graduate certificate while training in an environment designed to accelerate their development as athletes.
 
@@ -39,7 +39,13 @@ Geography matters, but it's not the only thing. Here are the factors that separa
 
 The most important factor in player development is who's doing the coaching. A coach who has played at the D1 level or professionally understands the game differently than a coach who hasn't. They know what college programs look for. They have relationships with those programs. And they can give players feedback that's grounded in experience, not theory.
 
-At [Florida Coastal Prep](/coaches/), our staff includes coaches who have competed at the highest levels — and through [The Grind Session](/training/), players work alongside and against former NBA Draft Picks in structured competitive environments. That's not available anywhere else in the Panhandle, and it's rare nationally.
+At [Florida Coastal Prep](/coaches/), our staff includes coaches who have competed at the highest levels. Through [The Grind Session](/training/), FCP athletes compete alongside and against former NBA Draft Picks in a real competitive league — the highest level of game-speed challenge available to prep players in the country. That's not a showcase. That's a league, and our players are in it.
+
+### Facility and Training Infrastructure
+
+Not all training environments are created equal. The question isn't whether a program has a gym — it's what that gym can do for a player's development.
+
+FCP's [Spartan Training Center](/training/) is a 14,000 sq ft indoor facility with NBA-dimension hardwood (94×50 ft), shot clocks, a video board, two Shoot-Away shooting guns, a 60 ft turf training zone, and 24/7 availability. Players have access to a professional training environment at any hour — the kind of facility that supports the early-morning and late-night work sessions that separate developing players from players who are already developed.
 
 ### Academic Infrastructure
 
@@ -53,8 +59,6 @@ The answers to those questions will tell you more about the program than any hig
 
 Development requires appropriate challenge. If a player is the best player in every practice session, he's not being pushed to grow. Programs that compete in quality schedules, that bring in elite training partners, and that structure practice to simulate game pressure — those programs produce results.
 
-This is where location can work against players in the Panhandle if they're not thoughtful about it. A training facility with good facilities but limited competitive depth isn't a prep school. It's a gym membership with homework.
-
 ### Post-Graduate and Transitional Options
 
 Some players aren't quite ready for college basketball when they finish their high school eligibility. A post-graduate year in the right environment — with the right coaching, the right competition, and the right academic focus — can bridge that gap and open doors that would otherwise have closed.
@@ -65,13 +69,23 @@ FCP's [post-graduate program](/post-grad/) is specifically designed for this. Pl
 
 Families who haven't lived in Fort Walton Beach might not immediately see the advantages. Here's what they see once they've been through the process.
 
-**Year-round training climate.** The Emerald Coast's Gulf Coast weather means outdoor conditioning, beach training, and year-round outdoor work. In February, when players at programs in the midwest are grinding through indoor-only conditioning, FCP players are getting full outdoor sessions in 60-degree weather. Over the course of a year, that training volume adds up.
+**A professional facility with no scheduling competition.** The Spartan Training Center is FCP's — not a shared facility, not a rented gym, not a school court that doubles as an assembly hall. When 24/7 access means 24/7 access, motivated players use it. That training volume compounds over a season.
 
 **Military community culture.** Fort Walton Beach sits adjacent to Eglin Air Force Base and Hurlburt Field. The military families in this community have a relationship with discipline, early mornings, and doing the work without waiting for motivation that influences the culture of institutions here. That's not a small thing. The athletes who train best are the ones who've internalized those habits.
 
 **Lower noise, higher attention.** The concentration of basketball programs in South Florida creates a specific kind of competition for attention — players spending as much energy being seen as they spend developing. In Fort Walton Beach, the focus is different. Players get more direct coaching attention, more quality reps, and fewer distractions.
 
 **Regional airport access.** Families often assume remote location means inaccessible. VPS (Destin-Fort Walton Beach Airport), PNS (Pensacola International), and ECP (Northwest Florida Beaches International in Panama City Beach) all serve the area with regular connections to major hubs. Getting to Fort Walton Beach is easier than most families expect.
+
+## What Families Who've Done This Say
+
+Andrej Zelenbaba, a parent whose son trained with Coach DeForest, put it directly: *"He knows how to approach each kid and get a maximum of them. He is a role model for wherever he coaches. I highly recommend!"*
+
+James McCravy, another parent, said: *"By selecting him, you have secured a giant of a coach who understands how to teach the boys life skills as he teaches them basketball."*
+
+And from Shawn Roy, whose son came to FCP with zero college offers: *"My son had zero offers coming out high school, and after completing his time at FCP, he had plenty of offers. Thank you Coach and FCP!!!"*
+
+You can read more on our [testimonials page](/testimonials/).
 
 ## Connecting Panhandle Talent to D1 Programs
 
@@ -95,4 +109,4 @@ Families from Pensacola, Fort Walton Beach, Destin, Niceville, Crestview, and Pa
 
 ---
 
-**Interested in learning more about Florida Coastal Prep?** [Contact our recruiting staff](https://floridacoastalprep.com/contact/) to schedule a visit or get more information about our programs. We'll tell you directly what we can offer and whether it's the right fit for your son's situation.
+**Interested in learning more about Florida Coastal Prep?** [Contact our recruiting staff](/contact/) to schedule a visit or get more information about our programs. We'll tell you directly what we can offer and whether it's the right fit for your son's situation.

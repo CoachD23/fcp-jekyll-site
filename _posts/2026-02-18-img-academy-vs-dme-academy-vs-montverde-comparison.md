@@ -6,7 +6,7 @@ date: 2026-02-18
 categories: [basketball, recruiting]
 tags: [prep-school, img-academy, dme-academy, montverde, d1-recruiting, parent-guide]
 author: "Coach Lee DeForest"
-image: /assets/images/blog/img-dme-montverde-comparison.jpg
+image: /assets/images/blog/blog-default.jpg
 ---
 
 If you're researching basketball prep schools and you've Googled any combination of "IMG Academy vs DME Academy vs Montverde," you already know the problem: there's almost nothing useful written about this.
@@ -84,14 +84,20 @@ We'd be doing you a disservice if we ended this comparison without telling you a
 
 [Florida Coastal Prep](/programs/) is a boutique basketball prep academy based in Fort Walton Beach on Florida's Emerald Coast. We don't have hundreds of athletes. We don't have an $80,000/year price tag. What we do have is something none of the three programs above can offer: [The Grind Session](/training/).
 
-The Grind Session is a structured competitive practice environment built around former NBA Draft Picks — as coaches, as mentors, and in some cases as training partners. When a player gets pushed by someone who spent time in the league, it changes what he thinks is possible. That's not a slogan. It's what we hear from players who've been through the program.
+The Grind Session is an exclusive ongoing basketball league where FCP athletes compete alongside and against former NBA Draft Picks. This isn't a showcase or a one-time event. It's a real competitive league — and our players are in it regularly. There is no higher-intensity game-speed preparation available to prep players in this country.
 
-Our [coaching staff](/coaches/) has played and coached at the highest levels. Our [academic program](/academics/) is built to protect and maximize NCAA eligibility. Our [post-graduate program](/post-grad/) gives players who need a development year the structure and competition to make that year count.
+Our [coaching staff](/coaches/) has played and coached at the highest levels. Skills Development Director Kenny Anderson — 1991 second overall NBA Draft pick and 1994 NBA All-Star with a 14-year career — works directly with our players. Coach DeForest brings 25 years of experience across D1, D2, NAIA, and JUCO levels. His named placements include Sean East (now competing in the NBA G-League after playing at Missouri), Brandon Maclin (DePaul), Kylin Green (Houston Baptist), and Ring Malith (SIU Edwardsville).
 
-Fort Walton Beach isn't Bradenton or Daytona Beach or Montverde. We're on the Florida Panhandle, on the Gulf Coast, in a community built around discipline and excellence. Year-round training weather. Lower noise than South Florida. And a program that knows every player's name.
+Our [academic program](/academics/) is built to protect and maximize NCAA eligibility. Our [post-graduate program](/post-grad/) gives players who need a development year the structure and competition to make that year count.
 
-FCP isn't the right fit for every family. If your son needs the biggest platform and is already a nationally ranked prospect, some of the programs above might serve him better. But if he needs an environment where the coaching is deep, the competition is real, and he's going to be developed rather than sorted — we'd like to talk.
+Here's what Paul Biancardi, ESPN Recruiting Director, said after visiting our facility: *"Love your program! First class treatment of players and you are pushing them to be their best!"*
+
+And from Shawn Roy, whose son came to FCP with zero college offers: *"My son had zero offers coming out high school, and after completing his time at FCP, he had plenty of offers."*
+
+Fort Walton Beach isn't Bradenton or Daytona Beach or Montverde. We're on the Florida Panhandle, on the Gulf Coast, in a community built around discipline and excellence — adjacent to two of the country's largest military installations, where that culture is present every day. And we know every player's name.
+
+FCP isn't the right fit for every family. If your son needs the biggest platform and is already a nationally ranked prospect, some of the programs above might serve him better — and we'll tell you that honestly. But if he needs an environment where the coaching is deep, the competition is real at the highest level, and he's going to be developed rather than sorted — we'd like to talk.
 
 ---
 
-**Want to learn more about how FCP compares?** [Reach out to our recruiting staff](https://floridacoastalprep.com/contact/) and we'll give you a direct, honest assessment of whether FCP is the right fit for your son. We don't oversell. We tell you what we see and what we can deliver.
+**Want to learn more about how FCP compares?** [Reach out to our recruiting staff](/contact/) and we'll give you a direct, honest assessment of whether FCP is the right fit for your son. We don't oversell. We tell you what we see and what we can deliver.
