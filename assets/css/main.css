@@ -376,7 +376,7 @@ section { padding: 4rem 0; }
 }
 .program-card-image {
   position: relative;
-  height: 240px;
+  height: 320px;
   overflow: hidden;
 }
 .program-card-image img {
