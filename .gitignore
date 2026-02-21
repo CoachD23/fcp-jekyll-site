@@ -6,3 +6,4 @@ _site/
 .netlify/
 vendor/
 node_modules/
+FCP-Site-Improvement-Checklist.md
