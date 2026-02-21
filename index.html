@@ -108,6 +108,17 @@ description: "Florida Coastal Prep Sports Academy — a premier post-graduate an
   </div>
 </section>
 
+<style>
+.facilities-home-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem}
+.facility-home-card{position:relative;border-radius:14px;overflow:hidden;aspect-ratio:16/10;display:block;color:inherit;text-decoration:none}
+.facility-home-card img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.facility-home-card:hover img{transform:scale(1.06)}
+.facility-home-overlay{position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,22,40,.85) 0%,rgba(10,22,40,.2) 50%,transparent 100%);display:flex;flex-direction:column;justify-content:flex-end;padding:1.5rem}
+.facility-home-overlay h3{color:#fff;font-size:1.15rem;margin-bottom:.25rem}
+.facility-home-overlay span{color:#d4a843;font-size:.85rem;font-weight:600}
+@media(max-width:768px){.facilities-home-grid{grid-template-columns:1fr}}
+</style>
+
 <!-- Facilities & Campus -->
 <section class="section-dark">
   <div class="container">
