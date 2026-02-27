@@ -2730,9 +2730,24 @@ iframe { max-width: 100%; }
   object-fit: cover;
   object-position: top center;
   transition: transform 0.7s ease;
+  animation: kenburns 18s ease-in-out infinite alternate;
+}
+.alumni-card:nth-child(2) .alumni-card-image img {
+  animation-delay: -9s;
+  animation-direction: alternate-reverse;
 }
 .alumni-card:hover .alumni-card-image img {
-  transform: scale(1.04);
+  animation-play-state: paused;
+  transform: scale(1.06);
+}
+
+@keyframes kenburns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.08) translate(-1%, -1.5%);
+  }
 }
 
 /* Editorial overlay with gradient */

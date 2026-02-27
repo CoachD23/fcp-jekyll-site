@@ -13,6 +13,8 @@ The 6'3" point guard from Louisville, Kentucky has turned every detour into a sp
 
 ## Building Under Coach DeForest
 
+![Sean East II with Coach DeForest](/assets/images/sean-east-fcp.jpeg)
+
 Before the college offers started rolling in, East spent a pivotal post-graduate year playing under Coach DeForest. That season was the turning point.
 
 Averaging over 20 points and 8 assists per game, East didn't just put up numbers — he developed the basketball IQ and leadership that coaches at every subsequent stop would rave about. Coach DeForest recognized something special in East early on: "He came in seeing the game from a coach's perspective. He was a vocal leader in practice with his energy and intensity and focus."

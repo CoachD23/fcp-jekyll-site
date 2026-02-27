@@ -13,6 +13,8 @@ The 6'9" forward from Franca, Brazil arrived at Florida Coastal Prep as a raw, t
 
 ## The FCP Foundation
 
+![Nathan Mariano during his time at Florida Coastal Prep](/assets/images/nathan-mariano-fcp.jpeg)
+
 At FCP, Mariano developed the two-way versatility that would define his professional career. Playing against top-tier post-graduate competition in the Grind Session circuit, he refined his footwork, expanded his perimeter game, and learned what it meant to compete at the highest level every single day.
 
 The coaching staff recognized early that Mariano had rare physical tools — length, athleticism, and a motor that never stopped. But it was the mental development at FCP that transformed his ceiling from "professional prospect" to "NBA-caliber talent."
