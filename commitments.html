@@ -1,0 +1,193 @@
+---
+layout: default
+title: "College Commitments"
+description: "500+ college commitments from Florida Coastal Prep Sports Academy. View our alumni placements at D1, D2, NAIA, and JUCO programs across the country."
+---
+
+<section class="page-header">
+  <div class="container">
+    <h1>College Commitments</h1>
+    <p class="page-subtitle">500+ Athletes Placed at the Next Level</p>
+  </div>
+</section>
+
+<!-- Commitment Stats Bar -->
+<section class="impact-bar">
+  <div class="container">
+    <div class="impact-grid">
+      <div class="impact-item fade-in">
+        <span class="impact-number" data-count="500">0</span><span class="impact-plus">+</span>
+        <span class="impact-label">College Commitments</span>
+      </div>
+      <div class="impact-item fade-in">
+        <span class="impact-number" data-count="43">0</span>
+        <span class="impact-label">States Represented</span>
+      </div>
+      <div class="impact-item fade-in">
+        <span class="impact-number" data-count="22">0</span>
+        <span class="impact-label">Countries Represented</span>
+      </div>
+      <div class="impact-item fade-in">
+        <span class="impact-number" data-count="7">0</span>
+        <span class="impact-label">Years of Placement</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container">
+
+    <div class="commitments-intro fade-in">
+      <p>Since 2019, Florida Coastal Prep has helped over 500 student-athletes earn college scholarships and roster spots at every level of collegiate basketball. From Division I powerhouses to NAIA programs, our athletes are competing — and succeeding — across the nation.</p>
+    </div>
+
+    <!-- Dual Filters -->
+    <div class="commitment-filters fade-in" role="navigation" aria-label="Commitment filters">
+      <div class="filter-group">
+        <span class="filter-label">Level</span>
+        <div class="filter-buttons">
+          <button class="commit-filter active" data-filter="level" data-value="all">All</button>
+          <button class="commit-filter" data-filter="level" data-value="D1">D1</button>
+          <button class="commit-filter" data-filter="level" data-value="D2">D2</button>
+          <button class="commit-filter" data-filter="level" data-value="D3">D3</button>
+          <button class="commit-filter" data-filter="level" data-value="NAIA">NAIA</button>
+          <button class="commit-filter" data-filter="level" data-value="JUCO">JUCO</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">Year</span>
+        <div class="filter-buttons">
+          <button class="commit-filter active" data-filter="year" data-value="all">All</button>
+          <button class="commit-filter" data-filter="year" data-value="2025">2025</button>
+          <button class="commit-filter" data-filter="year" data-value="2024">2024</button>
+          <button class="commit-filter" data-filter="year" data-value="2023">2023</button>
+          <button class="commit-filter" data-filter="year" data-value="2022">2022</button>
+          <button class="commit-filter" data-filter="year" data-value="2021">2021</button>
+          <button class="commit-filter" data-filter="year" data-value="2020">2020</button>
+          <button class="commit-filter" data-filter="year" data-value="2019">2019</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- No Results Message -->
+    <div class="commit-no-results" style="display:none;">
+      <p>No commitments match the selected filters. Try adjusting your filters above.</p>
+    </div>
+
+    <!-- Commitment Cards Grid -->
+    <div class="commit-grid fade-in">
+      {% for athlete in site.data.commitments %}
+      <div class="commit-card" data-level="{{ athlete.level }}" data-year="{{ athlete.year }}">
+        <div class="commit-photo">
+          {% if athlete.image != "" and athlete.image %}
+          <img src="{{ athlete.image | relative_url }}" alt="{{ athlete.name }}" loading="lazy" width="80" height="80">
+          {% else %}
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="40" cy="40" r="40" fill="#1a2a4a"/>
+            <circle cx="40" cy="32" r="12" fill="#2a3a5a"/>
+            <ellipse cx="40" cy="58" rx="18" ry="12" fill="#2a3a5a"/>
+          </svg>
+          {% endif %}
+        </div>
+        <div class="commit-info">
+          <h3 class="commit-name">{{ athlete.name }}</h3>
+          <p class="commit-school">{{ athlete.school }}</p>
+          <div class="commit-meta">
+            <span class="commit-badge commit-badge-{{ athlete.level | downcase }}">{{ athlete.level }}</span>
+            <span class="commit-position">{{ athlete.position }}</span>
+            <span class="commit-year">Class of {{ athlete.year }}</span>
+          </div>
+          <p class="commit-hometown">{{ athlete.hometown }}</p>
+          {% if athlete.note != "" and athlete.note %}
+          <p class="commit-note">{{ athlete.note }}</p>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container fade-in">
+    <span class="section-tag section-tag-light">Your Name Could Be Here</span>
+    <h2>Ready to Join the List?</h2>
+    <p>Over 500 athletes have gone from FCP to college basketball. You could be next.</p>
+    <div class="hero-cta">
+      <a href="/apply/" class="btn btn-primary">Apply Now</a>
+      <a href="/contact/" class="btn btn-outline">Talk to a Coach</a>
+    </div>
+  </div>
+</section>
+
+<!-- ItemList Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Florida Coastal Prep College Commitments",
+  "description": "College commitments and alumni placements from Florida Coastal Prep Sports Academy",
+  "numberOfItems": {{ site.data.commitments | size }},
+  "itemListElement": [
+    {% for athlete in site.data.commitments %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "item": {
+        "@type": "Person",
+        "name": "{{ athlete.name }}",
+        "description": "{{ athlete.position }} — Class of {{ athlete.year }}",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "{{ athlete.school }}"
+        }
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+
+<!-- Dual Filter JS -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var filters = document.querySelectorAll('.commit-filter');
+  var cards = document.querySelectorAll('.commit-card');
+  var noResults = document.querySelector('.commit-no-results');
+  var activeFilters = { level: 'all', year: 'all' };
+
+  filters.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var filterType = btn.getAttribute('data-filter');
+      var value = btn.getAttribute('data-value');
+
+      // Update active state within the same filter group
+      btn.closest('.filter-group').querySelectorAll('.commit-filter').forEach(function(b) {
+        b.classList.remove('active');
+      });
+      btn.classList.add('active');
+
+      activeFilters[filterType] = value;
+
+      // Apply both filters
+      var visibleCount = 0;
+      cards.forEach(function(card) {
+        var levelMatch = activeFilters.level === 'all' || card.getAttribute('data-level') === activeFilters.level;
+        var yearMatch = activeFilters.year === 'all' || card.getAttribute('data-year') === activeFilters.year;
+
+        if (levelMatch && yearMatch) {
+          card.style.display = '';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      noResults.style.display = visibleCount === 0 ? '' : 'none';
+    });
+  });
+});
+</script>

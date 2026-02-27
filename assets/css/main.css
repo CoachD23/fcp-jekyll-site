@@ -2530,3 +2530,187 @@ iframe { max-width: 100%; }
   .grind-session-badge { flex-wrap: wrap; justify-content: center; text-align: center; padding: 0.5rem 1rem; gap: 0.4rem; }
   .gsb-text { font-size: 0.7rem; }
 }
+
+/* =============================================
+   COMMITMENTS PAGE
+   ============================================= */
+
+.commitments-intro {
+  max-width: 780px;
+  margin: 0 auto 2.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* Filters */
+.commitment-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 1.25rem 1.5rem;
+  background: #f7f8fa;
+  border-radius: 12px;
+}
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.filter-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #0a1628;
+  margin-right: 0.25rem;
+}
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.commit-filter {
+  padding: 0.4rem 0.9rem;
+  border: 1.5px solid #d0d5dd;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.commit-filter:hover {
+  border-color: #c41e3a;
+  color: #c41e3a;
+}
+.commit-filter.active {
+  background: #c41e3a;
+  border-color: #c41e3a;
+  color: #fff;
+}
+
+/* No Results */
+.commit-no-results {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #888;
+  font-size: 1.05rem;
+}
+
+/* Card Grid */
+.commit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.25rem;
+}
+
+/* Individual Card */
+.commit-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+.commit-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Photo */
+.commit-photo {
+  flex-shrink: 0;
+}
+.commit-photo img,
+.commit-photo svg {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Info */
+.commit-info {
+  flex: 1;
+  min-width: 0;
+}
+.commit-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0a1628;
+  margin: 0 0 0.2rem;
+}
+.commit-school {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #c41e3a;
+  margin: 0 0 0.5rem;
+}
+.commit-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.commit-badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.commit-badge-d1 { background: #c41e3a; }
+.commit-badge-d2 { background: #0a1628; }
+.commit-badge-d3 { background: #2d5a3d; }
+.commit-badge-naia { background: #1e3a5f; }
+.commit-badge-juco { background: #3a6fa0; }
+
+.commit-position,
+.commit-year {
+  font-size: 0.82rem;
+  color: #777;
+}
+.commit-hometown {
+  font-size: 0.82rem;
+  color: #999;
+  margin: 0;
+}
+.commit-note {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #d4a843;
+  margin: 0.3rem 0 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .commitment-filters {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .commit-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .commit-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .commit-meta {
+    justify-content: center;
+  }
+}
