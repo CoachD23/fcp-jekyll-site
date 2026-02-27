@@ -2701,122 +2701,121 @@ iframe { max-width: 100%; }
   overflow: hidden;
 }
 
-/* Carousel wrapper */
-.spotlight-carousel {
-  position: relative;
-}
-.spotlight-slide {
-  display: none;
-  opacity: 0;
-  transition: opacity 0.6s ease;
-}
-.spotlight-slide-active {
-  display: block;
-  opacity: 1;
+/* Dual editorial grid */
+.alumni-editorial {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
 }
 
-/* Split: always side-by-side, never stacks */
-.spotlight-split {
-  display: flex;
-  width: 100%;
-  min-height: 520px;
-  position: relative;
-}
-
-/* Each half */
-.spotlight-half {
-  flex: 1;
+/* Each card is a full-image editorial feature */
+.alumni-card {
   position: relative;
   overflow: hidden;
+  min-height: 480px;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
 }
-.spotlight-half img {
+
+/* Full-bleed background image */
+.alumni-card-image {
+  position: absolute;
+  inset: 0;
+}
+.alumni-card-image img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: top center;
-  transition: transform 0.6s ease;
+  transition: transform 0.7s ease;
 }
-.spotlight-half:hover img {
+.alumni-card:hover .alumni-card-image img {
   transform: scale(1.04);
 }
 
-/* Dark overlay for readability */
-.spotlight-half::after {
-  content: '';
+/* Editorial overlay with gradient */
+.alumni-card-overlay {
   position: absolute;
-  inset: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3rem 2rem 2rem;
   background: linear-gradient(
     to top,
-    rgba(10,22,40,0.85) 0%,
-    rgba(10,22,40,0.3) 40%,
-    transparent 70%
+    rgba(10,22,40,0.95) 0%,
+    rgba(10,22,40,0.75) 45%,
+    rgba(10,22,40,0.2) 80%,
+    transparent 100%
   );
-  pointer-events: none;
-}
-
-/* Label overlay at bottom of each half */
-.spotlight-half-label {
-  position: absolute;
-  bottom: 1.5rem;
-  left: 1.5rem;
   z-index: 2;
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
+  gap: 0.5rem;
 }
-.spotlight-era {
-  display: inline-block;
+
+/* Badges row */
+.alumni-card-badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.25rem;
+}
+.alumni-badge {
   padding: 0.25rem 0.7rem;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   border-radius: 3px;
-  width: fit-content;
 }
-.spotlight-half-then .spotlight-era {
+.alumni-badge-origin {
   background: #c41e3a;
   color: #fff;
 }
-.spotlight-half-now .spotlight-era {
+.alumni-badge-achievement {
   background: #d4a843;
   color: #0a1628;
 }
-.spotlight-team {
+
+/* Article title */
+.alumni-card-title {
   color: #fff;
-  font-size: 1.15rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 0;
+}
+
+/* Excerpt text */
+.alumni-card-excerpt {
+  color: rgba(255,255,255,0.75);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Read more link */
+.alumni-card-link {
+  color: #d4a843;
   font-weight: 700;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  transition: color 0.3s ease, letter-spacing 0.3s ease;
+  margin-top: 0.35rem;
+}
+.alumni-card:hover .alumni-card-link {
+  color: #f0c860;
+  letter-spacing: 2.5px;
 }
 
-/* Center divider arrow */
-.spotlight-divider {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 3;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: #d4a843;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-}
-.spotlight-divider-icon {
-  color: #0a1628;
-  font-size: 1.5rem;
-  font-weight: 900;
-  line-height: 1;
-}
-
-/* Headline bar below split */
-.spotlight-headline {
+/* CTA bar below cards */
+.alumni-editorial-cta {
   text-align: center;
-  padding: 1.75rem 1.5rem 0.5rem;
+  padding: 2rem 1.5rem 2.5rem;
   background: #0a1628;
 }
 .spotlight-tag-line {
@@ -2831,107 +2830,57 @@ iframe { max-width: 100%; }
   border-radius: 3px;
   margin-bottom: 0.75rem;
 }
-.spotlight-headline h2 {
+.alumni-editorial-cta h2 {
   color: #fff;
   font-size: 1.75rem;
   font-weight: 800;
-  margin: 0;
+  margin: 0 0 1.25rem;
   line-height: 1.3;
 }
 .spotlight-accent {
   color: #d4a843;
 }
 
-/* Carousel controls: dots + CTA */
-.spotlight-controls {
-  text-align: center;
-  padding: 1.25rem 1.5rem 2.5rem;
-  background: #0a1628;
-}
-.spotlight-dots {
-  display: flex;
-  justify-content: center;
-  gap: 0.6rem;
-  margin-bottom: 1.5rem;
-}
-.spotlight-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: 2px solid rgba(212,168,67,0.4);
-  background: transparent;
-  cursor: pointer;
-  padding: 0;
-  transition: all 0.3s ease;
-}
-.spotlight-dot:hover {
-  border-color: #d4a843;
-}
-.spotlight-dot-active {
-  background: #d4a843;
-  border-color: #d4a843;
-  transform: scale(1.2);
-}
-
-/* Responsive: images stay side-by-side, just shrink */
+/* Responsive: stack on mobile */
 @media (max-width: 768px) {
-  .spotlight-split {
-    min-height: 380px;
+  .alumni-editorial {
+    grid-template-columns: 1fr;
   }
-  .spotlight-half-label {
-    bottom: 1rem;
-    left: 1rem;
+  .alumni-card {
+    min-height: 420px;
   }
-  .spotlight-team {
-    font-size: 1rem;
+  .alumni-card-overlay {
+    padding: 2.5rem 1.5rem 1.75rem;
   }
-  .spotlight-divider {
-    width: 44px;
-    height: 44px;
-  }
-  .spotlight-divider-icon {
+  .alumni-card-title {
     font-size: 1.25rem;
   }
-  .spotlight-headline h2 {
-    font-size: 1.4rem;
+  .alumni-editorial-cta h2 {
+    font-size: 1.5rem;
   }
-  .spotlight-headline {
-    padding: 1.5rem 1.25rem 0.5rem;
-  }
-  .spotlight-controls {
-    padding: 1rem 1.25rem 2rem;
+  .alumni-editorial-cta {
+    padding: 1.75rem 1.25rem 2rem;
   }
 }
 @media (max-width: 480px) {
-  .spotlight-split {
-    min-height: 300px;
+  .alumni-card {
+    min-height: 380px;
   }
-  .spotlight-era {
-    font-size: 0.6rem;
-    padding: 0.2rem 0.5rem;
+  .alumni-card-overlay {
+    padding: 2rem 1.25rem 1.5rem;
   }
-  .spotlight-team {
+  .alumni-card-title {
+    font-size: 1.1rem;
+  }
+  .alumni-card-excerpt {
     font-size: 0.85rem;
   }
-  .spotlight-half-label {
-    bottom: 0.75rem;
-    left: 0.75rem;
+  .alumni-badge {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.55rem;
   }
-  .spotlight-divider {
-    width: 36px;
-    height: 36px;
-  }
-  .spotlight-divider-icon {
-    font-size: 1rem;
-  }
-  .spotlight-headline h2 {
-    font-size: 1.2rem;
-  }
-  .spotlight-headline {
-    padding: 1.25rem 1rem 0.5rem;
-  }
-  .spotlight-controls {
-    padding: 0.75rem 1rem 1.75rem;
+  .alumni-editorial-cta h2 {
+    font-size: 1.3rem;
   }
 }
 /* end alumni spotlight */

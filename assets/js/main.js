@@ -131,46 +131,5 @@ document.addEventListener('DOMContentLoaded', () => {
     staggerGrids.forEach(el => staggerObserver.observe(el));
   }
 
-  // --- Alumni Spotlight Carousel ---
-  const slides = document.querySelectorAll('.spotlight-slide');
-  const dots = document.querySelectorAll('.spotlight-dot');
-  if (slides.length > 1) {
-    let currentSlide = 0;
-    let autoRotate;
-
-    function goToSlide(index) {
-      slides[currentSlide].classList.remove('spotlight-slide-active');
-      dots[currentSlide].classList.remove('spotlight-dot-active');
-      currentSlide = index;
-      slides[currentSlide].classList.add('spotlight-slide-active');
-      dots[currentSlide].classList.add('spotlight-dot-active');
-    }
-
-    function nextSlide() {
-      goToSlide((currentSlide + 1) % slides.length);
-    }
-
-    // Dot click handlers
-    dots.forEach(dot => {
-      dot.addEventListener('click', () => {
-        const idx = parseInt(dot.getAttribute('data-slide'), 10);
-        goToSlide(idx);
-        // Reset auto-rotation timer on manual click
-        clearInterval(autoRotate);
-        autoRotate = setInterval(nextSlide, 6000);
-      });
-    });
-
-    // Auto-rotate every 6 seconds
-    autoRotate = setInterval(nextSlide, 6000);
-
-    // Pause on hover
-    const spotlight = document.querySelector('.alumni-spotlight');
-    if (spotlight) {
-      spotlight.addEventListener('mouseenter', () => clearInterval(autoRotate));
-      spotlight.addEventListener('mouseleave', () => {
-        autoRotate = setInterval(nextSlide, 6000);
-      });
-    }
-  }
+  // --- Alumni Spotlight (no JS needed — static editorial cards) ---
 });
