@@ -79,17 +79,6 @@ description: "500+ college commitments from Florida Coastal Prep Sports Academy.
     <div class="commit-grid fade-in">
       {% for athlete in site.data.commitments %}
       <div class="commit-card" data-level="{{ athlete.level }}" data-year="{{ athlete.year }}">
-        <div class="commit-photo">
-          {% if athlete.image != "" and athlete.image %}
-          <img src="{{ athlete.image | relative_url }}" alt="{{ athlete.name }}" loading="lazy" width="80" height="80">
-          {% else %}
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <circle cx="40" cy="40" r="40" fill="#1a2a4a"/>
-            <circle cx="40" cy="32" r="12" fill="#2a3a5a"/>
-            <ellipse cx="40" cy="58" rx="18" ry="12" fill="#2a3a5a"/>
-          </svg>
-          {% endif %}
-        </div>
         <div class="commit-info">
           <h3 class="commit-name">{{ athlete.name }}</h3>
           <p class="commit-school">{{ athlete.school }}</p>

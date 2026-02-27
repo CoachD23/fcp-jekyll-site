@@ -2611,36 +2611,16 @@ iframe { max-width: 100%; }
 
 /* Individual Card */
 .commit-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
   background: #fff;
   border-radius: 12px;
-  padding: 1.25rem;
+  padding: 1.25rem 1.5rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   transition: transform 0.25s, box-shadow 0.25s;
+  border-left: 4px solid #c41e3a;
 }
 .commit-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-}
-
-/* Photo */
-.commit-photo {
-  flex-shrink: 0;
-}
-.commit-photo img,
-.commit-photo svg {
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-/* Info */
-.commit-info {
-  flex: 1;
-  min-width: 0;
 }
 .commit-name {
   font-size: 1.05rem;
@@ -2706,8 +2686,6 @@ iframe { max-width: 100%; }
 }
 @media (max-width: 480px) {
   .commit-card {
-    flex-direction: column;
-    align-items: center;
     text-align: center;
   }
   .commit-meta {
