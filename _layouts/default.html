@@ -10,7 +10,7 @@
     {{ content }}
   </main>
   {% include footer.html %}
-  <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   {% if jekyll.environment == "production" %}
   <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0J66GRZ7SW"></script>
