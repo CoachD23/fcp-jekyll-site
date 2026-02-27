@@ -1,10 +1,24 @@
 ---
-layout: post
+layout: alumni-post
 title: "From FCP to the NBA: Nathan Mariano's Pro Journey"
 date: 2026-02-27
 categories: [alumni]
 image: /assets/images/nathan-mariano-nba.jpeg
+image_fcp: /assets/images/nathan-mariano-fcp.jpeg
+player_name: Nathan Mariano
+current_team: Phoenix Suns
+fcp_label: FCP Spartans
 description: "Nathan Mariano went from Florida Coastal Prep to winning four Brazilian league championships, earning a spot on Brazil's national team, and signing with the Phoenix Suns organization."
+bio: "6'9\" forward currently playing for the Valley Suns in the NBA G League. Four-time NBB champion, FIBA AmeriCup 2025 gold medalist, and member of the Phoenix Suns organization."
+stats:
+  - value: "4x"
+    label: "NBB Champion"
+  - value: "🇧🇷"
+    label: "National Team"
+  - value: "6'9\""
+    label: "Forward"
+  - value: "PHX"
+    label: "Suns Org"
 ---
 
 Nathan Mariano's journey is one that every prep school athlete dreams about — and very few achieve.
@@ -12,8 +26,6 @@ Nathan Mariano's journey is one that every prep school athlete dreams about — 
 The 6'9" forward from Franca, Brazil arrived at Florida Coastal Prep as a raw, talented prospect looking to sharpen his game against elite American competition. He left as a player ready for professional basketball.
 
 ## The FCP Foundation
-
-![Nathan Mariano during his time at Florida Coastal Prep](/assets/images/nathan-mariano-fcp.jpeg)
 
 At FCP, Mariano developed the two-way versatility that would define his professional career. Playing against top-tier post-graduate competition in the Grind Session circuit, he refined his footwork, expanded his perimeter game, and learned what it meant to compete at the highest level every single day.
 
@@ -23,10 +35,15 @@ The coaching staff recognized early that Mariano had rare physical tools — len
 
 After his time at FCP, Mariano returned to his hometown club, Sesi Franca, and immediately made an impact in the NBB — Brazil's top professional league. What followed was a run of dominance that few young players in South American basketball have matched:
 
-- **Four NBB Championships** with Sesi Franca, including a historic tetracampeonato
-- **Basketball Champions League Americas 2023** title
-- **Copa Intercontinental 2023** championship
-- Averaged 6.0 points on 49% shooting and 3.8 rebounds in 17.8 minutes as a key rotation player in the 2024-25 NBB season
+<div class="highlight-box">
+<h4>Career Highlights — Sesi Franca</h4>
+<ul>
+<li><strong>Four NBB Championships</strong> with Sesi Franca, including a historic tetracampeonato</li>
+<li><strong>Basketball Champions League Americas 2023</strong> title</li>
+<li><strong>Copa Intercontinental 2023</strong> championship</li>
+<li>Averaged 6.0 points on 49% shooting and 3.8 rebounds in 17.8 minutes in the 2024-25 NBB season</li>
+</ul>
+</div>
 
 By 22 years old, Mariano had already won more professional championships than most players collect in an entire career.
 
@@ -46,8 +63,4 @@ Mariano participated in training camp with the Suns' main roster before joining 
 
 Nathan Mariano's story isn't just about one player's success. It's proof that the development pathway works. A young player from Brazil came to Fort Walton Beach, Florida, put in the work at Florida Coastal Prep, and built a foundation that carried him to professional championships, international glory, and the doorstep of the NBA.
 
-That's the FCP difference.
-
----
-
-*Nathan Mariano is a 6'9" forward currently playing for the Valley Suns in the NBA G League. He is a four-time NBB champion, FIBA AmeriCup 2025 gold medalist, and member of the Phoenix Suns organization.*
+> That's the FCP difference.

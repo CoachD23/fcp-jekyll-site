@@ -731,6 +731,421 @@ section { padding: 4rem 0; }
 .post-body { padding: 3rem 0; }
 .post-body p { font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; }
 
+/* ============================================
+   Alumni Article — Magazine-Style Blog Post
+   ============================================ */
+
+/* --- Hero Header --- */
+.alumni-article-hero {
+  background: linear-gradient(165deg, #0a1628 0%, #0f2038 50%, #0a1628 100%);
+  padding: 8rem 0 3.5rem;
+  text-align: center;
+}
+.alumni-article-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+.alumni-article-category {
+  background: #c41e3a;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.3rem 0.85rem;
+  border-radius: 3px;
+}
+.alumni-article-hero time {
+  color: #d4a843;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.alumni-article-title {
+  color: #fff;
+  font-size: clamp(1.75rem, 4.5vw, 3rem);
+  line-height: 1.15;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: 800;
+}
+.alumni-article-lede {
+  color: rgba(255,255,255,0.55);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 620px;
+  margin: 1rem auto 0;
+}
+
+/* --- Journey Card (Then → Now) --- */
+.journey-card-wrapper {
+  background: #f0f2f5;
+  padding: 2.5rem 0 1.5rem;
+  margin-top: -1px;
+}
+.journey-card {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: stretch;
+  gap: 0;
+  max-width: 760px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(10,22,40,0.10), 0 1px 4px rgba(0,0,0,0.06);
+}
+.journey-card-then,
+.journey-card-now {
+  position: relative;
+  overflow: hidden;
+}
+.journey-card-then img,
+.journey-card-now img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.6s ease;
+}
+.journey-card-then:hover img,
+.journey-card-now:hover img {
+  transform: scale(1.04);
+}
+.journey-card-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.75rem;
+  background: linear-gradient(to top, rgba(10,22,40,0.85) 0%, transparent 100%);
+  display: flex;
+  justify-content: center;
+}
+.journey-label-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.3rem 0.75rem;
+  border-radius: 3px;
+}
+.journey-label-then {
+  background: rgba(196, 30, 58, 0.9);
+  color: #fff;
+}
+.journey-label-now {
+  background: rgba(212, 168, 67, 0.9);
+  color: #0a1628;
+}
+.journey-card-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+}
+.journey-arrow {
+  width: 36px;
+  height: 36px;
+  background: #0a1628;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d4a843;
+  flex-shrink: 0;
+}
+.journey-arrow svg { width: 16px; height: 16px; }
+.journey-card-caption {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #6b7280;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+/* --- Stats Bar --- */
+.alumni-stats-bar {
+  background: #0a1628;
+  padding: 1.75rem 0;
+}
+.alumni-stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.alumni-stat {
+  text-align: center;
+}
+.alumni-stat-value {
+  display: block;
+  color: #d4a843;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+.alumni-stat-label {
+  display: block;
+  color: rgba(255,255,255,0.5);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 0.25rem;
+}
+
+/* --- Article Body Typography --- */
+.alumni-article-body {
+  padding: 3.5rem 0 2rem;
+}
+.alumni-article-body p {
+  font-size: 1.1rem;
+  line-height: 1.85;
+  margin-bottom: 1.5rem;
+  color: #2d3748;
+}
+.alumni-article-body h2 {
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: #0a1628;
+  margin: 3rem 0 1.25rem;
+  padding-top: 1rem;
+  position: relative;
+}
+.alumni-article-body h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: #c41e3a;
+  border-radius: 2px;
+}
+.alumni-article-body h3 {
+  font-size: 1.25rem;
+  color: #0a1628;
+  margin: 2rem 0 1rem;
+}
+.alumni-article-body ul,
+.alumni-article-body ol {
+  margin: 1.25rem 0 1.75rem 1.5rem;
+  list-style: none;
+}
+.alumni-article-body ul li,
+.alumni-article-body ol li {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #2d3748;
+}
+.alumni-article-body ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  background: #c41e3a;
+  border-radius: 50%;
+}
+.alumni-article-body strong {
+  color: #0a1628;
+  font-weight: 700;
+}
+.alumni-article-body img {
+  border-radius: 10px;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.alumni-article-body a {
+  color: #c41e3a;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(196,30,58,0.3);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.2s;
+}
+.alumni-article-body a:hover {
+  text-decoration-color: #c41e3a;
+}
+.alumni-article-body hr {
+  border: none;
+  height: 1px;
+  background: #e2e8f0;
+  margin: 2.5rem 0;
+}
+.alumni-article-body em {
+  color: #64748b;
+}
+
+/* Pull Quote */
+.alumni-article-body blockquote,
+.alumni-article-body .pull-quote {
+  margin: 2.5rem 0;
+  padding: 1.5rem 1.75rem;
+  border-left: 4px solid #c41e3a;
+  background: linear-gradient(135deg, #fef2f4 0%, #fff 100%);
+  border-radius: 0 10px 10px 0;
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: #1a1a2e;
+  font-style: italic;
+}
+.alumni-article-body blockquote p {
+  margin-bottom: 0;
+  color: #1a1a2e;
+}
+.alumni-article-body blockquote cite,
+.alumni-article-body .pull-quote-source {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 700;
+  color: #c41e3a;
+}
+
+/* Highlight Box */
+.highlight-box {
+  background: linear-gradient(135deg, #0a1628 0%, #142240 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  color: #fff;
+}
+.highlight-box h4 {
+  color: #d4a843;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 1rem;
+}
+.highlight-box ul {
+  margin: 0;
+  list-style: none;
+}
+.highlight-box ul li {
+  color: rgba(255,255,255,0.85);
+  padding-left: 1.5rem;
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+}
+.highlight-box ul li::before {
+  background: #d4a843;
+}
+.highlight-box ul li strong {
+  color: #fff;
+}
+
+/* Timeline Pill for College Journey */
+.timeline-stop {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
+  align-items: flex-start;
+}
+.timeline-pill {
+  flex-shrink: 0;
+  background: #0a1628;
+  color: #d4a843;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.35rem 0.7rem;
+  border-radius: 4px;
+  margin-top: 0.3rem;
+  white-space: nowrap;
+}
+.timeline-stop p {
+  margin-bottom: 0;
+}
+
+/* --- Bio Footer Card --- */
+.alumni-bio-footer {
+  padding: 0 0 3rem;
+}
+.alumni-bio-card {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  background: #f7f8fa;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid #e2e8f0;
+}
+.alumni-bio-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  flex-shrink: 0;
+  border: 3px solid #0a1628;
+}
+.alumni-bio-info h4 {
+  font-size: 1rem;
+  color: #0a1628;
+  margin-bottom: 0.25rem;
+}
+.alumni-bio-info p {
+  font-size: 0.9rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* --- Alumni Article Responsive --- */
+@media (max-width: 768px) {
+  .alumni-article-hero { padding: 6.5rem 0 2.5rem; }
+  .alumni-article-title { font-size: 1.6rem; }
+  .alumni-article-lede { font-size: 1rem; }
+  .journey-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    max-width: 380px;
+  }
+  .journey-card-then img,
+  .journey-card-now img { height: 260px; }
+  .journey-card-divider {
+    width: 100%;
+    height: 40px;
+    flex-direction: row;
+  }
+  .journey-arrow svg { transform: rotate(90deg); }
+  .alumni-stats-row { gap: 1.5rem; }
+  .alumni-stat-value { font-size: 1.25rem; }
+  .alumni-article-body { padding: 2.5rem 0 1.5rem; }
+  .alumni-article-body h2 { font-size: 1.35rem; margin-top: 2.5rem; }
+  .highlight-box { padding: 1.5rem; }
+  .timeline-stop { flex-direction: column; gap: 0.5rem; }
+  .alumni-bio-card { flex-direction: column; text-align: center; }
+  .alumni-bio-avatar { margin: 0 auto; }
+}
+@media (max-width: 480px) {
+  .alumni-article-hero { padding: 5.5rem 0 2rem; }
+  .alumni-article-title { font-size: 1.4rem; }
+  .alumni-stats-row { gap: 1rem; }
+  .alumni-stat-value { font-size: 1.1rem; }
+  .alumni-stat-label { font-size: 0.6rem; }
+  .journey-card-then img,
+  .journey-card-now img { height: 220px; }
+}
+
 /* --- GHL Form Embed --- */
 .ghl-form-wrapper {
   max-width: 600px;

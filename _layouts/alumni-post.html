@@ -1,0 +1,101 @@
+---
+layout: default
+---
+<article class="alumni-article">
+  <!-- Cinematic Hero -->
+  <header class="alumni-article-hero">
+    <div class="container">
+      <div class="alumni-article-meta">
+        <span class="alumni-article-category">Alumni Spotlight</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      </div>
+      <h1 class="alumni-article-title">{{ page.title }}</h1>
+      {% if page.description %}<p class="alumni-article-lede">{{ page.description }}</p>{% endif %}
+    </div>
+  </header>
+
+  <!-- Journey Card — Then & Now -->
+  {% if page.image_fcp and page.image %}
+  <div class="journey-card-wrapper">
+    <div class="container">
+      <div class="journey-card">
+        <div class="journey-card-then">
+          <img src="{{ page.image_fcp | relative_url }}" alt="{{ page.player_name }} at Florida Coastal Prep" loading="lazy">
+          <div class="journey-card-label">
+            <span class="journey-label-tag journey-label-then">{{ page.fcp_label | default: "FCP Era" }}</span>
+          </div>
+        </div>
+        <div class="journey-card-divider">
+          <div class="journey-arrow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+        </div>
+        <div class="journey-card-now">
+          <img src="{{ page.image | relative_url }}" alt="{{ page.player_name }} — {{ page.current_team }}" loading="lazy">
+          <div class="journey-card-label">
+            <span class="journey-label-tag journey-label-now">{{ page.current_team | default: "NBA" }}</span>
+          </div>
+        </div>
+      </div>
+      <p class="journey-card-caption">{{ page.player_name }}: From {{ page.fcp_label | default: "FCP" }} → {{ page.current_team | default: "the NBA" }}</p>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Quick Stats Bar -->
+  {% if page.stats %}
+  <div class="alumni-stats-bar">
+    <div class="container">
+      <div class="alumni-stats-row">
+        {% for stat in page.stats %}
+        <div class="alumni-stat">
+          <span class="alumni-stat-value">{{ stat.value }}</span>
+          <span class="alumni-stat-label">{{ stat.label }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Article Body -->
+  <div class="alumni-article-body">
+    <div class="container container-narrow">
+      {{ content }}
+    </div>
+  </div>
+
+  <!-- Player Bio Footer -->
+  {% if page.bio %}
+  <div class="alumni-bio-footer">
+    <div class="container container-narrow">
+      <div class="alumni-bio-card">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.player_name }}" loading="lazy" class="alumni-bio-avatar">
+        <div class="alumni-bio-info">
+          <h4>{{ page.player_name }}</h4>
+          <p>{{ page.bio }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</article>
+
+<!-- Related Posts -->
+<section class="related-posts">
+  <div class="container">
+    <h2>More News</h2>
+    <div class="post-grid">
+      {% assign related = site.posts | where_exp: "post", "post.url != page.url"  %}
+      {% for post in related limit: 3 %}
+      <a href="{{ post.url | relative_url }}" class="post-card">
+        {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">{% endif %}
+        <div class="post-card-body">
+          <time>{{ post.date | date: "%B %d, %Y" }}</time>
+          <h3>{{ post.title }}</h3>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
