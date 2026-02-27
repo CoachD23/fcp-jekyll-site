@@ -2692,3 +2692,138 @@ iframe { max-width: 100%; }
     justify-content: center;
   }
 }
+
+/* ===================== */
+/* ALUMNI SPOTLIGHT      */
+/* ===================== */
+.alumni-spotlight {
+  background: #0a1628;
+  padding: 5rem 0 4rem;
+  overflow: hidden;
+}
+.alumni-spotlight .section-header h2 {
+  color: #fff;
+}
+
+/* Showcase: side-by-side photos */
+.spotlight-showcase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+/* Individual card (image + label) */
+.spotlight-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  max-width: 380px;
+  flex: 1;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  transition: transform 0.35s;
+}
+.spotlight-card:hover {
+  transform: scale(1.02);
+}
+.spotlight-image img {
+  display: block;
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+/* Label overlay at bottom of card */
+.spotlight-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(transparent, rgba(10,22,40,0.92));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spotlight-tag {
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
+  background: #c41e3a;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+}
+.spotlight-tag-pro {
+  background: #d4a843;
+  color: #0a1628;
+}
+.spotlight-year {
+  color: rgba(255,255,255,0.85);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* Arrow between photos */
+.spotlight-arrow {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spotlight-arrow svg {
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
+}
+
+/* Bio text below */
+.spotlight-bio {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.spotlight-bio h3 {
+  color: #d4a843;
+  font-size: 1.6rem;
+  margin: 0 0 0.6rem;
+}
+.spotlight-bio p {
+  color: rgba(255,255,255,0.8);
+  font-size: 1rem;
+  line-height: 1.65;
+  margin: 0 0 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .spotlight-showcase {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .spotlight-card {
+    max-width: 320px;
+  }
+  .spotlight-image img {
+    height: 380px;
+  }
+  .spotlight-arrow {
+    transform: rotate(90deg);
+  }
+  .alumni-spotlight {
+    padding: 3.5rem 0 3rem;
+  }
+}
+@media (max-width: 480px) {
+  .spotlight-card {
+    max-width: 280px;
+  }
+  .spotlight-image img {
+    height: 340px;
+  }
+  .spotlight-bio h3 {
+    font-size: 1.3rem;
+  }
+}
