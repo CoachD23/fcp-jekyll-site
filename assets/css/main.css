@@ -2698,132 +2698,191 @@ iframe { max-width: 100%; }
 /* ===================== */
 .alumni-spotlight {
   background: #0a1628;
-  padding: 5rem 0 4rem;
   overflow: hidden;
 }
-.alumni-spotlight .section-header h2 {
-  color: #fff;
-}
 
-/* Showcase: side-by-side photos */
-.spotlight-showcase {
+/* Split: always side-by-side, never stacks */
+.spotlight-split {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-bottom: 2.5rem;
+  width: 100%;
+  min-height: 520px;
+  position: relative;
 }
 
-/* Individual card (image + label) */
-.spotlight-card {
-  position: relative;
-  border-radius: 16px;
-  overflow: hidden;
-  max-width: 380px;
+/* Each half */
+.spotlight-half {
   flex: 1;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
-  transition: transform 0.35s;
+  position: relative;
+  overflow: hidden;
 }
-.spotlight-card:hover {
-  transform: scale(1.02);
-}
-.spotlight-image img {
+.spotlight-half img {
   display: block;
   width: 100%;
-  height: 460px;
+  height: 100%;
   object-fit: cover;
   object-position: top center;
+  transition: transform 0.6s ease;
+}
+.spotlight-half:hover img {
+  transform: scale(1.04);
 }
 
-/* Label overlay at bottom of card */
-.spotlight-label {
+/* Dark overlay for readability */
+.spotlight-half::after {
+  content: '';
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 1rem 1.25rem;
-  background: linear-gradient(transparent, rgba(10,22,40,0.92));
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(10,22,40,0.85) 0%,
+    rgba(10,22,40,0.3) 40%,
+    transparent 70%
+  );
+  pointer-events: none;
 }
-.spotlight-tag {
+
+/* Label overlay at bottom of each half */
+.spotlight-half-label {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.spotlight-era {
   display: inline-block;
-  padding: 0.3rem 0.75rem;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-radius: 3px;
+  width: fit-content;
+}
+.spotlight-half-then .spotlight-era {
   background: #c41e3a;
   color: #fff;
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  border-radius: 4px;
 }
-.spotlight-tag-pro {
+.spotlight-half-now .spotlight-era {
   background: #d4a843;
   color: #0a1628;
 }
-.spotlight-year {
-  color: rgba(255,255,255,0.85);
-  font-size: 0.85rem;
-  font-weight: 600;
+.spotlight-team {
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 
-/* Arrow between photos */
-.spotlight-arrow {
-  flex-shrink: 0;
+/* Center divider arrow */
+.spotlight-divider {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #d4a843;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
-.spotlight-arrow svg {
-  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
+.spotlight-divider-icon {
+  color: #0a1628;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1;
 }
 
-/* Bio text below */
-.spotlight-bio {
+/* Headline bar below split */
+.spotlight-headline {
   text-align: center;
-  max-width: 640px;
-  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  background: #0a1628;
 }
-.spotlight-bio h3 {
+.spotlight-tag-line {
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  background: rgba(212,168,67,0.12);
   color: #d4a843;
-  font-size: 1.6rem;
-  margin: 0 0 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  margin-bottom: 0.75rem;
 }
-.spotlight-bio p {
-  color: rgba(255,255,255,0.8);
-  font-size: 1rem;
-  line-height: 1.65;
-  margin: 0 0 1.5rem;
+.spotlight-headline h2 {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin: 0 0 1.25rem;
+  line-height: 1.3;
+}
+.spotlight-accent {
+  color: #d4a843;
+}
+.spotlight-headline .btn-gold {
+  margin-top: 0.25rem;
 }
 
-/* Responsive */
+/* Responsive: images stay side-by-side, just shrink */
 @media (max-width: 768px) {
-  .spotlight-showcase {
-    flex-direction: column;
-    gap: 1rem;
+  .spotlight-split {
+    min-height: 380px;
   }
-  .spotlight-card {
-    max-width: 320px;
+  .spotlight-half-label {
+    bottom: 1rem;
+    left: 1rem;
   }
-  .spotlight-image img {
-    height: 380px;
+  .spotlight-team {
+    font-size: 1rem;
   }
-  .spotlight-arrow {
-    transform: rotate(90deg);
+  .spotlight-divider {
+    width: 44px;
+    height: 44px;
   }
-  .alumni-spotlight {
-    padding: 3.5rem 0 3rem;
+  .spotlight-divider-icon {
+    font-size: 1.25rem;
+  }
+  .spotlight-headline h2 {
+    font-size: 1.4rem;
+  }
+  .spotlight-headline {
+    padding: 2rem 1.25rem;
   }
 }
 @media (max-width: 480px) {
-  .spotlight-card {
-    max-width: 280px;
+  .spotlight-split {
+    min-height: 300px;
   }
-  .spotlight-image img {
-    height: 340px;
+  .spotlight-era {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.5rem;
   }
-  .spotlight-bio h3 {
-    font-size: 1.3rem;
+  .spotlight-team {
+    font-size: 0.85rem;
+  }
+  .spotlight-half-label {
+    bottom: 0.75rem;
+    left: 0.75rem;
+  }
+  .spotlight-divider {
+    width: 36px;
+    height: 36px;
+  }
+  .spotlight-divider-icon {
+    font-size: 1rem;
+  }
+  .spotlight-headline h2 {
+    font-size: 1.2rem;
+  }
+  .spotlight-headline {
+    padding: 1.75rem 1rem;
   }
 }
