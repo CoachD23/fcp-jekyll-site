@@ -63,9 +63,10 @@ hero_subtitle: Where Potential Meets Preparation
 </div>
 
 <style>
-.biancardi-duo { display: flex; gap: 1.25rem; align-items: stretch; }
+.biancardi-duo { display: flex; gap: 1.25rem; align-items: center; }
 .biancardi-duo-photo, .biancardi-duo-card { flex: 1; min-width: 0; }
-.biancardi-duo-photo img, .biancardi-duo-card img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; display: block; aspect-ratio: 4 / 3; }
+.biancardi-duo-photo img { width: 100%; border-radius: 10px; display: block; }
+.biancardi-duo-card img { width: 100%; border-radius: 10px; display: block; }
 @media (max-width: 700px) {
   .biancardi-duo { flex-direction: column; }
 }
@@ -120,7 +121,7 @@ hero_subtitle: Where Potential Meets Preparation
 <!-- Two Paths to College Basketball -->
 <section class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
   <div class="staff-section-header">
-    <span class="section-label" style="font-size: 1rem; letter-spacing: 0.15em;">Programs</span>
+    <span class="section-label">Programs</span>
     <h2>Two Paths to College Basketball</h2>
     <div class="gold-rule"></div>
   </div>

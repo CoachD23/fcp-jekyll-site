@@ -2341,10 +2341,10 @@ iframe { max-width: 100%; }
 .section-label {
   display: inline-block;
   color: #c41e3a;
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.18em;
   margin-bottom: 0.5rem;
 }
 .staff-section-dark .section-label {
