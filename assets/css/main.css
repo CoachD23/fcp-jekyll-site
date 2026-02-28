@@ -1329,6 +1329,8 @@ section { padding: 4rem 0; }
   font-weight: 700;
 }
 .alumni-article-body img {
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
   margin: 1.5rem 0;
   box-shadow: 0 4px 16px rgba(0,0,0,0.08);
@@ -4165,10 +4167,12 @@ iframe { max-width: 100%; }
   gap: 0.15rem;
 }
 .cp-feat-name {
+  color: #fff;
   font-size: 1.15rem;
   font-weight: 800;
   margin: 0;
   line-height: 1.2;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 .cp-feat-card--lg .cp-feat-name {
   font-size: 1.4rem;
@@ -4187,6 +4191,32 @@ iframe { max-width: 100%; }
 }
 .cp-feat-card:hover .cp-feat-arrow {
   color: #d4a843;
+}
+/* Video card variant */
+.cp-feat-img video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+}
+.cp-feat-video-icon {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(196,30,58,0.85);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.65rem;
+  z-index: 3;
+  pointer-events: none;
 }
 
 /* ── Commitment Board — light section ── */

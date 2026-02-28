@@ -5,6 +5,7 @@ date: 2026-02-27
 categories: [alumni]
 image: /assets/images/brandon-maclin-signing.jpg
 image_fcp: /assets/images/brandon-maclin-fcp.jpeg
+featured_video: /assets/videos/brandon-maclin-clip.mp4
 player_name: Brandon Maclin
 current_team: DePaul Blue Demons
 fcp_label: FCP Spartans

@@ -11,7 +11,7 @@ og_image: /assets/images/whatsapp-team.jpeg
   <div class="container">
     <span class="cp-hero-tag fade-in">Proven Results</span>
     <h1 class="cp-hero-title fade-in">College Commitments</h1>
-    <p class="cp-hero-sub fade-in">Where FCP athletes play next.</p>
+    <p class="cp-hero-sub fade-in">Where FCP athletes play next</p>
     <div class="cp-stats fade-in">
       <div class="cp-stat">
         <span class="cp-stat-num" data-count="500">0</span><span class="cp-stat-plus">+</span>
@@ -46,10 +46,19 @@ og_image: /assets/images/whatsapp-team.jpeg
     <div class="cp-featured-grid fade-in">
       {% assign alumni_posts = site.posts | where: "layout", "alumni-post" | sort: "date" | reverse %}
       {% for post in alumni_posts limit: 5 %}
-      <a href="{{ post.url | relative_url }}" class="cp-feat-card{% if forloop.index <= 2 %} cp-feat-card--lg{% endif %}">
+      <a href="{{ post.url | relative_url }}" class="cp-feat-card{% if forloop.index <= 2 %} cp-feat-card--lg{% endif %}{% if post.featured_video %} cp-feat-card--video{% endif %}">
         <div class="cp-feat-img">
-          {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.player_name }}" loading="lazy">{% endif %}
+          {% if post.featured_video %}
+          <video autoplay muted loop playsinline poster="{{ post.image | relative_url }}">
+            <source src="{{ post.featured_video | relative_url }}" type="video/mp4">
+          </video>
+          {% elsif post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.player_name }}" loading="lazy">
+          {% endif %}
         </div>
+        {% if post.featured_video %}
+        <span class="cp-feat-video-icon">▶</span>
+        {% endif %}
         <div class="cp-feat-overlay">
           <div class="cp-feat-top">
             {% for s in post.stats limit:1 %}
