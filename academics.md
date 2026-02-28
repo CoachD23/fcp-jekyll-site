@@ -8,9 +8,10 @@ hero_title: Academics
 hero_subtitle: Education That Prepares You for College
 ---
 
-<div class="page-intro fade-in">
-  <p>At Florida Coastal Prep, academics are just as important as athletics in shaping the future success of our student-athletes. We partner with accredited institutions to deliver comprehensive academic preparation alongside elite basketball development.</p>
-</div>
+<section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
+  <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Education That Opens Doors — On and Off the Court.</h2>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Every course is NCAA-approved and accredited. From dual enrollment with <strong>Colorado Christian University</strong> to SAT/ACT prep included in tuition, our student-athletes graduate college-ready — with transcripts that pass the eligibility center and test scores that open scholarship opportunities.</p>
+</section>
 
 <!-- Academic Stats -->
 <div class="impact-bar fade-in">
@@ -149,20 +150,24 @@ hero_subtitle: Education That Prepares You for College
     <div class="gold-rule"></div>
   </div>
 
-  <div class="offer-grid" style="max-width: 1000px; margin: 1.5rem auto 0;">
-    <div class="offer-item">
+  <div class="feature-grid" style="max-width: 1000px; margin: 1.5rem auto 0;">
+    <div class="feature-card fade-in">
+      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg></div>
       <h3>Transcripts</h3>
       <p>All student-athletes must provide official high school transcripts verifying completed NCAA-approved coursework.</p>
     </div>
-    <div class="offer-item">
+    <div class="feature-card fade-in">
+      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg></div>
       <h3>Test Scores</h3>
       <p>SAT or ACT scores are required to verify NCAA academic eligibility. Prep classes are included in your program.</p>
     </div>
-    <div class="offer-item">
+    <div class="feature-card fade-in">
+      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg></div>
       <h3>NCAA Clearinghouse</h3>
       <p>All athletes must register with the NCAA Eligibility Center. Our staff guides you through the entire process.</p>
     </div>
-    <div class="offer-item">
+    <div class="feature-card fade-in">
+      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
       <h3>Core Courses</h3>
       <p>Complete the required 16 NCAA core courses including English, math, science, and additional academic electives.</p>
     </div>
@@ -202,12 +207,12 @@ hero_subtitle: Education That Prepares You for College
   </div>
 </div>
 
-<div class="cta-section" style="margin-top: 3rem; border-radius: 0;">
-  <h2>Learn More About Our Academics</h2>
-  <p>Have questions about coursework, eligibility, or transcripts?</p>
+<div class="cta-section" style="margin-top: 0; border-radius: 0;">
+  <h2>Education That Keeps You Eligible — and Ahead.</h2>
+  <p>Talk to our <a href="/coaches/" style="color: #d4a843;">coaching staff</a> about academics, or check out the <a href="/faq/" style="color: #d4a843;">FAQ</a> for common questions.</p>
   <div class="hero-cta">
-    <a href="/contact/" class="btn btn-primary">Contact Us</a>
-    <a href="/apply/" class="btn btn-outline">Apply Now</a>
+    <a href="/apply/" class="btn btn-primary">Apply Now</a>
+    <a href="/commitments/" class="btn btn-gold">See Our Results</a>
   </div>
 </div>
 

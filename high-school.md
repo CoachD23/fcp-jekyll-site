@@ -8,9 +8,10 @@ hero_title: National High School Program
 hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 ---
 
-<div class="page-intro fade-in">
-  <p>Our National High School Program combines elite basketball training with accredited academics, giving student-athletes the exposure, development, and education they need to compete at the next level.</p>
-</div>
+<section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
+  <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Compete Nationally. Prepare Academically. Get Recruited.</h2>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">FCP's National High School Program (grades 9–12) combines two-a-day court sessions, <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NCAA-approved academics</a>, and a 30-game national schedule — all inside our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">14,000 sq ft Spartan Training Center</a> on Florida's Emerald Coast. Players from <strong>43 states and 22 countries</strong> have trained here since 2019.</p>
+</section>
 
 <!-- Program Highlights -->
 <div class="impact-bar fade-in">
@@ -133,11 +134,11 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 
 <div id="schedule"></div>
 
-<div class="cta-section" style="margin-top: 3rem; border-radius: 0;">
+<div class="cta-section" style="margin-top: 0; border-radius: 0;">
   <h2>Apply for the High School Program</h2>
-  <p>Roster spots are limited to 15 per team. Don't wait.</p>
+  <p>Roster spots are limited to 15 per team. Talk to our <a href="/coaches/" style="color: #d4a843;">coaching staff</a> or apply today.</p>
   <div class="hero-cta">
     <a href="/apply/" class="btn btn-primary">Apply Now</a>
-    <a href="/tuition/" class="btn btn-outline">View Tuition</a>
+    <a href="/commitments/" class="btn btn-gold">See Our Results</a>
   </div>
 </div>

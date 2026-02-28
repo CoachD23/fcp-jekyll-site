@@ -8,9 +8,10 @@ hero_title: Housing Options
 hero_subtitle: Beach Living on the Emerald Coast
 ---
 
-<div class="page-intro fade-in">
-  <p>In addition to offering a variety of housing options, we place a high priority on ensuring the safety and well-being of our student-athletes. Our house coach is always present, and each option is carefully selected to provide a safe, comfortable environment that allows athletes to focus on their training and development.</p>
-</div>
+<section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
+  <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Resort-Style Living on the Emerald Coast.</h2>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Every housing option is hand-selected for safety, comfort, and proximity to our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Spartan Training Center</a>. A dedicated house coach is always on-site — from beach condos on the Gulf to resort apartments with private pools, our student-athletes live like college athletes from day one.</p>
+</section>
 
 <!-- Beach Condos -->
 <div class="housing-section fade-in">
