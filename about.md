@@ -50,10 +50,25 @@ hero_subtitle: Where Potential Meets Preparation
   </div>
 </section>
 
-<!-- ESPN Endorsement — Compact Card -->
-<div class="fade-in" style="margin: 3rem auto; max-width: 480px;">
-  <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." style="width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.12);" loading="lazy">
+<!-- ESPN Endorsement — Side-by-Side with Navy Container -->
+<div class="fade-in" style="margin: 3rem auto; max-width: 960px; background: #0a1628; border-radius: 16px; padding: 1.5rem; box-shadow: 0 8px 32px rgba(0,0,0,0.18);">
+  <div class="biancardi-duo">
+    <div class="biancardi-duo-img">
+      <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;" loading="lazy">
+    </div>
+    <div class="biancardi-duo-img">
+      <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;" loading="lazy">
+    </div>
+  </div>
 </div>
+
+<style>
+.biancardi-duo { display: flex; gap: 1.5rem; align-items: stretch; }
+.biancardi-duo-img { flex: 1; min-width: 0; }
+@media (max-width: 600px) {
+  .biancardi-duo { flex-direction: column; }
+}
+</style>
 
 <!-- What Sets FCP Apart -->
 <section class="program-offers fade-in" style="margin-top: 3rem;">
