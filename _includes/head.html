@@ -5,15 +5,22 @@
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
 <!-- Open Graph / Social Sharing -->
-<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:type" content="{% if page.layout == 'post' or page.layout == 'alumni-post' %}article{% else %}website{% endif %}">
 <meta property="og:title" content="{% if page.title and page.title != 'Home' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:image" content="{{ '/assets/images/about-fcp.jpg' | absolute_url }}">
-<meta property="og:url" content="{{ page.url | absolute_url }}">
+{% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">
+{% elsif page.og_image %}<meta property="og:image" content="{{ page.og_image | absolute_url }}">
+{% elsif page.hero_image %}<meta property="og:image" content="{{ page.hero_image | absolute_url }}">
+{% else %}<meta property="og:image" content="{{ '/assets/images/about-fcp.jpg' | absolute_url }}">
+{% endif %}<meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@FLCoastalPrep">
-<meta name="twitter:image" content="{{ '/assets/images/about-fcp.jpg' | absolute_url }}">
+{% if page.image %}<meta name="twitter:image" content="{{ page.image | absolute_url }}">
+{% elsif page.og_image %}<meta name="twitter:image" content="{{ page.og_image | absolute_url }}">
+{% elsif page.hero_image %}<meta name="twitter:image" content="{{ page.hero_image | absolute_url }}">
+{% else %}<meta name="twitter:image" content="{{ '/assets/images/about-fcp.jpg' | absolute_url }}">
+{% endif %}
 
 {% seo %}
 
@@ -42,6 +49,11 @@
   "telephone": "+18509612323",
   "email": "info@floridacoastalprep.com",
   "sport": "Basketball",
+  "founder": {
+    "@type": "Person",
+    "name": "Lee DeForest",
+    "jobTitle": "Founder & Director"
+  },
   "sameAs": [
     "{{ site.social.facebook }}",
     "{{ site.social.instagram }}",
@@ -51,17 +63,44 @@
 }
 </script>
 
-{% if page.layout == 'post' %}
-<!-- Structured Data: Article (blog posts only) -->
+<!-- Structured Data: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ '/' | absolute_url }}"
+    }{% if page.url != "/" %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ page.title | default: page.name }}",
+      "item": "{{ page.url | absolute_url }}"
+    }{% endif %}
+  ]
+}
+</script>
+
+{% if page.layout == 'post' or page.layout == 'alumni-post' %}
+<!-- Structured Data: Article (blog posts) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "{{ page.title }}",
+  "description": "{% if page.description %}{{ page.description | escape }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 | escape }}{% endif %}",
   "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  {% if page.image %}"image": "{{ page.image | absolute_url }}",{% endif %}
+  "wordCount": "{{ content | number_of_words }}",
   "author": {
     "@type": "Organization",
-    "name": "Florida Coastal Prep"
+    "name": "Florida Coastal Prep",
+    "url": "https://floridacoastalprep.com"
   },
   "publisher": {
     "@type": "Organization",

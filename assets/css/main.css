@@ -3445,6 +3445,163 @@ iframe { max-width: 100%; }
 }
 /* end alumni spotlight */
 
+/* =============================================
+   POST META: Reading Time & Author
+   ============================================= */
+.post-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+.post-meta time {
+  font-size: 0.85rem;
+  color: #888;
+  font-weight: 500;
+}
+.post-meta-sep {
+  color: #ccc;
+  font-size: 0.85rem;
+}
+.post-read-time {
+  font-size: 0.85rem;
+  color: #888;
+  font-weight: 500;
+}
+
+/* =============================================
+   SOCIAL SHARING BAR
+   ============================================= */
+.post-share {
+  border-top: 1px solid #eee;
+  padding: 1.5rem 0;
+}
+.post-share-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.post-share-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.post-share-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.post-share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid #e0e0e0;
+  background: #fff;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+.post-share-btn:hover {
+  border-color: #c41e3a;
+  color: #c41e3a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(196,30,58,0.15);
+}
+.post-share-twitter:hover {
+  border-color: #000;
+  color: #000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+.post-share-facebook:hover {
+  border-color: #1877F2;
+  color: #1877F2;
+  box-shadow: 0 4px 12px rgba(24,119,242,0.15);
+}
+.post-share-copy {
+  position: relative;
+}
+.post-share-copy .copy-tooltip {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.8);
+  background: #0a1628;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.post-share-copy.copied .copy-tooltip {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+
+/* =============================================
+   AUTHOR CARD
+   ============================================= */
+.post-author {
+  padding: 0 0 2.5rem;
+}
+.post-author-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: #f7f8fa;
+  border-radius: 12px;
+  border-left: 4px solid #c41e3a;
+}
+.post-author-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: #fff;
+  flex-shrink: 0;
+}
+.post-author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.post-author-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0a1628;
+}
+.post-author-bio {
+  font-size: 0.82rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Responsive share & author */
+@media (max-width: 480px) {
+  .post-share-bar {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+  .post-author-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.25rem 1rem;
+  }
+}
+
 /* --- Accessibility: Reduced Motion --- */
 @media (prefers-reduced-motion: reduce) {
   .hero-bg-img,

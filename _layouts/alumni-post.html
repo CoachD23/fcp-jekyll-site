@@ -8,6 +8,8 @@ layout: default
       <div class="alumni-article-meta">
         <span class="alumni-article-category">Alumni Spotlight</span>
         <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+        <span class="post-meta-sep">&middot;</span>
+        <span class="post-read-time">{% assign words = content | number_of_words %}{% if words < 200 %}1{% else %}{{ words | divided_by: 200 }}{% endif %} min read</span>
       </div>
       <h1 class="alumni-article-title">{{ page.title }}</h1>
       {% if page.description %}<p class="alumni-article-lede">{{ page.description }}</p>{% endif %}
@@ -37,7 +39,7 @@ layout: default
           </div>
         </div>
       </div>
-      <p class="journey-card-caption">{{ page.player_name }}: From {{ page.fcp_label | default: "FCP" }} → {{ page.current_team | default: "the NBA" }}</p>
+      <p class="journey-card-caption">{{ page.player_name }}: From {{ page.fcp_label | default: "FCP" }} &rarr; {{ page.current_team | default: "the NBA" }}</p>
     </div>
   </div>
   {% endif %}
@@ -65,6 +67,27 @@ layout: default
     </div>
   </div>
 
+  <!-- Social Sharing -->
+  <div class="post-share">
+    <div class="container container-narrow">
+      <div class="post-share-bar">
+        <span class="post-share-label">Share this story</span>
+        <div class="post-share-buttons">
+          <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url }}&via=FLCoastalPrep" target="_blank" rel="noopener" class="post-share-btn post-share-twitter" aria-label="Share on X (Twitter)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" rel="noopener" class="post-share-btn post-share-facebook" aria-label="Share on Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <button class="post-share-btn post-share-copy" onclick="navigator.clipboard.writeText('{{ page.url | absolute_url }}');this.classList.add('copied');setTimeout(()=>this.classList.remove('copied'),2000)" aria-label="Copy link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            <span class="copy-tooltip">Copied!</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Player Bio Footer -->
   {% if page.bio %}
   <div class="alumni-bio-footer">
@@ -81,10 +104,10 @@ layout: default
   {% endif %}
 </article>
 
-<!-- Related Posts -->
+<!-- Related Alumni Stories -->
 <section class="related-posts">
   <div class="container">
-    <h2>More News</h2>
+    <h2>More Alumni Stories</h2>
     <div class="post-grid">
       {% assign related = site.posts | where_exp: "post", "post.url != page.url"  %}
       {% for post in related limit: 3 %}
