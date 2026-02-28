@@ -2,7 +2,7 @@
 layout: page
 title: Housing Options
 subtitle: Beach Living on the Emerald Coast
-description: "Explore Florida Coastal Prep's supervised housing — beach condos, team houses, and resort apartments on the Emerald Coast. Fully furnished, staff-supervised, steps from the Gulf of Mexico."
+description: "Explore Florida Coastal Prep's supervised student-athlete housing in Fort Walton Beach, FL — beach condos, team resort houses, and fully furnished apartments on the Emerald Coast with 24/7 staff supervision."
 hero_image: /assets/images/housing/pool-gulf.webp
 hero_title: Housing Options
 hero_subtitle: Beach Living on the Emerald Coast
@@ -22,11 +22,11 @@ hero_subtitle: Beach Living on the Emerald Coast
   <div class="housing-layout">
     <div class="housing-gallery">
       <div class="gallery-main">
-        <img src="/assets/images/housing/beach-condo-1.jpg" alt="Beach condo exterior on the Emerald Coast">
+        <img src="/assets/images/housing/beach-condo-1.jpg" alt="FCP student-athlete beach condo exterior on the Emerald Coast in Fort Walton Beach">
       </div>
       <div class="gallery-row">
-        <img src="/assets/images/housing/beach-condo-2.jpg" alt="Beach condo second view">
-        <img src="/assets/images/housing/beach-view.webp" alt="View from the beach condos">
+        <img src="/assets/images/housing/beach-condo-2.jpg" alt="Beach condo second view with Gulf of Mexico access">
+        <img src="/assets/images/housing/beach-view.webp" alt="Gulf of Mexico view from the FCP beach condos">
       </div>
     </div>
     <div class="housing-info">
@@ -41,84 +41,26 @@ hero_subtitle: Beach Living on the Emerald Coast
   </div>
 </div>
 
-<!-- Beach House -->
+<!-- Team Houses (using El Matador resort photos) -->
 <div class="housing-section housing-section-alt fade-in">
   <div class="staff-section-header">
-    <span class="section-label">Luxury</span>
-    <h2>Beach House</h2>
-    <div class="gold-rule"></div>
-  </div>
-  <div class="housing-layout housing-layout-reverse">
-    <div class="housing-gallery">
-      <div class="gallery-main">
-        <img src="/assets/images/housing/beach-house-1.jpg" alt="Beach house exterior with private pool">
-      </div>
-      <div class="gallery-row">
-        <img src="/assets/images/housing/beach-house-2.jpg" alt="Beach house second view">
-        <img src="/assets/images/housing/pool.jpg" alt="Private pool at beach house">
-      </div>
-    </div>
-    <div class="housing-info">
-      <p>A multi-level vacation home with a private pool and patio. Located just steps from Beach Access #1 on Okaloosa Island with beautiful Gulf of Mexico views from the third floor balconies.</p>
-      <p>The common area features 12' ceilings, a kitchen island with bar seating, dining room, and covered patios overlooking the pool.</p>
-      <div class="housing-highlights">
-        <div class="highlight-item"><strong>3</strong><span>Levels</span></div>
-        <div class="highlight-item"><strong>Private</strong><span>Pool</span></div>
-        <div class="highlight-item"><strong>Gulf</strong><span>Balconies</span></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Team Houses -->
-<div class="housing-section fade-in">
-  <div class="staff-section-header">
-    <span class="section-label">Team Living</span>
+    <span class="section-label">Resort Living</span>
     <h2>Team Houses</h2>
     <div class="gold-rule"></div>
   </div>
-  <div class="housing-layout">
-    <div class="housing-gallery">
-      <div class="gallery-main">
-        <img src="/assets/images/housing/team-house-1.jpg" alt="Team house living area">
-      </div>
-      <div class="gallery-row">
-        <img src="/assets/images/housing/team-house-2.jpg" alt="Team house second view">
-        <img src="/assets/images/housing/living-room.webp" alt="Team house living room">
-      </div>
-    </div>
-    <div class="housing-info">
-      <p>One of our most popular options. Multiple configurations available — all include bedrooms, bathrooms, full kitchens, big screen TVs, and lounge areas.</p>
-      <p>The communal space encourages team building, strategy sessions, and bonding. Particularly popular because athletes live and grow together under one roof.</p>
-      <div class="housing-highlights">
-        <div class="highlight-item"><strong>Full</strong><span>Kitchen</span></div>
-        <div class="highlight-item"><strong>Team</strong><span>Lounge</span></div>
-        <div class="highlight-item"><strong>Big Screen</strong><span>TVs</span></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- El Matador Housing -->
-<div class="housing-section housing-section-alt fade-in">
-  <div class="staff-section-header">
-    <span class="section-label">Resort</span>
-    <h2>El Matador Housing</h2>
-    <div class="gold-rule"></div>
-  </div>
   <div class="housing-layout housing-layout-reverse">
     <div class="housing-gallery">
       <div class="gallery-main">
-        <img src="/assets/images/housing/standish.webp" alt="El Matador resort housing">
+        <img src="/assets/images/housing/standish.webp" alt="FCP Team House resort-style housing on the Emerald Coast">
       </div>
       <div class="gallery-row">
-        <img src="/assets/images/housing/kitchen.webp" alt="Fully furnished kitchen">
-        <img src="/assets/images/housing/bedrooms.webp" alt="Furnished bedrooms">
+        <img src="/assets/images/housing/kitchen.webp" alt="Fully furnished modern kitchen in FCP team house">
+        <img src="/assets/images/housing/bedrooms.webp" alt="Furnished bedrooms in FCP team house">
       </div>
     </div>
     <div class="housing-info">
-      <p>Fully furnished 2-bed/2-bath apartments with cable, Wi-Fi, and full access to a one-of-a-kind beach resort. Located next to 17 miles of uninhabited beach.</p>
-      <p>The 12-acre resort offers two pools, tennis/pickleball and basketball courts, a fitness center, whirlpools, saunas, and meeting rooms.</p>
+      <p>Our most popular option. Fully furnished 2-bed/2-bath resort-style housing with cable, Wi-Fi, full kitchens, and access to a one-of-a-kind beach resort complex. Located next to 17 miles of uninhabited beach.</p>
+      <p>The 12-acre resort offers two pools, tennis/pickleball and basketball courts, a fitness center, whirlpools, saunas, and meeting rooms. The communal space encourages team building, strategy sessions, and bonding.</p>
       <div class="housing-highlights">
         <div class="highlight-item"><strong>2/2</strong><span>Bed/Bath</span></div>
         <div class="highlight-item"><strong>12 Acre</strong><span>Resort</span></div>
@@ -128,18 +70,43 @@ hero_subtitle: Beach Living on the Emerald Coast
   </div>
 </div>
 
-<!-- Interior Gallery -->
-<div class="staff-section staff-section-dark" style="padding: 3rem 0;">
+<!-- El Matador Housing -->
+<div class="housing-section fade-in">
   <div class="staff-section-header">
-    <span class="section-label">Interiors</span>
-    <h2>Inside Our Housing</h2>
+    <span class="section-label">Premium</span>
+    <h2>El Matador Housing</h2>
     <div class="gold-rule"></div>
   </div>
-  <div class="interior-gallery">
-    <img src="/assets/images/housing/kitchen-2.webp" alt="Modern kitchen" class="fade-in">
-    <img src="/assets/images/housing/bathroom.jpg" alt="Clean bathroom" class="fade-in">
-    <img src="/assets/images/housing/hallway.jpg" alt="Housing hallway" class="fade-in">
-    <img src="/assets/images/housing/beach.jpg" alt="Beach steps away" class="fade-in">
+  <div class="housing-layout">
+    <div class="housing-gallery">
+      <div class="gallery-main">
+        <img src="/assets/images/housing/pool-gulf.webp" alt="El Matador resort pool overlooking the Gulf of Mexico">
+      </div>
+      <div class="gallery-row">
+        <img src="/assets/images/housing/living-room.webp" alt="Spacious living room in El Matador housing unit">
+        <img src="/assets/images/housing/beach.jpg" alt="Pristine beach access steps from El Matador resort">
+      </div>
+    </div>
+    <div class="housing-info">
+      <p>Premium fully furnished apartments within a gated beachfront resort. Athletes enjoy private beach access, resort amenities, and a peaceful environment ideal for focused training and recovery.</p>
+      <p>Each unit includes modern furnishings, full kitchens, washer/dryer, and private balconies. The resort community provides a secure, distraction-free setting for student-athletes.</p>
+      <div class="housing-highlights">
+        <div class="highlight-item"><strong>Gated</strong><span>Resort</span></div>
+        <div class="highlight-item"><strong>Private</strong><span>Beach</span></div>
+        <div class="highlight-item"><strong>Full</strong><span>Amenities</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Supervised Living Trust Bar -->
+<div class="trust-bar fade-in" style="margin: 2rem auto; max-width: 900px;">
+  <div class="trust-bar-icon">
+    <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+  </div>
+  <div class="trust-bar-content">
+    <h4>24/7 Staff-Supervised Living</h4>
+    <p>A dedicated house coach lives on-site and is present at all times. Curfew enforcement, room checks, and structured daily schedules ensure a safe, focused environment for every athlete.</p>
   </div>
 </div>
 

@@ -4720,3 +4720,330 @@ iframe { max-width: 100%; }
     animation: none !important;
   }
 }
+
+/* ===================================================================
+   MULTI-PAGE REDESIGN — SVG Icons, Coach Grid, Enrollment Steps
+   =================================================================== */
+
+/* --- SVG Icon System (replaces emoji icons site-wide) --- */
+.feature-icon-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, #0a1628 0%, #162544 100%);
+  border-radius: 50%;
+  margin: 0 auto 1.1rem;
+  color: #d4a843;
+  flex-shrink: 0;
+  box-shadow: 0 4px 15px rgba(10, 22, 40, 0.2);
+}
+.feature-icon-svg svg {
+  width: 26px;
+  height: 26px;
+  fill: currentColor;
+}
+.feature-card .feature-icon-svg {
+  margin-bottom: 1.1rem;
+}
+
+/* Alternate: red icon variant */
+.feature-icon-svg.icon-red {
+  background: linear-gradient(135deg, #c41e3a 0%, #a01830 100%);
+  color: #fff;
+}
+
+/* Alternate: gold icon variant */
+.feature-icon-svg.icon-gold {
+  background: linear-gradient(135deg, #d4a843 0%, #b8912e 100%);
+  color: #0a1628;
+}
+
+/* --- Coach Card Grid (3-4 per row, uniform images) --- */
+.coach-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.coach-card-grid.four-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+.coach-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.coach-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+}
+.coach-card-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #e8e8e8;
+}
+.coach-card-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.5s ease;
+}
+.coach-card:hover .coach-card-photo img {
+  transform: scale(1.05);
+}
+.coach-card-info {
+  padding: 1.25rem 1rem 1.5rem;
+}
+.coach-card-info h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0a1628;
+  margin-bottom: 0.3rem;
+}
+.coach-card-info .coach-card-title {
+  font-size: 0.82rem;
+  color: #c41e3a;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+.coach-card-info .coach-card-bio {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.55;
+}
+.coach-card-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #d4a843 0%, #c49a35 100%);
+  color: #0a1628;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  margin-bottom: 0.6rem;
+}
+
+/* Coach grid responsive */
+@media (max-width: 1024px) {
+  .coach-card-grid,
+  .coach-card-grid.four-col {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .coach-card-grid,
+  .coach-card-grid.four-col {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+}
+@media (max-width: 480px) {
+  .coach-card-grid,
+  .coach-card-grid.four-col {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+/* --- CCU Enrollment Steps --- */
+.enrollment-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 2rem auto 0;
+  counter-reset: step-counter;
+}
+.enrollment-step {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.75rem 1.25rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  position: relative;
+  counter-increment: step-counter;
+  transition: transform 0.3s ease;
+}
+.enrollment-step:hover {
+  transform: translateY(-4px);
+}
+.enrollment-step::before {
+  content: counter(step-counter);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background: linear-gradient(135deg, #c41e3a 0%, #a01830 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 800;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  box-shadow: 0 4px 12px rgba(196, 30, 58, 0.3);
+}
+.enrollment-step h3 {
+  font-size: 1rem;
+  color: #0a1628;
+  margin-bottom: 0.5rem;
+}
+.enrollment-step p {
+  font-size: 0.88rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* --- CCU Contact Card --- */
+.ccu-contact {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  max-width: 500px;
+  margin: 2rem auto 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-top: 4px solid #d4a843;
+}
+.ccu-contact h3 {
+  color: #0a1628;
+  margin-bottom: 0.3rem;
+}
+.ccu-contact .ccu-role {
+  color: #c41e3a;
+  font-weight: 600;
+  font-size: 0.88rem;
+  margin-bottom: 0.75rem;
+}
+.ccu-contact a {
+  color: #c41e3a;
+  font-weight: 600;
+}
+
+/* --- Daily Schedule Table --- */
+.daily-schedule {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  max-width: 900px;
+  margin: 2rem auto 0;
+}
+.schedule-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: rgba(255,255,255,0.05);
+  border-radius: 8px;
+  border-left: 3px solid #d4a843;
+}
+.schedule-time {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #d4a843;
+  white-space: nowrap;
+  min-width: 80px;
+}
+.schedule-activity {
+  font-size: 0.92rem;
+  color: rgba(255,255,255,0.9);
+}
+
+/* Light variant for non-dark sections */
+.daily-schedule-light .schedule-block {
+  background: #f8f9fb;
+}
+.daily-schedule-light .schedule-activity {
+  color: #333;
+}
+
+/* --- Alumni Callout Cards --- */
+.alumni-callout-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 2rem auto 0;
+}
+.alumni-callout-card {
+  background: rgba(255,255,255,0.06);
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  border: 1px solid rgba(212, 168, 67, 0.2);
+  transition: transform 0.3s ease;
+}
+.alumni-callout-card:hover {
+  transform: translateY(-4px);
+}
+.alumni-callout-card h4 {
+  color: #fff;
+  font-size: 1.05rem;
+  margin-bottom: 0.2rem;
+}
+.alumni-callout-card .alumni-school {
+  color: #d4a843;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.alumni-callout-card .alumni-detail {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.82rem;
+  margin-top: 0.3rem;
+}
+
+/* --- Supervised Living Trust Bar --- */
+.trust-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(135deg, rgba(10, 22, 40, 0.04), rgba(212, 168, 67, 0.06));
+  border-left: 4px solid #d4a843;
+  border-radius: 0 12px 12px 0;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+}
+.trust-bar-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  background: #0a1628;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d4a843;
+}
+.trust-bar-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+.trust-bar-content h4 {
+  color: #0a1628;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+.trust-bar-content p {
+  color: #555;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* --- Print Styles --- */
+@media print {
+  .site-header, .site-footer, .nav-toggle, .cta-section, .hero-cta { display: none !important; }
+  .page-content { padding-top: 0 !important; }
+  .page-header { background: #fff !important; color: #000 !important; padding: 1rem 0 !important; }
+}

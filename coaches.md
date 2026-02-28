@@ -2,7 +2,7 @@
 layout: page
 title: Management & Staff
 subtitle: The Team Behind the Team
-description: "Meet the Florida Coastal Prep coaching staff — including NBA All-Star Kenny Anderson (14-year NBA career), Director Lee DeForest (25+ years), and elite trainers who've developed 500+ college commits."
+description: "Meet the Florida Coastal Prep coaching staff — including NBA All-Star Kenny Anderson (14-year NBA career), Director Lee DeForest (25+ years coaching experience), and elite trainers who've developed 500+ college commits."
 hero_image: /assets/images/about-hero.jpg
 og_image: /assets/images/coaches/kenny-anderson.png
 hero_title: Management & Staff
@@ -20,7 +20,7 @@ hero_subtitle: The Team Behind the Team
   <div class="executive-grid">
     <div class="executive-card fade-in">
       <div class="executive-photo">
-        <img src="/assets/images/coaches/lee-deforest.webp" alt="Lee DeForest — Athletic Director">
+        <img src="/assets/images/coaches/lee-deforest.webp" alt="Lee DeForest — Athletic Director at Florida Coastal Prep">
         <div class="executive-overlay">
           <span class="exec-title">Athletic Director</span>
         </div>
@@ -39,7 +39,7 @@ hero_subtitle: The Team Behind the Team
 
     <div class="executive-card fade-in">
       <div class="executive-photo">
-        <img src="/assets/images/coaches/vando-becheli.webp" alt="Vando Becheli — PG Director">
+        <img src="/assets/images/coaches/vando-becheli.webp" alt="Vando Becheli — Post-Graduate Director at Florida Coastal Prep">
         <div class="executive-overlay">
           <span class="exec-title">PG Director</span>
         </div>
@@ -58,7 +58,7 @@ hero_subtitle: The Team Behind the Team
   </div>
 </div>
 
-<!-- Coaching Staff -->
+<!-- Coaching Staff — New 3-Column Card Grid -->
 <div class="staff-section staff-section-dark">
   <div class="staff-section-header">
     <span class="section-label">Coaches</span>
@@ -66,66 +66,67 @@ hero_subtitle: The Team Behind the Team
     <div class="gold-rule"></div>
   </div>
 
-  <div class="coaching-grid">
-    <div class="coach-profile fade-in">
-      <div class="coach-img-wrapper">
-        <img src="/assets/images/coaches/kenny-anderson.png" alt="Kenny Anderson">
-        <div class="coach-badge">NBA All-Star</div>
+  <div class="coach-card-grid">
+    <div class="coach-card fade-in">
+      <div class="coach-card-photo">
+        <img src="/assets/images/coaches/kenny-anderson.png" alt="Kenny Anderson — NBA All-Star and FCP Basketball Coach">
       </div>
-      <div class="coach-details">
+      <div class="coach-card-info">
+        <span class="coach-card-badge">NBA All-Star</span>
         <h3>Kenny Anderson</h3>
-        <p class="coach-title">Basketball Coach / Skills Development Director</p>
-        <p class="coach-bio">Queens, NY native and NBA legend: 1991 second overall draft pick (New Jersey Nets), 14-year NBA career across eight teams, 1994 NBA All-Star. Former Fisk University head coach.</p>
+        <p class="coach-card-title">Skills Development Director</p>
+        <p class="coach-card-bio">Queens, NY native and NBA legend: 1991 second overall pick, 14-year NBA career across eight teams, 1994 NBA All-Star. Former Fisk University head coach.</p>
       </div>
     </div>
 
-    <div class="coach-profile fade-in">
-      <div class="coach-img-wrapper">
-        <img src="/assets/images/coaches/jared-dugan.png" alt="Jared Dugan">
+    <div class="coach-card fade-in">
+      <div class="coach-card-photo">
+        <img src="/assets/images/coaches/jared-dugan.png" alt="Jared Dugan — Head Post-Grad Coach and Recruiting Coordinator">
       </div>
-      <div class="coach-details">
+      <div class="coach-card-info">
         <h3>Jared Dugan</h3>
-        <p class="coach-title">Head PG Coach / Recruiting Coordinator</p>
-        <p class="coach-bio">UCF graduate (Economics, Sports Management). Previously: Scouting Director at Hoop Brothers, analytics with UCF and Stetson, assistant coach at IMPACT Academy Las Vegas, advanced scout with Indiana Fever.</p>
+        <p class="coach-card-title">Head PG Coach / Recruiting</p>
+        <p class="coach-card-bio">UCF graduate (Economics, Sports Management). Previously: Scouting Director at Hoop Brothers, analytics with UCF and Stetson, assistant coach at IMPACT Academy, advanced scout with Indiana Fever.</p>
       </div>
     </div>
 
-    <div class="coach-profile fade-in">
-      <div class="coach-img-wrapper">
-        <img src="/assets/images/coaches/dmitry-utolin.webp" alt="Dmitry Utolin">
+    <div class="coach-card fade-in">
+      <div class="coach-card-photo">
+        <img src="/assets/images/coaches/dmitry-utolin.webp" alt="Dmitry Utolin — Head Coach and Sports Performance Director">
       </div>
-      <div class="coach-details">
+      <div class="coach-card-info">
+        <span class="coach-card-badge">NAIA All-American</span>
         <h3>Dmitry Utolin</h3>
-        <p class="coach-title">Head Coach / Sports Performance Director</p>
-        <p class="coach-bio">Third-year coach, former Cumberland University graduate assistant. Professional player in CSKA Moscow, played at Cuesta JC, West Texas A&M, and Lindsey Wilson College. Two-time All-Conference, NAIA All-American.</p>
+        <p class="coach-card-title">Head Coach / Sports Performance</p>
+        <p class="coach-card-bio">Third-year coach, former Cumberland University GA. Professional player (CSKA Moscow), played at Cuesta JC, West Texas A&M, and Lindsey Wilson. Two-time All-Conference.</p>
       </div>
     </div>
 
-    <div class="coach-profile fade-in">
-      <div class="coach-img-wrapper">
-        <img src="/assets/images/coaches/tyler-martin.png" alt="Tyler Martin">
+    <div class="coach-card fade-in">
+      <div class="coach-card-photo">
+        <img src="/assets/images/coaches/tyler-martin.png" alt="Tyler Martin — Head Skill Development Coach">
       </div>
-      <div class="coach-details">
+      <div class="coach-card-info">
         <h3>Tyler Martin</h3>
-        <p class="coach-title">Head Skill Development Coach</p>
-        <p class="coach-bio">Memphis native, former Combine Academy post-grad athlete. Played NCAA DII at University of Montevallo and Stillman College. Emphasizes skill refinement and mental/physical preparation.</p>
+        <p class="coach-card-title">Head Skill Development</p>
+        <p class="coach-card-bio">Memphis native, former Combine Academy post-grad athlete. Played NCAA DII at University of Montevallo and Stillman College. Emphasizes skill refinement and mental preparation.</p>
       </div>
     </div>
 
-    <div class="coach-profile fade-in">
-      <div class="coach-img-wrapper">
-        <img src="/assets/images/coaches/dada-huang.webp" alt="Guanda Dada Huang">
+    <div class="coach-card fade-in">
+      <div class="coach-card-photo">
+        <img src="/assets/images/coaches/dada-huang.webp" alt="Guanda Dada Huang — International Recruiter and Basketball Coach">
       </div>
-      <div class="coach-details">
+      <div class="coach-card-info">
         <h3>Guanda "Dada" Huang</h3>
-        <p class="coach-title">International Recruiter / Basketball Coach</p>
-        <p class="coach-bio">Former NAIA player with semi-pro experience in China. Master's in Sports Management from NYU, certified NSCA-CPT.</p>
+        <p class="coach-card-title">International Recruiter</p>
+        <p class="coach-card-bio">Former NAIA player with semi-pro experience in China. Master's in Sports Management from NYU, certified NSCA-CPT.</p>
       </div>
     </div>
   </div>
 </div>
 
-<!-- Advisory Board -->
+<!-- Advisory Board — Same 3-Column Card Grid -->
 <div class="staff-section">
   <div class="staff-section-header">
     <span class="section-label">Advisors</span>
@@ -133,21 +134,39 @@ hero_subtitle: The Team Behind the Team
     <div class="gold-rule"></div>
   </div>
 
-  <div class="advisory-grid">
-    <div class="advisor-card fade-in">
-      <img src="/assets/images/coaches/tom-bower.webp" alt="Tom Bower">
-      <h3>Tom Bower</h3>
-      <p class="advisor-role">Co-founder of Leading Athletics, KBC Hoops, and Virtus Brand</p>
+  <div class="coach-card-grid">
+    <div class="coach-card fade-in">
+      <div class="coach-card-photo">
+        <img src="/assets/images/coaches/tom-bower.webp" alt="Tom Bower — FCP Advisory Board member, co-founder of Leading Athletics">
+      </div>
+      <div class="coach-card-info">
+        <h3>Tom Bower</h3>
+        <p class="coach-card-title">Advisory Board</p>
+        <p class="coach-card-bio">Co-founder of Leading Athletics, KBC Hoops, and Virtus Brand.</p>
+      </div>
     </div>
-    <div class="advisor-card fade-in">
-      <img src="/assets/images/coaches/shadia-natour.webp" alt="Dr. Shadia Natour">
-      <h3>Dr. Shadia Natour</h3>
-      <p class="advisor-role">Clinic Lead Physical Therapist at Compleat Rehab & Sports Therapy, CrossFit Level 1 Trainer</p>
+
+    <div class="coach-card fade-in">
+      <div class="coach-card-photo">
+        <img src="/assets/images/coaches/shadia-natour.webp" alt="Dr. Shadia Natour — Physical Therapist and FCP Advisory Board member">
+      </div>
+      <div class="coach-card-info">
+        <h3>Dr. Shadia Natour</h3>
+        <p class="coach-card-title">Advisory Board</p>
+        <p class="coach-card-bio">Clinic Lead Physical Therapist at Compleat Rehab & Sports Therapy, CrossFit Level 1 Trainer.</p>
+      </div>
     </div>
-    <div class="advisor-card fade-in">
-      <img src="/assets/images/coaches/paul-peck.webp" alt="Paul Peck">
-      <h3>Paul Peck</h3>
-      <p class="advisor-role">Former Lindsey Wilson College Head Coach — 587-368 record, five-time Conference Coach of Year, 2011-12 Don Meyer NAIA Coach of Year</p>
+
+    <div class="coach-card fade-in">
+      <div class="coach-card-photo">
+        <img src="/assets/images/coaches/paul-peck.webp" alt="Paul Peck — Former NAIA Coach of the Year, FCP Advisory Board member">
+      </div>
+      <div class="coach-card-info">
+        <span class="coach-card-badge">NAIA Coach of Year</span>
+        <h3>Paul Peck</h3>
+        <p class="coach-card-title">Advisory Board</p>
+        <p class="coach-card-bio">Former Lindsey Wilson College Head Coach — 587-368 record, five-time Conference Coach of Year, 2011-12 Don Meyer NAIA Coach of Year.</p>
+      </div>
     </div>
   </div>
 </div>
@@ -160,12 +179,16 @@ hero_subtitle: The Team Behind the Team
     <div class="gold-rule"></div>
   </div>
 
-  <div class="admissions-feature">
-    <div class="advisor-card fade-in">
-      <img src="/assets/images/coaches/alba-reyes.webp" alt="Alba Reyes">
-      <h3>Alba Reyes</h3>
-      <p class="advisor-role">Admissions Director</p>
-      <a href="/contact/" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Contact Admissions</a>
+  <div class="coach-card-grid" style="max-width: 400px;">
+    <div class="coach-card fade-in">
+      <div class="coach-card-photo">
+        <img src="/assets/images/coaches/alba-reyes.webp" alt="Alba Reyes — Admissions Director at Florida Coastal Prep">
+      </div>
+      <div class="coach-card-info">
+        <h3>Alba Reyes</h3>
+        <p class="coach-card-title">Admissions Director</p>
+        <a href="/contact/" class="btn btn-primary" style="margin-top: 0.75rem; display: inline-block; font-size: 0.85rem;">Contact Admissions</a>
+      </div>
     </div>
   </div>
 </div>
@@ -178,3 +201,46 @@ hero_subtitle: The Team Behind the Team
     <a href="/contact/" class="btn btn-outline">Contact Us</a>
   </div>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Florida Coastal Prep Coaching Staff",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Person",
+        "name": "Kenny Anderson",
+        "jobTitle": "Basketball Coach / Skills Development Director",
+        "description": "NBA All-Star (1994), 14-year NBA career, former Fisk University head coach",
+        "worksFor": {"@type": "SportsOrganization", "name": "Florida Coastal Prep Sports Academy"}
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Person",
+        "name": "Lee DeForest",
+        "jobTitle": "Athletic Director / Director of Operations",
+        "description": "25 years of basketball coaching across DI, DII, NAIA, and JUCO levels",
+        "worksFor": {"@type": "SportsOrganization", "name": "Florida Coastal Prep Sports Academy"}
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Person",
+        "name": "Vando Becheli",
+        "jobTitle": "PG Director / Assistant Athletic Director",
+        "description": "120+ career wins, former Utah State University Eastern coach, 2016 Rio Olympics contributor",
+        "worksFor": {"@type": "SportsOrganization", "name": "Florida Coastal Prep Sports Academy"}
+      }
+    }
+  ]
+}
+</script>
