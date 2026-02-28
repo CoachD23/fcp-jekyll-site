@@ -46,7 +46,7 @@ hero_subtitle: Where Potential Meets Preparation
     <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">Building Complete Athletes</h2>
     <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
     <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">We direct every player who completes our program to achieve their greatest potential — on the court, in the classroom, and in life. Our approach emphasizes <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">player development</a>, skill refinement, and athletic performance within a team-first structure.</p>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">From daily skill work and <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">strength training</a> to <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">SAT prep and college application guidance</a>, FCP delivers the full package — getting our athletes to the college level, prepared and recruited.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">From daily skill work and <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">strength training</a> to <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">accredited academics and college application guidance</a>, FCP delivers the full package — getting our athletes to the college level, prepared and recruited.</p>
   </div>
 </section>
 
@@ -93,7 +93,7 @@ hero_subtitle: Where Potential Meets Preparation
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
       <h3>Academic Excellence</h3>
-      <p>Accredited coursework, SAT/ACT prep, and <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">college application support</a> ensure our athletes are recruited and ready.</p>
+      <p>Accredited coursework, dual enrollment, and <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">college application support</a> ensure our athletes are recruited and ready.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg></div>
@@ -257,3 +257,4 @@ hero_subtitle: Where Potential Meets Preparation
   }
 }
 </script>
+

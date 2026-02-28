@@ -46,7 +46,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">What is a Post-Graduate Year?</h2>
     <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
     <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">While gap year popularity has risen — with an estimated 22% increase since 2015 — a PG year at FCP is different. It's structured, competitive, and designed to make you a stronger college candidate from every angle.</p>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Our program combines elite basketball development under <a href="/coaches/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">former NBA and D1 coaches</a>, academic improvement through <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">accredited coursework and SAT/ACT prep</a>, and the maturity that comes from living in a competitive team environment on Florida's <a href="/area-info/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Emerald Coast</a>.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Our program combines elite basketball development under <a href="/coaches/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">former NBA and D1 coaches</a>, academic improvement through <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">accredited coursework and dual enrollment</a>, and the maturity that comes from living in a competitive team environment on Florida's <a href="/area-info/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Emerald Coast</a>.</p>
   </div>
 </section>
 
@@ -62,7 +62,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
       <h3>Academic Improvement</h3>
-      <p>Dual enrollment through Colorado Christian University, SAT/ACT prep, and transcript enhancement to strengthen your college application.</p>
+      <p>Dual enrollment through Colorado Christian University, dual enrollment, and transcript enhancement to strengthen your college application.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg></div>
@@ -124,7 +124,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
       <h3>Accredited Academics</h3>
-      <p><a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">College coursework</a> through Colorado Christian University, SAT/ACT prep, and guided college application support — athletes graduate recruited and academically prepared.</p>
+      <p><a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">College coursework</a> through Colorado Christian University, dual enrollment, and guided college application support — athletes graduate recruited and academically prepared.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
@@ -195,3 +195,4 @@ hero_subtitle: The Bridge Between High School and College Basketball
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
 .hero-bg-img { object-position: center 30% !important; }
 </style>
+

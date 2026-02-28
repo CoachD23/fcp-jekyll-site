@@ -28,7 +28,7 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     <div class="feature-card fade-in" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
       <div class="feature-icon">🎓</div>
       <h3 style="color: #fff;">Academics</h3>
-      <p style="color: rgba(255,255,255,0.7);">Accredited coursework, SAT/ACT prep, college application support, and NCAA eligibility guidance.</p>
+      <p style="color: rgba(255,255,255,0.7);">Accredited coursework, dual enrollment, college application support, and NCAA eligibility guidance.</p>
     </div>
     <div class="feature-card fade-in" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
       <div class="feature-icon">🏠</div>
@@ -184,3 +184,4 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     <a href="/contact/" class="btn btn-outline">Contact Us</a>
   </div>
 </div>
+
