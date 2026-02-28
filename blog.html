@@ -20,6 +20,9 @@ og_image: /assets/images/blog/blog-default.jpg
     {% if all_posts.size > 0 %}
 
     <!-- Featured: first 2 posts — large overlay cards side by side -->
+    <div class="blog-section-label fade-in">
+      <span class="blog-section-tag">Featured</span>
+    </div>
     <div class="blog-featured fade-in">
       {% for post in all_posts limit:2 %}
       <a href="{{ post.url | relative_url }}" class="blog-hero-card">
@@ -60,12 +63,28 @@ og_image: /assets/images/blog/blog-default.jpg
       {% endfor %}
     </div>
 
-    <!-- Remaining posts — overlay card grid -->
+    <!-- Category filter tabs -->
     {% assign remaining = all_posts | slice: 2, all_posts.size %}
     {% if remaining.size > 0 %}
-    <div class="blog-grid fade-in">
+    <div class="blog-filter-bar fade-in">
+      <div class="blog-filter-left">
+        <span class="blog-section-tag">All Stories</span>
+        <span class="blog-post-count">{{ remaining.size }} articles</span>
+      </div>
+      <div class="blog-filters" id="blogFilters">
+        <button class="blog-filter active" data-filter="all">All</button>
+        <button class="blog-filter" data-filter="alumni">Alumni</button>
+        <button class="blog-filter" data-filter="recruiting">Recruiting</button>
+        <button class="blog-filter" data-filter="highlights">Highlights</button>
+        <button class="blog-filter" data-filter="commitments">Commits</button>
+      </div>
+    </div>
+
+    <div class="blog-grid fade-in" id="blogGrid">
       {% for post in remaining %}
-      <a href="{{ post.url | relative_url }}" class="blog-overlay-card">
+      {% assign cat = post.categories | first %}
+      {% if cat == "basketball" %}{% assign filter_cat = "recruiting" %}{% else %}{% assign filter_cat = cat %}{% endif %}
+      <a href="{{ post.url | relative_url }}" class="blog-overlay-card" data-category="{{ filter_cat }}">
         <div class="blog-overlay-image">
           {% if post.image %}
           <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
@@ -74,7 +93,6 @@ og_image: /assets/images/blog/blog-default.jpg
           {% endif %}
         </div>
         <div class="blog-overlay-content">
-          {% assign cat = post.categories | first %}
           {% if cat == "alumni" %}
             <span class="blog-badge blog-badge-alumni">Alumni Story</span>
           {% elsif cat == "commitments" %}
@@ -110,3 +128,37 @@ og_image: /assets/images/blog/blog-default.jpg
 
   </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var filters = document.querySelectorAll('.blog-filter');
+  var cards = document.querySelectorAll('.blog-overlay-card');
+  filters.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      filters.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      var cat = btn.getAttribute('data-filter');
+      cards.forEach(function(card) {
+        if (cat === 'all' || card.getAttribute('data-category') === cat) {
+          card.style.display = '';
+          card.style.opacity = '0';
+          card.style.transform = 'translateY(12px)';
+          setTimeout(function() {
+            card.style.transition = 'opacity 0.35s ease, transform 0.35s ease';
+            card.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+          }, 30);
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+  // Hash-based filtering from nav links
+  var hash = window.location.hash.replace('#','');
+  if (hash) {
+    var target = document.querySelector('.blog-filter[data-filter="' + hash + '"]');
+    if (target) target.click();
+  }
+});
+</script>

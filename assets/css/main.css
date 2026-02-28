@@ -958,6 +958,68 @@ section { padding: 4rem 0; }
   letter-spacing: 2.2px;
 }
 
+/* --- Section labels --- */
+.blog-section-label {
+  margin-bottom: 1rem;
+}
+.blog-section-tag {
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  background: rgba(212,168,67,0.1);
+  color: #d4a843;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 3px;
+}
+
+/* --- Filter bar --- */
+.blog-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0 1.25rem;
+  margin-top: 2.5rem;
+  border-top: 1px solid #e2e8f0;
+}
+.blog-filter-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.blog-post-count {
+  color: #94a3b8;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+.blog-filters {
+  display: flex;
+  gap: 0.35rem;
+}
+.blog-filter {
+  background: none;
+  border: 1px solid #e2e8f0;
+  color: #64748b;
+  padding: 0.4rem 1rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.blog-filter:hover {
+  border-color: #c41e3a;
+  color: #c41e3a;
+}
+.blog-filter.active {
+  background: #0a1628;
+  border-color: #0a1628;
+  color: #fff;
+}
+
 /* Post single */
 .post-header { background: #0a1628; padding: 8.5rem 0 3rem; text-align: center; }
 .post-header time { color: #d4a843; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; }
@@ -1550,6 +1612,8 @@ section { padding: 4rem 0; }
   .blog-hero-title { font-size: 1.25rem; }
   .blog-grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
   .blog-overlay-card { min-height: 280px; }
+  .blog-filter-bar { flex-direction: column; gap: 1rem; align-items: flex-start; }
+  .blog-filters { flex-wrap: wrap; }
   .instagram-grid { grid-template-columns: repeat(2, 1fr); }
   .instagram-section { padding: 3rem 0 2rem; }
   .video-hub-section { padding: 3rem 0; }
@@ -1580,6 +1644,7 @@ section { padding: 4rem 0; }
   .blog-overlay-card { min-height: 260px; }
   .blog-overlay-title { font-size: 1rem; }
   .blog-badge { font-size: 0.58rem; padding: 0.2rem 0.55rem; }
+  .blog-filter { padding: 0.35rem 0.75rem; font-size: 0.65rem; }
   .instagram-grid { grid-template-columns: 1fr 1fr; gap: 0.75rem; }
   .instagram-icon { width: 44px; height: 44px; }
   .instagram-icon svg { width: 24px; height: 24px; }
