@@ -2,6 +2,16 @@
 # Source: RealGM + FCP records
 # Add new entries at the top. Fields: name, sport, school, year, position, level, hometown, image (optional), note (optional)
 
+- name: "Gerald Gittens Jr."
+  sport: "Basketball"
+  school: "Northern Michigan University"
+  year: 2021
+  position: "G"
+  level: "D1"
+  hometown: "Brooklyn, NY"
+  image: ""
+  note: "GLIAC Conference"
+
 - name: "Jack Hatten"
   sport: "Basketball"
   school: "University of Idaho"

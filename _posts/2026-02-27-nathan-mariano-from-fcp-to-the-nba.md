@@ -47,13 +47,29 @@ After his time at FCP, Mariano returned to his hometown club, Sesi Franca, and i
 </ul>
 </div>
 
+To understand what Mariano accomplished, you have to understand Sesi Franca. Based in the city of Franca in São Paulo state, the club is one of the most storied programs in Brazilian basketball history. For Mariano to not only earn minutes at that level as a teenager but to become a key contributor on four consecutive championship rosters is extraordinary.
+
+The tetracampeonato — four straight NBB titles — cemented Franca's dynasty and Mariano's place in it. In Brazilian basketball, winning even one national championship is a career-defining achievement. Winning four in a row puts you in a conversation reserved for the greatest teams the country has ever produced. Mariano was part of every single run, growing from a young rotation player into a trusted piece of a championship machine.
+
 By 22 years old, Mariano had already won more professional championships than most players collect in an entire career.
+
+## Champions of the Americas
+
+Franca's dominance wasn't limited to Brazil. In 2023, the club took its show on the road and conquered the entire continent.
+
+First came the **Basketball Champions League Americas** — South America's premier club competition featuring the best teams from Brazil, Argentina, Uruguay, and beyond. Franca battled through the tournament bracket and won the title, proving they were the best club team in the Western Hemisphere.
+
+Then came the crown jewel: the **Copa Intercontinental 2023**, where the champions of the Americas faced the champions of Europe in a winner-take-all showdown for global supremacy. Franca won that too — making them, for one shining moment, the best basketball club on earth outside of the NBA.
+
+Mariano, still just 21 years old at the time, was contributing real minutes on a team that beat every club on the planet. That's not a development story anymore. That's a résumé.
 
 ## Wearing the Green and Gold
 
 Mariano's consistent production with Franca earned him one of the most prestigious honors in Brazilian basketball — a call-up to the Seleção, Brazil's senior national team.
 
 He represented his country in FIBA AmeriCup qualifying and helped Brazil capture the **FIBA AmeriCup 2025** title in Nicaragua. Playing alongside established veterans on the international stage, Mariano proved he belonged among the continent's best.
+
+For a player who was developing at FCP just a few years earlier, wearing the green and gold of Brazil in FIBA competition — and winning a continental championship — is the kind of leap that validates every hour of work put in along the way.
 
 ![Nathan Mariano celebrating the FIBA AmeriCup 2025 championship with the trophy and Brazilian flag](/assets/images/nathan-mariano-trophy.jpeg)
 
@@ -63,8 +79,14 @@ In 2025, Mariano entered the NBA Draft, catching the attention of scouts with hi
 
 Mariano participated in training camp with the Suns' main roster before joining the **Valley Suns** in the G League, where he continues to develop his game against NBA-caliber competition every night.
 
+At 6'9" with legitimate two-way ability, a championship mentality forged through six titles across three competitions, and the kind of international experience that NBA front offices covet, Mariano has every tool he needs to make the final jump. The Suns organization clearly believes in his potential — and his track record suggests they're right to.
+
 ## The Bigger Picture
 
-Nathan Mariano's story isn't just about one player's success. It's proof that the development pathway works. A young player from Brazil came to Fort Walton Beach, Florida, put in the work at Florida Coastal Prep, and built a foundation that carried him to professional championships, international glory, and the doorstep of the NBA.
+Nathan Mariano's story isn't just about one player's success. It's proof that the development pathway works.
+
+A young player from Brazil came to Fort Walton Beach, Florida, put in the work at Florida Coastal Prep, and built a foundation that carried him to professional championships, international glory, and the doorstep of the NBA. He won four league titles, a continental club championship, an intercontinental club championship, and a FIBA AmeriCup gold medal — all before his 23rd birthday.
+
+From FCP's gym to Brazil's biggest stages to the Suns' G League roster, every step of Mariano's journey connects back to the work ethic and competitive edge he developed at Florida Coastal Prep. When a program produces a player like this, it's not luck. It's proof of concept.
 
 > That's the FCP difference.
