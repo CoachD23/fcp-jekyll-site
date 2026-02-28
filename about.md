@@ -42,11 +42,11 @@ hero_subtitle: Where Potential Meets Preparation
     <img src="/assets/images/training/gym-main.jpg" alt="FCP student-athletes training at the Spartan Training Center in Fort Walton Beach, Florida" loading="lazy">
   </div>
   <div class="program-details">
-    <span class="section-label" style="font-size: 0.85rem;">Our Mission</span>
+    <span class="section-label">Our Mission</span>
     <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">Building Complete Athletes</h2>
     <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">We direct every player who completes our program to achieve their greatest potential — on the court, in the classroom, and in life. Our approach emphasizes <a href="/training/" style="color: #c41e3a; font-weight: 600;">player development</a>, skill refinement, and athletic performance within a team-first structure.</p>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">From daily skill work and <a href="/training/" style="color: #c41e3a; font-weight: 600;">strength training</a> to <a href="/academics/" style="color: #c41e3a; font-weight: 600;">SAT prep and college application guidance</a>, FCP delivers the full package — getting our athletes to the college level, prepared and recruited.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">We direct every player who completes our program to achieve their greatest potential — on the court, in the classroom, and in life. Our approach emphasizes <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">player development</a>, skill refinement, and athletic performance within a team-first structure.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">From daily skill work and <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">strength training</a> to <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">SAT prep and college application guidance</a>, FCP delivers the full package — getting our athletes to the college level, prepared and recruited.</p>
   </div>
 </section>
 
@@ -131,8 +131,8 @@ hero_subtitle: Where Potential Meets Preparation
     <div class="path-card fade-in" style="text-align: center;">
       <h3 style="color: #fff; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.75rem;">National High School</h3>
       <div class="path-logos" style="justify-content: center;">
-        <img src="/assets/images/grind-session.png" alt="Grind Session basketball league logo" loading="lazy">
-        <img src="/assets/images/siaa.webp" alt="SIAA — Sunshine Independent Athletic Association logo" loading="lazy">
+        <img src="/assets/images/grind-session-transparent.png" alt="Grind Session basketball league logo" loading="lazy">
+        <img src="/assets/images/siaa-transparent.png" alt="SIAA — Sunshine Independent Athletic Association logo" loading="lazy">
       </div>
       <p style="text-align: justify; color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.7;">FCP's high school program competes in the <strong style="color: #fff;">Grind Session</strong> and <strong style="color: #fff;">SIAA</strong> — two of the top independent basketball circuits in the country. Student-athletes receive accredited academics alongside competitive game schedules against nationally ranked programs.</p>
       <a href="/high-school/" class="btn btn-outline" style="margin-top: 1.25rem;">Explore High School</a>
@@ -142,8 +142,8 @@ hero_subtitle: Where Potential Meets Preparation
     <div class="path-card fade-in" style="text-align: center;">
       <h3 style="color: #fff; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.75rem;">Post-Graduate Program</h3>
       <div class="path-logos" style="justify-content: center;">
-        <img src="/assets/images/sehal.png" alt="SEHAL — Southeast Homeschool Athletic League logo" loading="lazy">
-        <img src="/assets/images/phsba-opt.png" alt="PHSBA — Prep &amp; Homeschool Basketball Alliance logo" loading="lazy">
+        <img src="/assets/images/sehal-transparent.png" alt="SEHAL — Southeast Elite High School Athletic League logo" loading="lazy">
+        <img src="/assets/images/phsba-transparent.png" alt="PHSBA — Post High School Basketball Association logo" loading="lazy">
       </div>
       <p style="text-align: justify; color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.7;">Post-graduates compete in the <strong style="color: #fff;">SEHAL</strong> and <strong style="color: #fff;">PHSBA</strong>, facing top prep programs across the Southeast and nationally. This gap year gives athletes the additional development, film, and exposure needed to earn college roster spots.</p>
       <a href="/post-grad/" class="btn btn-outline" style="margin-top: 1.25rem;">Explore Post-Grad</a>
@@ -178,8 +178,8 @@ hero_subtitle: Where Potential Meets Preparation
 .two-paths-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 960px; margin: 2rem auto 0; }
 .path-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 2rem; }
 .path-card:hover { background: rgba(255,255,255,0.08); border-color: rgba(212,168,67,0.25); }
-.path-logos { display: flex; align-items: center; gap: 1.25rem; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255,255,255,0.06); border-radius: 10px; }
-.path-logos img { height: 60px; width: auto; max-width: 160px; object-fit: contain; filter: brightness(0) invert(1); opacity: 0.85; }
+.path-logos { display: flex; align-items: center; gap: 1.25rem; margin-bottom: 1.25rem; padding: 1.25rem; background: rgba(255,255,255,0.10); border-radius: 10px; }
+.path-logos img { height: 70px; width: auto; max-width: 180px; object-fit: contain; opacity: 1; }
 .path-shared { max-width: 960px; margin: 2.5rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.08); }
 .path-benefits { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
 .path-benefit { display: flex; flex-direction: column; align-items: center; color: rgba(255,255,255,0.8); font-size: 1rem; font-weight: 600; }
