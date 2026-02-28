@@ -63,18 +63,16 @@ hero_subtitle: Where Potential Meets Preparation
 </div>
 
 <style>
-.biancardi-duo { display: flex; gap: 1.25rem; align-items: center; }
-.biancardi-duo-photo { flex: 1; min-width: 0; }
-.biancardi-duo-photo img { width: 100%; height: 360px; object-fit: cover; border-radius: 10px; display: block; }
-.biancardi-duo-card { flex: 1; min-width: 0; }
-.biancardi-duo-card img { width: 100%; height: 360px; object-fit: contain; border-radius: 10px; display: block; }
+.biancardi-duo { display: flex; gap: 1.25rem; align-items: stretch; }
+.biancardi-duo-photo, .biancardi-duo-card { flex: 1; min-width: 0; }
+.biancardi-duo-photo img, .biancardi-duo-card img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; display: block; aspect-ratio: 4 / 3; }
 @media (max-width: 700px) {
   .biancardi-duo { flex-direction: column; }
-  .biancardi-duo-photo img, .biancardi-duo-card img { height: auto; object-fit: cover; }
 }
 .program-offers .feature-card { text-align: left; }
 .program-offers .feature-card p { text-align: justify; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
+.hero-bg-img { object-position: center 40% !important; }
 </style>
 
 <!-- What Sets FCP Apart -->
@@ -122,16 +120,16 @@ hero_subtitle: Where Potential Meets Preparation
 <!-- Two Paths to College Basketball -->
 <section class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
   <div class="staff-section-header">
-    <span class="section-label">Programs</span>
+    <span class="section-label" style="font-size: 1rem; letter-spacing: 0.15em;">Programs</span>
     <h2>Two Paths to College Basketball</h2>
     <div class="gold-rule"></div>
   </div>
 
   <div class="two-paths-grid">
     <!-- High School -->
-    <div class="path-card fade-in">
+    <div class="path-card fade-in" style="text-align: center;">
       <h3 style="color: #fff; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.75rem;">National High School</h3>
-      <div class="path-logos">
+      <div class="path-logos" style="justify-content: center;">
         <img src="/assets/images/grind-session.png" alt="Grind Session basketball league logo" loading="lazy">
         <img src="/assets/images/siaa.webp" alt="SIAA — Sunshine Independent Athletic Association logo" loading="lazy">
       </div>
@@ -140,9 +138,9 @@ hero_subtitle: Where Potential Meets Preparation
     </div>
 
     <!-- Post-Grad -->
-    <div class="path-card fade-in">
+    <div class="path-card fade-in" style="text-align: center;">
       <h3 style="color: #fff; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.75rem;">Post-Graduate Program</h3>
-      <div class="path-logos">
+      <div class="path-logos" style="justify-content: center;">
         <img src="/assets/images/sehal.png" alt="SEHAL — Southeast Homeschool Athletic League logo" loading="lazy">
         <img src="/assets/images/phsba-opt.png" alt="PHSBA — Prep &amp; Homeschool Basketball Alliance logo" loading="lazy">
       </div>
@@ -153,22 +151,22 @@ hero_subtitle: Where Potential Meets Preparation
 
   <!-- Shared Benefits -->
   <div class="path-shared fade-in">
-    <p style="text-align: center; color: rgba(255,255,255,0.6); font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; margin-bottom: 1rem;">Both Programs Include</p>
+    <p style="text-align: center; color: rgba(255,255,255,0.6); font-size: 1rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700; margin-bottom: 1.25rem;">Both Programs Include</p>
     <div class="path-benefits">
       <div class="path-benefit">
-        <svg viewBox="0 0 24 24" style="width: 22px; height: 22px; fill: #d4a843; margin-bottom: 0.4rem;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+        <svg viewBox="0 0 24 24" style="width: 36px; height: 36px; fill: #d4a843; margin-bottom: 0.5rem;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
         <span>National Schedules</span>
       </div>
       <div class="path-benefit">
-        <svg viewBox="0 0 24 24" style="width: 22px; height: 22px; fill: #d4a843; margin-bottom: 0.4rem;"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+        <svg viewBox="0 0 24 24" style="width: 36px; height: 36px; fill: #d4a843; margin-bottom: 0.5rem;"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
         <span>Weight Training</span>
       </div>
       <div class="path-benefit">
-        <svg viewBox="0 0 24 24" style="width: 22px; height: 22px; fill: #d4a843; margin-bottom: 0.4rem;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+        <svg viewBox="0 0 24 24" style="width: 36px; height: 36px; fill: #d4a843; margin-bottom: 0.5rem;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
         <span>Individual Workouts</span>
       </div>
       <div class="path-benefit">
-        <svg viewBox="0 0 24 24" style="width: 22px; height: 22px; fill: #d4a843; margin-bottom: 0.4rem;"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+        <svg viewBox="0 0 24 24" style="width: 36px; height: 36px; fill: #d4a843; margin-bottom: 0.5rem;"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
         <span>College Placement</span>
       </div>
     </div>
@@ -180,10 +178,10 @@ hero_subtitle: Where Potential Meets Preparation
 .path-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 2rem; }
 .path-card:hover { background: rgba(255,255,255,0.08); border-color: rgba(212,168,67,0.25); }
 .path-logos { display: flex; align-items: center; gap: 1.25rem; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255,255,255,0.06); border-radius: 10px; }
-.path-logos img { height: 50px; width: auto; max-width: 140px; object-fit: contain; filter: brightness(0) invert(1); opacity: 0.85; }
+.path-logos img { height: 60px; width: auto; max-width: 160px; object-fit: contain; filter: brightness(0) invert(1); opacity: 0.85; }
 .path-shared { max-width: 960px; margin: 2.5rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.08); }
 .path-benefits { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
-.path-benefit { display: flex; flex-direction: column; align-items: center; color: rgba(255,255,255,0.8); font-size: 0.9rem; font-weight: 600; }
+.path-benefit { display: flex; flex-direction: column; align-items: center; color: rgba(255,255,255,0.8); font-size: 1rem; font-weight: 600; }
 @media (max-width: 700px) {
   .two-paths-grid { grid-template-columns: 1fr; }
   .path-benefits { gap: 1.5rem; }
