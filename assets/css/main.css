@@ -1335,6 +1335,21 @@ section { padding: 4rem 0; }
   margin: 1.5rem 0;
   box-shadow: 0 4px 16px rgba(0,0,0,0.08);
 }
+.alumni-article-body .article-float-img {
+  float: right;
+  max-width: 260px;
+  margin: 0.25rem 0 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+@media (max-width: 600px) {
+  .alumni-article-body .article-float-img {
+    float: none;
+    display: block;
+    max-width: 100%;
+    margin: 1.5rem auto;
+  }
+}
 .alumni-article-body a {
   color: #c41e3a;
   font-weight: 600;

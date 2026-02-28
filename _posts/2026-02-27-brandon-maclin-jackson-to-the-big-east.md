@@ -3,8 +3,8 @@ layout: alumni-post
 title: "Whatever It Takes to Win: Brandon Maclin's Road to the Big East"
 date: 2026-02-27
 categories: [alumni]
-image: /assets/images/brandon-maclin-signing.jpg
-image_fcp: /assets/images/brandon-maclin-fcp.jpeg
+image: /assets/images/brandon-maclin-depaul.jpeg
+image_fcp: /assets/images/brandon-maclin-fcp-action.jpeg
 featured_video: /assets/videos/brandon-maclin-clip.mp4
 player_name: Brandon Maclin
 current_team: DePaul Blue Demons
@@ -40,7 +40,7 @@ After high school, Maclin made the decision that would change the trajectory of 
 
 At FCP, Maclin went through the daily grind of competing against elite post-graduate talent in the Grind Session circuit. He put on muscle, refined his perimeter game, and — most importantly — learned what it meant to prepare like a college player before he ever stepped on a college campus.
 
-![Brandon Maclin training at Florida Coastal Prep](/assets/images/brandon-maclin-fcp.jpeg)
+<img src="/assets/images/brandon-maclin-training.jpeg" alt="Brandon Maclin training at Florida Coastal Prep" class="article-float-img">
 
 The coaching staff saw a player with rare physical tools and an even rarer motor. Maclin didn't need to be convinced to do the extra work. He was already in the gym.
 
