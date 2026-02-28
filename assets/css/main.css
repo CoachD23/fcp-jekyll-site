@@ -3943,9 +3943,12 @@ iframe { max-width: 100%; }
   letter-spacing: -0.02em;
 }
 .cp-hero-sub {
-  font-size: 1.1rem;
-  color: rgba(255,255,255,0.55);
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 300;
+  color: rgba(255,255,255,0.75);
   margin: 0 0 2.5rem;
+  letter-spacing: 0.01em;
 }
 
 /* Stats row */
@@ -3978,7 +3981,7 @@ iframe { max-width: 100%; }
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: rgba(255,255,255,0.45);
+  color: rgba(255,255,255,0.65);
   margin-top: 0.35rem;
 }
 .cp-stat-divider {
@@ -4009,9 +4012,12 @@ iframe { max-width: 100%; }
   border-color: rgba(196,30,58,0.3);
 }
 .cp-section-desc {
-  font-size: 1rem;
-  color: rgba(255,255,255,0.55);
+  font-size: 1.15rem;
+  font-style: italic;
+  font-weight: 300;
+  color: rgba(255,255,255,0.78);
   margin: 0;
+  letter-spacing: 0.01em;
 }
 .cp-section-desc--dark {
   color: #888;
@@ -4052,6 +4058,7 @@ iframe { max-width: 100%; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 20%;
   transition: transform 0.5s ease;
 }
 .cp-feat-card:hover .cp-feat-img img {
@@ -4104,7 +4111,7 @@ iframe { max-width: 100%; }
 .cp-feat-arrow {
   font-size: 0.72rem;
   font-weight: 600;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.7);
   margin-top: 0.4rem;
   transition: color 0.2s;
 }
