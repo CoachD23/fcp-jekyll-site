@@ -12,29 +12,101 @@ og_image: /assets/images/blog/blog-default.jpg
   </div>
 </section>
 
-<section class="page-content">
+<section class="page-content blog-newsroom">
   <div class="container">
-    <div class="post-grid">
-      {% for post in site.posts %}
-      <a href="{{ post.url | relative_url }}" class="post-card">
-        {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
-        {% else %}
-        <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
-        {% endif %}
-        <div class="post-card-body">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-          <h3>{{ post.title }}</h3>
-          {% if post.excerpt %}<p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>{% endif %}
+
+    {% assign all_posts = site.posts %}
+
+    {% if all_posts.size > 0 %}
+
+    <!-- Featured: first 2 posts — large overlay cards side by side -->
+    <div class="blog-featured fade-in">
+      {% for post in all_posts limit:2 %}
+      <a href="{{ post.url | relative_url }}" class="blog-hero-card">
+        <div class="blog-hero-image">
+          {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+          {% else %}
+          <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
+          {% endif %}
+        </div>
+        <div class="blog-hero-overlay">
+          <div class="blog-hero-meta">
+            {% assign cat = post.categories | first %}
+            {% if cat == "alumni" %}
+              <span class="blog-badge blog-badge-alumni">Alumni Story</span>
+            {% elsif cat == "commitments" %}
+              <span class="blog-badge blog-badge-commit">Commitment</span>
+            {% elsif cat == "highlights" %}
+              <span class="blog-badge blog-badge-highlight">Highlight</span>
+            {% elsif cat == "game-recap" %}
+              <span class="blog-badge blog-badge-recap">Game Recap</span>
+            {% elsif cat == "recruiting" or cat == "basketball" %}
+              <span class="blog-badge blog-badge-guide">Recruiting Guide</span>
+            {% elsif cat == "program" %}
+              <span class="blog-badge blog-badge-program">Program</span>
+            {% else %}
+              <span class="blog-badge blog-badge-highlight">News</span>
+            {% endif %}
+          </div>
+          <h2 class="blog-hero-title">{{ post.title }}</h2>
+          {% if post.excerpt %}<p class="blog-hero-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>{% endif %}
+          <div class="blog-hero-footer">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            <span class="blog-hero-link">Read Story &rarr;</span>
+          </div>
         </div>
       </a>
       {% endfor %}
     </div>
 
-    {% if site.posts.size == 0 %}
+    <!-- Remaining posts — overlay card grid -->
+    {% assign remaining = all_posts | slice: 2, all_posts.size %}
+    {% if remaining.size > 0 %}
+    <div class="blog-grid fade-in">
+      {% for post in remaining %}
+      <a href="{{ post.url | relative_url }}" class="blog-overlay-card">
+        <div class="blog-overlay-image">
+          {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+          {% else %}
+          <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
+          {% endif %}
+        </div>
+        <div class="blog-overlay-content">
+          {% assign cat = post.categories | first %}
+          {% if cat == "alumni" %}
+            <span class="blog-badge blog-badge-alumni">Alumni Story</span>
+          {% elsif cat == "commitments" %}
+            <span class="blog-badge blog-badge-commit">Commitment</span>
+          {% elsif cat == "highlights" %}
+            <span class="blog-badge blog-badge-highlight">Highlight</span>
+          {% elsif cat == "game-recap" %}
+            <span class="blog-badge blog-badge-recap">Game Recap</span>
+          {% elsif cat == "recruiting" or cat == "basketball" %}
+            <span class="blog-badge blog-badge-guide">Recruiting Guide</span>
+          {% elsif cat == "program" %}
+            <span class="blog-badge blog-badge-program">Program</span>
+          {% else %}
+            <span class="blog-badge blog-badge-highlight">News</span>
+          {% endif %}
+          <h3 class="blog-overlay-title">{{ post.title }}</h3>
+          {% if post.excerpt %}<p class="blog-overlay-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>{% endif %}
+          <div class="blog-overlay-footer">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            <span class="blog-overlay-link">Read Story &rarr;</span>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% else %}
     <div class="section-header">
       <p>Check back soon for the latest news and updates from FCP.</p>
     </div>
     {% endif %}
+
   </div>
 </section>
