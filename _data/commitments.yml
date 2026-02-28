@@ -62,6 +62,36 @@
   image: ""
   note: ""
 
+- name: "Nile Tinsley"
+  sport: "Basketball"
+  school: "Pellissippi State Community College"
+  year: 2025
+  position: ""
+  level: "JUCO"
+  hometown: ""
+  image: ""
+  note: ""
+
+- name: "Patrick Stewart"
+  sport: "Basketball"
+  school: "Snead State Community College"
+  year: 2025
+  position: ""
+  level: "JUCO"
+  hometown: ""
+  image: ""
+  note: ""
+
+- name: "Baptiste Filippini"
+  sport: "Basketball"
+  school: "Baltimore City Community College"
+  year: 2025
+  position: ""
+  level: "JUCO"
+  hometown: ""
+  image: ""
+  note: ""
+
 - name: "Gerald Gittens Jr."
   sport: "Basketball"
   school: "Northern Michigan University"
