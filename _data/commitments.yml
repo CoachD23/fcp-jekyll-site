@@ -2,6 +2,66 @@
 # Source: RealGM + FCP records
 # Add new entries at the top. Fields: name, sport, school, year, position, level, hometown, image (optional), note (optional)
 
+- name: "Mihail Gazvarov"
+  sport: "Basketball"
+  school: "Lindsey Wilson College"
+  year: 2025
+  position: ""
+  level: "NAIA"
+  hometown: ""
+  image: ""
+  note: ""
+
+- name: "Amar Hanusic"
+  sport: "Basketball"
+  school: "Missouri Valley College"
+  year: 2025
+  position: ""
+  level: "NAIA"
+  hometown: ""
+  image: ""
+  note: ""
+
+- name: "Jad Suleiman"
+  sport: "Basketball"
+  school: "Lakeland Community College"
+  year: 2025
+  position: ""
+  level: "JUCO"
+  hometown: ""
+  image: ""
+  note: ""
+
+- name: "Drew Ward"
+  sport: "Basketball"
+  school: "Three Rivers College"
+  year: 2025
+  position: ""
+  level: "JUCO"
+  hometown: ""
+  image: ""
+  note: ""
+
+- name: "Bud Davis"
+  sport: "Basketball"
+  school: "Earlham College"
+  year: 2025
+  position: ""
+  level: "D3"
+  hometown: ""
+  image: ""
+  note: ""
+
+- name: "Ja'Michael Murray"
+  sport: "Basketball"
+  school: "Coastal Alabama Community College"
+  year: 2025
+  position: ""
+  level: "JUCO"
+  hometown: ""
+  image: ""
+  note: ""
+
 - name: "Gerald Gittens Jr."
   sport: "Basketball"
   school: "Northern Michigan University"
