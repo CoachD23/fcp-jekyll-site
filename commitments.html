@@ -42,6 +42,27 @@ description: "500+ college commitments from Florida Coastal Prep Sports Academy.
       <p>Since 2019, Florida Coastal Prep has helped over 500 student-athletes earn college scholarships and roster spots at every level of collegiate basketball. From Division I powerhouses to NAIA programs, our athletes are competing — and succeeding — across the nation.</p>
     </div>
 
+    <!-- Featured Alumni Carousel -->
+    <div class="featured-alumni-carousel fade-in">
+      <h2 class="featured-alumni-heading">Featured Alumni</h2>
+      <div class="featured-alumni-track">
+        {% assign alumni_posts = site.posts | where: "layout", "alumni-post" | sort: "date" | reverse %}
+        {% for post in alumni_posts limit: 6 %}
+        <a href="{{ post.url | relative_url }}" class="featured-alumni-card">
+          <div class="featured-alumni-images">
+            {% if post.image_fcp %}<img src="{{ post.image_fcp | relative_url }}" alt="{{ post.player_name }} at FCP" class="featured-alumni-img-fcp" loading="lazy">{% endif %}
+            {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.player_name }} now" class="featured-alumni-img-now" loading="lazy">{% endif %}
+          </div>
+          <div class="featured-alumni-info">
+            <h3>{{ post.player_name }}</h3>
+            <span class="featured-alumni-team">{{ post.current_team }}</span>
+            <p class="featured-alumni-desc">{{ post.description | truncate: 90 }}</p>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+
     <!-- Dual Filters -->
     <div class="commitment-filters fade-in" role="navigation" aria-label="Commitment filters">
       <div class="filter-group">

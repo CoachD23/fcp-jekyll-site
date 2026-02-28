@@ -9,7 +9,7 @@ player_name: Nathan Mariano
 current_team: Phoenix Suns
 fcp_label: FCP Spartans
 description: "Nathan Mariano went from Florida Coastal Prep to winning four Brazilian league championships, earning a spot on Brazil's national team, and signing with the Phoenix Suns organization."
-bio: "6'9\" forward currently playing for the Valley Suns in the NBA G League. Four-time NBB champion, FIBA AmeriCup 2025 gold medalist, and member of the Phoenix Suns organization."
+bio: "6'9\" forward currently playing for the Valley Suns in the NBA G League. Four-time NBB champion, FIBA AmeriCup 2025 gold medalist, and member of the Phoenix Suns organization. Follow Nathan on <a href='https://www.instagram.com/nathanfm_43/' target='_blank'>Instagram →</a>"
 stats:
   - value: "4x"
     label: "NBB Champion"
@@ -52,6 +52,8 @@ By 22 years old, Mariano had already won more professional championships than mo
 Mariano's consistent production with Franca earned him one of the most prestigious honors in Brazilian basketball — a call-up to the Seleção, Brazil's senior national team.
 
 He represented his country in FIBA AmeriCup qualifying and helped Brazil capture the **FIBA AmeriCup 2025** title in Nicaragua. Playing alongside established veterans on the international stage, Mariano proved he belonged among the continent's best.
+
+![Nathan Mariano celebrating the FIBA AmeriCup 2025 championship with the trophy and Brazilian flag](/assets/images/nathan-mariano-trophy.jpeg)
 
 ## The NBA Comes Calling
 
