@@ -2,6 +2,7 @@
 layout: page
 title: Spartan Training Center
 subtitle: Our Newly Renovated 14,000 sq ft Facility
+description: "Tour the Spartan Training Center — Florida Coastal Prep's 14,000 sq ft basketball facility with NBA-dimension hardwood court, video scoreboard, turf training zone, and 24/7 athlete access."
 hero_image: /assets/images/training/spartan-center.jpg
 hero_title: Spartan Training Center
 hero_subtitle: 14,000 Square Feet of Elite Training

@@ -2,6 +2,7 @@
 layout: page
 title: Tuition and Fees
 subtitle: Investing in Your Athletic and Academic Future
+description: "Florida Coastal Prep tuition, fees, financial assistance, and payment plan information. Learn what's included and how to apply for scholarships at FCP."
 hero_image: /assets/images/about-fcp.jpg
 hero_title: Tuition & Fees
 hero_subtitle: Investing in Your Athletic and Academic Future

@@ -2,6 +2,7 @@
 layout: page
 title: About FCP
 subtitle: Where Potential Meets Preparation
+description: "Learn about Florida Coastal Prep Sports Academy — our mission, elite coaching staff led by NBA All-Star Kenny Anderson, 500+ college commitments, and 25+ years developing student-athletes in Fort Walton Beach, FL."
 hero_image: /assets/images/about-hero.jpg
 hero_title: About FCP
 hero_subtitle: Where Potential Meets Preparation

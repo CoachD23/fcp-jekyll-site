@@ -2,6 +2,7 @@
 layout: page
 title: National High School Program
 subtitle: High School Basketball Academy
+description: "Florida Coastal Prep's high school basketball academy (grades 9-12) combines elite training, national competition, accredited academics, and college recruiting exposure."
 hero_image: /assets/images/homepage-hero.jpeg
 hero_title: National High School Program
 hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.

@@ -2,6 +2,7 @@
 layout: page
 title: Why Post Grad?
 subtitle: Postgraduate Year at Florida Coastal Prep
+description: "A post-graduate year at Florida Coastal Prep bridges high school and college basketball — with elite coaching, recruiting exposure, academic support, and Grind Session competition."
 hero_image: /assets/images/about-hero.jpg
 hero_title: Why a Post-Graduate Year?
 hero_subtitle: The Bridge Between High School and College Basketball

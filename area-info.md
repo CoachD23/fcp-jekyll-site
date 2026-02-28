@@ -2,6 +2,7 @@
 layout: page
 title: Travel & Area Info
 subtitle: Welcome to the Emerald Coast
+description: "Discover the Emerald Coast — home of Florida Coastal Prep. Pristine beaches, Gulf Islands National Seashore, and year-round training weather in Fort Walton Beach, FL."
 hero_image: /assets/images/housing/beach-view.webp
 hero_title: Travel & Area Info
 hero_subtitle: Welcome to the Emerald Coast

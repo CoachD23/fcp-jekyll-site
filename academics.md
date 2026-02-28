@@ -2,6 +2,7 @@
 layout: page
 title: Academics
 subtitle: Education That Prepares You for College
+description: "Florida Coastal Prep offers accredited academics through Lighthouse Prep, dual enrollment, SAT/ACT prep, and NCAA-approved coursework — all built around a student-athlete's training schedule."
 hero_image: /assets/images/about-hero.jpg
 hero_title: Academics
 hero_subtitle: Education That Prepares You for College

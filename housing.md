@@ -2,6 +2,7 @@
 layout: page
 title: Housing Options
 subtitle: Beach Living on the Emerald Coast
+description: "Explore Florida Coastal Prep's supervised housing — beach condos, team houses, and resort apartments on the Emerald Coast. Fully furnished, staff-supervised, steps from the Gulf of Mexico."
 hero_image: /assets/images/housing/pool-gulf.webp
 hero_title: Housing Options
 hero_subtitle: Beach Living on the Emerald Coast
