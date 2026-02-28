@@ -9,9 +9,9 @@ hero_subtitle: Where Potential Meets Preparation
 ---
 
 <!-- Bold Intro Statement -->
-<section class="about-intro-statement fade-in" style="max-width: 900px; margin: 0 auto 3rem; text-align: center;">
-  <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin-bottom: 1.25rem;">The Emerald Coast's Premier Basketball Academy</h2>
-  <p style="font-size: 1.15rem; line-height: 1.75; color: #444; max-width: 780px; margin: 0 auto;">Florida Coastal Prep bridges the gap between high school and college athletics — combining elite coaching, rigorous academics, and D1-caliber facilities to prepare student-athletes for the next chapter. Since 2019, we've sent <strong>500+ players to college programs across 43 states and 22 countries</strong>.</p>
+<section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
+  <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">The Emerald Coast's Premier Basketball Academy</h2>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Florida Coastal Prep bridges the gap between high school and college athletics — combining elite coaching, rigorous academics, and D1-caliber facilities to prepare student-athletes for the next chapter. Since 2019, we've sent <strong>500+ players to college programs across 43 states and 22 countries</strong>.</p>
 </section>
 
 <!-- By the Numbers -->
@@ -51,23 +51,30 @@ hero_subtitle: Where Potential Meets Preparation
 </section>
 
 <!-- ESPN Endorsement — Side-by-Side with Navy Container -->
-<div class="fade-in" style="margin: 3rem auto; max-width: 960px; background: #0a1628; border-radius: 16px; padding: 1.5rem; box-shadow: 0 8px 32px rgba(0,0,0,0.18);">
+<div class="fade-in" style="margin: 3rem auto; max-width: 960px; background: #0a1628; border-radius: 16px; padding: 1.25rem; box-shadow: 0 8px 32px rgba(0,0,0,0.18);">
   <div class="biancardi-duo">
-    <div class="biancardi-duo-img">
-      <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;" loading="lazy">
+    <div class="biancardi-duo-photo">
+      <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" loading="lazy">
     </div>
-    <div class="biancardi-duo-img">
-      <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;" loading="lazy">
+    <div class="biancardi-duo-card">
+      <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." loading="lazy">
     </div>
   </div>
 </div>
 
 <style>
-.biancardi-duo { display: flex; gap: 1.5rem; align-items: stretch; }
-.biancardi-duo-img { flex: 1; min-width: 0; }
-@media (max-width: 600px) {
+.biancardi-duo { display: flex; gap: 1.25rem; align-items: center; }
+.biancardi-duo-photo { flex: 1; min-width: 0; }
+.biancardi-duo-photo img { width: 100%; height: 360px; object-fit: cover; border-radius: 10px; display: block; }
+.biancardi-duo-card { flex: 1; min-width: 0; }
+.biancardi-duo-card img { width: 100%; height: 360px; object-fit: contain; border-radius: 10px; display: block; }
+@media (max-width: 700px) {
   .biancardi-duo { flex-direction: column; }
+  .biancardi-duo-photo img, .biancardi-duo-card img { height: auto; object-fit: cover; }
 }
+.program-offers .feature-card { text-align: left; }
+.program-offers .feature-card p { text-align: justify; }
+.program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
 </style>
 
 <!-- What Sets FCP Apart -->
@@ -82,27 +89,27 @@ hero_subtitle: Where Potential Meets Preparation
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/><circle cx="12" cy="8" r="2.5"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" fill="none"/></svg></div>
       <h3>Elite Coaching Staff</h3>
-      <p>Our <a href="/coaches/" style="color: #c41e3a;">staff</a> includes former NBA players and D1 college coaches who bring real experience to every practice and game.</p>
+      <p>Our <a href="/coaches/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">staff</a> includes former NBA players and D1 college coaches who bring real experience to every practice and game.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
       <h3>Academic Excellence</h3>
-      <p>Accredited coursework, SAT/ACT prep, and <a href="/academics/" style="color: #c41e3a;">college application support</a> ensure our athletes are recruited and ready.</p>
+      <p>Accredited coursework, SAT/ACT prep, and <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">college application support</a> ensure our athletes are recruited and ready.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg></div>
       <h3>Recruiting Pipeline</h3>
-      <p>Individual recruiting plans, Hudl film, exposure events, and direct relationships with college coaching staffs. See our <a href="/commitments/" style="color: #c41e3a;">500+ commitments</a>.</p>
+      <p>Individual recruiting plans, Hudl film, exposure events, and direct relationships with college coaching staffs. See our <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">500+ commitments</a>.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg></div>
       <h3>World-Class Facility</h3>
-      <p>Our 14,000 sq ft <a href="/training/" style="color: #c41e3a;">Spartan Training Center</a> features NBA-dimension hardwood, turf zone, and 24/7 access.</p>
+      <p>Our 14,000 sq ft <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Spartan Training Center</a> features NBA-dimension hardwood, turf zone, and 24/7 access.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
       <h3>Emerald Coast Lifestyle</h3>
-      <p>Beach living, year-round sunshine, and a safe community. Explore our <a href="/housing/" style="color: #c41e3a;">athlete housing</a> and <a href="/area-info/" style="color: #c41e3a;">area info</a>.</p>
+      <p>Beach living, year-round sunshine, and a safe community. Explore our <a href="/housing/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">athlete housing</a> and <a href="/area-info/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">area info</a>.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></div>
@@ -119,53 +126,69 @@ hero_subtitle: Where Potential Meets Preparation
     <h2>Two Paths to College Basketball</h2>
     <div class="gold-rule"></div>
   </div>
-  <div class="program-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 900px; margin: 2rem auto 0;">
-    <div class="feature-card fade-in" style="text-align: center;">
-      <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg></div>
-      <h3>Post-Graduate Program</h3>
-      <p>For athletes who've graduated high school and need additional development, exposure, and recruiting support before committing to a college program.</p>
-      <a href="/post-grad/" class="btn btn-outline" style="margin-top: 1rem;">Explore Post-Grad</a>
+
+  <div class="two-paths-grid">
+    <!-- High School -->
+    <div class="path-card fade-in">
+      <h3 style="color: #fff; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.75rem;">National High School</h3>
+      <div class="path-logos">
+        <img src="/assets/images/grind-session.png" alt="Grind Session basketball league logo" loading="lazy">
+        <img src="/assets/images/siaa.webp" alt="SIAA — Sunshine Independent Athletic Association logo" loading="lazy">
+      </div>
+      <p style="text-align: justify; color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.7;">FCP's high school program competes in the <strong style="color: #fff;">Grind Session</strong> and <strong style="color: #fff;">SIAA</strong> — two of the top independent basketball circuits in the country. Student-athletes receive accredited academics alongside competitive game schedules against nationally ranked programs.</p>
+      <a href="/high-school/" class="btn btn-outline" style="margin-top: 1.25rem;">Explore High School</a>
     </div>
-    <div class="feature-card fade-in" style="text-align: center;">
-      <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
-      <h3>National High School</h3>
-      <p>A rigorous high school program combining <a href="/academics/" style="color: #c41e3a;">accredited academics</a> with competitive basketball — preparing student-athletes for post-grad or direct college entry.</p>
-      <a href="/high-school/" class="btn btn-outline" style="margin-top: 1rem;">Explore High School</a>
+
+    <!-- Post-Grad -->
+    <div class="path-card fade-in">
+      <h3 style="color: #fff; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.75rem;">Post-Graduate Program</h3>
+      <div class="path-logos">
+        <img src="/assets/images/sehal.png" alt="SEHAL — Southeast Homeschool Athletic League logo" loading="lazy">
+        <img src="/assets/images/phsba-opt.png" alt="PHSBA — Prep &amp; Homeschool Basketball Alliance logo" loading="lazy">
+      </div>
+      <p style="text-align: justify; color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.7;">Post-graduates compete in the <strong style="color: #fff;">SEHAL</strong> and <strong style="color: #fff;">PHSBA</strong>, facing top prep programs across the Southeast and nationally. This gap year gives athletes the additional development, film, and exposure needed to earn college roster spots.</p>
+      <a href="/post-grad/" class="btn btn-outline" style="margin-top: 1.25rem;">Explore Post-Grad</a>
+    </div>
+  </div>
+
+  <!-- Shared Benefits -->
+  <div class="path-shared fade-in">
+    <p style="text-align: center; color: rgba(255,255,255,0.6); font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; margin-bottom: 1rem;">Both Programs Include</p>
+    <div class="path-benefits">
+      <div class="path-benefit">
+        <svg viewBox="0 0 24 24" style="width: 22px; height: 22px; fill: #d4a843; margin-bottom: 0.4rem;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+        <span>National Schedules</span>
+      </div>
+      <div class="path-benefit">
+        <svg viewBox="0 0 24 24" style="width: 22px; height: 22px; fill: #d4a843; margin-bottom: 0.4rem;"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+        <span>Weight Training</span>
+      </div>
+      <div class="path-benefit">
+        <svg viewBox="0 0 24 24" style="width: 22px; height: 22px; fill: #d4a843; margin-bottom: 0.4rem;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+        <span>Individual Workouts</span>
+      </div>
+      <div class="path-benefit">
+        <svg viewBox="0 0 24 24" style="width: 22px; height: 22px; fill: #d4a843; margin-bottom: 0.4rem;"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+        <span>College Placement</span>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- Sample Basketball Season — Moved lower, tighter layout -->
-<section class="program-offers fade-in" style="margin-top: 3rem;">
-  <div class="staff-section-header">
-    <span class="section-label">Your Year at FCP</span>
-    <h2>Sample Basketball Season</h2>
-    <div class="gold-rule"></div>
-  </div>
-
-  <div class="timeline-grid">
-    <div class="timeline-card fade-in">
-      <div class="timeline-month">SEP</div>
-      <h3>Orientation & Evaluation</h3>
-      <p>Player evaluations, personalized training plans, physical therapy assessments, NCAA eligibility registration, SAT/ACT registration, and initial recruitment meetings.</p>
-    </div>
-    <div class="timeline-card fade-in">
-      <div class="timeline-month">OCT</div>
-      <h3>Competition Begins</h3>
-      <p>Team practices and games, skill development sessions, individualized program planning, college recruiting meetings, and application process overview.</p>
-    </div>
-    <div class="timeline-card fade-in">
-      <div class="timeline-month">NOV – FEB</div>
-      <h3>Peak Season</h3>
-      <p>Tournament play, continued skill refinement, focused individual development, active recruiting engagement, and narrowing college placement options.</p>
-    </div>
-    <div class="timeline-card fade-in">
-      <div class="timeline-month">MAR – MAY</div>
-      <h3>Placement & Transition</h3>
-      <p>Finalize college selection, complete enrollment paperwork, campus visits, strength development focus, and individualized skill training for the next level.</p>
-    </div>
-  </div>
-</section>
+<style>
+.two-paths-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 960px; margin: 2rem auto 0; }
+.path-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 2rem; }
+.path-card:hover { background: rgba(255,255,255,0.08); border-color: rgba(212,168,67,0.25); }
+.path-logos { display: flex; align-items: center; gap: 1.25rem; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255,255,255,0.06); border-radius: 10px; }
+.path-logos img { height: 50px; width: auto; max-width: 140px; object-fit: contain; filter: brightness(0) invert(1); opacity: 0.85; }
+.path-shared { max-width: 960px; margin: 2.5rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.08); }
+.path-benefits { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
+.path-benefit { display: flex; flex-direction: column; align-items: center; color: rgba(255,255,255,0.8); font-size: 0.9rem; font-weight: 600; }
+@media (max-width: 700px) {
+  .two-paths-grid { grid-template-columns: 1fr; }
+  .path-benefits { gap: 1.5rem; }
+}
+</style>
 
 <!-- Final CTA -->
 <div class="cta-section" style="margin-top: 0; border-radius: 0;">
