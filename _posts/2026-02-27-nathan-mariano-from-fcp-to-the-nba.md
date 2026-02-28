@@ -31,6 +31,8 @@ At FCP, Mariano developed the two-way versatility that would define his professi
 
 The coaching staff recognized early that Mariano had rare physical tools — length, athleticism, and a motor that never stopped. But it was the mental development at FCP that transformed his ceiling from "professional prospect" to "NBA-caliber talent."
 
+![Nathan Mariano after winning the West Florida Invitational with FCP](/assets/images/nathan-mariano-wfi.jpeg)
+
 ## Dominating the NBB
 
 After his time at FCP, Mariano returned to his hometown club, Sesi Franca, and immediately made an impact in the NBB — Brazil's top professional league. What followed was a run of dominance that few young players in South American basketball have matched:
