@@ -282,6 +282,26 @@
   image: ""
   note: ""
 
+- name: "Ben Mitchell"
+  sport: "Basketball"
+  school: "Mt. Hood CC"
+  year: 2023
+  position: "G"
+  level: "JUCO"
+  hometown: ""
+  image: ""
+  note: ""
+
+- name: "Max Mlachnik"
+  sport: "Basketball"
+  school: "Bryant & Stratton College"
+  year: 2022
+  position: "G"
+  level: "JUCO"
+  hometown: "Muskego, WI"
+  image: ""
+  note: ""
+
 - name: "Oliver Mukisa"
   sport: "Basketball"
   school: "United International College"
