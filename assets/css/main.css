@@ -5041,6 +5041,141 @@ iframe { max-width: 100%; }
   margin: 0;
 }
 
+/* ============================================
+   Feature Cards — Light Background Override
+   (fixes white-on-white text on About, Training, etc.)
+   ============================================ */
+.program-offers .feature-card,
+.staff-section:not(.staff-section-dark) .feature-card {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.06);
+  border-top: 3px solid #c41e3a;
+}
+.program-offers .feature-card:hover,
+.staff-section:not(.staff-section-dark) .feature-card:hover {
+  background: #fff;
+  border-color: rgba(0,0,0,0.06);
+  border-top-color: #d4a843;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+}
+.program-offers .feature-card h3,
+.staff-section:not(.staff-section-dark) .feature-card h3 {
+  color: #0a1628;
+}
+.program-offers .feature-card p,
+.staff-section:not(.staff-section-dark) .feature-card p {
+  color: #555;
+}
+
+/* ============================================
+   Coach Card — Photo Gradient Overlay
+   (adds SPIRE-style bottom gradient on photos)
+   ============================================ */
+.coach-card-photo {
+  position: relative;
+}
+.coach-card-photo::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background: linear-gradient(to top, rgba(10,22,40,0.35), transparent);
+  pointer-events: none;
+}
+
+/* ============================================
+   Admissions — Horizontal Feature Card
+   ============================================ */
+.admissions-feature {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 30px rgba(0,0,0,0.1);
+  border: 1px solid rgba(212,168,67,0.15);
+}
+.admissions-feature-photo {
+  flex-shrink: 0;
+  width: 200px;
+  height: 220px;
+  overflow: hidden;
+}
+.admissions-feature-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+.admissions-feature-info {
+  padding: 1.5rem 2rem 1.5rem 0;
+}
+.admissions-feature-info h3 {
+  font-size: 1.2rem;
+  color: #0a1628;
+  margin-bottom: 0.25rem;
+}
+.admissions-feature-info .admissions-role {
+  color: #c41e3a;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.75rem;
+}
+.admissions-feature-info p {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+@media (max-width: 600px) {
+  .admissions-feature {
+    flex-direction: column;
+    max-width: 340px;
+  }
+  .admissions-feature-photo {
+    width: 100%;
+    height: 200px;
+  }
+  .admissions-feature-info {
+    padding: 1.25rem;
+    text-align: center;
+  }
+}
+
+/* ============================================
+   Feature Icon SVG — Size bump for premium feel
+   ============================================ */
+.feature-icon-svg {
+  width: 60px;
+  height: 60px;
+}
+.feature-icon-svg svg {
+  width: 28px;
+  height: 28px;
+}
+
+/* ============================================
+   Coach Card — Larger text for premium look
+   ============================================ */
+.coach-card-info {
+  padding: 1.4rem 1.15rem 1.6rem;
+}
+.coach-card-info h3 {
+  font-size: 1.1rem;
+}
+.coach-card-badge {
+  font-size: 0.72rem;
+  padding: 0.3rem 0.85rem;
+}
+
 /* --- Print Styles --- */
 @media print {
   .site-header, .site-footer, .nav-toggle, .cta-section, .hero-cta { display: none !important; }

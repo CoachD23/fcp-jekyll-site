@@ -179,16 +179,15 @@ hero_subtitle: The Team Behind the Team
     <div class="gold-rule"></div>
   </div>
 
-  <div class="coach-card-grid" style="max-width: 400px;">
-    <div class="coach-card fade-in">
-      <div class="coach-card-photo">
-        <img src="/assets/images/coaches/alba-reyes.webp" alt="Alba Reyes — Admissions Director at Florida Coastal Prep">
-      </div>
-      <div class="coach-card-info">
-        <h3>Alba Reyes</h3>
-        <p class="coach-card-title">Admissions Director</p>
-        <a href="/contact/" class="btn btn-primary" style="margin-top: 0.75rem; display: inline-block; font-size: 0.85rem;">Contact Admissions</a>
-      </div>
+  <div class="admissions-feature fade-in">
+    <div class="admissions-feature-photo">
+      <img src="/assets/images/coaches/alba-reyes.webp" alt="Alba Reyes — Admissions Director at Florida Coastal Prep">
+    </div>
+    <div class="admissions-feature-info">
+      <h3>Alba Reyes</h3>
+      <p class="admissions-role">Admissions Director</p>
+      <p>Your first point of contact for applications, campus visits, and enrollment questions. Alba guides families through every step of the admissions process.</p>
+      <a href="/contact/" class="btn btn-primary" style="font-size: 0.88rem;">Contact Admissions</a>
     </div>
   </div>
 </div>
