@@ -4,7 +4,8 @@ layout: default
 {% if page.hero_video %}
   {% include hero-video.html %}
 {% elsif page.hero_image %}
-<section class="hero hero-image" style="background-image: url('{{ page.hero_image | relative_url }}')">
+<section class="hero hero-image">
+  <img src="{{ page.hero_image | relative_url }}" alt="" class="hero-bg-img">
   <div class="hero-overlay"></div>
   <div class="container hero-content">
     <h1>{{ page.hero_title | default: page.title }}</h1>

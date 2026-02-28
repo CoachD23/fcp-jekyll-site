@@ -235,9 +235,17 @@ section { padding: 4rem 0; }
 
 /* Hero image variant */
 .hero-image {
-  background-size: cover;
-  background-position: center;
   min-height: 60vh;
+}
+.hero-bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  animation: kenburns 25s ease-in-out infinite alternate;
+  z-index: 0;
 }
 
 /* --- Section Tags --- */
@@ -346,10 +354,12 @@ section { padding: 4rem 0; }
 }
 .about-image img {
   width: 100%;
-  height: 400px;
+  aspect-ratio: 16 / 10;
   object-fit: cover;
+  object-position: top center;
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  animation: kenburns 25s ease-in-out infinite alternate;
 }
 
 /* --- Program Cards --- */
@@ -383,10 +393,12 @@ section { padding: 4rem 0; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top;
+  object-position: top center;
   transition: transform 0.5s;
+  animation: kenburns 20s ease-in-out infinite alternate;
 }
 .program-card:hover .program-card-image img {
+  animation-play-state: paused;
   transform: scale(1.05);
 }
 .program-card-overlay {
@@ -670,14 +682,14 @@ section { padding: 4rem 0; }
   transition: transform 0.2s, box-shadow 0.2s;
 }
 .card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
-.card img { width: 100%; height: 220px; object-fit: cover; }
+.card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top center; }
 .card-body { padding: 1.5rem; }
 .card-body h3 { margin-bottom: 0.5rem; font-size: 1.2rem; }
 .card-body p { color: #666; font-size: 0.95rem; }
 
 /* --- Staff / Coach Cards --- */
 .coach-card { text-align: center; }
-.coach-card img { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin: 0 auto 1rem; }
+.coach-card img { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; object-position: top center; margin: 0 auto 1rem; }
 .coach-card h3 { font-size: 1.1rem; margin-bottom: 0.25rem; }
 .coach-card .role { color: #c41e3a; font-weight: 600; font-size: 0.9rem; }
 .coach-card .bio { color: #666; font-size: 0.9rem; margin-top: 0.5rem; }
@@ -1267,7 +1279,7 @@ section { padding: 4rem 0; }
   .docuseries-layout { grid-template-columns: 1fr; gap: 2.5rem; }
   .about-split { grid-template-columns: 1fr; gap: 2.5rem; }
   .about-image { order: -1; }
-  .about-image img { height: 300px; }
+  .about-image img { aspect-ratio: 16 / 10; }
   .levels-grid { grid-template-columns: repeat(2, 1fr); }
   .editorial-grid { grid-template-columns: 1fr; }
   .editorial-feature { min-height: 380px; }
@@ -1464,9 +1476,12 @@ iframe { max-width: 100%; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   transition: transform 0.6s;
+  animation: kenburns 20s ease-in-out infinite alternate;
 }
 .editorial-feature:hover .editorial-feature-image img {
+  animation-play-state: paused;
   transform: scale(1.04);
 }
 .editorial-overlay {
@@ -1549,6 +1564,7 @@ iframe { max-width: 100%; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   transition: transform 0.4s;
 }
 .editorial-card:hover .editorial-card-image img { transform: scale(1.06); }
@@ -1600,9 +1616,12 @@ iframe { max-width: 100%; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   transition: transform 0.6s;
+  animation: kenburns 22s ease-in-out infinite alternate;
 }
 .facility-home-card:hover img {
+  animation-play-state: paused;
   transform: scale(1.06);
 }
 .facility-home-overlay {
@@ -1855,15 +1874,15 @@ iframe { max-width: 100%; }
 }
 .executive-photo {
   position: relative;
-  height: 220px;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
   background: #0a1628;
 }
 .executive-photo img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  object-position: center center;
+  object-fit: cover;
+  object-position: top center;
   transition: transform 0.6s;
 }
 .executive-card:hover .executive-photo img {
@@ -1962,6 +1981,7 @@ iframe { max-width: 100%; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
 }
 .coach-badge {
   position: absolute;
@@ -2016,6 +2036,7 @@ iframe { max-width: 100%; }
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: top center;
   margin: 0 auto 1.25rem;
   border: 3px solid rgba(212,168,67,0.2);
 }
@@ -2100,9 +2121,12 @@ iframe { max-width: 100%; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   transition: transform 0.5s;
+  animation: kenburns 22s ease-in-out infinite alternate;
 }
 .gallery-main:hover img {
+  animation-play-state: paused;
   transform: scale(1.03);
 }
 .gallery-row {
@@ -2112,8 +2136,9 @@ iframe { max-width: 100%; }
 }
 .gallery-row img {
   width: 100%;
-  height: 140px;
+  aspect-ratio: 16 / 10;
   object-fit: cover;
+  object-position: top center;
   border-radius: 10px;
   transition: transform 0.4s;
 }
@@ -2171,8 +2196,9 @@ iframe { max-width: 100%; }
 }
 .interior-gallery img {
   width: 100%;
-  height: 200px;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
+  object-position: top center;
   border-radius: 10px;
   transition: transform 0.4s;
 }
@@ -2228,9 +2254,12 @@ iframe { max-width: 100%; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   transition: transform 0.5s;
+  animation: kenburns 22s ease-in-out infinite alternate;
 }
 .facility-main:hover img {
+  animation-play-state: paused;
   transform: scale(1.03);
 }
 .facility-side {
@@ -2241,6 +2270,7 @@ iframe { max-width: 100%; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   transition: transform 0.5s;
 }
 .facility-side:hover img {
@@ -2332,10 +2362,13 @@ iframe { max-width: 100%; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   min-height: 360px;
   transition: transform 0.5s;
+  animation: kenburns 22s ease-in-out infinite alternate;
 }
 .program-image:hover img {
+  animation-play-state: paused;
   transform: scale(1.03);
 }
 .program-details {
@@ -2433,7 +2466,7 @@ iframe { max-width: 100%; }
 @media (max-width: 768px) {
   .staff-section { padding: 3rem 0; }
   .staff-section-dark { padding: 3rem 0; }
-  .executive-photo { height: 200px; }
+  .executive-photo { aspect-ratio: 3 / 2; }
   .coach-profile {
     grid-template-columns: 1fr;
     text-align: center;
@@ -2449,14 +2482,14 @@ iframe { max-width: 100%; }
   .advisor-card { padding: 2rem 1.5rem; }
   .housing-section { padding: 2rem 0; }
   .housing-section-alt { padding: 2rem 0; }
-  .gallery-row img { height: 110px; }
+  .gallery-row img { aspect-ratio: 16 / 10; }
   .housing-highlights { flex-wrap: wrap; gap: 1rem; justify-content: center; }
   .facility-stats { gap: 2rem; }
   .feature-grid { grid-template-columns: 1fr; }
   .program-highlights { gap: 2rem; }
   .offer-grid { grid-template-columns: 1fr; }
   .interior-gallery { grid-template-columns: 1fr 1fr; gap: 0.75rem; }
-  .interior-gallery img { height: 160px; }
+  .interior-gallery img { aspect-ratio: 4 / 3; }
   .page-intro { padding: 1.5rem 1rem 0; }
   .page-intro p { font-size: 1.05rem; }
   .exec-stats { flex-wrap: wrap; gap: 1rem; justify-content: center; }
@@ -2464,7 +2497,7 @@ iframe { max-width: 100%; }
 
 /* Small Mobile (<=480px) */
 @media (max-width: 480px) {
-  .executive-photo { height: 160px; }
+  .executive-photo { aspect-ratio: 1 / 1; }
   .executive-info { padding: 1.25rem; }
   .executive-info h3 { font-size: 1.25rem; }
   .exec-bio { font-size: 0.88rem; }
@@ -2474,9 +2507,9 @@ iframe { max-width: 100%; }
   .facility-stat strong { font-size: 1.5rem; }
   .program-highlights { gap: 1.5rem; }
   .program-highlight strong { font-size: 1.4rem; }
-  .gallery-row img { height: 90px; }
+  .gallery-row img { aspect-ratio: 16 / 10; }
   .interior-gallery { grid-template-columns: 1fr; }
-  .interior-gallery img { height: 180px; }
+  .interior-gallery img { aspect-ratio: 4 / 3; }
   .housing-layout { gap: 1.5rem; }
   .offer-item { padding: 1.5rem; }
   .advisor-card img { width: 100px; height: 100px; }
@@ -2902,9 +2935,11 @@ iframe { max-width: 100%; }
 }
 .grind-image-frame img {
   width: 100%;
-  height: 400px;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
+  object-position: top center;
   display: block;
+  animation: kenburns 25s ease-in-out infinite alternate;
 }
 .grind-stat-badge {
   position: absolute;
@@ -2941,7 +2976,7 @@ iframe { max-width: 100%; }
 @media (max-width: 600px) {
   .grind-section { padding: 3rem 0; }
   .grind-title { font-size: 1.8rem; }
-  .grind-image-frame img { height: 280px; }
+  .grind-image-frame img { aspect-ratio: 4 / 3; }
   .grind-session-badge { flex-wrap: wrap; justify-content: center; text-align: center; padding: 0.5rem 1rem; gap: 0.4rem; }
   .gsb-text { font-size: 0.7rem; }
 }
@@ -3063,13 +3098,14 @@ iframe { max-width: 100%; }
 .featured-alumni-images {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 180px;
+  aspect-ratio: 16 / 10;
   overflow: hidden;
 }
 .featured-alumni-images img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   transition: transform 0.4s;
 }
 .featured-alumni-card:hover .featured-alumni-images img {
@@ -3107,7 +3143,7 @@ iframe { max-width: 100%; }
     flex: 0 0 240px;
   }
   .featured-alumni-images {
-    height: 150px;
+    aspect-ratio: 16 / 10;
   }
 }
 
@@ -3408,3 +3444,19 @@ iframe { max-width: 100%; }
   }
 }
 /* end alumni spotlight */
+
+/* --- Accessibility: Reduced Motion --- */
+@media (prefers-reduced-motion: reduce) {
+  .hero-bg-img,
+  .about-image img,
+  .editorial-feature-image img,
+  .facility-home-card img,
+  .program-card-image img,
+  .gallery-main img,
+  .facility-main img,
+  .grind-image-frame img,
+  .alumni-card-image img,
+  .featured-alumni-images img {
+    animation: none !important;
+  }
+}
