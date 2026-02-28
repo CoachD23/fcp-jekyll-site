@@ -5,36 +5,37 @@ description: "Latest news, alumni stories, and recruiting guides from Florida Co
 og_image: /assets/images/blog/blog-default.jpg
 ---
 
-<section class="page-header">
+<!-- ═══ DARK HERO ═══ -->
+<section class="blog-hero-section">
   <div class="container">
-    <h1>News & Updates</h1>
-    <p class="page-subtitle">The latest from Florida Coastal Prep</p>
+    <span class="blog-hero-tag fade-in">News & Updates</span>
+    <h1 class="blog-hero-heading fade-in">FCP Newsroom</h1>
+    <p class="blog-hero-desc fade-in">Stories, commitments, and the latest from Florida Coastal Prep</p>
   </div>
 </section>
 
-<section class="page-content blog-newsroom">
+{% assign all_posts = site.posts %}
+{% if all_posts.size > 0 %}
+
+<!-- ═══ FEATURED — dark section ═══ -->
+<section class="blog-feat-section">
   <div class="container">
-
-    {% assign all_posts = site.posts %}
-
-    {% if all_posts.size > 0 %}
-
-    <!-- Featured: first 2 posts — large overlay cards side by side -->
-    <div class="blog-section-label fade-in">
-      <span class="blog-section-tag">Featured</span>
+    <div class="blog-feat-header fade-in">
+      <span class="blog-feat-label">Featured Stories</span>
+      <p class="blog-feat-sub">The biggest names and moments from FCP</p>
     </div>
-    <div class="blog-featured fade-in">
+    <div class="blog-feat-grid fade-in">
       {% for post in all_posts limit:2 %}
-      <a href="{{ post.url | relative_url }}" class="blog-hero-card">
-        <div class="blog-hero-image">
+      <a href="{{ post.url | relative_url }}" class="blog-feat-card">
+        <div class="blog-feat-img">
           {% if post.image %}
           <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
           {% else %}
           <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
           {% endif %}
         </div>
-        <div class="blog-hero-overlay">
-          <div class="blog-hero-meta">
+        <div class="blog-feat-overlay">
+          <div class="blog-feat-top">
             {% assign cat = post.categories | first %}
             {% if cat == "alumni" %}
               <span class="blog-badge blog-badge-alumni">Alumni Story</span>
@@ -52,47 +53,53 @@ og_image: /assets/images/blog/blog-default.jpg
               <span class="blog-badge blog-badge-highlight">News</span>
             {% endif %}
           </div>
-          <h2 class="blog-hero-title">{{ post.title }}</h2>
-          {% if post.excerpt %}<p class="blog-hero-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>{% endif %}
-          <div class="blog-hero-footer">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-            <span class="blog-hero-link">Read Story &rarr;</span>
+          <div class="blog-feat-bottom">
+            <h2 class="blog-feat-title">{{ post.title }}</h2>
+            {% if post.excerpt %}<p class="blog-feat-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>{% endif %}
+            <div class="blog-feat-footer">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+              <span class="blog-feat-link">Read Story →</span>
+            </div>
           </div>
         </div>
       </a>
       {% endfor %}
     </div>
+  </div>
+</section>
 
-    <!-- Category filter tabs -->
-    {% assign remaining = all_posts | slice: 2, all_posts.size %}
-    {% if remaining.size > 0 %}
-    <div class="blog-filter-bar fade-in">
-      <div class="blog-filter-left">
-        <span class="blog-section-tag">All Stories</span>
-        <span class="blog-post-count">{{ remaining.size }} articles</span>
+<!-- ═══ ALL STORIES — light section ═══ -->
+{% assign remaining = all_posts | slice: 2, all_posts.size %}
+{% if remaining.size > 0 %}
+<section class="blog-stories-section">
+  <div class="container">
+    <div class="blog-stories-bar fade-in">
+      <div class="blog-stories-left">
+        <span class="blog-stories-label">All Stories</span>
+        <span class="blog-stories-count">{{ remaining.size }} articles</span>
       </div>
-      <div class="blog-filters" id="blogFilters">
-        <button class="blog-filter active" data-filter="all">All</button>
-        <button class="blog-filter" data-filter="alumni">Alumni</button>
-        <button class="blog-filter" data-filter="recruiting">Recruiting</button>
-        <button class="blog-filter" data-filter="highlights">Highlights</button>
-        <button class="blog-filter" data-filter="commitments">Commits</button>
+      <div class="blog-stories-filters" id="blogFilters">
+        <button class="blog-sfilt active" data-filter="all">All</button>
+        <button class="blog-sfilt" data-filter="alumni">Alumni</button>
+        <button class="blog-sfilt" data-filter="recruiting">Recruiting</button>
+        <button class="blog-sfilt" data-filter="highlights">Highlights</button>
+        <button class="blog-sfilt" data-filter="commitments">Commits</button>
       </div>
     </div>
 
-    <div class="blog-grid fade-in" id="blogGrid">
+    <div class="blog-stories-grid fade-in" id="blogGrid">
       {% for post in remaining %}
       {% assign cat = post.categories | first %}
       {% if cat == "basketball" %}{% assign filter_cat = "recruiting" %}{% else %}{% assign filter_cat = cat %}{% endif %}
-      <a href="{{ post.url | relative_url }}" class="blog-overlay-card" data-category="{{ filter_cat }}">
-        <div class="blog-overlay-image">
+      <a href="{{ post.url | relative_url }}" class="blog-story-card" data-category="{{ filter_cat }}">
+        <div class="blog-story-img">
           {% if post.image %}
           <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
           {% else %}
           <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
           {% endif %}
         </div>
-        <div class="blog-overlay-content">
+        <div class="blog-story-overlay">
           {% if cat == "alumni" %}
             <span class="blog-badge blog-badge-alumni">Alumni Story</span>
           {% elsif cat == "commitments" %}
@@ -108,31 +115,45 @@ og_image: /assets/images/blog/blog-default.jpg
           {% else %}
             <span class="blog-badge blog-badge-highlight">News</span>
           {% endif %}
-          <h3 class="blog-overlay-title">{{ post.title }}</h3>
-          {% if post.excerpt %}<p class="blog-overlay-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>{% endif %}
-          <div class="blog-overlay-footer">
+          <h3 class="blog-story-title">{{ post.title }}</h3>
+          {% if post.excerpt %}<p class="blog-story-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>{% endif %}
+          <div class="blog-story-footer">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-            <span class="blog-overlay-link">Read Story &rarr;</span>
+            <span class="blog-story-link">Read Story →</span>
           </div>
         </div>
       </a>
       {% endfor %}
     </div>
-    {% endif %}
+  </div>
+</section>
+{% endif %}
 
-    {% else %}
-    <div class="section-header">
-      <p>Check back soon for the latest news and updates from FCP.</p>
+{% else %}
+<section class="blog-stories-section">
+  <div class="container">
+    <p style="text-align:center; padding:3rem 0; color:#64748b;">Check back soon for the latest news and updates from FCP.</p>
+  </div>
+</section>
+{% endif %}
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container fade-in">
+    <span class="section-tag section-tag-light">Stay Connected</span>
+    <h2>Want the Latest from FCP?</h2>
+    <p>Follow our journey as athletes go from FCP to college courts across the country.</p>
+    <div class="hero-cta">
+      <a href="/apply/" class="btn btn-primary">Apply Now</a>
+      <a href="/commitments/" class="btn btn-outline">See Commitments</a>
     </div>
-    {% endif %}
-
   </div>
 </section>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var filters = document.querySelectorAll('.blog-filter');
-  var cards = document.querySelectorAll('.blog-overlay-card');
+  var filters = document.querySelectorAll('.blog-sfilt');
+  var cards = document.querySelectorAll('.blog-story-card');
   filters.forEach(function(btn) {
     btn.addEventListener('click', function() {
       filters.forEach(function(b) { b.classList.remove('active'); });
@@ -154,10 +175,9 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
-  // Hash-based filtering from nav links
   var hash = window.location.hash.replace('#','');
   if (hash) {
-    var target = document.querySelector('.blog-filter[data-filter="' + hash + '"]');
+    var target = document.querySelector('.blog-sfilt[data-filter="' + hash + '"]');
     if (target) target.click();
   }
 });
