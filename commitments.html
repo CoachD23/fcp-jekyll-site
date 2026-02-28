@@ -43,35 +43,76 @@ og_image: /assets/images/whatsapp-team.jpeg
       <span class="cp-section-tag">Featured Alumni</span>
       <p class="cp-section-desc">From FCP to the pros and top college programs</p>
     </div>
-    <div class="cp-featured-grid fade-in">
-      {% assign alumni_posts = site.posts | where: "layout", "alumni-post" | sort: "date" | reverse %}
-      {% for post in alumni_posts limit: 5 %}
-      <a href="{{ post.url | relative_url }}" class="cp-feat-card{% if forloop.index <= 2 %} cp-feat-card--lg{% endif %}{% if post.featured_video %} cp-feat-card--video{% endif %}">
-        <div class="cp-feat-img">
+    {% assign alumni_posts = site.posts | where: "layout", "alumni-post" | sort: "date" | reverse %}
+    {% assign feat_order = "Brandon Maclin,Nathan Mariano,Sean East II,Gerald Gittens Jr.,Jack Hatten,Kylin Green,Ring Malith" | split: "," %}
+
+    <!-- Row 1: 3 cards -->
+    <div class="cp-featured-row cp-featured-row--top fade-in">
+      {% for name in feat_order limit: 3 %}
+        {% assign post = alumni_posts | where: "player_name", name | first %}
+        {% if post %}
+        <a href="{{ post.url | relative_url }}" class="cp-feat-card{% if post.featured_video %} cp-feat-card--video{% endif %}">
+          <div class="cp-feat-img">
+            {% if post.featured_video %}
+            <video autoplay muted loop playsinline poster="{{ post.image | relative_url }}">
+              <source src="{{ post.featured_video | relative_url }}" type="video/mp4">
+            </video>
+            {% elsif post.image %}
+            <img src="{{ post.image | relative_url }}" alt="{{ post.player_name }}" loading="lazy">
+            {% endif %}
+          </div>
           {% if post.featured_video %}
-          <video autoplay muted loop playsinline poster="{{ post.image | relative_url }}">
-            <source src="{{ post.featured_video | relative_url }}" type="video/mp4">
-          </video>
-          {% elsif post.image %}
-          <img src="{{ post.image | relative_url }}" alt="{{ post.player_name }}" loading="lazy">
+          <span class="cp-feat-video-icon">▶</span>
           {% endif %}
-        </div>
-        {% if post.featured_video %}
-        <span class="cp-feat-video-icon">▶</span>
+          <div class="cp-feat-overlay">
+            <div class="cp-feat-top">
+              {% for s in post.stats limit:1 %}
+              <span class="cp-feat-badge">{{ s.value }} {{ s.label }}</span>
+              {% endfor %}
+            </div>
+            <div class="cp-feat-bottom">
+              <h3 class="cp-feat-name">{{ post.player_name }}</h3>
+              <span class="cp-feat-team">{{ post.current_team }}</span>
+              <span class="cp-feat-arrow">Read Story →</span>
+            </div>
+          </div>
+        </a>
         {% endif %}
-        <div class="cp-feat-overlay">
-          <div class="cp-feat-top">
-            {% for s in post.stats limit:1 %}
-            <span class="cp-feat-badge">{{ s.value }} {{ s.label }}</span>
-            {% endfor %}
+      {% endfor %}
+    </div>
+
+    <!-- Row 2: 4 cards -->
+    <div class="cp-featured-row cp-featured-row--bottom fade-in">
+      {% for name in feat_order offset: 3 %}
+        {% assign post = alumni_posts | where: "player_name", name | first %}
+        {% if post %}
+        <a href="{{ post.url | relative_url }}" class="cp-feat-card{% if post.featured_video %} cp-feat-card--video{% endif %}">
+          <div class="cp-feat-img">
+            {% if post.featured_video %}
+            <video autoplay muted loop playsinline poster="{{ post.image | relative_url }}">
+              <source src="{{ post.featured_video | relative_url }}" type="video/mp4">
+            </video>
+            {% elsif post.image %}
+            <img src="{{ post.image | relative_url }}" alt="{{ post.player_name }}" loading="lazy">
+            {% endif %}
           </div>
-          <div class="cp-feat-bottom">
-            <h3 class="cp-feat-name">{{ post.player_name }}</h3>
-            <span class="cp-feat-team">{{ post.current_team }}</span>
-            <span class="cp-feat-arrow">Read Story →</span>
+          {% if post.featured_video %}
+          <span class="cp-feat-video-icon">▶</span>
+          {% endif %}
+          <div class="cp-feat-overlay">
+            <div class="cp-feat-top">
+              {% for s in post.stats limit:1 %}
+              <span class="cp-feat-badge">{{ s.value }} {{ s.label }}</span>
+              {% endfor %}
+            </div>
+            <div class="cp-feat-bottom">
+              <h3 class="cp-feat-name">{{ post.player_name }}</h3>
+              <span class="cp-feat-team">{{ post.current_team }}</span>
+              <span class="cp-feat-arrow">Read Story →</span>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
