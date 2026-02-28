@@ -178,7 +178,7 @@ hero_subtitle: Where Potential Meets Preparation
 .two-paths-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 960px; margin: 2rem auto 0; }
 .path-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 2rem; }
 .path-card:hover { background: rgba(255,255,255,0.08); border-color: rgba(212,168,67,0.25); }
-.path-logos { display: flex; align-items: center; gap: 1.25rem; margin-bottom: 1.25rem; padding: 1.25rem; background: rgba(255,255,255,0.10); border-radius: 10px; }
+.path-logos { display: flex; align-items: center; justify-content: center; gap: 2rem; margin-bottom: 1.25rem; padding: 1.5rem 2rem; background: #fff; border-radius: 12px; }
 .path-logos img { height: 70px; width: auto; max-width: 180px; object-fit: contain; opacity: 1; }
 .path-shared { max-width: 960px; margin: 2.5rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.08); }
 .path-benefits { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
