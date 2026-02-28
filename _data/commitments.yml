@@ -112,6 +112,66 @@
   image: ""
   note: ""
 
+- name: "Hikaru Awata"
+  sport: "Basketball"
+  school: "Troy University"
+  year: 2025
+  position: "G"
+  level: "D1"
+  hometown: "Hachioji, Japan"
+  image: ""
+  note: "Sun Belt Conference"
+
+- name: "Austin Cross"
+  sport: "Basketball"
+  school: "Troy University"
+  year: 2024
+  position: "G"
+  level: "D1"
+  hometown: "Troy, AL"
+  image: ""
+  note: "Sun Belt Conference"
+
+- name: "Brock Rose"
+  sport: "Basketball"
+  school: "Radford University"
+  year: 2025
+  position: ""
+  level: "D1"
+  hometown: ""
+  image: ""
+  note: "Big South Conference"
+
+- name: "Marcus Eaves"
+  sport: "Basketball"
+  school: "John A. Logan College"
+  year: 2025
+  position: ""
+  level: "JUCO"
+  hometown: ""
+  image: ""
+  note: ""
+
+- name: "Jon White"
+  sport: "Basketball"
+  school: "Missouri State University-West Plains"
+  year: 2025
+  position: ""
+  level: "JUCO"
+  hometown: ""
+  image: ""
+  note: ""
+
+- name: "Noah Daniels"
+  sport: "Basketball"
+  school: "Milwaukee Area Technical College"
+  year: 2025
+  position: ""
+  level: "JUCO"
+  hometown: ""
+  image: ""
+  note: ""
+
 - name: "Gerald Gittens Jr."
   sport: "Basketball"
   school: "Northern Michigan University"
