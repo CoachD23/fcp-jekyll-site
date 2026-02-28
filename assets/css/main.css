@@ -1090,8 +1090,62 @@ section { padding: 4rem 0; }
 .post-header { background: #0a1628; padding: 8.5rem 0 3rem; text-align: center; }
 .post-header time { color: #d4a843; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; }
 .post-header h1 { color: #fff; margin-top: 0.75rem; }
+.post-header .post-excerpt { color: rgba(255,255,255,0.7); font-size: 1.1rem; max-width: 700px; margin: 1rem auto 0; line-height: 1.6; }
+.post-hero { margin-bottom: 0; }
+.post-hero .container { max-width: 900px; }
+.post-hero img { width: 100%; border-radius: 12px; margin-top: -2rem; box-shadow: 0 12px 40px rgba(0,0,0,0.2); }
 .post-body { padding: 3rem 0; }
-.post-body p { font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; }
+.post-body p { font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; color: #333; }
+.post-body h2 { font-size: 1.75rem; color: #0a1628; margin: 3rem 0 1.25rem; padding-bottom: 0.5rem; border-bottom: 3px solid #c41e3a; }
+.post-body h3 { font-size: 1.3rem; color: #0a1628; margin: 2rem 0 1rem; }
+.post-body h4 { font-size: 1.1rem; color: #0a1628; margin: 1.5rem 0 0.75rem; }
+.post-body hr { border: none; height: 1px; background: linear-gradient(to right, transparent, #ddd 20%, #ddd 80%, transparent); margin: 3rem 0; }
+.post-body blockquote { border-left: 4px solid #c41e3a; background: #f8f5f0; padding: 1.25rem 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0; font-style: italic; color: #444; }
+.post-body blockquote p { margin-bottom: 0; font-size: 1.05rem; }
+.post-body ul, .post-body ol { margin: 1rem 0 1.5rem 1.5rem; }
+.post-body li { font-size: 1.05rem; line-height: 1.7; margin-bottom: 0.5rem; color: #444; }
+.post-body img { max-width: 100%; height: auto; border-radius: 10px; margin: 1.5rem 0; }
+.post-body a { color: #c41e3a; text-decoration: underline; text-underline-offset: 3px; }
+.post-body a:hover { color: #0a1628; }
+
+/* Post body — school/program comparison cards */
+.school-card { background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; padding: 2rem; margin: 2rem 0; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+.school-card h2 { margin-top: 0; border-bottom: 3px solid #d4a843; }
+.school-card--fcp { border: 2px solid #c41e3a; background: linear-gradient(135deg, #fefefe 0%, #fdf5f5 100%); }
+.school-card--fcp h2 { border-bottom-color: #c41e3a; }
+.school-card .card-meta { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.25rem; }
+.school-card .card-tag { display: inline-block; padding: 0.3rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; background: #f0f0f0; color: #555; }
+.school-card .card-tag--cost { background: #fff8e7; color: #8b6914; }
+.school-card .card-tag--location { background: #e8f4ff; color: #1a5276; }
+.school-card .card-tag--level { background: #e8ffe8; color: #1a6b1a; }
+.school-card h3 { font-size: 1.1rem; color: #0a1628; margin: 1.5rem 0 0.5rem; }
+
+/* Post body — comparison table */
+.compare-table-wrap { overflow-x: auto; margin: 2rem 0; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+.compare-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.compare-table thead th { background: #0a1628; color: #fff; padding: 0.85rem 1rem; text-align: left; font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.compare-table thead th:first-child { border-radius: 12px 0 0 0; }
+.compare-table thead th:last-child { border-radius: 0 12px 0 0; }
+.compare-table tbody td { padding: 0.75rem 1rem; border-bottom: 1px solid #eee; color: #444; }
+.compare-table tbody tr:last-child td { border-bottom: none; }
+.compare-table tbody tr:nth-child(even) { background: #fafafa; }
+.compare-table tbody tr:hover { background: #f5f0e8; }
+.compare-table .highlight-row { background: #fdf5f5 !important; font-weight: 600; }
+.compare-table .highlight-row td { color: #c41e3a; }
+
+/* Post body — CTA banner */
+.post-cta { background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 100%); color: #fff; padding: 2.5rem; border-radius: 14px; text-align: center; margin: 3rem 0; }
+.post-cta h3 { color: #d4a843; font-size: 1.4rem; margin: 0 0 0.75rem; }
+.post-cta p { color: rgba(255,255,255,0.85); margin-bottom: 1.25rem; font-size: 1.05rem; }
+.post-cta a.cta-btn { display: inline-block; background: #c41e3a; color: #fff; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1rem; transition: background 0.2s, transform 0.2s; }
+.post-cta a.cta-btn:hover { background: #a01830; transform: translateY(-2px); }
+
+@media (max-width: 600px) {
+  .school-card { padding: 1.25rem; }
+  .compare-table { font-size: 0.82rem; }
+  .compare-table thead th, .compare-table tbody td { padding: 0.6rem 0.5rem; }
+  .post-cta { padding: 1.5rem; }
+}
 
 /* ============================================
    Alumni Article — Magazine-Style Blog Post
