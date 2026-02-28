@@ -5,11 +5,11 @@
 
 /* --- Reset & Base --- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; font-size: 17px; }
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   color: #1a1a2e;
-  line-height: 1.6;
+  line-height: 1.65;
   background: #fff;
   -webkit-font-smoothing: antialiased;
 }
@@ -59,7 +59,7 @@ section { padding: 4rem 0; }
 .main-nav a {
   color: rgba(255,255,255,0.85);
   padding: 0.5rem 0.85rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 500;
   transition: color 0.2s;
   white-space: nowrap;
@@ -697,11 +697,11 @@ section { padding: 4rem 0; }
   text-align: center;
 }
 .page-header h1 { color: #fff; margin-bottom: 0.5rem; }
-.page-subtitle { color: rgba(255,255,255,0.7); font-size: 1.15rem; }
+.page-subtitle { color: rgba(255,255,255,0.7); font-size: 1.2rem; }
 
 /* --- Page Content --- */
 .page-content { padding: 3rem 0 4rem; }
-.page-content p { margin-bottom: 1.25rem; font-size: 1.05rem; color: #333; }
+.page-content p { margin-bottom: 1.25rem; font-size: 1.08rem; color: #333; }
 .page-content h2 { margin-top: 2.5rem; margin-bottom: 1rem; }
 .page-content h3 { margin-top: 2rem; margin-bottom: 0.75rem; }
 .page-content ul, .page-content ol { margin: 1rem 0 1.5rem 1.5rem; }
@@ -2808,13 +2808,13 @@ iframe { max-width: 100%; }
 }
 .feature-card h3 {
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   margin-bottom: 0.6rem;
 }
 .feature-card p {
   color: rgba(255,255,255,0.65);
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-size: 0.95rem;
+  line-height: 1.65;
 }
 
 /* --- Program Highlights Bar --- */
@@ -2942,8 +2942,8 @@ iframe { max-width: 100%; }
 }
 .offer-item p {
   color: #555;
-  font-size: 0.92rem;
-  line-height: 1.6;
+  font-size: 0.98rem;
+  line-height: 1.65;
 }
 
 /* ============================================
@@ -4809,7 +4809,7 @@ iframe { max-width: 100%; }
   margin-bottom: 0.3rem;
 }
 .coach-card-info .coach-card-title {
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   color: #c41e3a;
   font-weight: 600;
   text-transform: uppercase;
@@ -4817,9 +4817,9 @@ iframe { max-width: 100%; }
   margin-bottom: 0.5rem;
 }
 .coach-card-info .coach-card-bio {
-  font-size: 0.85rem;
+  font-size: 0.92rem;
   color: #555;
-  line-height: 1.55;
+  line-height: 1.6;
 }
 .coach-card-badge {
   display: inline-block;
@@ -4900,9 +4900,9 @@ iframe { max-width: 100%; }
   margin-bottom: 0.5rem;
 }
 .enrollment-step p {
-  font-size: 0.88rem;
+  font-size: 0.94rem;
   color: #555;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 /* --- CCU Contact Card --- */
@@ -4956,7 +4956,7 @@ iframe { max-width: 100%; }
   min-width: 80px;
 }
 .schedule-activity {
-  font-size: 0.92rem;
+  font-size: 0.98rem;
   color: rgba(255,255,255,0.9);
 }
 
