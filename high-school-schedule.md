@@ -2,14 +2,33 @@
 layout: page
 title: High School Schedule
 subtitle: 2025–2026 National High School Basketball Schedule
-description: "Florida Coastal Prep's national high school basketball schedule for 2025–2026. SIAA conference matchups, national showcases, and tournaments against top prep programs."
+description: "Florida Coastal Prep's national high school basketball schedule for 2025–2026. SIAA conference matchups, Grind Session competition, national showcases, and tournaments against top prep programs."
 hero_image: /assets/images/hs-schedule-hero.jpeg
 hero_title: High School Schedule
 hero_subtitle: 2025–2026 Season — FCP Spartans National HS Team
 ---
 
-<div class="schedule-intro fade-in">
-  <p>Florida Coastal Prep's national high school basketball team competes in the <strong>Sunshine Independent Athletic Association (SIAA)</strong> — the most competitive prep basketball conference in the South. Our national schedule features showcases, invitationals, and head-to-head matchups against elite programs.</p>
+<!-- Intro Statement -->
+<section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
+  <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">National Schedule — Elite Competition.</h2>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Florida Coastal Prep's national high school basketball team competes in the <strong>Sunshine Independent Athletic Association (SIAA)</strong> and <strong>The Grind Session</strong> — featuring showcases, invitationals, and head-to-head matchups against the top prep programs in the country.</p>
+</section>
+
+<!-- League Affiliations — Logo Showcase -->
+<div class="staff-section staff-section-dark fade-in" style="margin-top: 0; padding: 3rem 2rem;">
+  <div class="staff-section-header">
+    <span class="section-label">Leagues & Affiliations</span>
+    <h2>Where We Compete</h2>
+    <div class="gold-rule"></div>
+  </div>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 3rem; flex-wrap: wrap; max-width: 800px; margin: 1.5rem auto 0;">
+    <div style="background: #fff; border-radius: 12px; padding: 2rem 3rem; display: flex; align-items: center; justify-content: center; min-width: 220px;">
+      <img src="/assets/images/siaa-transparent.png" alt="Sunshine Independent Athletic Association (SIAA) — Florida Coastal Prep's prep basketball conference" style="height: 120px; width: auto; max-width: 280px; object-fit: contain;">
+    </div>
+    <div style="background: #fff; border-radius: 12px; padding: 2rem 3rem; display: flex; align-items: center; justify-content: center; min-width: 220px;">
+      <img src="/assets/images/grind-session-transparent.png" alt="The Grind Session — competitive basketball league featuring former NBA Draft Picks and overseas professionals" style="height: 120px; width: auto; max-width: 280px; object-fit: contain;">
+    </div>
+  </div>
 </div>
 
 <div class="schedule-wrapper fade-in">
@@ -215,7 +234,7 @@ hero_subtitle: 2025–2026 Season — FCP Spartans National HS Team
 </div>
 
 <div class="schedule-disclaimer fade-in">
-  <p>📋 Schedule subject to change. All home games are played in Fort Walton Beach, FL. All games are recorded through Hudl and YouTube for recruiting exposure.</p>
+  <p>Schedule subject to change. All home games are played in Fort Walton Beach, FL. All games are recorded through Hudl and YouTube for recruiting exposure.</p>
 </div>
 
 <div class="cta-section" style="margin-top: 0; border-radius: 0;">
@@ -223,6 +242,6 @@ hero_subtitle: 2025–2026 Season — FCP Spartans National HS Team
   <p>Roster spots are limited for the 2025–2026 season.</p>
   <div class="hero-cta">
     <a href="/apply/" class="btn btn-primary">Apply Now</a>
-    <a href="/high-school/" class="btn btn-outline">About the HS Program</a>
+    <a href="/high-school/" class="btn btn-gold">About the HS Program</a>
   </div>
 </div>
