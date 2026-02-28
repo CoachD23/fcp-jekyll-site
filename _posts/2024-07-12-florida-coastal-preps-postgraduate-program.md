@@ -3,6 +3,9 @@ layout: post
 title: "Florida Coastal Prep's Postgraduate Program"
 date: 2024-07-12
 categories: [program]
+description: "Explore FCP's post-graduate basketball program featuring elite training, beachside housing, flexible academics, and mentorship from NBA veteran Kenny Anderson."
+image: /assets/images/blog/postgrad-program.jpg
+excerpt: "Florida Coastal Prep provides a postgraduate basketball program that combines elite training with unparalleled support and a national schedule."
 ---
 
 Florida Coastal Prep provides a postgraduate basketball program that combines elite training with unparalleled support. The initiative showcases a national schedule, which provides opportunities to compete against top teams across the country.

@@ -4,6 +4,8 @@ title: "Welcome Back Coach B: ESPN's Paul Biancardi Returns to Florida Coastal P
 date: 2023-01-31
 categories: [highlights]
 image: /assets/images/training/spartan-center-2.jpg
+description: "ESPN's Paul Biancardi makes his second visit to FCP, evaluating players, sharing recruiting insights, and touring the academy's upgraded facilities."
+excerpt: "Florida Coastal Prep welcomes back Coach Paul Biancardi, ESPN's National Director of Recruiting, for his second visit to the academy."
 ---
 
 Florida Coastal Prep is proud to announce the return visit of Coach Paul Biancardi, ESPN's National Director of Recruiting. This marks his second appearance at the academy.

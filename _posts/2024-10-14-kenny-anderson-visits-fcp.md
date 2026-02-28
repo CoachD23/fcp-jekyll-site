@@ -4,6 +4,8 @@ title: "Kenny Anderson's Visit Leaves Florida Coastal Players Inspired On and Of
 date: 2024-10-14
 categories: [highlights]
 image: /assets/images/blog-kenny.jpg
+description: "NBA legend Kenny Anderson leads training sessions at FCP, teaching ball handling, shooting, and life lessons about resilience and being a 'Pro In Life.'"
+excerpt: "Florida Coastal Prep hosted basketball legend Kenny Anderson for an impactful visit with our Post Grad Players."
 ---
 
 Florida Coastal Prep recently hosted basketball legend Kenny Anderson for an impactful visit with our Post Grad Players. Anderson, a former NBA point guard who played for teams including the New Jersey Nets, Boston Celtics, and Charlotte Hornets, brought invaluable experience and wisdom to the academy.

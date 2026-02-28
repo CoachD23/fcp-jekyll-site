@@ -3,6 +3,9 @@ layout: post
 title: "ESPN's Paul Biancardi Visits FCP"
 date: 2022-07-03
 categories: [highlights]
+description: "ESPN's National Recruiting Director Paul Biancardi visits Florida Coastal Prep to teach drills, share recruiting strategies, and tour the facilities."
+image: /assets/images/blog/espn-visit.jpg
+excerpt: "Paul Biancardi, ESPN's National Director of Recruiting, visited Florida Coastal Prep to share his expertise with the program's athletes."
 ---
 
 Paul Biancardi, ESPN's National Director of Recruiting, recently visited Florida Coastal Prep to share his expertise with the program's athletes.

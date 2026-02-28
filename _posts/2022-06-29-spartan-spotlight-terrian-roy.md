@@ -3,6 +3,9 @@ layout: post
 title: "Spartan Spotlight: Terrian Roy"
 date: 2022-06-29
 categories: [commitments]
+description: "Q&A with Terrian Roy, a 6'1 guard from Ville Platte, Louisiana. Roy shares advice for post-grad players and reflects on his FCP journey."
+image: /assets/images/blog/spartan-spotlight.jpg
+excerpt: "This feature highlights Terrian Roy, a Class of 2021 guard standing 6'1\" from Ville Platte, Louisiana, sharing his FCP experience and advice."
 ---
 
 This feature highlights Terrian Roy, a Class of 2021 guard standing 6'1" from Ville Platte, Louisiana. Roy was an important player during his time at Florida Coastal Prep.

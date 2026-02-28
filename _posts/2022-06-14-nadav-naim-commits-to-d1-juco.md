@@ -3,6 +3,9 @@ layout: post
 title: "Nadav Naim Commits to D1 JUCO"
 date: 2022-06-14
 categories: [commitments]
+description: "FCP guard Nadav Naim from Israel commits to Palm Beach State College, becoming the second Israeli-born player coached by Coach DeForest to play college basketball."
+image: /assets/images/blog/nadav-naim-commit.jpg
+excerpt: "Another athlete from Florida Coastal Prep's Class of 2022 has committed to college basketball. Nadav Naim, a 6'1 guard from Israel, pledged to Palm Beach State College."
 ---
 
 Another athlete from Florida Coastal Prep's Class of 2022 has committed to college basketball. Nadav Naim, a 6'1 guard from Israel, pledged to Palm Beach State College.

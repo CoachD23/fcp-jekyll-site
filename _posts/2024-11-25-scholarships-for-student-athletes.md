@@ -4,6 +4,8 @@ title: "Everything You Need to Know About Scholarships for Student-Athletes"
 date: 2024-11-25
 categories: [recruiting]
 image: /assets/images/blog-scholarships.jpg
+description: "Complete guide to athletic, academic, and need-based scholarships for student-athletes at NCAA, NAIA, and JUCO schools — including international students."
+excerpt: "There are plenty of scholarships available to help student-athletes cover tuition, fees, and living expenses at two-year and four-year institutions."
 ---
 
 There are plenty of scholarships available to help student-athletes cover tuition, fees, and living expenses. This guide covers funding options for both two-year community colleges and four-year universities, exploring opportunities for domestic and international students.

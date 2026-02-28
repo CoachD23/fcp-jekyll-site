@@ -3,6 +3,9 @@ layout: post
 title: "West Florida Invitational Champions"
 date: 2022-07-02
 categories: [game-recap]
+description: "FCP Spartans win the 2021 West Florida Invitational championship in overtime, 88-83. Full tournament recap with scores from all three rounds."
+image: /assets/images/blog/wfi-champions.jpg
+excerpt: "After finishing as runner-ups in 2020, the Spartans claimed the championship in 2021, winning the final in overtime."
 ---
 
 After finishing as runner-ups in 2020, the Spartans were determined to claim the championship in 2021. The road to victory was not an easy one and in the championship game, FCP went into overtime to finish the game as champions. Numerous scouts and coaches attended the tournament to observe the participating teams.

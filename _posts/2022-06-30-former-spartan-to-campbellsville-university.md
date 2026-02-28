@@ -3,6 +3,9 @@ layout: post
 title: "Former Spartan to Campbellsville University"
 date: 2022-06-30
 categories: [commitments]
+description: "Jordan Graham, Class of 2019 Spartan Captain, commits to Campbellsville University after overcoming injuries. A story of resilience and dedication at FCP."
+image: /assets/images/blog/campbellsville-commit.jpg
+excerpt: "Jordan Graham, a Class of 2019 Spartan Captain, committed to Campbellsville University in Kentucky, a traditional NAIA powerhouse."
 ---
 
 Jordan Graham, a Class of 2019 Spartan Captain, committed to Campbellsville University in Kentucky, a traditional NAIA powerhouse. During his tenure with Florida Coastal Prep, Graham distinguished himself as a consistent winner and team captain, noted for his athletic versatility and coachability. He particularly improved his guard skills and outside shooting abilities.

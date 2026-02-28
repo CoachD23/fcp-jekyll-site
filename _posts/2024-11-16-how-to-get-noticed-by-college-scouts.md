@@ -4,6 +4,8 @@ title: "How to Get Noticed by College Scouts"
 date: 2024-11-16
 categories: [recruiting]
 image: /assets/images/training/gym-main.jpg
+description: "Actionable tips to get recruited for college basketball — from building highlight reels and attending showcases to leveraging social media and prep schools."
+excerpt: "Competition for college basketball spots is fierce, but specific actionable steps can improve your visibility to scouts and recruiters."
 ---
 
 Competition for college basketball spots is fierce, but specific actionable steps can improve your visibility to scouts and recruiters.
