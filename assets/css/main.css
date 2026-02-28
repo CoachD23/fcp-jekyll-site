@@ -3906,317 +3906,424 @@ iframe { max-width: 100%; }
 }
 
 /* =============================================
-   COLLEGE COMMITMENTS PAGE
+   COLLEGE COMMITMENTS PAGE  — Premium Redesign
    ============================================= */
 
-/* --- Intro --- */
-.commitments-intro {
-  max-width: 720px;
-  margin: 0 auto 2.5rem;
+/* ── Hero ── */
+.cp-hero {
+  position: relative;
+  background: #0a1628;
+  padding: 7rem 0 4rem;
   text-align: center;
+  overflow: hidden;
 }
-.commitments-intro p {
+.cp-hero-bg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(196,30,58,0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+.cp-hero-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #d4a843;
+  border: 1px solid rgba(212,168,67,0.4);
+  padding: 0.35rem 1rem;
+  border-radius: 20px;
+  margin-bottom: 1.25rem;
+}
+.cp-hero-title {
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.02em;
+}
+.cp-hero-sub {
   font-size: 1.1rem;
-  line-height: 1.75;
-  color: #444;
+  color: rgba(255,255,255,0.55);
+  margin: 0 0 2.5rem;
 }
 
-/* --- Featured Alumni Carousel --- */
-.featured-alumni-carousel {
-  margin-bottom: 3rem;
+/* Stats row */
+.cp-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
-.featured-alumni-heading {
-  font-size: 1.35rem;
-  font-weight: 800;
-  color: #0a1628;
-  margin-bottom: 1.25rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  position: relative;
-  padding-left: 1rem;
-}
-.featured-alumni-heading::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 4px;
-  height: 100%;
-  background: #c41e3a;
-  border-radius: 2px;
-}
-.featured-alumni-track {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.25rem;
-}
-.featured-alumni-card {
+.cp-stat {
   display: flex;
   flex-direction: column;
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  align-items: center;
 }
-.featured-alumni-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+.cp-stat-num {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
 }
-.featured-alumni-images {
-  position: relative;
-  display: flex;
-  height: 180px;
-  overflow: hidden;
-  background: #0a1628;
+.cp-stat-plus {
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  font-weight: 800;
+  color: #d4a843;
+  line-height: 1;
 }
-.featured-alumni-img-fcp {
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
-  filter: grayscale(30%);
-  opacity: 0.85;
-}
-.featured-alumni-img-now {
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
-}
-.featured-alumni-images::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 3px;
-  height: 100%;
-  background: rgba(255,255,255,0.4);
-}
-.featured-alumni-info {
-  padding: 1rem 1.25rem 1.25rem;
-}
-.featured-alumni-info h3 {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #0a1628;
-  margin: 0 0 0.25rem;
-}
-.featured-alumni-team {
-  font-size: 0.82rem;
+.cp-stat-label {
+  font-size: 0.72rem;
   font-weight: 600;
-  color: #c41e3a;
-  display: block;
-  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.45);
+  margin-top: 0.35rem;
 }
-.featured-alumni-desc {
-  font-size: 0.8rem;
-  color: #666;
-  line-height: 1.5;
-  margin: 0;
+.cp-stat-divider {
+  width: 1px;
+  height: 40px;
+  background: rgba(255,255,255,0.12);
 }
 
-/* --- Commitment Dual Filters --- */
-.commitment-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-  padding: 1.25rem 1.5rem;
-  background: #f7f8fa;
-  border-radius: 12px;
-  border: 1px solid #e8e8e8;
+/* ── Section header (reusable) ── */
+.cp-section-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
 }
-.filter-group {
+.cp-section-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #d4a843;
+  border: 1px solid rgba(212,168,67,0.35);
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  margin-bottom: 0.75rem;
+}
+.cp-section-tag--dark {
+  color: #c41e3a;
+  border-color: rgba(196,30,58,0.3);
+}
+.cp-section-desc {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.55);
+  margin: 0;
+}
+.cp-section-desc--dark {
+  color: #888;
+}
+
+/* ── Featured Alumni — dark section ── */
+.cp-featured {
+  background: #0d1b30;
+  padding: 4rem 0 4.5rem;
+}
+.cp-featured-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
+/* First two cards span the top row, taller */
+.cp-feat-card--lg {
+  grid-row: 1;
+}
+.cp-feat-card {
+  position: relative;
+  display: block;
+  border-radius: 14px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+  min-height: 260px;
+}
+.cp-feat-card--lg {
+  min-height: 360px;
+}
+.cp-feat-img {
+  position: absolute;
+  inset: 0;
+}
+.cp-feat-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.cp-feat-card:hover .cp-feat-img img {
+  transform: scale(1.05);
+}
+.cp-feat-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10,22,40,0) 30%, rgba(10,22,40,0.92) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+.cp-feat-top {
+  display: flex;
+  justify-content: flex-end;
+}
+.cp-feat-badge {
+  background: rgba(196,30,58,0.9);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+}
+.cp-feat-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.cp-feat-name {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.2;
+}
+.cp-feat-card--lg .cp-feat-name {
+  font-size: 1.4rem;
+}
+.cp-feat-team {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #d4a843;
+}
+.cp-feat-arrow {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.5);
+  margin-top: 0.4rem;
+  transition: color 0.2s;
+}
+.cp-feat-card:hover .cp-feat-arrow {
+  color: #d4a843;
+}
+
+/* ── Commitment Board — light section ── */
+.cp-board {
+  background: #f5f6f8;
+  padding: 4rem 0 4.5rem;
+}
+
+/* Filters */
+.cp-filters {
+  background: #fff;
+  border: 1px solid #e4e6ea;
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+.cp-filter-row {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   flex-wrap: wrap;
 }
-.filter-label {
-  font-size: 0.8rem;
+.cp-filter-label {
+  font-size: 0.72rem;
   font-weight: 700;
   color: #0a1628;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  white-space: nowrap;
+  letter-spacing: 0.08em;
+  min-width: 42px;
 }
-.filter-buttons {
+.cp-filter-pills {
   display: flex;
-  gap: 0.4rem;
+  gap: 0.35rem;
   flex-wrap: wrap;
 }
-.commit-filter {
-  background: #fff;
-  border: 1.5px solid #ddd;
+.cp-pill {
+  background: #f5f6f8;
+  border: 1.5px solid #dde0e4;
   color: #555;
-  padding: 0.4rem 0.85rem;
-  border-radius: 20px;
-  font-size: 0.78rem;
+  padding: 0.38rem 0.85rem;
+  border-radius: 8px;
+  font-size: 0.76rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   white-space: nowrap;
 }
-.commit-filter:hover {
-  border-color: #c41e3a;
-  color: #c41e3a;
+.cp-pill:hover {
+  border-color: #0a1628;
+  color: #0a1628;
+  background: #eef0f3;
 }
-.commit-filter.active {
-  background: #c41e3a;
-  border-color: #c41e3a;
+.cp-pill.active {
+  background: #0a1628;
+  border-color: #0a1628;
   color: #fff;
 }
+/* Level-specific active colors */
+.cp-pill--d1.active { background: #c41e3a; border-color: #c41e3a; }
+.cp-pill--d2.active { background: #0a1628; border-color: #0a1628; }
+.cp-pill--d3.active { background: #2a5f8f; border-color: #2a5f8f; }
+.cp-pill--naia.active { background: #1a3a5c; border-color: #1a3a5c; }
+.cp-pill--juco.active { background: #4a7ab5; border-color: #4a7ab5; }
 
-/* --- Commitment Card Grid --- */
-.commit-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 1rem;
-  margin-bottom: 3rem;
+.cp-filter-count {
+  font-size: 0.75rem;
+  color: #999;
+  text-align: right;
 }
-.commit-card {
+
+/* Row-based commitment list */
+.cp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.cp-row {
   display: flex;
   align-items: center;
   gap: 1rem;
+  padding: 0.9rem 1.25rem;
   background: #fff;
+  border-bottom: 1px solid #eef0f3;
+  transition: background 0.15s ease;
+}
+.cp-row:first-child {
+  border-radius: 12px 12px 0 0;
+}
+.cp-row:last-child {
+  border-radius: 0 0 12px 12px;
+  border-bottom: none;
+}
+.cp-row:only-child {
   border-radius: 12px;
-  padding: 1.25rem 1.5rem;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-  border-left: 4px solid #e0e0e0;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
-.commit-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+.cp-row:hover {
+  background: #fafbfc;
 }
-.commit-card[data-level="D1"] { border-left-color: #c41e3a; }
-.commit-card[data-level="D2"] { border-left-color: #0a1628; }
-.commit-card[data-level="D3"] { border-left-color: #2a5f8f; }
-.commit-card[data-level="NAIA"] { border-left-color: #1a3a5c; }
-.commit-card[data-level="JUCO"] { border-left-color: #4a7ab5; }
+.cp-row-badge {
+  flex-shrink: 0;
+  width: 48px;
+  text-align: center;
+}
+.cp-level {
+  display: inline-block;
+  padding: 0.25rem 0;
+  width: 42px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.cp-level--d1 { background: #c41e3a; color: #fff; }
+.cp-level--d2 { background: #0a1628; color: #d4a843; }
+.cp-level--d3 { background: #2a5f8f; color: #fff; }
+.cp-level--naia { background: #1a3a5c; color: #fff; }
+.cp-level--juco { background: #4a7ab5; color: #fff; }
 
-.commit-info {
+.cp-row-main {
   flex: 1;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
 }
-.commit-name {
-  font-size: 1rem;
+.cp-row-name {
+  font-size: 0.92rem;
   font-weight: 700;
   color: #0a1628;
-  margin: 0 0 0.2rem;
-  line-height: 1.3;
+  line-height: 1.25;
 }
-.commit-school {
-  font-size: 0.9rem;
+.cp-row-school {
+  font-size: 0.82rem;
   font-weight: 600;
   color: #c41e3a;
-  margin: 0 0 0.5rem;
 }
-.commit-meta {
+.cp-row-details {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  margin-bottom: 0.35rem;
+  gap: 0.75rem;
+  flex-shrink: 0;
 }
-.commit-badge {
-  display: inline-block;
-  padding: 0.2rem 0.6rem;
-  border-radius: 12px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  line-height: 1;
-}
-.commit-badge-d1 {
-  background: #c41e3a;
-  color: #fff;
-}
-.commit-badge-d2 {
-  background: #0a1628;
-  color: #d4a843;
-}
-.commit-badge-d3 {
-  background: #2a5f8f;
-  color: #fff;
-}
-.commit-badge-naia {
-  background: #1a3a5c;
-  color: #fff;
-}
-.commit-badge-juco {
-  background: #4a7ab5;
-  color: #fff;
-}
-.commit-position {
+.cp-row-pos {
   font-size: 0.78rem;
   font-weight: 600;
   color: #555;
 }
-.commit-year {
+.cp-row-year {
   font-size: 0.78rem;
   color: #888;
-}
-.commit-hometown {
-  font-size: 0.78rem;
-  color: #888;
-  margin: 0;
-}
-.commit-note {
-  font-size: 0.75rem;
   font-weight: 600;
-  color: #d4a843;
-  margin: 0.3rem 0 0;
 }
-
-/* --- No Results --- */
-.commit-no-results {
+.cp-row-town {
+  font-size: 0.75rem;
+  color: #aaa;
+}
+.cp-row-note {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #d4a843;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+.cp-no-results {
   text-align: center;
   padding: 3rem 1rem;
+  background: #fff;
+  border-radius: 12px;
   color: #888;
-  font-size: 1rem;
 }
 
-/* --- Commitments Responsive --- */
+/* ── Commitments Responsive ── */
+@media (max-width: 900px) {
+  .cp-featured-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cp-feat-card--lg { min-height: 300px; }
+  .cp-feat-card { min-height: 220px; }
+}
 @media (max-width: 768px) {
-  .featured-alumni-track {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  .cp-hero { padding: 6rem 0 3rem; }
+  .cp-stats { gap: 1.25rem; }
+  .cp-stat-divider { height: 28px; }
+  .cp-featured-grid {
+    grid-template-columns: 1fr;
   }
-  .commitment-filters {
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1rem;
-  }
-  .filter-group {
-    flex-direction: column;
-    align-items: flex-start;
+  .cp-feat-card--lg { min-height: 280px; }
+  .cp-feat-card { min-height: 240px; }
+  .cp-row {
+    flex-wrap: wrap;
     gap: 0.5rem;
   }
-  .commit-grid {
-    grid-template-columns: 1fr;
+  .cp-row-details {
+    width: 100%;
+    padding-left: 58px;
   }
 }
 @media (max-width: 480px) {
-  .commitments-intro p {
-    font-size: 1rem;
-  }
-  .featured-alumni-images {
-    height: 140px;
-  }
-  .commit-card {
-    padding: 1rem;
-  }
-  .commit-name {
-    font-size: 0.92rem;
-  }
-  .commit-filter {
-    padding: 0.35rem 0.7rem;
-    font-size: 0.72rem;
-  }
+  .cp-hero { padding: 5.5rem 0 2.5rem; }
+  .cp-stats { gap: 1rem; }
+  .cp-stat-num { font-size: 1.8rem; }
+  .cp-stat-divider { display: none; }
+  .cp-stat-label { font-size: 0.65rem; }
+  .cp-featured, .cp-board { padding: 3rem 0; }
+  .cp-feat-card--lg .cp-feat-name { font-size: 1.15rem; }
+  .cp-pill { padding: 0.32rem 0.65rem; font-size: 0.7rem; }
+  .cp-row { padding: 0.75rem 1rem; }
+  .cp-row-details { padding-left: 0; }
 }
 
 /* --- Accessibility: Reduced Motion --- */

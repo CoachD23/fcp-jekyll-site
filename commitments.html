@@ -5,123 +5,138 @@ description: "500+ college commitments from Florida Coastal Prep Sports Academy.
 og_image: /assets/images/whatsapp-team.jpeg
 ---
 
-<section class="page-header">
+<!-- ═══ DARK HERO ═══ -->
+<section class="cp-hero">
+  <div class="cp-hero-bg"></div>
   <div class="container">
-    <h1>College Commitments</h1>
-    <p class="page-subtitle">500+ Athletes Placed at the Next Level</p>
+    <span class="cp-hero-tag fade-in">Proven Results</span>
+    <h1 class="cp-hero-title fade-in">College Commitments</h1>
+    <p class="cp-hero-sub fade-in">Where FCP athletes play next.</p>
+    <div class="cp-stats fade-in">
+      <div class="cp-stat">
+        <span class="cp-stat-num" data-count="500">0</span><span class="cp-stat-plus">+</span>
+        <span class="cp-stat-label">Athletes Placed</span>
+      </div>
+      <div class="cp-stat-divider"></div>
+      <div class="cp-stat">
+        <span class="cp-stat-num" data-count="43">0</span>
+        <span class="cp-stat-label">States</span>
+      </div>
+      <div class="cp-stat-divider"></div>
+      <div class="cp-stat">
+        <span class="cp-stat-num" data-count="22">0</span>
+        <span class="cp-stat-label">Countries</span>
+      </div>
+      <div class="cp-stat-divider"></div>
+      <div class="cp-stat">
+        <span class="cp-stat-num" data-count="7">0</span>
+        <span class="cp-stat-label">Years</span>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- Commitment Stats Bar -->
-<section class="impact-bar">
+<!-- ═══ FEATURED ALUMNI — dark section ═══ -->
+<section class="cp-featured">
   <div class="container">
-    <div class="impact-grid">
-      <div class="impact-item fade-in">
-        <span class="impact-number" data-count="500">0</span><span class="impact-plus">+</span>
-        <span class="impact-label">College Commitments</span>
-      </div>
-      <div class="impact-item fade-in">
-        <span class="impact-number" data-count="43">0</span>
-        <span class="impact-label">States Represented</span>
-      </div>
-      <div class="impact-item fade-in">
-        <span class="impact-number" data-count="22">0</span>
-        <span class="impact-label">Countries Represented</span>
-      </div>
-      <div class="impact-item fade-in">
-        <span class="impact-number" data-count="7">0</span>
-        <span class="impact-label">Years of Placement</span>
-      </div>
+    <div class="cp-section-header fade-in">
+      <span class="cp-section-tag">Featured Alumni</span>
+      <p class="cp-section-desc">From FCP to the pros and top college programs</p>
+    </div>
+    <div class="cp-featured-grid fade-in">
+      {% assign alumni_posts = site.posts | where: "layout", "alumni-post" | sort: "date" | reverse %}
+      {% for post in alumni_posts limit: 5 %}
+      <a href="{{ post.url | relative_url }}" class="cp-feat-card{% if forloop.index <= 2 %} cp-feat-card--lg{% endif %}">
+        <div class="cp-feat-img">
+          {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.player_name }}" loading="lazy">{% endif %}
+        </div>
+        <div class="cp-feat-overlay">
+          <div class="cp-feat-top">
+            {% for s in post.stats limit:1 %}
+            <span class="cp-feat-badge">{{ s.value }} {{ s.label }}</span>
+            {% endfor %}
+          </div>
+          <div class="cp-feat-bottom">
+            <h3 class="cp-feat-name">{{ post.player_name }}</h3>
+            <span class="cp-feat-team">{{ post.current_team }}</span>
+            <span class="cp-feat-arrow">Read Story →</span>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
     </div>
   </div>
 </section>
 
-<section class="page-content">
+<!-- ═══ COMMITMENT BOARD — light section ═══ -->
+<section class="cp-board">
   <div class="container">
-
-    <div class="commitments-intro fade-in">
-      <p>Since 2019, Florida Coastal Prep has helped over 500 student-athletes earn college scholarships and roster spots at every level of collegiate basketball. From Division I powerhouses to NAIA programs, our athletes are competing — and succeeding — across the nation.</p>
+    <div class="cp-section-header fade-in">
+      <span class="cp-section-tag cp-section-tag--dark">Commitment Board</span>
+      <p class="cp-section-desc cp-section-desc--dark">{{ site.data.commitments | size }} verified placements across every level</p>
     </div>
 
-    <!-- Featured Alumni Carousel -->
-    <div class="featured-alumni-carousel fade-in">
-      <h2 class="featured-alumni-heading">Featured Alumni</h2>
-      <div class="featured-alumni-track">
-        {% assign alumni_posts = site.posts | where: "layout", "alumni-post" | sort: "date" | reverse %}
-        {% for post in alumni_posts limit: 6 %}
-        <a href="{{ post.url | relative_url }}" class="featured-alumni-card">
-          <div class="featured-alumni-images">
-            {% if post.image_fcp %}<img src="{{ post.image_fcp | relative_url }}" alt="{{ post.player_name }} at FCP" class="featured-alumni-img-fcp" loading="lazy">{% endif %}
-            {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.player_name }} now" class="featured-alumni-img-now" loading="lazy">{% endif %}
-          </div>
-          <div class="featured-alumni-info">
-            <h3>{{ post.player_name }}</h3>
-            <span class="featured-alumni-team">{{ post.current_team }}</span>
-            <p class="featured-alumni-desc">{{ post.description | truncate: 90 }}</p>
-          </div>
-        </a>
-        {% endfor %}
-      </div>
-    </div>
-
-    <!-- Dual Filters -->
-    <div class="commitment-filters fade-in" role="navigation" aria-label="Commitment filters">
-      <div class="filter-group">
-        <span class="filter-label">Level</span>
-        <div class="filter-buttons">
-          <button class="commit-filter active" data-filter="level" data-value="all">All</button>
-          <button class="commit-filter" data-filter="level" data-value="D1">D1</button>
-          <button class="commit-filter" data-filter="level" data-value="D2">D2</button>
-          <button class="commit-filter" data-filter="level" data-value="D3">D3</button>
-          <button class="commit-filter" data-filter="level" data-value="NAIA">NAIA</button>
-          <button class="commit-filter" data-filter="level" data-value="JUCO">JUCO</button>
+    <!-- Filters -->
+    <div class="cp-filters fade-in" role="navigation" aria-label="Commitment filters">
+      <div class="cp-filter-row">
+        <span class="cp-filter-label">Level</span>
+        <div class="cp-filter-pills">
+          <button class="cp-pill active" data-filter="level" data-value="all">All</button>
+          <button class="cp-pill cp-pill--d1" data-filter="level" data-value="D1">D1</button>
+          <button class="cp-pill cp-pill--d2" data-filter="level" data-value="D2">D2</button>
+          <button class="cp-pill cp-pill--d3" data-filter="level" data-value="D3">D3</button>
+          <button class="cp-pill cp-pill--naia" data-filter="level" data-value="NAIA">NAIA</button>
+          <button class="cp-pill cp-pill--juco" data-filter="level" data-value="JUCO">JUCO</button>
         </div>
       </div>
-      <div class="filter-group">
-        <span class="filter-label">Year</span>
-        <div class="filter-buttons">
-          <button class="commit-filter active" data-filter="year" data-value="all">All</button>
-          <button class="commit-filter" data-filter="year" data-value="2025">2025</button>
-          <button class="commit-filter" data-filter="year" data-value="2024">2024</button>
-          <button class="commit-filter" data-filter="year" data-value="2023">2023</button>
-          <button class="commit-filter" data-filter="year" data-value="2022">2022</button>
-          <button class="commit-filter" data-filter="year" data-value="2021">2021</button>
-          <button class="commit-filter" data-filter="year" data-value="2020">2020</button>
-          <button class="commit-filter" data-filter="year" data-value="2019">2019</button>
+      <div class="cp-filter-row">
+        <span class="cp-filter-label">Year</span>
+        <div class="cp-filter-pills">
+          <button class="cp-pill active" data-filter="year" data-value="all">All</button>
+          <button class="cp-pill" data-filter="year" data-value="2025">2025</button>
+          <button class="cp-pill" data-filter="year" data-value="2024">2024</button>
+          <button class="cp-pill" data-filter="year" data-value="2023">2023</button>
+          <button class="cp-pill" data-filter="year" data-value="2022">2022</button>
+          <button class="cp-pill" data-filter="year" data-value="2021">2021</button>
+          <button class="cp-pill" data-filter="year" data-value="2020">2020</button>
         </div>
       </div>
+      <div class="cp-filter-count"><span id="cpVisibleCount">{{ site.data.commitments | size }}</span> athletes shown</div>
     </div>
 
-    <!-- No Results Message -->
-    <div class="commit-no-results" style="display:none;">
-      <p>No commitments match the selected filters. Try adjusting your filters above.</p>
+    <!-- No Results -->
+    <div class="cp-no-results" id="cpNoResults" style="display:none;">
+      <p>No commitments match those filters.</p>
     </div>
 
-    <!-- Commitment Cards Grid -->
-    <div class="commit-grid fade-in">
+    <!-- Table-style list -->
+    <div class="cp-list fade-in" id="cpList">
       {% for athlete in site.data.commitments %}
-      <div class="commit-card" data-level="{{ athlete.level }}" data-year="{{ athlete.year }}">
-        <div class="commit-info">
-          <h3 class="commit-name">{{ athlete.name }}</h3>
-          <p class="commit-school">{{ athlete.school }}</p>
-          <div class="commit-meta">
-            <span class="commit-badge commit-badge-{{ athlete.level | downcase }}">{{ athlete.level }}</span>
-            <span class="commit-position">{{ athlete.position }}</span>
-            <span class="commit-year">Class of {{ athlete.year }}</span>
-          </div>
-          <p class="commit-hometown">{{ athlete.hometown }}</p>
-          {% if athlete.note != "" and athlete.note %}
-          <p class="commit-note">{{ athlete.note }}</p>
+      <div class="cp-row" data-level="{{ athlete.level }}" data-year="{{ athlete.year }}">
+        <div class="cp-row-badge">
+          <span class="cp-level cp-level--{{ athlete.level | downcase }}">{{ athlete.level }}</span>
+        </div>
+        <div class="cp-row-main">
+          <span class="cp-row-name">{{ athlete.name }}</span>
+          <span class="cp-row-school">{{ athlete.school }}</span>
+        </div>
+        <div class="cp-row-details">
+          <span class="cp-row-pos">{{ athlete.position }}</span>
+          <span class="cp-row-year">{{ athlete.year }}</span>
+          {% if athlete.hometown != "" and athlete.hometown %}
+          <span class="cp-row-town">{{ athlete.hometown }}</span>
           {% endif %}
         </div>
+        {% if athlete.note != "" and athlete.note %}
+        <span class="cp-row-note">{{ athlete.note }}</span>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
-
   </div>
 </section>
 
-<!-- CTA -->
+<!-- ═══ CTA ═══ -->
 <section class="cta-section">
   <div class="container fade-in">
     <span class="section-tag section-tag-light">Your Name Could Be Here</span>
@@ -162,43 +177,53 @@ og_image: /assets/images/whatsapp-team.jpeg
 }
 </script>
 
-<!-- Dual Filter JS -->
+<!-- Filter + Counter JS -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var filters = document.querySelectorAll('.commit-filter');
-  var cards = document.querySelectorAll('.commit-card');
-  var noResults = document.querySelector('.commit-no-results');
+  var pills = document.querySelectorAll('.cp-pill');
+  var rows = document.querySelectorAll('.cp-row');
+  var noResults = document.getElementById('cpNoResults');
+  var countEl = document.getElementById('cpVisibleCount');
   var activeFilters = { level: 'all', year: 'all' };
 
-  filters.forEach(function(btn) {
+  pills.forEach(function(btn) {
     btn.addEventListener('click', function() {
-      var filterType = btn.getAttribute('data-filter');
-      var value = btn.getAttribute('data-value');
-
-      // Update active state within the same filter group
-      btn.closest('.filter-group').querySelectorAll('.commit-filter').forEach(function(b) {
-        b.classList.remove('active');
-      });
+      var type = btn.getAttribute('data-filter');
+      var val = btn.getAttribute('data-value');
+      btn.closest('.cp-filter-row').querySelectorAll('.cp-pill').forEach(function(b) { b.classList.remove('active'); });
       btn.classList.add('active');
-
-      activeFilters[filterType] = value;
-
-      // Apply both filters
-      var visibleCount = 0;
-      cards.forEach(function(card) {
-        var levelMatch = activeFilters.level === 'all' || card.getAttribute('data-level') === activeFilters.level;
-        var yearMatch = activeFilters.year === 'all' || card.getAttribute('data-year') === activeFilters.year;
-
-        if (levelMatch && yearMatch) {
-          card.style.display = '';
-          visibleCount++;
-        } else {
-          card.style.display = 'none';
-        }
+      activeFilters[type] = val;
+      var count = 0;
+      rows.forEach(function(row) {
+        var lm = activeFilters.level === 'all' || row.getAttribute('data-level') === activeFilters.level;
+        var ym = activeFilters.year === 'all' || row.getAttribute('data-year') === activeFilters.year;
+        if (lm && ym) { row.style.display = ''; count++; } else { row.style.display = 'none'; }
       });
-
-      noResults.style.display = visibleCount === 0 ? '' : 'none';
+      countEl.textContent = count;
+      noResults.style.display = count === 0 ? '' : 'none';
     });
   });
+
+  /* Animate stats */
+  var nums = document.querySelectorAll('.cp-stat-num[data-count]');
+  var observed = false;
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting && !observed) {
+        observed = true;
+        nums.forEach(function(n) {
+          var target = parseInt(n.getAttribute('data-count'));
+          var step = Math.ceil(target / 40);
+          var current = 0;
+          var timer = setInterval(function() {
+            current += step;
+            if (current >= target) { current = target; clearInterval(timer); }
+            n.textContent = current;
+          }, 30);
+        });
+      }
+    });
+  }, { threshold: 0.3 });
+  if (nums.length) obs.observe(nums[0].closest('.cp-stats'));
 });
 </script>
