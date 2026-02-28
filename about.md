@@ -50,10 +50,10 @@ hero_subtitle: Where Potential Meets Preparation
   </div>
 </section>
 
-<!-- ESPN Endorsement — Image Version -->
-<section class="fade-in" style="margin-top: 3rem; text-align: center; background: #0a1628; padding: 3rem 1.5rem; border-radius: 16px; max-width: 1000px; margin-left: auto; margin-right: auto;">
-  <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." style="max-width: 700px; width: 100%; border-radius: 10px; box-shadow: 0 8px 40px rgba(0,0,0,0.4);" loading="lazy">
-</section>
+<!-- ESPN Endorsement — Compact Card -->
+<div class="fade-in" style="margin: 3rem auto; max-width: 480px;">
+  <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." style="width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.12);" loading="lazy">
+</div>
 
 <!-- What Sets FCP Apart -->
 <section class="program-offers fade-in" style="margin-top: 3rem;">
