@@ -102,6 +102,16 @@
   image: ""
   note: ""
 
+- name: "Josh Chiok"
+  sport: "Basketball"
+  school: "University of Maine at Augusta"
+  year: 2025
+  position: ""
+  level: "NAIA"
+  hometown: ""
+  image: ""
+  note: ""
+
 - name: "Gerald Gittens Jr."
   sport: "Basketball"
   school: "Northern Michigan University"
