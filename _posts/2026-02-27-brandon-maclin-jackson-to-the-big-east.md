@@ -36,13 +36,15 @@ By his senior year, Maclin was contributing to a team that reached the TSSAA Sta
 
 ## The FCP Foundation
 
+<img src="/assets/images/brandon-maclin-training.jpeg" alt="Brandon Maclin training at Florida Coastal Prep" class="article-float-img">
+
 After high school, Maclin made the decision that would change the trajectory of his career — he came to Florida Coastal Prep for a post-graduate year.
 
 At FCP, Maclin went through the daily grind of competing against elite post-graduate talent in the Grind Session circuit. He put on muscle, refined his perimeter game, and — most importantly — learned what it meant to prepare like a college player before he ever stepped on a college campus.
 
-<img src="/assets/images/brandon-maclin-training.jpeg" alt="Brandon Maclin training at Florida Coastal Prep" class="article-float-img">
-
 The coaching staff saw a player with rare physical tools and an even rarer motor. Maclin didn't need to be convinced to do the extra work. He was already in the gym.
+
+<div style="clear:both"></div>
 
 ## The Odessa Grind
 
