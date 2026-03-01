@@ -245,3 +245,30 @@ hero_subtitle: 2025–2026 Season — FCP Spartans National HS Team
     <a href="/high-school/" class="btn btn-gold">About the HS Program</a>
   </div>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  "name": "FCP Spartans 2025-2026 National High School Basketball Season",
+  "description": "Florida Coastal Prep’s national high school basketball schedule for 2025-2026 featuring SIAA conference matchups, Grind Session competition, and national showcases.",
+  "url": "https://floridacoastalprep.com/high-school-schedule/",
+  "organizer": {
+    "@type": "SportsOrganization",
+    "name": "Florida Coastal Prep Sports Academy",
+    "url": "https://floridacoastalprep.com/"
+  },
+  "location": {
+    "@type": "Place",
+    "name": "Spartan Training Center",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fort Walton Beach",
+      "addressRegion": "FL",
+      "postalCode": "32548",
+      "addressCountry": "US"
+    }
+  }
+}
+</script>
+

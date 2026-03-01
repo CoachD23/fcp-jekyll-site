@@ -104,7 +104,7 @@ hero_subtitle: Real Families. Real Results.
   <p>Join the growing list of FCP athletes who've earned their shot at college basketball.</p>
   <div class="hero-cta">
     <a href="/apply/" class="btn btn-primary">Apply Now</a>
-    <a href="/contact/" class="btn btn-outline">Contact Us</a>
+    <a href="/contact/" class="btn btn-gold">Contact Us</a>
   </div>
 </div>
 
@@ -119,3 +119,35 @@ hero_subtitle: Real Families. Real Results.
 .testimonial-card p { text-align: justify; }
 .hero-bg-img { object-position: center 20% !important; }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Testimonials — Florida Coastal Prep",
+  "description": "Read what parents, athletes, and ESPN scouts say about Florida Coastal Prep.",
+  "url": "https://floridacoastalprep.com/testimonials/",
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "Review",
+        "author": {"@type": "Person", "name": "Sean East Sr."},
+        "reviewBody": "Coach Lee DeForest was instrumental in putting my son in the position to compete against high level competition.",
+        "itemReviewed": {"@type": "SportsOrganization", "name": "Florida Coastal Prep"}
+      },
+      {
+        "@type": "Review",
+        "author": {"@type": "Person", "name": "Shawn Roy"},
+        "reviewBody": "My son had zero offers coming out high school, and after completing his time at FCP, he had plenty of offers.",
+        "itemReviewed": {"@type": "SportsOrganization", "name": "Florida Coastal Prep"}
+      }
+    ]
+  }
+}
+</script>
+
+<style>
+.hero-bg-img { object-position: center 20% !important; }
+</style>
+

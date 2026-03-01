@@ -133,3 +133,29 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <a href="/commitments/" class="btn btn-gold">See Our Results</a>
   </div>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsOrganization",
+  "name": "Florida Coastal Prep — National High School Basketball Program",
+  "description": "Florida Coastal Prep’s national high school basketball academy (grades 9-12) combines elite training, national competition, accredited academics, and college recruiting exposure in Fort Walton Beach, FL.",
+  "url": "https://floridacoastalprep.com/high-school/",
+  "sport": "Basketball",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Fort Walton Beach",
+    "addressRegion": "FL",
+    "postalCode": "32548",
+    "addressCountry": "US"
+  }
+}
+</script>
+
+<style>
+.program-offers .feature-card { text-align: left; }
+.program-offers .feature-card p { text-align: justify; }
+.program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
+.hero-bg-img { object-position: center 30% !important; }
+</style>
+

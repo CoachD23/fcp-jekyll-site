@@ -8,9 +8,11 @@ hero_title: Post Grad Schedule
 hero_subtitle: 2025–2026 Season — FCP Spartans
 ---
 
-<div class="schedule-intro fade-in">
-  <p>The FCP Spartans post-grad program has a challenging season ahead, with matchups against JUCO programs, college JV squads, and elite national prep teams. All games are recorded through Hudl for recruiting exposure.</p>
-</div>
+<!-- Intro Statement -->
+<section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
+  <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">A National Schedule Built for Recruiting Exposure.</h2>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">The FCP Spartans post-grad program has a challenging season ahead, with matchups against JUCO programs, college JV squads, and elite national prep teams. All games are recorded through Hudl for recruiting exposure.</p>
+</section>
 
 <div class="schedule-wrapper fade-in">
 
@@ -88,14 +90,14 @@ hero_subtitle: 2025–2026 Season — FCP Spartans
   </thead>
   <tbody>
     <tr>
-      <td>Nov 3</td>
-      <td>Baton Rouge CC — 6 PM</td>
+      <td>Nov 2</td>
+      <td>Potter's House Prep — 6 PM</td>
       <td><span class="schedule-site away">Away</span></td>
       <td></td>
     </tr>
     <tr>
-      <td>Nov 2</td>
-      <td>Potter's House Prep — 6 PM</td>
+      <td>Nov 3</td>
+      <td>Baton Rouge CC — 6 PM</td>
       <td><span class="schedule-site away">Away</span></td>
       <td></td>
     </tr>
@@ -331,7 +333,7 @@ hero_subtitle: 2025–2026 Season — FCP Spartans
 </div>
 
 <div class="schedule-disclaimer fade-in">
-  <p>📋 Schedule subject to change. All home games are played in Fort Walton Beach, FL. All games are recorded through Hudl and YouTube for recruiting exposure.</p>
+  <p>Schedule subject to change. All home games are played in Fort Walton Beach, FL. All games are recorded through Hudl and YouTube for recruiting exposure.</p>
 </div>
 
 <div class="cta-section" style="margin-top: 0; border-radius: 0;">
@@ -339,6 +341,37 @@ hero_subtitle: 2025–2026 Season — FCP Spartans
   <p>Roster spots are limited. Apply for the Post Grad program today.</p>
   <div class="hero-cta">
     <a href="/apply/" class="btn btn-primary">Apply Now</a>
-    <a href="/post-grad/" class="btn btn-outline">About Post Grad</a>
+    <a href="/post-grad/" class="btn btn-gold">About Post Grad</a>
   </div>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  "name": "FCP Spartans 2025-2026 Post-Grad Basketball Season",
+  "description": "Florida Coastal Prep’s 2025–2026 post-graduate basketball schedule featuring matchups against JUCO programs, college JV squads, and national prep teams.",
+  "url": "https://floridacoastalprep.com/post-grad-schedule/",
+  "organizer": {
+    "@type": "SportsOrganization",
+    "name": "Florida Coastal Prep Sports Academy",
+    "url": "https://floridacoastalprep.com/"
+  },
+  "location": {
+    "@type": "Place",
+    "name": "Spartan Training Center",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fort Walton Beach",
+      "addressRegion": "FL",
+      "postalCode": "32548",
+      "addressCountry": "US"
+    }
+  }
+}
+</script>
+
+<style>
+.hero-bg-img { object-position: center 40% !important; }
+</style>
+

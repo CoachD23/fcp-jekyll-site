@@ -88,7 +88,7 @@ hero_subtitle: Living on the Emerald Coast
   <p>We're happy to walk you through the details and <a href="/area-info/" style="color: #d4a843;">show you the area</a>.</p>
   <div class="hero-cta">
     <a href="/contact/" class="btn btn-primary">Contact Us</a>
-    <a href="/apply/" class="btn btn-outline">Apply Now</a>
+    <a href="/apply/" class="btn btn-gold">Apply Now</a>
   </div>
 </div>
 
@@ -114,3 +114,4 @@ hero_subtitle: Living on the Emerald Coast
   ]
 }
 </script>
+

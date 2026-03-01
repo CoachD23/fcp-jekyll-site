@@ -62,7 +62,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
       <h3>Academic Improvement</h3>
-      <p>Dual enrollment through Colorado Christian University, dual enrollment, and transcript enhancement to strengthen your college application.</p>
+      <p>Dual enrollment through Colorado Christian University and transcript enhancement to strengthen your college application.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg></div>
@@ -189,10 +189,34 @@ hero_subtitle: The Bridge Between High School and College Basketball
   </div>
 </div>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsOrganization",
+  "name": "Florida Coastal Prep — Post-Graduate Basketball Program",
+  "description": "A post-graduate basketball year at Florida Coastal Prep bridges high school and college with elite coaching, national recruiting exposure, academic support, and SEHAL/PHSBA competition.",
+  "url": "https://floridacoastalprep.com/post-grad/",
+  "sport": "Basketball",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Fort Walton Beach",
+    "addressRegion": "FL",
+    "postalCode": "32548",
+    "addressCountry": "US"
+  },
+  "memberOf": [
+    {"@type": "SportsOrganization", "name": "SEHAL"},
+    {"@type": "SportsOrganization", "name": "PHSBA"}
+  ]
+}
+</script>
+
 <style>
 .program-offers .feature-card { text-align: left; }
 .program-offers .feature-card p { text-align: justify; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
 .hero-bg-img { object-position: center 30% !important; }
 </style>
+
 

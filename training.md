@@ -112,7 +112,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <img src="/assets/images/training/fcp-brochure-016.jpg" alt="Florida Coastal Prep student-athletes during strength and conditioning training at the Spartan Training Center in Fort Walton Beach" loading="lazy">
   </div>
   <div class="program-details">
-    <span class="section-label" style="color: #c41e3a;">Strength & Conditioning</span>
+    <span class="section-label">Strength & Conditioning</span>
     <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">Built for the Next Level</h2>
     <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
     <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Every FCP athlete follows a <strong>periodized strength and conditioning program</strong> designed to build college-ready bodies. Three sessions per week combine Olympic lifts, plyometrics, agility ladders, and sport-specific movement patterns — all supervised by our <a href="/coaches/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">coaching staff</a>.</p>
@@ -232,4 +232,5 @@ hero_subtitle: 14,000 Square Feet of Elite Training
   ]
 }
 </script>
+
 
