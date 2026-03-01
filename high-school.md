@@ -39,7 +39,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg></div>
       <h3>Film & Recruiting</h3>
-      <p>All games recorded through Hudl and YouTube for maximum college recruiting exposure.</p>
+      <p>All games professionally recorded and uploaded to YouTube for maximum college recruiting exposure.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M4 10v7h3v-7H4zm6 0v7h4v-7h-4zm8 0v7h3v-7h-3zM2 22h20v-3H2v3zm0-12l10-6 10 6H2z" fill="currentColor"/></svg></div>
