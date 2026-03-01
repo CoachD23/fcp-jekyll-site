@@ -172,7 +172,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg></div>
       <h3>Recruiting Prep</h3>
-      <p>Professional highlight tapes, individual recruiting plans, and exposure at national events — <a href="/commitments/" style="color: #d4a843;">500+ athletes committed</a> from FCP.</p>
+      <p>Professional highlight tapes, individual recruiting plans, and exposure at national events — <a href="/commitments/" style="color: #d4a843;">Spartan Alumni</a> from FCP.</p>
     </div>
   </div>
 </div>

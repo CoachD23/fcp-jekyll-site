@@ -15,6 +15,10 @@ hero_subtitle: Education That Prepares You for College
 @media (max-width: 600px) { .enrollment-steps { grid-template-columns: 1fr 1fr !important; } }
 /* Fix Beth's button color inside ccu-contact */
 .ccu-contact .btn-primary { color: #fff !important; }
+/* Force 4-column NCAA grid on desktop */
+.ncaa-grid { grid-template-columns: repeat(4, 1fr) !important; max-width: 1100px; }
+@media (max-width: 900px) { .ncaa-grid { grid-template-columns: repeat(2, 1fr) !important; } }
+@media (max-width: 500px) { .ncaa-grid { grid-template-columns: 1fr !important; } }
 /* Left-align feature cards in program-offers */
 .program-offers .feature-card { text-align: left; }
 .program-offers .feature-card p { text-align: justify; }
@@ -127,7 +131,7 @@ hero_subtitle: Education That Prepares You for College
     <div class="gold-rule"></div>
   </div>
 
-  <div class="feature-grid" style="max-width: 1000px; margin: 1.5rem auto 0;">
+  <div class="feature-grid ncaa-grid" style="margin: 1.5rem auto 0;">
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg></div>
       <h3>Transcripts</h3>
@@ -213,3 +217,4 @@ hero_subtitle: Education That Prepares You for College
   ]
 }
 </script>
+

@@ -3,7 +3,7 @@ layout: page
 title: Tuition and Fees
 subtitle: Investing in Your Athletic and Academic Future
 description: "Florida Coastal Prep tuition, fees, financial assistance, and payment plan information. Learn what's included and how to apply for scholarships at FCP."
-hero_image: /assets/images/about-fcp.jpg
+hero_image: /assets/images/tuition/florida-coastal-prep-school.png
 hero_title: Tuition & Fees
 hero_subtitle: Investing in Your Athletic and Academic Future
 ---
@@ -40,7 +40,7 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M6.5 6.5v11M17.5 6.5v11M6.5 12h11M2 9v6M4 7v10M20 7v10M22 9v6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
       <h3>Training Facility</h3>
-      <p>24/7 access to our 14,000 sq ft Spartan Training Center with NBA-dimension hardwood and turf zone.</p>
+      <p>24/7 access to our 14,000 sq ft Spartan Training Center with professional hardwood and turf zone.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z" fill="currentColor"/></svg></div>
@@ -52,6 +52,18 @@ hero_subtitle: Investing in Your Athletic and Academic Future
       <h3>Performance</h3>
       <p>Strength and conditioning, sports science, nutrition guidance, and physical therapy assessments.</p>
     </div>
+  </div>
+</div>
+
+<!-- High School Tuition -->
+<div class="program-offers fade-in" style="margin-top: 3rem;">
+  <div class="staff-section-header">
+    <span class="section-label">High School</span>
+    <h2>High School Program Costs</h2>
+    <div class="gold-rule"></div>
+  </div>
+  <div style="max-width: 800px; margin: 1rem auto 0;">
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Our National High School Program includes everything student-athletes need to develop and compete at an elite level. Tuition covers daily basketball training, strength and conditioning, accredited academics, supervised housing, <strong>meals</strong>, recruiting support, and access to our 14,000 sq ft Spartan Training Center. For a detailed cost breakdown and payment plan options, <a href="/contact/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">contact our admissions team</a>.</p>
   </div>
 </div>
 
@@ -126,7 +138,7 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     </div>
     <div class="faq-card fade-in">
       <h3>What does this program guarantee?</h3>
-      <p>While no program can guarantee a D1 scholarship, we guarantee a level of exposure, focused training, sports performance improvement, national-level competition, and meaningful playing time. Our track record of 100+ placements speaks for itself.</p>
+      <p>While no program can guarantee a D1 scholarship, we guarantee a level of exposure, focused training, sports performance improvement, national-level competition, and meaningful playing time. Our <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">track record of placements</a> speaks for itself.</p>
     </div>
     <div class="faq-card fade-in">
       <h3>How will a post-grad year affect my NCAA eligibility?</h3>

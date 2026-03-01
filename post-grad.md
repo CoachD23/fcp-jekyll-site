@@ -3,7 +3,7 @@ layout: page
 title: Why Post Grad?
 subtitle: Postgraduate Year at Florida Coastal Prep
 description: "A post-graduate basketball year at Florida Coastal Prep bridges high school and college — with elite coaching from NBA veterans, national recruiting exposure, academic support, and SEHAL/PHSBA competition in Fort Walton Beach, FL."
-hero_image: /assets/images/about-hero.jpg
+hero_image: /assets/images/post-grad/fcp-book-072.jpeg
 hero_title: Why a Post-Graduate Year?
 hero_subtitle: The Bridge Between High School and College Basketball
 ---
@@ -11,19 +11,19 @@ hero_subtitle: The Bridge Between High School and College Basketball
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">One Year. One Mission. Get to the Next Level.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">A postgraduate year at Florida Coastal Prep is a development-focused gap year designed to strengthen every dimension of your college candidacy — athletically, academically, and personally. Since 2019, FCP has produced <strong>500+ college commitments across 43 states and 22 countries</strong>, coached by staff with NBA and D1 experience inside a 14,000 sq ft world-class facility.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">A postgraduate year at Florida Coastal Prep is a development-focused gap year designed to strengthen every dimension of your college candidacy — athletically, academically, and personally. Since 2019, FCP has produced <strong>college commitments across 43 states and 22 countries</strong>, coached by staff with NBA and D1 experience inside a 14,000 sq ft world-class facility.</p>
 </section>
 
 <!-- Stats Bar -->
 <div class="impact-bar fade-in">
   <div class="impact-grid">
     <div class="impact-item">
-      <span class="impact-number" data-count="500">0</span><span class="impact-plus">+</span>
-      <span class="impact-label">College Commits</span>
+      <span class="impact-number">All Levels</span>
+      <span class="impact-label">Athletes Placed</span>
     </div>
     <div class="impact-item">
-      <span class="impact-number" data-count="7">0</span>
-      <span class="impact-label">Years of Excellence</span>
+      <span class="impact-number" data-count="1">0</span>
+      <span class="impact-label">Program</span>
     </div>
     <div class="impact-item">
       <span class="impact-number" data-count="22">0</span>
@@ -72,7 +72,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg></div>
       <h3>Physical Development</h3>
-      <p>Daily weight training, individual skill work, and sports performance coaching in our 14,000 sq ft Spartan Training Center with NBA-dimension hardwood.</p>
+      <p>Daily weight training, individual skill work, and sports performance coaching in our 14,000 sq ft Spartan Training Center with professional hardwood.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg></div>
@@ -114,12 +114,12 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg></div>
       <h3>Recruiting Pipeline</h3>
-      <p>Individual recruiting plans, professional game film, exposure events, and direct connections to college coaching staffs. See our <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">500+ commitments</a>.</p>
+      <p>Individual recruiting plans, professional game film, exposure events, and direct connections to college coaching staffs. See our <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Spartan Alumni</a>.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg></div>
       <h3>World-Class Facility</h3>
-      <p>Train daily in our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">14,000 sq ft Spartan Training Center</a> featuring NBA-dimension hardwood, a turf performance zone, weight room, and film room with 24/7 access.</p>
+      <p>Train daily in our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">14,000 sq ft Spartan Training Center</a> featuring professional hardwood, a turf performance zone, weight room, and film room with 24/7 access.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
@@ -159,7 +159,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
     </div>
   </div>
   <div style="text-align: center; margin-top: 1.5rem;">
-    <a href="/commitments/" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">View All 500+ Commitments &rarr;</a>
+    <a href="/commitments/" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">View Spartan Alumni &rarr;</a>
   </div>
 </section>
 
