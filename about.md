@@ -18,8 +18,8 @@ hero_subtitle: Where Potential Meets Preparation
 <div class="impact-bar fade-in">
   <div class="impact-grid">
     <div class="impact-item">
-      <span class="impact-number" data-count="500">0</span><span class="impact-plus">+</span>
-      <span class="impact-label">College Commits</span>
+      <span class="impact-number">All Levels</span>
+      <span class="impact-label">Athletes Placed</span>
     </div>
     <div class="impact-item">
       <span class="impact-number" data-count="43">0</span>
@@ -30,8 +30,8 @@ hero_subtitle: Where Potential Meets Preparation
       <span class="impact-label">Countries</span>
     </div>
     <div class="impact-item">
-      <span class="impact-number" data-count="7">0</span>
-      <span class="impact-label">Years of Excellence</span>
+      <span class="impact-number" data-count="1">0</span>
+      <span class="impact-label">Program</span>
     </div>
   </div>
 </div>

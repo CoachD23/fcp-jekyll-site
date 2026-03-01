@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Spartan Training Center
-subtitle: Our Newly Renovated 14,000 sq ft Facility
-description: "Tour the Spartan Training Center — Florida Coastal Prep's 14,000 sq ft basketball training facility in Fort Walton Beach, FL with NBA-dimension hardwood court, strength & conditioning, individual player development, and 24/7 athlete access."
+subtitle: Our Brand New 14,000 sq ft Home
+description: "Tour the Spartan Training Center — Florida Coastal Prep's brand new 14,000 sq ft basketball training facility in Fort Walton Beach, FL with professional hardwood court, strength & conditioning, individual player development, and 24/7 athlete access."
 hero_image: /assets/images/training/fcp-book-060.jpeg
 hero_title: Spartan Training Center
 hero_subtitle: 14,000 Square Feet of Elite Training
@@ -18,7 +18,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Train Like a Pro. Compete Like a Champion.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">The Spartan Training Center is a <strong>14,000 sq ft</strong> professional basketball facility in Fort Walton Beach, FL — featuring an NBA-dimension hardwood court, 60 ft turf training zone, and a dedicated sports performance area. Open <strong>24/7</strong> for our athletes, it's where <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">500+ college commits</a> from <strong>43 states and 22 countries</strong> have trained since 2019.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">The Spartan Training Center is FCP's <strong>brand new 14,000 sq ft</strong> home in Fort Walton Beach, FL — featuring a professional hardwood court, 60 ft turf training zone, and a dedicated sports performance area. Open <strong>24/7</strong> for our athletes, it's purpose-built for the next generation of <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">college commits</a> from <strong>43 states and 22 countries</strong>.</p>
 </section>
 
 <!-- Facility Stats -->
@@ -33,12 +33,8 @@ hero_subtitle: 14,000 Square Feet of Elite Training
       <span class="impact-label">Court Access</span>
     </div>
     <div class="impact-item">
-      <span class="impact-number">NBA</span>
-      <span class="impact-label">Dimensions</span>
-    </div>
-    <div class="impact-item">
-      <span class="impact-number">94 × 50</span>
-      <span class="impact-label">Ft Hardwood</span>
+      <span class="impact-number">Full</span>
+      <span class="impact-label">Size Court</span>
     </div>
     <div class="impact-item">
       <span class="impact-number">2</span>
@@ -54,7 +50,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
 <!-- Facility Gallery -->
 <div class="facility-gallery fade-in">
   <div class="facility-main">
-    <img src="/assets/images/training/gym-main.jpg" alt="Spartan Training Center main court — full NBA-dimension hardwood floor in Fort Walton Beach, FL" loading="lazy">
+    <img src="/assets/images/training/gym-main.jpg" alt="Spartan Training Center main court — professional hardwood floor in Fort Walton Beach, FL" loading="lazy">
   </div>
   <div class="facility-side">
     <img src="/assets/images/training/spartan-center-2.jpg" alt="Spartan Training Center turf training area and performance zone" loading="lazy">
@@ -84,7 +80,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="1.5"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></div>
       <h3>Professional Hardwood Court</h3>
-      <p>NBA dimensions (94 ft × 50 ft) with college court lines — the same surface D1 athletes play on.</p>
+      <p>Full-size professional hardwood — the same surface D1 athletes play on, inside FCP's brand new home.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/></svg></div>
@@ -218,7 +214,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
   "@context": "https://schema.org",
   "@type": "SportsActivityLocation",
   "name": "Spartan Training Center",
-  "description": "14,000 sq ft basketball training facility with NBA-dimension hardwood court, strength and conditioning, individual player development, video scoreboard, turf training zone, and 24/7 access.",
+  "description": "Brand new 14,000 sq ft basketball training facility with professional hardwood court, strength and conditioning, individual player development, video scoreboard, turf training zone, and 24/7 access.",
   "url": "https://floridacoastalprep.com/training/",
   "address": {
     "@type": "PostalAddress",
@@ -231,7 +227,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
   "openingHours": "Mo-Su 00:00-23:59",
   "maximumAttendeeCapacity": 50,
   "amenityFeature": [
-    {"@type": "LocationFeatureSpecification", "name": "NBA-Dimension Hardwood Court", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "Professional Hardwood Court", "value": true},
     {"@type": "LocationFeatureSpecification", "name": "Video Scoreboard", "value": true},
     {"@type": "LocationFeatureSpecification", "name": "Turf Training Zone", "value": true},
     {"@type": "LocationFeatureSpecification", "name": "Strength & Conditioning", "value": true},
