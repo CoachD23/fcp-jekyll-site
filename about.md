@@ -36,6 +36,18 @@ hero_subtitle: Where Potential Meets Preparation
   </div>
 </div>
 
+<!-- Partner & Affiliation Logos -->
+<div class="fade-in" style="margin: 1rem auto 0; max-width: 960px; text-align: center;">
+  <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: #999; font-weight: 600; margin-bottom: 1rem;">Official Partners & Affiliations</p>
+  <div style="display: flex; align-items: center; justify-content: center; gap: 2.5rem; flex-wrap: wrap; padding: 1.25rem 2rem; background: #fff; border-radius: 12px; border: 1px solid #eee;">
+    <img src="/assets/images/partners/hudl-logo.png" alt="Hudl — official film and recruiting partner" style="height: 32px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/partners/adidas-logo.png" alt="Adidas — official apparel partner" style="height: 36px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/grind-session-transparent.png" alt="The Grind Session — national basketball circuit" style="height: 40px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/partners/usssa-logo.png" alt="USSSA — United States Specialty Sports Association" style="height: 36px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/partners/jr-nba-logo.png" alt="Jr. NBA — official youth basketball partner" style="height: 36px; width: auto; opacity: 0.7;" loading="lazy">
+  </div>
+</div>
+
 <!-- Our Mission — Redesigned with larger text -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
@@ -189,6 +201,27 @@ hero_subtitle: Where Potential Meets Preparation
 }
 </style>
 
+<!-- FCP Docuseries -->
+<section class="program-grid fade-in" style="margin-top: 3rem;">
+  <div class="program-image">
+    <a href="https://www.youtube.com/@floridacoastalprep" target="_blank" rel="noopener">
+      <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="Florida Coastal Prep Docuseries — behind-the-scenes look at life inside the academy" loading="lazy" style="border-radius: 12px;">
+    </a>
+  </div>
+  <div class="program-details">
+    <span class="section-label">Watch</span>
+    <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">Our Own Docuseries</h2>
+    <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">FCP has created and produced its own docuseries — offering an in-depth look at a full season in the lives of our players. With <strong>hundreds of thousands of views</strong>, the series captures the daily experiences, challenges, and triumphs of our athletes and what life is really like inside the academy.</p>
+    <div style="margin-top: 1.25rem;">
+      <a href="https://www.youtube.com/@floridacoastalprep" target="_blank" rel="noopener" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+        <svg viewBox="0 0 24 24" style="width: 20px; height: 20px; fill: currentColor;"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
+        Watch on YouTube
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- Final CTA -->
 <div class="cta-section" style="margin-top: 0; border-radius: 0;">
   <h2>Ready to Join the FCP Family?</h2>
@@ -257,4 +290,5 @@ hero_subtitle: Where Potential Meets Preparation
   }
 }
 </script>
+
 

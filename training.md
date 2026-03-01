@@ -40,6 +40,14 @@ hero_subtitle: 14,000 Square Feet of Elite Training
       <span class="impact-number">94 × 50</span>
       <span class="impact-label">Ft Hardwood</span>
     </div>
+    <div class="impact-item">
+      <span class="impact-number">2</span>
+      <span class="impact-label">Shooting Guns</span>
+    </div>
+    <div class="impact-item">
+      <span class="impact-number">60 ft</span>
+      <span class="impact-label">Indoor Turf</span>
+    </div>
   </div>
 </div>
 
@@ -136,7 +144,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
   </div>
 
   <div style="max-width: 800px; margin: 0 auto 2rem;">
-    <p style="color: rgba(255,255,255,0.9); font-size: 1.08rem; line-height: 1.75; text-align: justify;">Beyond team practices, every athlete receives <strong>individualized skill development</strong> sessions tailored to their position, strengths, and goals. Our coaches — including <a href="/coaches/" style="color: #d4a843;">NBA All-Star Kenny Anderson</a> — work one-on-one with players to refine the details that separate good from great.</p>
+    <p style="color: rgba(255,255,255,0.9); font-size: 1.08rem; line-height: 1.75; text-align: justify;">Beyond team practices, every athlete receives <strong>individualized skill development</strong> sessions tailored to their position, strengths, and goals. Our coaches — with <strong>100+ years of combined basketball coaching experience</strong>, including <a href="/coaches/" style="color: #d4a843;">NBA All-Star Kenny Anderson</a> — work one-on-one with players to refine the details that separate good from great.</p>
   </div>
 
   <div class="feature-grid">
@@ -190,7 +198,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V19H7v2h10v-2h-4v-3.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z"/></svg></div>
       <h3>National Prep Tournament</h3>
-      <p>FCP hosts the premier national prep basketball tournament right here in Fort Walton Beach. See the best prep programs in the country compete. Visit <a href="https://nationalprepstournament.com" target="_blank" rel="noopener" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NationalPrepsTournament.com</a> for schedules and brackets.</p>
+      <p>FCP hosts the premier national prep basketball tournament right here in Fort Walton Beach. See the best prep programs in the country compete. Visit <a href="https://nationalpreptournament.com" target="_blank" rel="noopener" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NationalPrepTournament.com</a> for schedules and brackets.</p>
     </div>
   </div>
 </section>
@@ -232,5 +240,6 @@ hero_subtitle: 14,000 Square Feet of Elite Training
   ]
 }
 </script>
+
 
 
