@@ -46,7 +46,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">What is a Post-Graduate Year?</h2>
     <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
     <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">While gap year popularity has risen — with an estimated 22% increase since 2015 — a PG year at FCP is different. It's structured, competitive, and designed to make you a stronger college candidate from every angle.</p>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Our program combines elite basketball development under <a href="/coaches/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">former NBA and D1 coaches</a>, academic improvement through <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">accredited coursework and dual enrollment</a>, and the maturity that comes from living in a competitive team environment on Florida's <a href="/area-info/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Emerald Coast</a>.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Our program combines elite basketball development under former NBA and <a href="/coaches/">D1 coaches</a>, academic improvement through <a href="/academics/">accredited coursework</a> and dual enrollment, and the maturity that comes from living in a competitive team environment on Florida's Emerald Coast.</p>
   </div>
 </section>
 
@@ -104,7 +104,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg></div>
       <h3>Elite Coaching Staff</h3>
-      <p>Train under <a href="/coaches/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">former NBA players and D1 college coaches</a> who bring real professional experience to every practice, film session, and game. ESPN's Paul Biancardi called FCP "first class treatment of players."</p>
+      <p>Train under former NBA players and <a href="/coaches/">D1 coaches</a> who bring real professional experience to every practice, film session, and game. ESPN's Paul Biancardi called FCP "first class treatment of players."</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zM5 15h14v3H5z"/></svg></div>
@@ -114,22 +114,22 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg></div>
       <h3>Recruiting Pipeline</h3>
-      <p>Individual recruiting plans, professional game film, exposure events, and direct connections to college coaching staffs. See our <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Spartan Alumni</a>.</p>
+      <p>Individual recruiting plans, professional game film, exposure events, and direct connections to college coaching staffs. See our <a href="/commitments/">Spartan Alumni</a>.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg></div>
       <h3>World-Class Facility</h3>
-      <p>Train daily in our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">14,000 sq ft Spartan Training Center</a> featuring professional hardwood, a turf performance zone, weight room, and film room with 24/7 access.</p>
+      <p>Train daily in our 14,000 sq ft <a href="/training/">training facility</a> featuring professional hardwood, a turf performance zone, weight room, and film room with 24/7 access.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
       <h3>Accredited Academics</h3>
-      <p><a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">College coursework</a> through Colorado Christian University, dual enrollment, and guided college application support — athletes graduate recruited and academically prepared.</p>
+      <p><a href="/academics/">College coursework</a> through Colorado Christian University, dual enrollment, and guided college application support — athletes graduate recruited and academically prepared.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
       <h3>Emerald Coast Living</h3>
-      <p>Supervised <a href="/housing/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">resort-style housing</a> on Florida's Emerald Coast — year-round sunshine, beach access, and a safe community in <a href="/area-info/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Fort Walton Beach</a>.</p>
+      <p>Supervised <a href="/housing/">team housing</a> with a live-in house coach, daily meals, and structured routines in Fort Walton Beach, FL — year-round sunshine and a safe community on Florida's Emerald Coast.</p>
     </div>
   </div>
 </section>
@@ -217,6 +217,21 @@ hero_subtitle: The Bridge Between High School and College Basketball
 .program-offers .feature-card p { text-align: justify; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
 .hero-bg-img { object-position: center 30% !important; }
+
+/* Clean link styling for feature cards and program details */
+.feature-card a,
+.program-details a {
+  color: #c41e3a;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1.5px solid rgba(196, 30, 58, 0.3);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.feature-card a:hover,
+.program-details a:hover {
+  color: #0a1628;
+  border-color: #0a1628;
+}
 </style>
 
 
