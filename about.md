@@ -39,11 +39,11 @@ hero_subtitle: Where Potential Meets Preparation
 <!-- Partner & Affiliation Logos -->
 <div class="fade-in" style="margin: 1rem auto 0; max-width: 960px; text-align: center;">
   <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: #999; font-weight: 600; margin-bottom: 1rem;">Official Partners & Affiliations</p>
-  <div style="display: flex; align-items: center; justify-content: center; gap: 2.5rem; flex-wrap: wrap; padding: 1.25rem 2rem; background: #fff; border-radius: 12px; border: 1px solid #eee;">
-    <img src="/assets/images/partners/adidas-logo.png" alt="Adidas — official apparel partner" style="height: 55px; width: auto; opacity: 0.7;" loading="lazy">
-    <img src="/assets/images/grind-session-transparent.png" alt="The Grind Session — national basketball circuit" style="height: 60px; width: auto; opacity: 0.7;" loading="lazy">
-    <img src="/assets/images/partners/usssa-logo.png" alt="USSSA — United States Specialty Sports Association" style="height: 55px; width: auto; opacity: 0.7;" loading="lazy">
-    <img src="/assets/images/partners/jr-nba-logo.png" alt="Jr. NBA — official youth basketball partner" style="height: 55px; width: auto; opacity: 0.7;" loading="lazy">
+  <div style="display: flex; align-items: center; justify-content: center; gap: 3rem; flex-wrap: wrap; padding: 2rem 2.5rem; background: #fff; border-radius: 12px; border: 1px solid #eee;">
+    <img src="/assets/images/partners/adidas-logo.png" alt="Adidas — official apparel partner" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/grind-session-transparent.png" alt="The Grind Session — national basketball circuit" style="height: 80px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/partners/usssa-logo.png" alt="USSSA — United States Specialty Sports Association" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/partners/jr-nba-logo.png" alt="Jr. NBA — official youth basketball partner" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
   </div>
 </div>
 
