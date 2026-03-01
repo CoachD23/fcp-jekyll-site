@@ -4295,6 +4295,9 @@ iframe { max-width: 100%; }
   padding: 0.3rem 0.7rem;
   border-radius: 6px;
 }
+.cp-featured-row--bottom .cp-feat-overlay {
+  justify-content: flex-end;
+}
 .cp-feat-bottom {
   display: flex;
   flex-direction: column;
