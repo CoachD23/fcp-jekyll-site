@@ -155,8 +155,8 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg></div>
-      <h3>Hudl Film Breakdown</h3>
-      <p>Every game and workout is recorded through <strong>Hudl</strong>. Athletes review film with coaches to identify tendencies and build a recruiting portfolio.</p>
+      <h3>Film Breakdown</h3>
+      <p>Every game and workout is recorded and reviewed. Athletes break down film with coaches to identify tendencies, correct habits, and build a professional recruiting portfolio.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg></div>
