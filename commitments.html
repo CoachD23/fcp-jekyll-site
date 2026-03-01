@@ -100,11 +100,6 @@ og_image: /assets/images/whatsapp-team.jpeg
           <span class="cp-feat-video-icon">▶</span>
           {% endif %}
           <div class="cp-feat-overlay">
-            <div class="cp-feat-top">
-              {% for s in post.stats limit:1 %}
-              <span class="cp-feat-badge">{{ s.value }} {{ s.label }}</span>
-              {% endfor %}
-            </div>
             <div class="cp-feat-bottom">
               <h3 class="cp-feat-name">{{ post.player_name }}</h3>
               <span class="cp-feat-team">{{ post.current_team }}</span>
