@@ -13,28 +13,6 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
   <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">FCP's National High School Program (grades 9–12) combines two-a-day court sessions, <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NCAA-approved academics</a>, and a 30-game national schedule — all inside our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">14,000 sq ft Spartan Training Center</a> on Florida's Emerald Coast. Players from <strong>43 states and 22 countries</strong> have trained here since 2019.</p>
 </section>
 
-<!-- Program Highlights -->
-<div class="impact-bar fade-in">
-  <div class="impact-grid">
-    <div class="impact-item">
-      <span class="impact-number">Aug – May</span>
-      <span class="impact-label">Season Duration</span>
-    </div>
-    <div class="impact-item">
-      <span class="impact-number">2× Daily</span>
-      <span class="impact-label">Court Sessions</span>
-    </div>
-    <div class="impact-item">
-      <span class="impact-number" data-count="30">0</span>
-      <span class="impact-label">Games Per Season</span>
-    </div>
-    <div class="impact-item">
-      <span class="impact-number" data-count="5">0</span>
-      <span class="impact-label">FL Tournaments</span>
-    </div>
-  </div>
-</div>
-
 <div class="program-grid">
   <!-- Left: Image -->
   <div class="program-image fade-in">
@@ -142,3 +120,4 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <a href="/commitments/" class="btn btn-gold">See Our Results</a>
   </div>
 </div>
+
