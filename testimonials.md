@@ -117,5 +117,5 @@ hero_subtitle: Real Families. Real Results.
   .biancardi-duo { flex-direction: column; }
 }
 .testimonial-card p { text-align: justify; }
-.hero-bg-img { object-position: center 40% !important; }
+.hero-bg-img { object-position: center 20% !important; }
 </style>
