@@ -39,15 +39,16 @@
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
 
-<!-- Structured Data: Organization -->
+<!-- Structured Data: Organization (SportsOrganization + EducationalOrganization) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SportsOrganization",
+  "@type": ["SportsOrganization", "EducationalOrganization"],
   "name": "Florida Coastal Prep Sports Academy",
   "url": "https://floridacoastalprep.com",
   "logo": "https://floridacoastalprep.com/assets/images/fcp-logo.png",
   "description": "{{ site.description }}",
+  "foundingDate": "2019",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "33 Jet Drive NW",
@@ -55,6 +56,11 @@
     "addressRegion": "FL",
     "postalCode": "32548",
     "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "30.4716",
+    "longitude": "-86.6194"
   },
   "telephone": "+18509612323",
   "email": "info@floridacoastalprep.com",
@@ -64,11 +70,62 @@
     "name": "Lee DeForest",
     "jobTitle": "Founder & Director"
   },
+  "accreditation": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "Accreditation",
+    "recognizedBy": {
+      "@type": "Organization",
+      "name": "Array Global Accreditation"
+    }
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Basketball Academy Programs",
+    "itemListElement": [
+      {
+        "@type": "Course",
+        "name": "Post-Graduate Basketball Program",
+        "description": "Elite post-graduate basketball program featuring NBA-level coaching, national SEHAL and PHSBA competition, college recruiting support, and year-round training.",
+        "url": "https://floridacoastalprep.com/post-grad/",
+        "provider": {"@type": "Organization", "name": "Florida Coastal Prep Sports Academy"},
+        "educationalLevel": "Post-Secondary",
+        "timeRequired": "P10M",
+        "hasCourse": {
+          "@type": "CourseInstance",
+          "courseMode": "onsite",
+          "courseSchedule": {
+            "@type": "Schedule",
+            "repeatFrequency": "P1Y",
+            "startDate": "2025-08-01"
+          }
+        }
+      },
+      {
+        "@type": "Course",
+        "name": "National High School Basketball Program",
+        "description": "National high school basketball academy (grades 9-12) combining elite training, national competition, accredited academics, and college recruiting exposure.",
+        "url": "https://floridacoastalprep.com/high-school/",
+        "provider": {"@type": "Organization", "name": "Florida Coastal Prep Sports Academy"},
+        "educationalLevel": "HighSchool",
+        "timeRequired": "P10M",
+        "hasCourse": {
+          "@type": "CourseInstance",
+          "courseMode": "onsite",
+          "courseSchedule": {
+            "@type": "Schedule",
+            "repeatFrequency": "P1Y",
+            "startDate": "2025-08-01"
+          }
+        }
+      }
+    ]
+  },
   "sameAs": [
     "{{ site.social.facebook }}",
     "{{ site.social.instagram }}",
     "{{ site.social.twitter }}",
-    "{{ site.social.youtube }}"
+    "{{ site.social.youtube }}",
+    "https://share.google/8KeSoat3w2gkOFpyS"
   ]
 }
 </script>

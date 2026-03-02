@@ -156,27 +156,29 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 
 <div id="schedule"></div>
 
-<!-- Docuseries -->
+<!-- Video Highlights -->
 <section class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
   <div class="staff-section-header">
     <span class="section-label">Watch</span>
     <h2>See the High School Experience</h2>
     <div class="gold-rule"></div>
   </div>
-  <div class="program-grid" style="max-width: 900px; margin: 1.5rem auto 0; align-items: center;">
-    <div class="program-image" style="background: #0a1628;">
-      <a href="/docuseries/">
-        <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — FCP docuseries" width="800" height="534" loading="lazy" style="object-fit: contain; min-height: auto; border-radius: 10px;">
-      </a>
+  <!-- Docuseries Feature -->
+  <div style="max-width: 800px; margin: 1.5rem auto 0;">
+    <div class="video-embed fade-in">
+      <iframe src="https://www.youtube.com/embed/25BENKaZbhQ" title="6 Months to Change Everything — FCP Docuseries" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
     </div>
-    <div style="color: rgba(255,255,255,0.8);">
-      <h3 style="color: #fff; font-size: 1.3rem; font-weight: 800; margin: 0 0 0.75rem;">6 Months to Change Everything</h3>
-      <p style="font-size: 1rem; line-height: 1.7; margin: 0 0 1.25rem;">Our original docuseries follows FCP athletes through a full season — training, competition, recruiting, and the daily grind. With <strong style="color: #fff;">hundreds of thousands of views</strong>, it's the best way to see what life is really like inside the academy.</p>
-      <a href="/docuseries/" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff; display: inline-flex; align-items: center; gap: 0.5rem;">
-        <svg viewBox="0 0 24 24" style="width: 18px; height: 18px; fill: currentColor;"><path d="M8 5v14l11-7z"/></svg>
-        Watch the Series
-      </a>
+    <p style="color: rgba(255,255,255,0.75); text-align: center; margin-top: 0.75rem; font-size: 0.95rem;">Our original docuseries — hundreds of thousands of views. <a href="/docuseries/" style="color: #d4a843;">Watch all episodes &rarr;</a></p>
+  </div>
+  <!-- Season Highlights -->
+  <div style="max-width: 800px; margin: 2rem auto 0;">
+    <div class="video-embed fade-in">
+      <iframe src="https://www.youtube.com/embed/eiI-4kFQKt8" title="2022 Florida Coastal Prep Highlights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
     </div>
+    <p style="color: rgba(255,255,255,0.7); text-align: center; margin-top: 0.5rem; font-size: 0.9rem;">2022 Season Highlights</p>
+  </div>
+  <div style="text-align: center; margin-top: 1.5rem;">
+    <a href="/media/" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">View All Videos &rarr;</a>
   </div>
 </section>
 
@@ -213,6 +215,23 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 .program-offers .feature-card p { text-align: justify; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
 .hero-bg-img { object-position: center 30% !important; }
+
+/* Video embed responsive wrapper */
+.video-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #0a1628;
+}
+.video-embed iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
 
 /* Day at FCP — two-column layout with photo */
 .day-layout {
