@@ -202,9 +202,9 @@ hero_subtitle: Where Potential Meets Preparation
 
 <!-- FCP Docuseries -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
-  <div class="program-image">
-    <a href="https://youtu.be/25BENKaZbhQ" target="_blank" rel="noopener">
-      <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — Florida Coastal Prep original docuseries EP1" loading="lazy" style="border-radius: 12px;">
+  <div class="program-image" style="background: #0a1628;">
+    <a href="/docuseries/">
+      <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — Florida Coastal Prep original docuseries" loading="lazy" style="border-radius: 12px; object-fit: contain; min-height: auto;">
     </a>
   </div>
   <div class="program-details">
@@ -213,9 +213,9 @@ hero_subtitle: Where Potential Meets Preparation
     <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
     <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">FCP produced its own original docuseries — following our athletes through a full season of training, competition, and growth. With <strong>hundreds of thousands of views</strong>, the series captures the daily experiences, challenges, and triumphs of our players and what life is really like inside the academy.</p>
     <div style="margin-top: 1.25rem;">
-      <a href="https://youtu.be/25BENKaZbhQ" target="_blank" rel="noopener" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+      <a href="/docuseries/" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
         <svg viewBox="0 0 24 24" style="width: 20px; height: 20px; fill: currentColor;"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
-        Watch on YouTube
+        Watch the Series
       </a>
     </div>
   </div>
