@@ -39,7 +39,7 @@ hero_subtitle: Where Potential Meets Preparation
 <!-- Our Mission — Redesigned with larger text -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/training/gym-main.jpg" alt="FCP student-athletes training at the Spartan Training Center in Fort Walton Beach, Florida" loading="lazy">
+    <img src="/assets/images/training/gym-main.jpg" alt="FCP student-athletes training at the Spartan Training Center in Fort Walton Beach, Florida" width="800" height="534" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">Our Mission</span>
@@ -54,10 +54,10 @@ hero_subtitle: Where Potential Meets Preparation
 <div class="fade-in" style="margin: 3rem auto; max-width: 960px; background: #0a1628; border-radius: 16px; padding: 1.25rem; box-shadow: 0 8px 32px rgba(0,0,0,0.18);">
   <div class="biancardi-duo">
     <div class="biancardi-duo-photo">
-      <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" loading="lazy">
+      <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" width="600" height="400" loading="lazy">
     </div>
     <div class="biancardi-duo-card">
-      <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." loading="lazy">
+      <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." width="600" height="600" loading="lazy">
     </div>
   </div>
 </div>
@@ -83,6 +83,10 @@ hero_subtitle: Where Potential Meets Preparation
     <h2>What Sets Us Apart</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>What Sets Us Apart</summary>
+    <div class="disclosure-content">
 
   <div class="feature-grid" style="margin-top: 2rem;">
     <div class="feature-card fade-in">
@@ -116,6 +120,9 @@ hero_subtitle: Where Potential Meets Preparation
       <p>Leadership, accountability, and life skills are woven into every aspect of the FCP experience — not just basketball.</p>
     </div>
   </div>
+
+    </div>
+  </details>
 </section>
 
 <!-- Two Paths to College Basketball -->
@@ -125,6 +132,10 @@ hero_subtitle: Where Potential Meets Preparation
     <h2>Two Paths to College Basketball</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>Two Paths to College Basketball</summary>
+    <div class="disclosure-content">
 
   <div class="two-paths-grid">
     <!-- High School -->
@@ -172,6 +183,9 @@ hero_subtitle: Where Potential Meets Preparation
       </div>
     </div>
   </div>
+
+    </div>
+  </details>
 </section>
 
 <style>

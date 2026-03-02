@@ -30,7 +30,7 @@ hero_subtitle: Education That Prepares You for College
 <!-- Academic Overview — Global Perspective -->
 <div class="program-grid fade-in">
   <div class="program-image">
-    <img src="/assets/images/academics/fcp-book-074.jpeg" alt="Florida Coastal Prep student-athletes from around the world studying and training together at Fort Walton Beach campus" loading="lazy">
+    <img src="/assets/images/academics/fcp-book-074.jpeg" alt="Florida Coastal Prep student-athletes from around the world studying and training together at Fort Walton Beach campus" width="800" height="534" loading="lazy">
   </div>
   <div class="program-details">
     <div class="staff-section-header" style="text-align: left;">
@@ -58,6 +58,11 @@ hero_subtitle: Education That Prepares You for College
     <h2>Colorado Christian University</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>Colorado Christian University</summary>
+    <div class="disclosure-content">
+
   <div style="max-width: 800px; margin: 0 auto 2rem;">
     <p style="color: rgba(255,255,255,0.9); font-size: 1.08rem; line-height: 1.75; text-align: center;">FCP partners with Colorado Christian University (CCU) to offer dual enrollment opportunities. Student-athletes can earn college credits while completing their high school or post-graduate year — giving them a head start on their college education.</p>
   </div>
@@ -91,6 +96,9 @@ hero_subtitle: Education That Prepares You for College
     <p>For enrollment questions and academic advising, contact Beth directly.</p>
     <a href="/contact/" class="btn btn-primary" style="margin-top: 0.75rem;">Contact Academic Advising</a>
   </div>
+
+    </div>
+  </details>
 </div>
 
 <!-- Curriculum & Electives -->
@@ -100,6 +108,10 @@ hero_subtitle: Education That Prepares You for College
     <h2>Electives & Special Programs</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>Electives & Special Programs</summary>
+    <div class="disclosure-content">
 
   <div style="max-width: 800px; margin: 0 auto 2rem;">
     <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: center;">Beyond core academics, FCP student-athletes learn from real-world leaders. Our elective program features courses taught by professionals who bring firsthand experience in leadership, technology, and personal development.</p>
@@ -117,6 +129,9 @@ hero_subtitle: Education That Prepares You for College
       <p>Beginning <strong>2026–2027</strong>, <strong>Matt Walker</strong> brings a forward-looking elective on artificial intelligence, emerging technology, and how the digital world is reshaping sports, business, and everyday life. Student-athletes will gain hands-on experience with the tools that are defining the next generation.</p>
     </div>
   </div>
+
+    </div>
+  </details>
 </section>
 
 <!-- NCAA Requirements -->
@@ -126,6 +141,10 @@ hero_subtitle: Education That Prepares You for College
     <h2>NCAA Requirements</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>NCAA Requirements</summary>
+    <div class="disclosure-content">
 
   <div class="feature-grid" style="max-width: 1000px; margin: 1.5rem auto 0;">
     <div class="feature-card fade-in">
@@ -149,6 +168,9 @@ hero_subtitle: Education That Prepares You for College
       <p>Complete the required 16 NCAA core courses including English, math, science, and additional academic electives.</p>
     </div>
   </div>
+
+    </div>
+  </details>
 </div>
 
 <!-- Faculty -->
@@ -158,6 +180,10 @@ hero_subtitle: Education That Prepares You for College
     <h2>Faculty & Staff</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>Faculty & Staff</summary>
+    <div class="disclosure-content">
 
   <div class="coaching-grid" style="max-width: 1000px; margin: 1.5rem auto 0;">
     <div class="coach-profile fade-in" style="grid-template-columns: 1fr; text-align: center;">
@@ -182,6 +208,9 @@ hero_subtitle: Education That Prepares You for College
       </div>
     </div>
   </div>
+
+    </div>
+  </details>
 </div>
 
 <div class="cta-section" style="margin-top: 0; border-radius: 0;">

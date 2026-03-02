@@ -24,11 +24,11 @@ hero_subtitle: Living on the Emerald Coast
   <div class="housing-layout">
     <div class="housing-gallery">
       <div class="gallery-main">
-        <img src="/assets/images/housing/standish.webp" alt="FCP team house for student-athletes in Fort Walton Beach, Florida" loading="lazy">
+        <img src="/assets/images/housing/standish.webp" alt="FCP team house for student-athletes in Fort Walton Beach, Florida" width="800" height="534" loading="lazy">
       </div>
       <div class="gallery-row">
-        <img src="/assets/images/housing/kitchen.webp" alt="Fully furnished kitchen inside FCP team house" loading="lazy">
-        <img src="/assets/images/housing/bedrooms.webp" alt="Furnished bedrooms in FCP student-athlete team house" loading="lazy">
+        <img src="/assets/images/housing/kitchen.webp" alt="Fully furnished kitchen inside FCP team house" width="400" height="267" loading="lazy">
+        <img src="/assets/images/housing/bedrooms.webp" alt="Furnished bedrooms in FCP student-athlete team house" width="400" height="267" loading="lazy">
       </div>
     </div>
     <div class="housing-info">
@@ -53,11 +53,11 @@ hero_subtitle: Living on the Emerald Coast
   <div class="housing-layout housing-layout-reverse">
     <div class="housing-gallery">
       <div class="gallery-main">
-        <img src="/assets/images/housing/beach-condo-1.jpg" alt="FCP student-athlete beach condo near the Emerald Coast in Fort Walton Beach" loading="lazy">
+        <img src="/assets/images/housing/beach-condo-1.jpg" alt="FCP student-athlete beach condo near the Emerald Coast in Fort Walton Beach" width="800" height="534" loading="lazy">
       </div>
       <div class="gallery-row">
-        <img src="/assets/images/housing/beach-condo-2.jpg" alt="Beach condo near the Gulf of Mexico" loading="lazy">
-        <img src="/assets/images/housing/beach-view.webp" alt="Gulf of Mexico view near the FCP beach condos in Fort Walton Beach" loading="lazy">
+        <img src="/assets/images/housing/beach-condo-2.jpg" alt="Beach condo near the Gulf of Mexico" width="400" height="267" loading="lazy">
+        <img src="/assets/images/housing/beach-view.webp" alt="Gulf of Mexico view near the FCP beach condos in Fort Walton Beach" width="400" height="267" loading="lazy">
       </div>
     </div>
     <div class="housing-info">

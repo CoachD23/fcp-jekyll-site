@@ -20,6 +20,11 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <h2>What's Included</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>What's Included</summary>
+    <div class="disclosure-content">
+
   <div class="feature-grid" style="max-width: 1000px; margin: 0 auto;">
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 4.2c3.4 2.8 3.4 12.8 0 15.6M18 4.2c-3.4 2.8-3.4 12.8 0 15.6M2 12h20" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></div>
@@ -52,6 +57,9 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
       <p>Full <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NCAA-approved academic program</a> with accredited coursework and college credit options.</p>
     </div>
   </div>
+
+    </div>
+  </details>
 </section>
 
 <!-- Three Pillars -->
@@ -61,6 +69,11 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <h2>Three Pillars of Development</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>Three Pillars of Development</summary>
+    <div class="disclosure-content">
+
   <div class="feature-grid" style="max-width: 1000px; margin: 0 auto;">
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="1.5"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></div>
@@ -78,6 +91,9 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
       <p>A national schedule against the best prep programs and junior colleges in the country.</p>
     </div>
   </div>
+
+    </div>
+  </details>
 </section>
 
 <!-- Day in the Life -->
@@ -87,6 +103,11 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <h2>A Day at FCP</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>A Day at FCP</summary>
+    <div class="disclosure-content">
+
   <div class="daily-schedule daily-schedule-light" style="grid-template-columns: 1fr; max-width: 640px;">
     <div class="schedule-block">
       <div class="schedule-time">Morning</div>
@@ -121,6 +142,9 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
       <div class="schedule-activity">Curfew and room checks</div>
     </div>
   </div>
+
+    </div>
+  </details>
 </section>
 
 <div id="schedule"></div>

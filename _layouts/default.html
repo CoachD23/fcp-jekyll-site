@@ -9,6 +9,10 @@
   <main id="main-content">
     {{ content }}
   </main>
+  <nav class="sticky-cta-bar" aria-label="Quick actions">
+    <a href="/apply/" class="btn btn-primary">Apply Now</a>
+    <a href="/contact/" class="btn btn-gold">Contact Us</a>
+  </nav>
   {% include footer.html %}
   <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   {% if jekyll.environment == "production" %}

@@ -39,7 +39,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
 <!-- What is PG — Two Column -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/training/gym-main.jpg" alt="Post-graduate athletes training on the Spartan Training Center hardwood court in Fort Walton Beach" loading="lazy">
+    <img src="/assets/images/training/gym-main.jpg" alt="Post-graduate athletes training on the Spartan Training Center hardwood court in Fort Walton Beach" width="800" height="534" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">Overview</span>
@@ -57,6 +57,10 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <h2>Why Choose a PG Year?</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>Why Choose a PG Year?</summary>
+    <div class="disclosure-content">
 
   <div class="feature-grid">
     <div class="feature-card fade-in">
@@ -90,6 +94,9 @@ hero_subtitle: The Bridge Between High School and College Basketball
       <p>Adjust to the pace, intensity, and physicality of college basketball before you get there — arrive as a contributor, not a project.</p>
     </div>
   </div>
+
+    </div>
+  </details>
 </section>
 
 <!-- What the Program Includes — Light Feature Cards -->
@@ -99,6 +106,10 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <h2>What the Program Includes</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>What the Program Includes</summary>
+    <div class="disclosure-content">
 
   <div class="feature-grid" style="margin-top: 2rem;">
     <div class="feature-card fade-in">
@@ -132,6 +143,9 @@ hero_subtitle: The Bridge Between High School and College Basketball
       <p>Supervised <a href="/housing/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">resort-style housing</a> on Florida's Emerald Coast — year-round sunshine, beach access, and a safe community in <a href="/area-info/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Fort Walton Beach</a>.</p>
     </div>
   </div>
+
+    </div>
+  </details>
 </section>
 
 <!-- Featured Alumni — Dark Section -->
@@ -141,6 +155,11 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <h2>Where PG Athletes Go</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>Where PG Athletes Go</summary>
+    <div class="disclosure-content">
+
   <div class="alumni-callout-grid">
     <div class="alumni-callout-card fade-in">
       <h4>Sean East II</h4>
@@ -161,12 +180,15 @@ hero_subtitle: The Bridge Between High School and College Basketball
   <div style="text-align: center; margin-top: 1.5rem;">
     <a href="/commitments/" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">View All 500+ Commitments &rarr;</a>
   </div>
+
+    </div>
+  </details>
 </section>
 
 <!-- Recruiting Landscape — Two Column -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi visiting the FCP Spartan Training Center in Fort Walton Beach" loading="lazy">
+    <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi visiting the FCP Spartan Training Center in Fort Walton Beach" width="600" height="400" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">Recruiting Landscape</span>

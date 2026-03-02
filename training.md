@@ -46,10 +46,10 @@ hero_subtitle: 14,000 Square Feet of Elite Training
 <!-- Facility Gallery -->
 <div class="facility-gallery fade-in">
   <div class="facility-main">
-    <img src="/assets/images/training/gym-main.jpg" alt="Spartan Training Center main court — full NBA-dimension hardwood floor in Fort Walton Beach, FL" loading="lazy">
+    <img src="/assets/images/training/gym-main.jpg" alt="Spartan Training Center main court — full NBA-dimension hardwood floor in Fort Walton Beach, FL" width="800" height="534" loading="lazy">
   </div>
   <div class="facility-side">
-    <img src="/assets/images/training/spartan-center-2.jpg" alt="Spartan Training Center turf training area and performance zone" loading="lazy">
+    <img src="/assets/images/training/spartan-center-2.jpg" alt="Spartan Training Center turf training area and performance zone" width="800" height="534" loading="lazy">
   </div>
 </div>
 
@@ -71,6 +71,10 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <h2>Facility Features</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>Facility Features</summary>
+    <div class="disclosure-content">
 
   <div class="feature-grid">
     <div class="feature-card fade-in">
@@ -104,12 +108,15 @@ hero_subtitle: 14,000 Square Feet of Elite Training
       <p>Round-the-clock access means players can train on their schedule — early mornings, late nights, any time.</p>
     </div>
   </div>
+
+    </div>
+  </details>
 </div>
 
 <!-- Strength & Conditioning (light section with photo) -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/training/fcp-brochure-016.jpg" alt="Florida Coastal Prep student-athletes during strength and conditioning training at the Spartan Training Center in Fort Walton Beach" loading="lazy">
+    <img src="/assets/images/training/fcp-brochure-016.jpg" alt="Florida Coastal Prep student-athletes during strength and conditioning training at the Spartan Training Center in Fort Walton Beach" width="800" height="534" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">Strength & Conditioning</span>
@@ -134,6 +141,10 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <h2>Individual Workouts</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>Individual Workouts</summary>
+    <div class="disclosure-content">
 
   <div style="max-width: 800px; margin: 0 auto 2rem;">
     <p style="color: rgba(255,255,255,0.9); font-size: 1.08rem; line-height: 1.75; text-align: justify;">Beyond team practices, every athlete receives <strong>individualized skill development</strong> sessions tailored to their position, strengths, and goals. Our coaches — including <a href="/coaches/" style="color: #d4a843;">NBA All-Star Kenny Anderson</a> — work one-on-one with players to refine the details that separate good from great.</p>
@@ -171,6 +182,9 @@ hero_subtitle: 14,000 Square Feet of Elite Training
       <p>Professional highlight tapes, individual recruiting plans, and exposure at national events — <a href="/commitments/" style="color: #d4a843;">500+ athletes committed</a> from FCP.</p>
     </div>
   </div>
+
+    </div>
+  </details>
 </div>
 
 <!-- Summer & Events -->
@@ -180,6 +194,10 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <h2>Camps & Tournaments</h2>
     <div class="gold-rule"></div>
   </div>
+
+  <details class="mobile-disclosure">
+    <summary>Camps & Tournaments</summary>
+    <div class="disclosure-content">
 
   <div class="feature-grid" style="margin-top: 2rem; max-width: 700px;">
     <div class="feature-card fade-in">
@@ -193,6 +211,9 @@ hero_subtitle: 14,000 Square Feet of Elite Training
       <p>FCP hosts the premier national prep basketball tournament right here in Fort Walton Beach. See the best prep programs in the country compete. Visit <a href="https://nationalprepstournament.com" target="_blank" rel="noopener" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NationalPrepsTournament.com</a> for schedules and brackets.</p>
     </div>
   </div>
+
+    </div>
+  </details>
 </section>
 
 <!-- CTA -->
