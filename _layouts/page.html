@@ -5,7 +5,7 @@ layout: default
   {% include hero-video.html %}
 {% elsif page.hero_image %}
 <section class="hero hero-image">
-  <img src="{{ page.hero_image | relative_url }}" alt="" class="hero-bg-img">
+  <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_title | default: page.title }}" class="hero-bg-img" fetchpriority="high" decoding="async">
   <div class="hero-overlay"></div>
   <div class="container hero-content">
     <h1>{{ page.hero_title | default: page.title }}</h1>

@@ -1,8 +1,17 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% if page.title and page.title != "Home" %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — Post-Grad & High School Basketball in Fort Walton Beach, FL{% endif %}</title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<!-- PWA & Mobile -->
+<meta name="theme-color" content="#0a1628">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="FCP Academy">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 
 <!-- Open Graph / Social Sharing -->
 <meta property="og:type" content="{% if page.layout == 'post' or page.layout == 'alumni-post' %}article{% else %}website{% endif %}">
@@ -115,11 +124,42 @@
 </script>
 {% endif %}
 
+<!-- Fonts: preload critical weight, then load full family -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-{% if page.hero_video %}<link rel="preload" as="video" href="{{ page.hero_video | relative_url }}">{% endif %}
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></noscript>
 
-<!-- TrustPulse -->
-<script type="text/javascript" src="https://a.trustpulse.com/app/services/embed.js?accountId=9559" async></script>
+<!-- Critical CSS: inline above-the-fold styles -->
+<style>
+:root{--navy:#0a1628;--red:#c41e3a;--gold:#d4a843;--white:#fff;--gray:#f2f3f5}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:17px;-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;color:#333;background:#fff;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img,video{max-width:100%;height:auto;display:block}
+.container{max-width:1200px;margin:0 auto;padding:0 1.25rem}
+.site-header{position:fixed;top:0;left:0;right:0;z-index:1000;background:var(--navy);transition:background .3s,box-shadow .3s}
+.site-header.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.3)}
+.hero{position:relative;min-height:55vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:var(--navy)}
+.hero-image{min-height:45vh}
+.hero-bg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 40%}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,22,40,.6) 0%,rgba(10,22,40,.85) 100%)}
+.hero-content{position:relative;z-index:2;text-align:center;color:var(--white);padding:6rem 1.25rem 3rem}
+.hero-content h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:900;letter-spacing:-.02em;line-height:1.1;margin-bottom:.75rem;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.hero-subtitle{font-size:clamp(1rem,2.5vw,1.35rem);font-weight:400;opacity:.92;max-width:650px;margin:0 auto}
+.skip-link{position:absolute;top:-100%;left:1rem;z-index:9999;background:var(--navy);color:var(--white);padding:.5rem 1rem;border-radius:0 0 6px 6px}
+.skip-link:focus{top:0}
+.fade-in{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
+.fade-in.visible{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.fade-in{opacity:1;transform:none;transition:none}}
+</style>
+
+<!-- Full CSS: non-blocking load -->
+<link rel="preload" as="style" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}"></noscript>
+
+<!-- Hero image: preload LCP for pages with hero images -->
+{% if page.hero_image %}<link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" fetchpriority="high">{% endif %}
+{% if page.hero_video %}<link rel="preload" as="video" href="{{ page.hero_video | relative_url }}">{% endif %}
