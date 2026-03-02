@@ -3,14 +3,14 @@ layout: page
 title: National High School Program
 subtitle: High School Basketball Academy
 description: "Florida Coastal Prep's national high school basketball academy (grades 9-12) in Fort Walton Beach, FL combines elite training, national competition, accredited academics, and college recruiting exposure. Limited roster spots available."
-hero_image: /assets/images/homepage-hero.jpeg
+hero_image: /assets/images/high-school/fcp-brochure-040.png
 hero_title: National High School Program
 hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 ---
 
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Compete Nationally. Prepare Academically. Get Recruited.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">FCP's National High School Program (grades 9–12) combines two-a-day court sessions, <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NCAA-approved academics</a>, and a national game schedule — all inside our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">14,000 sq ft Spartan Training Center</a> on Florida's Emerald Coast. Players from <strong>43 states and 22 countries</strong> have trained here since 2019.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">FCP's National High School Program (grades 9–12) combines two-a-day court sessions, <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NCAA-approved academics</a>, and a national game schedule — all inside our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">training facility</a> on Florida's Emerald Coast. Players from <strong>43 states and 22 countries</strong> have trained here since 2019.</p>
 </section>
 
 <!-- What's Included -->
@@ -29,7 +29,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 4.2c3.4 2.8 3.4 12.8 0 15.6M18 4.2c-3.4 2.8-3.4 12.8 0 15.6M2 12h20" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></div>
       <h3>Daily Court Work</h3>
-      <p>Two on-court practices and workouts per day with our <a href="/coaches/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">professional coaching staff</a>.</p>
+      <p>Two on-court practices and workouts per day with our <a href="/coaches/">coaching staff</a>.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M6.5 6.5v11M17.5 6.5v11M6.5 12h11M2 9v6M4 7v10M20 7v10M22 9v6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
@@ -44,7 +44,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg></div>
       <h3>Film & Recruiting</h3>
-      <p>All games recorded through Hudl and YouTube for maximum college recruiting exposure.</p>
+      <p>All games professionally recorded and uploaded to YouTube for maximum college recruiting exposure.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M4 10v7h3v-7H4zm6 0v7h4v-7h-4zm8 0v7h3v-7h-3zM2 22h20v-3H2v3zm0-12l10-6 10 6H2z" fill="currentColor"/></svg></div>
@@ -54,7 +54,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" fill="currentColor"/></svg></div>
       <h3>Accredited Academics</h3>
-      <p>Full <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NCAA-approved academic program</a> with accredited coursework and college credit options.</p>
+      <p>Full <a href="/academics/">NCAA-approved academic program</a> with accredited coursework and college credit options.</p>
     </div>
   </div>
 
@@ -96,7 +96,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
   </details>
 </section>
 
-<!-- Day in the Life -->
+<!-- Day in the Life — Two Column with Photo -->
 <section class="program-offers fade-in" style="margin-top: 3rem;">
   <div class="staff-section-header">
     <span class="section-label">Daily Life</span>
@@ -108,38 +108,45 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <summary>A Day at FCP</summary>
     <div class="disclosure-content">
 
-  <div class="daily-schedule daily-schedule-light" style="grid-template-columns: 1fr; max-width: 640px;">
-    <div class="schedule-block">
-      <div class="schedule-time">Morning</div>
-      <div class="schedule-activity">Optional morning workout</div>
+  <div class="day-layout fade-in">
+    <div class="day-schedule">
+      <div class="daily-schedule daily-schedule-light" style="grid-template-columns: 1fr; max-width: 100%;">
+        <div class="schedule-block">
+          <div class="schedule-time">Morning</div>
+          <div class="schedule-activity">Optional morning workout</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">8:00 AM</div>
+          <div class="schedule-activity">Breakfast</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">8:30 – 1:30</div>
+          <div class="schedule-activity">Academics</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">12:00 PM</div>
+          <div class="schedule-activity">Lunch</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">1:30 – 5:30</div>
+          <div class="schedule-activity">Team practices, individual workouts & sports performance training</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">6:00 PM</div>
+          <div class="schedule-activity">Dinner</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">6:30 – 8:30</div>
+          <div class="schedule-activity">Optional open gym / study hall / maintenance / recovery</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">9:00 PM</div>
+          <div class="schedule-activity">Curfew and room checks</div>
+        </div>
+      </div>
     </div>
-    <div class="schedule-block">
-      <div class="schedule-time">8:00 AM</div>
-      <div class="schedule-activity">Breakfast</div>
-    </div>
-    <div class="schedule-block">
-      <div class="schedule-time">8:30 – 1:30</div>
-      <div class="schedule-activity">Academics</div>
-    </div>
-    <div class="schedule-block">
-      <div class="schedule-time">12:00 PM</div>
-      <div class="schedule-activity">Lunch</div>
-    </div>
-    <div class="schedule-block">
-      <div class="schedule-time">1:30 – 5:30</div>
-      <div class="schedule-activity">Team practices, individual workouts & sports performance training</div>
-    </div>
-    <div class="schedule-block">
-      <div class="schedule-time">6:00 PM</div>
-      <div class="schedule-activity">Dinner</div>
-    </div>
-    <div class="schedule-block">
-      <div class="schedule-time">6:30 – 8:30</div>
-      <div class="schedule-activity">Optional open gym / study hall / maintenance / recovery</div>
-    </div>
-    <div class="schedule-block">
-      <div class="schedule-time">9:00 PM</div>
-      <div class="schedule-activity">Curfew and room checks</div>
+    <div class="day-photo">
+      <img src="/assets/images/high-school/fcp-book-010.jpeg" alt="FCP student-athletes training in the Spartan Training Center gym in Fort Walton Beach, Florida" width="800" height="534" loading="lazy">
     </div>
   </div>
 
@@ -149,6 +156,31 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 
 <div id="schedule"></div>
 
+<!-- Docuseries -->
+<section class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
+  <div class="staff-section-header">
+    <span class="section-label">Watch</span>
+    <h2>See the High School Experience</h2>
+    <div class="gold-rule"></div>
+  </div>
+  <div class="program-grid" style="max-width: 900px; margin: 1.5rem auto 0; align-items: center;">
+    <div class="program-image" style="background: #0a1628;">
+      <a href="/docuseries/">
+        <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — FCP docuseries" width="800" height="534" loading="lazy" style="object-fit: contain; min-height: auto; border-radius: 10px;">
+      </a>
+    </div>
+    <div style="color: rgba(255,255,255,0.8);">
+      <h3 style="color: #fff; font-size: 1.3rem; font-weight: 800; margin: 0 0 0.75rem;">6 Months to Change Everything</h3>
+      <p style="font-size: 1rem; line-height: 1.7; margin: 0 0 1.25rem;">Our original docuseries follows FCP athletes through a full season — training, competition, recruiting, and the daily grind. With <strong style="color: #fff;">hundreds of thousands of views</strong>, it's the best way to see what life is really like inside the academy.</p>
+      <a href="/docuseries/" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff; display: inline-flex; align-items: center; gap: 0.5rem;">
+        <svg viewBox="0 0 24 24" style="width: 18px; height: 18px; fill: currentColor;"><path d="M8 5v14l11-7z"/></svg>
+        Watch the Series
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
 <div class="cta-section" style="margin-top: 0; border-radius: 0;">
   <h2>Apply for the High School Program</h2>
   <p>Roster spots are limited. Talk to our <a href="/coaches/" style="color: #d4a843;">coaching staff</a> or apply today.</p>
@@ -163,7 +195,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
   "@context": "https://schema.org",
   "@type": "SportsOrganization",
   "name": "Florida Coastal Prep — National High School Basketball Program",
-  "description": "Florida Coastal Prep’s national high school basketball academy (grades 9-12) combines elite training, national competition, accredited academics, and college recruiting exposure in Fort Walton Beach, FL.",
+  "description": "Florida Coastal Prep's national high school basketball academy (grades 9-12) combines elite training, national competition, accredited academics, and college recruiting exposure in Fort Walton Beach, FL.",
   "url": "https://floridacoastalprep.com/high-school/",
   "sport": "Basketball",
   "address": {
@@ -181,5 +213,49 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 .program-offers .feature-card p { text-align: justify; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
 .hero-bg-img { object-position: center 30% !important; }
-</style>
 
+/* Day at FCP — two-column layout with photo */
+.day-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  max-width: 960px;
+  margin: 1.5rem auto 0;
+  align-items: start;
+}
+.day-schedule .daily-schedule {
+  gap: 0.75rem;
+}
+.day-photo {
+  position: sticky;
+  top: 2rem;
+}
+.day-photo img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+@media (max-width: 768px) {
+  .day-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .day-photo { order: -1; }
+}
+
+/* Clean link styling for feature cards */
+.feature-card a,
+.program-details a {
+  color: #c41e3a;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1.5px solid rgba(196, 30, 58, 0.3);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.feature-card a:hover,
+.program-details a:hover {
+  color: #0a1628;
+  border-color: #0a1628;
+}
+</style>
