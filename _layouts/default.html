@@ -19,18 +19,15 @@
   </script>
   {% endif %}
 
-  <!-- GHL Chat Widget: defer until user interaction or 8s idle -->
+  <!-- GHL Chat Widget: defer until user interaction or 5s idle -->
   <script>
   (function(){var d=false;function l(){if(d)return;d=true;var s=document.createElement('script');s.src='https://widgets.leadconnectorhq.com/loader.js';s.setAttribute('data-resources-url','https://widgets.leadconnectorhq.com/chat-widget/loader.js');s.setAttribute('data-widget-id','jBDUi7Sma6tCl3eXKBmX');document.body.appendChild(s);}
-  ['scroll','mousemove','touchstart','keydown','click'].forEach(function(e){window.addEventListener(e,l,{once:true,passive:true});});setTimeout(l,8000);})();
+  ['scroll','mousemove','touchstart','keydown','click'].forEach(function(e){window.addEventListener(e,l,{once:true,passive:true});});setTimeout(l,5000);})();
   </script>
 
-  <!-- Service Worker: register only when browser is idle -->
+  <!-- Service Worker -->
   <script>
-  if('serviceWorker' in navigator){
-    function regSW(){navigator.serviceWorker.register('/sw.js').catch(function(){});}
-    if('requestIdleCallback' in window){requestIdleCallback(regSW);}else{setTimeout(regSW,3000);}
-  }
+  if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}
   </script>
 </body>
 </html>

@@ -18,7 +18,7 @@ hero_subtitle: Compete. Develop. Get Recruited.
 <div class="impact-bar fade-in">
   <div class="impact-grid">
     <div class="impact-item">
-      <span class="impact-number" style="font-size: 1.5rem;">All Levels</span>
+      <span class="impact-number">All Levels</span>
       <span class="impact-label">Athletes Placed</span>
     </div>
     <div class="impact-item">
@@ -46,7 +46,7 @@ hero_subtitle: Compete. Develop. Get Recruited.
   <div class="program-grid" style="max-width: 900px; margin: 1.5rem auto 0; align-items: center;">
     <div class="program-image" style="background: #0a1628;">
       <a href="/docuseries/">
-        <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — FCP docuseries" width="800" height="534" loading="lazy" style="object-fit: contain; min-height: auto; border-radius: 10px;">
+        <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — FCP docuseries" loading="lazy" style="object-fit: contain; min-height: auto; border-radius: 10px;">
       </a>
     </div>
     <div style="color: rgba(255,255,255,0.8);">
@@ -67,10 +67,6 @@ hero_subtitle: Compete. Develop. Get Recruited.
     <h2>What the Program Includes</h2>
     <div class="gold-rule"></div>
   </div>
-
-  <details class="mobile-disclosure">
-    <summary>What the Program Includes</summary>
-    <div class="disclosure-content">
 
   <div class="feature-grid" style="margin-top: 2rem;">
     <div class="feature-card fade-in">
@@ -104,9 +100,6 @@ hero_subtitle: Compete. Develop. Get Recruited.
       <p>Supervised <a href="/housing/">team housing</a> with a live-in house coach, daily meals, and structured routines in Fort Walton Beach, FL — year-round sunshine and a safe community on Florida's Emerald Coast.</p>
     </div>
   </div>
-
-    </div>
-  </details>
 </section>
 
 <!-- Featured Alumni — Dark Section -->
@@ -141,7 +134,7 @@ hero_subtitle: Compete. Develop. Get Recruited.
 <!-- Why PG — Light Teaser -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi visiting the FCP Spartan Training Center in Fort Walton Beach" width="800" height="534" loading="lazy">
+    <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi visiting the FCP Spartan Training Center in Fort Walton Beach" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">The PG Advantage</span>
