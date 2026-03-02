@@ -124,12 +124,16 @@
 </script>
 {% endif %}
 
-<!-- Fonts: preload critical weight, then load full family -->
+<!-- DNS prefetch for third-party domains -->
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<link rel="dns-prefetch" href="https://widgets.leadconnectorhq.com">
+
+<!-- Fonts: variable font (single file covers all weights) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&display=swap" rel="stylesheet"></noscript>
 
 <!-- Critical CSS: inline above-the-fold styles -->
 <style>
@@ -160,6 +164,6 @@ img,video{max-width:100%;height:auto;display:block}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}"></noscript>
 
-<!-- Hero image: preload LCP for pages with hero images -->
-{% if page.hero_image %}<link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" fetchpriority="high">{% endif %}
+<!-- Hero image: preload LCP via Netlify Image CDN -->
+{% if page.hero_image %}{% assign hero_path = page.hero_image | relative_url %}<link rel="preload" as="image" href="/.netlify/images?url={{ hero_path }}&w=1200&q=75&fm=webp" imagesrcset="/.netlify/images?url={{ hero_path }}&w=480&q=70&fm=webp 480w, /.netlify/images?url={{ hero_path }}&w=768&q=75&fm=webp 768w, /.netlify/images?url={{ hero_path }}&w=1200&q=75&fm=webp 1200w, /.netlify/images?url={{ hero_path }}&w=1920&q=80&fm=webp 1920w" imagesizes="100vw" fetchpriority="high">{% endif %}
 {% if page.hero_video %}<link rel="preload" as="video" href="{{ page.hero_video | relative_url }}">{% endif %}

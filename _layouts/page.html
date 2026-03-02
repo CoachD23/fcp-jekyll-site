@@ -4,8 +4,22 @@ layout: default
 {% if page.hero_video %}
   {% include hero-video.html %}
 {% elsif page.hero_image %}
+{% assign hero_path = page.hero_image | relative_url %}
 <section class="hero hero-image">
-  <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_title | default: page.title }}" class="hero-bg-img" fetchpriority="high" decoding="async">
+  <img
+    src="/.netlify/images?url={{ hero_path }}&w=1200&q=75&fm=webp"
+    srcset="/.netlify/images?url={{ hero_path }}&w=480&q=70&fm=webp 480w,
+            /.netlify/images?url={{ hero_path }}&w=768&q=75&fm=webp 768w,
+            /.netlify/images?url={{ hero_path }}&w=1200&q=75&fm=webp 1200w,
+            /.netlify/images?url={{ hero_path }}&w=1920&q=80&fm=webp 1920w"
+    sizes="100vw"
+    alt="{{ page.hero_title | default: page.title }}"
+    class="hero-bg-img"
+    width="1920"
+    height="1080"
+    fetchpriority="high"
+    decoding="async"
+  >
   <div class="hero-overlay"></div>
   <div class="container hero-content">
     <h1>{{ page.hero_title | default: page.title }}</h1>
