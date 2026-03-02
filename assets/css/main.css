@@ -678,6 +678,14 @@ section { padding: 4rem 0; }
   opacity: 1;
   transform: translateY(0);
 }
+/* Safety net: ensure content is visible when JS is unavailable or motion is reduced */
+@media (prefers-reduced-motion: reduce) {
+  .fade-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
 
 /* --- Buttons --- */
 .btn {
@@ -1829,7 +1837,7 @@ section { padding: 4rem 0; }
   .instagram-section { padding: 3rem 0 2rem; }
   .video-hub-section { padding: 3rem 0; }
   .video-hub-grid { grid-template-columns: 1fr; gap: 2rem; }
-  .testimonial-quote { font-size: 2.5rem; }
+  .testimonial-quote { font-size: 1.75rem; }
 }
 
 /* --- Responsive: Small Mobile (<=480px) --- */
@@ -1877,6 +1885,7 @@ section { padding: 4rem 0; }
 /* --- Responsive: Extra Small Mobile (<=375px) --- */
 @media (max-width: 375px) {
   .hero { min-height: 50vh; }
+  .impact-grid { grid-template-columns: 1fr; gap: 1rem; }
   .hero-content h1 { font-size: clamp(1.75rem, 4vw + 0.5rem, 2.5rem); }
   .hero-content p { font-size: clamp(0.9rem, 2.5vw + 0.3rem, 1.1rem); }
   .container { padding: 0 0.75rem; }

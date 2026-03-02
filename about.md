@@ -209,7 +209,10 @@ hero_subtitle: Where Potential Meets Preparation
 .path-benefits { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
 .path-benefit { display: flex; flex-direction: column; align-items: center; color: rgba(255,255,255,0.8); font-size: 1rem; font-weight: 600; }
 @media (max-width: 700px) {
-  .two-paths-grid { grid-template-columns: 1fr; }
+  .two-paths-grid { grid-template-columns: 1fr; max-width: 100%; overflow: hidden; }
+  .path-card { box-sizing: border-box; max-width: 100%; }
+  .path-logos { padding: 1.25rem 1rem; gap: 1rem; }
+  .path-logos img { height: 50px; }
   .path-benefits { gap: 1.5rem; }
 }
 </style>
