@@ -2,7 +2,7 @@
   "name": "Florida Coastal Prep Sports Academy",
   "short_name": "FCP Academy",
   "description": "Elite post-graduate and high school basketball academy in Fort Walton Beach, FL. Training, academics, housing, and college recruiting.",
-  "start_url": "/",
+  "start_url": "/?utm_source=pwa&utm_medium=homescreen",
   "display": "standalone",
   "background_color": "#0a1628",
   "theme_color": "#0a1628",

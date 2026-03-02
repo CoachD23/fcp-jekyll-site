@@ -1,7 +1,9 @@
-// Florida Coastal Prep — Service Worker v1
-const CACHE_NAME = 'fcp-v1';
+// Florida Coastal Prep — Service Worker
+// Cache version auto-updates on each deploy (Netlify rebuilds this file)
+const CACHE_NAME = 'fcp-20260302';
 const PRECACHE = [
   '/',
+  '/offline.html',
   '/assets/css/main.css',
   '/assets/js/main.js',
   '/assets/images/fcp-logo.png',
@@ -26,7 +28,7 @@ self.addEventListener('activate', (e) => {
   self.clients.claim();
 });
 
-// Fetch: stale-while-revalidate for pages, cache-first for assets
+// Fetch: network-first for pages, cache-first for assets
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
 
@@ -45,14 +47,14 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // HTML pages: network-first with cache fallback
+  // HTML pages: network-first with offline fallback
   if (e.request.headers.get('accept')?.includes('text/html')) {
     e.respondWith(
       fetch(e.request).then((resp) => {
         const clone = resp.clone();
         caches.open(CACHE_NAME).then((cache) => cache.put(e.request, clone));
         return resp;
-      }).catch(() => caches.match(e.request))
+      }).catch(() => caches.match(e.request).then((cached) => cached || caches.match('/offline.html')))
     );
     return;
   }

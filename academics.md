@@ -76,6 +76,9 @@ hero_subtitle: Education That Prepares You for College
 </section>
 
 <!-- Academic Overview — ESPN-style stacked photos + text -->
+<details class="mobile-disclosure" open>
+  <summary>A World-Class Experience</summary>
+  <div class="disclosure-content">
 <div class="academics-feature fade-in">
   <div class="academics-photos">
     <img src="/assets/images/academics/fcp-book-074.jpeg" alt="Florida Coastal Prep student-athletes from around the world studying and training together at Fort Walton Beach campus" width="800" height="600" loading="lazy">
@@ -96,6 +99,8 @@ hero_subtitle: Education That Prepares You for College
     <p>This diversity is one of our greatest academic advantages. Student-athletes develop communication skills, cultural awareness, and the adaptability that colleges and employers value — all while completing rigorous, accredited coursework designed for college preparation.</p>
   </div>
 </div>
+  </div>
+</details>
 
 <!-- Program Paths — Separated PG and HS -->
 <section class="program-offers fade-in" style="margin-top: 2rem;">
@@ -178,6 +183,9 @@ hero_subtitle: Education That Prepares You for College
 </div>
 
 <!-- Curriculum & Electives -->
+<details class="mobile-disclosure" open>
+  <summary>Electives & Special Programs</summary>
+  <div class="disclosure-content">
 <section class="program-offers fade-in" style="margin-top: 3rem;">
   <div class="staff-section-header">
     <span class="section-label">Curriculum</span>
@@ -202,8 +210,13 @@ hero_subtitle: Education That Prepares You for College
     </div>
   </div>
 </section>
+  </div>
+</details>
 
 <!-- NCAA Requirements -->
+<details class="mobile-disclosure" open>
+  <summary>NCAA Requirements</summary>
+  <div class="disclosure-content">
 <div class="staff-section staff-section-dark" style="margin-top: 3rem;">
   <div class="staff-section-header">
     <span class="section-label">Eligibility</span>
@@ -234,8 +247,13 @@ hero_subtitle: Education That Prepares You for College
     </div>
   </div>
 </div>
+  </div>
+</details>
 
 <!-- Faculty -->
+<details class="mobile-disclosure" open>
+  <summary>Faculty & Staff</summary>
+  <div class="disclosure-content">
 <div class="program-offers fade-in" style="margin-top: 3rem;">
   <div class="staff-section-header">
     <span class="section-label">Educators</span>
@@ -267,6 +285,8 @@ hero_subtitle: Education That Prepares You for College
     </div>
   </div>
 </div>
+  </div>
+</details>
 
 <div class="cta-section" style="margin-top: 0; border-radius: 0;">
   <h2>Education That Keeps You Eligible — and Ahead.</h2>

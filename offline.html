@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Offline — Florida Coastal Prep</title>
+  <style>
+    :root { --navy: #0a1628; --gold: #d4a843; --white: #fff; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--navy);
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+    .offline-wrap { max-width: 480px; }
+    .offline-icon {
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+      opacity: .8;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      letter-spacing: -.02em;
+      margin-bottom: .75rem;
+    }
+    p {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      opacity: .85;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: .85rem 2rem;
+      background: var(--gold);
+      color: var(--navy);
+      font-weight: 700;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: opacity .2s;
+    }
+    .btn:hover { opacity: .9; }
+    .contact {
+      margin-top: 2.5rem;
+      font-size: .9rem;
+      opacity: .6;
+    }
+    .contact a { color: var(--gold); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="offline-wrap">
+    <div class="offline-icon">📡</div>
+    <h1>You're Offline</h1>
+    <p>It looks like you've lost your internet connection. Check your Wi-Fi or cellular data, then try again.</p>
+    <button class="btn" onclick="window.location.reload()">Try Again</button>
+    <div class="contact">
+      <p>Need us? Call <a href="tel:+18509612323">850-961-2323</a></p>
+    </div>
+  </div>
+</body>
+</html>
