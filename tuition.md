@@ -3,16 +3,14 @@ layout: page
 title: Tuition and Fees
 subtitle: Investing in Your Athletic and Academic Future
 description: "Florida Coastal Prep tuition, fees, financial assistance, and payment plan information. Learn what's included and how to apply for scholarships at FCP."
-hero_image: /assets/images/tuition/florida-coastal-prep-school.png
+hero_image: /assets/images/about-fcp.jpg
 hero_title: Tuition & Fees
 hero_subtitle: Investing in Your Athletic and Academic Future
 ---
 
-<!-- Intro Statement -->
-<section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
-  <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Elite Training and Education — Accessible to Every Family.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">At Florida Coastal Prep, we believe every student-athlete deserves access to elite training and education. Our Financial Assistance program offers partial scholarships and awards to qualifying families — because talent shouldn't be limited by finances.</p>
-</section>
+<div class="page-intro fade-in">
+  <p>At Florida Coastal Prep, we believe every student-athlete deserves access to elite training and education. Our Financial Assistance program offers partial scholarships and awards to qualifying families — because talent shouldn't be limited by finances.</p>
+</div>
 
 <!-- Value Proposition -->
 <div class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
@@ -22,48 +20,36 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     <div class="gold-rule"></div>
   </div>
   <div class="feature-grid" style="margin-top: 2rem;">
-    <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 4.2c3.4 2.8 3.4 12.8 0 15.6M18 4.2c-3.4 2.8-3.4 12.8 0 15.6M2 12h20" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></div>
-      <h3>Elite Coaching</h3>
-      <p>Daily skill development, team practice, and game competition under former NBA and D1 coaching staff.</p>
+    <div class="feature-card fade-in" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+      <div class="feature-icon">🏀</div>
+      <h3 style="color: #fff;">Elite Coaching</h3>
+      <p style="color: rgba(255,255,255,0.7);">Daily skill development, team practice, and game competition under former NBA and D1 coaching staff.</p>
     </div>
-    <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" fill="currentColor"/></svg></div>
-      <h3>Academics</h3>
-      <p>Accredited coursework, dual enrollment, college application support, and NCAA eligibility guidance.</p>
+    <div class="feature-card fade-in" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+      <div class="feature-icon">🎓</div>
+      <h3 style="color: #fff;">Academics</h3>
+      <p style="color: rgba(255,255,255,0.7);">Accredited coursework, dual enrollment, college application support, and NCAA eligibility guidance.</p>
     </div>
-    <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="currentColor"/></svg></div>
-      <h3>Housing</h3>
-      <p>Supervised athlete housing in a safe, team-focused environment on Florida's Emerald Coast.</p>
+    <div class="feature-card fade-in" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+      <div class="feature-icon">🏠</div>
+      <h3 style="color: #fff;">Housing</h3>
+      <p style="color: rgba(255,255,255,0.7);">Supervised athlete housing in a safe, team-focused environment on Florida's Emerald Coast.</p>
     </div>
-    <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M6.5 6.5v11M17.5 6.5v11M6.5 12h11M2 9v6M4 7v10M20 7v10M22 9v6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-      <h3>Training Facility</h3>
-      <p>24/7 access to our 14,000 sq ft Spartan Training Center with professional hardwood and turf zone.</p>
+    <div class="feature-card fade-in" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+      <div class="feature-icon">🏋️</div>
+      <h3 style="color: #fff;">Training Facility</h3>
+      <p style="color: rgba(255,255,255,0.7);">24/7 access to our 14,000 sq ft Spartan Training Center with NBA-dimension hardwood and turf zone.</p>
     </div>
-    <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z" fill="currentColor"/></svg></div>
-      <h3>Recruiting</h3>
-      <p>Individual recruiting plans, game film, exposure events, and direct relationships with college coaches nationwide.</p>
+    <div class="feature-card fade-in" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+      <div class="feature-icon">📊</div>
+      <h3 style="color: #fff;">Recruiting</h3>
+      <p style="color: rgba(255,255,255,0.7);">Individual recruiting plans, Hudl film, exposure events, and direct relationships with college coaches nationwide.</p>
     </div>
-    <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z" fill="currentColor"/></svg></div>
-      <h3>Performance</h3>
-      <p>Strength and conditioning, sports science, nutrition guidance, and physical therapy assessments.</p>
+    <div class="feature-card fade-in" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+      <div class="feature-icon">💪</div>
+      <h3 style="color: #fff;">Performance</h3>
+      <p style="color: rgba(255,255,255,0.7);">Strength and conditioning, sports science, nutrition guidance, and physical therapy assessments.</p>
     </div>
-  </div>
-</div>
-
-<!-- High School Tuition -->
-<div class="program-offers fade-in" style="margin-top: 3rem;">
-  <div class="staff-section-header">
-    <span class="section-label">High School</span>
-    <h2>High School Program Costs</h2>
-    <div class="gold-rule"></div>
-  </div>
-  <div style="max-width: 800px; margin: 1rem auto 0;">
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Our National High School Program includes everything student-athletes need to develop and compete at an elite level. Tuition covers daily basketball training, strength and conditioning, accredited academics, supervised housing, <strong>meals</strong>, recruiting support, and access to our 14,000 sq ft Spartan Training Center. For a detailed cost breakdown and payment plan options, <a href="/contact/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">contact our admissions team</a>.</p>
   </div>
 </div>
 
@@ -74,8 +60,8 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     <h2>Financial Assistance</h2>
     <div class="gold-rule"></div>
   </div>
-  <div style="max-width: 800px; margin: 1rem auto 0;">
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">All applicants are automatically considered for partial scholarships based on a combination of athletic ability and academic achievement. Our Admissions Office works with each family to determine the best financial assistance package available. We encourage every family to apply — you may qualify for more assistance than you think.</p>
+  <div class="page-intro" style="max-width: 800px; margin: 1rem auto 0;">
+    <p>All applicants are automatically considered for partial scholarships based on a combination of athletic ability and academic achievement. Our Admissions Office works with each family to determine the best financial assistance package available. We encourage every family to apply — you may qualify for more assistance than you think.</p>
   </div>
 </div>
 
@@ -138,7 +124,7 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     </div>
     <div class="faq-card fade-in">
       <h3>What does this program guarantee?</h3>
-      <p>While no program can guarantee a D1 scholarship, we guarantee a level of exposure, focused training, sports performance improvement, national-level competition, and meaningful playing time. Our <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">track record of placements</a> speaks for itself.</p>
+      <p>While no program can guarantee a D1 scholarship, we guarantee a level of exposure, focused training, sports performance improvement, national-level competition, and meaningful playing time. Our track record of 100+ placements speaks for itself.</p>
     </div>
     <div class="faq-card fade-in">
       <h3>How will a post-grad year affect my NCAA eligibility?</h3>
@@ -159,7 +145,7 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     <div class="gold-rule"></div>
   </div>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 900px; margin: 2rem auto 0;">
-    <div class="feature-card fade-in">
+    <div class="feature-card fade-in" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
       <h3 style="color: #d4a843; margin-bottom: 1rem;">Necessary Items</h3>
       <ul class="checklist">
         <li>Form of identification (State ID or Driver's License)</li>
@@ -175,7 +161,7 @@ hero_subtitle: Investing in Your Athletic and Academic Future
         <li>$250 refundable security deposit</li>
       </ul>
     </div>
-    <div class="feature-card fade-in">
+    <div class="feature-card fade-in" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
       <h3 style="color: #d4a843; margin-bottom: 1rem;">Permitted Items</h3>
       <ul class="checklist">
         <li>Cell phone</li>
@@ -195,30 +181,7 @@ hero_subtitle: Investing in Your Athletic and Academic Future
   <p>Take the first step toward your college basketball future. Apply today and learn about financial assistance options.</p>
   <div class="hero-cta">
     <a href="/apply/" class="btn btn-primary">Apply Now</a>
-    <a href="/contact/" class="btn btn-gold">Contact Us</a>
+    <a href="/contact/" class="btn btn-outline">Contact Us</a>
   </div>
 </div>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Florida Coastal Prep — Tuition & Enrollment",
-  "description": "Elite basketball training, accredited academics, supervised housing, recruiting exposure, and strength & conditioning for high school and post-graduate student-athletes.",
-  "provider": {
-    "@type": "SportsOrganization",
-    "name": "Florida Coastal Prep Sports Academy",
-    "url": "https://floridacoastalprep.com/"
-  },
-  "url": "https://floridacoastalprep.com/tuition/",
-  "areaServed": "US",
-  "serviceType": "Basketball Academy Enrollment"
-}
-</script>
-
-<style>
-.program-offers .feature-card { text-align: left; }
-.program-offers .feature-card p { text-align: justify; }
-.program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
-.hero-bg-img { object-position: center 30% !important; }
-</style>

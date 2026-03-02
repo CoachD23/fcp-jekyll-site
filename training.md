@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Spartan Training Center
-subtitle: Our Brand New 14,000 sq ft Home
-description: "Tour the Spartan Training Center — Florida Coastal Prep's brand new 14,000 sq ft basketball training facility in Fort Walton Beach, FL with professional hardwood court, strength & conditioning, individual player development, and 24/7 athlete access."
+subtitle: Our Newly Renovated 14,000 sq ft Facility
+description: "Tour the Spartan Training Center — Florida Coastal Prep's 14,000 sq ft basketball training facility in Fort Walton Beach, FL with NBA-dimension hardwood court, strength & conditioning, individual player development, and 24/7 athlete access."
 hero_image: /assets/images/training/fcp-book-060.jpeg
 hero_title: Spartan Training Center
 hero_subtitle: 14,000 Square Feet of Elite Training
@@ -18,7 +18,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Train Like a Pro. Compete Like a Champion.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">The Spartan Training Center is FCP's <strong>brand new 14,000 sq ft</strong> home in Fort Walton Beach, FL — featuring a professional hardwood court, turf training zone, and a dedicated sports performance area. Open <strong>24/7</strong> for our athletes, it's purpose-built for the next generation of <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">college commits</a> from <strong>43 states and 22 countries</strong>.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">The Spartan Training Center is a <strong>14,000 sq ft</strong> professional basketball facility in Fort Walton Beach, FL — featuring an NBA-dimension hardwood court, 60 ft turf training zone, and a dedicated sports performance area. Open <strong>24/7</strong> for our athletes, it's where <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">500+ college commits</a> from <strong>43 states and 22 countries</strong> have trained since 2019.</p>
 </section>
 
 <!-- Facility Stats -->
@@ -33,41 +33,20 @@ hero_subtitle: 14,000 Square Feet of Elite Training
       <span class="impact-label">Court Access</span>
     </div>
     <div class="impact-item">
-      <span class="impact-number">College</span>
-      <span class="impact-label">Court and Lines</span>
+      <span class="impact-number">NBA</span>
+      <span class="impact-label">Dimensions</span>
     </div>
     <div class="impact-item">
-      <span class="impact-number">2</span>
-      <span class="impact-label">Shooting Guns</span>
+      <span class="impact-number">94 × 50</span>
+      <span class="impact-label">Ft Hardwood</span>
     </div>
   </div>
 </div>
 
-<!-- Strength & Conditioning (moved up — right after stats bar) -->
-<section class="program-grid fade-in" style="margin-top: 3rem;">
-  <div class="program-image">
-    <img src="/assets/images/training/fcp-brochure-016.jpg" alt="Florida Coastal Prep student-athletes during strength and conditioning training at the Spartan Training Center" loading="lazy">
-  </div>
-  <div class="program-details">
-    <span class="section-label">Strength & Conditioning</span>
-    <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">Built for the Next Level</h2>
-    <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Every FCP athlete follows a <strong>periodized speed and strength program</strong> built on Westside Barbell methodology — the same conjugate system used by elite athletes across every sport. Five sessions per week develop total body fitness, explosive power, and basketball-specific athleticism under our <a href="/coaches/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">coaching staff</a>.</p>
-    <ul class="program-list">
-      <li>5 strength training sessions per week</li>
-      <li>Westside Barbell conjugate programming</li>
-      <li>Speed and explosiveness development</li>
-      <li>Vertical jump and agility training</li>
-      <li>Beach workouts on the Emerald Coast</li>
-      <li>Injury prevention and mobility work</li>
-    </ul>
-  </div>
-</section>
-
 <!-- Facility Gallery -->
 <div class="facility-gallery fade-in">
   <div class="facility-main">
-    <img src="/assets/images/training/gym-main.jpg" alt="Spartan Training Center main court — professional hardwood floor in Fort Walton Beach, FL" loading="lazy">
+    <img src="/assets/images/training/gym-main.jpg" alt="Spartan Training Center main court — full NBA-dimension hardwood floor in Fort Walton Beach, FL" loading="lazy">
   </div>
   <div class="facility-side">
     <img src="/assets/images/training/spartan-center-2.jpg" alt="Spartan Training Center turf training area and performance zone" loading="lazy">
@@ -97,7 +76,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="1.5"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></div>
       <h3>Professional Hardwood Court</h3>
-      <p>Full-size professional hardwood — the same surface D1 athletes play on, inside FCP's brand new home.</p>
+      <p>NBA dimensions (94 ft × 50 ft) with college court lines — the same surface D1 athletes play on.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/></svg></div>
@@ -111,7 +90,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg></div>
-      <h3>Turf Training Zone</h3>
+      <h3>60 ft Turf Training Zone</h3>
       <p>Artificial turf zone for agility work, speed training, and sport-specific conditioning.</p>
     </div>
     <div class="feature-card fade-in">
@@ -127,6 +106,27 @@ hero_subtitle: 14,000 Square Feet of Elite Training
   </div>
 </div>
 
+<!-- Strength & Conditioning (light section with photo) -->
+<section class="program-grid fade-in" style="margin-top: 3rem;">
+  <div class="program-image">
+    <img src="/assets/images/training/fcp-brochure-016.jpg" alt="Florida Coastal Prep student-athletes during strength and conditioning training at the Spartan Training Center in Fort Walton Beach" loading="lazy">
+  </div>
+  <div class="program-details">
+    <span class="section-label">Strength & Conditioning</span>
+    <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">Built for the Next Level</h2>
+    <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Every FCP athlete follows a <strong>periodized strength and conditioning program</strong> designed to build college-ready bodies. Three sessions per week combine Olympic lifts, plyometrics, agility ladders, and sport-specific movement patterns — all supervised by our <a href="/coaches/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">coaching staff</a>.</p>
+    <ul class="program-list">
+      <li>3 structured S&C sessions per week</li>
+      <li>60 ft turf zone for speed and agility</li>
+      <li>Beach workouts on the Emerald Coast</li>
+      <li>Vertical jump and explosiveness training</li>
+      <li>Injury prevention and mobility work</li>
+      <li>Body composition and nutrition guidance</li>
+    </ul>
+  </div>
+</section>
+
 <!-- Individual Player Development (dark section) -->
 <div class="staff-section staff-section-dark" style="margin-top: 3rem;">
   <div class="staff-section-header">
@@ -136,7 +136,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
   </div>
 
   <div style="max-width: 800px; margin: 0 auto 2rem;">
-    <p style="color: rgba(255,255,255,0.9); font-size: 1.08rem; line-height: 1.75; text-align: justify;">Beyond team practices, every athlete receives <strong>individualized skill development</strong> sessions tailored to their position, strengths, and goals. Our coaches — with <strong>100+ years of combined basketball coaching experience</strong>, including <a href="/coaches/" style="color: #d4a843;">NBA All-Star Kenny Anderson</a> — work one-on-one with players to refine the details that separate good from great.</p>
+    <p style="color: rgba(255,255,255,0.9); font-size: 1.08rem; line-height: 1.75; text-align: justify;">Beyond team practices, every athlete receives <strong>individualized skill development</strong> sessions tailored to their position, strengths, and goals. Our coaches — including <a href="/coaches/" style="color: #d4a843;">NBA All-Star Kenny Anderson</a> — work one-on-one with players to refine the details that separate good from great.</p>
   </div>
 
   <div class="feature-grid">
@@ -147,8 +147,8 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg></div>
-      <h3>Film Breakdown</h3>
-      <p>Every game and workout is recorded and reviewed. Athletes break down film with coaches to identify tendencies, correct habits, and build a professional recruiting portfolio.</p>
+      <h3>Hudl Film Breakdown</h3>
+      <p>Every game and workout is recorded through <strong>Hudl</strong>. Athletes review film with coaches to identify tendencies and build a recruiting portfolio.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg></div>
@@ -158,7 +158,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg></div>
       <h3>Speed & Agility</h3>
-      <p>Dedicated sessions on the turf zone — cone drills, lateral quickness, first-step explosion, and change-of-direction work.</p>
+      <p>Dedicated sessions on the 60 ft turf zone — cone drills, lateral quickness, first-step explosion, and change-of-direction work.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V19H7v2h10v-2h-4v-3.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z"/></svg></div>
@@ -168,7 +168,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg></div>
       <h3>Recruiting Prep</h3>
-      <p>Professional highlight tapes, individual recruiting plans, and exposure at national events — <a href="/commitments/" style="color: #d4a843;">Spartan Alumni</a> from FCP.</p>
+      <p>Professional highlight tapes, individual recruiting plans, and exposure at national events — <a href="/commitments/" style="color: #d4a843;">500+ athletes committed</a> from FCP.</p>
     </div>
   </div>
 </div>
@@ -190,7 +190,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V19H7v2h10v-2h-4v-3.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z"/></svg></div>
       <h3>National Prep Tournament</h3>
-      <p>FCP hosts the premier national prep basketball tournament right here in Fort Walton Beach. See the best prep programs in the country compete. Visit <a href="https://nationalpreptournament.com" target="_blank" rel="noopener" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NationalPrepTournament.com</a> for schedules and brackets.</p>
+      <p>FCP hosts the premier national prep basketball tournament right here in Fort Walton Beach. See the best prep programs in the country compete. Visit <a href="https://nationalprepstournament.com" target="_blank" rel="noopener" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NationalPrepsTournament.com</a> for schedules and brackets.</p>
     </div>
   </div>
 </section>
@@ -210,7 +210,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
   "@context": "https://schema.org",
   "@type": "SportsActivityLocation",
   "name": "Spartan Training Center",
-  "description": "Brand new 14,000 sq ft basketball training facility with professional hardwood court, strength and conditioning, individual player development, video scoreboard, turf training zone, and 24/7 access.",
+  "description": "14,000 sq ft basketball training facility with NBA-dimension hardwood court, strength and conditioning, individual player development, video scoreboard, turf training zone, and 24/7 access.",
   "url": "https://floridacoastalprep.com/training/",
   "address": {
     "@type": "PostalAddress",
@@ -223,7 +223,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
   "openingHours": "Mo-Su 00:00-23:59",
   "maximumAttendeeCapacity": 50,
   "amenityFeature": [
-    {"@type": "LocationFeatureSpecification", "name": "Professional Hardwood Court", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "NBA-Dimension Hardwood Court", "value": true},
     {"@type": "LocationFeatureSpecification", "name": "Video Scoreboard", "value": true},
     {"@type": "LocationFeatureSpecification", "name": "Turf Training Zone", "value": true},
     {"@type": "LocationFeatureSpecification", "name": "Strength & Conditioning", "value": true},
@@ -232,3 +232,5 @@ hero_subtitle: 14,000 Square Feet of Elite Training
   ]
 }
 </script>
+
+

@@ -2,7 +2,7 @@
 layout: page
 title: About Florida Coastal Prep — Premier Basketball Academy
 subtitle: Where Potential Meets Preparation
-description: "Learn about Florida Coastal Prep Sports Academy — a premier basketball academy in Fort Walton Beach, FL with NBA-level coaching, college commitments across 43 states, and 25+ years of elite player development."
+description: "Learn about Florida Coastal Prep Sports Academy — a premier basketball academy in Fort Walton Beach, FL with NBA-level coaching, 500+ college commitments across 43 states, and 25+ years of elite player development."
 hero_image: /assets/images/about/about-hero.jpg
 hero_title: About Florida Coastal Prep
 hero_subtitle: Where Potential Meets Preparation
@@ -11,15 +11,15 @@ hero_subtitle: Where Potential Meets Preparation
 <!-- Bold Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">The Emerald Coast's Premier Basketball Academy</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Florida Coastal Prep bridges the gap between high school and college athletics — combining elite coaching, rigorous academics, and D1-caliber facilities to prepare student-athletes for the next chapter. Since 2019, we've sent <strong>players to college programs across 43 states and 22 countries</strong>.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Florida Coastal Prep bridges the gap between high school and college athletics — combining elite coaching, rigorous academics, and D1-caliber facilities to prepare student-athletes for the next chapter. Since 2019, we've sent <strong>500+ players to college programs across 43 states and 22 countries</strong>.</p>
 </section>
 
 <!-- By the Numbers -->
 <div class="impact-bar fade-in">
   <div class="impact-grid">
     <div class="impact-item">
-      <span class="impact-number">All Levels</span>
-      <span class="impact-label">Athletes Placed</span>
+      <span class="impact-number" data-count="500">0</span><span class="impact-plus">+</span>
+      <span class="impact-label">College Commits</span>
     </div>
     <div class="impact-item">
       <span class="impact-number" data-count="43">0</span>
@@ -30,20 +30,9 @@ hero_subtitle: Where Potential Meets Preparation
       <span class="impact-label">Countries</span>
     </div>
     <div class="impact-item">
-      <span class="impact-number" data-count="1">0</span>
-      <span class="impact-label">Program</span>
+      <span class="impact-number" data-count="7">0</span>
+      <span class="impact-label">Years of Excellence</span>
     </div>
-  </div>
-</div>
-
-<!-- Partner & Affiliation Logos -->
-<div class="fade-in" style="margin: 1rem auto 0; max-width: 960px; text-align: center;">
-  <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: #999; font-weight: 600; margin-bottom: 1rem;">Official Partners & Affiliations</p>
-  <div style="display: flex; align-items: center; justify-content: center; gap: 3rem; flex-wrap: wrap; padding: 2rem 2.5rem; background: #fff; border-radius: 12px; border: 1px solid #eee;">
-    <img src="/assets/images/partners/adidas-logo.png" alt="Adidas — official apparel partner" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
-    <img src="/assets/images/grind-session-transparent.png" alt="The Grind Session — national basketball circuit" style="height: 80px; width: auto; opacity: 0.7;" loading="lazy">
-    <img src="/assets/images/partners/usssa-logo.png" alt="USSSA — United States Specialty Sports Association" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
-    <img src="/assets/images/partners/jr-nba-logo.png" alt="Jr. NBA — official youth basketball partner" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
   </div>
 </div>
 
@@ -109,12 +98,12 @@ hero_subtitle: Where Potential Meets Preparation
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg></div>
       <h3>Recruiting Pipeline</h3>
-      <p>Individual recruiting plans, film breakdown, exposure events, and direct relationships with college coaching staffs. See our <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Spartan Alumni</a>.</p>
+      <p>Individual recruiting plans, Hudl film, exposure events, and direct relationships with college coaching staffs. See our <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">500+ commitments</a>.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg></div>
       <h3>World-Class Facility</h3>
-      <p>Our 14,000 sq ft <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Spartan Training Center</a> features professional hardwood, turf zone, and 24/7 access.</p>
+      <p>Our 14,000 sq ft <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Spartan Training Center</a> features NBA-dimension hardwood, turf zone, and 24/7 access.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
@@ -200,27 +189,6 @@ hero_subtitle: Where Potential Meets Preparation
 }
 </style>
 
-<!-- FCP Docuseries -->
-<section class="program-grid fade-in" style="margin-top: 3rem;">
-  <div class="program-image" style="background: #0a1628;">
-    <a href="/docuseries/">
-      <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — Florida Coastal Prep original docuseries" loading="lazy" style="border-radius: 12px; object-fit: contain; min-height: auto;">
-    </a>
-  </div>
-  <div class="program-details">
-    <span class="section-label">Watch</span>
-    <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">6 Months to Change Everything</h2>
-    <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">FCP produced its own original docuseries — following our athletes through a full season of training, competition, and growth. With <strong>hundreds of thousands of views</strong>, the series captures the daily experiences, challenges, and triumphs of our players and what life is really like inside the academy.</p>
-    <div style="margin-top: 1.25rem;">
-      <a href="/docuseries/" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
-        <svg viewBox="0 0 24 24" style="width: 20px; height: 20px; fill: currentColor;"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
-        Watch the Series
-      </a>
-    </div>
-  </div>
-</section>
-
 <!-- Final CTA -->
 <div class="cta-section" style="margin-top: 0; border-radius: 0;">
   <h2>Ready to Join the FCP Family?</h2>
@@ -239,7 +207,7 @@ hero_subtitle: Where Potential Meets Preparation
   "alternateName": "FCP",
   "url": "https://floridacoastalprep.com",
   "logo": "https://floridacoastalprep.com/assets/images/fcp-logo.png",
-  "description": "Premier post-graduate and high school basketball academy on Florida's Emerald Coast with college commitments and elite coaching.",
+  "description": "Premier post-graduate and high school basketball academy on Florida's Emerald Coast with 500+ college commitments and NBA-level coaching.",
   "sport": "Basketball",
   "address": {
     "@type": "PostalAddress",
@@ -289,5 +257,4 @@ hero_subtitle: Where Potential Meets Preparation
   }
 }
 </script>
-
 
