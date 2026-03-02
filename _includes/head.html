@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{% if page.title and page.title != "Home" %}{{ page.title }} | Florida Coastal Prep{% else %}{{ site.title }} | Basketball Academy in Fort Walton Beach, FL{% endif %}</title>
+<title>{% if page.title and page.title != "Home" %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — Post-Grad & High School Basketball in Fort Walton Beach, FL{% endif %}</title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
@@ -15,7 +15,7 @@
 
 <!-- Open Graph / Social Sharing -->
 <meta property="og:type" content="{% if page.layout == 'post' or page.layout == 'alumni-post' %}article{% else %}website{% endif %}">
-<meta property="og:title" content="{% if page.title and page.title != 'Home' %}{{ page.title }} | Florida Coastal Prep{% else %}{{ site.title }}{% endif %}">
+<meta property="og:title" content="{% if page.title and page.title != 'Home' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">
 {% elsif page.og_image %}<meta property="og:image" content="{{ page.og_image | absolute_url }}">
@@ -31,7 +31,7 @@
 {% else %}<meta name="twitter:image" content="{{ '/assets/images/about-fcp.jpg' | absolute_url }}">
 {% endif %}
 
-<!-- jekyll-seo-tag removed: manual SEO tags above handle title, description, OG, twitter, canonical -->
+{% seo %}
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
@@ -159,8 +159,8 @@ img,video{max-width:100%;height:auto;display:block}
 <link rel="preload" as="style" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}"></noscript>
-<noscript><style>.fade-in{opacity:1!important;transform:none!important;transition:none!important}</style></noscript>
 
-<!-- Hero image: preload LCP for pages with hero images -->
+<!-- Hero image/poster: preload LCP for pages with hero images or video posters -->
+{% if page.hero_poster %}<link rel="preload" as="image" href="{{ page.hero_poster | relative_url }}" fetchpriority="high">{% endif %}
 {% if page.hero_image %}<link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" fetchpriority="high">{% endif %}
 {% if page.hero_video %}<link rel="preload" as="video" href="{{ page.hero_video | relative_url }}">{% endif %}
