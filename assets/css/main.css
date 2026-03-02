@@ -3,6 +3,11 @@
    Colors: Navy #0a1628 | Red #c41e3a | Gold #d4a843 | White
    ============================================ */
 
+/* --- Custom Properties --- */
+:root {
+  --cta-bar-height: 64px;
+}
+
 /* --- Reset & Base --- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; font-size: 17px; }
@@ -1746,7 +1751,7 @@ section { padding: 4rem 0; }
   }
   .main-nav.active { display: block; }
   .main-nav > ul { flex-direction: column; gap: 0; }
-  .main-nav a { display: block; padding: 0.75rem 1rem; font-size: 1rem; }
+  .main-nav a { display: block; padding: 0.75rem 1rem; font-size: 1rem; min-height: 48px; }
   .dropdown-menu {
     display: none;
     position: static;
@@ -1786,6 +1791,9 @@ section { padding: 4rem 0; }
   .impact-item:not(:last-child)::after { display: none; }
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
   .footer-brand { grid-column: auto; }
+  /* Touch-friendly footer links & social icons (48px min targets) */
+  .footer-links a { padding: 0.55rem 0; min-height: 48px; display: flex; align-items: center; }
+  .footer-social a { min-width: 48px; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; }
   section { padding: 3rem 0; }
   .grid-2, .grid-3 { grid-template-columns: 1fr; }
   .program-cards { grid-template-columns: 1fr; }
@@ -1827,8 +1835,10 @@ section { padding: 4rem 0; }
 /* --- Responsive: Small Mobile (<=480px) --- */
 @media (max-width: 480px) {
   .container { padding: 0 1rem; }
+  .hero { min-height: 60vh; }
   .hero-content { padding: 5rem 0 3rem; }
   .hero-cta { flex-direction: column; align-items: center; }
+  .hero-cta .btn { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; }
   .hero-credentials { margin-top: 1.5rem; gap: 0.5rem; }
   .hero-credentials-logos { gap: 1.5rem; }
   .credential-logo { height: 50px; }
@@ -1862,6 +1872,22 @@ section { padding: 4rem 0; }
   .news-ticker-label::after { right: -6px; width: 12px; }
   .partners-logos { gap: 1rem; }
   .partners-logos img { height: 24px; }
+}
+
+/* --- Responsive: Extra Small Mobile (<=375px) --- */
+@media (max-width: 375px) {
+  .hero { min-height: 50vh; }
+  .hero-content h1 { font-size: clamp(1.75rem, 4vw + 0.5rem, 2.5rem); }
+  .hero-content p { font-size: clamp(0.9rem, 2.5vw + 0.3rem, 1.1rem); }
+  .container { padding: 0 0.75rem; }
+  section { padding: 2rem 0; }
+  .section-label { font-size: 1.5rem; }
+  .feature-card { padding: 1.25rem; }
+  .impact-number { font-size: 1.75rem; }
+  .impact-label { font-size: 0.75rem; }
+  .credential-logo { height: 40px; }
+  /* Bottom spacing for sticky CTA bar */
+  body { padding-bottom: var(--cta-bar-height); }
 }
 
 /* --- Utility Classes --- */
@@ -3026,6 +3052,9 @@ iframe { max-width: 100%; }
   .housing-layout { gap: 1.5rem; }
   .offer-item { padding: 1.5rem; }
   .advisor-card img { width: 100px; height: 100px; }
+  /* Coach photo guard — prevent head cropping on small screens */
+  .coach-card-photo { aspect-ratio: 3 / 4; }
+  .coach-card-photo img { object-position: top center; }
 }
 
 /* --- Testimonial Spotlight --- */
@@ -4918,6 +4947,15 @@ iframe { max-width: 100%; }
   line-height: 1.6;
 }
 
+/* Enrollment steps — 5-col default needs responsive override */
+@media (max-width: 768px) {
+  .enrollment-steps { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .enrollment-steps { grid-template-columns: 1fr; }
+  .enrollment-step { padding: 1.25rem 1rem; }
+}
+
 /* --- CCU Contact Card --- */
 .ccu-contact {
   background: #fff;
@@ -5189,9 +5227,147 @@ iframe { max-width: 100%; }
   padding: 0.3rem 0.85rem;
 }
 
+/* ============================================
+   Mobile Progressive Disclosure (<details>/<summary>)
+   Desktop: summary hidden, content always visible
+   Mobile ≤768px: summary shown as collapsible trigger
+   ============================================ */
+.mobile-disclosure {
+  border: none;
+  margin: 0;
+}
+
+/* Desktop: hide the trigger, show content always */
+.mobile-disclosure > summary {
+  display: none;
+}
+
+.mobile-disclosure .disclosure-content {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  /* Mobile: show summary as styled disclosure trigger */
+  .mobile-disclosure > summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0a1628;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(10, 22, 40, 0.1);
+    list-style: none; /* Remove default marker */
+  }
+
+  /* Remove default marker across browsers */
+  .mobile-disclosure > summary::-webkit-details-marker { display: none; }
+  .mobile-disclosure > summary::marker { display: none; content: ''; }
+
+  /* Chevron indicator via ::after pseudo-element */
+  .mobile-disclosure > summary::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #c41e3a;
+    border-bottom: 2px solid #c41e3a;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    margin-left: 1rem;
+  }
+
+  /* Rotate chevron when open */
+  .mobile-disclosure[open] > summary::after {
+    transform: rotate(-135deg);
+  }
+
+  /* Animate content reveal via grid trick (0fr → 1fr) */
+  .mobile-disclosure .disclosure-content {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease;
+    overflow: hidden;
+  }
+
+  .mobile-disclosure[open] .disclosure-content {
+    grid-template-rows: 1fr;
+    padding-top: 1rem;
+  }
+
+  /* Inner wrapper needed for grid animation */
+  .mobile-disclosure .disclosure-content > * {
+    overflow: hidden;
+  }
+
+  /* Dark section variant */
+  .staff-section-dark .mobile-disclosure > summary {
+    color: #fff;
+    border-bottom-color: rgba(255, 255, 255, 0.15);
+  }
+
+  .staff-section-dark .mobile-disclosure > summary::after {
+    border-color: #d4a843;
+  }
+}
+
+/* ============================================
+   Sticky Mobile CTA Bar
+   Fixed bottom nav — shows on scroll-up, hides on scroll-down
+   Only visible on mobile (≤768px)
+   ============================================ */
+.sticky-cta-bar {
+  display: none; /* Hidden on desktop */
+}
+
+@media (max-width: 768px) {
+  .sticky-cta-bar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: rgba(10, 22, 40, 0.97);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 0.625rem 1rem;
+    gap: 0.75rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+    /* Ensure it doesn't overlap GHL chat widget (typically bottom-right) */
+    justify-content: center;
+  }
+
+  .sticky-cta-bar.hidden {
+    transform: translateY(100%);
+  }
+
+  .sticky-cta-bar .btn {
+    flex: 1;
+    max-width: 200px;
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Bottom spacing on body so content isn't hidden behind sticky bar */
+  body {
+    padding-bottom: var(--cta-bar-height);
+  }
+}
+
 /* --- Print Styles --- */
 @media print {
-  .site-header, .site-footer, .nav-toggle, .cta-section, .hero-cta { display: none !important; }
+  .site-header, .site-footer, .nav-toggle, .cta-section, .hero-cta, .sticky-cta-bar { display: none !important; }
   .page-content { padding-top: 0 !important; }
   .page-header { background: #fff !important; color: #000 !important; padding: 1rem 0 !important; }
 }

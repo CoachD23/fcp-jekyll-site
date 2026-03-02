@@ -132,4 +132,26 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --- Alumni Spotlight (no JS needed — static editorial cards) ---
+
+  // --- Sticky CTA bar: hide on scroll-down, show on scroll-up ---
+  const ctaBar = document.querySelector('.sticky-cta-bar');
+  if (ctaBar) {
+    let lastY = 0;
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          const y = window.scrollY;
+          if (y > 200 && y > lastY) {
+            ctaBar.classList.add('hidden');
+          } else {
+            ctaBar.classList.remove('hidden');
+          }
+          lastY = y;
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }, { passive: true });
+  }
 });
