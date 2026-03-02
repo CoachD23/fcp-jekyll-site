@@ -117,7 +117,7 @@ hero_subtitle: Compete. Develop. Get Recruited.
     <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">Why Take a Post-Graduate Year?</h2>
     <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
     <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">The college recruiting landscape has never been more competitive. With the transfer portal expanding rosters and creating year-round movement, coaches increasingly value experienced players who can contribute immediately. A PG year gives you the edge — more film, stronger stats, greater maturity, and an enhanced academic profile.</p>
-    <a href="/why-post-grad/" class="btn btn-outline-dark" style="margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+    <a href="/why-post-grad/" class="btn btn-outline-dark" style="margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.5rem; width: fit-content;">
       Learn More About PG Years
       <svg viewBox="0 0 24 24" style="width: 16px; height: 16px; fill: currentColor;"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
     </a>
@@ -204,3 +204,4 @@ hero_subtitle: Compete. Develop. Get Recruited.
   border-color: #0a1628;
 }
 </style>
+
