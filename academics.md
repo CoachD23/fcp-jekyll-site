@@ -44,16 +44,51 @@ hero_subtitle: Education That Prepares You for College
     </div>
     <p>At Florida Coastal Prep, education goes beyond the classroom. Our student-athletes arrive from <strong>43 states and 22 countries</strong> — creating a truly global environment where learning happens on the court, in the classroom, and through everyday interactions with teammates from different cultures, backgrounds, and perspectives.</p>
     <p>This diversity is one of our greatest academic advantages. Student-athletes develop communication skills, cultural awareness, and the adaptability that colleges and employers value — all while completing rigorous, accredited coursework designed for college preparation.</p>
-    <ul class="program-list">
-      <li>High school diploma through Lighthouse Christian Academy</li>
-      <li>Dual enrollment with Colorado Christian University</li>
-      <li>NCAA-approved coursework across all subjects</li>
-      <li>TOEFL preparation for international students</li>
-      <li>Block-style learning built around training schedules</li>
-      <li>Student-athletes from 43 states and 22 countries</li>
-    </ul>
   </div>
 </div>
+
+<!-- Academic Photo -->
+<div class="fade-in" style="max-width: 900px; margin: 2rem auto;">
+  <img src="/assets/images/academics/academic-studying.jpg" alt="Florida Coastal Prep student-athletes studying together at the Fort Walton Beach campus" loading="lazy" style="width: 100%; border-radius: 10px; aspect-ratio: 4/3; object-fit: cover;">
+</div>
+
+<!-- Program Paths — Separated PG and HS -->
+<section class="program-offers fade-in" style="margin-top: 2rem;">
+  <div class="staff-section-header">
+    <span class="section-label">Program Paths</span>
+    <h2>High School & Post-Graduate Academics</h2>
+    <div class="gold-rule"></div>
+  </div>
+
+  <div style="max-width: 800px; margin: 0 auto 2rem;">
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: center;">FCP offers two distinct academic tracks — each designed around a student-athlete's training schedule with block-style learning, NCAA-approved coursework, and introduction to TOEFL standards for international students.</p>
+  </div>
+
+  <div class="feature-grid" style="margin-top: 2rem; max-width: 700px;">
+    <div class="feature-card fade-in">
+      <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
+      <h3>High School Diploma</h3>
+      <p>High school student-athletes earn their diploma through <strong>Lighthouse Christian Academy</strong> — a fully accredited program with NCAA-approved coursework across all core subjects. Block-style scheduling is built around daily training.</p>
+      <ul class="program-list" style="margin-top: 0.75rem;">
+        <li>Accredited high school diploma</li>
+        <li>NCAA-approved core coursework</li>
+        <li>Block-style learning around training</li>
+        <li>College-prep writing and communication</li>
+      </ul>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg></div>
+      <h3>Post-Graduate Dual Enrollment</h3>
+      <p>Post-graduate athletes can earn <strong>college credits through Colorado Christian University (CCU)</strong> — giving them a head start on their college education while completing their PG year at FCP.</p>
+      <ul class="program-list" style="margin-top: 0.75rem;">
+        <li>Earn transferable college credits</li>
+        <li>CCU dual enrollment courses</li>
+        <li>Guided college application support</li>
+        <li>Flexible scheduling with training</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
 <!-- CCU Partnership -->
 <div class="staff-section staff-section-dark" style="margin-top: 3rem;">
@@ -63,7 +98,7 @@ hero_subtitle: Education That Prepares You for College
     <div class="gold-rule"></div>
   </div>
   <div style="max-width: 800px; margin: 0 auto 2rem;">
-    <p style="color: rgba(255,255,255,0.9); font-size: 1.08rem; line-height: 1.75; text-align: center;">FCP partners with Colorado Christian University (CCU) to offer dual enrollment opportunities. Student-athletes can earn college credits while completing their high school or post-graduate year — giving them a head start on their college education.</p>
+    <p style="color: rgba(255,255,255,0.9); font-size: 1.08rem; line-height: 1.75; text-align: center;">FCP partners with Colorado Christian University (CCU) to offer dual enrollment opportunities for post-graduate athletes. Student-athletes can earn college credits while completing their PG year — giving them a head start on their college education.</p>
   </div>
 
   <div class="enrollment-steps">
@@ -217,4 +252,3 @@ hero_subtitle: Education That Prepares You for College
   ]
 }
 </script>
-
