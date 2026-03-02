@@ -21,7 +21,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <div class="gold-rule"></div>
   </div>
 
-  <details class="mobile-disclosure">
+  <details class="mobile-disclosure" open>
     <summary>What's Included</summary>
     <div class="disclosure-content">
 
@@ -70,7 +70,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <div class="gold-rule"></div>
   </div>
 
-  <details class="mobile-disclosure">
+  <details class="mobile-disclosure" open>
     <summary>Three Pillars of Development</summary>
     <div class="disclosure-content">
 
@@ -104,7 +104,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <div class="gold-rule"></div>
   </div>
 
-  <details class="mobile-disclosure">
+  <details class="mobile-disclosure" open>
     <summary>A Day at FCP</summary>
     <div class="disclosure-content">
 
