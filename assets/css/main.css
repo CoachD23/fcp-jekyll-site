@@ -4788,8 +4788,13 @@ iframe { max-width: 100%; }
   .facility-main img,
   .grind-image-frame img,
   .alumni-card-image img,
-  .featured-alumni-images img {
+  .featured-alumni-images img,
+  .news-ticker-content {
     animation: none !important;
+  }
+  .news-ticker-content {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }
 
