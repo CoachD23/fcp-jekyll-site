@@ -40,10 +40,10 @@ hero_subtitle: Where Potential Meets Preparation
 <div class="fade-in" style="margin: 1rem auto 0; max-width: 960px; text-align: center;">
   <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: #999; font-weight: 600; margin-bottom: 1rem;">Official Partners & Affiliations</p>
   <div style="display: flex; align-items: center; justify-content: center; gap: 3rem; flex-wrap: wrap; padding: 2rem 2.5rem; background: #fff; border-radius: 12px; border: 1px solid #eee;">
-    <img src="/assets/images/partners/adidas-logo.png" alt="Adidas — official apparel partner" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
-    <img src="/assets/images/grind-session-transparent.png" alt="The Grind Session — national basketball circuit" style="height: 80px; width: auto; opacity: 0.7;" loading="lazy">
-    <img src="/assets/images/partners/usssa-logo.png" alt="USSSA — United States Specialty Sports Association" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
-    <img src="/assets/images/partners/jr-nba-logo.png" alt="Jr. NBA — official youth basketball partner" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/partners/adidas-logo.png" alt="Adidas — official apparel partner" width="600" height="414" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/grind-session-transparent.png" alt="The Grind Session — national basketball circuit" width="119" height="120" style="height: 80px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/partners/usssa-logo.png" alt="USSSA — United States Specialty Sports Association" width="600" height="600" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/partners/jr-nba-logo.png" alt="Jr. NBA — official youth basketball partner" width="600" height="600" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
   </div>
 </div>
 
@@ -153,8 +153,8 @@ hero_subtitle: Where Potential Meets Preparation
     <div class="path-card fade-in" style="text-align: center;">
       <h3 style="color: #fff; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.75rem;">National High School</h3>
       <div class="path-logos" style="justify-content: center;">
-        <img src="/assets/images/grind-session-transparent.png" alt="Grind Session basketball league logo" loading="lazy">
-        <img src="/assets/images/siaa-transparent.png" alt="SIAA — Sunshine Independent Athletic Association logo" loading="lazy">
+        <img src="/assets/images/grind-session-transparent.png" alt="Grind Session basketball league logo" width="119" height="120" loading="lazy">
+        <img src="/assets/images/siaa-transparent.png" alt="SIAA — Sunshine Independent Athletic Association logo" width="208" height="120" loading="lazy">
       </div>
       <p style="text-align: justify; color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.7;">FCP's high school program competes in the <strong style="color: #fff;">Grind Session</strong> and <strong style="color: #fff;">SIAA</strong> — two of the top independent basketball circuits in the country. Student-athletes receive accredited academics alongside competitive game schedules against nationally ranked programs.</p>
       <a href="/high-school/" class="btn btn-outline" style="margin-top: 1.25rem;">Explore High School</a>
@@ -164,8 +164,8 @@ hero_subtitle: Where Potential Meets Preparation
     <div class="path-card fade-in" style="text-align: center;">
       <h3 style="color: #fff; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.75rem;">Post-Graduate Program</h3>
       <div class="path-logos" style="justify-content: center;">
-        <img src="/assets/images/sehal-transparent.png" alt="SEHAL — Southeast Elite High School Athletic League logo" loading="lazy">
-        <img src="/assets/images/phsba-transparent.png" alt="PHSBA — Post High School Basketball Association logo" loading="lazy">
+        <img src="/assets/images/sehal-transparent.png" alt="SEHAL — Southeast Elite High School Athletic League logo" width="182" height="120" loading="lazy">
+        <img src="/assets/images/phsba-transparent.png" alt="PHSBA — Post High School Basketball Association logo" width="294" height="120" loading="lazy">
       </div>
       <p style="text-align: justify; color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.7;">Post-graduates compete in the <strong style="color: #fff;">SEHAL</strong> and <strong style="color: #fff;">PHSBA</strong>, facing top prep programs across the Southeast and nationally. This gap year gives athletes the additional development, film, and exposure needed to earn college roster spots.</p>
       <a href="/post-grad/" class="btn btn-outline" style="margin-top: 1.25rem;">Explore Post-Grad</a>

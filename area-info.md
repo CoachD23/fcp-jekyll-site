@@ -17,7 +17,7 @@ hero_subtitle: Welcome to the Emerald Coast
 <!-- Area Overview — Two Column -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/housing/beach.jpg" alt="White sand beaches along the Emerald Coast near Florida Coastal Prep in Fort Walton Beach" loading="lazy">
+    <img src="/assets/images/housing/beach.jpg" alt="White sand beaches along the Emerald Coast near Florida Coastal Prep in Fort Walton Beach" width="1024" height="819" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">Location</span>

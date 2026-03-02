@@ -23,10 +23,10 @@ hero_subtitle: 2025–2026 Season — FCP Spartans National HS Team
   </div>
   <div style="display: flex; justify-content: center; align-items: center; gap: 3rem; flex-wrap: wrap; max-width: 800px; margin: 1.5rem auto 0;">
     <div style="background: #fff; border-radius: 12px; padding: 2rem 3rem; display: flex; align-items: center; justify-content: center; min-width: 220px;">
-      <img src="/assets/images/siaa-transparent.png" alt="Sunshine Independent Athletic Association (SIAA) — Florida Coastal Prep's prep basketball conference" style="height: 120px; width: auto; max-width: 280px; object-fit: contain;">
+      <img src="/assets/images/siaa-transparent.png" alt="Sunshine Independent Athletic Association (SIAA) — Florida Coastal Prep's prep basketball conference" width="208" height="120" style="height: 120px; width: auto; max-width: 280px; object-fit: contain;">
     </div>
     <div style="background: #fff; border-radius: 12px; padding: 2rem 3rem; display: flex; align-items: center; justify-content: center; min-width: 220px;">
-      <img src="/assets/images/grind-session-transparent.png" alt="The Grind Session — competitive basketball league featuring former NBA Draft Picks and overseas professionals" style="height: 120px; width: auto; max-width: 280px; object-fit: contain;">
+      <img src="/assets/images/grind-session-transparent.png" alt="The Grind Session — competitive basketball league featuring former NBA Draft Picks and overseas professionals" width="119" height="120" style="height: 120px; width: auto; max-width: 280px; object-fit: contain;">
     </div>
   </div>
 </div>

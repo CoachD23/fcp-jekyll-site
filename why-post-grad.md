@@ -39,7 +39,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
 <!-- What is PG — Two Column -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/training/gym-main.jpg" alt="Post-graduate athletes training on the Spartan Training Center hardwood court in Fort Walton Beach" loading="lazy">
+    <img src="/assets/images/training/gym-main.jpg" alt="Post-graduate athletes training on the Spartan Training Center hardwood court in Fort Walton Beach" width="1920" height="1440" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">Overview</span>
@@ -95,7 +95,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
 <!-- Recruiting Landscape — Two Column -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/post-grad/fcp-book-024.jpeg" alt="Florida Coastal Prep post-graduate basketball athlete training at the Spartan Training Center" loading="lazy">
+    <img src="/assets/images/post-grad/fcp-book-024.jpeg" alt="Florida Coastal Prep post-graduate basketball athlete training at the Spartan Training Center" width="1200" height="900" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">Recruiting Landscape</span>
@@ -116,7 +116,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
   <div class="program-grid" style="max-width: 900px; margin: 1.5rem auto 0; align-items: center;">
     <div class="program-image" style="background: #0a1628;">
       <a href="/docuseries/">
-        <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — FCP docuseries" loading="lazy" style="object-fit: contain; min-height: auto; border-radius: 10px;">
+        <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — FCP docuseries" width="1280" height="720" loading="lazy" style="object-fit: contain; min-height: auto; border-radius: 10px;">
       </a>
     </div>
     <div style="color: rgba(255,255,255,0.8);">
