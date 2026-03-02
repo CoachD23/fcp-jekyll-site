@@ -95,7 +95,7 @@ hero_subtitle: Where Potential Meets Preparation
     <div class="gold-rule"></div>
   </div>
 
-  <details class="mobile-disclosure">
+  <details class="mobile-disclosure" open>
     <summary>What Sets Us Apart</summary>
     <div class="disclosure-content">
 
@@ -144,7 +144,7 @@ hero_subtitle: Where Potential Meets Preparation
     <div class="gold-rule"></div>
   </div>
 
-  <details class="mobile-disclosure">
+  <details class="mobile-disclosure" open>
     <summary>Two Paths to College Basketball</summary>
     <div class="disclosure-content">
 

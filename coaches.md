@@ -72,7 +72,7 @@ hero_subtitle: The Team Behind the Team
     <div class="gold-rule"></div>
   </div>
 
-  <details class="mobile-disclosure">
+  <details class="mobile-disclosure" open>
     <summary>Coaching Staff</summary>
     <div class="disclosure-content">
 
@@ -147,7 +147,7 @@ hero_subtitle: The Team Behind the Team
     <div class="gold-rule"></div>
   </div>
 
-  <details class="mobile-disclosure">
+  <details class="mobile-disclosure" open>
     <summary>Advisory Board</summary>
     <div class="disclosure-content">
 

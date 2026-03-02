@@ -72,7 +72,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <div class="gold-rule"></div>
   </div>
 
-  <details class="mobile-disclosure">
+  <details class="mobile-disclosure" open>
     <summary>Facility Features</summary>
     <div class="disclosure-content">
 
@@ -142,7 +142,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <div class="gold-rule"></div>
   </div>
 
-  <details class="mobile-disclosure">
+  <details class="mobile-disclosure" open>
     <summary>Individual Workouts</summary>
     <div class="disclosure-content">
 
@@ -195,7 +195,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <div class="gold-rule"></div>
   </div>
 
-  <details class="mobile-disclosure">
+  <details class="mobile-disclosure" open>
     <summary>Camps & Tournaments</summary>
     <div class="disclosure-content">
 
