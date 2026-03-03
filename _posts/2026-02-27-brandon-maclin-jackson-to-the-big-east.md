@@ -1,6 +1,6 @@
 ---
 layout: alumni-post
-title: "Whatever It Takes to Win: Brandon Maclin's Road to the Big East"
+title: "Whatever It Takes: Brandon Maclin's Big East Journey"
 date: 2026-02-27
 categories: [alumni]
 image: /assets/images/brandon-maclin-depaul.jpeg
@@ -9,7 +9,8 @@ featured_video: /assets/videos/brandon-maclin-clip.mp4
 player_name: Brandon Maclin
 current_team: DePaul Blue Demons
 fcp_label: FCP Spartans
-description: "Brandon Maclin went from a role player averaging 3.5 points at Odessa College to hitting the game-winning layup for DePaul against Creighton in the Big East. Every stop along the way ran through Florida Coastal Prep."
+description: "Brandon Maclin went from averaging 3.5 points at Odessa College to hitting the game-winner for DePaul in the Big East — every stop ran through FCP."
+excerpt: "Brandon Maclin went from a role player at Odessa College to hitting game-winners for DePaul in the Big East — and every stop ran through Florida Coastal Prep."
 bio: "6'5\" versatile wing from Jackson, Tennessee. Currently a senior at DePaul University in the Big East Conference. Two-time NJCAA National Tournament participant, Big South Tournament semifinalist, and 500+ career D1 points scorer. Follow Brandon on <a href='https://www.instagram.com/brandonmaclin/' target='_blank'>Instagram →</a>"
 stats:
   - value: "D1"

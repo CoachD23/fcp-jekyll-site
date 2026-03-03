@@ -1,6 +1,6 @@
 ---
 layout: alumni-post
-title: "From Coach DeForest to the NBA Rising Stars: Sean East II's Rise"
+title: "Sean East II: From Coach DeForest to NBA Rising Stars"
 date: 2026-02-27
 categories: [alumni]
 image: /assets/images/sean-east-lakers.jpeg
@@ -8,7 +8,8 @@ image_fcp: /assets/images/sean-east-fcp.jpeg
 player_name: Sean East II
 current_team: LA Lakers
 fcp_label: Coach DeForest Era
-description: "Sean East II went from playing under Coach DeForest to becoming the NJCAA Player of the Year, SEC Scholar-Athlete of the Year, signing with the LA Lakers, and earning an NBA Rising Stars selection."
+description: "Sean East II went from Coach DeForest's program to NJCAA Player of the Year, SEC Scholar-Athlete of the Year, and the LA Lakers."
+excerpt: "Sean East II went from playing under Coach DeForest to the NJCAA Player of the Year, signing with the LA Lakers, and earning an NBA Rising Stars selection."
 bio: "6'3\" point guard currently playing for the Salt Lake City Stars in the NBA G League. Former NJCAA Player of the Year, SEC Scholar-Athlete of the Year, and 2026 NBA Rising Stars selection."
 stats:
   - value: "NBA"

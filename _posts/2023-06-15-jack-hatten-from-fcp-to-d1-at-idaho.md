@@ -8,7 +8,8 @@ image_fcp: /assets/images/jack-hatten-fcp.jpeg
 player_name: Jack Hatten
 current_team: Idaho Vandals
 fcp_label: FCP Spartans
-description: "Jack Hatten drove 2,300 miles from Bakersfield to Florida Coastal Prep, bet on himself during a pandemic, and earned a Division I roster spot at the University of Idaho."
+description: "Jack Hatten drove 2,300 miles from Bakersfield to FCP during a pandemic and earned a Division I roster spot at the University of Idaho."
+excerpt: "Jack Hatten drove 2,300 miles from Bakersfield to FCP during a pandemic, bet on himself, and earned a Division I roster spot at the University of Idaho."
 bio: "6'6\" guard from Bakersfield, California. Garces Memorial graduate, NABC Honors Court member, and Division I student-athlete at the University of Idaho in the Big Sky Conference."
 stats:
   - value: "D1"

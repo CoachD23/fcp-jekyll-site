@@ -1,6 +1,6 @@
 ---
 layout: alumni-post
-title: "From South Sudan to the NCAA Tournament: Ring Malith's Rise Through FCP"
+title: "Ring Malith's Rise: South Sudan to the NCAA Tournament"
 date: 2026-02-28
 categories: [alumni]
 image: /assets/images/ring-malith-siue.jpeg
@@ -8,7 +8,8 @@ image_fcp: /assets/images/ring-malith-fcp.jpeg
 player_name: Ring Malith
 current_team: SIU Edwardsville Cougars
 fcp_label: FCP Spartans
-description: "Ring Malith traveled from Twic, South Sudan, to Florida Coastal Prep — then won an NJCAA National Championship, set a Division I rebounding record, led SIUE to the NCAA Tournament, and became the OVC's leading scorer. All from a kid nobody in America had ever heard of."
+description: "Ring Malith went from South Sudan to FCP, won an NJCAA title, set a D1 rebounding record, and led SIUE to the NCAA Tournament as the OVC's top scorer."
+excerpt: "Ring Malith traveled from South Sudan to FCP, won an NJCAA National Championship at Barton CC, and led SIUE to its first-ever NCAA Tournament appearance."
 bio: "6'9\" guard/forward from Twic, South Sudan. Senior at SIU Edwardsville in the Ohio Valley Conference. NJCAA National Champion at Barton CC. SIUE Division I rebounding record holder (19). OVC All-Tournament Team. 2x OVC Player of the Week. Helped lead SIUE to its first-ever NCAA Tournament appearance. Follow Ring on <a href='https://www.instagram.com/' target='_blank'>Instagram →</a>"
 stats:
   - value: "D1"

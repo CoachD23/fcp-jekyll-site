@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NBA Legend Kenny Anderson Joins Florida Coastal Prep Coaching Staff"
+title: "NBA Legend Kenny Anderson Joins FCP Coaching Staff"
 date: 2024-06-21
 categories: [highlights]
 image: /assets/images/blog/kenny-visit.jpg

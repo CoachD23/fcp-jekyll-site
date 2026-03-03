@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome Back Coach B: ESPN's Paul Biancardi Returns to Florida Coastal Prep"
+title: "Coach B Returns: ESPN's Biancardi Visits FCP Again"
 date: 2023-01-31
 categories: [highlights]
 image: /assets/images/training/spartan-center-2.jpg

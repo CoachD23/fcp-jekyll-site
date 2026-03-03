@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Top Basketball Prep Schools in the Florida Panhandle: What Families Need to Know"
-description: "Searching for a basketball prep school in the Florida Panhandle? Here's what families near Fort Walton Beach, Destin, Pensacola, and Panama City Beach need to know about elite development options."
+title: "Basketball Prep Schools in the Florida Panhandle"
+description: "Basketball prep school in the Florida Panhandle? What families near Fort Walton Beach, Destin, and Pensacola should know about elite options."
+excerpt: "Searching for a basketball prep school in the Florida Panhandle? Here's what families near Fort Walton Beach, Destin, and Pensacola need to know."
 date: 2026-02-18
 categories: [basketball, recruiting]
 tags: [florida-panhandle, fort-walton-beach, prep-school, basketball-development, parent-guide, d1-recruiting]
 author: "Coach Lee DeForest"
-image: /assets/images/about-hero.jpg
+image: /assets/images/blog/blog-default.jpg
 ---
 
 Most basketball families in Northwest Florida already know the challenge: the talent is here, but the development infrastructure isn't as visible as it is in South Florida or central Florida. Families near Pensacola, Fort Walton Beach, Destin, and Panama City Beach often end up driving hours for elite training, or researching programs hundreds of miles away, because they don't know what's available closer to home.

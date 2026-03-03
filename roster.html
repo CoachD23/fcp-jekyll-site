@@ -1,8 +1,7 @@
 ---
 layout: default
-title: "Roster"
+title: "Player Roster | Florida Coastal Prep Basketball Academy"
 description: "Meet the Florida Coastal Prep Sports Academy roster. View player profiles, positions, and highlights for our post-graduate and high school basketball teams."
-og_image: /assets/images/whatsapp-team.jpeg
 ---
 
 <section class="page-header">
@@ -27,9 +26,9 @@ og_image: /assets/images/whatsapp-team.jpeg
       <div class="roster-card" data-program="{{ player.program }}">
         <div class="roster-card-image">
           {% if player.image %}
-          <img src="{{ player.image | relative_url }}" alt="{{ player.name }}" loading="lazy">
+          <img src="{{ player.image | relative_url }}" alt="{{ player.name }}" width="400" height="400" loading="lazy">
           {% else %}
-          <img src="/assets/images/roster/placeholder.jpg" alt="{{ player.name }}" loading="lazy">
+          <img src="/assets/images/fcp-logo-square.png" alt="{{ player.name }}" width="400" height="400" loading="lazy">
           {% endif %}
           <span class="roster-number">#{{ player.number }}</span>
         </div>

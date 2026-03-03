@@ -1,6 +1,6 @@
 ---
 layout: alumni-post
-title: "Brooklyn Grit, D1 Finish: Gerald Gittens Jr. at Northern Michigan"
+title: "Gerald Gittens Jr.: Brooklyn Grit to a D1 Finish"
 date: 2025-03-20
 categories: [alumni]
 image: /assets/images/gerald-gittens-nmu.png
@@ -8,7 +8,8 @@ image_fcp: /assets/images/gerald-gittens-fcp.jpeg
 player_name: Gerald Gittens Jr.
 current_team: Northern Michigan Wildcats
 fcp_label: FCP Spartans
-description: "Gerald Gittens Jr. came to Florida Coastal Prep from Brooklyn, developed into a multi-positional guard, and finished his college career as a D1 starter at Northern Michigan University."
+description: "Gerald Gittens Jr. came to FCP from Brooklyn, developed into a versatile guard, and finished his career as a D1 starter at Northern Michigan."
+excerpt: "Gerald Gittens Jr. came to FCP from Brooklyn, developed through three colleges, and finished his career as a D1 starter at Northern Michigan University."
 bio: "6'1\" multi-positional guard from Brooklyn, New York. Four-year college basketball player who led teams in scoring at every level before finishing his career as a D1 starter at Northern Michigan University in the GLIAC."
 stats:
   - value: "D1"

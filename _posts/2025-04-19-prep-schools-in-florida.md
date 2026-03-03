@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Top Basketball Prep Schools in Florida: Where Future Pros and D1 Players Train"
+title: "Top Basketball Prep Schools in Florida for D1 Talent"
 date: 2025-04-19
 categories: [recruiting]
 image: /assets/images/about-fcp.jpg
-description: "Florida's basketball prep schools have produced NBA draft picks, G-League pros, and hundreds of Division I commits. Here's how programs like Florida Coastal Prep, Montverde Academy, and IMG Academy develop the next generation of college and professional basketball talent."
+description: "Florida's prep schools have produced NBA picks, G-League pros, and D1 commits. Compare FCP, Montverde, IMG Academy, and more top programs."
+excerpt: "Florida's basketball prep schools have produced NBA draft picks, G-League pros, and hundreds of D1 commits. Compare top programs like FCP, Montverde, and IMG Academy."
 ---
 
 Florida isn't just a vacation destination — it's the basketball development capital of the United States. The state's prep school basketball scene has produced **NBA first-overall picks, All-Stars, G-League professionals, and hundreds of Division I college commits** over the past decade.

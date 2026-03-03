@@ -1,6 +1,6 @@
 ---
 layout: alumni-post
-title: "The Playmaker's Path: Kylin Green's Climb from FCP to Division I"
+title: "The Playmaker's Path: Kylin Green from FCP to D1"
 date: 2026-02-28
 categories: [alumni]
 image: /assets/images/kylin-green-hcu.jpeg
@@ -8,7 +8,8 @@ image_fcp: /assets/images/kylin-green-fcp-action.jpeg
 player_name: Kylin Green
 current_team: Houston Christian Huskies
 fcp_label: FCP Spartans
-description: "Kylin Green led the entire DFW Metroplex in scoring as a senior, then came to Florida Coastal Prep to sharpen his game. Four stops and five years later, he's hitting game-winners in Division I at Houston Christian University."
+description: "Kylin Green led the DFW Metroplex in scoring, came to FCP to sharpen his game, and is now a Division I starter at Houston Christian University."
+excerpt: "Kylin Green led the DFW Metroplex in scoring, spent a post-graduate year at FCP, then climbed through four colleges to become a D1 starter at Houston Christian."
 bio: "6'0\" point guard from Lewisville, Texas. Currently a senior at Houston Christian University in the Southland Conference. 1,634 career high school points. JUCO breakout at Daytona State (13.7 PPG, 55% from three). WAC champion at Utah Valley. Now a D1 starter averaging 10.2 PPG and 4.6 APG. Follow Kylin on <a href='https://www.instagram.com/' target='_blank'>Instagram →</a>"
 stats:
   - value: "D1"

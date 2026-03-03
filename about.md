@@ -2,7 +2,7 @@
 layout: page
 title: About Florida Coastal Prep — Premier Basketball Academy
 subtitle: Where Potential Meets Preparation
-description: "Learn about Florida Coastal Prep Sports Academy — a premier basketball academy in Fort Walton Beach, FL with NBA-level coaching, college commitments across 43 states, and 25+ years of elite player development."
+description: "Florida Coastal Prep — a premier basketball academy in Fort Walton Beach with NBA coaching, commits across 43 states, and 25+ years of development."
 hero_image: /assets/images/about/about-hero.jpg
 hero_title: About Florida Coastal Prep
 hero_subtitle: Where Potential Meets Preparation
@@ -40,17 +40,17 @@ hero_subtitle: Where Potential Meets Preparation
 <div class="fade-in" style="margin: 1rem auto 0; max-width: 960px; text-align: center;">
   <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: #999; font-weight: 600; margin-bottom: 1rem;">Official Partners & Affiliations</p>
   <div style="display: flex; align-items: center; justify-content: center; gap: 3rem; flex-wrap: wrap; padding: 2rem 2.5rem; background: #fff; border-radius: 12px; border: 1px solid #eee;">
-    <img src="/assets/images/partners/adidas-logo.png" alt="Adidas — official apparel partner" width="600" height="414" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
-    <img src="/assets/images/grind-session-transparent.png" alt="The Grind Session — national basketball circuit" width="119" height="120" style="height: 80px; width: auto; opacity: 0.7;" loading="lazy">
-    <img src="/assets/images/partners/usssa-logo.png" alt="USSSA — United States Specialty Sports Association" width="600" height="600" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
-    <img src="/assets/images/partners/jr-nba-logo.png" alt="Jr. NBA — official youth basketball partner" width="600" height="600" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/partners/adidas-logo.png" alt="Adidas — official apparel partner" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/grind-session-transparent.png" alt="The Grind Session — national basketball circuit" style="height: 80px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/partners/usssa-logo.png" alt="USSSA — United States Specialty Sports Association" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
+    <img src="/assets/images/partners/jr-nba-logo.png" alt="Jr. NBA — official youth basketball partner" style="height: 75px; width: auto; opacity: 0.7;" loading="lazy">
   </div>
 </div>
 
 <!-- Our Mission — Redesigned with larger text -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/training/gym-main.jpg" alt="FCP student-athletes training at the Spartan Training Center in Fort Walton Beach, Florida" width="800" height="534" loading="lazy">
+    <img src="/assets/images/training/gym-main.jpg" alt="FCP student-athletes training at the Spartan Training Center in Fort Walton Beach, Florida" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">Our Mission</span>
@@ -65,10 +65,10 @@ hero_subtitle: Where Potential Meets Preparation
 <div class="fade-in" style="margin: 3rem auto; max-width: 960px; background: #0a1628; border-radius: 16px; padding: 1.25rem; box-shadow: 0 8px 32px rgba(0,0,0,0.18);">
   <div class="biancardi-duo">
     <div class="biancardi-duo-photo">
-      <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" width="800" height="534" loading="lazy">
+      <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" loading="lazy">
     </div>
     <div class="biancardi-duo-card">
-      <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." width="600" height="600" loading="lazy">
+      <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." loading="lazy">
     </div>
   </div>
 </div>
@@ -94,10 +94,6 @@ hero_subtitle: Where Potential Meets Preparation
     <h2>What Sets Us Apart</h2>
     <div class="gold-rule"></div>
   </div>
-
-  <details class="mobile-disclosure" open>
-    <summary>What Sets Us Apart</summary>
-    <div class="disclosure-content">
 
   <div class="feature-grid" style="margin-top: 2rem;">
     <div class="feature-card fade-in">
@@ -131,9 +127,6 @@ hero_subtitle: Where Potential Meets Preparation
       <p>Leadership, accountability, and life skills are woven into every aspect of the FCP experience — not just basketball.</p>
     </div>
   </div>
-
-    </div>
-  </details>
 </section>
 
 <!-- Two Paths to College Basketball -->
@@ -144,17 +137,13 @@ hero_subtitle: Where Potential Meets Preparation
     <div class="gold-rule"></div>
   </div>
 
-  <details class="mobile-disclosure" open>
-    <summary>Two Paths to College Basketball</summary>
-    <div class="disclosure-content">
-
   <div class="two-paths-grid">
     <!-- High School -->
     <div class="path-card fade-in" style="text-align: center;">
       <h3 style="color: #fff; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.75rem;">National High School</h3>
       <div class="path-logos" style="justify-content: center;">
-        <img src="/assets/images/grind-session-transparent.png" alt="Grind Session basketball league logo" width="119" height="120" loading="lazy">
-        <img src="/assets/images/siaa-transparent.png" alt="SIAA — Sunshine Independent Athletic Association logo" width="208" height="120" loading="lazy">
+        <img src="/assets/images/grind-session-transparent.png" alt="Grind Session basketball league logo" loading="lazy">
+        <img src="/assets/images/siaa-transparent.png" alt="SIAA — Sunshine Independent Athletic Association logo" loading="lazy">
       </div>
       <p style="text-align: justify; color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.7;">FCP's high school program competes in the <strong style="color: #fff;">Grind Session</strong> and <strong style="color: #fff;">SIAA</strong> — two of the top independent basketball circuits in the country. Student-athletes receive accredited academics alongside competitive game schedules against nationally ranked programs.</p>
       <a href="/high-school/" class="btn btn-outline" style="margin-top: 1.25rem;">Explore High School</a>
@@ -164,8 +153,8 @@ hero_subtitle: Where Potential Meets Preparation
     <div class="path-card fade-in" style="text-align: center;">
       <h3 style="color: #fff; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.75rem;">Post-Graduate Program</h3>
       <div class="path-logos" style="justify-content: center;">
-        <img src="/assets/images/sehal-transparent.png" alt="SEHAL — Southeast Elite High School Athletic League logo" width="182" height="120" loading="lazy">
-        <img src="/assets/images/phsba-transparent.png" alt="PHSBA — Post High School Basketball Association logo" width="294" height="120" loading="lazy">
+        <img src="/assets/images/sehal-transparent.png" alt="SEHAL — Southeast Elite High School Athletic League logo" loading="lazy">
+        <img src="/assets/images/phsba-transparent.png" alt="PHSBA — Post High School Basketball Association logo" loading="lazy">
       </div>
       <p style="text-align: justify; color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.7;">Post-graduates compete in the <strong style="color: #fff;">SEHAL</strong> and <strong style="color: #fff;">PHSBA</strong>, facing top prep programs across the Southeast and nationally. This gap year gives athletes the additional development, film, and exposure needed to earn college roster spots.</p>
       <a href="/post-grad/" class="btn btn-outline" style="margin-top: 1.25rem;">Explore Post-Grad</a>
@@ -194,9 +183,6 @@ hero_subtitle: Where Potential Meets Preparation
       </div>
     </div>
   </div>
-
-    </div>
-  </details>
 </section>
 
 <style>
@@ -209,10 +195,7 @@ hero_subtitle: Where Potential Meets Preparation
 .path-benefits { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
 .path-benefit { display: flex; flex-direction: column; align-items: center; color: rgba(255,255,255,0.8); font-size: 1rem; font-weight: 600; }
 @media (max-width: 700px) {
-  .two-paths-grid { grid-template-columns: 1fr; max-width: 100%; overflow: hidden; }
-  .path-card { box-sizing: border-box; max-width: 100%; }
-  .path-logos { padding: 1.25rem 1rem; gap: 1rem; }
-  .path-logos img { height: 50px; }
+  .two-paths-grid { grid-template-columns: 1fr; }
   .path-benefits { gap: 1.5rem; }
 }
 </style>
@@ -221,7 +204,7 @@ hero_subtitle: Where Potential Meets Preparation
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image" style="background: #0a1628;">
     <a href="/docuseries/">
-      <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — Florida Coastal Prep original docuseries" width="800" height="534" loading="lazy" style="border-radius: 12px; object-fit: contain; min-height: auto;">
+      <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — Florida Coastal Prep original docuseries" loading="lazy" style="border-radius: 12px; object-fit: contain; min-height: auto;">
     </a>
   </div>
   <div class="program-details">

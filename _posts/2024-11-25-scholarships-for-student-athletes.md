@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Everything You Need to Know About Scholarships for Student-Athletes"
+title: "Scholarships for Student-Athletes: A Complete Guide"
 date: 2024-11-25
 categories: [recruiting]
 image: /assets/images/blog-scholarships.jpg

@@ -3,8 +3,7 @@ layout: page
 title: Testimonials
 subtitle: Hear From Our Athletes and Families
 description: "Read what parents, athletes, and ESPN scouts say about Florida Coastal Prep. Real testimonials from families whose sons earned college basketball scholarships through FCP."
-hero_image: /assets/images/about/biancardi-endorsement.jpg
-og_image: /assets/images/about/biancardi-endorsement.jpg
+hero_image: /assets/images/about-fcp.jpg
 hero_title: Testimonials
 hero_subtitle: Real Families. Real Results.
 ---
@@ -25,10 +24,10 @@ hero_subtitle: Real Families. Real Results.
   <div class="fade-in" style="margin: 2rem auto 0; max-width: 960px; background: #0a1628; border-radius: 16px; padding: 1.25rem; box-shadow: 0 8px 32px rgba(0,0,0,0.18);">
     <div class="biancardi-duo">
       <div class="biancardi-duo-photo">
-        <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" width="800" height="600" loading="lazy">
+        <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" loading="lazy">
       </div>
       <div class="biancardi-duo-card">
-        <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." width="1200" height="910" loading="lazy">
+        <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." loading="lazy">
       </div>
     </div>
   </div>

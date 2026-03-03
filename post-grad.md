@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Post-Graduate Basketball Program
+title: "Post-Graduate Basketball Program | Florida Coastal Prep"
 subtitle: Florida Coastal Prep Post-Grad Academy
-description: "Florida Coastal Prep's post-graduate basketball program features NBA-level coaching, national SEHAL & PHSBA competition, college recruiting support, and year-round training in our 14,000 sq ft facility in Fort Walton Beach, FL."
+description: "FCP's post-grad basketball program features NBA-level coaching, national competition, college recruiting support, and year-round training in Fort Walton Beach."
 hero_image: /assets/images/post-grad/fcp-book-072.jpeg
 hero_title: Post-Graduate Program
 hero_subtitle: Compete. Develop. Get Recruited.
@@ -46,7 +46,7 @@ hero_subtitle: Compete. Develop. Get Recruited.
   <div class="program-grid" style="max-width: 900px; margin: 1.5rem auto 0; align-items: center;">
     <div class="program-image" style="background: #0a1628;">
       <a href="/docuseries/">
-        <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — FCP docuseries" width="1280" height="720" loading="lazy" style="object-fit: contain; min-height: auto; border-radius: 10px;">
+        <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — FCP docuseries" loading="lazy" style="object-fit: contain; min-height: auto; border-radius: 10px;">
       </a>
     </div>
     <div style="color: rgba(255,255,255,0.8);">
@@ -134,7 +134,7 @@ hero_subtitle: Compete. Develop. Get Recruited.
 <!-- Why PG — Light Teaser -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi visiting the FCP Spartan Training Center in Fort Walton Beach" width="800" height="600" loading="lazy">
+    <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi visiting the FCP Spartan Training Center in Fort Walton Beach" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">The PG Advantage</span>

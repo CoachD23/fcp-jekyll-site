@@ -22,7 +22,7 @@ layout: default
     <div class="container">
       <div class="journey-card">
         <div class="journey-card-then">
-          <img src="{{ page.image_fcp | relative_url }}" alt="{{ page.player_name }} at Florida Coastal Prep" loading="lazy">
+          <img src="{{ page.image_fcp | relative_url }}" alt="{{ page.player_name }} at Florida Coastal Prep" width="600" height="400" loading="lazy">
           <div class="journey-card-label">
             <span class="journey-label-tag journey-label-then">{{ page.fcp_label | default: "FCP Era" }}</span>
           </div>
@@ -33,7 +33,7 @@ layout: default
           </div>
         </div>
         <div class="journey-card-now">
-          <img src="{{ page.image | relative_url }}" alt="{{ page.player_name }} — {{ page.current_team }}" loading="lazy">
+          <img src="{{ page.image | relative_url }}" alt="{{ page.player_name }} — {{ page.current_team }}" width="600" height="400" loading="lazy">
           <div class="journey-card-label">
             <span class="journey-label-tag journey-label-now">{{ page.current_team | default: "NBA" }}</span>
           </div>
@@ -93,7 +93,7 @@ layout: default
   <div class="alumni-bio-footer">
     <div class="container container-narrow">
       <div class="alumni-bio-card">
-        <img src="{{ page.image | relative_url }}" alt="{{ page.player_name }}" loading="lazy" class="alumni-bio-avatar">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.player_name }}" width="80" height="80" loading="lazy" class="alumni-bio-avatar">
         <div class="alumni-bio-info">
           <h4>{{ page.player_name }}</h4>
           <p>{{ page.bio }}</p>
@@ -112,7 +112,7 @@ layout: default
       {% assign related = site.posts | where_exp: "post", "post.url != page.url"  %}
       {% for post in related limit: 3 %}
       <a href="{{ post.url | relative_url }}" class="post-card">
-        {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">{% endif %}
+        {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" width="600" height="338" loading="lazy">{% endif %}
         <div class="post-card-body">
           <time>{{ post.date | date: "%B %d, %Y" }}</time>
           <h3>{{ post.title }}</h3>

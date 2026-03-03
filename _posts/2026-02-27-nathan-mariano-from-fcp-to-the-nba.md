@@ -8,7 +8,8 @@ image_fcp: /assets/images/nathan-mariano-fcp.jpeg
 player_name: Nathan Mariano
 current_team: Phoenix Suns
 fcp_label: FCP Spartans
-description: "Nathan Mariano went from Florida Coastal Prep to winning four Brazilian league championships, earning a spot on Brazil's national team, and signing with the Phoenix Suns organization."
+description: "Nathan Mariano went from FCP to four Brazilian league titles, Brazil's national team, and the Phoenix Suns organization."
+excerpt: "Nathan Mariano went from Florida Coastal Prep to four Brazilian league championships, Brazil's national team, and the Phoenix Suns organization."
 bio: "6'9\" forward currently playing for the Valley Suns in the NBA G League. Four-time NBB champion, FIBA AmeriCup 2025 gold medalist, and member of the Phoenix Suns organization. Follow Nathan on <a href='https://www.instagram.com/nathanfm_43/' target='_blank'>Instagram →</a>"
 stats:
   - value: "NBA"

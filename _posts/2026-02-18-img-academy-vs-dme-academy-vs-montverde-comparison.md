@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "IMG Academy vs DME Academy vs Montverde: An Honest Comparison for Basketball Families"
-description: "Comparing IMG Academy, DME Academy, and Montverde for basketball? Get a candid breakdown of each program's strengths, costs, and fit — before making a $50K decision."
+title: "IMG vs DME vs Montverde: Honest Basketball Comparison"
+description: "Comparing IMG, DME, and Montverde for basketball? A candid look at each program's strengths, costs, and fit before your $50K decision."
+excerpt: "Comparing IMG Academy, DME Academy, and Montverde for basketball? Get an honest breakdown of each program's strengths, costs, and fit before your $50K decision."
 date: 2026-02-18
 categories: [basketball, recruiting]
 tags: [prep-school, img-academy, dme-academy, montverde, d1-recruiting, parent-guide]
 author: "Coach Lee DeForest"
-image: /assets/images/training/spartan-center.jpg
+image: /assets/images/blog/blog-default.jpg
 excerpt_separator: <!--more-->
 ---
 

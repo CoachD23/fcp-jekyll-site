@@ -1,8 +1,8 @@
 ---
 layout: page
-title: National High School Program
+title: "National High School Program | Florida Coastal Prep"
 subtitle: High School Basketball Academy
-description: "Florida Coastal Prep's national high school basketball academy (grades 9-12) in Fort Walton Beach, FL combines elite training, national competition, accredited academics, and college recruiting exposure. Limited roster spots available."
+description: "FCP's high school basketball academy (grades 9-12) combines elite training, national competition, accredited academics, and college recruiting exposure."
 hero_image: /assets/images/high-school/fcp-brochure-040.png
 hero_title: National High School Program
 hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.

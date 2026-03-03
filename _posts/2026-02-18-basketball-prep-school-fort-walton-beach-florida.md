@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "The Best Basketball Prep School in Fort Walton Beach: What Sets Elite Programs Apart"
-description: "Looking for a basketball prep school in Fort Walton Beach, Florida? Learn what separates elite programs from the rest — and why the Emerald Coast is a hidden gem for D1 development."
+title: "Best Basketball Prep School in Fort Walton Beach, FL"
+description: "Basketball prep school in Fort Walton Beach, FL? Learn what sets elite programs apart and why the Emerald Coast is a D1 hidden gem."
+excerpt: "Looking for a basketball prep school in Fort Walton Beach? Learn what separates elite programs from the rest and why the Emerald Coast is a D1 hidden gem."
 date: 2026-02-18
 categories: [basketball, recruiting]
 tags: [fort-walton-beach, prep-school, d1-recruiting, florida-panhandle, basketball-development]

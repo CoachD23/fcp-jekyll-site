@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Travel & Area Info
+title: "Fort Walton Beach Travel & Area Info | Florida Coastal Prep"
 subtitle: Welcome to the Emerald Coast
-description: "Discover the Emerald Coast — home of Florida Coastal Prep. Pristine beaches, Gulf Islands National Seashore, and year-round training weather in Fort Walton Beach, FL."
+description: "Discover the Emerald Coast — home of Florida Coastal Prep. Beaches, Gulf Islands National Seashore, and year-round training weather in Fort Walton Beach."
 hero_image: /assets/images/housing/beach-view.webp
 hero_title: Travel & Area Info
 hero_subtitle: Welcome to the Emerald Coast
@@ -17,7 +17,7 @@ hero_subtitle: Welcome to the Emerald Coast
 <!-- Area Overview — Two Column -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/housing/beach.jpg" alt="White sand beaches along the Emerald Coast near Florida Coastal Prep in Fort Walton Beach" width="1024" height="819" loading="lazy">
+    <img src="/assets/images/housing/beach.jpg" alt="White sand beaches along the Emerald Coast near Florida Coastal Prep in Fort Walton Beach" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">Location</span>

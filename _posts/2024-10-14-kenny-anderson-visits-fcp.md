@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kenny Anderson's Visit Leaves Florida Coastal Players Inspired On and Off the Court"
+title: "Kenny Anderson Inspires FCP Players On and Off the Court"
 date: 2024-10-14
 categories: [highlights]
 image: /assets/images/blog-kenny.jpg

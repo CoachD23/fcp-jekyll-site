@@ -16,7 +16,7 @@ layout: default
   {% if page.image %}
   <div class="post-hero">
     <div class="container">
-      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" width="1200" height="675" loading="lazy">
     </div>
   </div>
   {% endif %}
@@ -51,7 +51,7 @@ layout: default
   <div class="post-author">
     <div class="container container-narrow">
       <div class="post-author-card">
-        <img src="{{ '/assets/images/fcp-logo-square.png' | relative_url }}" alt="Florida Coastal Prep" class="post-author-avatar" width="1024" height="1024" loading="lazy">
+        <img src="{{ '/assets/images/fcp-logo-square.png' | relative_url }}" alt="Florida Coastal Prep" class="post-author-avatar" width="80" height="80" loading="lazy">
         <div class="post-author-info">
           <span class="post-author-name">Florida Coastal Prep Staff</span>
           <span class="post-author-bio">Florida Coastal Prep Sports Academy develops student-athletes for college basketball through elite coaching, academics, and recruiting exposure in Fort Walton Beach, FL.</span>
@@ -68,7 +68,7 @@ layout: default
       {% assign related = site.posts | where_exp: "post", "post.url != page.url"  %}
       {% for post in related limit: 3 %}
       <a href="{{ post.url | relative_url }}" class="post-card">
-        {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">{% endif %}
+        {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" width="600" height="338" loading="lazy">{% endif %}
         <div class="post-card-body">
           <time>{{ post.date | date: "%B %d, %Y" }}</time>
           <h3>{{ post.title }}</h3>
