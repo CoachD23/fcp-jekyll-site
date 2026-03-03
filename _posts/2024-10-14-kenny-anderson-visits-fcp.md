@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Kenny Anderson Inspires FCP Players On and Off the Court"
+title: "Kenny Anderson's Visit Leaves Florida Coastal Players Inspired On and Off the Court"
 date: 2024-10-14
 categories: [highlights]
-image: /assets/images/blog-kenny.jpg
+image: /assets/images/blog-kenny.png
 description: "NBA legend Kenny Anderson leads training sessions at FCP, teaching ball handling, shooting, and life lessons about resilience and being a 'Pro In Life.'"
 excerpt: "Florida Coastal Prep hosted basketball legend Kenny Anderson for an impactful visit with our Post Grad Players."
 ---
