@@ -1718,7 +1718,7 @@ section { padding: 4rem 0; }
   margin-bottom: 1.75rem;
   border-bottom: 1px solid #e0e0e0;
 }
-.footer-logo img { height: 48px; width: auto; }
+.footer-logo img { height: auto; width: clamp(220px, 28vw, 340px); }
 .footer-social { display: flex; gap: 1rem; }
 .footer-social a {
   color: #6b7280;
