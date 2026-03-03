@@ -5,8 +5,7 @@
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
 <!-- PWA & Mobile -->
-<meta name="theme-color" content="#0a1628" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#050d18" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#0a1628">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="FCP Academy">
@@ -39,16 +38,15 @@
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
 
-<!-- Structured Data: Organization (SportsOrganization + EducationalOrganization) -->
+<!-- Structured Data: Organization -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": ["SportsOrganization", "EducationalOrganization"],
+  "@type": "SportsOrganization",
   "name": "Florida Coastal Prep Sports Academy",
   "url": "https://floridacoastalprep.com",
   "logo": "https://floridacoastalprep.com/assets/images/fcp-logo.png",
   "description": "{{ site.description }}",
-  "foundingDate": "2019",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "33 Jet Drive NW",
@@ -56,11 +54,6 @@
     "addressRegion": "FL",
     "postalCode": "32548",
     "addressCountry": "US"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "30.4716",
-    "longitude": "-86.6194"
   },
   "telephone": "+18509612323",
   "email": "info@floridacoastalprep.com",
@@ -70,62 +63,11 @@
     "name": "Lee DeForest",
     "jobTitle": "Founder & Director"
   },
-  "accreditation": {
-    "@type": "EducationalOccupationalCredential",
-    "credentialCategory": "Accreditation",
-    "recognizedBy": {
-      "@type": "Organization",
-      "name": "Array Global Accreditation"
-    }
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Basketball Academy Programs",
-    "itemListElement": [
-      {
-        "@type": "Course",
-        "name": "Post-Graduate Basketball Program",
-        "description": "Elite post-graduate basketball program featuring NBA-level coaching, national SEHAL and PHSBA competition, college recruiting support, and year-round training.",
-        "url": "https://floridacoastalprep.com/post-grad/",
-        "provider": {"@type": "Organization", "name": "Florida Coastal Prep Sports Academy"},
-        "educationalLevel": "Post-Secondary",
-        "timeRequired": "P10M",
-        "hasCourse": {
-          "@type": "CourseInstance",
-          "courseMode": "onsite",
-          "courseSchedule": {
-            "@type": "Schedule",
-            "repeatFrequency": "P1Y",
-            "startDate": "2025-08-01"
-          }
-        }
-      },
-      {
-        "@type": "Course",
-        "name": "National High School Basketball Program",
-        "description": "National high school basketball academy (grades 9-12) combining elite training, national competition, accredited academics, and college recruiting exposure.",
-        "url": "https://floridacoastalprep.com/high-school/",
-        "provider": {"@type": "Organization", "name": "Florida Coastal Prep Sports Academy"},
-        "educationalLevel": "HighSchool",
-        "timeRequired": "P10M",
-        "hasCourse": {
-          "@type": "CourseInstance",
-          "courseMode": "onsite",
-          "courseSchedule": {
-            "@type": "Schedule",
-            "repeatFrequency": "P1Y",
-            "startDate": "2025-08-01"
-          }
-        }
-      }
-    ]
-  },
   "sameAs": [
     "{{ site.social.facebook }}",
     "{{ site.social.instagram }}",
     "{{ site.social.twitter }}",
-    "{{ site.social.youtube }}",
-    "https://share.google/8KeSoat3w2gkOFpyS"
+    "{{ site.social.youtube }}"
   ]
 }
 </script>
@@ -213,13 +155,9 @@ img,video{max-width:100%;height:auto;display:block}
 @media(prefers-reduced-motion:reduce){.fade-in{opacity:1;transform:none;transition:none}}
 </style>
 
-<!-- Full CSS: non-blocking load -->
-<link rel="preload" as="style" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}"></noscript>
+<!-- Full CSS: render-blocking to prevent FOUC -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
-<!-- Hero image/poster: preload LCP for pages with hero images or video posters -->
-{% if page.hero_poster %}<link rel="preload" as="image" href="{{ page.hero_poster | relative_url }}" fetchpriority="high">{% endif %}
+<!-- Hero image: preload LCP for pages with hero images -->
 {% if page.hero_image %}<link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" fetchpriority="high">{% endif %}
-{% if page.hero_video %}<!-- Video preload hint: use fetch type since "video" is not a valid preload as-type -->
-<link rel="preload" as="fetch" href="{{ page.hero_video | relative_url }}" crossorigin>{% endif %}
+{% if page.hero_video %}<link rel="preload" as="video" href="{{ page.hero_video | relative_url }}">{% endif %}
