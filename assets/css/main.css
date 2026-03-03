@@ -13,6 +13,7 @@ body {
   background: #fff;
   -webkit-font-smoothing: antialiased;
 }
+html, body { overflow-x: hidden; }
 img { max-width: 100%; height: auto; display: block; }
 a { color: #c41e3a; text-decoration: none; transition: color 0.2s; }
 a:hover { color: #9b1830; }
@@ -135,14 +136,16 @@ section { padding: 4rem 0; }
 }
 .dropdown:hover .dropdown-menu { display: block; }
 .dropdown-menu a {
-  display: block;
-  padding: 0.6rem 1.25rem;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
   font-size: 0.85rem;
+  min-height: 44px;
 }
 .dropdown-menu a:hover { background: rgba(255,255,255,0.05); }
 
 /* Mobile nav toggle */
-.nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; }
+.nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; min-width: 44px; min-height: 44px; }
 .nav-toggle span {
   display: block;
   width: 24px;
@@ -772,8 +775,8 @@ section { padding: 4rem 0; }
 }
 
 /* --- Card Grids --- */
-.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 2rem; }
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 2rem; }
 
 .card {
   background: #fff;
@@ -823,7 +826,7 @@ section { padding: 4rem 0; }
 /* --- Blog / News --- */
 
 /* Legacy post-grid (kept for compat) */
-.post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; }
+.post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 2rem; }
 .post-card {
   display: block;
   background: #fff;
@@ -1094,7 +1097,7 @@ section { padding: 4rem 0; }
 /* --- Story Grid Cards --- */
 .blog-stories-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr));
   gap: 1.25rem;
 }
 .blog-story-card {
@@ -1937,6 +1940,9 @@ section { padding: 4rem 0; }
   .footer-nav a { font-size: 0.85rem; }
   .footer-secondary a { font-size: 0.8rem; }
   .hero-bg-img { max-width: 100%; }
+  table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .ghl-form-wrapper { padding: 1rem; }
+  .ghl-form-wrapper iframe { min-height: 400px; }
 }
 
 /* --- Utility Classes --- */
@@ -3185,7 +3191,7 @@ iframe { max-width: 100%; }
 /* --- Testimonial Grid & Cards --- */
 .testimonial-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -3317,7 +3323,7 @@ iframe { max-width: 100%; }
 /* --- FAQ Grid & Cards --- */
 .faq-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -3738,7 +3744,7 @@ iframe { max-width: 100%; }
 /* Card Grid */
 .commit-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr));
   gap: 1.25rem;
 }
 
@@ -5267,6 +5273,20 @@ iframe { max-width: 100%; }
 .coach-card-badge {
   font-size: 0.72rem;
   padding: 0.3rem 0.85rem;
+}
+
+/* --- Extra-small phones (320–375px) --- */
+@media (max-width: 375px) {
+  .container { padding: 0 0.75rem; }
+  section { padding: 2.5rem 0; }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.3rem; }
+  .hero-content h1 { font-size: 1.75rem; }
+  .hero-content p { font-size: 0.9rem; }
+  .btn { padding: 0.7rem 1.25rem; font-size: 0.85rem; }
+  .cta-section { padding: 3rem 0; }
+  .staff-grid.grid-2-col,
+  .staff-grid.grid-3-col { grid-template-columns: 1fr; }
 }
 
 /* --- Print Styles --- */
