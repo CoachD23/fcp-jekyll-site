@@ -1863,8 +1863,11 @@ section { padding: 4rem 0; }
   .footer-secondary { gap: 0.3rem 1rem; }
   section { padding: 3rem 0; }
   .grid-2, .grid-3 { grid-template-columns: 1fr; }
-  .program-cards { grid-template-columns: 1fr; }
+  .program-cards { grid-template-columns: 1fr; gap: 1.5rem; }
   .testimonials-grid { grid-template-columns: 1fr; }
+  .testimonial-grid { gap: 1.5rem; }
+  .editorial-grid { gap: 1rem; }
+  .section-header { margin-bottom: 2rem; }
   .post-grid { grid-template-columns: 1fr; }
   .ghl-form-wrapper { padding: 1rem; margin: 1rem auto; }
   .page-header { padding: 6rem 0 2rem; }
@@ -1916,6 +1919,26 @@ section { padding: 4rem 0; }
   .editorial-feature { min-height: 280px; }
   .editorial-card { grid-template-columns: 85px 1fr; }
   .editorial-card-image { min-height: 75px; }
+  /* Homepage spacing tightening */
+  .program-card-content { padding: 1.25rem; }
+  .program-card-content h3 { font-size: 1.15rem; }
+  .program-card-content p { font-size: 0.88rem; }
+  .program-card-tag { font-size: 0.65rem; }
+  .program-cards { gap: 1rem; }
+  .testimonial-grid { gap: 1rem; }
+  .testimonial-card { padding: 1.25rem 1.25rem 1rem; }
+  .testimonial-quote-mark { font-size: 2.5rem; line-height: 1; }
+  .testimonial-author strong { font-size: 0.9rem; }
+  .testimonial-author span { font-size: 0.78rem; }
+  .editorial-grid { gap: 0.75rem; }
+  .section-header { margin-bottom: 1.5rem; }
+  .section-header p { font-size: 0.9rem; }
+  .cta-section { padding: 2.5rem 0; }
+  .cta-section h2 { font-size: 1.5rem; }
+  .cta-section p { font-size: 0.9rem; }
+  .alumni-editorial-cta { padding: 1.5rem 1rem 1.75rem; }
+  .alumni-editorial-cta h2 { font-size: 1.2rem; }
+  .spotlight-tag-line { font-size: 0.7rem; }
   /* Blog / Newsroom small mobile */
   .blog-hero-section { padding: 7rem 0 2rem; }
   .blog-hero-heading { font-size: 1.8rem; }
@@ -5287,6 +5310,31 @@ iframe { max-width: 100%; }
   .cta-section { padding: 3rem 0; }
   .staff-grid.grid-2-col,
   .staff-grid.grid-3-col { grid-template-columns: 1fr; }
+  /* Homepage sections */
+  .program-cards { gap: 0.75rem; }
+  .program-card-content { padding: 1rem; }
+  .program-card-content h3 { font-size: 1.05rem; }
+  .testimonial-grid { gap: 0.75rem; }
+  .testimonial-card { padding: 1rem 1rem 0.75rem; }
+  .testimonial-card p { font-size: 0.88rem; }
+  .testimonial-quote-mark { font-size: 2rem; }
+  .editorial-feature { min-height: 240px; }
+  .editorial-card { grid-template-columns: 70px 1fr; }
+  .editorial-card-image { min-height: 60px; }
+  .editorial-card-text h4 { font-size: 0.85rem; }
+  .editorial-card-text time { font-size: 0.7rem; }
+  .section-header { margin-bottom: 1.25rem; }
+  .section-header p { font-size: 0.85rem; }
+  .alumni-card { min-height: 320px; }
+  .alumni-card-title { font-size: 1rem; }
+  .alumni-card-excerpt { font-size: 0.8rem; -webkit-line-clamp: 2; }
+  .alumni-badge { font-size: 0.55rem; }
+  .alumni-editorial-cta h2 { font-size: 1.15rem; }
+  .alumni-editorial-cta { padding: 1.25rem 1rem 1.5rem; }
+  .credential-logo { height: 40px; }
+  .hero-credentials-logos { gap: 1rem; }
+  .ticker-item { font-size: 0.7rem; padding: 0.4rem 1rem; }
+  .news-ticker-label { font-size: 0.5rem; padding: 0.4rem 0.6rem; }
 }
 
 /* --- Print Styles --- */
