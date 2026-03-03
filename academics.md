@@ -23,6 +23,50 @@ hero_subtitle: Education That Prepares You for College
 .program-offers .feature-card { text-align: left; }
 .program-offers .feature-card p { text-align: justify; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
+
+/* ESPN-style stacked photo + text layout */
+.academics-feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto 2.5rem;
+  align-items: start;
+}
+.academics-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  background: #0a1628;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+}
+.academics-photos img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+.pull-quote {
+  border-left: 4px solid #c41e3a;
+  background: linear-gradient(135deg, #f8f0e3 0%, #f5f5f5 100%);
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  border-radius: 0 10px 10px 0;
+}
+.pull-quote span {
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #0a1628;
+  line-height: 1.5;
+  display: block;
+}
+@media (max-width: 768px) {
+  .academics-feature { grid-template-columns: 1fr; gap: 1.5rem; }
+  .academics-photos { border-radius: 10px; }
+}
 </style>
 
 <!-- Intro Statement -->
@@ -31,10 +75,11 @@ hero_subtitle: Education That Prepares You for College
   <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Every course is NCAA-approved and accredited. From dual enrollment with <strong>Colorado Christian University</strong> to unique electives like leadership and technology, our student-athletes graduate college-ready — with transcripts that pass the eligibility center and credentials that open scholarship opportunities.</p>
 </section>
 
-<!-- Academic Overview — Global Perspective -->
-<div class="program-grid fade-in">
-  <div class="program-image">
-    <img src="/assets/images/academics/fcp-book-074.jpeg" alt="Florida Coastal Prep student-athletes from around the world studying and training together at Fort Walton Beach campus" loading="lazy">
+<!-- Academic Overview — ESPN-style stacked photos + text -->
+<div class="academics-feature fade-in">
+  <div class="academics-photos">
+    <img src="/assets/images/academics/fcp-book-074.jpeg" alt="Florida Coastal Prep student-athletes from around the world studying and training together at Fort Walton Beach campus" width="800" height="600" loading="lazy">
+    <img src="/assets/images/academics/academic-studying.jpg" alt="Florida Coastal Prep student-athletes studying together at the Fort Walton Beach campus" width="800" height="600" loading="lazy">
   </div>
   <div class="program-details">
     <div class="staff-section-header" style="text-align: left;">
@@ -43,13 +88,13 @@ hero_subtitle: Education That Prepares You for College
       <div class="gold-rule" style="margin: 0;"></div>
     </div>
     <p>At Florida Coastal Prep, education goes beyond the classroom. Our student-athletes arrive from <strong>43 states and 22 countries</strong> — creating a truly global environment where learning happens on the court, in the classroom, and through everyday interactions with teammates from different cultures, backgrounds, and perspectives.</p>
+
+    <blockquote class="pull-quote">
+      <span>"Diversity is our academic advantage in a global marketplace."</span>
+    </blockquote>
+
     <p>This diversity is one of our greatest academic advantages. Student-athletes develop communication skills, cultural awareness, and the adaptability that colleges and employers value — all while completing rigorous, accredited coursework designed for college preparation.</p>
   </div>
-</div>
-
-<!-- Academic Photo -->
-<div class="fade-in" style="max-width: 900px; margin: 2rem auto;">
-  <img src="/assets/images/academics/academic-studying.jpg" alt="Florida Coastal Prep student-athletes studying together at the Fort Walton Beach campus" loading="lazy" style="width: 100%; border-radius: 10px; aspect-ratio: 4/3; object-fit: cover;">
 </div>
 
 <!-- Program Paths — Separated PG and HS -->
