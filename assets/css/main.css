@@ -4623,6 +4623,119 @@ iframe { max-width: 100%; }
   .cp-row-details { padding-left: 0; }
 }
 
+/* ── Commitments Mobile Enhancement ─────────────────────── */
+
+/* Tablet: note alignment + touch-friendly pills */
+@media (max-width: 768px) {
+  .cp-filters {
+    padding: 1rem 1.25rem;
+  }
+  .cp-pill {
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+  }
+  .cp-row-note {
+    width: 100%;
+    padding-left: 58px;
+  }
+}
+
+/* Small phone: tighter layout, realign details under name */
+@media (max-width: 480px) {
+  .cp-filters {
+    padding: 0.75rem 1rem;
+    gap: 0.6rem;
+    border-radius: 10px;
+  }
+  .cp-filter-row {
+    gap: 0.4rem;
+  }
+  .cp-pill {
+    min-height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cp-row-details {
+    padding-left: 58px;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .cp-row-town {
+    display: none;
+  }
+  .cp-row-note {
+    width: 100%;
+    padding-left: 58px;
+  }
+  .cp-feat-overlay {
+    padding: 0.75rem;
+  }
+  .cp-feat-team {
+    font-size: 0.72rem;
+  }
+  .cp-hero-sub {
+    font-size: 0.95rem;
+  }
+}
+
+/* Extra-small phones: iPhone SE, 375px and below */
+@media (max-width: 375px) {
+  .cp-hero {
+    padding: 4.5rem 0 2rem;
+  }
+  .cp-stat-num {
+    font-size: 1.5rem;
+  }
+  .cp-stat-label {
+    font-size: 0.6rem;
+  }
+  .cp-feat-name {
+    font-size: 1rem;
+  }
+  .cp-featured-row--top .cp-feat-card {
+    min-height: 200px;
+  }
+  .cp-featured-row--bottom .cp-feat-card {
+    min-height: 180px;
+  }
+  .cp-row {
+    padding: 0.65rem 0.75rem;
+  }
+  .cp-row-badge {
+    width: 40px;
+  }
+  .cp-level {
+    width: 36px;
+    font-size: 0.65rem;
+  }
+  .cp-row-name {
+    font-size: 0.85rem;
+  }
+  .cp-row-school {
+    font-size: 0.78rem;
+  }
+  .cp-row-details {
+    padding-left: 50px;
+  }
+  .cp-row-note {
+    padding-left: 50px;
+  }
+}
+
+/* Touch devices: enforce 44px tap targets */
+@media (pointer: coarse) {
+  .cp-pill {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+  .cp-row {
+    min-height: 56px;
+  }
+}
+
 /* --- Schedule Tables --- */
 .schedule-intro {
   max-width: 800px;
