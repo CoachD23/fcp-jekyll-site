@@ -4286,14 +4286,14 @@ iframe { max-width: 100%; }
 }
 .cp-section-tag {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   color: #d4a843;
   border: 1px solid rgba(212,168,67,0.35);
-  padding: 0.3rem 0.9rem;
-  border-radius: 20px;
+  padding: 0.45rem 1.25rem;
+  border-radius: 24px;
   margin-bottom: 0.75rem;
 }
 .cp-section-tag--dark {
