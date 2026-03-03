@@ -164,4 +164,5 @@ img,video{max-width:100%;height:auto;display:block}
 <!-- Hero image/poster: preload LCP for pages with hero images or video posters -->
 {% if page.hero_poster %}<link rel="preload" as="image" href="{{ page.hero_poster | relative_url }}" fetchpriority="high">{% endif %}
 {% if page.hero_image %}<link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" fetchpriority="high">{% endif %}
-{% if page.hero_video %}<link rel="preload" as="video" href="{{ page.hero_video | relative_url }}">{% endif %}
+{% if page.hero_video %}<!-- Video preload hint: use fetch type since "video" is not a valid preload as-type -->
+<link rel="preload" as="fetch" href="{{ page.hero_video | relative_url }}" crossorigin>{% endif %}
