@@ -28,6 +28,11 @@
   ['scroll','mousemove','touchstart','keydown','click'].forEach(function(e){window.addEventListener(e,l,{once:true,passive:true});});setTimeout(l,5000);})();
   </script>
 
+  <!-- Netlify Identity redirect (after CMS login, go to /admin/) -->
+  <script>
+  if(window.netlifyIdentity){window.netlifyIdentity.on("init",function(u){if(!u){window.netlifyIdentity.on("login",function(){document.location.href="/admin/";})}});}
+  </script>
+
   <!-- Service Worker -->
   <script>
   if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}
