@@ -185,7 +185,7 @@ hero_subtitle: Compete. Develop. Get Recruited.
 
 <style>
 .program-offers .feature-card { text-align: left; }
-.program-offers .feature-card p { text-align: justify; }
+.program-offers .feature-card p { text-align: left; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
 .hero-bg-img { object-position: center 30% !important; }
 

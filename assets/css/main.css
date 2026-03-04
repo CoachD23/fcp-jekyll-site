@@ -5780,6 +5780,91 @@ iframe { max-width: 100%; }
 }
 
 /* ============================================
+   Post-Grad & Program Pages — Polish Pass
+   Rounds sharp corners on dark sections, impact
+   bar, alumni cards; fixes justified text rivers.
+   ============================================ */
+
+/* Dark sections: round corners + side margins (matches CTA section pattern) */
+.page-content .staff-section-dark {
+  border-radius: 16px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  overflow: hidden;
+}
+
+/* Impact bar: match the rounded dark-section treatment */
+.page-content .impact-bar {
+  border-radius: 16px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  overflow: hidden;
+}
+
+/* Alumni callout cards: stronger border + glow on hover */
+.alumni-callout-card {
+  border: 1px solid rgba(212, 168, 67, 0.35) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
+}
+.alumni-callout-card:hover {
+  border-color: rgba(212, 168, 67, 0.6) !important;
+  box-shadow: 0 8px 32px rgba(212, 168, 67, 0.15), 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Feature card text: left-align to prevent justified word-spacing rivers */
+.program-offers .feature-card p {
+  text-align: left !important;
+}
+
+/* "View All" buttons inside dark sections: polished outline style */
+.staff-section-dark .btn-outline {
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  padding: 0.65rem 1.75rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.05);
+}
+.staff-section-dark .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.7);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.1);
+}
+
+/* Section spacing: breathe between rounded dark blocks and white content */
+.page-content .staff-section-dark + section,
+.page-content .staff-section-dark + .program-grid,
+.page-content .impact-bar + section {
+  margin-top: 3rem;
+}
+
+/* Mobile adjustments for rounded dark sections */
+@media (max-width: 768px) {
+  .page-content .staff-section-dark,
+  .page-content .impact-bar {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    border-radius: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .page-content .staff-section-dark,
+  .page-content .impact-bar {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 12px;
+  }
+  .alumni-callout-grid {
+    gap: 1rem;
+  }
+}
+
+/* ============================================
    Connect With Our Team — Inline Form Section
    Appears on every page except the homepage,
    right above the footer.
