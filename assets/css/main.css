@@ -6238,6 +6238,70 @@ iframe { max-width: 100%; }
 }
 
 /* =====================================================
+   ADVISORY / EXECUTIVE TEAM GRID (.advisory-grid)
+   Smaller cards in a 4-column row for advisory board
+   ===================================================== */
+
+.advisory-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.advisory-grid .espn-staff-card-img {
+  aspect-ratio: 1 / 1;
+}
+
+.advisory-grid .espn-staff-card-img img {
+  object-position: center 15%;
+}
+
+.advisory-grid .espn-staff-overlay h3 {
+  font-size: 0.95rem;
+}
+
+.advisory-grid .espn-staff-overlay p {
+  font-size: 0.75rem;
+}
+
+.advisory-grid .espn-staff-card-footer {
+  padding: 0.6rem 0.8rem;
+}
+
+.advisory-grid .espn-staff-btn {
+  font-size: 0.75rem;
+  padding: 0.35rem 0.9rem;
+}
+
+/* Advisory Grid — Tablet */
+@media (max-width: 1024px) {
+  .advisory-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+/* Advisory Grid — Mobile */
+@media (max-width: 600px) {
+  .advisory-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    padding: 0 1rem;
+  }
+
+  .advisory-grid .espn-staff-overlay h3 {
+    font-size: 0.85rem;
+  }
+
+  .advisory-grid .espn-staff-card-img {
+    aspect-ratio: 1 / 1;
+  }
+}
+
+/* =====================================================
    DIRECTOR CARDS (.director-card)
    Photo on top, name/title on solid dark background below
    Used for Program Directors section

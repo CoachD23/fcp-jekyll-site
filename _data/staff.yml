@@ -97,7 +97,7 @@
 
 - name: "Jared Dugan"
   slug: "jared-dugan"
-  title: "Head PG Coach / Recruiting Coordinator"
+  title: "Head Post Grad Coach / Recruiting Coordinator"
   section: "coaching"
   badge: ""
   image: "/assets/images/coaches/jared-dugan.jpg"
@@ -122,7 +122,7 @@
 
 - name: "Dmitry Utolin"
   slug: "dmitry-utolin"
-  title: "Head Coach / Sports Performance Director"
+  title: "Varsity Head Coach"
   section: "coaching"
   badge: "NAIA All-American"
   image: "/assets/images/coaches/dmitry-utolin.jpg"
@@ -149,7 +149,7 @@
 
 - name: "Tyler Martin"
   slug: "tyler-martin"
-  title: "Head Skill Development Coach"
+  title: "Assistant Coach / Head Skill Development"
   section: "coaching"
   badge: ""
   image: "/assets/images/coaches/tyler-martin.jpg"
@@ -256,7 +256,7 @@
 
 - name: "Guanda \"Dada\" Huang"
   slug: "dada-huang"
-  title: "International Recruiter"
+  title: "International Recruiter / Strength & Conditioning Coach"
   section: "coaching"
   badge: ""
   image: "/assets/images/coaches/dada-huang.webp"
@@ -353,7 +353,7 @@
 - name: "Alba Reyes"
   slug: "alba-reyes"
   title: "Admissions Director"
-  section: "admissions"
+  section: "advisory"
   badge: ""
   image: "/assets/images/coaches/alba-reyes.webp"
   action_image: ""

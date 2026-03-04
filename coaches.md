@@ -50,34 +50,17 @@ permalink: /coaches/
 </section>
 {% endif %}
 
-<!-- Advisory Board -->
+<!-- Executive Team / Advisory Board -->
 {% assign advisors = site.data.staff | where: "section", "advisory" %}
 {% if advisors.size > 0 %}
 <section class="staff-section fade-in">
   <div class="staff-section-header">
-    <span class="section-label">Advisors</span>
-    <h2>Advisory Board</h2>
+    <span class="section-label">Leadership</span>
+    <h2>Executive Team / Advisory Board</h2>
     <div class="gold-rule"></div>
   </div>
-  <div class="espn-staff-grid">
+  <div class="advisory-grid">
     {% for member in advisors %}
-      {% include staff-card.html member=member %}
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
-
-<!-- Admissions -->
-{% assign admissions = site.data.staff | where: "section", "admissions" %}
-{% if admissions.size > 0 %}
-<section class="staff-section staff-section-dark fade-in">
-  <div class="staff-section-header">
-    <span class="section-label">Admissions</span>
-    <h2>Admissions Office</h2>
-    <div class="gold-rule"></div>
-  </div>
-  <div class="espn-staff-grid">
-    {% for member in admissions %}
       {% include staff-card.html member=member %}
     {% endfor %}
   </div>
