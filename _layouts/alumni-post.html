@@ -20,7 +20,7 @@ layout: default
   {% if page.image_fcp and page.image %}
   <div class="journey-card-wrapper">
     <div class="container">
-      <div class="journey-card{% if page.featured_video %} journey-card-3{% endif %}">
+      <div class="journey-card{% if page.alumni_video %} journey-card-3{% endif %}">
         <div class="journey-card-then">
           <img src="{{ page.image_fcp | relative_url }}" alt="{{ page.player_name }} at Florida Coastal Prep" loading="lazy">
           <div class="journey-card-label">
@@ -38,14 +38,14 @@ layout: default
             <span class="journey-label-tag journey-label-now">{{ page.current_team | default: "NBA" }}</span>
           </div>
         </div>
-        {% if page.featured_video %}
+        {% if page.alumni_video %}
         <div class="journey-card-divider">
           <div class="journey-arrow">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </div>
         </div>
         <div class="journey-card-video">
-          <video src="{{ page.featured_video | relative_url }}" controls playsinline preload="metadata" poster="{{ page.image | relative_url }}"></video>
+          <video src="{{ page.alumni_video | relative_url }}" controls playsinline preload="metadata" poster="{{ page.image | relative_url }}"></video>
           <div class="journey-card-label">
             <span class="journey-label-tag journey-label-video">Highlights</span>
           </div>

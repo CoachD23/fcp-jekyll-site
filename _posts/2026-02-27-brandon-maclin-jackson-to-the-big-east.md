@@ -4,7 +4,7 @@ title: "Whatever It Takes to Win: Brandon Maclin's Road to the Big East"
 date: 2026-02-27
 categories: [alumni]
 image: /assets/images/brandon-maclin-depaul.jpeg
-featured_video: /assets/videos/brandon-maclin-clip.mp4
+alumni_video: /assets/videos/brandon-maclin-clip.mp4
 image_fcp: /assets/images/brandon-maclin-fcp-action.jpeg
 player_name: Brandon Maclin
 current_team: DePaul Blue Demons
