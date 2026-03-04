@@ -314,6 +314,11 @@ section { padding: 4rem 0; }
   z-index: 0;
 }
 
+/* FAQ hero — shift image down to show players in huddle */
+.faq-page .hero-bg-img {
+  object-position: center 75%;
+}
+
 /* --- Section Tags --- */
 .section-tag {
   display: inline-block;
