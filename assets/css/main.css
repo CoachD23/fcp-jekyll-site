@@ -314,9 +314,9 @@ section { padding: 4rem 0; }
   z-index: 0;
 }
 
-/* FAQ hero — shift image down to show players in huddle */
+/* FAQ hero — center on team trophy photo */
 .faq-page .hero-bg-img {
-  object-position: center 45%;
+  object-position: center 35%;
 }
 
 /* --- Section Tags --- */
