@@ -47,8 +47,12 @@ og_image: /assets/images/blog/blog-default.jpg
               <span class="blog-badge blog-badge-recap">Game Recap</span>
             {% elsif cat == "recruiting" or cat == "basketball" %}
               <span class="blog-badge blog-badge-guide">Recruiting Guide</span>
-            {% elsif cat == "program" %}
-              <span class="blog-badge blog-badge-program">Program</span>
+            {% elsif cat == "daily-life" %}
+              <span class="blog-badge blog-badge-daily">Daily Life</span>
+            {% elsif cat == "training" %}
+              <span class="blog-badge blog-badge-training">Training</span>
+            {% elsif cat == "program-news" or cat == "program" %}
+              <span class="blog-badge blog-badge-program">Program News</span>
             {% else %}
               <span class="blog-badge blog-badge-highlight">News</span>
             {% endif %}
@@ -85,6 +89,9 @@ og_image: /assets/images/blog/blog-default.jpg
         <button class="blog-sfilt" data-filter="highlights">Highlights</button>
         <button class="blog-sfilt" data-filter="commitments">Commits</button>
         <button class="blog-sfilt" data-filter="game-recap">Recaps</button>
+        <button class="blog-sfilt" data-filter="daily-life">Daily Life</button>
+        <button class="blog-sfilt" data-filter="training">Training</button>
+        <button class="blog-sfilt" data-filter="program-news">News</button>
       </div>
     </div>
 
@@ -111,8 +118,12 @@ og_image: /assets/images/blog/blog-default.jpg
             <span class="blog-badge blog-badge-recap">Game Recap</span>
           {% elsif cat == "recruiting" or cat == "basketball" %}
             <span class="blog-badge blog-badge-guide">Recruiting Guide</span>
-          {% elsif cat == "program" %}
-            <span class="blog-badge blog-badge-program">Program</span>
+          {% elsif cat == "daily-life" %}
+            <span class="blog-badge blog-badge-daily">Daily Life</span>
+          {% elsif cat == "training" %}
+            <span class="blog-badge blog-badge-training">Training</span>
+          {% elsif cat == "program-news" or cat == "program" %}
+            <span class="blog-badge blog-badge-program">Program News</span>
           {% else %}
             <span class="blog-badge blog-badge-highlight">News</span>
           {% endif %}

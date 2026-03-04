@@ -1,0 +1,707 @@
+---
+layout: page
+title: Submit Content
+subtitle: FCP Content Generator
+description: "Submit game recaps, daily life updates, commitment announcements, training reports, and more. Auto-generates SEO-optimized blog posts for review."
+hero_image: /assets/images/training/spartan-center.jpg
+hero_title: Content Generator
+hero_subtitle: Create & Share FCP Stories
+og_image: /assets/images/about-fcp.jpg
+---
+
+<!-- Intro -->
+<section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2rem; padding: 2rem 2.5rem; max-width: 720px; border-radius: 0 12px 12px 0;">
+  <h2 style="font-size: 1.75rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 0.75rem;">Post FCP Content.</h2>
+  <p style="font-size: 1.05rem; line-height: 1.7; color: #333; margin: 0;">Pick a category, fill in the details, and an SEO-optimized post will be auto-generated. Coach D reviews and publishes from the CMS.</p>
+</section>
+
+<!-- Category Grid -->
+<div class="cf-category-grid fade-in">
+  <button type="button" class="cf-cat-btn" data-cat="game-recap">
+    <span class="cf-cat-icon">🏀</span>
+    <span class="cf-cat-name">Game Recap</span>
+  </button>
+  <button type="button" class="cf-cat-btn" data-cat="daily-life">
+    <span class="cf-cat-icon">📸</span>
+    <span class="cf-cat-name">Daily Life</span>
+  </button>
+  <button type="button" class="cf-cat-btn" data-cat="commitments">
+    <span class="cf-cat-icon">✍️</span>
+    <span class="cf-cat-name">Commitment</span>
+  </button>
+  <button type="button" class="cf-cat-btn" data-cat="training">
+    <span class="cf-cat-icon">💪</span>
+    <span class="cf-cat-name">Training</span>
+  </button>
+  <button type="button" class="cf-cat-btn" data-cat="program-news">
+    <span class="cf-cat-icon">📰</span>
+    <span class="cf-cat-name">Program News</span>
+  </button>
+  <button type="button" class="cf-cat-btn" data-cat="alumni">
+    <span class="cf-cat-icon">🎓</span>
+    <span class="cf-cat-name">Alumni Update</span>
+  </button>
+</div>
+
+<!-- Form -->
+<div class="recap-form-wrap fade-in" id="formWrap" style="display:none;">
+  <div class="cf-selected-cat" id="selectedCatBar">
+    <span id="selectedCatLabel"></span>
+    <button type="button" id="changeCatBtn" class="cf-change-btn">Change</button>
+  </div>
+
+  <form id="contentForm" novalidate>
+
+    <!-- ═══ SHARED: Photo ═══ -->
+    <div class="rf-group">
+      <label class="rf-label">Photo</label>
+      <div class="rf-photo-drop" id="photoDrop">
+        <input type="file" id="photoInput" accept="image/*" capture="environment" style="display:none;">
+        <div id="photoPlaceholder" class="rf-photo-placeholder">
+          <svg viewBox="0 0 24 24" width="36" height="36" fill="#94a3b8"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+          <span>Tap to add photo</span>
+        </div>
+        <img id="photoPreview" class="rf-photo-preview" style="display:none;" alt="Content photo preview">
+      </div>
+    </div>
+
+    <!-- ═══ SHARED: Date ═══ -->
+    <div class="rf-group">
+      <label class="rf-label" for="contentDate">Date</label>
+      <input type="date" id="contentDate" class="rf-input" required>
+    </div>
+
+    <!-- ═══ GAME RECAP FIELDS ═══ -->
+    <div class="cf-fields" data-for="game-recap">
+      <div class="rf-group">
+        <label class="rf-label" for="opponent">Opponent</label>
+        <input type="text" id="opponent" class="rf-input" placeholder="e.g. Pensacola Catholic">
+      </div>
+      <div class="rf-row">
+        <div class="rf-group rf-half">
+          <label class="rf-label" for="fcpScore">FCP Score</label>
+          <input type="number" id="fcpScore" class="rf-input rf-score" placeholder="0" min="0" max="200">
+        </div>
+        <div class="rf-vs">VS</div>
+        <div class="rf-group rf-half">
+          <label class="rf-label" for="oppScore">Opp Score</label>
+          <input type="number" id="oppScore" class="rf-input rf-score" placeholder="0" min="0" max="200">
+        </div>
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="team">Team</label>
+        <select id="team" class="rf-input">
+          <option value="Post-Grad Gold">Post-Grad Gold</option>
+          <option value="Post-Grad Black">Post-Grad Black</option>
+          <option value="Post-Grad Red">Post-Grad Red</option>
+          <option value="HS Varsity">HS Varsity</option>
+          <option value="HS JV">HS JV</option>
+        </select>
+      </div>
+      <div class="rf-group">
+        <label class="rf-label">Location</label>
+        <div class="rf-toggle-row">
+          <button type="button" class="rf-toggle active" data-val="Home">Home</button>
+          <button type="button" class="rf-toggle" data-val="Away">Away</button>
+        </div>
+        <input type="hidden" id="location" value="Home">
+        <input type="text" id="venueName" class="rf-input" placeholder="Venue name (optional)" style="margin-top: 0.75rem;">
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="significance">Game Significance</label>
+        <select id="significance" class="rf-input">
+          <option value="Regular Season">Regular Season</option>
+          <option value="Tournament">Tournament</option>
+          <option value="Rivalry">Rivalry</option>
+          <option value="Championship">Championship</option>
+          <option value="Exhibition">Exhibition</option>
+        </select>
+      </div>
+      <div class="rf-group">
+        <label class="rf-label">Notable Performances</label>
+        <div id="playerRows">
+          <div class="rf-player-row">
+            <input type="text" class="rf-input rf-player-name" placeholder="Player name">
+            <input type="text" class="rf-input rf-player-stats" placeholder="e.g. 22 pts, 8 reb">
+          </div>
+        </div>
+        <button type="button" id="addPlayerBtn" class="rf-add-btn">+ Add Player</button>
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="highlights">Game Highlights</label>
+        <textarea id="highlights" class="rf-input rf-textarea" rows="3" placeholder="Key moments from the game (2-3 sentences)"></textarea>
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="coachQuote">Coach Quote <span style="color:#94a3b8; font-weight:400;">(optional)</span></label>
+        <textarea id="coachQuote" class="rf-input rf-textarea" rows="2" placeholder="&quot;Our guys came out focused...&quot;"></textarea>
+      </div>
+    </div>
+
+    <!-- ═══ DAILY LIFE FIELDS ═══ -->
+    <div class="cf-fields" data-for="daily-life" style="display:none;">
+      <div class="rf-group">
+        <label class="rf-label" for="dlTitle">Title</label>
+        <input type="text" id="dlTitle" class="rf-input" placeholder="e.g. Taco Tuesday at FCP">
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="dlCaption">Caption / Description</label>
+        <textarea id="dlCaption" class="rf-input rf-textarea" rows="3" placeholder="What's happening? Keep it fun and real."></textarea>
+      </div>
+    </div>
+
+    <!-- ═══ COMMITMENT FIELDS ═══ -->
+    <div class="cf-fields" data-for="commitments" style="display:none;">
+      <div class="rf-group">
+        <label class="rf-label" for="cmPlayerName">Player Name</label>
+        <input type="text" id="cmPlayerName" class="rf-input" placeholder="e.g. Brandon Maclin">
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="cmSchool">Committing School</label>
+        <input type="text" id="cmSchool" class="rf-input" placeholder="e.g. Houston Christian University">
+      </div>
+      <div class="rf-row">
+        <div class="rf-group rf-half">
+          <label class="rf-label" for="cmPosition">Position</label>
+          <input type="text" id="cmPosition" class="rf-input" placeholder="e.g. Guard">
+        </div>
+        <div class="rf-group rf-half">
+          <label class="rf-label" for="cmHeight">Height</label>
+          <input type="text" id="cmHeight" class="rf-input" placeholder="e.g. 6'3&quot;">
+        </div>
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="cmHometown">Hometown</label>
+        <input type="text" id="cmHometown" class="rf-input" placeholder="e.g. Miami, FL">
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="cmQuote">Player or Coach Quote <span style="color:#94a3b8; font-weight:400;">(optional)</span></label>
+        <textarea id="cmQuote" class="rf-input rf-textarea" rows="2" placeholder="&quot;This is just the beginning...&quot;"></textarea>
+      </div>
+    </div>
+
+    <!-- ═══ TRAINING FIELDS ═══ -->
+    <div class="cf-fields" data-for="training" style="display:none;">
+      <div class="rf-group">
+        <label class="rf-label" for="trTitle">Title</label>
+        <input type="text" id="trTitle" class="rf-input" placeholder="e.g. Morning Shooting Session">
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="trFocus">Drill / Focus Area</label>
+        <input type="text" id="trFocus" class="rf-input" placeholder="e.g. Perimeter shooting, ball handling">
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="trDescription">Description</label>
+        <textarea id="trDescription" class="rf-input rf-textarea" rows="3" placeholder="What happened in the session?"></textarea>
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="trPlayers">Players Involved <span style="color:#94a3b8; font-weight:400;">(optional)</span></label>
+        <input type="text" id="trPlayers" class="rf-input" placeholder="e.g. Gold team, Marcus J., Jaylen W.">
+      </div>
+    </div>
+
+    <!-- ═══ PROGRAM NEWS FIELDS ═══ -->
+    <div class="cf-fields" data-for="program-news" style="display:none;">
+      <div class="rf-group">
+        <label class="rf-label" for="pnTitle">Headline</label>
+        <input type="text" id="pnTitle" class="rf-input" placeholder="e.g. FCP Partners with Local University">
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="pnDescription">Details</label>
+        <textarea id="pnDescription" class="rf-input rf-textarea" rows="4" placeholder="Write the story details here..."></textarea>
+      </div>
+    </div>
+
+    <!-- ═══ ALUMNI UPDATE FIELDS ═══ -->
+    <div class="cf-fields" data-for="alumni" style="display:none;">
+      <div class="rf-group">
+        <label class="rf-label" for="alPlayerName">Player Name</label>
+        <input type="text" id="alPlayerName" class="rf-input" placeholder="e.g. Kenny Anderson Jr.">
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="alCurrentTeam">Current Team / School</label>
+        <input type="text" id="alCurrentTeam" class="rf-input" placeholder="e.g. Stetson Hatters">
+      </div>
+      <div class="rf-group">
+        <label class="rf-label" for="alUpdate">Update</label>
+        <textarea id="alUpdate" class="rf-input rf-textarea" rows="3" placeholder="What are they up to? Stats, achievements, milestones..."></textarea>
+      </div>
+    </div>
+
+    <!-- ═══ SHARED: Access Code ═══ -->
+    <div class="rf-group">
+      <label class="rf-label" for="accessCode">Access Code</label>
+      <input type="number" id="accessCode" class="rf-input" placeholder="4-digit code" required style="max-width: 160px; letter-spacing: 0.2em; text-align: center; font-size: 1.3rem; font-weight: 700;">
+    </div>
+
+    <!-- Submit -->
+    <button type="submit" class="rf-submit" id="submitBtn">
+      <span id="submitText">Submit Content</span>
+      <span id="submitSpinner" style="display:none;" class="rf-spinner"></span>
+    </button>
+
+    <!-- Feedback -->
+    <div id="formFeedback" class="rf-feedback" style="display:none;"></div>
+
+  </form>
+</div>
+
+<!-- Success overlay -->
+<div id="successOverlay" class="rf-success-overlay" style="display:none;">
+  <div class="rf-success-card">
+    <svg viewBox="0 0 24 24" width="56" height="56" fill="#22c55e"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+    <h2>Content Saved!</h2>
+    <p>Saved as draft. Coach D will review and publish from the CMS.</p>
+    <button type="button" onclick="location.reload()" class="rf-submit" style="margin-top:1.5rem;">Submit Another</button>
+  </div>
+</div>
+
+<script>
+(function() {
+  var selectedCategory = '';
+  var compressedBase64 = '';
+
+  // ── Category selection ──
+  var catBtns = document.querySelectorAll('.cf-cat-btn');
+  var formWrap = document.getElementById('formWrap');
+  var fieldSections = document.querySelectorAll('.cf-fields');
+  var selectedCatLabel = document.getElementById('selectedCatLabel');
+  var catGrid = document.querySelector('.cf-category-grid');
+  var catNames = {
+    'game-recap': '🏀 Game Recap',
+    'daily-life': '📸 Daily Life',
+    'commitments': '✍️ Commitment',
+    'training': '💪 Training',
+    'program-news': '📰 Program News',
+    'alumni': '🎓 Alumni Update'
+  };
+
+  catBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      selectedCategory = btn.getAttribute('data-cat');
+      catBtns.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+
+      // Show form, hide grid
+      formWrap.style.display = '';
+      catGrid.style.display = 'none';
+      selectedCatLabel.textContent = catNames[selectedCategory] || selectedCategory;
+
+      // Toggle field sections
+      fieldSections.forEach(function(sec) {
+        sec.style.display = sec.getAttribute('data-for') === selectedCategory ? '' : 'none';
+      });
+
+      // Scroll to form
+      formWrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  // ── Change category button ──
+  document.getElementById('changeCatBtn').addEventListener('click', function() {
+    catGrid.style.display = '';
+    formWrap.style.display = 'none';
+    selectedCategory = '';
+    catBtns.forEach(function(b) { b.classList.remove('active'); });
+  });
+
+  // ── Date default to today ──
+  var today = new Date().toISOString().split('T')[0];
+  document.getElementById('contentDate').value = today;
+
+  // ── Photo handling with compression ──
+  var photoDrop = document.getElementById('photoDrop');
+  var photoInput = document.getElementById('photoInput');
+  var photoPreview = document.getElementById('photoPreview');
+  var photoPlaceholder = document.getElementById('photoPlaceholder');
+
+  photoDrop.addEventListener('click', function() { photoInput.click(); });
+
+  photoInput.addEventListener('change', function(e) {
+    var file = e.target.files[0];
+    if (!file) return;
+    compressImage(file, function(dataUrl) {
+      compressedBase64 = dataUrl;
+      photoPreview.src = dataUrl;
+      photoPreview.style.display = 'block';
+      photoPlaceholder.style.display = 'none';
+    });
+  });
+
+  function compressImage(file, cb) {
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var img = new Image();
+      img.onload = function() {
+        var canvas = document.createElement('canvas');
+        var MAX = 1200;
+        var w = img.width, h = img.height;
+        if (w > MAX) { h = h * (MAX / w); w = MAX; }
+        if (h > MAX) { w = w * (MAX / h); h = MAX; }
+        canvas.width = w;
+        canvas.height = h;
+        var ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, w, h);
+        cb(canvas.toDataURL('image/jpeg', 0.8));
+      };
+      img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+  }
+
+  // ── Location toggle (game-recap) ──
+  var toggles = document.querySelectorAll('.rf-toggle');
+  var locInput = document.getElementById('location');
+  toggles.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      toggles.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      locInput.value = btn.getAttribute('data-val');
+    });
+  });
+
+  // ── Add player rows (game-recap) ──
+  var playerRows = document.getElementById('playerRows');
+  var addBtn = document.getElementById('addPlayerBtn');
+  addBtn.addEventListener('click', function() {
+    var rows = playerRows.querySelectorAll('.rf-player-row');
+    if (rows.length >= 5) return;
+    var row = document.createElement('div');
+    row.className = 'rf-player-row';
+    row.innerHTML = '<input type="text" class="rf-input rf-player-name" placeholder="Player name"><input type="text" class="rf-input rf-player-stats" placeholder="e.g. 18 pts, 3-5 3PT"><button type="button" class="rf-remove-btn" title="Remove">&times;</button>';
+    playerRows.appendChild(row);
+    row.querySelector('.rf-remove-btn').addEventListener('click', function() { row.remove(); });
+    if (playerRows.querySelectorAll('.rf-player-row').length >= 5) addBtn.style.display = 'none';
+  });
+
+  // ── Form submission ──
+  var form = document.getElementById('contentForm');
+  var submitBtn = document.getElementById('submitBtn');
+  var submitText = document.getElementById('submitText');
+  var submitSpinner = document.getElementById('submitSpinner');
+  var feedback = document.getElementById('formFeedback');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    feedback.style.display = 'none';
+
+    if (!selectedCategory) {
+      showFeedback('Please select a category first.', 'error');
+      return;
+    }
+
+    var contentDate = document.getElementById('contentDate').value;
+    var accessCode = document.getElementById('accessCode').value;
+
+    if (!contentDate || !accessCode) {
+      showFeedback('Please fill in the date and access code.', 'error');
+      return;
+    }
+
+    // Build payload based on category
+    var payload = {
+      category: selectedCategory,
+      contentDate: contentDate,
+      accessCode: accessCode,
+      imageBase64: compressedBase64 || ''
+    };
+
+    if (selectedCategory === 'game-recap') {
+      var opponent = document.getElementById('opponent').value.trim();
+      var fcpScore = document.getElementById('fcpScore').value;
+      var oppScore = document.getElementById('oppScore').value;
+      if (!opponent || !fcpScore || !oppScore) {
+        showFeedback('Please fill in opponent and scores.', 'error');
+        return;
+      }
+      var players = [];
+      document.querySelectorAll('.rf-player-row').forEach(function(row) {
+        var name = row.querySelector('.rf-player-name').value.trim();
+        var stats = row.querySelector('.rf-player-stats').value.trim();
+        if (name && stats) players.push({ name: name, stats: stats });
+      });
+      payload.opponent = opponent;
+      payload.fcpScore = parseInt(fcpScore, 10);
+      payload.oppScore = parseInt(oppScore, 10);
+      payload.team = document.getElementById('team').value;
+      payload.location = document.getElementById('location').value;
+      payload.venueName = document.getElementById('venueName').value.trim();
+      payload.significance = document.getElementById('significance').value;
+      payload.players = players;
+      payload.highlights = document.getElementById('highlights').value.trim();
+      payload.coachQuote = document.getElementById('coachQuote').value.trim();
+    }
+    else if (selectedCategory === 'daily-life') {
+      var dlTitle = document.getElementById('dlTitle').value.trim();
+      if (!dlTitle) { showFeedback('Please enter a title.', 'error'); return; }
+      payload.title = dlTitle;
+      payload.caption = document.getElementById('dlCaption').value.trim();
+    }
+    else if (selectedCategory === 'commitments') {
+      var cmPlayer = document.getElementById('cmPlayerName').value.trim();
+      var cmSchool = document.getElementById('cmSchool').value.trim();
+      if (!cmPlayer || !cmSchool) { showFeedback('Please enter the player name and school.', 'error'); return; }
+      payload.playerName = cmPlayer;
+      payload.school = cmSchool;
+      payload.position = document.getElementById('cmPosition').value.trim();
+      payload.height = document.getElementById('cmHeight').value.trim();
+      payload.hometown = document.getElementById('cmHometown').value.trim();
+      payload.quote = document.getElementById('cmQuote').value.trim();
+    }
+    else if (selectedCategory === 'training') {
+      var trTitle = document.getElementById('trTitle').value.trim();
+      if (!trTitle) { showFeedback('Please enter a title.', 'error'); return; }
+      payload.title = trTitle;
+      payload.focus = document.getElementById('trFocus').value.trim();
+      payload.description = document.getElementById('trDescription').value.trim();
+      payload.playersInvolved = document.getElementById('trPlayers').value.trim();
+    }
+    else if (selectedCategory === 'program-news') {
+      var pnTitle = document.getElementById('pnTitle').value.trim();
+      if (!pnTitle) { showFeedback('Please enter a headline.', 'error'); return; }
+      payload.title = pnTitle;
+      payload.description = document.getElementById('pnDescription').value.trim();
+    }
+    else if (selectedCategory === 'alumni') {
+      var alPlayer = document.getElementById('alPlayerName').value.trim();
+      if (!alPlayer) { showFeedback('Please enter the player name.', 'error'); return; }
+      payload.playerName = alPlayer;
+      payload.currentTeam = document.getElementById('alCurrentTeam').value.trim();
+      payload.update = document.getElementById('alUpdate').value.trim();
+    }
+
+    // Submit
+    submitBtn.disabled = true;
+    submitText.textContent = 'Submitting...';
+    submitSpinner.style.display = 'inline-block';
+
+    fetch('/.netlify/functions/submit-content', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+    .then(function(res) { return res.json().then(function(data) { return { ok: res.ok, data: data }; }); })
+    .then(function(result) {
+      if (result.ok && result.data.success) {
+        document.getElementById('successOverlay').style.display = 'flex';
+      } else {
+        showFeedback(result.data.error || 'Something went wrong. Please try again.', 'error');
+      }
+    })
+    .catch(function() {
+      showFeedback('Network error. Check your connection and try again.', 'error');
+    })
+    .finally(function() {
+      submitBtn.disabled = false;
+      submitText.textContent = 'Submit Content';
+      submitSpinner.style.display = 'none';
+    });
+  });
+
+  function showFeedback(msg, type) {
+    feedback.textContent = msg;
+    feedback.className = 'rf-feedback rf-feedback-' + type;
+    feedback.style.display = 'block';
+    feedback.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+})();
+</script>
+
+<style>
+.hero-bg-img { object-position: center 40% !important; }
+
+/* ── Category Grid ── */
+.cf-category-grid {
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  padding: 0 1rem;
+}
+.cf-cat-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.5rem 0.75rem;
+  background: #fff;
+  border: 2px solid #e2e4e8;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.cf-cat-btn:hover { border-color: #c41e3a; background: #fef2f4; transform: translateY(-2px); box-shadow: 0 4px 16px rgba(196,30,58,0.1); }
+.cf-cat-btn.active { border-color: #c41e3a; background: #c41e3a; }
+.cf-cat-btn.active .cf-cat-name { color: #fff; }
+.cf-cat-icon { font-size: 2rem; line-height: 1; }
+.cf-cat-name { font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #0a1628; }
+@media (max-width: 480px) {
+  .cf-category-grid { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
+  .cf-cat-btn { padding: 1.25rem 0.5rem; }
+  .cf-cat-icon { font-size: 1.6rem; }
+  .cf-cat-name { font-size: 0.75rem; }
+}
+
+/* ── Selected Category Bar ── */
+.cf-selected-cat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0a1628;
+  color: #fff;
+  padding: 0.85rem 1.25rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.cf-change-btn {
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  color: #fff;
+  padding: 0.35rem 0.85rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.cf-change-btn:hover { background: rgba(255,255,255,0.25); }
+
+/* ── Form Wrapper ── */
+.recap-form-wrap {
+  max-width: 720px;
+  margin: 0 auto 3rem;
+  background: #fff;
+  border-radius: 16px;
+  padding: 2.5rem 2.5rem 2rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  border: 1px solid #e8e9eb;
+}
+@media (max-width: 600px) {
+  .recap-form-wrap { padding: 1.5rem 1.25rem 1.25rem; border-radius: 12px; }
+}
+
+/* ── Form Groups ── */
+.rf-group { margin-bottom: 1.5rem; }
+.rf-label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #0a1628;
+  margin-bottom: 0.5rem;
+}
+.rf-input {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #e2e4e8;
+  border-radius: 10px;
+  background: #f8f9fa;
+  color: #0a1628;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+}
+.rf-input:focus { outline: none; border-color: #c41e3a; background: #fff; }
+.rf-textarea { resize: vertical; min-height: 80px; font-family: inherit; }
+
+/* ── Scores Row ── */
+.rf-row { display: flex; align-items: flex-end; gap: 0.75rem; }
+.rf-half { flex: 1; }
+.rf-vs { font-size: 1rem; font-weight: 800; color: #94a3b8; padding-bottom: 0.95rem; flex-shrink: 0; }
+.rf-score { text-align: center; font-size: 1.5rem; font-weight: 800; letter-spacing: 0.05em; }
+
+/* ── Photo ── */
+.rf-photo-drop {
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+  background: #f8f9fa;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rf-photo-drop:hover { border-color: #c41e3a; background: #fef2f4; }
+.rf-photo-placeholder { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; color: #94a3b8; font-size: 0.95rem; }
+.rf-photo-preview { width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px; }
+
+/* ── Location Toggle ── */
+.rf-toggle-row { display: flex; gap: 0.5rem; }
+.rf-toggle {
+  flex: 1; padding: 0.75rem;
+  border: 2px solid #e2e4e8; border-radius: 10px;
+  background: #f8f9fa; font-size: 1rem; font-weight: 700;
+  color: #64748b; cursor: pointer; transition: all 0.2s; text-align: center;
+}
+.rf-toggle.active { border-color: #c41e3a; background: #c41e3a; color: #fff; }
+
+/* ── Player Rows ── */
+.rf-player-row { display: flex; gap: 0.5rem; margin-bottom: 0.5rem; align-items: center; }
+.rf-player-name { flex: 2; }
+.rf-player-stats { flex: 3; }
+.rf-remove-btn {
+  width: 36px; height: 36px; border: none; background: #fee2e2;
+  color: #c41e3a; border-radius: 8px; font-size: 1.2rem; cursor: pointer;
+  flex-shrink: 0; display: flex; align-items: center; justify-content: center; line-height: 1;
+}
+.rf-add-btn {
+  background: none; border: 2px dashed #cbd5e1; border-radius: 10px;
+  padding: 0.65rem 1rem; color: #64748b; font-size: 0.9rem; font-weight: 600;
+  cursor: pointer; width: 100%; transition: border-color 0.2s, color 0.2s;
+}
+.rf-add-btn:hover { border-color: #c41e3a; color: #c41e3a; }
+
+/* ── Submit ── */
+.rf-submit {
+  width: 100%; padding: 1.1rem; background: #c41e3a; color: #fff;
+  font-size: 1.15rem; font-weight: 800; border: none; border-radius: 12px;
+  cursor: pointer; transition: background 0.2s, transform 0.15s;
+  display: flex; align-items: center; justify-content: center; gap: 0.5rem; margin-top: 0.5rem;
+}
+.rf-submit:hover { background: #a3162e; }
+.rf-submit:active { transform: scale(0.98); }
+.rf-submit:disabled { opacity: 0.7; cursor: not-allowed; }
+
+/* ── Spinner ── */
+.rf-spinner {
+  width: 20px; height: 20px;
+  border: 3px solid rgba(255,255,255,0.3); border-top-color: #fff;
+  border-radius: 50%; animation: rf-spin 0.7s linear infinite;
+}
+@keyframes rf-spin { to { transform: rotate(360deg); } }
+
+/* ── Feedback ── */
+.rf-feedback { margin-top: 1rem; padding: 1rem 1.25rem; border-radius: 10px; font-size: 0.95rem; font-weight: 600; }
+.rf-feedback-error { background: #fef2f2; color: #c41e3a; border: 1px solid #fecaca; }
+.rf-feedback-success { background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; }
+
+/* ── Success Overlay ── */
+.rf-success-overlay {
+  position: fixed; inset: 0; background: rgba(10,22,40,0.85); z-index: 9999;
+  display: flex; align-items: center; justify-content: center; padding: 2rem;
+}
+.rf-success-card {
+  background: #fff; border-radius: 20px; padding: 3rem 2.5rem; text-align: center;
+  max-width: 420px; width: 100%; box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+.rf-success-card h2 { font-size: 1.75rem; color: #0a1628; margin: 1rem 0 0.5rem; }
+.rf-success-card p { color: #64748b; font-size: 1.05rem; margin: 0; }
+
+/* ── Mobile tweaks ── */
+@media (max-width: 480px) {
+  .rf-player-row { flex-wrap: wrap; }
+  .rf-player-name, .rf-player-stats { flex: 1 1 100%; }
+  .rf-remove-btn { margin-left: auto; }
+  .rf-row { gap: 0.5rem; }
+  .rf-vs { font-size: 0.85rem; padding-bottom: 0.85rem; }
+}
+</style>

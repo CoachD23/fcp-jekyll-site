@@ -997,6 +997,8 @@ section { padding: 4rem 0; }
 .blog-badge-recap { background: #1a3a5c; color: #fff; }
 .blog-badge-guide { background: #0a4d2e; color: #fff; }
 .blog-badge-program { background: #0a1628; color: #d4a843; border: 1px solid rgba(212,168,67,0.4); }
+.blog-badge-daily { background: #7c3aed; color: #fff; }
+.blog-badge-training { background: #ea580c; color: #fff; }
 
 /* --- All Stories Section (light) --- */
 .blog-stories-section {

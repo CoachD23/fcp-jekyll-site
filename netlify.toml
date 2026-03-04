@@ -16,6 +16,11 @@
 
 # --- SLUG CHANGES (pages that exist but URL changed) ---
 [[redirects]]
+  from = "/game-recap/"
+  to = "/content/"
+  status = 301
+
+[[redirects]]
   from = "/about-fcp/"
   to = "/about/"
   status = 301
