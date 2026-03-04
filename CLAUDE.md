@@ -26,6 +26,9 @@ git push origin master
 - **Netlify Site ID:** `386f4bce-9bac-4d53-bc0a-eae36af5d502`
 - **Netlify site name:** `candid-starburst-baa4f7`
 - **Netlify Team:** `coachdeforest` (ID: `69814c3c563c0ca696c27a1d`)
+- **If Netlify token expires (401 errors):** User must generate a new one at
+  https://app.netlify.com/user/applications#personal-access-tokens
+  then update `NETLIFY_TOKEN` in `~/.fcp-secrets`
 
 ### GitHub REST API (fallback only)
 If git CLI ever breaks again, use curl with `Authorization: token $GITHUB_TOKEN` and the 7-step blob→tree→commit→ref workflow. But prefer normal git commands.
