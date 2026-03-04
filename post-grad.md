@@ -190,16 +190,16 @@ hero_subtitle: Compete. Develop. Get Recruited.
 .hero-bg-img { object-position: center 30% !important; }
 
 /* Clean link styling for feature cards and program details */
-.feature-card a,
-.program-details a {
+.feature-card a:not(.btn),
+.program-details a:not(.btn) {
   color: #c41e3a;
   font-weight: 600;
   text-decoration: none;
   border-bottom: 1.5px solid rgba(196, 30, 58, 0.3);
   transition: border-color 0.2s ease, color 0.2s ease;
 }
-.feature-card a:hover,
-.program-details a:hover {
+.feature-card a:not(.btn):hover,
+.program-details a:not(.btn):hover {
   color: #0a1628;
   border-color: #0a1628;
 }

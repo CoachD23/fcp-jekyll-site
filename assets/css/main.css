@@ -2943,6 +2943,7 @@ iframe { max-width: 100%; }
 .program-image {
   border-radius: 14px;
   overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 .program-image img {
   width: 100%;
@@ -3383,8 +3384,24 @@ iframe { max-width: 100%; }
 /* --- 404 Page --- */
 .error-page { text-align: center; padding: 4rem 1.5rem; }
 .error-page p { font-size: 1.2rem; margin-bottom: 2rem; }
-.btn-outline-dark { color: #0a1628; border-color: #0a1628; background: transparent; }
-.btn-outline-dark:hover { background: #0a1628; color: #fff; }
+.btn-outline-dark {
+  color: #fff;
+  background: #0a1628;
+  border-color: #0a1628;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 0.85rem 2rem;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(10, 22, 40, 0.2);
+}
+.btn-outline-dark:hover {
+  background: #c41e3a;
+  border-color: #c41e3a;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(196, 30, 58, 0.3);
+  transform: translateY(-1px);
+}
 
 /* --- Process Steps (Tuition Page) --- */
 .process-steps {
