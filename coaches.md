@@ -7,6 +7,7 @@ hero_image: /assets/images/coaches/coaches-hero.jpg
 og_image: /assets/images/coaches/kenny-anderson.png
 hero_title: Management & Staff
 hero_subtitle: The Team Behind the Team
+permalink: /coaches/
 ---
 
 <!-- Intro Statement -->
