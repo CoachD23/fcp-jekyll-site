@@ -42,11 +42,11 @@
   badge: ""
   image: "/assets/images/coaches/vando-becheli.jpg"
   action_image: ""
-  bio: "Fifth-year National Post Grad Head Coach, formerly of Utah State University Eastern with over 120 wins in 8 seasons. His 2009-2010 team finished third in NJCAA after winning a Region XVIII championship."
+  bio: "Fifth-year National Post Grad Head Coach with 120+ wins at Utah State Eastern (Region XVIII champ, 3rd NJCAA) and 20-win seasons every year at Lighthouse Christian College. Brazilian native with 25 years of professional playing and coaching experience."
   bio_extended: |
-    Vando Becheli brings a global perspective to Florida Coastal Prep as the PG Director and Assistant Athletic Director. A Brazilian native with 25 years of professional playing and coaching experience, Becheli has coached at the highest levels on multiple continents.
+    Vando Becheli brings a global perspective to Florida Coastal Prep as the National Post Grad Director and Assistant Athletic Director. A Brazilian native with 25 years of professional playing and coaching experience, Becheli has coached at the highest levels on multiple continents.
 
-    Before joining FCP, he led Utah State University Eastern to over 120 wins in 8 seasons, including a Region XVIII championship and a third-place NJCAA national finish in 2009-2010.
+    Before joining FCP, Becheli served as head coach at Lighthouse Christian College, where he won 20 or more games every season — cementing his reputation as a program builder who elevates talent year after year. Prior to that, he led Utah State University Eastern to over 120 wins in 8 seasons, including a Region XVIII championship and a third-place NJCAA national finish in 2009-2010.
 
     His experience in Brazil's Top League contributed to athlete development resulting in NBA placements, and he assisted with the 2016 Rio Olympics basketball program. At FCP, Becheli oversees the post-graduate program and brings an international recruiting network that spans South America, Europe, and Asia.
   stats:
@@ -244,13 +244,19 @@
   badge: ""
   image: "/assets/images/coaches/rico-overall.jpg"
   action_image: ""
-  bio: "Assistant Coach and Recruiting Coordinator at Florida Coastal Prep, supporting player development and connecting talent with collegiate opportunities."
+  bio: "Former Lee University (NCAA DII) player with college coaching and post-grad program experience. Leverages extensive international and collegiate connections to place FCP athletes at every level."
   bio_extended: |
-    Rico Overall serves as an Assistant Coach and Recruiting Coordinator at Florida Coastal Prep. In his dual role, he contributes to on-court player development while also managing recruiting relationships with college programs across the country.
+    Rico Overall brings firsthand playing experience and a deep recruiting network to Florida Coastal Prep as Assistant Coach and Recruiting Coordinator. A former player at Lee University — an NCAA Division II program in Cleveland, Tennessee — Overall understands what it takes to compete at the collegiate level.
 
-    Coach Overall's energy and dedication to the program make him an integral part of the FCP coaching staff. He works closely with student-athletes on their skills development and helps them navigate the recruiting process to find the right collegiate fit.
-  stats: []
-  education: ""
+    After his playing career, Overall gained coaching experience at multiple post-graduate programs and at the college level, building an extensive network of connections both internationally and across the collegiate landscape. That combination of playing background, coaching résumé, and recruiting relationships makes him a valuable asset for FCP student-athletes looking to find the right collegiate fit.
+
+    At Florida Coastal Prep, Overall contributes to on-court player development while managing recruiting relationships with college programs nationwide. He works closely with student-athletes on skills development and helps them navigate every step of the recruiting process — from film breakdowns and campus visits to connecting with coaches at the DI, DII, NAIA, and JUCO levels.
+  stats:
+    - label: "Played At"
+      value: "Lee (DII)"
+    - label: "Network"
+      value: "Int'l & College"
+  education: "Lee University"
   hometown: ""
   social:
     twitter: ""
