@@ -1,6 +1,6 @@
 {
   "name": "fcp-functions",
   "version": "1.0.0",
-  "description": "Netlify Functions for Florida Coastal Prep",
+  "description": "Netlify Functions for Florida Coastal Prep website",
   "dependencies": {}
 }
