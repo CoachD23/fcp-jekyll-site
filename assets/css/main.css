@@ -6385,12 +6385,11 @@ iframe { max-width: 100%; }
 }
 
 .director-card-role {
-  color: #d4a843;
+  color: #ffffff;
   font-size: 0.82rem;
   font-weight: 600;
   margin: 0;
   letter-spacing: 0.01em;
-  text-transform: uppercase;
 }
 
 .director-card-footer {
