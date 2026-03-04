@@ -1690,7 +1690,7 @@ section { padding: 4rem 0; }
 .cta-section {
   background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 100%);
   text-align: center;
-  padding: 5rem 0;
+  padding: 3.5rem 0;
 }
 .cta-section h2 { color: #fff; font-size: clamp(1.75rem, 4vw, 2.5rem); margin-bottom: 1rem; }
 .cta-section p { color: rgba(255,255,255,0.7); margin-bottom: 2rem; max-width: 550px; margin-left: auto; margin-right: auto; }
@@ -3228,6 +3228,13 @@ iframe { max-width: 100%; }
   .timeline-grid { grid-template-columns: 1fr; }
   .timeline-card { padding: 1.5rem; }
   .testimonial-card { padding: 1.5rem; }
+}
+
+/* Biancardi duo — tighter proportions and photo framing */
+.biancardi-duo-photo img {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: center 30%;
 }
 
 /* ============================================

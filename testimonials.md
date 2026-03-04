@@ -21,7 +21,7 @@ hero_subtitle: Real Families. Real Results.
     <h2>What the Experts Say</h2>
     <div class="gold-rule"></div>
   </div>
-  <div class="fade-in" style="margin: 2rem auto 0; max-width: 960px; background: #0a1628; border-radius: 16px; padding: 1.25rem; box-shadow: 0 8px 32px rgba(0,0,0,0.18);">
+  <div class="fade-in" style="margin: 2rem auto 0; max-width: 820px; background: #0a1628; border-radius: 16px; padding: 1rem; box-shadow: 0 6px 24px rgba(0,0,0,0.15);">
     <div class="biancardi-duo">
       <div class="biancardi-duo-photo">
         <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" loading="lazy">
@@ -123,60 +123,31 @@ hero_subtitle: Real Families. Real Results.
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SportsOrganization",
-  "name": "Florida Coastal Prep Sports Academy",
-  "url": "https://floridacoastalprep.com",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "bestRating": "5",
-    "ratingCount": "6",
-    "reviewCount": "6"
-  },
-  "review": [
-    {
-      "@type": "Review",
-      "author": {"@type": "Person", "name": "Sean East Sr."},
-      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
-      "reviewBody": "Coach Lee DeForest was instrumental in putting my son in the position to compete against high level competition as well as in front of college coaches. He also used travel time to show players the different places around the country. My son matured and received a D1 scholarship and now plays for the Missouri Tigers.",
-      "datePublished": "2023-01-15"
-    },
-    {
-      "@type": "Review",
-      "author": {"@type": "Person", "name": "Shawn Roy"},
-      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
-      "reviewBody": "My son played for Coach DeForest and he did an awesome job with my son. He was a great mentor, and did a fantastic job in getting him ready for the next level. My son had zero offers coming out high school, and after completing his time at FCP, he had plenty of offers.",
-      "datePublished": "2023-03-10"
-    },
-    {
-      "@type": "Review",
-      "author": {"@type": "Person", "name": "Deanna Costello"},
-      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
-      "reviewBody": "Our son had the opportunity to play for Coach DeForest this past year. He is a talented coach and very passionate about the game and truly connected with his players. His commitment to see them succeed on and off the court sets him apart.",
-      "datePublished": "2023-05-20"
-    },
-    {
-      "@type": "Review",
-      "author": {"@type": "Person", "name": "Andrej Zelenbaba"},
-      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
-      "reviewBody": "My son played for Coach DeForest this past season. He is real professional as a coach and great person with a lot of patience for teaching today's kids to play and adapt to higher level of playing in order to receive future scholarships. He knows how to approach each kid and get a maximum of them. I highly recommend!",
-      "datePublished": "2023-06-05"
-    },
-    {
-      "@type": "Review",
-      "author": {"@type": "Person", "name": "James McCravy"},
-      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
-      "reviewBody": "By selecting Coach Lee DeForest, you have secured a giant of a coach who understands how to teach the boys life skills as he teaches them basketball. My son played post-graduate ball for Coach DeForest during the 2018-2019 year.",
-      "datePublished": "2023-07-12"
-    },
-    {
-      "@type": "Review",
-      "author": {"@type": "Person", "name": "Spanky Parks"},
-      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
-      "reviewBody": "I have had several kids play for Coach DeForest! All of them have received scholarships to Colleges. He has been awesome for our Future Prospects Program. Great Guy and Coach!",
-      "datePublished": "2023-08-01"
-    }
-  ]
+  "@type": "WebPage",
+  "name": "Testimonials — Florida Coastal Prep",
+  "description": "Read what parents, athletes, and ESPN scouts say about Florida Coastal Prep.",
+  "url": "https://floridacoastalprep.com/testimonials/",
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "Review",
+        "author": {"@type": "Person", "name": "Sean East Sr."},
+        "reviewBody": "Coach Lee DeForest was instrumental in putting my son in the position to compete against high level competition.",
+        "itemReviewed": {"@type": "SportsOrganization", "name": "Florida Coastal Prep"}
+      },
+      {
+        "@type": "Review",
+        "author": {"@type": "Person", "name": "Shawn Roy"},
+        "reviewBody": "My son had zero offers coming out high school, and after completing his time at FCP, he had plenty of offers.",
+        "itemReviewed": {"@type": "SportsOrganization", "name": "Florida Coastal Prep"}
+      }
+    ]
+  }
 }
 </script>
+
+<style>
+.hero-bg-img { object-position: center 20% !important; }
+</style>
 
