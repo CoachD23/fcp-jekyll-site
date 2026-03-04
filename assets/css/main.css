@@ -3230,6 +3230,94 @@ iframe { max-width: 100%; }
   .testimonial-card { padding: 1.5rem; }
 }
 
+/* ============================================
+   Testimonials Page — Mobile Inline-Style Overrides
+   Fixes intro box padding, justified text,
+   CTA spacing, and section margins at mobile.
+   ============================================ */
+
+@media (max-width: 768px) {
+  /* Intro box: reduce padding so text has room */
+  .page-content .fade-in[style*="border-left: 4px solid"] {
+    padding: 1.5rem 1.25rem !important;
+    border-radius: 0 8px 8px 0 !important;
+    margin-bottom: 2rem !important;
+  }
+
+  /* Kill justified text on inline-styled paragraphs — prevents rivers of whitespace */
+  .page-content p[style*="text-align: justify"],
+  .testimonial-card p {
+    text-align: left !important;
+  }
+
+  /* Scale down inline h2 font sizes */
+  .page-content h2[style*="font-size: 2rem"] {
+    font-size: 1.5rem !important;
+  }
+
+  /* Scale down inline paragraph font sizes */
+  .page-content p[style*="font-size: 1.1rem"] {
+    font-size: 1rem !important;
+  }
+
+  /* CTA section: less vertical padding on mobile */
+  .cta-section {
+    padding: 3rem 1.5rem;
+  }
+
+  /* Tighten section header spacing */
+  .page-content .staff-section-header {
+    margin-bottom: 2rem;
+  }
+
+  /* Testimonial quote mark: scale down */
+  .testimonial-quote-mark {
+    font-size: 3rem;
+  }
+
+  /* ESPN section: tighter padding */
+  .page-content .staff-section-dark {
+    padding: 2rem 0 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Intro box: even tighter on small phones */
+  .page-content .fade-in[style*="border-left: 4px solid"] {
+    padding: 1.25rem 1rem !important;
+  }
+
+  /* CTA section: minimal padding on small phones */
+  .cta-section {
+    padding: 2.5rem 1rem;
+  }
+  .cta-section h2 {
+    font-size: 1.5rem;
+  }
+
+  /* Hero CTA buttons: full width on small phones */
+  .cta-section .hero-cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .cta-section .hero-cta .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Testimonial quote mark: even smaller */
+  .testimonial-quote-mark {
+    font-size: 2.5rem;
+    margin-bottom: -0.25rem;
+  }
+
+  /* Biancardi wrapper: tighter padding */
+  .page-content .fade-in[style*="box-shadow"] {
+    padding: 0.75rem !important;
+    border-radius: 12px !important;
+  }
+}
+
 /* --- 404 Page --- */
 .error-page { text-align: center; padding: 4rem 1.5rem; }
 .error-page p { font-size: 1.2rem; margin-bottom: 2rem; }
