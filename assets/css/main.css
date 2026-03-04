@@ -4199,12 +4199,13 @@ iframe { max-width: 100%; }
 }
 .blog-video-caption {
   padding: 0.85rem 1.25rem;
-  font-size: 0.85rem;
-  color: rgba(255,255,255,0.7);
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.92);
   background: #0a1628;
   margin: 0;
   line-height: 1.5;
-  font-style: italic;
+  font-style: normal;
+  letter-spacing: 0.01em;
 }
 
 /* =============================================
