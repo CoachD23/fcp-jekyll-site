@@ -7,24 +7,53 @@
 - **Repo:** `CoachD23/fcp-jekyll-site` on GitHub
 - **Working dir:** `/Users/fcp/Florida Coastal Prep Website/fcp-jekyll-site-master/`
 
-## Git Workflow (CRITICAL)
-**Git CLI is blocked** by Xcode license (exit code 69). **python3 is also blocked.**
-Always use the **GitHub REST API** via curl to push changes:
+## Git Workflow
+Git CLI works normally. Remote uses token-embedded URL for auth (already configured).
 
-1. Base64 encode each file: `base64 -i <file> | tr -d '\n' > /tmp/blob_name.b64`
-2. Create blobs: `POST /repos/CoachD23/fcp-jekyll-site/git/blobs` with `{"content":"<base64>","encoding":"base64"}`
-3. Get HEAD SHA: `GET /repos/CoachD23/fcp-jekyll-site/git/ref/heads/master`
-4. Get tree SHA from commit: `GET /repos/CoachD23/fcp-jekyll-site/git/commits/<sha>`
-5. Create new tree: `POST /repos/CoachD23/fcp-jekyll-site/git/trees` with `base_tree` + file list
-6. Create commit: `POST /repos/CoachD23/fcp-jekyll-site/git/commits`
-7. Update ref: `PATCH /repos/CoachD23/fcp-jekyll-site/git/refs/heads/master`
+```bash
+git add <files>
+git commit -m "prefix: description"
+git push origin master
+```
 
-**Auth header:** `Authorization: token $GITHUB_TOKEN` — Token stored in `~/.fcp-secrets` (source it before API calls)
+**Commit prefixes:** `seo:`, `feat:`, `fix:`, `blog:`, `style:`, `chore:`
 **Committer:** `CoachD23` / `130697360+CoachD23@users.noreply.github.com`
-**Netlify Site ID:** `386f4bce-9bac-4d53-bc0a-eae36af5d502`
-**Netlify Token:** Stored in `~/.fcp-secrets` as `$NETLIFY_TOKEN`
+**Branch:** `master` (Netlify auto-deploys on push)
 
-When parsing JSON from curl, use `tr -d ' \n' | grep -o '"sha":"[^"]*"' | head -1 | cut -d'"' -f4` (no python/jq available).
+### Credentials
+- `~/.fcp-secrets` exports `$GITHUB_TOKEN` and `$NETLIFY_TOKEN`
+- Git remote already has token embedded — no `source` needed for push
+- **Netlify Site ID:** `386f4bce-9bac-4d53-bc0a-eae36af5d502`
+- **Netlify site name:** `candid-starburst-baa4f7`
+- **Netlify Team:** `coachdeforest` (ID: `69814c3c563c0ca696c27a1d`)
+
+### GitHub REST API (fallback only)
+If git CLI ever breaks again, use curl with `Authorization: token $GITHUB_TOKEN` and the 7-step blob→tree→commit→ref workflow. But prefer normal git commands.
+
+## Content Management (Decap CMS)
+Visual editor for blog posts and pages at **https://floridacoastalprep.com/admin/**
+
+### CMS Files
+- `admin/index.html` — CMS entry point (loads Decap CMS v3 + Netlify Identity widget)
+- `admin/config.yml` — Collection definitions, field types, media settings
+- `_includes/head.html` — Netlify Identity widget script (site-wide)
+- `_layouts/default.html` — Identity redirect script (sends user to /admin/ after login)
+
+### CMS Architecture
+- **Backend:** git-gateway (commits go through Netlify Git Gateway → GitHub)
+- **Auth:** Netlify Identity (email/password, invite-only)
+- **Media:** Uploads to `assets/images/`, served from `/assets/images/`
+- **Preview:** Disabled (Jekyll uses Liquid templates)
+
+### CMS Collections
+1. **Blog Posts** (`_posts/`) — Create and edit posts with `post` or `alumni-post` layout
+   - Alumni fields (`player_name`, `stats`, etc.) appear as optional top-level fields
+2. **Pages** (10 file-based entries) — About, Post Grad, High School, Training, Academics, Housing, Coaches, Tuition, Testimonials, FAQ
+
+### When Editing `admin/config.yml`
+- Alumni fields must stay at **top level** (not nested under an object widget) — matches existing front matter
+- FAQ body uses `widget: "code"` with `default_language: "html"`
+- All other page bodies use `widget: "markdown"`
 
 ## SEO Rules — Apply to EVERY Change
 

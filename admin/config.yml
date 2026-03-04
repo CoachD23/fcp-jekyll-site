@@ -32,24 +32,20 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image", hint: "Upload to /assets/images/blog/ — never reuse blog-default.jpg" }
       - { label: "Meta Description", name: "description", widget: "string", hint: "150-160 characters with keywords for SEO" }
       - { label: "Excerpt", name: "excerpt", widget: "text", hint: "1-2 sentence preview shown on the blog listing page" }
-      - label: "Alumni Fields (only for alumni-post layout)"
-        name: "alumni_fields"
-        widget: "object"
+      # Alumni fields — top-level (only used when layout = alumni-post)
+      - { label: "Player Name", name: "player_name", widget: "string", required: false, hint: "Alumni only — full player name" }
+      - { label: "Current Team", name: "current_team", widget: "string", required: false, hint: "Alumni only — e.g. Houston Christian Huskies" }
+      - { label: "FCP Label", name: "fcp_label", widget: "string", default: "FCP Spartans", required: false }
+      - { label: "FCP Photo", name: "image_fcp", widget: "image", required: false, hint: "Alumni only — photo from their FCP days" }
+      - { label: "Player Bio (HTML allowed)", name: "bio", widget: "text", required: false, hint: "Alumni only — 1-2 sentence bio with optional link" }
+      - label: "Stats"
+        name: "stats"
+        widget: "list"
         required: false
-        collapsed: true
+        hint: "Alumni only — 3-4 key stats shown on the card"
         fields:
-          - { label: "Player Name", name: "player_name", widget: "string", required: false }
-          - { label: "Current Team", name: "current_team", widget: "string", required: false }
-          - { label: "FCP Label", name: "fcp_label", widget: "string", default: "FCP Spartans", required: false }
-          - { label: "FCP Photo", name: "image_fcp", widget: "image", required: false }
-          - { label: "Player Bio (HTML allowed)", name: "bio", widget: "text", required: false }
-          - label: "Stats"
-            name: "stats"
-            widget: "list"
-            required: false
-            fields:
-              - { label: "Value", name: "value", widget: "string" }
-              - { label: "Label", name: "label", widget: "string" }
+          - { label: "Value", name: "value", widget: "string" }
+          - { label: "Label", name: "label", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
   # ─── Program Pages ────────────────────────────────
