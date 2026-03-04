@@ -1,0 +1,290 @@
+# ======================================================
+# Florida Coastal Prep — Staff Directory Data
+# Used by: coaches.md, _includes/staff-card.html,
+#          _layouts/coach-profile.html
+# ======================================================
+
+# --- EXECUTIVE LEADERSHIP ---
+
+- name: "Lee DeForest"
+  slug: "lee-deforest"
+  title: "Athletic Director / Director of Operations"
+  section: "executive"
+  badge: ""
+  image: "/assets/images/coaches/lee-deforest.webp"
+  action_image: ""
+  bio: "Seventh-year Athletic Director with 25 years of basketball coaching across DI, DII, NAIA, and JUCO levels. Notable achievements include coaching Sean East (now in NBA G-League), Brandon Maclin (DePaul), Kylin Green (Houston Baptist), and Ring Malith (SIU Edwardsville)."
+  bio_extended: |
+    Lee DeForest has spent over two decades shaping the futures of student-athletes at every level of collegiate basketball. As the Athletic Director and Director of Operations at Florida Coastal Prep, he oversees all aspects of the program — from recruiting and player development to academics and college placement.
+
+    His coaching career spans DI, DII, NAIA, and JUCO programs, giving him an unmatched network of college connections. Under his leadership, FCP has become one of the premier post-graduate basketball programs in the Southeast, consistently placing athletes at four-year institutions.
+
+    Notable placements include Sean East (NBA G-League), Brandon Maclin (DePaul), Kylin Green (Houston Baptist), and Ring Malith (SIU Edwardsville). Lee's philosophy centers on developing the complete student-athlete — not just the basketball player.
+  stats:
+    - label: "Years Coaching"
+      value: "25"
+    - label: "NCAA Divisions"
+      value: "4"
+    - label: "Years at FCP"
+      value: "7"
+  education: ""
+  hometown: ""
+  social:
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    email: ""
+
+- name: "Vando Becheli"
+  slug: "vando-becheli"
+  title: "PG Director / Assistant Athletic Director"
+  section: "executive"
+  badge: ""
+  image: "/assets/images/coaches/vando-becheli.webp"
+  action_image: ""
+  bio: "Fifth-year National Post Grad Head Coach, formerly of Utah State University Eastern with over 120 wins in 8 seasons. His 2009-2010 team finished third in NJCAA after winning a Region XVIII championship."
+  bio_extended: |
+    Vando Becheli brings a global perspective to Florida Coastal Prep as the PG Director and Assistant Athletic Director. A Brazilian native with 25 years of professional playing and coaching experience, Becheli has coached at the highest levels on multiple continents.
+
+    Before joining FCP, he led Utah State University Eastern to over 120 wins in 8 seasons, including a Region XVIII championship and a third-place NJCAA national finish in 2009-2010.
+
+    His experience in Brazil's Top League contributed to athlete development resulting in NBA placements, and he assisted with the 2016 Rio Olympics basketball program. At FCP, Becheli oversees the post-graduate program and brings an international recruiting network that spans South America, Europe, and Asia.
+  stats:
+    - label: "Career Wins"
+      value: "120+"
+    - label: "Years Experience"
+      value: "25"
+    - label: "Years at FCP"
+      value: "5"
+  education: ""
+  hometown: "Brazil"
+  social:
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    email: ""
+
+# --- COACHING STAFF ---
+
+- name: "Kenny Anderson"
+  slug: "kenny-anderson"
+  title: "Skills Development Director"
+  section: "coaching"
+  badge: "NBA All-Star"
+  image: "/assets/images/coaches/kenny-anderson.png"
+  action_image: ""
+  bio: "Queens, NY native and NBA legend: 1991 second overall pick, 14-year NBA career across eight teams, 1994 NBA All-Star. Former Fisk University head coach."
+  bio_extended: |
+    Kenny Anderson is one of the most decorated basketball minds in the country. A Queens, New York native, Anderson was the second overall pick in the 1991 NBA Draft and went on to play 14 seasons in the NBA across eight teams.
+
+    Selected as an NBA All-Star in 1994, Anderson's professional career included stints with the New Jersey Nets, Charlotte Hornets, Portland Trail Blazers, Boston Celtics, Seattle SuperSonics, LA Clippers, Atlanta Hawks, and Indiana Pacers.
+
+    After retiring from professional play, Anderson transitioned to coaching, serving as head coach at Fisk University. At Florida Coastal Prep, he serves as Skills Development Director, working directly with players on ball handling, shooting mechanics, court vision, and the mental aspects of the game that only a 14-year NBA veteran can teach.
+  stats:
+    - label: "NBA Seasons"
+      value: "14"
+    - label: "NBA All-Star"
+      value: "1994"
+    - label: "Draft Pick"
+      value: "#2"
+  education: "Georgia Tech"
+  hometown: "Queens, NY"
+  social:
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    email: ""
+
+- name: "Jared Dugan"
+  slug: "jared-dugan"
+  title: "Head PG Coach / Recruiting Coordinator"
+  section: "coaching"
+  badge: ""
+  image: "/assets/images/coaches/jared-dugan.png"
+  action_image: ""
+  bio: "UCF graduate (Economics, Sports Management). Previously: Scouting Director at Hoop Brothers, analytics with UCF and Stetson, assistant coach at IMPACT Academy, advanced scout with Indiana Fever."
+  bio_extended: |
+    Jared Dugan brings an analytics-driven approach to coaching and recruiting at Florida Coastal Prep. A University of Central Florida graduate with degrees in Economics and Sports Management, Dugan has built his career at the intersection of data and basketball development.
+
+    His resume includes serving as Scouting Director at Hoop Brothers, working in analytics departments with UCF and Stetson University, assistant coaching at IMPACT Academy, and serving as an advanced scout with the WNBA's Indiana Fever.
+
+    As Head Post-Graduate Coach and Recruiting Coordinator, Dugan leverages his extensive network and analytical mindset to identify talent, develop players, and connect them with the right college programs for their abilities and academic goals.
+  stats:
+    - label: "Programs Served"
+      value: "5+"
+  education: "University of Central Florida"
+  hometown: ""
+  social:
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    email: ""
+
+- name: "Dmitry Utolin"
+  slug: "dmitry-utolin"
+  title: "Head Coach / Sports Performance Director"
+  section: "coaching"
+  badge: "NAIA All-American"
+  image: "/assets/images/coaches/dmitry-utolin.webp"
+  action_image: ""
+  bio: "Third-year coach, former Cumberland University GA. Professional player (CSKA Moscow), played at Cuesta JC, West Texas A&M, and Lindsey Wilson. Two-time All-Conference."
+  bio_extended: |
+    Dmitry Utolin's journey from professional basketball in Russia to coaching in the Florida Panhandle gives him a unique perspective on player development. A former CSKA Moscow professional player, Utolin understands what it takes to compete at the highest levels.
+
+    His collegiate career took him from Cuesta Junior College to West Texas A&M University and Lindsey Wilson College, where he earned two-time All-Conference honors. After his playing career, he served as a graduate assistant at Cumberland University before joining Florida Coastal Prep.
+
+    Now in his third year at FCP, Utolin serves as Head Coach and Sports Performance Director, combining his international playing experience with modern strength and conditioning methods to prepare athletes for the physical demands of college basketball.
+  stats:
+    - label: "All-Conference"
+      value: "2×"
+    - label: "Years at FCP"
+      value: "3"
+  education: "West Texas A&M, Lindsey Wilson"
+  hometown: "Moscow, Russia"
+  social:
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    email: ""
+
+- name: "Tyler Martin"
+  slug: "tyler-martin"
+  title: "Head Skill Development Coach"
+  section: "coaching"
+  badge: ""
+  image: "/assets/images/coaches/tyler-martin.png"
+  action_image: ""
+  bio: "Memphis native, former Combine Academy post-grad athlete. Played NCAA DII at University of Montevallo and Stillman College. Emphasizes skill refinement and mental preparation."
+  bio_extended: |
+    Tyler Martin brings firsthand post-graduate experience to his coaching role at Florida Coastal Prep. A Memphis, Tennessee native, Martin followed the same path many FCP athletes take — attending Combine Academy's post-graduate program before earning a roster spot at the NCAA Division II level.
+
+    He played collegiately at the University of Montevallo and Stillman College, giving him direct experience navigating the recruiting process and transitioning from prep school to college basketball.
+
+    As Head Skill Development Coach, Martin works one-on-one and in small groups with FCP athletes, focusing on shooting mechanics, footwork, ball handling, and the mental preparation needed to compete at the next level. His relatability and recent playing experience make him a trusted mentor for current student-athletes.
+  stats: []
+  education: "University of Montevallo, Stillman College"
+  hometown: "Memphis, TN"
+  social:
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    email: ""
+
+- name: "Guanda \"Dada\" Huang"
+  slug: "dada-huang"
+  title: "International Recruiter"
+  section: "coaching"
+  badge: ""
+  image: "/assets/images/coaches/dada-huang.webp"
+  action_image: ""
+  bio: "Former NAIA player with semi-pro experience in China. Master's in Sports Management from NYU, certified NSCA-CPT."
+  bio_extended: |
+    Guanda "Dada" Huang serves as International Recruiter at Florida Coastal Prep, leveraging his unique cross-cultural background to connect international talent with American collegiate basketball opportunities.
+
+    A former NAIA player with semi-professional playing experience in China, Huang understands both the American and international basketball landscapes. He holds a Master's degree in Sports Management from New York University and is a certified NSCA Certified Personal Trainer (CPT).
+
+    At FCP, Huang manages international recruiting pipelines, assists international student-athletes with their transition to American basketball and academics, and helps families navigate the complex process of studying and playing basketball in the United States.
+  stats: []
+  education: "NYU (MS Sports Management)"
+  hometown: "China"
+  social:
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    email: ""
+
+# --- ADVISORY BOARD ---
+
+- name: "Tom Bower"
+  slug: "tom-bower"
+  title: "Advisory Board"
+  section: "advisory"
+  badge: ""
+  image: "/assets/images/coaches/tom-bower.webp"
+  action_image: ""
+  bio: "Co-founder of Leading Athletics, KBC Hoops, and Virtus Brand."
+  bio_extended: |
+    Tom Bower serves on the Florida Coastal Prep Advisory Board, bringing extensive experience in basketball business and brand development. As co-founder of Leading Athletics, KBC Hoops, and Virtus Brand, Bower has built multiple successful ventures in the basketball ecosystem.
+
+    His advisory role at FCP focuses on program strategy, brand development, and connecting the academy with broader opportunities in the basketball industry.
+  stats: []
+  education: ""
+  hometown: ""
+  social:
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    email: ""
+
+- name: "Dr. Shadia Natour"
+  slug: "shadia-natour"
+  title: "Advisory Board"
+  section: "advisory"
+  badge: ""
+  image: "/assets/images/coaches/shadia-natour.webp"
+  action_image: ""
+  bio: "Clinic Lead Physical Therapist at Compleat Rehab & Sports Therapy, CrossFit Level 1 Trainer."
+  bio_extended: |
+    Dr. Shadia Natour brings medical and sports performance expertise to the Florida Coastal Prep Advisory Board. As Clinic Lead Physical Therapist at Compleat Rehab & Sports Therapy, she specializes in sports injury rehabilitation and prevention.
+
+    A CrossFit Level 1 Trainer, Dr. Natour advises FCP on injury prevention protocols, rehabilitation programs, and overall athlete wellness. Her expertise ensures that FCP's training methods prioritize long-term athlete health alongside performance development.
+  stats: []
+  education: ""
+  hometown: ""
+  social:
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    email: ""
+
+- name: "Paul Peck"
+  slug: "paul-peck"
+  title: "Advisory Board"
+  section: "advisory"
+  badge: "NAIA Coach of Year"
+  image: "/assets/images/coaches/paul-peck.webp"
+  action_image: ""
+  bio: "Former Lindsey Wilson College Head Coach — 587-368 record, five-time Conference Coach of Year, 2011-12 Don Meyer NAIA Coach of Year."
+  bio_extended: |
+    Paul Peck is one of the most accomplished NAIA coaches in history. During his tenure as Head Coach at Lindsey Wilson College, Peck compiled a 587-368 record and earned five Conference Coach of the Year awards.
+
+    His crowning achievement came in 2011-12 when he was named the Don Meyer NAIA Coach of the Year — the highest individual coaching honor in NAIA basketball. His deep understanding of NAIA recruiting, player development, and program building makes him an invaluable advisor to Florida Coastal Prep.
+
+    Peck's advisory role focuses on helping FCP athletes navigate the NAIA landscape and connecting them with programs that align with their athletic and academic aspirations.
+  stats:
+    - label: "Career Record"
+      value: "587-368"
+    - label: "Coach of Year"
+      value: "5×"
+  education: ""
+  hometown: ""
+  social:
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    email: ""
+
+# --- ADMISSIONS ---
+
+- name: "Alba Reyes"
+  slug: "alba-reyes"
+  title: "Admissions Director"
+  section: "admissions"
+  badge: ""
+  image: "/assets/images/coaches/alba-reyes.webp"
+  action_image: ""
+  bio: "Your first point of contact for applications, campus visits, and enrollment questions. Alba guides families through every step of the admissions process."
+  bio_extended: |
+    Alba Reyes serves as the Admissions Director at Florida Coastal Prep, making her the first point of contact for prospective student-athletes and their families. She manages all aspects of the admissions process, from initial inquiries and campus tours to application review and enrollment.
+
+    Alba's warm, organized approach helps families navigate the often-complex process of choosing a post-graduate or high school basketball program. Whether you have questions about academics, housing, tuition, or the basketball program itself, Alba is here to help.
+
+    Ready to learn more? Reach out to Alba to schedule a campus visit or begin your application.
+  stats: []
+  education: ""
+  hometown: ""
+  social:
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    email: ""
