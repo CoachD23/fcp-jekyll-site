@@ -10,6 +10,14 @@ excerpt: "Florida Coastal Prep hosted basketball legend Kenny Anderson for an im
 
 Florida Coastal Prep recently hosted basketball legend Kenny Anderson for an impactful visit with our Post Grad Players. Anderson, a former NBA point guard who played for teams including the New Jersey Nets, Boston Celtics, and Charlotte Hornets, brought invaluable experience and wisdom to the academy.
 
+<div class="blog-video-wrapper fade-in">
+  <video controls playsinline preload="metadata" poster="/assets/images/blog-kenny.png">
+    <source src="/assets/videos/kenny-anderson-fcp.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p class="blog-video-caption">NBA legend Kenny Anderson works with FCP post-graduate athletes during his visit to the Spartan Training Center.</p>
+</div>
+
 ## Anderson's Basketball Pedigree
 
 Before his professional career, Anderson was a standout at Georgia Tech, where he earned All-American honors and led the Yellow Jackets to NCAA Tournament appearances. His NBA journey showcased exceptional ball-handling skills and court vision throughout his career spanning multiple franchises.
