@@ -25,9 +25,9 @@ permalink: /coaches/
     <h2>Program Directors</h2>
     <div class="gold-rule"></div>
   </div>
-  <div class="espn-staff-grid">
+  <div class="director-grid">
     {% for member in execs %}
-      {% include staff-card.html member=member %}
+      {% include director-card.html member=member %}
     {% endfor %}
   </div>
 </section>

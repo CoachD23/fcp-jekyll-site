@@ -64,12 +64,10 @@
     linkedin: ""
     email: ""
 
-# --- COACHING STAFF ---
-
 - name: "Kenny Anderson"
   slug: "kenny-anderson"
-  title: "Skills Development Director"
-  section: "coaching"
+  title: "Mentor & Leadership Trainer"
+  section: "executive"
   badge: "NBA All-Star"
   image: "/assets/images/coaches/kenny-anderson.jpg"
   action_image: ""
@@ -79,7 +77,7 @@
 
     Selected as an NBA All-Star in 1994, Anderson's professional career included stints with the New Jersey Nets, Charlotte Hornets, Portland Trail Blazers, Boston Celtics, Seattle SuperSonics, LA Clippers, Atlanta Hawks, and Indiana Pacers.
 
-    After retiring from professional play, Anderson transitioned to coaching, serving as head coach at Fisk University. At Florida Coastal Prep, he serves as Skills Development Director, working directly with players on ball handling, shooting mechanics, court vision, and the mental aspects of the game that only a 14-year NBA veteran can teach.
+    After retiring from professional play, Anderson transitioned to coaching, serving as head coach at Fisk University. At Florida Coastal Prep, he serves as Mentor and Leadership Trainer, working directly with players on ball handling, shooting mechanics, court vision, and the mental aspects of the game that only a 14-year NBA veteran can teach.
   stats:
     - label: "NBA Seasons"
       value: "14"
@@ -94,6 +92,8 @@
     instagram: ""
     linkedin: ""
     email: ""
+
+# --- COACHING STAFF ---
 
 - name: "Jared Dugan"
   slug: "jared-dugan"
@@ -259,7 +259,7 @@
   title: "International Recruiter"
   section: "coaching"
   badge: ""
-  image: "/assets/images/coaches/dada-huang.jpg"
+  image: "/assets/images/coaches/dada-huang.webp"
   action_image: ""
   bio: "Former NAIA player with semi-pro experience in China. Master's in Sports Management from NYU, certified NSCA-CPT."
   bio_extended: |
