@@ -10,7 +10,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
 
 <style>
 .program-offers .feature-card { text-align: left; }
-.program-offers .feature-card p { text-align: justify; }
+.program-offers .feature-card p { text-align: left; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
 .hero-bg-img { object-position: center 35% !important; }
 </style>
@@ -18,7 +18,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Train Like a Pro. Compete Like a Champion.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">The Spartan Training Center is FCP's <strong>brand new 14,000 sq ft</strong> home in Fort Walton Beach, FL — featuring a professional hardwood court, turf training zone, and a dedicated sports performance area. Open <strong>24/7</strong> for our athletes, it's purpose-built for the next generation of <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">college commits</a> from <strong>43 states and 22 countries</strong>.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; margin: 0;">The Spartan Training Center is FCP's <strong>brand new 14,000 sq ft</strong> home in Fort Walton Beach, FL — featuring a professional hardwood court, turf training zone, and a dedicated sports performance area. Open <strong>24/7</strong> for our athletes, it's purpose-built for the next generation of <a href="/commitments/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">college commits</a> from <strong>43 states and 22 countries</strong>.</p>
 </section>
 
 <!-- Facility Stats -->
@@ -52,7 +52,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <span class="section-label">Strength & Conditioning</span>
     <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">Built for the Next Level</h2>
     <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Every FCP athlete follows a <strong>periodized speed and strength program</strong> built on Westside Barbell methodology — the same conjugate system used by elite athletes across every sport. Five sessions per week develop total body fitness, explosive power, and basketball-specific athleticism under our <a href="/coaches/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">coaching staff</a>.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">Every FCP athlete follows a <strong>periodized speed and strength program</strong> built on Westside Barbell methodology — the same conjugate system used by elite athletes across every sport. Five sessions per week develop total body fitness, explosive power, and basketball-specific athleticism under our <a href="/coaches/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">coaching staff</a>.</p>
     <ul class="program-list">
       <li>5 strength training sessions per week</li>
       <li>Westside Barbell conjugate programming</li>
@@ -136,7 +136,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
   </div>
 
   <div style="max-width: 800px; margin: 0 auto 2rem;">
-    <p style="color: rgba(255,255,255,0.9); font-size: 1.08rem; line-height: 1.75; text-align: justify;">Beyond team practices, every athlete receives <strong>individualized skill development</strong> sessions tailored to their position, strengths, and goals. Our coaches — with <strong>100+ years of combined basketball coaching experience</strong>, including <a href="/coaches/" style="color: #d4a843;">NBA All-Star Kenny Anderson</a> — work one-on-one with players to refine the details that separate good from great.</p>
+    <p style="color: rgba(255,255,255,0.9); font-size: 1.08rem; line-height: 1.75;">Beyond team practices, every athlete receives <strong>individualized skill development</strong> sessions tailored to their position, strengths, and goals. Our coaches — with <strong>100+ years of combined basketball coaching experience</strong>, including <a href="/coaches/" style="color: #d4a843;">NBA All-Star Kenny Anderson</a> — work one-on-one with players to refine the details that separate good from great.</p>
   </div>
 
   <div class="feature-grid">
@@ -181,7 +181,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
     <div class="gold-rule"></div>
   </div>
 
-  <div class="feature-grid" style="margin-top: 2rem; max-width: 700px;">
+  <div class="feature-grid" style="margin-top: 2rem; max-width: 850px;">
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg></div>
       <h3>Summer Basketball Camps</h3>

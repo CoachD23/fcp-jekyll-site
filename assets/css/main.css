@@ -5965,6 +5965,78 @@ iframe { max-width: 100%; }
   }
 }
 
+/* ============================================
+   Training Page — Mobile Clean-up
+   Facility gallery proportions, feature grid
+   spacing, CTA section overflow, and trust bar
+   refinements at mobile breakpoints.
+   ============================================ */
+
+@media (max-width: 768px) {
+  /* Facility gallery: better aspect ratio for side image on tablet */
+  .facility-gallery {
+    gap: 0.75rem;
+    padding: 0 1rem;
+  }
+
+  /* Trust bar: tighter on tablet */
+  .trust-bar {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+
+  /* Events section feature grid: relax max-width constraint */
+  .program-offers .feature-grid {
+    max-width: 100% !important;
+  }
+
+  /* Dark section description text: reduce font on mobile */
+  .staff-section-dark > div[style*="max-width: 800px"] p {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Facility gallery: tighter gap on phones */
+  .facility-gallery {
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+  }
+  .facility-side {
+    aspect-ratio: 16 / 8;
+  }
+
+  /* Trust bar: full-width on phones */
+  .trust-bar {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1.25rem 1rem;
+  }
+  .trust-bar h4 {
+    font-size: 1rem;
+  }
+  .trust-bar p {
+    font-size: 0.9rem;
+  }
+
+  /* CTA section: prevent right-side clip */
+  .cta-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .cta-section h2 {
+    font-size: 1.5rem;
+  }
+  .cta-section p {
+    font-size: 0.95rem;
+  }
+
+  /* Feature grid: single column on small phones for easier reading */
+  .feature-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 /* --- Print Styles --- */
 @media print {
   .site-header, .site-footer, .nav-toggle, .cta-section, .hero-cta { display: none !important; }
