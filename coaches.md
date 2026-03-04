@@ -47,7 +47,7 @@ permalink: /coaches/
 <!-- Executive Team / Advisory Board -->
 {% assign advisors = site.data.staff | where: "section", "advisory" %}
 {% if advisors.size > 0 %}
-<section class="staff-section fade-in">
+<section class="staff-section staff-section-dark fade-in">
   <div class="staff-section-header">
     <span class="section-label">Leadership</span>
     <h2>Executive Team / Advisory Board</h2>
