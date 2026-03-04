@@ -5779,6 +5779,107 @@ iframe { max-width: 100%; }
   }
 }
 
+/* ============================================
+   Connect With Our Team — Inline Form Section
+   Appears on every page except the homepage,
+   right above the footer.
+   ============================================ */
+.connect-form-section {
+  background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 100%);
+  padding: 4rem 0 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.connect-form-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #d4a843, #c49a38, #d4a843);
+}
+
+.connect-form-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.connect-form-header .section-label {
+  color: #d4a843;
+}
+
+.connect-form-header h2 {
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin: 0.5rem 0;
+  letter-spacing: -0.01em;
+}
+
+.connect-form-header .gold-rule {
+  margin: 0.75rem auto 1.25rem;
+}
+
+.connect-form-header p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.connect-form-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  min-height: 750px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.connect-form-wrapper iframe {
+  display: block;
+  min-height: 750px;
+}
+
+@media (max-width: 768px) {
+  .connect-form-section {
+    padding: 3rem 0 1.5rem;
+  }
+
+  .connect-form-header h2 {
+    font-size: 1.75rem;
+  }
+
+  .connect-form-header p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .connect-form-wrapper {
+    margin: 0 0.5rem;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .connect-form-section {
+    padding: 2.5rem 0 1rem;
+  }
+
+  .connect-form-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .connect-form-wrapper {
+    margin: 0;
+    border-radius: 8px;
+  }
+}
+
 /* --- Print Styles --- */
 @media print {
   .site-header, .site-footer, .nav-toggle, .cta-section, .hero-cta { display: none !important; }

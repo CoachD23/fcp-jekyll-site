@@ -9,6 +9,9 @@
   <main id="main-content">
     {{ content }}
   </main>
+  {% unless page.url == "/" %}
+    {% include connect-form.html %}
+  {% endunless %}
   {% include footer.html %}
   <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   {% if jekyll.environment == "production" %}
