@@ -48,9 +48,11 @@ collections:
           - { label: "Label", name: "label", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-  # ─── Program Pages ────────────────────────────────
+  # ─── Program Pages (file-based) ──────────────────
   - name: "pages"
-    label: "Pages"
+    label: "Program Pages"
+    editor:
+      preview: false
     files:
       - label: "About"
         name: "about"
@@ -140,4 +142,4 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string" }
           - { label: "OG Image", name: "og_image", widget: "image", required: false }
-          - { label: "Body", name: "body", widget: "code", default_language: "html" }
+          - { label: "Body", name: "body", widget: "text", hint: "HTML content — edit raw HTML for FAQ accordion" }
