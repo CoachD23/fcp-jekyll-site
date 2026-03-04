@@ -6120,7 +6120,7 @@ iframe { max-width: 100%; }
   left: 0;
   right: 0;
   padding: 2.5rem 1.25rem 1.25rem;
-  background: linear-gradient(to top, rgba(10, 22, 40, 0.95) 0%, rgba(10, 22, 40, 0.6) 60%, transparent 100%);
+  background: linear-gradient(to top, rgba(10, 22, 40, 0.98) 0%, rgba(10, 22, 40, 0.92) 40%, rgba(10, 22, 40, 0.6) 75%, transparent 100%);
   z-index: 2;
 }
 

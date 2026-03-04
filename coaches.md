@@ -22,7 +22,7 @@ permalink: /coaches/
 <section class="staff-section fade-in">
   <div class="staff-section-header">
     <span class="section-label">Leadership</span>
-    <h2>Executive Team</h2>
+    <h2>Program Directors</h2>
     <div class="gold-rule"></div>
   </div>
   <div class="espn-staff-grid">
