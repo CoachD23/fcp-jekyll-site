@@ -15,7 +15,6 @@ Florida Coastal Prep recently hosted basketball legend Kenny Anderson for an imp
     <source src="/assets/videos/kenny-anderson-fcp.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p class="blog-video-caption">NBA legend Kenny Anderson works with FCP post-graduate athletes during his visit to the Spartan Training Center.</p>
 </div>
 
 ## Anderson's Basketball Pedigree
