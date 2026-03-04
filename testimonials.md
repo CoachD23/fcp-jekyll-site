@@ -99,7 +99,7 @@ hero_subtitle: Real Families. Real Results.
 </section>
 
 <!-- CTA -->
-<div class="cta-section" style="margin-top: 0; border-radius: 0;">
+<div class="cta-section" style="margin-top: 0;">
   <h2>Be Part of the Story</h2>
   <p>Join the growing list of FCP athletes who've earned their shot at college basketball.</p>
   <div class="hero-cta">

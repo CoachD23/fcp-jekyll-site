@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Student-Athlete Housing | Florida Coastal Prep Academy"
+title: Housing Options
 subtitle: Living on the Emerald Coast
-description: "FCP's supervised student-athlete housing in Fort Walton Beach — furnished team houses and beach condos near the Emerald Coast with 24/7 staff support."
+description: "Florida Coastal Prep's supervised student-athlete housing in Fort Walton Beach, FL — fully furnished team houses and beach condos near the Emerald Coast beaches with 24/7 staff supervision."
 hero_image: /assets/images/housing/pool-gulf.webp
 hero_title: Housing Options
 hero_subtitle: Living on the Emerald Coast
@@ -88,7 +88,7 @@ hero_subtitle: Living on the Emerald Coast
 }
 </style>
 
-<div class="cta-section" style="margin-top: 0; border-radius: 0;">
+<div class="cta-section" style="margin-top: 0;">
   <h2>Questions About Housing?</h2>
   <p>We're happy to walk you through the details and <a href="/area-info/" style="color: #d4a843;">show you the area</a>.</p>
   <div class="hero-cta">

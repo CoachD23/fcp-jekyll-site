@@ -336,7 +336,7 @@ hero_subtitle: 2025–2026 Season — FCP Spartans
   <p>Schedule subject to change. All home games are played in Fort Walton Beach, FL. All games are recorded through Hudl and YouTube for recruiting exposure.</p>
 </div>
 
-<div class="cta-section" style="margin-top: 0; border-radius: 0;">
+<div class="cta-section" style="margin-top: 0;">
   <h2>Ready to Join the Spartans?</h2>
   <p>Roster spots are limited. Apply for the Post Grad program today.</p>
   <div class="hero-cta">

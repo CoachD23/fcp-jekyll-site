@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Spartan Training Center | Florida Coastal Prep Facility"
+title: Spartan Training Center
 subtitle: Our Brand New 14,000 sq ft Home
-description: "Tour the Spartan Training Center — FCP's 14,000 sq ft facility in Fort Walton Beach with pro hardwood, strength training, and 24/7 athlete access."
+description: "Tour the Spartan Training Center — Florida Coastal Prep's brand new 14,000 sq ft basketball training facility in Fort Walton Beach, FL with professional hardwood court, strength & conditioning, individual player development, and 24/7 athlete access."
 hero_image: /assets/images/training/fcp-book-060.jpeg
 hero_title: Spartan Training Center
 hero_subtitle: 14,000 Square Feet of Elite Training
@@ -196,7 +196,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
 </section>
 
 <!-- CTA -->
-<div class="cta-section" style="margin-top: 0; border-radius: 0;">
+<div class="cta-section" style="margin-top: 0;">
   <h2>Come See the Spartan Training Center</h2>
   <p>Schedule a visit to see our facility in person, or talk to our <a href="/coaches/" style="color: #d4a843;">coaching staff</a> about what a day at FCP looks like.</p>
   <div class="hero-cta">

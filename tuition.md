@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tuition & Fees | Florida Coastal Prep Basketball Academy"
+title: Tuition and Fees
 subtitle: Investing in Your Athletic and Academic Future
 description: "Florida Coastal Prep tuition, fees, financial assistance, and payment plan information. Learn what's included and how to apply for scholarships at FCP."
 hero_image: /assets/images/tuition/florida-coastal-prep-school.png
@@ -190,7 +190,7 @@ hero_subtitle: Investing in Your Athletic and Academic Future
   </div>
 </div>
 
-<div class="cta-section" style="margin-top: 0; border-radius: 0;">
+<div class="cta-section" style="margin-top: 0;">
   <h2>Ready to Join FCP?</h2>
   <p>Take the first step toward your college basketball future. Apply today and learn about financial assistance options.</p>
   <div class="hero-cta">

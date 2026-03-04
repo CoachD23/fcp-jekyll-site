@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Coaching Staff & Management | Florida Coastal Prep"
+title: Management & Staff
 subtitle: The Team Behind the Team
-description: "Meet FCP's coaching staff — NBA All-Star Kenny Anderson, Director Lee DeForest (25+ years experience), and elite trainers behind 500+ college commits."
+description: "Meet the Florida Coastal Prep coaching staff — including NBA All-Star Kenny Anderson (14-year NBA career), Director Lee DeForest (25+ years coaching experience), and elite trainers who've developed 500+ college commits."
 hero_image: /assets/images/coaches/coaches-hero.jpg
 og_image: /assets/images/coaches/kenny-anderson.png
 hero_title: Management & Staff
@@ -198,7 +198,7 @@ hero_subtitle: The Team Behind the Team
   </div>
 </section>
 
-<div class="cta-section" style="margin-top: 0; border-radius: 0;">
+<div class="cta-section" style="margin-top: 0;">
   <h2>Join Our Program</h2>
   <p>Ready to train with the best? Check out our <a href="/training/" style="color: #d4a843;">training program</a> or apply today.</p>
   <div class="hero-cta">

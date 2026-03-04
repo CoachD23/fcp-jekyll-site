@@ -1691,14 +1691,20 @@ section { padding: 4rem 0; }
   min-height: 500px;
 }
 
-/* --- CTA Section --- */
+/* --- CTA Section — ESPN-inspired --- */
 .cta-section {
   background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 100%);
   text-align: center;
-  padding: 3.5rem 0;
+  padding: 3.5rem 2rem;
+  border-radius: 12px !important;
+  border-top: 4px solid #b22234;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 2rem;
 }
-.cta-section h2 { color: #fff; font-size: clamp(1.75rem, 4vw, 2.5rem); margin-bottom: 1rem; }
-.cta-section p { color: rgba(255,255,255,0.7); margin-bottom: 2rem; max-width: 550px; margin-left: auto; margin-right: auto; }
+.cta-section h2 { color: #fff; font-size: clamp(1.75rem, 4vw, 2.5rem); margin-bottom: 1rem; font-weight: 800; }
+.cta-section p { color: rgba(255,255,255,0.8); margin-bottom: 2rem; max-width: 550px; margin-left: auto; margin-right: auto; }
 
 /* --- Footer --- */
 .site-footer {
@@ -3272,9 +3278,12 @@ iframe { max-width: 100%; }
     font-size: 1rem !important;
   }
 
-  /* CTA section: less vertical padding on mobile */
+  /* CTA section: tighter on tablet */
   .cta-section {
-    padding: 3rem 1.5rem;
+    padding: 2.5rem 1.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px !important;
   }
 
   /* Tighten section header spacing */
@@ -3325,9 +3334,13 @@ iframe { max-width: 100%; }
     padding: 1.25rem 1rem !important;
   }
 
-  /* CTA section: minimal padding on small phones */
+  /* CTA section: compact on small phones */
   .cta-section {
-    padding: 2.5rem 1rem;
+    padding: 2rem 1rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
   }
   .cta-section h2 {
     font-size: 1.5rem;
