@@ -6053,9 +6053,9 @@ iframe { max-width: 100%; }
 
 .espn-staff-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.75rem;
-  max-width: 1200px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 1.25rem;
 }
@@ -6333,8 +6333,12 @@ iframe { max-width: 100%; }
 
 .director-card-link {
   text-decoration: none;
-  color: inherit;
+  color: #fff;
   display: block;
+}
+
+.director-card-link:visited {
+  color: #fff;
 }
 
 .director-card-img {
@@ -6374,6 +6378,7 @@ iframe { max-width: 100%; }
   padding: 1.25rem 1.25rem 0.75rem;
   background: #0a1628;
   border-top: 3px solid #c41e3a;
+  color: #fff;
 }
 
 .director-card-info h3 {
