@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "News & Updates | Florida Coastal Prep Basketball Academy"
+title: News & Updates
 description: "Latest news, alumni stories, and recruiting guides from Florida Coastal Prep. Read about D1 commits, basketball development tips, and FCP alumni making it to the next level."
 og_image: /assets/images/blog/blog-default.jpg
 ---
@@ -29,9 +29,9 @@ og_image: /assets/images/blog/blog-default.jpg
       <a href="{{ post.url | relative_url }}" class="blog-feat-card">
         <div class="blog-feat-img">
           {% if post.image %}
-          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" width="800" height="450" loading="lazy">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
           {% else %}
-          <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" width="800" height="450" loading="lazy">
+          <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
           {% endif %}
         </div>
         <div class="blog-feat-overlay">
@@ -84,6 +84,7 @@ og_image: /assets/images/blog/blog-default.jpg
         <button class="blog-sfilt" data-filter="recruiting">Recruiting</button>
         <button class="blog-sfilt" data-filter="highlights">Highlights</button>
         <button class="blog-sfilt" data-filter="commitments">Commits</button>
+        <button class="blog-sfilt" data-filter="game-recap">Recaps</button>
       </div>
     </div>
 
@@ -94,9 +95,9 @@ og_image: /assets/images/blog/blog-default.jpg
       <a href="{{ post.url | relative_url }}" class="blog-story-card" data-category="{{ filter_cat }}">
         <div class="blog-story-img">
           {% if post.image %}
-          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" width="600" height="338" loading="lazy">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
           {% else %}
-          <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" width="600" height="338" loading="lazy">
+          <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
           {% endif %}
         </div>
         <div class="blog-story-overlay">
