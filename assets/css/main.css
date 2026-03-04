@@ -6389,7 +6389,7 @@ iframe { max-width: 100%; }
   line-height: 1.25;
 }
 
-.director-card-role {
+.director-card-info .director-card-role {
   color: #ffffff;
   font-size: 0.82rem;
   font-weight: 600;
