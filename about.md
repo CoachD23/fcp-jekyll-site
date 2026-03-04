@@ -222,7 +222,7 @@ hero_subtitle: Where Potential Meets Preparation
 </section>
 
 <!-- Final CTA -->
-<div class="cta-section" style="margin-top: 0;">
+<div class="cta-section" style="margin-top: 2.5rem;">
   <h2>Ready to Join the FCP Family?</h2>
   <p>Limited roster spots available — connect with our <a href="/coaches/" style="color: #d4a843;">coaching staff</a> today.</p>
   <div class="hero-cta">

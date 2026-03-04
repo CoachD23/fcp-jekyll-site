@@ -3,7 +3,7 @@ layout: page
 title: Testimonials
 subtitle: Hear From Our Athletes and Families
 description: "Read what parents, athletes, and ESPN scouts say about Florida Coastal Prep. Real testimonials from families whose sons earned college basketball scholarships through FCP."
-hero_image: /assets/images/about-fcp.jpg
+hero_image: /assets/images/paul-biancardi.jpg
 hero_title: Testimonials
 hero_subtitle: Real Families. Real Results.
 ---
@@ -14,17 +14,23 @@ hero_subtitle: Real Families. Real Results.
   <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">The best measure of any program is the success of its athletes and the trust of their families. Here's what the FCP community has to say about their experience.</p>
 </section>
 
-<!-- ESPN Endorsement — Biancardi Duo Card -->
+<!-- ESPN Endorsement — Biancardi Section -->
 <div class="staff-section staff-section-dark fade-in" style="padding: 3rem 0;">
   <div class="staff-section-header">
     <span class="section-label">Industry Recognition</span>
     <h2>What the Experts Say</h2>
     <div class="gold-rule"></div>
   </div>
-  <div class="fade-in" style="margin: 2rem auto 0; max-width: 820px; background: #0a1628; border-radius: 16px; padding: 1rem; box-shadow: 0 6px 24px rgba(0,0,0,0.15);">
+  <p style="max-width: 720px; margin: 0 auto 1.5rem; text-align: center; color: #ccc; font-size: 1.05rem; line-height: 1.7; padding: 0 1.5rem;">Paul Biancardi — former Division I head coach at Wright State and Boston University, and ESPN's Director of Basketball Recruiting — visited Florida Coastal Prep and endorsed the program firsthand. His stamp of approval puts FCP among the elite post-graduate programs in the country.</p>
+  <div class="fade-in" style="margin: 0 auto; max-width: 820px; background: #0a1628; border-radius: 16px; padding: 1rem; box-shadow: 0 6px 24px rgba(0,0,0,0.15);">
     <div class="biancardi-duo">
       <div class="biancardi-duo-photo">
-        <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" loading="lazy">
+        <a href="https://www.youtube.com/clip/UgkxYRSWlhaFin_eNGfyP-Hh_BDKpvDObTX6" target="_blank" rel="noopener" class="biancardi-video-link" aria-label="Watch Paul Biancardi's visit to Florida Coastal Prep on YouTube">
+          <img src="/assets/images/paul-biancardi.jpg" alt="Paul Biancardi visiting Florida Coastal Prep — click to watch video" loading="lazy">
+          <div class="biancardi-play-btn">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+        </a>
       </div>
       <div class="biancardi-duo-card">
         <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." loading="lazy">
@@ -111,7 +117,14 @@ hero_subtitle: Real Families. Real Results.
 <style>
 .biancardi-duo { display: flex; gap: 1.25rem; align-items: center; }
 .biancardi-duo-photo, .biancardi-duo-card { flex: 1; min-width: 0; }
+.biancardi-duo-photo { position: relative; }
 .biancardi-duo-photo img { width: 100%; border-radius: 10px; display: block; }
+.biancardi-video-link { display: block; position: relative; }
+.biancardi-video-link::after { content: ""; position: absolute; inset: 0; border-radius: 10px; background: rgba(0,0,0,0.25); transition: background 0.3s; }
+.biancardi-video-link:hover::after { background: rgba(0,0,0,0.10); }
+.biancardi-play-btn { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 64px; height: 64px; background: rgba(196,30,58,0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.4); transition: transform 0.3s, background 0.3s; }
+.biancardi-video-link:hover .biancardi-play-btn { transform: translate(-50%, -50%) scale(1.1); background: rgba(196,30,58,1); }
+.biancardi-play-btn svg { margin-left: 3px; }
 .biancardi-duo-card img { width: 100%; border-radius: 10px; display: block; }
 @media (max-width: 700px) {
   .biancardi-duo { flex-direction: column; }
@@ -147,7 +160,4 @@ hero_subtitle: Real Families. Real Results.
 }
 </script>
 
-<style>
-.hero-bg-img { object-position: center 20% !important; }
-</style>
 
