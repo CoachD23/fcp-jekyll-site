@@ -233,6 +233,27 @@
     linkedin: ""
     email: ""
 
+- name: "Rico Overall"
+  slug: "rico-overall"
+  title: "Assistant Coach / Recruiting Coordinator"
+  section: "coaching"
+  badge: ""
+  image: "/assets/images/coaches/rico-overall.jpg"
+  action_image: ""
+  bio: "Assistant Coach and Recruiting Coordinator at Florida Coastal Prep, supporting player development and connecting talent with collegiate opportunities."
+  bio_extended: |
+    Rico Overall serves as an Assistant Coach and Recruiting Coordinator at Florida Coastal Prep. In his dual role, he contributes to on-court player development while also managing recruiting relationships with college programs across the country.
+
+    Coach Overall's energy and dedication to the program make him an integral part of the FCP coaching staff. He works closely with student-athletes on their skills development and helps them navigate the recruiting process to find the right collegiate fit.
+  stats: []
+  education: ""
+  hometown: ""
+  social:
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    email: ""
+
 - name: "Guanda \"Dada\" Huang"
   slug: "dada-huang"
   title: "International Recruiter"
