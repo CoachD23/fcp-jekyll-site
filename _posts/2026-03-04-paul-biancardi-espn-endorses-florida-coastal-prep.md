@@ -22,15 +22,10 @@ In short, when Paul Biancardi endorses a basketball program, every Division I co
 
 ## Biancardi Visits Florida Coastal Prep
 
-<a href="https://www.youtube.com/clip/UgkxYRSWlhaFin_eNGfyP-Hh_BDKpvDObTX6" target="_blank" rel="noopener" style="display: block; position: relative; max-width: 640px; margin: 2rem auto; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
-  <img src="/assets/images/paul-biancardi.jpg" alt="Paul Biancardi visiting Florida Coastal Prep — click to watch video" style="width: 100%; display: block;">
-  <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.25); display: flex; align-items: center; justify-content: center;">
-    <div style="width: 72px; height: 72px; background: rgba(196,30,58,0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.4);">
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="white" style="margin-left: 3px;"><path d="M8 5v14l11-7z"/></svg>
-    </div>
-  </div>
-</a>
-<p style="text-align: center; color: #888; font-size: 0.9rem; margin-top: -0.5rem;">▶ Watch Paul Biancardi's visit to Florida Coastal Prep on YouTube</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 640px; margin: 2rem auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
+  <iframe src="https://www.youtube.com/embed/9XX6xUTWEAA?clip=UgkxYRSWlhaFin_eNGfyP-Hh_BDKpvDObTX6&clipt=EK6HBhi6swc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 12px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Paul Biancardi evaluating athletes at Florida Coastal Prep"></iframe>
+</div>
+<p style="text-align: center; color: #888; font-size: 0.9rem; margin-top: 0.5rem;">▶ Paul Biancardi's evaluation visit to Florida Coastal Prep</p>
 
 Biancardi spent time at the FCP campus evaluating every aspect of the program — from training sessions and basketball drills to the residential facilities and academic support systems. He worked directly with athletes on the court, ran drills accumulated through his 35 years in college basketball, and addressed the team about what Division I coaches are looking for in recruits.
 
