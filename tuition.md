@@ -68,14 +68,34 @@ hero_subtitle: Investing in Your Athletic and Academic Future
 </div>
 
 <!-- Financial Assistance -->
-<div class="program-offers fade-in" style="margin-top: 3rem;">
+<div class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
   <div class="staff-section-header">
     <span class="section-label">Affordability</span>
     <h2>Financial Assistance</h2>
     <div class="gold-rule"></div>
   </div>
-  <div style="max-width: 800px; margin: 1rem auto 0;">
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">All applicants are automatically considered for partial scholarships based on a combination of athletic ability and academic achievement. Our Admissions Office works with each family to determine the best financial assistance package available. We encourage every family to apply — you may qualify for more assistance than you think.</p>
+  <div style="max-width: 800px; margin: 0 auto 2rem; text-align: center;">
+    <p style="font-size: 1.1rem; line-height: 1.75; color: rgba(255,255,255,0.85);">Talent shouldn't be limited by finances. Every FCP applicant is automatically considered for partial scholarships and financial awards — no separate application required.</p>
+  </div>
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; max-width: 900px; margin: 0 auto;">
+    <div class="feature-card fade-in" style="text-align: center;">
+      <div class="feature-icon-svg" style="margin: 0 auto 1rem;"><svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" fill="currentColor"/></svg></div>
+      <h3>Automatically Considered</h3>
+      <p>Every application is reviewed for financial assistance. There's no separate scholarship form — just apply and our admissions team does the rest.</p>
+    </div>
+    <div class="feature-card fade-in" style="text-align: center;">
+      <div class="feature-icon-svg" style="margin: 0 auto 1rem;"><svg viewBox="0 0 24 24"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z" fill="currentColor"/></svg></div>
+      <h3>Merit-Based Awards</h3>
+      <p>Scholarship amounts are based on a combination of athletic ability and academic achievement — rewarding the full student-athlete.</p>
+    </div>
+    <div class="feature-card fade-in" style="text-align: center;">
+      <div class="feature-icon-svg" style="margin: 0 auto 1rem;"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/></svg></div>
+      <h3>Personalized Packages</h3>
+      <p>Our Admissions Office works one-on-one with each family. You may qualify for more assistance than you expect — ask us directly.</p>
+    </div>
+  </div>
+  <div style="text-align: center; margin-top: 2.5rem;">
+    <a href="/contact/" class="btn btn-gold">Ask About Financial Assistance</a>
   </div>
 </div>
 
