@@ -266,16 +266,16 @@
 
 - name: "Guanda \"Dada\" Huang"
   slug: "dada-huang"
-  title: "International Recruiter / Strength & Conditioning Coach"
+  title: "International Recruiter"
   section: "coaching"
   badge: ""
   image: "/assets/images/coaches/dada-huang.jpg"
   action_image: ""
-  bio: "Former NAIA player with semi-pro experience in China. Master's in Sports Management from NYU, certified NSCA-CPT."
+  bio: "Former NAIA player with semi-pro experience in China. Master's in Sports Management from NYU."
   bio_extended: |
     Guanda "Dada" Huang serves as International Recruiter at Florida Coastal Prep, leveraging his unique cross-cultural background to connect international talent with American collegiate basketball opportunities.
 
-    A former NAIA player with semi-professional playing experience in China, Huang understands both the American and international basketball landscapes. He holds a Master's degree in Sports Management from New York University and is a certified NSCA Certified Personal Trainer (CPT).
+    A former NAIA player with semi-professional playing experience in China, Huang understands both the American and international basketball landscapes. He holds a Master's degree in Sports Management from New York University.
 
     At FCP, Huang manages international recruiting pipelines, assists international student-athletes with their transition to American basketball and academics, and helps families navigate the complex process of studying and playing basketball in the United States.
   stats: []
