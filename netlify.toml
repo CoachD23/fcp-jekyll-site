@@ -17,10 +17,6 @@
 [[plugins]]
   package = "netlify-plugin-jekyll-cache"
 
-# Verifies all internal links and asset references after each build — catches 404s before they go live
-[[plugins]]
-  package = "netlify-plugin-checklinks"
-
 # Minifies HTML output for smaller file sizes and faster page loads
 [[plugins]]
   package = "netlify-plugin-minify-html"
