@@ -117,6 +117,114 @@ hero_subtitle: Education That Prepares You for College
   </div>
 </section>
 
+<!-- Day in the Life -->
+<section class="program-offers fade-in" style="margin-top: 3rem;">
+  <div class="staff-section-header">
+    <span class="section-label">Daily Life</span>
+    <h2>A Day in the Life at FCP</h2>
+    <div class="gold-rule"></div>
+  </div>
+
+  <p style="text-align: center; color: #555; max-width: 640px; margin: 0 auto 2rem; font-size: 1rem; line-height: 1.75;">Block scheduling ensures student-athletes never have to choose between academics and training — every day is structured for maximum development on the court, in the classroom, and in the weight room.</p>
+
+  <!-- Legend -->
+  <div style="display: flex; flex-wrap: wrap; gap: 1.25rem; justify-content: center; margin: 0 auto 2.5rem;">
+    <span style="display:flex;align-items:center;gap:0.4rem;"><span style="width:10px;height:10px;border-radius:2px;background:#1d5eb5;display:inline-block;"></span><span style="font-size:0.79rem;font-weight:600;color:#555;">Academics</span></span>
+    <span style="display:flex;align-items:center;gap:0.4rem;"><span style="width:10px;height:10px;border-radius:2px;background:#c41e3a;display:inline-block;"></span><span style="font-size:0.79rem;font-weight:600;color:#555;">Basketball</span></span>
+    <span style="display:flex;align-items:center;gap:0.4rem;"><span style="width:10px;height:10px;border-radius:2px;background:#16a34a;display:inline-block;"></span><span style="font-size:0.79rem;font-weight:600;color:#555;">S&amp;C / Recovery</span></span>
+    <span style="display:flex;align-items:center;gap:0.4rem;"><span style="width:10px;height:10px;border-radius:2px;background:#d4a843;display:inline-block;"></span><span style="font-size:0.79rem;font-weight:600;color:#555;">Meals &amp; Personal</span></span>
+  </div>
+
+  <!-- Schedule rows -->
+  <div class="fcp-day-schedule" style="max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 0.5rem;">
+
+    <div style="display: grid; grid-template-columns: 76px 1fr; gap: 0.85rem; align-items: center;">
+      <div style="text-align: right; font-size: 0.7rem; font-weight: 700; color: #aaa; white-space: nowrap;">6:30 AM</div>
+      <div style="background: #f7f8f9; border-left: 4px solid #ccc; border-radius: 0 8px 8px 0; padding: 0.72rem 1.1rem;">
+        <span style="font-weight: 700; font-size: 0.87rem; color: #0a1628;">Wake Up &amp; Breakfast</span>
+        <span style="font-size: 0.77rem; color: #888; margin-left: 0.4rem;">Morning routine and team meal</span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 76px 1fr; gap: 0.85rem; align-items: center;">
+      <div style="text-align: right; font-size: 0.7rem; font-weight: 700; color: #aaa; white-space: nowrap;">8:00 AM</div>
+      <div style="background: #eff4fb; border-left: 4px solid #1d5eb5; border-radius: 0 8px 8px 0; padding: 0.72rem 1.1rem;">
+        <span style="font-weight: 700; font-size: 0.87rem; color: #0a1628;">Academic Block I</span>
+        <span style="font-size: 0.75rem; font-weight: 600; color: #1d5eb5; margin-left: 0.4rem;">Academics</span>
+        <div style="font-size: 0.77rem; color: #555; margin-top: 0.15rem;">Core coursework: English, Math, Science, History</div>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 76px 1fr; gap: 0.85rem; align-items: center;">
+      <div style="text-align: right; font-size: 0.7rem; font-weight: 700; color: #aaa; white-space: nowrap;">11:00 AM</div>
+      <div style="background: #eff4fb; border-left: 4px solid #1d5eb5; border-radius: 0 8px 8px 0; padding: 0.72rem 1.1rem;">
+        <span style="font-weight: 700; font-size: 0.87rem; color: #0a1628;">Academic Block II</span>
+        <span style="font-size: 0.75rem; font-weight: 600; color: #1d5eb5; margin-left: 0.4rem;">Academics</span>
+        <div style="font-size: 0.77rem; color: #555; margin-top: 0.15rem;">Electives, dual enrollment coursework, NCAA prep</div>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 76px 1fr; gap: 0.85rem; align-items: center;">
+      <div style="text-align: right; font-size: 0.7rem; font-weight: 700; color: #aaa; white-space: nowrap;">12:30 PM</div>
+      <div style="background: #fef9ee; border-left: 4px solid #d4a843; border-radius: 0 8px 8px 0; padding: 0.72rem 1.1rem;">
+        <span style="font-weight: 700; font-size: 0.87rem; color: #0a1628;">Lunch</span>
+        <span style="font-size: 0.75rem; font-weight: 600; color: #b58a1a; margin-left: 0.4rem;">Meals &amp; Personal</span>
+        <div style="font-size: 0.77rem; color: #555; margin-top: 0.15rem;">Team meal and preparation for afternoon training</div>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 76px 1fr; gap: 0.85rem; align-items: center;">
+      <div style="text-align: right; font-size: 0.7rem; font-weight: 700; color: #aaa; white-space: nowrap;">1:30 PM</div>
+      <div style="background: #fef1f3; border-left: 4px solid #c41e3a; border-radius: 0 8px 8px 0; padding: 0.72rem 1.1rem;">
+        <span style="font-weight: 700; font-size: 0.87rem; color: #0a1628;">Team Practice</span>
+        <span style="font-size: 0.75rem; font-weight: 600; color: #c41e3a; margin-left: 0.4rem;">Basketball</span>
+        <div style="font-size: 0.77rem; color: #555; margin-top: 0.15rem;">Skill work, team drills, film review &mdash; Spartan Training Center</div>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 76px 1fr; gap: 0.85rem; align-items: center;">
+      <div style="text-align: right; font-size: 0.7rem; font-weight: 700; color: #aaa; white-space: nowrap;">4:30 PM</div>
+      <div style="background: #f0faf3; border-left: 4px solid #16a34a; border-radius: 0 8px 8px 0; padding: 0.72rem 1.1rem;">
+        <span style="font-weight: 700; font-size: 0.87rem; color: #0a1628;">Strength &amp; Conditioning</span>
+        <span style="font-size: 0.75rem; font-weight: 600; color: #16a34a; margin-left: 0.4rem;">S&amp;C / Recovery</span>
+        <div style="font-size: 0.77rem; color: #555; margin-top: 0.15rem;">Performance training, sports science, physical therapy assessments</div>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 76px 1fr; gap: 0.85rem; align-items: center;">
+      <div style="text-align: right; font-size: 0.7rem; font-weight: 700; color: #aaa; white-space: nowrap;">6:00 PM</div>
+      <div style="background: #fef9ee; border-left: 4px solid #d4a843; border-radius: 0 8px 8px 0; padding: 0.72rem 1.1rem;">
+        <span style="font-weight: 700; font-size: 0.87rem; color: #0a1628;">Dinner</span>
+        <span style="font-size: 0.75rem; font-weight: 600; color: #b58a1a; margin-left: 0.4rem;">Meals &amp; Personal</span>
+        <div style="font-size: 0.77rem; color: #555; margin-top: 0.15rem;">Team meal, nutrition guidance, recovery</div>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 76px 1fr; gap: 0.85rem; align-items: center;">
+      <div style="text-align: right; font-size: 0.7rem; font-weight: 700; color: #aaa; white-space: nowrap;">7:30 PM</div>
+      <div style="background: #eff4fb; border-left: 4px solid #1d5eb5; border-radius: 0 8px 8px 0; padding: 0.72rem 1.1rem;">
+        <span style="font-weight: 700; font-size: 0.87rem; color: #0a1628;">Study Hall</span>
+        <span style="font-size: 0.75rem; font-weight: 600; color: #1d5eb5; margin-left: 0.4rem;">Academics</span>
+        <div style="font-size: 0.77rem; color: #555; margin-top: 0.15rem;">Supervised homework, exam prep, academic tutoring</div>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 76px 1fr; gap: 0.85rem; align-items: center;">
+      <div style="text-align: right; font-size: 0.7rem; font-weight: 700; color: #aaa; white-space: nowrap;">9:30 PM</div>
+      <div style="background: #f7f8f9; border-left: 4px solid #ccc; border-radius: 0 8px 8px 0; padding: 0.72rem 1.1rem;">
+        <span style="font-weight: 700; font-size: 0.87rem; color: #0a1628;">Personal Time &amp; Rest</span>
+        <span style="font-size: 0.77rem; color: #888; margin-left: 0.4rem;">Curfew &mdash; lights out at 11:00 PM</span>
+      </div>
+    </div>
+
+  </div>
+  <style>
+    @media (max-width: 480px) {
+      .fcp-day-schedule > div { grid-template-columns: 58px 1fr !important; }
+    }
+  </style>
+</section>
+
 <!-- CCU Partnership -->
 <div class="staff-section staff-section-dark" style="margin-top: 3rem;">
   <div class="staff-section-header">
