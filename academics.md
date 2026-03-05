@@ -215,6 +215,15 @@ hero_subtitle: Education That Prepares You for College
       <p>Complete the required 16 NCAA core courses including English, math, science, and additional academic electives.</p>
     </div>
   </div>
+
+  <!-- NCAA Urgency CTA -->
+  <div class="fade-in" style="text-align: center; margin: 2.5rem auto 0; padding: 2rem 2.5rem; background: rgba(196,30,58,0.12); border: 1px solid rgba(196,30,58,0.35); border-radius: 12px; max-width: 680px;">
+    <p style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em; color: #c41e3a; margin: 0 0 0.75rem;">Time-Sensitive</p>
+    <h3 style="color: #fff; font-size: 1.35rem; font-weight: 800; margin: 0 0 0.75rem; line-height: 1.3;">NCAA eligibility registration doesn't wait.</h3>
+    <p style="color: rgba(255,255,255,0.75); font-size: 0.97rem; line-height: 1.65; margin: 0 0 1.5rem;">The Eligibility Center has strict deadlines tied to your graduation year. Our staff walks every student-athlete through registration, course review, and official clearance — so your eligibility is never at risk.</p>
+    <a href="/contact/" class="btn btn-gold">Get Eligibility Guidance</a>
+  </div>
+
 </div>
 
 <!-- Faculty -->
