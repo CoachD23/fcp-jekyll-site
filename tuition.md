@@ -55,6 +55,31 @@ hero_subtitle: Investing in Your Athletic and Academic Future
   </div>
 </div>
 
+<!-- ROI Stats Bar -->
+<div class="alumni-stats-bar fade-in" style="background: #0a1628; border-top: 4px solid #d4a843; padding: 2.75rem 1rem; text-align: center;">
+  <div class="container" style="max-width: 900px; margin: 0 auto;">
+    <p style="font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.18em; color: #d4a843; margin: 0 0 1.75rem;">The FCP Track Record</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; align-items: flex-start;">
+      <div style="flex: 1; min-width: 130px;">
+        <div style="font-size: 2.8rem; font-weight: 900; color: #d4a843; line-height: 1;">58+</div>
+        <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255,255,255,0.65); margin-top: 0.45rem;">Athletes Placed</div>
+      </div>
+      <div style="flex: 1; min-width: 130px;">
+        <div style="font-size: 2.8rem; font-weight: 900; color: #d4a843; line-height: 1;">11</div>
+        <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255,255,255,0.65); margin-top: 0.45rem;">Division I Commitments</div>
+      </div>
+      <div style="flex: 1; min-width: 130px;">
+        <div style="font-size: 2.8rem; font-weight: 900; color: #d4a843; line-height: 1;">5</div>
+        <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255,255,255,0.65); margin-top: 0.45rem;">Levels Represented (D1–Pro)</div>
+      </div>
+      <div style="flex: 1; min-width: 130px;">
+        <div style="font-size: 2.8rem; font-weight: 900; color: #d4a843; line-height: 1;">14K</div>
+        <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255,255,255,0.65); margin-top: 0.45rem;">sq ft Training Facility</div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- High School Tuition -->
 <div class="program-offers fade-in" style="margin-top: 3rem;">
   <div class="staff-section-header">
