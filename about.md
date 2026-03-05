@@ -61,14 +61,18 @@ hero_subtitle: Where Potential Meets Preparation
   </div>
 </section>
 
-<!-- ESPN Endorsement — Side-by-Side with Navy Container -->
+<!-- ESPN Recognition — Side-by-Side with Navy Container -->
 <div class="fade-in" style="margin: 3rem auto; max-width: 960px; background: #0a1628; border-radius: 16px; padding: 1.25rem; box-shadow: 0 8px 32px rgba(0,0,0,0.18);">
   <div class="biancardi-duo">
     <div class="biancardi-duo-photo">
-      <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" loading="lazy">
+      <a href="/paul-biancardi-espn-endorses-florida-coastal-prep/">
+        <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi addressing Florida Coastal Prep student-athletes during a visit to the Spartan Training Center in Fort Walton Beach" loading="lazy">
+      </a>
     </div>
     <div class="biancardi-duo-card">
-      <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." loading="lazy">
+      <a href="/paul-biancardi-espn-endorses-florida-coastal-prep/">
+        <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, visiting Florida Coastal Prep — Love your program! First class treatment of players." loading="lazy">
+      </a>
     </div>
   </div>
 </div>

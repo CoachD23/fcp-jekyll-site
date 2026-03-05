@@ -10,18 +10,18 @@ hero_subtitle: Real Families. Real Results.
 
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
-  <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Proven by Families. Endorsed by Experts.</h2>
+  <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Proven by Families. Recognized by Experts.</h2>
   <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">The best measure of any program is the success of its athletes and the trust of their families. Here's what the FCP community has to say about their experience.</p>
 </section>
 
-<!-- ESPN Endorsement — Biancardi Section -->
+<!-- ESPN Recognition — Biancardi Section -->
 <div class="staff-section staff-section-dark fade-in" style="padding: 3rem 0;">
   <div class="staff-section-header">
     <span class="section-label">Industry Recognition</span>
     <h2>What the Experts Say</h2>
     <div class="gold-rule"></div>
   </div>
-  <p style="max-width: 720px; margin: 0 auto 1.5rem; text-align: center; color: #ccc; font-size: 1.05rem; line-height: 1.7; padding: 0 1.5rem;">Paul Biancardi — former Division I head coach at Wright State and Boston University, and ESPN's Director of Basketball Recruiting — visited Florida Coastal Prep and endorsed the program firsthand. His stamp of approval puts FCP among the elite post-graduate programs in the country.</p>
+  <p style="max-width: 720px; margin: 0 auto 1.5rem; text-align: center; color: #ccc; font-size: 1.05rem; line-height: 1.7; padding: 0 1.5rem;"><a href="/paul-biancardi-espn-endorses-florida-coastal-prep/" style="color: #d4a843; font-weight: 600; text-decoration: none; border-bottom: 1.5px solid rgba(212,168,67,0.4);">Paul Biancardi</a> — former Division I head coach at Wright State and Boston University, and ESPN's Director of Basketball Recruiting — visited Florida Coastal Prep and praised the program firsthand. His evaluation puts FCP among the elite post-graduate programs in the country.</p>
   <div class="fade-in" style="margin: 0 auto; max-width: 820px; background: #0a1628; border-radius: 16px; padding: 1rem; box-shadow: 0 6px 24px rgba(0,0,0,0.15);">
     <div class="biancardi-duo">
       <div class="biancardi-duo-photo">
@@ -33,7 +33,7 @@ hero_subtitle: Real Families. Real Results.
         </a>
       </div>
       <div class="biancardi-duo-card">
-        <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, endorsing Florida Coastal Prep — Love your program! First class treatment of players." loading="lazy">
+        <img src="/assets/images/about/biancardi-endorsement.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, visiting Florida Coastal Prep — Love your program! First class treatment of players." loading="lazy">
       </div>
     </div>
   </div>

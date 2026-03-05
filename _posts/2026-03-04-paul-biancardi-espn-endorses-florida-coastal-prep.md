@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Paul Biancardi — ESPN's Director of Recruiting — Endorses Florida Coastal Prep"
+title: "Paul Biancardi — ESPN's Director of Recruiting — Visits Florida Coastal Prep"
 date: 2026-03-04
 categories: [highlights]
 image: /assets/images/paul-biancardi.jpg
-description: "Paul Biancardi, ESPN's Director of Basketball Recruiting and former D1 head coach, visited Florida Coastal Prep and gave the program his personal endorsement. Watch the video of his visit."
+description: "Paul Biancardi, ESPN's Director of Basketball Recruiting and former D1 head coach, visited Florida Coastal Prep and praised the program firsthand. Watch the video of his visit."
 excerpt: "When ESPN's top basketball recruiting director — a man who has personally evaluated thousands of programs — visits your academy and calls it 'first class,' that means something."
 ---
 
@@ -18,7 +18,7 @@ Paul Biancardi is one of the most respected names in college basketball recruiti
 
 Before ESPN, Biancardi spent decades on the sidelines as a Division I head coach and assistant. He led the programs at **Wright State University** and **Boston University** as head coach, and served as an assistant at programs including **Ohio State**, **St. Louis**, and **Boston College**. His career spans over 35 years in college basketball — as a recruiter, evaluator, coach, and now the voice that college coaches across America listen to when they want to know who the next wave of talent is.
 
-In short, when Paul Biancardi endorses a basketball program, every Division I coach in the country pays attention.
+In short, when Paul Biancardi praises a basketball program, every Division I coach in the country pays attention.
 
 ## Biancardi Visits Florida Coastal Prep
 
@@ -39,7 +39,7 @@ That wasn't a polished press statement. That was a man who has been inside hundr
 
 <img src="/assets/images/about/biancardi-gym.jpg" alt="Paul Biancardi at the Florida Coastal Prep facility" style="width: 100%; max-width: 640px; display: block; margin: 2rem auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
 
-Biancardi's endorsement carries weight that goes beyond a quote on a website. Here's what it means in practical terms for FCP athletes:
+Biancardi's praise carries weight that goes beyond a quote on a website. Here's what it means in practical terms for FCP athletes:
 
 ### Recruiting Visibility
 
@@ -51,7 +51,7 @@ Florida Coastal Prep was one of the first prep programs in Florida to host ESPN 
 
 ### Coaching Credibility
 
-Biancardi didn't just tour the facilities. He watched Coach DeForest and the FCP staff work with players and saw firsthand the development system that has produced dozens of college commits. His endorsement validates what FCP families already know: the coaching here is elite.
+Biancardi didn't just tour the facilities. He watched Coach DeForest and the FCP staff work with players and saw firsthand the development system that has produced dozens of college commits. His praise validates what FCP families already know: the coaching here is elite.
 
 ## A Track Record That Speaks for Itself
 
@@ -61,4 +61,4 @@ With NBA All-Star [Kenny Anderson](/coaches/kenny-anderson/) now on the coaching
 
 ---
 
-**Ready to see what FCP can do for your basketball career?** [Apply now](/apply/) or [contact our coaching staff](/contact/) to learn more about the program that earned ESPN's endorsement.
+**Ready to see what FCP can do for your basketball career?** [Apply now](/apply/) or [contact our coaching staff](/contact/) to learn more about the program that earned ESPN's recognition.

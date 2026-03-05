@@ -83,7 +83,7 @@
 ## Real Testimonials (Use these — do not invent quotes)
 
 > "Love your program! First class treatment of players and you are pushing them to be their best! As Arnold Schwarzenegger once said, 'I'll be back!'"
-> — **Paul Biancardi, ESPN Recruiting Director**
+> — **[Paul Biancardi, ESPN Recruiting Director](/paul-biancardi-espn-endorses-florida-coastal-prep/)**
 
 > "Coach Lee DeForest was instrumental in putting my son in the position to compete against high level competition as well as in front of college coaches... My son matured and received a D1 scholarship and now plays for the Missouri Tigers."
 > — **Sean East Sr., Parent (son: Sean East, now in NBA G-League)**

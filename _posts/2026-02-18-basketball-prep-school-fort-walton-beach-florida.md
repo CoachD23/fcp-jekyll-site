@@ -72,7 +72,7 @@ This is the question nobody asks. Great programs have honest conversations when 
 
 ## What Families Who've Been Through This Say
 
-Paul Biancardi, ESPN Recruiting Director, has been to our facility. His response: *"Love your program! First class treatment of players and you are pushing them to be their best!"*
+[Paul Biancardi, ESPN Recruiting Director](/paul-biancardi-espn-endorses-florida-coastal-prep/), has been to our facility. His response: *"Love your program! First class treatment of players and you are pushing them to be their best!"*
 
 That's not a testimonial we manufactured. That's someone who has seen hundreds of prep programs giving an honest reaction.
 
