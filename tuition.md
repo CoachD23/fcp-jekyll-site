@@ -79,6 +79,19 @@ hero_subtitle: Investing in Your Athletic and Academic Future
   </div>
 </div>
 
+<!-- Parent Testimonial -->
+<div class="fade-in" style="max-width: 800px; margin: 3rem auto 0; padding: 0 1rem;">
+  <div style="background: #0a1628; border-radius: 16px; padding: 3rem; position: relative; overflow: hidden; border-left: 5px solid #c41e3a;">
+    <div style="position: absolute; top: -10px; left: 24px; font-size: 8rem; color: #c41e3a; opacity: 0.15; font-family: Georgia, serif; line-height: 1; pointer-events: none;">"</div>
+    <span style="display: inline-block; background: #c41e3a; color: #fff; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; padding: 4px 14px; border-radius: 20px; margin-bottom: 1.5rem;">Parent Testimonial</span>
+    <p style="font-size: 1.3rem; line-height: 1.7; color: #fff; font-style: italic; margin: 0 0 1.5rem; position: relative; z-index: 1;">"My son had zero offers coming out of high school, and after completing his time at FCP, he had plenty of offers. Thank you Coach and FCP!!!"</p>
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <div style="width: 40px; height: 3px; background: #d4a843; border-radius: 2px;"></div>
+      <p style="color: #d4a843; font-weight: 700; font-size: 1rem; margin: 0;">Shawn Roy — Parent</p>
+    </div>
+  </div>
+</div>
+
 <!-- Admissions Process -->
 <div class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
   <div class="staff-section-header">
@@ -147,45 +160,6 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     <div class="faq-card fade-in">
       <h3>Do international athletes need health insurance?</h3>
       <p>Yes. All athletes in our program must have health insurance coverage. International athletes should arrange for an appropriate health insurance plan prior to arrival.</p>
-    </div>
-  </div>
-</div>
-
-<!-- What to Bring -->
-<div class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
-  <div class="staff-section-header">
-    <span class="section-label">Prepare</span>
-    <h2>What to Bring</h2>
-    <div class="gold-rule"></div>
-  </div>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 900px; margin: 2rem auto 0;">
-    <div class="feature-card fade-in">
-      <h3 style="color: #d4a843; margin-bottom: 1rem;">Necessary Items</h3>
-      <ul class="checklist">
-        <li>Form of identification (State ID or Driver's License)</li>
-        <li>Twin bedding and pillow</li>
-        <li>School supplies (notebooks, pencils, pens)</li>
-        <li>Laundry basket, detergent, and fabric softener</li>
-        <li>Towels and toiletries</li>
-        <li>Backpack and travel bag</li>
-        <li>Vitamins, medication as needed</li>
-        <li>Copy of medical and emergency contacts</li>
-        <li>A locker lock</li>
-        <li>Snacks and personal food items</li>
-        <li>$250 refundable security deposit</li>
-      </ul>
-    </div>
-    <div class="feature-card fade-in">
-      <h3 style="color: #d4a843; margin-bottom: 1rem;">Permitted Items</h3>
-      <ul class="checklist">
-        <li>Cell phone</li>
-        <li>Laptop computer</li>
-        <li>Television</li>
-        <li>Electronics and video games</li>
-      </ul>
-      <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
-        <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem; font-style: italic;">Questions about what to bring? Contact our admissions team and we'll help you prepare.</p>
-      </div>
     </div>
   </div>
 </div>

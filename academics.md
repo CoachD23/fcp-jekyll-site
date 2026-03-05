@@ -31,6 +31,33 @@ hero_subtitle: Education That Prepares You for College
   <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Every course is NCAA-approved and accredited. From dual enrollment with <strong>Colorado Christian University</strong> to unique electives like leadership and technology, our student-athletes graduate college-ready — with transcripts that pass the eligibility center and credentials that open scholarship opportunities.</p>
 </section>
 
+<!-- Impact Stats Bar -->
+<div class="fade-in" style="max-width: 960px; margin: 0 auto 2.5rem; padding: 0 1rem;">
+  <div class="academics-stats-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; background: #0a1628; border-radius: 12px; overflow: hidden;">
+    <div style="padding: 2rem 1.5rem; text-align: center; border-right: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 2.4rem; font-weight: 800; color: #d4a843; line-height: 1;">43</div>
+      <div style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.6); margin-top: 0.4rem;">States Represented</div>
+    </div>
+    <div style="padding: 2rem 1.5rem; text-align: center; border-right: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 2.4rem; font-weight: 800; color: #d4a843; line-height: 1;">22</div>
+      <div style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.6); margin-top: 0.4rem;">Countries</div>
+    </div>
+    <div style="padding: 2rem 1.5rem; text-align: center; border-right: 1px solid rgba(255,255,255,0.08);">
+      <div style="font-size: 2.4rem; font-weight: 800; color: #d4a843; line-height: 1;">100%</div>
+      <div style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.6); margin-top: 0.4rem;">NCAA-Approved</div>
+    </div>
+    <div style="padding: 2rem 1.5rem; text-align: center;">
+      <div style="font-size: 2.4rem; font-weight: 800; color: #d4a843; line-height: 1;">CCU</div>
+      <div style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.6); margin-top: 0.4rem;">Dual Enrollment Partner</div>
+    </div>
+  </div>
+  <style>
+    @media (max-width: 600px) {
+      .academics-stats-grid { grid-template-columns: 1fr 1fr !important; }
+    }
+  </style>
+</div>
+
 <!-- Academic Overview — Global Perspective -->
 <div class="program-grid fade-in">
   <div class="program-image">
@@ -148,7 +175,7 @@ hero_subtitle: Education That Prepares You for College
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></div>
       <h3>Kenny Anderson Leadership Course</h3>
-      <p>NBA All-Star and FCP Director of Athletics <strong>Kenny Anderson</strong> leads an exclusive elective on leadership, mental toughness, and life skills. Drawing from two decades in the NBA and years of mentoring young athletes, this course teaches student-athletes what it takes to lead — on the court and in life.</p>
+      <p>NBA All-Star and FCP Skills Development Director <strong>Kenny Anderson</strong> leads an exclusive elective on leadership, mental toughness, and life skills. Drawing from two decades in the NBA and years of mentoring young athletes, this course teaches student-athletes what it takes to lead — on the court and in life.</p>
     </div>
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/></svg></div>

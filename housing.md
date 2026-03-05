@@ -88,6 +88,45 @@ hero_subtitle: Living on the Emerald Coast
 }
 </style>
 
+<!-- What to Bring -->
+<div class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
+  <div class="staff-section-header">
+    <span class="section-label">Prepare</span>
+    <h2>What to Bring</h2>
+    <div class="gold-rule"></div>
+  </div>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 900px; margin: 2rem auto 0;">
+    <div class="feature-card fade-in">
+      <h3 style="color: #d4a843; margin-bottom: 1rem;">Necessary Items</h3>
+      <ul class="checklist">
+        <li>Form of identification (State ID or Driver's License)</li>
+        <li>Twin bedding and pillow</li>
+        <li>School supplies (notebooks, pencils, pens)</li>
+        <li>Laundry basket, detergent, and fabric softener</li>
+        <li>Towels and toiletries</li>
+        <li>Backpack and travel bag</li>
+        <li>Vitamins, medication as needed</li>
+        <li>Copy of medical and emergency contacts</li>
+        <li>A locker lock</li>
+        <li>Snacks and personal food items</li>
+        <li>$250 refundable security deposit</li>
+      </ul>
+    </div>
+    <div class="feature-card fade-in">
+      <h3 style="color: #d4a843; margin-bottom: 1rem;">Permitted Items</h3>
+      <ul class="checklist">
+        <li>Cell phone</li>
+        <li>Laptop computer</li>
+        <li>Television</li>
+        <li>Electronics and video games</li>
+      </ul>
+      <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
+        <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem; font-style: italic;">Questions about what to bring? Contact our admissions team and we'll help you prepare.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="cta-section" style="margin-top: 0;">
   <h2>Questions About Housing?</h2>
   <p>We're happy to walk you through the details and <a href="/area-info/" style="color: #d4a843;">show you the area</a>.</p>
