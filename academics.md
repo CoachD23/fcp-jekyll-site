@@ -236,6 +236,22 @@ hero_subtitle: Education That Prepares You for College
     <p style="color: rgba(255,255,255,0.9); font-size: 1.08rem; line-height: 1.75; text-align: center;">FCP partners with Colorado Christian University (CCU) to offer dual enrollment opportunities for post-graduate athletes. Student-athletes can earn college credits while completing their PG year — giving them a head start on their college education.</p>
   </div>
 
+  <!-- CCU Benefit Badges -->
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 0 auto 2.5rem; max-width: 760px;">
+    <div style="display: flex; align-items: center; gap: 0.65rem; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; padding: 0.75rem 1.25rem;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#d4a843" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+      <span style="font-size: 0.87rem; font-weight: 700; color: #fff;">Real College Credits</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.65rem; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; padding: 0.75rem 1.25rem;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#d4a843" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+      <span style="font-size: 0.87rem; font-weight: 700; color: #fff;">Transfer to Any 4-Year School</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 0.65rem; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; padding: 0.75rem 1.25rem;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#d4a843" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      <span style="font-size: 0.87rem; font-weight: 700; color: #fff;">Block-Style Schedule</span>
+    </div>
+  </div>
+
   <div class="enrollment-steps">
     <div class="enrollment-step fade-in">
       <h3>Apply to FCP</h3>
@@ -259,11 +275,16 @@ hero_subtitle: Education That Prepares You for College
     </div>
   </div>
 
-  <div class="ccu-contact fade-in">
+  <div class="ccu-contact fade-in" style="position: relative; overflow: hidden;">
+    <div style="position: absolute; top: -20px; right: -20px; width: 120px; height: 120px; background: rgba(212,168,67,0.07); border-radius: 50%; pointer-events: none;"></div>
+    <div style="width: 62px; height: 62px; border-radius: 50%; background: linear-gradient(135deg, #d4a843 0%, #b8922a 100%); display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; box-shadow: 0 4px 15px rgba(212,168,67,0.3);">
+      <span style="font-size: 1.3rem; font-weight: 800; color: #0a1628; letter-spacing: -0.02em;">BR</span>
+    </div>
+    <div style="display: inline-block; background: rgba(212,168,67,0.12); border: 1px solid rgba(212,168,67,0.3); border-radius: 20px; padding: 0.25rem 0.85rem; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #a07820; margin-bottom: 0.75rem;">CCU Academic Advising</div>
     <h3>Beth Roelofs</h3>
-    <p class="ccu-role">CCU Academic Advisor</p>
-    <p>For enrollment questions and academic advising, contact Beth directly.</p>
-    <a href="/contact/" class="btn btn-primary" style="margin-top: 0.75rem;">Contact Academic Advising</a>
+    <p class="ccu-role">Academic Advisor — Colorado Christian University</p>
+    <p style="font-size: 0.92rem; color: #555; line-height: 1.65; max-width: 380px; margin: 0 auto 1.25rem;">Beth guides every FCP post-graduate through dual enrollment — from the initial application and course selection to credit transfer at your future university.</p>
+    <a href="/contact/" class="btn btn-primary" style="margin-top: 0.25rem;">Contact Academic Advising</a>
   </div>
 </div>
 
