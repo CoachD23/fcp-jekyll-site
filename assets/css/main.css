@@ -6379,20 +6379,19 @@ iframe { max-width: 100%; }
   height: 160px;
   border-radius: 50%;
   overflow: hidden;
-  border: 3px solid rgba(26, 26, 46, 0.12);
   margin-bottom: 1.1rem;
-  background: #fff;
-  transition: border-color 0.25s;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  transition: box-shadow 0.25s;
 }
 
 .advisory-circle-link:hover .advisory-circle-photo {
-  border-color: #b22234;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.18);
 }
 
 .advisory-circle-photo img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   transition: transform 0.35s ease;
 }
 
