@@ -12,7 +12,7 @@
   section: "executive"
   badge: ""
   image: "/assets/images/coaches/lee-deforest.jpg"
-  action_image: ""
+  action_image: "/assets/images/coaches/deforest-action.jpg"
   bio: "Seventh-year Athletic Director with 25 years of basketball coaching across DI, DII, NAIA, and JUCO levels. Notable achievements include coaching Sean East (now in NBA G-League), Brandon Maclin (DePaul), Kylin Green (Houston Baptist), and Ring Malith (SIU Edwardsville)."
   bio_extended: |
     Lee DeForest has spent over two decades shaping the futures of student-athletes at every level of collegiate basketball. As the Athletic Director and Director of Operations at Florida Coastal Prep, he oversees all aspects of the program — from recruiting and player development to academics and college placement.
@@ -41,7 +41,7 @@
   section: "executive"
   badge: ""
   image: "/assets/images/coaches/vando-becheli.jpg"
-  action_image: ""
+  action_image: "/assets/images/coaches/vando-action.jpg"
   bio: "Fifth-year National Post Grad Head Coach with 120+ wins at Utah State Eastern (Region XVIII champ, 3rd NJCAA) and 20-win seasons every year at Lighthouse Christian College. Brazilian native with 25 years of professional playing and coaching experience."
   bio_extended: |
     Vando Becheli brings a global perspective to Florida Coastal Prep as the National Post Grad Director and Assistant Athletic Director. A Brazilian native with 25 years of professional playing and coaching experience, Becheli has coached at the highest levels on multiple continents.
@@ -126,7 +126,7 @@
   section: "coaching"
   badge: "NAIA All-American"
   image: "/assets/images/coaches/dmitry-utolin.jpg"
-  action_image: ""
+  action_image: "/assets/images/coaches/dmitry-action.jpg"
   bio: "Third-year coach, former Cumberland University GA. Professional player (CSKA Moscow), played at Cuesta JC, West Texas A&M, and Lindsey Wilson. Two-time All-Conference."
   bio_extended: |
     Dmitry Utolin's journey from professional basketball in Russia to coaching in the Florida Panhandle gives him a unique perspective on player development. A former CSKA Moscow professional player, Utolin understands what it takes to compete at the highest levels.
@@ -153,7 +153,7 @@
   section: "coaching"
   badge: ""
   image: "/assets/images/coaches/tyler-martin.jpg"
-  action_image: ""
+  action_image: "/assets/images/coaches/tyler-action.webp"
   bio: "Memphis native, played for Coach DeForest at Combine Academy who helped him earn a college offer at the University of Montevallo. Also played at Stillman College. Emphasizes skill refinement and mental preparation."
   bio_extended: |
     Tyler Martin brings firsthand post-graduate experience to his coaching role at Florida Coastal Prep. A Memphis, Tennessee native, Martin played for Coach Lee DeForest at Combine Academy's post-graduate program — where DeForest's coaching and recruiting connections helped him earn a college basketball offer at the University of Montevallo.
@@ -199,7 +199,7 @@
   section: "coaching"
   badge: ""
   image: "/assets/images/coaches/ian-masone.jpg"
-  action_image: ""
+  action_image: "/assets/images/coaches/ian-action.jpg"
   bio: "Assistant Coach and Strength & Conditioning Coach at Florida Coastal Prep, combining on-court coaching with athletic performance training."
   bio_extended: |
     Ian Masone brings a dual role to Florida Coastal Prep as both an Assistant Coach and Strength & Conditioning Coach. His unique combination of basketball coaching knowledge and sports performance expertise allows him to develop athletes both on the court and in the weight room.
@@ -220,7 +220,7 @@
   section: "coaching"
   badge: ""
   image: "/assets/images/coaches/maurice-dickerson.jpg"
-  action_image: ""
+  action_image: "/assets/images/coaches/maurice-action.webp"
   bio: "Former standout college basketball player at the NAIA and NCAA Division II levels, including the University of West Alabama and Albany State University."
   bio_extended: |
     Maurice Dickerson brings valuable collegiate playing experience to Florida Coastal Prep as an Assistant Coach. A standout player at both the NAIA and NCAA Division II levels, Dickerson competed at the University of West Alabama and Albany State University, where he developed a deep understanding of what it takes to earn and keep a college roster spot.
@@ -243,7 +243,7 @@
   section: "coaching"
   badge: ""
   image: "/assets/images/coaches/rico-overall.jpg"
-  action_image: ""
+  action_image: "/assets/images/coaches/rico-action.webp"
   bio: "Former Lee University (NCAA DII) player with college coaching and post-grad program experience. Leverages extensive international and collegiate connections to place FCP athletes at every level."
   bio_extended: |
     Rico Overall brings firsthand playing experience and a deep recruiting network to Florida Coastal Prep as Assistant Coach and Recruiting Coordinator. A former player at Lee University — an NCAA Division II program in Cleveland, Tennessee — Overall understands what it takes to compete at the collegiate level.
