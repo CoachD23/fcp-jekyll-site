@@ -72,8 +72,8 @@
   section: "executive"
   badge: "NBA All-Star"
   image: "/assets/images/coaches/kenny-anderson.jpg"
-  action_image: ""
-  hero_position: ""
+  action_image: "/assets/images/coaches/kenny-anderson-action.png"
+  hero_position: "center 35%"
   bio: "Queens, NY native and NBA legend: 1991 second overall pick, 14-year NBA career across eight teams, 1994 NBA All-Star. Former Fisk University head coach."
   bio_extended: |
     Kenny Anderson is one of the most decorated basketball minds in the country. A Queens, New York native, Anderson was the second overall pick in the 1991 NBA Draft and went on to play 14 seasons in the NBA across eight teams.
