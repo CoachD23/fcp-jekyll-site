@@ -1,0 +1,23 @@
+{% comment %}
+  Advisory circle component — horizontal strip, no card boxes
+  Usage: {% include advisory-card.html member=member %}
+  Expects: member object from _data/staff.yml
+{% endcomment %}
+
+<div class="advisory-circle-item">
+  <a href="/coaches/{{ include.member.slug }}/" class="advisory-circle-link">
+    <div class="advisory-circle-photo">
+      <img src="{{ include.member.image }}"
+           alt="{{ include.member.name | xml_escape }} — {{ include.member.title }} at Florida Coastal Prep"
+           loading="lazy">
+    </div>
+    <div class="advisory-circle-info">
+      <h3>{{ include.member.name }}</h3>
+      <p class="advisory-circle-role">{{ include.member.title }}</p>
+      {% if include.member.badge and include.member.badge != "" %}
+        <span class="advisory-circle-badge">{{ include.member.badge }}</span>
+      {% endif %}
+    </div>
+  </a>
+  <a href="/coaches/{{ include.member.slug }}/" class="advisory-circle-more">Learn More →</a>
+</div>

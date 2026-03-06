@@ -53,9 +53,9 @@ permalink: /coaches/
     <h2>Executive Team / Advisory Board</h2>
     <div class="gold-rule"></div>
   </div>
-  <div class="advisory-grid">
+  <div class="advisory-strip">
     {% for member in advisors %}
-      {% include staff-card.html member=member %}
+      {% include advisory-card.html member=member %}
     {% endfor %}
   </div>
 </section>

@@ -6345,6 +6345,124 @@ iframe { max-width: 100%; }
 }
 
 /* =====================================================
+   ADVISORY CIRCLE STRIP (.advisory-strip)
+   Horizontal row of circle headshots — minimal, no cards
+   ===================================================== */
+
+.advisory-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.advisory-circle-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 180px;
+}
+
+.advisory-circle-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advisory-circle-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid rgba(212, 168, 67, 0.35);
+  margin-bottom: 1.1rem;
+  transition: border-color 0.25s;
+}
+
+.advisory-circle-link:hover .advisory-circle-photo {
+  border-color: #d4a843;
+}
+
+.advisory-circle-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.35s ease;
+}
+
+.advisory-circle-link:hover .advisory-circle-photo img {
+  transform: scale(1.05);
+}
+
+.advisory-circle-info h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0.3rem;
+  line-height: 1.25;
+}
+
+.advisory-circle-role {
+  font-size: 0.78rem;
+  color: #d4a843;
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.advisory-circle-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #fff;
+  background: #b22234;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.2rem;
+}
+
+.advisory-circle-more {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.45);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: color 0.2s;
+}
+
+.advisory-circle-more:hover {
+  color: #d4a843;
+}
+
+@media (max-width: 600px) {
+  .advisory-strip {
+    gap: 2rem 1.5rem;
+  }
+
+  .advisory-circle-item {
+    width: 140px;
+  }
+
+  .advisory-circle-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .advisory-circle-info h3 {
+    font-size: 0.9rem;
+  }
+}
+
+/* =====================================================
    DIRECTOR CARDS (.director-card)
    Photo on top, name/title on solid dark background below
    Used for Program Directors section
