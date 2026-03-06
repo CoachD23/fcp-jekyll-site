@@ -13,6 +13,7 @@
   badge: ""
   image: "/assets/images/coaches/lee-deforest.jpg"
   action_image: "/assets/images/coaches/deforest-action.jpg"
+  hero_position: "center 75%"
   bio: "Seventh-year Athletic Director with 25 years of basketball coaching across DI, DII, NAIA, and JUCO levels. Notable achievements include coaching Sean East (now in NBA G-League), Brandon Maclin (DePaul), Kylin Green (Houston Baptist), and Ring Malith (SIU Edwardsville)."
   bio_extended: |
     Lee DeForest has spent over two decades shaping the futures of student-athletes at every level of collegiate basketball. As the Athletic Director and Director of Operations at Florida Coastal Prep, he oversees all aspects of the program — from recruiting and player development to academics and college placement.
@@ -42,6 +43,7 @@
   badge: ""
   image: "/assets/images/coaches/vando-becheli.jpg"
   action_image: "/assets/images/coaches/vando-action.jpg"
+  hero_position: "center 40%"
   bio: "Fifth-year National Post Grad Head Coach with 120+ wins at Utah State Eastern (Region XVIII champ, 3rd NJCAA) and 20-win seasons every year at Lighthouse Christian College. Brazilian native with 25 years of professional playing and coaching experience."
   bio_extended: |
     Vando Becheli brings a global perspective to Florida Coastal Prep as the National Post Grad Director and Assistant Athletic Director. A Brazilian native with 25 years of professional playing and coaching experience, Becheli has coached at the highest levels on multiple continents.
@@ -71,6 +73,7 @@
   badge: "NBA All-Star"
   image: "/assets/images/coaches/kenny-anderson.jpg"
   action_image: ""
+  hero_position: ""
   bio: "Queens, NY native and NBA legend: 1991 second overall pick, 14-year NBA career across eight teams, 1994 NBA All-Star. Former Fisk University head coach."
   bio_extended: |
     Kenny Anderson is one of the most decorated basketball minds in the country. A Queens, New York native, Anderson was the second overall pick in the 1991 NBA Draft and went on to play 14 seasons in the NBA across eight teams.
@@ -102,6 +105,7 @@
   badge: ""
   image: "/assets/images/coaches/jared-dugan.jpg"
   action_image: ""
+  hero_position: ""
   bio: "UCF graduate (Economics, Sports Management). NBA skills trainer at IMPACT Academy in Las Vegas working with Bam Adebayo. Previously: Scouting Director at Hoop Brothers, analytics with UCF and Stetson, advanced scout with Indiana Fever."
   bio_extended: |
     Jared Dugan brings an analytics-driven approach to coaching and recruiting at Florida Coastal Prep. A University of Central Florida graduate with degrees in Economics and Sports Management, Dugan has built his career at the intersection of data and basketball development.
@@ -127,6 +131,7 @@
   badge: "NAIA All-American"
   image: "/assets/images/coaches/dmitry-utolin.jpg"
   action_image: "/assets/images/coaches/dmitry-action.jpg"
+  hero_position: ""
   bio: "Third-year coach, former Cumberland University GA. Professional player (CSKA Moscow), played at Cuesta JC, West Texas A&M, and Lindsey Wilson. Two-time All-Conference."
   bio_extended: |
     Dmitry Utolin's journey from professional basketball in Russia to coaching in the Florida Panhandle gives him a unique perspective on player development. A former CSKA Moscow professional player, Utolin understands what it takes to compete at the highest levels.
@@ -154,6 +159,7 @@
   badge: ""
   image: "/assets/images/coaches/tyler-martin.jpg"
   action_image: "/assets/images/coaches/tyler-action.webp"
+  hero_position: ""
   bio: "Memphis native, played for Coach DeForest at Combine Academy who helped him earn a college offer at the University of Montevallo. Also played at Stillman College. Emphasizes skill refinement and mental preparation."
   bio_extended: |
     Tyler Martin brings firsthand post-graduate experience to his coaching role at Florida Coastal Prep. A Memphis, Tennessee native, Martin played for Coach Lee DeForest at Combine Academy's post-graduate program — where DeForest's coaching and recruiting connections helped him earn a college basketball offer at the University of Montevallo.
@@ -177,6 +183,7 @@
   badge: ""
   image: "/assets/images/coaches/mario-webb.jpg"
   action_image: ""
+  hero_position: ""
   bio: "U.S. Air Force veteran and former military base basketball coach with multiple championships. Now leading FCP's varsity program with discipline and competitive fire."
   bio_extended: |
     Mario Webb brings a unique combination of military discipline and basketball expertise to Florida Coastal Prep as Head Varsity Basketball Coach. A proud U.S. Air Force veteran, Webb honed his leadership and coaching skills during his military service, where he served as a base basketball coach and led teams to multiple championships.
@@ -200,6 +207,7 @@
   badge: ""
   image: "/assets/images/coaches/ian-masone.jpg"
   action_image: "/assets/images/coaches/ian-action.jpg"
+  hero_position: ""
   bio: "Assistant Coach and Strength & Conditioning Coach at Florida Coastal Prep, combining on-court coaching with athletic performance training."
   bio_extended: |
     Ian Masone brings a dual role to Florida Coastal Prep as both an Assistant Coach and Strength & Conditioning Coach. His unique combination of basketball coaching knowledge and sports performance expertise allows him to develop athletes both on the court and in the weight room.
@@ -221,6 +229,7 @@
   badge: ""
   image: "/assets/images/coaches/maurice-dickerson.jpg"
   action_image: "/assets/images/coaches/maurice-action.webp"
+  hero_position: ""
   bio: "Former standout college basketball player at the NAIA and NCAA Division II levels, including the University of West Alabama and Albany State University."
   bio_extended: |
     Maurice Dickerson brings valuable collegiate playing experience to Florida Coastal Prep as an Assistant Coach. A standout player at both the NAIA and NCAA Division II levels, Dickerson competed at the University of West Alabama and Albany State University, where he developed a deep understanding of what it takes to earn and keep a college roster spot.
@@ -244,6 +253,7 @@
   badge: ""
   image: "/assets/images/coaches/rico-overall.jpg"
   action_image: "/assets/images/coaches/rico-action.webp"
+  hero_position: ""
   bio: "Former Lee University (NCAA DII) player with college coaching and post-grad program experience. Leverages extensive international and collegiate connections to place FCP athletes at every level."
   bio_extended: |
     Rico Overall brings firsthand playing experience and a deep recruiting network to Florida Coastal Prep as Assistant Coach and Recruiting Coordinator. A former player at Lee University — an NCAA Division II program in Cleveland, Tennessee — Overall understands what it takes to compete at the collegiate level.
@@ -271,6 +281,7 @@
   badge: ""
   image: "/assets/images/coaches/dada-huang.jpg"
   action_image: ""
+  hero_position: ""
   bio: "Former NAIA player with semi-pro experience in China. Master's in Sports Management from NYU."
   bio_extended: |
     Guanda "Dada" Huang serves as International Recruiter at Florida Coastal Prep, leveraging his unique cross-cultural background to connect international talent with American collegiate basketball opportunities.
@@ -296,6 +307,7 @@
   badge: ""
   image: "/assets/images/coaches/tom-bower.webp"
   action_image: ""
+  hero_position: ""
   bio: "Co-founder of Leading Athletics, KBC Hoops, and Virtus Brand."
   bio_extended: |
     Tom Bower serves on the Florida Coastal Prep Advisory Board, bringing extensive experience in basketball business and brand development. As co-founder of Leading Athletics, KBC Hoops, and Virtus Brand, Bower has built multiple successful ventures in the basketball ecosystem.
@@ -317,6 +329,7 @@
   badge: ""
   image: "/assets/images/coaches/shadia-natour.webp"
   action_image: ""
+  hero_position: ""
   bio: "Clinic Lead Physical Therapist at Compleat Rehab & Sports Therapy, CrossFit Level 1 Trainer."
   bio_extended: |
     Dr. Shadia Natour brings medical and sports performance expertise to the Florida Coastal Prep Advisory Board. As Clinic Lead Physical Therapist at Compleat Rehab & Sports Therapy, she specializes in sports injury rehabilitation and prevention.
@@ -338,6 +351,7 @@
   badge: "NAIA Coach of Year"
   image: "/assets/images/coaches/paul-peck.webp"
   action_image: ""
+  hero_position: ""
   bio: "Former Lindsey Wilson College Head Coach — 587-368 record, five-time Conference Coach of Year, 2011-12 Don Meyer NAIA Coach of Year."
   bio_extended: |
     Paul Peck is one of the most accomplished NAIA coaches in history. During his tenure as Head Coach at Lindsey Wilson College, Peck compiled a 587-368 record and earned five Conference Coach of the Year awards.
@@ -367,6 +381,7 @@
   badge: ""
   image: "/assets/images/coaches/alba-reyes.webp"
   action_image: ""
+  hero_position: ""
   bio: "Your first point of contact for applications, campus visits, and enrollment questions. Alba guides families through every step of the admissions process."
   bio_extended: |
     Alba Reyes serves as the Admissions Director at Florida Coastal Prep, making her the first point of contact for prospective student-athletes and their families. She manages all aspects of the admissions process, from initial inquiries and campus tours to application review and enrollment.

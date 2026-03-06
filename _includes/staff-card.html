@@ -7,7 +7,7 @@
 <div class="espn-staff-card fade-in">
   <a href="/coaches/{{ include.member.slug }}/" class="espn-staff-card-link">
     <div class="espn-staff-card-img">
-      <img src="{{ include.member.action_image | default: include.member.image }}"
+      <img src="{{ include.member.image }}"
            alt="{{ include.member.name | xml_escape }} — {{ include.member.title }} at Florida Coastal Prep"
            loading="lazy">
       {% if include.member.badge and include.member.badge != "" %}
