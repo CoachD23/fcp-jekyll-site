@@ -6376,28 +6376,18 @@ iframe { max-width: 100%; }
 
 .advisory-circle-photo {
   width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  overflow: hidden;
   margin-bottom: 1.1rem;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
-  transition: box-shadow 0.25s;
-}
-
-.advisory-circle-link:hover .advisory-circle-photo {
-  box-shadow: 0 4px 20px rgba(0,0,0,0.18);
 }
 
 .advisory-circle-photo img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: scale(1.15);
-  transition: transform 0.35s ease;
+  height: auto;
+  display: block;
+  transition: opacity 0.25s;
 }
 
 .advisory-circle-link:hover .advisory-circle-photo img {
-  transform: scale(1.2);
+  opacity: 0.85;
 }
 
 .advisory-circle-info h3 {
