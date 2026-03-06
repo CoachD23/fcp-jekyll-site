@@ -6515,6 +6515,12 @@ iframe { max-width: 100%; }
   object-position: center 20%;
 }
 
+.coach-profile-hero-img--fallback {
+  object-position: center top;
+  filter: blur(10px) brightness(0.3);
+  transform: scale(1.15);
+}
+
 .coach-profile-hero-overlay {
   position: absolute;
   inset: 0;

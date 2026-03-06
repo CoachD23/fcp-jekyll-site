@@ -10,6 +10,10 @@ layout: default
     <img src="{{ person.action_image }}"
          alt="{{ person.name }} — {{ person.title }} at Florida Coastal Prep"
          class="coach-profile-hero-img"{% if person.hero_position and person.hero_position != "" %} style="object-position: {{ person.hero_position }};"{% endif %}>
+    {% else %}
+    <img src="{{ person.image }}"
+         alt="{{ person.name }} — {{ person.title }} at Florida Coastal Prep"
+         class="coach-profile-hero-img coach-profile-hero-img--fallback">
     {% endif %}
     <div class="coach-profile-hero-overlay"></div>
     <div class="coach-profile-hero-content">
