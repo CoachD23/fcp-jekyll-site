@@ -2,6 +2,26 @@
 # Source: RealGM + FCP records
 # Add new entries at the top. Fields: name, sport, school, year, position, level, hometown, image (optional), note (optional)
 
+- name: "Gavin Flowers"
+  sport: "Basketball"
+  school: "Southern University"
+  year: 2026
+  position: "F"
+  level: "D1"
+  hometown: ""
+  image: "/assets/images/commitments/gavin-flowers-southern.webp"
+  note: "SWAC Conference"
+
+- name: "Justin Allen"
+  sport: "Basketball"
+  school: "Northwestern State University"
+  year: 2026
+  position: ""
+  level: "D1"
+  hometown: ""
+  image: ""
+  note: "Southland Conference"
+
 - name: "Mihail Gazvarov"
   sport: "Basketball"
   school: "Lindsey Wilson College"
@@ -135,11 +155,11 @@
 - name: "Brock Rose"
   sport: "Basketball"
   school: "Radford University"
-  year: 2025
-  position: ""
+  year: 2026
+  position: "F"
   level: "D1"
   hometown: ""
-  image: ""
+  image: "/assets/images/commitments/brock-rose-radford.jpeg"
   note: "Big South Conference"
 
 - name: "Marcus Eaves"
