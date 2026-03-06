@@ -6392,12 +6392,12 @@ iframe { max-width: 100%; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  transform: scale(1.15);
   transition: transform 0.35s ease;
 }
 
 .advisory-circle-link:hover .advisory-circle-photo img {
-  transform: scale(1.05);
+  transform: scale(1.2);
 }
 
 .advisory-circle-info h3 {
