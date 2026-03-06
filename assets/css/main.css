@@ -6503,6 +6503,7 @@ iframe { max-width: 100%; }
   overflow: hidden;
   display: flex;
   align-items: flex-end;
+  background: #000;
 }
 
 .coach-profile-hero-img {

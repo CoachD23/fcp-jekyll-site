@@ -6,9 +6,11 @@ layout: default
 <article class="coach-profile-page">
   <!-- Hero Section -->
   <header class="coach-profile-hero">
-    <img src="{{ person.action_image | default: person.image }}"
+    {% if person.action_image and person.action_image != "" %}
+    <img src="{{ person.action_image }}"
          alt="{{ person.name }} — {{ person.title }} at Florida Coastal Prep"
          class="coach-profile-hero-img"{% if person.hero_position and person.hero_position != "" %} style="object-position: {{ person.hero_position }};"{% endif %}>
+    {% endif %}
     <div class="coach-profile-hero-overlay"></div>
     <div class="coach-profile-hero-content">
       <a href="/coaches/" class="coach-profile-back-link">
