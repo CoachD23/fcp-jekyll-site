@@ -12,7 +12,7 @@
   section: "executive"
   badge: ""
   image: "/assets/images/coaches/lee-deforest.jpg"
-  action_image: "/assets/images/coaches/deforest-action.jpg"
+  action_image: ""
   hero_position: "center 75%"
   bio: "Seventh-year Athletic Director with 25 years of basketball coaching across DI, DII, NAIA, and JUCO levels. Notable achievements include coaching Sean East (now in NBA G-League), Brandon Maclin (DePaul), Kylin Green (Houston Baptist), and Ring Malith (SIU Edwardsville)."
   bio_extended: |
@@ -42,7 +42,7 @@
   section: "executive"
   badge: ""
   image: "/assets/images/coaches/vando-becheli.jpg"
-  action_image: "/assets/images/coaches/vando-action.jpg"
+  action_image: ""
   hero_position: "center 40%"
   bio: "Fifth-year National Post Grad Head Coach with 120+ wins at Utah State Eastern (Region XVIII champ, 3rd NJCAA) and 20-win seasons every year at Lighthouse Christian College. Brazilian native with 25 years of professional playing and coaching experience."
   bio_extended: |
