@@ -12,8 +12,8 @@
   section: "executive"
   badge: ""
   image: "/assets/images/coaches/lee-deforest.jpg"
-  action_image: "/assets/images/coaches/deforest-action.jpg"
-  hero_position: "center 50%"
+  action_image: ""
+  hero_position: ""
   bio: "Seventh-year Athletic Director with 25 years of basketball coaching across DI, DII, NAIA, and JUCO levels. Notable achievements include coaching Sean East (now in NBA G-League), Brandon Maclin (DePaul), Kylin Green (Houston Baptist), and Ring Malith (SIU Edwardsville)."
   bio_extended: |
     Lee DeForest has spent over two decades shaping the futures of student-athletes at every level of collegiate basketball. As the Athletic Director and Director of Operations at Florida Coastal Prep, he oversees all aspects of the program — from recruiting and player development to academics and college placement.
@@ -42,8 +42,8 @@
   section: "executive"
   badge: ""
   image: "/assets/images/coaches/vando-becheli.jpg"
-  action_image: "/assets/images/coaches/vando-huddle.jpg"
-  hero_position: "center 40%"
+  action_image: ""
+  hero_position: ""
   bio: "Fifth-year National Post Grad Head Coach with 120+ wins at Utah State Eastern (Region XVIII champ, 3rd NJCAA) and 20-win seasons every year at Lighthouse Christian College. Brazilian native with 25 years of professional playing and coaching experience."
   bio_extended: |
     Vando Becheli brings a global perspective to Florida Coastal Prep as the National Post Grad Director and Assistant Athletic Director. A Brazilian native with 25 years of professional playing and coaching experience, Becheli has coached at the highest levels on multiple continents.
