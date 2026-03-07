@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{% if page.title and page.title != "Home" %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — Post-Grad & High School Basketball in Fort Walton Beach, FL{% endif %}</title>
+<title>{% if page.title and page.title != "Home" %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline | default: "Post-Grad & High School Basketball in Fort Walton Beach, FL" }}{% endif %}</title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
@@ -15,12 +15,12 @@
 
 <!-- Open Graph / Social Sharing -->
 <meta property="og:type" content="{% if page.layout == 'post' or page.layout == 'alumni-post' %}article{% else %}website{% endif %}">
-<meta property="og:title" content="{% if page.title and page.title != 'Home' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:title" content="{% if page.title and page.title != 'Home' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline | default: 'Where Future College Athletes Are Made' }}{% endif %}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">
 {% elsif page.og_image %}<meta property="og:image" content="{{ page.og_image | absolute_url }}">
 {% elsif page.hero_image %}<meta property="og:image" content="{{ page.hero_image | absolute_url }}">
-{% else %}<meta property="og:image" content="{{ '/assets/images/about-fcp.jpg' | absolute_url }}">
+{% else %}<meta property="og:image" content="{{ '/assets/images/fcp-logo-square.png' | absolute_url }}">
 {% endif %}<meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta name="twitter:card" content="summary_large_image">
@@ -28,10 +28,8 @@
 {% if page.image %}<meta name="twitter:image" content="{{ page.image | absolute_url }}">
 {% elsif page.og_image %}<meta name="twitter:image" content="{{ page.og_image | absolute_url }}">
 {% elsif page.hero_image %}<meta name="twitter:image" content="{{ page.hero_image | absolute_url }}">
-{% else %}<meta name="twitter:image" content="{{ '/assets/images/about-fcp.jpg' | absolute_url }}">
+{% else %}<meta name="twitter:image" content="{{ '/assets/images/fcp-logo-square.png' | absolute_url }}">
 {% endif %}
-
-{% seo %}
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
