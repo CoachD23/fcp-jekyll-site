@@ -285,7 +285,7 @@ hero_subtitle: Education That Prepares You for College
     </div>
     <div class="enrollment-step fade-in">
       <h3>Complete Coursework</h3>
-      <p>Attend classes in block-style format designed around your basketball commitments.</p>
+      <p>Complete online coursework on your schedule — flexible for road games, showcases, and travel.</p>
     </div>
     <div class="enrollment-step fade-in">
       <h3>Earn College Credit</h3>
@@ -301,7 +301,6 @@ hero_subtitle: Education That Prepares You for College
     <div style="display: inline-block; background: rgba(212,168,67,0.12); border: 1px solid rgba(212,168,67,0.3); border-radius: 20px; padding: 0.25rem 0.85rem; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #a07820; margin-bottom: 0.75rem;">CCU Academic Advising</div>
     <h3>Beth Roelofs</h3>
     <p class="ccu-role">Academic Advisor — Colorado Christian University</p>
-    <p style="font-size: 0.92rem; color: #555; line-height: 1.65; max-width: 380px; margin: 0 auto 1.25rem;">Beth guides every FCP post-graduate through dual enrollment — from the initial application and course selection to credit transfer at your future university.</p>
     <a href="/contact/" class="btn btn-primary" style="margin-top: 0.25rem;">Contact Academic Advising</a>
   </div>
 </div>
