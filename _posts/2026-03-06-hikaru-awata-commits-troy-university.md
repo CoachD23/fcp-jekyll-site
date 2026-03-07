@@ -3,7 +3,7 @@ layout: post
 title: "Hikaru Awata Commits to Troy University (NCAA D1 — Sun Belt Conference)"
 date: 2026-03-06
 excerpt: "International Spartan Hikaru Awata has committed to Troy University, joining the Trojans' NCAA Division I basketball program in the Sun Belt Conference."
-image: /assets/images/commitments/hikaru-awata-troy.jpeg
+image: /assets/images/alumni/hikaru-awata-fcp.jpeg
 description: "FCP guard Hikaru Awata commits to Troy University, an NCAA D1 program in the Sun Belt Conference — continuing Florida Coastal Prep's pipeline of international talent to Division I basketball."
 ---
 
