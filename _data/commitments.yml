@@ -2,6 +2,16 @@
 # Source: RealGM + FCP records
 # Add new entries at the top. Fields: name, sport, school, year, position, level, hometown, image (optional), note (optional)
 
+- name: "Justin Allen"
+  sport: "Basketball"
+  school: "Northwestern State University"
+  year: 2025
+  position: ""
+  level: "D1"
+  hometown: ""
+  image: ""
+  note: "Southland Conference"
+
 - name: "Mihail Gazvarov"
   sport: "Basketball"
   school: "Lindsey Wilson College"
@@ -135,11 +145,11 @@
 - name: "Brock Rose"
   sport: "Basketball"
   school: "Radford University"
-  year: 2024
-  position: "F"
+  year: 2025
+  position: ""
   level: "D1"
   hometown: ""
-  image: "/assets/images/commitments/brock-rose-radford.jpeg"
+  image: "/assets/images/alumni/brock-rose.jpeg"
   note: "Big South Conference"
 
 - name: "Marcus Eaves"
@@ -261,26 +271,6 @@
   hometown: "Bakersfield, CA"
   image: ""
   note: "Big Sky Conference"
-
-- name: "Justin Allen"
-  sport: "Basketball"
-  school: "Northwestern State University"
-  year: 2021
-  position: ""
-  level: "D1"
-  hometown: ""
-  image: ""
-  note: "Southland Conference"
-
-- name: "Gavin Flowers"
-  sport: "Basketball"
-  school: "Southern University"
-  year: 2021
-  position: "F"
-  level: "D1"
-  hometown: ""
-  image: "/assets/images/commitments/gavin-flowers-southern.webp"
-  note: "SWAC Conference"
 
 - name: "Brandon Maclin"
   sport: "Basketball"
@@ -434,13 +424,13 @@
 
 - name: "Gavin Flowers"
   sport: "Basketball"
-  school: "Fort Lauderdale University"
+  school: "Southern University"
   year: 2021
   position: "F"
-  level: "NAIA"
+  level: "D1"
   hometown: "East Orange, NJ"
-  image: ""
-  note: ""
+  image: "/assets/images/alumni/gavin-flowers.webp"
+  note: "SWAC Conference"
 
 - name: "D.J. Mask"
   sport: "Basketball"
