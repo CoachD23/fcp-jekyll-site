@@ -24,6 +24,8 @@ hero_subtitle: Education That Prepares You for College
 .program-offers .feature-card { text-align: left; }
 .program-offers .feature-card p { text-align: justify; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
+/* Academic environment card — mobile padding */
+@media (max-width: 768px) { .acad-env-card { padding: 1.5rem 1.25rem !important; } }
 </style>
 
 <!-- Intro Statement -->
@@ -75,9 +77,23 @@ hero_subtitle: Education That Prepares You for College
   </div>
 </div>
 
-<!-- Academic Photo -->
-<div class="fade-in" style="max-width: 900px; margin: 2rem auto;">
-  <img src="/assets/images/academics/academic-studying.jpg" alt="Florida Coastal Prep student-athletes studying together at the Fort Walton Beach campus" loading="lazy" style="width: 100%; border-radius: 10px; aspect-ratio: 4/3; object-fit: cover;">
+<!-- Academic Environment -->
+<div class="acad-env-card" style="background: linear-gradient(135deg, #f8f9fb 0%, #f0f2f6 100%); border-radius: 18px; padding: 2.5rem; margin: 1.5rem 0;">
+  <div class="program-grid fade-in" style="margin: 0;">
+    <div class="program-details">
+      <div class="staff-section-header" style="text-align: left;">
+        <span class="section-label">Academic Support</span>
+        <h2>Built for Student-Athletes</h2>
+        <div class="gold-rule" style="margin: 0;"></div>
+      </div>
+      <p>Every detail of the FCP academic environment is designed around the student-athlete experience. <strong>Block-style scheduling</strong> ensures you never have to choose between the classroom and the court — with dedicated study hall every evening, supervised by academic staff.</p>
+      <p>From college application support to NCAA eligibility guidance, our team walks with you through every academic milestone — so you arrive at your next program prepared, confident, and ahead of the game.</p>
+      <a href="/contact/" class="btn btn-primary" style="margin-top: 0.75rem; display: inline-block;">Talk to Our Academic Team</a>
+    </div>
+    <div class="program-image">
+      <img src="/assets/images/academics/academic-studying.jpg" alt="Florida Coastal Prep student-athletes studying together at the Fort Walton Beach campus" loading="lazy">
+    </div>
+  </div>
 </div>
 
 <!-- Program Paths — Separated PG and HS -->
