@@ -10,8 +10,9 @@ hero_subtitle: Education That Prepares You for College
 ---
 
 <style>
-/* Force 5-column enrollment grid on desktop */
-.enrollment-steps { grid-template-columns: repeat(5, 1fr) !important; gap: 1rem; }
+/* 3+2 enrollment grid on desktop */
+.enrollment-steps { grid-template-columns: repeat(3, 1fr) !important; gap: 1rem; max-width: 900px; margin-left: auto; margin-right: auto; }
+.enrollment-step { padding: 1.25rem 1rem !important; }
 @media (max-width: 900px) { .enrollment-steps { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) !important; } }
 @media (max-width: 600px) { .enrollment-steps { grid-template-columns: 1fr 1fr !important; } }
 /* Fix Beth's button color inside ccu-contact */
@@ -108,7 +109,7 @@ hero_subtitle: Education That Prepares You for College
     <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: center;">FCP offers two distinct academic tracks — each designed around a student-athlete's training schedule with block-style learning, NCAA-approved coursework, and introduction to TOEFL standards for international students.</p>
   </div>
 
-  <div class="feature-grid" style="margin-top: 2rem; max-width: 700px;">
+  <div class="feature-grid" style="margin-top: 2rem; max-width: 960px; grid-template-columns: repeat(2, 1fr);">
     <div class="feature-card fade-in">
       <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
       <h3>High School Diploma</h3>
@@ -317,7 +318,7 @@ hero_subtitle: Education That Prepares You for College
     <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: center;">Beyond core academics, FCP student-athletes learn from real-world leaders. Our elective program features courses taught by professionals who bring firsthand experience in leadership, technology, and personal development.</p>
   </div>
 
-  <div class="feature-grid" style="margin-top: 2rem; max-width: 700px;">
+  <div class="feature-grid" style="margin-top: 2rem; max-width: 960px; grid-template-columns: repeat(2, 1fr);">
     <div class="feature-card fade-in">
       <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></div>
       <h3>Kenny Anderson Leadership Course</h3>
@@ -370,72 +371,6 @@ hero_subtitle: Education That Prepares You for College
     <a href="/contact/" class="btn btn-gold">Get Eligibility Guidance</a>
   </div>
 
-</div>
-
-<!-- Faculty -->
-<div class="program-offers fade-in" style="margin-top: 3rem;">
-  <div class="staff-section-header">
-    <span class="section-label">Educators</span>
-    <h2>Faculty & Staff</h2>
-    <div class="gold-rule"></div>
-  </div>
-
-  <div class="faculty-grid-3col" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; max-width: 1000px; margin: 1.5rem auto 0;">
-
-    <!-- Dr. Joanna Johannes -->
-    <div class="fade-in" style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
-      <div style="background: #0a1628; padding: 2rem 1.5rem; text-align: center;">
-        <div style="width: 72px; height: 72px; border-radius: 50%; background: #c41e3a; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.8rem; font-weight: 800; color: #fff;">J</div>
-        <h3 style="color: #fff; font-size: 1.1rem; font-weight: 700; margin: 0 0 0.25rem;">Dr. Joanna Johannes</h3>
-        <p style="color: #d4a843; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin: 0;">Academic Director</p>
-      </div>
-      <div style="padding: 1.25rem 1.5rem;">
-        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
-          <span style="background: #f0f4ff; color: #0a1628; font-size: 0.72rem; font-weight: 600; padding: 3px 10px; border-radius: 20px;">PhD — Higher Ed Leadership</span>
-          <span style="background: #f0f4ff; color: #0a1628; font-size: 0.72rem; font-weight: 600; padding: 3px 10px; border-radius: 20px;">Northeastern University</span>
-        </div>
-        <p style="font-size: 0.92rem; line-height: 1.65; color: #444; margin: 0;">Holds degrees from USF, Nova Southeastern University, and Northeastern University. Brings extensive experience in academic program development and student success.</p>
-      </div>
-    </div>
-
-    <!-- JoAnn Wood -->
-    <div class="fade-in" style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
-      <div style="background: #0a1628; padding: 2rem 1.5rem; text-align: center;">
-        <div style="width: 72px; height: 72px; border-radius: 50%; background: #c41e3a; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.8rem; font-weight: 800; color: #fff;">J</div>
-        <h3 style="color: #fff; font-size: 1.1rem; font-weight: 700; margin: 0 0 0.25rem;">JoAnn Wood</h3>
-        <p style="color: #d4a843; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin: 0;">English Language Arts</p>
-      </div>
-      <div style="padding: 1.25rem 1.5rem;">
-        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
-          <span style="background: #f0f4ff; color: #0a1628; font-size: 0.72rem; font-weight: 600; padding: 3px 10px; border-radius: 20px;">Florida Certified Teacher</span>
-          <span style="background: #f0f4ff; color: #0a1628; font-size: 0.72rem; font-weight: 600; padding: 3px 10px; border-radius: 20px;">20+ Years Experience</span>
-        </div>
-        <p style="font-size: 0.92rem; line-height: 1.65; color: #444; margin: 0;">Florida Certified Teacher specializing in college-prep writing and communication skills — with over 20 years in high school English education.</p>
-      </div>
-    </div>
-
-    <!-- Bill Emerson -->
-    <div class="fade-in" style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
-      <div style="background: #0a1628; padding: 2rem 1.5rem; text-align: center;">
-        <div style="width: 72px; height: 72px; border-radius: 50%; background: #c41e3a; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.8rem; font-weight: 800; color: #fff;">B</div>
-        <h3 style="color: #fff; font-size: 1.1rem; font-weight: 700; margin: 0 0 0.25rem;">Bill Emerson</h3>
-        <p style="color: #d4a843; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin: 0;">Mathematics</p>
-      </div>
-      <div style="padding: 1.25rem 1.5rem;">
-        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
-          <span style="background: #f0f4ff; color: #0a1628; font-size: 0.72rem; font-weight: 600; padding: 3px 10px; border-radius: 20px;">30+ Years Teaching</span>
-          <span style="background: #f0f4ff; color: #0a1628; font-size: 0.72rem; font-weight: 600; padding: 3px 10px; border-radius: 20px;">Fmr. Asst. Superintendent</span>
-        </div>
-        <p style="font-size: 0.92rem; line-height: 1.65; color: #444; margin: 0;">Math educator with 30+ years of experience, formerly Santa Rosa County Assistant Superintendent. Brings district-level leadership experience to every classroom.</p>
-      </div>
-    </div>
-
-  </div>
-  <style>
-    @media (max-width: 768px) {
-      .faculty-grid-3col { grid-template-columns: 1fr !important; }
-    }
-  </style>
 </div>
 
 <div class="cta-section" style="margin-top: 0;">
