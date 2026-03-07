@@ -20,7 +20,7 @@
 {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">
 {% elsif page.og_image %}<meta property="og:image" content="{{ page.og_image | absolute_url }}">
 {% elsif page.hero_image %}<meta property="og:image" content="{{ page.hero_image | absolute_url }}">
-{% else %}<meta property="og:image" content="{{ '/assets/images/fcp-logo-square.png' | absolute_url }}">
+{% else %}<meta property="og:image" content="{{ '/assets/images/about-fcp.jpg' | absolute_url }}">
 {% endif %}<meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta name="twitter:card" content="summary_large_image">
@@ -28,7 +28,7 @@
 {% if page.image %}<meta name="twitter:image" content="{{ page.image | absolute_url }}">
 {% elsif page.og_image %}<meta name="twitter:image" content="{{ page.og_image | absolute_url }}">
 {% elsif page.hero_image %}<meta name="twitter:image" content="{{ page.hero_image | absolute_url }}">
-{% else %}<meta name="twitter:image" content="{{ '/assets/images/fcp-logo-square.png' | absolute_url }}">
+{% else %}<meta name="twitter:image" content="{{ '/assets/images/about-fcp.jpg' | absolute_url }}">
 {% endif %}
 
 <!-- Favicon -->
