@@ -7,7 +7,7 @@ date: 2026-02-18
 categories: [basketball, recruiting]
 tags: [prep-school, img-academy, dme-academy, montverde, d1-recruiting, parent-guide]
 author: "Coach Lee DeForest"
-image: /assets/images/blog/blog-default.jpg
+image: /assets/images/training/fcp-book-033.jpeg
 excerpt_separator: <!--more-->
 ---
 

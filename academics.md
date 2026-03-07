@@ -4,6 +4,7 @@ title: Academics
 subtitle: Education That Prepares You for College
 description: "Florida Coastal Prep offers accredited academics, Colorado Christian University dual enrollment, NCAA-approved coursework, and unique electives — all built around a student-athlete's training schedule in Fort Walton Beach, FL."
 hero_image: /assets/images/academics/fcp-high-school.png
+og_image: /assets/images/academics/fcp-high-school.png
 hero_title: Academics
 hero_subtitle: Education That Prepares You for College
 ---

@@ -4,6 +4,7 @@ title: "High School Tuition & Fees | Florida Coastal Prep"
 subtitle: Investing in Your Athletic and Academic Future
 description: "Florida Coastal Prep National High School Program tuition, fees, financial assistance, and payment options. See what's included and how to apply today."
 hero_image: /assets/images/tuition/florida-coastal-prep-school.png
+og_image: /assets/images/tuition/florida-coastal-prep-school.png
 hero_title: High School Tuition & Fees
 hero_subtitle: Investing in Your Athletic and Academic Future
 ---

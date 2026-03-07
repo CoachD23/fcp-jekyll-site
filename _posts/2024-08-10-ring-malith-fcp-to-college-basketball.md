@@ -1,7 +1,7 @@
 ---
 layout: alumni-post
 title: "Ring Malith's Rise: South Sudan to the NCAA Tournament"
-date: 2026-02-28
+date: 2024-08-10
 categories: [alumni]
 image: /assets/images/ring-malith-siue.jpeg
 image_fcp: /assets/images/ring-malith-fcp.jpeg

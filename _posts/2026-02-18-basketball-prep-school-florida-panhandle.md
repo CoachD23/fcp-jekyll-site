@@ -7,7 +7,7 @@ date: 2026-02-18
 categories: [basketball, recruiting]
 tags: [florida-panhandle, fort-walton-beach, prep-school, basketball-development, parent-guide, d1-recruiting]
 author: "Coach Lee DeForest"
-image: /assets/images/blog/blog-default.jpg
+image: /assets/images/training/spartan-center.jpg
 ---
 
 Most basketball families in Northwest Florida already know the challenge: the talent is here, but the development infrastructure isn't as visible as it is in South Florida or central Florida. Families near Pensacola, Fort Walton Beach, Destin, and Panama City Beach often end up driving hours for elite training, or researching programs hundreds of miles away, because they don't know what's available closer to home.

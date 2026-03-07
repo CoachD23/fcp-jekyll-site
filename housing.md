@@ -4,6 +4,7 @@ title: Housing Options
 subtitle: Living on the Emerald Coast
 description: "Florida Coastal Prep's supervised student-athlete housing in Fort Walton Beach, FL — fully furnished team houses and beach condos near the Emerald Coast beaches with 24/7 staff supervision."
 hero_image: /assets/images/housing/pool-gulf.webp
+og_image: /assets/images/housing/pool-gulf.webp
 hero_title: Housing Options
 hero_subtitle: Living on the Emerald Coast
 ---

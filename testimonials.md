@@ -4,6 +4,7 @@ title: Testimonials
 subtitle: Hear From Our Athletes and Families
 description: "Read what parents, athletes, and ESPN scouts say about Florida Coastal Prep. Real testimonials from families whose sons earned college basketball scholarships through FCP."
 hero_image: /assets/images/paul-biancardi.jpg
+og_image: /assets/images/paul-biancardi.jpg
 hero_title: Testimonials
 hero_subtitle: Real Families. Real Results.
 ---

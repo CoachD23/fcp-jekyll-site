@@ -1,7 +1,7 @@
 ---
 layout: alumni-post
 title: "The Playmaker's Path: Kylin Green from FCP to D1"
-date: 2026-02-28
+date: 2024-09-15
 categories: [alumni]
 image: /assets/images/kylin-green-hcu.jpeg
 image_fcp: /assets/images/kylin-green-fcp-action.jpeg
