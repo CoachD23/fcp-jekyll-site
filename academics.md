@@ -10,6 +10,8 @@ hero_subtitle: Education That Prepares You for College
 ---
 
 <style>
+/* Hero image — shift down to show more of the classroom */
+.hero-bg-img { object-position: center 25% !important; }
 /* 3+2 enrollment grid on desktop */
 .enrollment-steps { grid-template-columns: repeat(3, 1fr) !important; gap: 1rem; max-width: 900px; margin-left: auto; margin-right: auto; }
 .enrollment-step { padding: 1.25rem 1rem !important; }
