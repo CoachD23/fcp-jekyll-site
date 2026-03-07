@@ -1,4 +1,37 @@
 const https = require("https");
+const crypto = require("crypto");
+
+// ── Rate limiter (in-memory, per function instance) ──────────────
+const rateLimit = {};
+const RATE_LIMIT_WINDOW = 60 * 1000; // 1 minute
+const RATE_LIMIT_MAX = 5; // max 5 requests per minute per IP
+
+function isRateLimited(ip) {
+  const now = Date.now();
+  if (!rateLimit[ip]) rateLimit[ip] = [];
+  // Clean old entries
+  rateLimit[ip] = rateLimit[ip].filter((t) => now - t < RATE_LIMIT_WINDOW);
+  if (rateLimit[ip].length >= RATE_LIMIT_MAX) return true;
+  rateLimit[ip].push(now);
+  return false;
+}
+
+// ── Timing-safe access code comparison ──────────────────────────
+function verifyAccessCode(provided) {
+  const expected = String(process.env.RECAP_ACCESS_CODE || "");
+  const a = Buffer.from(String(provided));
+  const b = Buffer.from(expected);
+  if (a.length !== b.length) {
+    // Pad to same length to prevent length-based timing leak
+    const maxLen = Math.max(a.length, b.length);
+    const padA = Buffer.alloc(maxLen);
+    const padB = Buffer.alloc(maxLen);
+    a.copy(padA);
+    b.copy(padB);
+    return crypto.timingSafeEqual(padA, padB);
+  }
+  return crypto.timingSafeEqual(a, b);
+}
 
 // ── GitHub API helper ──────────────────────────────────────────────
 function ghAPI(method, path, body) {
@@ -41,11 +74,28 @@ function slugify(str) {
 }
 
 function corsHeaders() {
+  const allowedOrigins = [
+    "https://floridacoastalprep.com",
+    "https://www.floridacoastalprep.com",
+    "https://candid-starburst-baa4f7.netlify.app",
+  ];
+  // In a serverless context, origin is checked per-request in the handler
+  // Default to the primary domain for static responses
   return {
-    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Origin": "https://floridacoastalprep.com",
     "Access-Control-Allow-Headers": "Content-Type",
     "Access-Control-Allow-Methods": "POST, OPTIONS",
   };
+}
+
+function getCorsOrigin(event) {
+  const allowedOrigins = [
+    "https://floridacoastalprep.com",
+    "https://www.floridacoastalprep.com",
+    "https://candid-starburst-baa4f7.netlify.app",
+  ];
+  const origin = (event.headers || {}).origin || "";
+  return allowedOrigins.includes(origin) ? origin : allowedOrigins[0];
 }
 
 function respond(code, body) {
@@ -570,18 +620,32 @@ const generators = {
 // MAIN HANDLER
 // ═══════════════════════════════════════════════════════════════════
 exports.handler = async (event) => {
+  // Use dynamic CORS origin based on request
+  const dynamicOrigin = getCorsOrigin(event);
+  const dynamicCorsHeaders = {
+    "Access-Control-Allow-Origin": dynamicOrigin,
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+  };
+
   if (event.httpMethod === "OPTIONS") {
-    return { statusCode: 204, headers: corsHeaders(), body: "" };
+    return { statusCode: 204, headers: dynamicCorsHeaders, body: "" };
   }
   if (event.httpMethod !== "POST") {
     return respond(405, { error: "Method not allowed" });
   }
 
+  // ── Rate limiting ──
+  const clientIP = (event.headers || {})["x-forwarded-for"] || "unknown";
+  if (isRateLimited(clientIP)) {
+    return respond(429, { error: "Too many requests. Please wait a minute." });
+  }
+
   try {
     const body = JSON.parse(event.body);
 
-    // ── Validate access code ──
-    if (String(body.accessCode) !== String(process.env.RECAP_ACCESS_CODE)) {
+    // ── Validate access code (timing-safe) ──
+    if (!verifyAccessCode(body.accessCode)) {
       return respond(403, { error: "Invalid access code" });
     }
 
@@ -673,7 +737,8 @@ ${post.body}`;
       tree: treeItems,
     });
 
-    // ── Create commit directly on master ──
+    // ── Create commit on a draft branch (not master) ──
+    const branchName = `draft/${slugify(post.title)}-${Date.now()}`;
     const newCommit = await ghAPI("POST", "/git/commits", {
       message: `blog: Add draft — ${post.title} [${post.category}]`,
       tree: newTree.sha,
@@ -685,23 +750,34 @@ ${post.body}`;
       },
     });
 
-    // ── Update master ref ──
-    await ghAPI("PATCH", "/git/refs/heads/master", {
+    // ── Create draft branch (never push directly to master) ──
+    await ghAPI("POST", "/git/refs", {
+      ref: `refs/heads/${branchName}`,
       sha: newCommit.sha,
+    });
+
+    // ── Open a Pull Request for Coach D to review ──
+    await ghAPI("POST", "/pulls", {
+      title: `[Draft] ${post.title}`,
+      head: branchName,
+      base: "master",
+      body: `Auto-generated ${post.category} draft.\n\n**Title:** ${post.title}\n**Category:** ${post.category}\n\n_Created by FCP Content Bot. Review and merge when ready to publish._`,
     });
 
     return respond(200, {
       success: true,
-      message: "Content saved as draft! Coach D will review and publish it in the CMS.",
+      message: "Content submitted as a pull request! Coach D will review and merge it.",
       title: post.title,
       category: post.category,
       filename: postFilename,
+      branch: branchName,
     });
   } catch (err) {
+    // Log full error server-side for debugging (visible in Netlify function logs)
     console.error("Submit content error:", err);
+    // Never expose internal error details to the client
     return respond(500, {
       error: "Something went wrong. Please try again.",
-      detail: typeof err === "object" ? JSON.stringify(err) : String(err),
     });
   }
 };
