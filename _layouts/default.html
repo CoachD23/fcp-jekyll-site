@@ -37,5 +37,67 @@
   <script>
   if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}
   </script>
+
+  <!-- Social Proof Toast -->
+  <div class="social-proof-toast" id="socialProofToast" aria-live="polite" aria-atomic="true">
+    <div class="social-proof-toast-icon">🏀</div>
+    <div class="social-proof-toast-body">
+      <p class="social-proof-toast-msg" id="socialProofMsg"></p>
+      <span class="social-proof-toast-time" id="socialProofTime"></span>
+    </div>
+    <button class="social-proof-toast-close" aria-label="Dismiss notification" id="socialProofClose">&times;</button>
+  </div>
+  <script>
+  (function(){
+    var toast=document.getElementById('socialProofToast');
+    if(!toast)return;
+    var msgEl=document.getElementById('socialProofMsg');
+    var timeEl=document.getElementById('socialProofTime');
+    var closeBtn=document.getElementById('socialProofClose');
+    var dismissed=false;
+    var showTimer,hideTimer;
+
+    var families=[
+      {city:'Atlanta',state:'GA'},{city:'Houston',state:'TX'},{city:'Miami',state:'FL'},
+      {city:'Charlotte',state:'NC'},{city:'Orlando',state:'FL'},{city:'Nashville',state:'TN'},
+      {city:'Dallas',state:'TX'},{city:'Tampa',state:'FL'},{city:'Chicago',state:'IL'},
+      {city:'Phoenix',state:'AZ'},{city:'Jacksonville',state:'FL'},{city:'Memphis',state:'TN'},
+      {city:'San Antonio',state:'TX'},{city:'Indianapolis',state:'IN'},{city:'Columbus',state:'OH'},
+      {city:'Raleigh',state:'NC'},{city:'Birmingham',state:'AL'},{city:'Louisville',state:'KY'},
+      {city:'Richmond',state:'VA'},{city:'New Orleans',state:'LA'},{city:'Kansas City',state:'MO'},
+      {city:'Baton Rouge',state:'LA'},{city:'Pensacola',state:'FL'},{city:'Tallahassee',state:'FL'},
+      {city:'Savannah',state:'GA'},{city:'Mobile',state:'AL'},{city:'Little Rock',state:'AR'},
+      {city:'Fort Worth',state:'TX'},{city:'Oklahoma City',state:'OK'},{city:'Columbia',state:'SC'}
+    ];
+
+    var times=['2 minutes ago','5 minutes ago','8 minutes ago','12 minutes ago','15 minutes ago','just now','3 minutes ago','6 minutes ago'];
+
+    function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+    shuffle(families);
+    var idx=0;
+
+    function showToast(){
+      if(dismissed)return;
+      var f=families[idx%families.length];
+      var t=times[Math.floor(Math.random()*times.length)];
+      msgEl.textContent='A family from '+f.city+', '+f.state+' just started an application';
+      timeEl.textContent=t;
+      toast.classList.add('is-visible');
+      idx++;
+      hideTimer=setTimeout(function(){toast.classList.remove('is-visible');if(!dismissed)showTimer=setTimeout(showToast,Math.floor(Math.random()*15000)+20000);},6000);
+    }
+
+    closeBtn.addEventListener('click',function(){
+      dismissed=true;
+      toast.classList.remove('is-visible');
+      clearTimeout(showTimer);
+      clearTimeout(hideTimer);
+      try{sessionStorage.setItem('sp_dismissed','1');}catch(e){}
+    });
+
+    if(typeof sessionStorage!=='undefined'){try{if(sessionStorage.getItem('sp_dismissed')==='1'){dismissed=true;return;}}catch(e){}}
+    setTimeout(showToast,Math.floor(Math.random()*10000)+25000);
+  })();
+  </script>
 </body>
 </html>
