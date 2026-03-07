@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Brock Rose Commits to Radford University (D1 Big South)"
-date: 2026-03-06
+date: 2024-03-06
 excerpt: "Florida Coastal Prep forward Brock Rose has committed to Radford University, joining the Highlanders' NCAA Division I program in the Big South Conference."
 image: /assets/images/commitments/brock-rose-radford.jpeg
 description: "FCP forward Brock Rose commits to Radford University, a Division I program in the Big South Conference — another D1 placement for Florida Coastal Prep."
