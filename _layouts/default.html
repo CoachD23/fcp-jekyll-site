@@ -51,6 +51,10 @@
   (function(){
     var toast=document.getElementById('socialProofToast');
     if(!toast)return;
+
+    // Never show on /apply/
+    if(window.location.pathname.replace(/\/$/,'')==='/apply')return;
+
     var msgEl=document.getElementById('socialProofMsg');
     var timeEl=document.getElementById('socialProofTime');
     var closeBtn=document.getElementById('socialProofClose');
@@ -76,15 +80,43 @@
     shuffle(families);
     var idx=0;
 
+    // 30-minute cooldown
+    try{var last=localStorage.getItem('fcp_toast_last_shown');if(last&&(Date.now()-parseInt(last,10))<1800000)return;}catch(e){}
+
+    // Manual dismiss persists for session
+    try{if(sessionStorage.getItem('fcp_toast_session_count')==='done')return;}catch(e){}
+
+    // Return visitor detection
+    var isReturn=false;
+    try{isReturn=localStorage.getItem('fcp_toast_is_return')==='1';if(!isReturn)localStorage.setItem('fcp_toast_is_return','1');}catch(e){}
+
+    // Max shows per session (stable across page navigations)
+    var maxShows;
+    try{var sm=sessionStorage.getItem('fcp_toast_max_shows');if(sm){maxShows=parseInt(sm,10);}else{maxShows=isReturn?1:Math.floor(Math.random()*3)+1;sessionStorage.setItem('fcp_toast_max_shows',String(maxShows));}}catch(e){maxShows=1;}
+
+    // Session show count
+    var sessionCount=0;
+    try{var sc=sessionStorage.getItem('fcp_toast_session_count');if(sc&&sc!=='done')sessionCount=parseInt(sc,10)||0;}catch(e){}
+    if(sessionCount>=maxShows)return;
+
+    // Random delay: 11-50 seconds
+    function randomDelay(){return Math.floor(Math.random()*39000)+11000;}
+
     function showToast(){
-      if(dismissed)return;
+      if(dismissed||sessionCount>=maxShows)return;
       var f=families[idx%families.length];
       var t=times[Math.floor(Math.random()*times.length)];
       msgEl.textContent='A family from '+f.city+', '+f.state+' just started an application';
       timeEl.textContent=t;
       toast.classList.add('is-visible');
       idx++;
-      hideTimer=setTimeout(function(){toast.classList.remove('is-visible');if(!dismissed)showTimer=setTimeout(showToast,Math.floor(Math.random()*15000)+20000);},6000);
+      sessionCount++;
+      try{sessionStorage.setItem('fcp_toast_session_count',String(sessionCount));}catch(e){}
+      try{localStorage.setItem('fcp_toast_last_shown',String(Date.now()));}catch(e){}
+      hideTimer=setTimeout(function(){
+        toast.classList.remove('is-visible');
+        if(!dismissed&&sessionCount<maxShows){showTimer=setTimeout(showToast,randomDelay());}
+      },6000);
     }
 
     closeBtn.addEventListener('click',function(){
@@ -92,11 +124,10 @@
       toast.classList.remove('is-visible');
       clearTimeout(showTimer);
       clearTimeout(hideTimer);
-      try{sessionStorage.setItem('sp_dismissed','1');}catch(e){}
+      try{sessionStorage.setItem('fcp_toast_session_count','done');}catch(e){}
     });
 
-    if(typeof sessionStorage!=='undefined'){try{if(sessionStorage.getItem('sp_dismissed')==='1'){dismissed=true;return;}}catch(e){}}
-    setTimeout(showToast,Math.floor(Math.random()*10000)+25000);
+    showTimer=setTimeout(showToast,randomDelay());
   })();
   </script>
 </body>
