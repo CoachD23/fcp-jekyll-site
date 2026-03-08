@@ -168,7 +168,18 @@ og_image: /assets/images/about-fcp.jpg
   align-items: start;
 }
 @media (max-width: 800px) {
-  .contact-layout { grid-template-columns: 1fr; }
+  .contact-layout { grid-template-columns: 1fr; padding: 0 1rem; }
+  .contact-form-wrapper { margin: 0; }
+}
+@media (max-width: 480px) {
+  .contact-layout { padding: 0 1rem; max-width: 100vw; box-sizing: border-box; overflow: hidden; }
+  .contact-card { padding: 1.25rem 1rem; border-radius: 12px; gap: 1rem; max-width: 100%; box-sizing: border-box; overflow: hidden; }
+  .contact-card-icon { width: 44px; height: 44px; min-width: 44px; border-radius: 10px; }
+  .contact-card-icon svg { width: 22px; height: 22px; }
+  .contact-card-text { min-width: 0; overflow: hidden; }
+  .contact-card-text p { font-size: 1rem; overflow: hidden; text-overflow: ellipsis; }
+  .contact-card-sub { font-size: 0.8rem; }
+  .contact-form-wrapper { padding: 1.5rem 1.25rem 0.75rem; border-radius: 12px; }
 }
 
 /* Contact Cards */
@@ -176,6 +187,8 @@ og_image: /assets/images/about-fcp.jpg
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-width: 100%;
+  overflow: hidden;
 }
 .contact-card {
   display: flex;
@@ -235,6 +248,16 @@ og_image: /assets/images/about-fcp.jpg
   color: rgba(255,255,255,0.45);
   display: block;
   margin-top: 0.2rem;
+}
+
+/* Map section mobile fix */
+@media (max-width: 800px) {
+  .staff-section-dark > div[style*="max-width: 960px"] { margin-left: 1rem !important; margin-right: 1rem !important; }
+}
+
+/* Intro section mobile fix */
+@media (max-width: 480px) {
+  .fade-in[style*="border-left: 4px"] { padding: 1.5rem 1.25rem !important; margin-left: 0.75rem !important; margin-right: 0.75rem !important; }
 }
 
 /* Form Column */

@@ -51,7 +51,7 @@ og_image: /assets/images/whatsapp-team.jpeg
       {% for name in feat_order limit: 3 %}
         {% assign post = alumni_posts | where: "player_name", name | first %}
         {% if post %}
-        <a href="{{ post.url | relative_url }}" class="cp-feat-card{% if post.featured_video %} cp-feat-card--video{% endif %}">
+        <a href="{{ post.url | relative_url }}" class="cp-feat-card{% if post.featured_video %} cp-feat-card--video{% endif %}" data-player="{{ post.player_name | slugify }}">
           <div class="cp-feat-img">
             {% if post.featured_video %}
             <video autoplay muted loop playsinline poster="{{ post.image | relative_url }}">
@@ -86,7 +86,7 @@ og_image: /assets/images/whatsapp-team.jpeg
       {% for name in feat_order offset: 3 %}
         {% assign post = alumni_posts | where: "player_name", name | first %}
         {% if post %}
-        <a href="{{ post.url | relative_url }}" class="cp-feat-card{% if post.featured_video %} cp-feat-card--video{% endif %}">
+        <a href="{{ post.url | relative_url }}" class="cp-feat-card{% if post.featured_video %} cp-feat-card--video{% endif %}" data-player="{{ post.player_name | slugify }}">
           <div class="cp-feat-img">
             {% if post.featured_video %}
             <video autoplay muted loop playsinline poster="{{ post.image | relative_url }}">

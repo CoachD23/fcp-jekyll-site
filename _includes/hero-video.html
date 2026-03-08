@@ -5,7 +5,14 @@
       <source src="{{ page.hero_video | relative_url }}" type="video/mp4">
     </video>
     {% else %}
-    <img src="{{ page.hero_poster | default: '/assets/images/homepage-hero.jpeg' | relative_url }}" alt="{{ page.hero_title | default: 'Florida Coastal Prep' }}" class="hero-bg-image">
+    <picture>
+      <source type="image/webp"
+              srcset="{{ '/assets/images/responsive/homepage-hero-480w.webp' | relative_url }} 480w,
+                      {{ '/assets/images/responsive/homepage-hero-768w.webp' | relative_url }} 768w,
+                      {{ '/assets/images/responsive/homepage-hero-1200w.webp' | relative_url }} 1200w"
+              sizes="100vw">
+      <img src="{{ page.hero_poster | default: '/assets/images/homepage-hero.jpeg' | relative_url }}" alt="{{ page.hero_title | default: 'Florida Coastal Prep' }}" class="hero-bg-image">
+    </picture>
     {% endif %}
     <div class="hero-overlay"></div>
   </div>

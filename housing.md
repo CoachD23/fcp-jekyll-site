@@ -3,8 +3,8 @@ layout: page
 title: Housing Options
 subtitle: Living on the Emerald Coast
 description: "Florida Coastal Prep's supervised student-athlete housing in Fort Walton Beach, FL — fully furnished team houses and beach condos near the Emerald Coast beaches with 24/7 staff supervision."
-hero_image: /assets/images/housing/pool-gulf.webp
-og_image: /assets/images/housing/pool-gulf.webp
+hero_image: /assets/images/housing/beach-house-1.jpg
+og_image: /assets/images/housing/beach-house-1.jpg
 hero_title: Housing Options
 hero_subtitle: Living on the Emerald Coast
 ---
@@ -45,10 +45,10 @@ hero_subtitle: Living on the Emerald Coast
         <img src="/assets/images/housing/bedrooms.webp" alt="Furnished bedrooms in FCP student-athlete team house" loading="lazy" style="width: 100%; border-radius: 8px; aspect-ratio: 4/3; object-fit: cover;">
       </div>
       <div style="margin-top: 1.25rem;">
-        <p style="font-size: 1.05rem; line-height: 1.75; color: #333; text-align: justify;">Our most popular option and the closest to the gym. Fully furnished 2-bed/2-bath houses with cable, Wi-Fi, and full kitchens. Athletes live together in a team environment that builds chemistry on and off the court.</p>
+        <p style="font-size: 1.05rem; line-height: 1.75; color: #333; text-align: justify;">Our most popular option and the closest to the gym. A fully furnished 8-bedroom, 3,500 sq ft team house with cable, Wi-Fi, and a full kitchen. Athletes live together in a team environment that builds chemistry on and off the court.</p>
         <div class="housing-highlights" style="margin-top: 1rem;">
-          <div class="highlight-item"><strong>2/2</strong><span>Bed / Bath</span></div>
-          <div class="highlight-item"><strong>#1</strong><span>Most Popular</span></div>
+          <div class="highlight-item"><strong>8</strong><span>Bedrooms</span></div>
+          <div class="highlight-item"><strong>3,500</strong><span>Sq Ft</span></div>
           <div class="highlight-item"><strong>Close</strong><span>To the Gym</span></div>
         </div>
       </div>
@@ -110,7 +110,6 @@ hero_subtitle: Living on the Emerald Coast
         <li>Copy of medical and emergency contacts</li>
         <li>A locker lock</li>
         <li>Snacks and personal food items</li>
-        <li>$250 refundable security deposit</li>
       </ul>
     </div>
     <div class="feature-card fade-in">
