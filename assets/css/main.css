@@ -6485,9 +6485,15 @@ iframe { max-width: 100%; }
 
   .advisory-circle-photo {
     width: 110px;
-    height: 110px;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
     flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  .advisory-circle-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
   .advisory-circle-info h3 {
@@ -6506,9 +6512,9 @@ iframe { max-width: 100%; }
   }
   .advisory-circle-photo {
     width: 100px;
-    height: 100px;
-    margin-bottom: 0.6rem;
+    margin-bottom: 1.1rem;
     flex-shrink: 0;
+    overflow: hidden;
   }
   .advisory-circle-info h3 {
     font-size: 0.85rem;
