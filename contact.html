@@ -173,10 +173,12 @@ og_image: /assets/images/about-fcp.jpg
 }
 @media (max-width: 480px) {
   .contact-layout { padding: 0 0.75rem; }
-  .contact-card { padding: 1.25rem 1.25rem; border-radius: 12px; }
-  .contact-card-icon { width: 44px; height: 44px; border-radius: 10px; }
+  .contact-card { padding: 1.25rem 1rem; border-radius: 12px; gap: 1rem; max-width: 100%; box-sizing: border-box; overflow: hidden; }
+  .contact-card-icon { width: 44px; height: 44px; min-width: 44px; border-radius: 10px; }
   .contact-card-icon svg { width: 22px; height: 22px; }
-  .contact-card-text p { font-size: 1rem; }
+  .contact-card-text { min-width: 0; overflow: hidden; }
+  .contact-card-text p { font-size: 1rem; overflow: hidden; text-overflow: ellipsis; }
+  .contact-card-sub { font-size: 0.8rem; }
   .contact-form-wrapper { padding: 1.5rem 1.25rem 0.75rem; border-radius: 12px; }
 }
 
@@ -185,6 +187,8 @@ og_image: /assets/images/about-fcp.jpg
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-width: 100%;
+  overflow: hidden;
 }
 .contact-card {
   display: flex;
