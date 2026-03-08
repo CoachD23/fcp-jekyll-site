@@ -4659,6 +4659,10 @@ iframe { max-width: 100%; }
 .cp-feat-card:hover .cp-feat-img img {
   transform: scale(1.05);
 }
+/* Per-player object-position overrides */
+.cp-feat-card[data-player="kylin-green"] .cp-feat-img img {
+  object-position: center 45%;
+}
 .cp-feat-overlay {
   position: absolute;
   inset: 0;
