@@ -3,6 +3,7 @@
     {% if page.hero_video %}
     <video autoplay muted loop playsinline poster="{{ page.hero_poster | default: '/assets/images/homepage-hero.jpeg' | relative_url }}">
       <source src="{{ page.hero_video | relative_url }}" type="video/mp4">
+      <track kind="captions" src="{{ '/assets/video/hero-captions.vtt' | relative_url }}" srclang="en" label="English" default>
     </video>
     {% else %}
     <picture>
@@ -26,8 +27,8 @@
     <div class="hero-credentials">
       <span class="hero-credentials-label">Proud Members Of</span>
       <div class="hero-credentials-logos">
-        <img src="{{ '/assets/images/siaa.webp' | relative_url }}" alt="SIAA — Sunshine Independent Athletic Association" class="credential-logo" width="1500" height="962">
-        <img src="{{ '/assets/images/gear.png' | relative_url }}" alt="The Grind Session" class="credential-logo" width="150" height="150">
+        <img src="{{ '/assets/images/siaa.webp' | relative_url }}" alt="SIAA — Sunshine Independent Athletic Association" class="credential-logo" width="150" height="96" loading="lazy">
+        <img src="{{ '/assets/images/gear.png' | relative_url }}" alt="The Grind Session" class="credential-logo" width="150" height="150" loading="lazy">
       </div>
     </div>
   </div>

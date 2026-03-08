@@ -122,6 +122,11 @@
 </script>
 {% endif %}
 
+<!-- DNS prefetch for third-party domains -->
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<link rel="dns-prefetch" href="https://widgets.leadconnectorhq.com">
+<link rel="dns-prefetch" href="https://identity.netlify.com">
+
 <!-- Fonts: preload critical weight, then load full family -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -153,8 +158,12 @@ img,video{max-width:100%;height:auto;display:block}
 @media(prefers-reduced-motion:reduce){.fade-in{opacity:1;transform:none;transition:none}}
 </style>
 
-<!-- Netlify Identity (required for Decap CMS login) -->
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<!-- Netlify Identity: lazy-load (only needed for CMS login redirect) -->
+<script>
+if(document.cookie.indexOf('nf_jwt')>-1||window.location.hash.indexOf('invite_token')>-1||window.location.hash.indexOf('confirmation_token')>-1||window.location.hash.indexOf('recovery_token')>-1){
+var s=document.createElement('script');s.src='https://identity.netlify.com/v1/netlify-identity-widget.js';document.head.appendChild(s);
+}
+</script>
 
 <!-- Full CSS: render-blocking to prevent FOUC -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
