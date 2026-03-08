@@ -80,6 +80,28 @@ document.addEventListener('DOMContentLoaded', () => {
     fadeElements.forEach(el => fadeObserver.observe(el));
   }
 
+  // --- Deferred video loading (hero + any data-src videos) ---
+  const lazyVideos = document.querySelectorAll('video source[data-src]');
+  if (lazyVideos.length > 0) {
+    const videoObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const video = entry.target;
+          const sources = video.querySelectorAll('source[data-src]');
+          sources.forEach(source => {
+            source.src = source.getAttribute('data-src');
+            source.removeAttribute('data-src');
+          });
+          video.load();
+          videoObserver.unobserve(video);
+        }
+      });
+    }, { threshold: 0.01 });
+    lazyVideos.forEach(source => {
+      videoObserver.observe(source.closest('video'));
+    });
+  }
+
   // --- Animated number counter ---
   const impactNumbers = document.querySelectorAll('.impact-number[data-count]');
   if (impactNumbers.length > 0) {

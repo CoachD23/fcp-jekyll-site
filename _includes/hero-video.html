@@ -1,8 +1,8 @@
 <section class="hero hero-video">
   <div class="hero-video-bg">
     {% if page.hero_video %}
-    <video autoplay muted loop playsinline poster="{{ page.hero_poster | default: '/assets/images/homepage-hero.jpeg' | relative_url }}">
-      <source src="{{ page.hero_video | relative_url }}" type="video/mp4">
+    <video autoplay muted loop playsinline preload="none" poster="{{ page.hero_poster | default: '/assets/images/homepage-hero.jpeg' | relative_url }}">
+      <source data-src="{{ page.hero_video | relative_url }}" type="video/mp4">
     </video>
     {% else %}
     <picture>
