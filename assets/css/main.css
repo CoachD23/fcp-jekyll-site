@@ -2044,11 +2044,14 @@ iframe { max-width: 100%; }
 
 /* --- Newsroom / Editorial Grid --- */
 .newsroom-section {
-  padding: 4rem 0 3rem;
+  padding: 2.5rem 0 3rem;
   background: #fff;
 }
+.newsroom-section .section-header {
+  margin-bottom: 1.5rem;
+}
 .newsroom-header {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 .editorial-grid {
   display: grid;
