@@ -10,6 +10,21 @@
   RUBY_VERSION = "3.2"
 
 # =============================================================
+# POST-PROCESSING — CSS/JS/image optimization
+# =============================================================
+[build.processing]
+  [build.processing.css]
+    bundle = true
+    minify = true
+  [build.processing.js]
+    bundle = false
+    minify = true
+  [build.processing.images]
+    compress = true
+  [build.processing.html]
+    pretty_urls = true
+
+# =============================================================
 # BUILD PLUGINS
 # =============================================================
 
