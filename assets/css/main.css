@@ -314,6 +314,15 @@ section { padding: 4rem 0; }
   z-index: 0;
 }
 
+@media (max-width: 768px) {
+  .hero-image {
+    min-height: 40vh;
+  }
+  .hero-image .hero-bg-img {
+    animation: none;
+  }
+}
+
 /* FAQ hero — center on team trophy photo */
 .faq-page .hero-bg-img {
   object-position: center 35%;
@@ -5413,6 +5422,19 @@ iframe { max-width: 100%; }
   color: #555;
   line-height: 1.6;
 }
+@media (max-width: 480px) {
+  .enrollment-steps {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0 0.5rem;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .enrollment-step {
+    padding: 1.25rem 0.75rem;
+    min-width: 0;
+  }
+}
 
 /* --- CCU Contact Card --- */
 .ccu-contact {
@@ -6464,6 +6486,8 @@ iframe { max-width: 100%; }
   .advisory-circle-photo {
     width: 110px;
     height: 110px;
+    margin-bottom: 0.75rem;
+    flex-shrink: 0;
   }
 
   .advisory-circle-info h3 {
@@ -6472,6 +6496,25 @@ iframe { max-width: 100%; }
 
   .advisory-circle-role {
     font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .advisory-strip {
+    gap: 1.5rem 0.75rem;
+    padding: 0 0.75rem 2rem;
+  }
+  .advisory-circle-photo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.6rem;
+    flex-shrink: 0;
+  }
+  .advisory-circle-info h3 {
+    font-size: 0.85rem;
+  }
+  .advisory-circle-role {
+    font-size: 0.65rem;
   }
 }
 

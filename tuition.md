@@ -69,7 +69,7 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     <p style="font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.18em; color: #d4a843; margin: 0 0 1.75rem;">The FCP Track Record</p>
     <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; align-items: flex-start;">
       <div style="flex: 1; min-width: 130px;">
-        <div style="font-size: 2.8rem; font-weight: 900; color: #d4a843; line-height: 1;">58+</div>
+        <div style="font-size: 2.8rem; font-weight: 900; color: #d4a843; line-height: 1;">500+</div>
         <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255,255,255,0.65); margin-top: 0.45rem;">Athletes Placed</div>
       </div>
       <div style="flex: 1; min-width: 130px;">
@@ -194,7 +194,7 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     </div>
     <div class="faq-card fade-in">
       <h3>How does FCP support the recruiting process?</h3>
-      <p>Every enrolled athlete receives a personalized recruiting plan developed with our staff. This includes game film production and distribution, highlight reel creation, exposure at national tournaments, direct outreach to college coaches, and ongoing guidance on NCAA compliance and the recruiting timeline.</p>
+      <p>Every enrolled athlete receives a personalized recruiting plan developed with our staff. This includes game film production and distribution, exposure at national tournaments, direct outreach to college coaches, and ongoing guidance on NCAA compliance and the recruiting timeline.</p>
     </div>
     <div class="faq-card fade-in">
       <h3>Do international athletes need health insurance?</h3>
