@@ -4526,7 +4526,11 @@ iframe { max-width: 100%; }
 .alumni-spotlight {
   background: #0a1628;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
+.alumni-editorial { order: 1; }
+.alumni-editorial-cta { order: 2; }
 
 /* Dual editorial grid */
 .alumni-editorial {

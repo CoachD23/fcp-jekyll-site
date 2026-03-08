@@ -30,7 +30,7 @@
 
   <!-- Netlify Identity redirect (after CMS login, go to /admin/) -->
   <script>
-  if(window.netlifyIdentity){window.netlifyIdentity.on("init",function(u){if(!u){window.netlifyIdentity.on("login",function(){document.location.href="/admin/";})}});}
+  (function ni(){if(window.netlifyIdentity){window.netlifyIdentity.on("init",function(u){if(!u){window.netlifyIdentity.on("login",function(){document.location.href="/admin/";})}});}else if(document.cookie.indexOf('nf_jwt')>-1){setTimeout(ni,200);}})();
   </script>
 
   <!-- Service Worker -->
