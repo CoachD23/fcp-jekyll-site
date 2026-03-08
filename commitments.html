@@ -54,8 +54,8 @@ og_image: /assets/images/whatsapp-team.jpeg
         <a href="{{ post.url | relative_url }}" class="cp-feat-card{% if post.featured_video %} cp-feat-card--video{% endif %}" data-player="{{ post.player_name | slugify }}">
           <div class="cp-feat-img">
             {% if post.featured_video %}
-            <video autoplay muted loop playsinline poster="{{ post.image | relative_url }}">
-              <source src="{{ post.featured_video | relative_url }}" type="video/mp4">
+            <video autoplay muted loop playsinline preload="none" poster="{{ post.image | relative_url }}">
+              <source data-src="{{ post.featured_video | relative_url }}" type="video/mp4">
             </video>
             {% elsif post.image %}
             <img src="{{ post.image | relative_url }}" alt="{{ post.player_name }}" width="600" height="400" loading="lazy">
@@ -89,8 +89,8 @@ og_image: /assets/images/whatsapp-team.jpeg
         <a href="{{ post.url | relative_url }}" class="cp-feat-card{% if post.featured_video %} cp-feat-card--video{% endif %}" data-player="{{ post.player_name | slugify }}">
           <div class="cp-feat-img">
             {% if post.featured_video %}
-            <video autoplay muted loop playsinline poster="{{ post.image | relative_url }}">
-              <source src="{{ post.featured_video | relative_url }}" type="video/mp4">
+            <video autoplay muted loop playsinline preload="none" poster="{{ post.image | relative_url }}">
+              <source data-src="{{ post.featured_video | relative_url }}" type="video/mp4">
             </video>
             {% elsif post.image %}
             <img src="{{ post.image | relative_url }}" alt="{{ post.player_name }}" width="600" height="400" loading="lazy">
