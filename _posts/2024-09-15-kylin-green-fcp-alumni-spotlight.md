@@ -5,6 +5,7 @@ date: 2024-09-15
 categories: [alumni]
 image: /assets/images/kylin-green-hcu.jpeg
 image_fcp: /assets/images/kylin-green-fcp-action.jpeg
+image_fcp_mobile: /assets/images/kylin-green-fcp-mobile.png
 player_name: Kylin Green
 current_team: Houston Christian Huskies
 fcp_label: FCP Spartans
