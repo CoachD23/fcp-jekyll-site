@@ -17,7 +17,7 @@ img { max-width: 100%; height: auto; display: block; }
 /* Touch/keyboard accessibility: visible focus ring for keyboard nav, suppress for mouse/touch */
 :focus-visible { outline: 2px solid #c41e3a; outline-offset: 2px; }
 :focus:not(:focus-visible) { outline: none; }
-a { color: #c41e3a; text-decoration: none; transition: color 0.2s; }
+a { color: #c41e3a; text-decoration: none; }
 a:hover { color: #9b1830; }
 a:focus-visible { color: #9b1830; }
 a:active { color: #9b1830; }
@@ -59,7 +59,7 @@ section { padding: 4rem 0; }
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255,255,255,0.08);
-  transition: background 0.3s;
+  transition: opacity 0.3s;
 }
 .nav-container {
   display: flex;
@@ -90,7 +90,6 @@ section { padding: 4rem 0; }
   padding: 0.5rem 0.85rem;
   font-size: 0.95rem;
   font-weight: 500;
-  transition: color 0.2s;
   white-space: nowrap;
 }
 .main-nav a:hover { color: #d4a843; }
@@ -487,7 +486,7 @@ section { padding: 4rem 0; }
   flex-direction: column;
   background: #fff;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
   color: inherit;
 }
 .program-card:hover {
@@ -622,7 +621,7 @@ section { padding: 4rem 0; }
   border-radius: 12px;
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.08);
-  transition: background 0.3s, border-color 0.3s, transform 0.3s;
+  transition: transform 0.3s;
 }
 .level-card:hover {
   background: rgba(255,255,255,0.08);
@@ -718,7 +717,7 @@ section { padding: 4rem 0; }
   box-shadow: 0 4px 20px rgba(0,0,0,0.06);
   position: relative;
   border: 1px solid rgba(0,0,0,0.04);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 .testimonial-card:hover {
   transform: translateY(-4px);
@@ -846,7 +845,7 @@ section { padding: 4rem 0; }
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 20px rgba(0,0,0,0.06);
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s;
 }
 .card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
 .card:focus-visible { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
@@ -1080,11 +1079,9 @@ section { padding: 4rem 0; }
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-decoration: none;
-  transition: color 0.3s ease, letter-spacing 0.3s ease;
 }
 .blog-feat-card:hover .blog-feat-link {
   color: #f0c860;
-  letter-spacing: 2.5px;
 }
 .blog-feat-card:focus-visible .blog-feat-link {
   color: #f0c860;
@@ -1280,11 +1277,9 @@ section { padding: 4rem 0; }
   text-transform: uppercase;
   letter-spacing: 1.3px;
   text-decoration: none;
-  transition: color 0.3s ease, letter-spacing 0.3s ease;
 }
 .blog-story-card:hover .blog-story-link {
   color: #f0c860;
-  letter-spacing: 2.2px;
 }
 .blog-story-card:focus-visible .blog-story-link {
   color: #f0c860;
@@ -1348,7 +1343,7 @@ section { padding: 4rem 0; }
 .post-cta { background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 100%); color: #fff; padding: 2.5rem; border-radius: 14px; text-align: center; margin: 3rem 0; }
 .post-cta h3 { color: #d4a843; font-size: 1.4rem; margin: 0 0 0.75rem; }
 .post-cta p { color: rgba(255,255,255,0.85); margin-bottom: 1.25rem; font-size: 1.05rem; }
-.post-cta a.cta-btn { display: inline-block; background: #c41e3a; color: #fff; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1rem; transition: background 0.2s, transform 0.2s; }
+.post-cta a.cta-btn { display: inline-block; background: #c41e3a; color: #fff; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1rem; transition: transform 0.2s; }
 .post-cta a.cta-btn:hover { background: #a01830; transform: translateY(-2px); }
 .post-cta a.cta-btn:focus-visible { background: #a01830; transform: translateY(-2px); }
 .post-cta a.cta-btn:active { background: #a01830; transform: translateY(-2px); }
@@ -1651,7 +1646,6 @@ section { padding: 4rem 0; }
   text-decoration: underline;
   text-decoration-color: rgba(196,30,58,0.3);
   text-underline-offset: 2px;
-  transition: text-decoration-color 0.2s;
 }
 .alumni-article-body a:hover {
   text-decoration-color: #c41e3a;
@@ -1881,7 +1875,6 @@ section { padding: 4rem 0; }
 .footer-social { display: flex; gap: 1rem; }
 .footer-social a {
   color: #6b7280;
-  transition: color 0.2s;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1889,7 +1882,6 @@ section { padding: 4rem 0; }
   height: 38px;
   border-radius: 50%;
   border: 1px solid #d1d5db;
-  transition: color 0.2s, border-color 0.2s, background 0.2s;
 }
 .footer-social a:hover {
   color: #c41e3a;
@@ -1921,7 +1913,6 @@ section { padding: 4rem 0; }
   font-weight: 600;
   letter-spacing: 0.01em;
   padding: 0.3rem 0;
-  transition: color 0.2s;
 }
 .footer-nav a:hover { color: #c41e3a; }
 .footer-nav a:focus-visible { color: #c41e3a; }
@@ -1938,7 +1929,6 @@ section { padding: 4rem 0; }
   color: #6b7280;
   font-size: 0.85rem;
   padding: 0.25rem 0;
-  transition: color 0.2s;
 }
 .footer-secondary a:hover { color: #c41e3a; }
 .footer-secondary a:focus-visible { color: #c41e3a; }
@@ -2192,7 +2182,6 @@ iframe { max-width: 100%; }
   font-weight: 500;
   padding: 0.6rem 2rem 0.6rem 1.5rem;
   white-space: nowrap;
-  transition: color 0.2s;
   border-right: 1px solid rgba(255,255,255,0.06);
 }
 .ticker-item:hover { color: #d4a843; }
@@ -2327,7 +2316,6 @@ iframe { max-width: 100%; }
   border-radius: 10px;
   overflow: hidden;
   color: inherit;
-  transition: background 0.2s, box-shadow 0.2s;
   flex: 1;
   max-height: 120px;
 }
@@ -2596,7 +2584,6 @@ iframe { max-width: 100%; }
   border-radius: 50%;
   color: rgba(255,255,255,0.5);
   border: 1px solid rgba(255,255,255,0.15);
-  transition: color 0.2s, border-color 0.2s, background 0.2s;
 }
 .cta-social a:hover {
   color: #fff;
@@ -2692,7 +2679,7 @@ iframe { max-width: 100%; }
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 4px 30px rgba(0,0,0,0.08);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 .executive-card:hover {
   transform: translateY(-6px);
@@ -2802,7 +2789,7 @@ iframe { max-width: 100%; }
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 14px;
   padding: 1.5rem;
-  transition: background 0.3s, border-color 0.3s, transform 0.3s;
+  transition: transform 0.3s;
 }
 .coach-profile:hover {
   background: rgba(255,255,255,0.07);
@@ -2875,7 +2862,7 @@ iframe { max-width: 100%; }
   border-radius: 14px;
   padding: 2.5rem 1.5rem;
   box-shadow: 0 4px 20px rgba(0,0,0,0.06);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 .advisor-card:hover {
   transform: translateY(-5px);
@@ -3184,7 +3171,7 @@ iframe { max-width: 100%; }
   border-radius: 14px;
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.08);
-  transition: background 0.3s, border-color 0.3s, transform 0.3s;
+  transition: transform 0.3s;
 }
 .feature-card:hover {
   background: rgba(255,255,255,0.08);
@@ -3337,7 +3324,7 @@ iframe { max-width: 100%; }
   padding: 2rem;
   box-shadow: 0 4px 20px rgba(0,0,0,0.06);
   border-left: 4px solid #c41e3a;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 .offer-item:hover {
   transform: translateY(-4px);
@@ -3485,7 +3472,7 @@ iframe { max-width: 100%; }
   padding: 2rem;
   border: 1px solid #e5e7eb;
   position: relative;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 .timeline-card:hover {
   transform: translateY(-4px);
@@ -3534,7 +3521,7 @@ iframe { max-width: 100%; }
   padding: 2rem 2rem 1.5rem;
   border: 1px solid #e5e7eb;
   position: relative;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 .testimonial-card:hover {
   transform: translateY(-4px);
@@ -3781,7 +3768,7 @@ iframe { max-width: 100%; }
   border-radius: 12px;
   padding: 2rem;
   border: 1px solid rgba(255,255,255,0.08);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 .process-step:hover {
   transform: translateY(-2px);
@@ -3851,7 +3838,7 @@ iframe { max-width: 100%; }
   padding: 2rem;
   border: 1px solid #e5e7eb;
   border-left: 4px solid #d4a843;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 .faq-card:hover {
   transform: translateY(-3px);
@@ -3945,7 +3932,6 @@ iframe { max-width: 100%; }
   color: #0a1628;
   line-height: 1.4;
   gap: 1rem;
-  transition: color 0.2s ease;
   font-family: inherit;
 }
 .faq-question:hover {
@@ -3988,7 +3974,6 @@ iframe { max-width: 100%; }
   text-decoration: underline;
   text-decoration-color: rgba(196, 30, 58, 0.3);
   text-underline-offset: 2px;
-  transition: text-decoration-color 0.2s;
 }
 .faq-answer a:hover {
   text-decoration-color: #c41e3a;
@@ -4349,7 +4334,7 @@ iframe { max-width: 100%; }
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   text-decoration: none;
   color: inherit;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 .featured-alumni-card:hover {
   transform: translateY(-4px);
@@ -4434,7 +4419,7 @@ iframe { max-width: 100%; }
   border-radius: 12px;
   padding: 1.25rem 1.5rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  transition: transform 0.25s, box-shadow 0.25s;
+  transition: transform 0.25s;
   border-left: 4px solid #c41e3a;
 }
 .commit-card:hover {
@@ -4658,16 +4643,13 @@ iframe { max-width: 100%; }
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-decoration: none;
-  transition: color 0.3s ease, letter-spacing 0.3s ease;
   margin-top: 0.35rem;
 }
 .alumni-card:hover .alumni-card-link {
   color: #f0c860;
-  letter-spacing: 2.5px;
 }
 .alumni-card:focus-visible .alumni-card-link {
   color: #f0c860;
-  letter-spacing: 2.5px;
 }
 .alumni-card:active .alumni-card-link {
   color: #f0c860;
@@ -5191,7 +5173,6 @@ iframe { max-width: 100%; }
   font-weight: 600;
   color: rgba(255,255,255,0.7);
   margin-top: 0.4rem;
-  transition: color 0.2s;
 }
 .cp-feat-card:hover .cp-feat-arrow {
   color: #d4a843;
@@ -5323,7 +5304,6 @@ iframe { max-width: 100%; }
   padding: 0.9rem 1.25rem;
   background: #fff;
   border-bottom: 1px solid #eef0f3;
-  transition: background 0.15s ease;
 }
 .cp-row:first-child {
   border-radius: 12px 12px 0 0;
@@ -5776,7 +5756,7 @@ iframe { max-width: 100%; }
   overflow: hidden;
   text-align: center;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 }
 .coach-card:hover {
   transform: translateY(-6px);
@@ -6366,7 +6346,7 @@ iframe { max-width: 100%; }
 .alumni-callout-card {
   border: 1px solid rgba(212, 168, 67, 0.35) !important;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
+  transition: transform 0.3s ease !important;
 }
 .alumni-callout-card:hover {
   border-color: rgba(212, 168, 67, 0.6) !important;
@@ -6644,7 +6624,7 @@ iframe { max-width: 100%; }
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
   display: flex;
   flex-direction: column;
   position: relative;
@@ -6789,7 +6769,7 @@ iframe { max-width: 100%; }
   text-decoration: none;
   padding: 0.55rem 1.3rem;
   border-radius: 6px;
-  transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease;
 }
 
 .espn-staff-btn:hover {
@@ -7061,7 +7041,6 @@ iframe { max-width: 100%; }
   color: rgba(26, 26, 46, 0.45);
   text-decoration: none;
   letter-spacing: 0.03em;
-  transition: color 0.2s;
 }
 
 .advisory-circle-more:hover {
@@ -7147,7 +7126,7 @@ iframe { max-width: 100%; }
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
   display: flex;
   flex-direction: column;
 }
@@ -7347,7 +7326,6 @@ iframe { max-width: 100%; }
   font-weight: 500;
   text-decoration: none;
   margin-bottom: 1rem;
-  transition: color 0.2s;
 }
 
 .coach-profile-back-link:hover {
@@ -7718,7 +7696,6 @@ iframe { max-width: 100%; }
   cursor: pointer;
   padding: 4px;
   line-height: 1;
-  transition: color 0.2s;
   border-radius: 4px;
 }
 
