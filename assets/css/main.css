@@ -1859,8 +1859,9 @@ section { padding: 4rem 0; }
   .staff-grid.grid-3-col { grid-template-columns: 1fr; }
   .news-ticker-label { font-size: 0.6rem; padding: 0.5rem 1rem; }
   .ticker-item { font-size: 0.75rem; padding: 0.5rem 1.5rem; }
-  /* Editorial: convert featured card to same style as sidebar cards on mobile */
-  .editorial-feature { min-height: 0; border-radius: 10px; display: grid; grid-template-columns: 100px 1fr; gap: 0.75rem; position: relative; overflow: hidden; background: #f5f7fa; }
+  /* Editorial: single-column grid + convert featured card to sidebar style on mobile */
+  .editorial-grid { grid-template-columns: 1fr !important; }
+  .editorial-feature { min-height: 0 !important; border-radius: 10px; display: grid; grid-template-columns: 100px 1fr; gap: 0.75rem; position: relative; overflow: hidden; background: #f5f7fa; }
   .editorial-feature-image { position: relative; height: 100%; min-height: 80px; max-height: 120px; }
   .editorial-feature-image img { position: relative; }
   .editorial-overlay { display: none; }
@@ -1900,7 +1901,7 @@ section { padding: 4rem 0; }
   .coach-card img { width: 120px; height: 120px; }
   .impact-grid { grid-template-columns: 1fr 1fr; }
   .levels-grid { grid-template-columns: 1fr; }
-  .editorial-feature { min-height: 280px; }
+  .editorial-feature { min-height: 0 !important; }
   .editorial-card { grid-template-columns: 100px 1fr; gap: 0.75rem; }
   .editorial-card-image { min-height: 80px; }
   .editorial-card-text { padding: 0.5rem 0.75rem 0.5rem 0; }
