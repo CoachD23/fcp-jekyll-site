@@ -1,19 +1,18 @@
 <section class="hero hero-video">
   <div class="hero-video-bg">
     {% if page.hero_video %}
-    <video autoplay muted loop playsinline poster="{{ page.hero_poster | default: '/assets/images/homepage-hero.jpeg' | relative_url }}">
+    <video autoplay muted loop playsinline poster="/.netlify/images?url={{ page.hero_poster | default: '/assets/images/homepage-hero.jpeg' | relative_url }}&w=1920&q=75">
       <source src="{{ page.hero_video | relative_url }}" type="video/mp4">
       <track kind="captions" src="{{ '/assets/video/hero-captions.vtt' | relative_url }}" srclang="en" label="English" default>
     </video>
     {% else %}
-    <picture>
-      <source type="image/webp"
-              srcset="{{ '/assets/images/responsive/homepage-hero-480w.webp' | relative_url }} 480w,
-                      {{ '/assets/images/responsive/homepage-hero-768w.webp' | relative_url }} 768w,
-                      {{ '/assets/images/responsive/homepage-hero-1200w.webp' | relative_url }} 1200w"
-              sizes="100vw">
-      <img src="{{ page.hero_poster | default: '/assets/images/homepage-hero.jpeg' | relative_url }}" alt="{{ page.hero_title | default: 'Florida Coastal Prep' }}" class="hero-bg-image">
-    </picture>
+    {%- assign hero_fallback = page.hero_poster | default: '/assets/images/homepage-hero.jpeg' | relative_url -%}
+    <img srcset="/.netlify/images?url={{ hero_fallback }}&w=480&q=75 480w,
+                 /.netlify/images?url={{ hero_fallback }}&w=768&q=75 768w,
+                 /.netlify/images?url={{ hero_fallback }}&w=1200&q=75 1200w"
+         sizes="100vw"
+         src="{{ hero_fallback }}"
+         alt="{{ page.hero_title | default: 'Florida Coastal Prep' }}" class="hero-bg-image" fetchpriority="high">
     {% endif %}
     <div class="hero-overlay"></div>
   </div>

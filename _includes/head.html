@@ -168,6 +168,7 @@ var s=document.createElement('script');s.src='https://identity.netlify.com/v1/ne
 <!-- Full CSS: render-blocking to prevent FOUC -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
-<!-- Hero image: preload LCP for pages with hero images -->
-{% if page.hero_image %}<link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" fetchpriority="high">{% endif %}
-{% if page.hero_video %}<link rel="preload" as="video" href="{{ page.hero_video | relative_url }}">{% endif %}
+<!-- Hero LCP: preload the poster/hero image (the actual LCP element) with high priority -->
+<!-- Uses Netlify Image CDN for auto WebP/AVIF negotiation + compression -->
+{% if page.hero_poster %}<link rel="preload" as="image" href="/.netlify/images?url={{ page.hero_poster | relative_url }}&w=1920&q=75" fetchpriority="high">
+{% elsif page.hero_image %}<link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" fetchpriority="high">{% endif %}
