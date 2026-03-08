@@ -13,3 +13,7 @@ vendor/
 node_modules/
 FCP-Site-Improvement-Checklist.md
 FCP-Project-Docs/
+# Large raw media — keep out of repo
+*.mov
+*.MOV
+assets/images/Good Photos/
