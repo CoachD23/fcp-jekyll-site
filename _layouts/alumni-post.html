@@ -22,14 +22,7 @@ layout: default
     <div class="container">
       <div class="journey-card{% if page.alumni_video %} journey-card-3{% endif %}">
         <div class="journey-card-then">
-          {% if page.image_fcp_mobile %}
-          <picture>
-            <source media="(max-width: 768px)" srcset="{{ page.image_fcp_mobile | relative_url }}">
-            <img src="{{ page.image_fcp | relative_url }}" alt="{{ page.player_name }} at Florida Coastal Prep" loading="lazy">
-          </picture>
-          {% else %}
           <img src="{{ page.image_fcp | relative_url }}" alt="{{ page.player_name }} at Florida Coastal Prep" loading="lazy">
-          {% endif %}
           <div class="journey-card-label">
             <span class="journey-label-tag journey-label-then">{{ page.fcp_label | default: "FCP Era" }}</span>
           </div>
