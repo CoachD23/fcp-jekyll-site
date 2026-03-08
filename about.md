@@ -200,7 +200,8 @@ hero_subtitle: Where Potential Meets Preparation
 .path-benefits { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
 .path-benefit { display: flex; flex-direction: column; align-items: center; color: rgba(255,255,255,0.8); font-size: 1rem; font-weight: 600; }
 @media (max-width: 700px) {
-  .two-paths-grid { grid-template-columns: 1fr; }
+  .two-paths-grid { grid-template-columns: 1fr; padding: 0 1rem; }
+  .path-shared { padding-left: 1rem; padding-right: 1rem; }
   .path-benefits { gap: 1.5rem; }
 }
 </style>
