@@ -1938,7 +1938,7 @@ section { padding: 4rem 0; }
   font-size: 0.8rem;
   color: #6b7280;
 }
-.footer-bottom a { color: #6b7280; }
+.footer-bottom a { color: #6b7280; text-decoration: underline; }
 .footer-bottom a:hover { color: #c41e3a; }
 .footer-bottom a:focus-visible { color: #c41e3a; }
 .footer-bottom a:active { color: #c41e3a; }
