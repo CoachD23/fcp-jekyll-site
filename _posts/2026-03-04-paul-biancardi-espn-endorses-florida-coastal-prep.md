@@ -23,7 +23,7 @@ In short, when Paul Biancardi praises a basketball program, every Division I coa
 ## Biancardi Visits Florida Coastal Prep
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 640px; margin: 2rem auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
-  <iframe src="https://www.youtube.com/embed/9XX6xUTWEAA?clip=UgkxYRSWlhaFin_eNGfyP-Hh_BDKpvDObTX6&clipt=EK6HBhi6swc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 12px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Paul Biancardi evaluating athletes at Florida Coastal Prep"></iframe>
+  <iframe src="https://www.youtube.com/embed/9XX6xUTWEAA?clip=UgkxYRSWlhaFin_eNGfyP-Hh_BDKpvDObTX6&clipt=EK6HBhi6swc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 12px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" title="Paul Biancardi evaluating athletes at Florida Coastal Prep"></iframe>
 </div>
 <p style="text-align: center; color: #888; font-size: 0.9rem; margin-top: 0.5rem;">▶ Paul Biancardi's evaluation visit to Florida Coastal Prep</p>
 
