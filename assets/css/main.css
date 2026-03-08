@@ -1213,7 +1213,7 @@ section { padding: 4rem 0; }
 .post-cta a.cta-btn { display: inline-block; background: #c41e3a; color: #fff; padding: 0.85rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1rem; transition: background 0.2s, transform 0.2s; }
 .post-cta a.cta-btn:hover { background: #a01830; transform: translateY(-2px); }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .school-card { padding: 1.25rem; }
   .compare-table { font-size: 0.82rem; }
   .compare-table thead th, .compare-table tbody td { padding: 0.6rem 0.5rem; }
@@ -1489,7 +1489,7 @@ section { padding: 4rem 0; }
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.12);
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .alumni-article-body .article-float-img {
     float: none;
     display: block;
@@ -3822,12 +3822,12 @@ iframe { max-width: 100%; }
 }
 
 /* Grind Section Responsive */
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .grind-layout { grid-template-columns: 1fr; gap: 2.5rem; }
   .grind-title { font-size: 2.2rem; }
   .grind-visual { max-width: 500px; }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .grind-section { padding: 3rem 0; }
   .grind-title { font-size: 1.8rem; }
   .grind-image-frame img { aspect-ratio: 4 / 3; }
@@ -4909,7 +4909,7 @@ iframe { max-width: 100%; }
 }
 
 /* ── Commitments Responsive ── */
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .cp-featured-row--top {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -5013,7 +5013,7 @@ iframe { max-width: 100%; }
 }
 
 /* Extra-small phones: iPhone SE, 375px and below */
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   .cp-hero {
     padding: 4.5rem 0 2rem;
   }
@@ -5176,7 +5176,7 @@ iframe { max-width: 100%; }
   font-size: 0.9rem;
   color: #666;
 }
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .schedule-table th:nth-child(4),
   .schedule-table td:nth-child(4) {
     display: none;
@@ -5628,7 +5628,7 @@ iframe { max-width: 100%; }
   line-height: 1.6;
   margin-bottom: 1rem;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .admissions-feature {
     flex-direction: column;
     max-width: 340px;
@@ -6238,7 +6238,7 @@ iframe { max-width: 100%; }
 }
 
 /* ESPN Staff Grid — Mobile */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .espn-staff-grid {
     grid-template-columns: 1fr;
     gap: 1.25rem;
@@ -6328,7 +6328,7 @@ iframe { max-width: 100%; }
 }
 
 /* Advisory Grid — Mobile */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .advisory-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
@@ -6433,7 +6433,7 @@ iframe { max-width: 100%; }
   color: #b22234;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .advisory-strip {
     gap: 2rem 1.5rem;
   }
@@ -6577,7 +6577,7 @@ iframe { max-width: 100%; }
 }
 
 /* Director Grid — Mobile */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .director-grid {
     grid-template-columns: 1fr;
     gap: 1.25rem;
@@ -7013,7 +7013,7 @@ iframe { max-width: 100%; }
 }
 
 /* Hide on very small screens or when chat widget is open */
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   .social-proof-toast {
     bottom: 16px;
     left: 12px;
