@@ -1675,7 +1675,7 @@ section { padding: 4rem 0; }
   .alumni-stat-value { font-size: 1.1rem; }
   .alumni-stat-label { font-size: 0.6rem; }
   .journey-card-then img,
-  .journey-card-now img { height: 160px; }
+  .journey-card-now img { height: 160px; object-position: center 25%; }
   .journey-card-video video { height: 160px; }
 }
 
