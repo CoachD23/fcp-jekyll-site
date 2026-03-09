@@ -4379,6 +4379,7 @@ iframe { max-width: 100%; }
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 .alumni-editorial { order: 1; }
 .alumni-editorial-cta { order: 2; }
