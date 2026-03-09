@@ -776,6 +776,8 @@ section { padding: 4rem 0; }
 .section-light {
   background: #f7f8fa;
 }
+.programs-section { padding-bottom: 1.5rem; }
+.programs-section + .section-light { padding-top: 2rem; }
 .section-header {
   text-align: center;
   max-width: 700px;
@@ -6056,9 +6058,9 @@ iframe { max-width: 100%; }
   }
 }
 .page-content .staff-section-dark {
-  border-radius: 16px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 0;
   overflow: hidden;
 }
 .page-content .impact-bar {
@@ -6122,7 +6124,11 @@ iframe { max-width: 100%; }
   margin-top: 3rem;
 }
 @media (max-width: 768px) {
-  .page-content .staff-section-dark,
+  .page-content .staff-section-dark {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+  }
   .page-content .impact-bar {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
@@ -6130,7 +6136,11 @@ iframe { max-width: 100%; }
   }
 }
 @media (max-width: 480px) {
-  .page-content .staff-section-dark,
+  .page-content .staff-section-dark {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+  }
   .page-content .impact-bar {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
