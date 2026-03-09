@@ -208,10 +208,6 @@ permalink: /payment/
       Payments processed securely by Authorize.net.<br>Florida Coastal Prep never sees or stores your card information.
     </p>
 
-    <!-- Tuition info link -->
-    <p style="text-align: center; margin-top: 1.25rem; font-size: 0.9rem;">
-      <a href="/tuition/" style="color: #d4a843; font-weight: 600; text-decoration: underline;">View Tuition &amp; Fee Details &rarr;</a>
-    </p>
   </div>
 </div>
 
@@ -248,22 +244,31 @@ permalink: /payment/
 .pay-field select {
   width: 100%;
   padding: 0.75rem 0.9rem;
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.18);
   border-radius: 6px;
   font-size: 1rem;
-  background: rgba(255,255,255,0.95);
-  color: #333;
+  background: rgba(255,255,255,0.08);
+  color: #fff;
   box-sizing: border-box;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
-.pay-field select { appearance: auto; }
+.pay-field select { appearance: auto; color: #fff; background: rgba(255,255,255,0.08); }
+.pay-field select option { background: #1a1a2e; color: #fff; }
 .pay-field input:focus,
 .pay-field select:focus {
   outline: none;
   border-color: #d4a843;
   box-shadow: 0 0 0 3px rgba(212,168,67,0.2);
+  background: rgba(255,255,255,0.12);
 }
-.pay-field input::placeholder { color: #aaa; }
+.pay-field input::placeholder { color: rgba(255,255,255,0.35); }
+.pay-field input:-webkit-autofill,
+.pay-field input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #1e2035 inset !important;
+  -webkit-text-fill-color: #fff !important;
+  border-color: rgba(255,255,255,0.18);
+  transition: background-color 5000s ease-in-out 0s;
+}
 .pay-row {
   display: flex;
   gap: 0.75rem;
@@ -277,7 +282,7 @@ permalink: /payment/
   top: 50%;
   transform: translateY(-50%);
   font-size: 1.1rem;
-  color: #555;
+  color: rgba(255,255,255,0.5);
   font-weight: 700;
   pointer-events: none;
 }
