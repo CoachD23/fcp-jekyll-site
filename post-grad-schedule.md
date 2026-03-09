@@ -12,7 +12,7 @@ hero_subtitle: 2025–2026 Season — FCP Spartans
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">A National Schedule Built for Recruiting Exposure.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">The FCP Spartans post-grad program has a challenging season ahead, with matchups against JUCO programs, college JV squads, and elite national prep teams. All games are recorded through Hudl for recruiting exposure.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; margin: 0;">The FCP Spartans post-grad program has a challenging season ahead, with matchups against JUCO programs, college JV squads, and elite national prep teams. All games are recorded through Hudl for recruiting exposure.</p>
 </section>
 
 <div class="schedule-wrapper fade-in">

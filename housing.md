@@ -12,7 +12,7 @@ hero_subtitle: Living on the Emerald Coast
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Comfortable, Supervised Housing on the Emerald Coast.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Every housing option is hand-selected for safety, comfort, and convenience — all within minutes of our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Spartan Training Center</a> and the beautiful beaches of Fort Walton Beach. <em>All housing assignments are subject to availability.</em></p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; margin: 0;">Every housing option is hand-selected for safety, comfort, and convenience — all within minutes of our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">Spartan Training Center</a> and the beautiful beaches of Fort Walton Beach. <em>All housing assignments are subject to availability.</em></p>
 </section>
 
 <!-- Supervised Living Trust Bar — Moved to Top -->
@@ -45,7 +45,7 @@ hero_subtitle: Living on the Emerald Coast
         <img src="/assets/images/housing/bedrooms.webp" alt="Furnished bedrooms in FCP student-athlete team house" loading="lazy" style="width: 100%; border-radius: 8px; aspect-ratio: 4/3; object-fit: cover;">
       </div>
       <div style="margin-top: 1.25rem;">
-        <p style="font-size: 1.05rem; line-height: 1.75; color: #333; text-align: justify;">Our most popular option and the closest to the gym. A fully furnished 8-bedroom, 3,500 sq ft team house with cable, Wi-Fi, and a full kitchen. Athletes live together in a team environment that builds chemistry on and off the court.</p>
+        <p style="font-size: 1.05rem; line-height: 1.75; color: #333;">Our most popular option and the closest to the gym. A fully furnished 8-bedroom, 3,500 sq ft team house with cable, Wi-Fi, and a full kitchen. Athletes live together in a team environment that builds chemistry on and off the court.</p>
         <div class="housing-highlights" style="margin-top: 1rem;">
           <div class="highlight-item"><strong>8</strong><span>Bedrooms</span></div>
           <div class="highlight-item"><strong>3,500</strong><span>Sq Ft</span></div>
@@ -69,7 +69,7 @@ hero_subtitle: Living on the Emerald Coast
         <img src="/assets/images/housing/beach-view.webp" alt="Gulf of Mexico view near the FCP beach condos in Fort Walton Beach" loading="lazy" style="width: 100%; border-radius: 8px; aspect-ratio: 4/3; object-fit: cover;">
       </div>
       <div style="margin-top: 1.25rem;">
-        <p style="font-size: 1.05rem; line-height: 1.75; color: #333; text-align: justify;">Fully furnished 2-bed/1-bath condos just minutes from the white sand beaches of the Gulf of Mexico. Five units across two duplex buildings offer a relaxed coastal setting while keeping athletes close to the gym.</p>
+        <p style="font-size: 1.05rem; line-height: 1.75; color: #333;">Fully furnished 2-bed/1-bath condos just minutes from the white sand beaches of the Gulf of Mexico. Five units across two duplex buildings offer a relaxed coastal setting while keeping athletes close to the gym.</p>
         <div class="housing-highlights" style="margin-top: 1rem;">
           <div class="highlight-item"><strong>5</strong><span>Units</span></div>
           <div class="highlight-item"><strong>Near</strong><span>The Beach</span></div>

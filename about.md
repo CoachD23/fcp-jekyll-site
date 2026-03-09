@@ -12,7 +12,7 @@ hero_subtitle: Where Potential Meets Preparation
 <!-- Bold Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">The Emerald Coast's Premier Basketball Academy</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Florida Coastal Prep bridges the gap between high school and college athletics — combining elite coaching, rigorous academics, and D1-caliber facilities to prepare student-athletes for the next chapter. Since 2019, we've sent <strong>players to college programs across 43 states and 22 countries</strong>.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; margin: 0;">Florida Coastal Prep bridges the gap between high school and college athletics — combining elite coaching, rigorous academics, and D1-caliber facilities to prepare student-athletes for the next chapter. Since 2019, we've sent <strong>players to college programs across 43 states and 22 countries</strong>.</p>
 </section>
 
 <!-- By the Numbers -->
@@ -87,7 +87,7 @@ hero_subtitle: Where Potential Meets Preparation
   .biancardi-duo { flex-direction: column; }
 }
 .program-offers .feature-card { text-align: left; }
-.program-offers .feature-card p { text-align: justify; }
+.program-offers .feature-card p { text-align: left; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
 .hero-bg-img { object-position: center 40% !important; }
 </style>
@@ -150,7 +150,7 @@ hero_subtitle: Where Potential Meets Preparation
         <img src="/assets/images/grind-session-transparent.png" alt="Grind Session basketball league logo" loading="lazy">
         <img src="/assets/images/siaa-transparent.png" alt="SIAA — Sunshine Independent Athletic Association logo" loading="lazy">
       </div>
-      <p style="text-align: justify; color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.7;">FCP's high school program competes in the <strong style="color: #fff;">Grind Session</strong> and <strong style="color: #fff;">SIAA</strong> — two of the top independent basketball circuits in the country. Student-athletes receive accredited academics alongside competitive game schedules against nationally ranked programs.</p>
+      <p style="color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.7;">FCP's high school program competes in the <strong style="color: #fff;">Grind Session</strong> and <strong style="color: #fff;">SIAA</strong> — two of the top independent basketball circuits in the country. Student-athletes receive accredited academics alongside competitive game schedules against nationally ranked programs.</p>
       <a href="/high-school/" class="btn btn-outline" style="margin-top: 1.25rem;">Explore High School</a>
     </div>
 
@@ -161,7 +161,7 @@ hero_subtitle: Where Potential Meets Preparation
         <img src="/assets/images/sehal-transparent.png" alt="SEHAL — Southeast Elite High School Athletic League logo" loading="lazy">
         <img src="/assets/images/phsba-transparent.png" alt="PHSBA — Post High School Basketball Association logo" loading="lazy">
       </div>
-      <p style="text-align: justify; color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.7;">Post-graduates compete in the <strong style="color: #fff;">SEHAL</strong> and <strong style="color: #fff;">PHSBA</strong>, facing top prep programs across the Southeast and nationally. This gap year gives athletes the additional development, film, and exposure needed to earn college roster spots.</p>
+      <p style="color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.7;">Post-graduates compete in the <strong style="color: #fff;">SEHAL</strong> and <strong style="color: #fff;">PHSBA</strong>, facing top prep programs across the Southeast and nationally. This gap year gives athletes the additional development, film, and exposure needed to earn college roster spots.</p>
       <a href="/post-grad/" class="btn btn-outline" style="margin-top: 1.25rem;">Explore Post-Grad</a>
     </div>
   </div>
@@ -219,7 +219,7 @@ hero_subtitle: Where Potential Meets Preparation
     <span class="section-label">Watch</span>
     <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">6 Months to Change Everything</h2>
     <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">FCP produced its own original docuseries — following our athletes through a full season of training, competition, and growth. With <strong>hundreds of thousands of views</strong>, the series captures the daily experiences, challenges, and triumphs of our players and what life is really like inside the academy.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">FCP produced its own original docuseries — following our athletes through a full season of training, competition, and growth. With <strong>hundreds of thousands of views</strong>, the series captures the daily experiences, challenges, and triumphs of our players and what life is really like inside the academy.</p>
     <div style="margin-top: 1.25rem;">
       <a href="/docuseries/" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
         <svg viewBox="0 0 24 24" style="width: 20px; height: 20px; fill: currentColor;"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>

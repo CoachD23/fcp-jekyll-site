@@ -25,7 +25,7 @@ hero_subtitle: Education That Prepares You for College
 @media (max-width: 500px) { .ncaa-grid { grid-template-columns: 1fr !important; } }
 /* Left-align feature cards in program-offers */
 .program-offers .feature-card { text-align: left; }
-.program-offers .feature-card p { text-align: justify; }
+.program-offers .feature-card p { text-align: left; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
 /* Academic environment card — mobile padding */
 @media (max-width: 768px) { .acad-env-card { padding: 1.5rem 1.25rem !important; } }
@@ -34,7 +34,7 @@ hero_subtitle: Education That Prepares You for College
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Education That Opens Doors — On and Off the Court.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Every course is NCAA-approved and accredited. From dual enrollment with <strong>Colorado Christian University</strong> to unique electives like leadership and technology, our student-athletes graduate college-ready — with transcripts that pass the eligibility center and credentials that open scholarship opportunities.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; margin: 0;">Every course is NCAA-approved and accredited. From dual enrollment with <strong>Colorado Christian University</strong> to unique electives like leadership and technology, our student-athletes graduate college-ready — with transcripts that pass the eligibility center and credentials that open scholarship opportunities.</p>
 </section>
 
 <!-- Impact Stats Bar -->

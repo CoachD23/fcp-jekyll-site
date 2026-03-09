@@ -12,7 +12,7 @@ hero_subtitle: Welcome to the Emerald Coast
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Train in Paradise. Compete Everywhere.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Okaloosa Island sits on the Florida Panhandle where the Gulf of Mexico meets sugar-white sand. Fort Walton Beach offers year-round sunshine, world-class recreation, and the kind of lifestyle that makes elite training feel less like work.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; margin: 0;">Okaloosa Island sits on the Florida Panhandle where the Gulf of Mexico meets sugar-white sand. Fort Walton Beach offers year-round sunshine, world-class recreation, and the kind of lifestyle that makes elite training feel less like work.</p>
 </section>
 
 <!-- Area Overview — Two Column -->
@@ -24,8 +24,8 @@ hero_subtitle: Welcome to the Emerald Coast
     <span class="section-label">Location</span>
     <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">The Emerald Coast</h2>
     <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Home to some of the most beautiful beaches in the United States, the Emerald Coast offers crystal-clear waters, white sand, and a vibrant coastal community. Our athletes train in paradise while preparing for the next level.</p>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Fort Walton Beach and the surrounding area provide everything student-athletes need — from outdoor recreation and world-class dining to cultural attractions and natural beauty.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">Home to some of the most beautiful beaches in the United States, the Emerald Coast offers crystal-clear waters, white sand, and a vibrant coastal community. Our athletes train in paradise while preparing for the next level.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">Fort Walton Beach and the surrounding area provide everything student-athletes need — from outdoor recreation and world-class dining to cultural attractions and natural beauty.</p>
   </div>
 </section>
 
@@ -127,7 +127,7 @@ hero_subtitle: Welcome to the Emerald Coast
 
 <style>
 .program-offers .feature-card { text-align: left; }
-.program-offers .feature-card p { text-align: justify; }
+.program-offers .feature-card p { text-align: left; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
 .hero-bg-img { object-position: center 40% !important; }
 </style>

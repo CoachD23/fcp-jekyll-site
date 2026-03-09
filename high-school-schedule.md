@@ -12,7 +12,7 @@ hero_subtitle: 2025–2026 Season — FCP Spartans National HS Team
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">National Schedule — Elite Competition.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">Florida Coastal Prep's national high school basketball team competes in the <strong>Sunshine Independent Athletic Association (SIAA)</strong> and <strong>The Grind Session</strong> — featuring showcases, invitationals, and head-to-head matchups against the top prep programs in the country.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; margin: 0;">Florida Coastal Prep's national high school basketball team competes in the <strong>Sunshine Independent Athletic Association (SIAA)</strong> and <strong>The Grind Session</strong> — featuring showcases, invitationals, and head-to-head matchups against the top prep programs in the country.</p>
 </section>
 
 <!-- League Affiliations — Logo Showcase -->

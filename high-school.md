@@ -11,7 +11,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Compete Nationally. Prepare Academically. Get Recruited.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">FCP's National High School Program (grades 9–12) combines two-a-day court sessions, <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NCAA-approved academics</a>, and a national game schedule — all inside our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">training facility</a> on Florida's Emerald Coast. Players from <strong>43 states and 22 countries</strong> have trained here since 2019.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; margin: 0;">FCP's National High School Program (grades 9–12) combines two-a-day court sessions, <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NCAA-approved academics</a>, and a national game schedule — all inside our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">training facility</a> on Florida's Emerald Coast. Players from <strong>43 states and 22 countries</strong> have trained here since 2019.</p>
 </section>
 
 <!-- What's Included -->
@@ -187,7 +187,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 
 <style>
 .program-offers .feature-card { text-align: left; }
-.program-offers .feature-card p { text-align: justify; }
+.program-offers .feature-card p { text-align: left; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
 .hero-bg-img { object-position: center 30% !important; }
 

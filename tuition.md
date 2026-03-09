@@ -17,14 +17,14 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     <div class="gold-rule"></div>
   </div>
   <div style="max-width: 800px; margin: 1rem auto 0;">
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">Our National High School Program includes everything student-athletes need to develop and compete at an elite level. Tuition covers daily basketball training, strength and conditioning, accredited academics, supervised housing, meals, recruiting support, and access to our 14,000 sq ft Spartan Training Center. For a detailed cost breakdown and payment plan options, <a href="/contact/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">contact our admissions team</a>.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">Our National High School Program includes everything student-athletes need to develop and compete at an elite level. Tuition covers daily basketball training, strength and conditioning, accredited academics, supervised housing, meals, recruiting support, and access to our 14,000 sq ft Spartan Training Center. For a detailed cost breakdown and payment plan options, <a href="/contact/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">contact our admissions team</a>.</p>
   </div>
 </div>
 
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 3rem auto 0; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Elite Training and Education — Accessible to Every Family.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">At Florida Coastal Prep, we believe every student-athlete deserves access to elite training and education. Our Financial Assistance program offers partial scholarships and awards to qualifying families — because talent shouldn't be limited by finances.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; margin: 0;">At Florida Coastal Prep, we believe every student-athlete deserves access to elite training and education. Our Financial Assistance program offers partial scholarships and awards to qualifying families — because talent shouldn't be limited by finances.</p>
 </section>
 
 <!-- Value Proposition -->

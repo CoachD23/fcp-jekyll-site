@@ -188,8 +188,8 @@ section { padding: 4rem 0; }
 }
 .hero-subtitle {
   color: rgba(255,255,255,0.9);
-  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-  font-weight: 400;
+  font-size: clamp(1.05rem, 2.5vw, 1.35rem);
+  font-weight: 500;
   margin-bottom: 2.5rem;
   max-width: 600px;
   margin-left: auto;
@@ -759,7 +759,7 @@ section { padding: 4rem 0; }
   text-align: center;
 }
 .page-header h1 { color: #fff; margin-bottom: 0.5rem; }
-.page-subtitle { color: rgba(255,255,255,0.7); font-size: 1.2rem; }
+.page-subtitle { color: rgba(255,255,255,0.7); font-size: 1.15rem; max-width: 600px; margin-left: auto; margin-right: auto; }
 .page-content { padding: 3rem 0 4rem; }
 .page-content p { margin-bottom: 1.25rem; font-size: 1.08rem; color: #333; }
 .page-content h2 { margin-top: 2.5rem; margin-bottom: 1rem; }
@@ -874,17 +874,19 @@ section { padding: 4rem 0; }
 }
 .blog-hero-heading {
   color: #fff;
-  font-size: 2.8rem;
+  font-size: clamp(1.75rem, 4.5vw, 2.6rem);
   font-weight: 800;
   letter-spacing: -0.02em;
   margin: 0 0 0.75rem;
 }
 .blog-hero-desc {
-  color: rgba(255,255,255,0.75);
-  font-size: 1.25rem;
-  font-weight: 300;
-  font-style: italic;
+  color: rgba(255,255,255,0.7);
+  font-size: 1.1rem;
+  font-weight: 400;
   margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .blog-intro-links {
   background: #0d1b30;
@@ -928,10 +930,9 @@ section { padding: 4rem 0; }
   margin-bottom: 0.75rem;
 }
 .blog-feat-sub {
-  color: rgba(255,255,255,0.78);
-  font-size: 1.15rem;
-  font-weight: 300;
-  font-style: italic;
+  color: rgba(255,255,255,0.7);
+  font-size: 1.05rem;
+  font-weight: 400;
   margin: 0;
 }
 .blog-feat-grid {
@@ -2094,7 +2095,7 @@ section { padding: 4rem 0; }
   .editorial-feature-text time { color: #999; font-size: 0.7rem; text-transform: uppercase; }
   .editorial-sidebar { flex-direction: column; }
   .editorial-card { flex: 1 1 100%; min-width: 0; }
-  .blog-hero-heading { font-size: 2.2rem; }
+  .blog-hero-heading { font-size: clamp(1.6rem, 4.5vw, 2.2rem); }
   .blog-feat-grid { grid-template-columns: 1fr; }
   .blog-feat-card { min-height: 380px; }
   .blog-feat-title { font-size: 1.25rem; }
@@ -2128,8 +2129,8 @@ section { padding: 4rem 0; }
   .editorial-card-text { padding: 0.5rem 0.75rem 0.5rem 0; }
   .editorial-card-text h4 { font-size: 0.82rem; }
   .blog-hero-section { padding: 7rem 0 2rem; }
-  .blog-hero-heading { font-size: 1.8rem; }
-  .blog-hero-desc { font-size: 1rem; }
+  .blog-hero-heading { font-size: 1.6rem; }
+  .blog-hero-desc { font-size: 0.95rem; }
   .blog-feat-section { padding: 2.5rem 0 3rem; }
   .blog-feat-card { min-height: 320px; }
   .blog-feat-title { font-size: 1.1rem; }
@@ -4929,12 +4930,10 @@ iframe { max-width: 100%; }
   border-color: rgba(196,30,58,0.3);
 }
 .cp-section-desc {
-  font-size: 1.15rem;
-  font-style: italic;
-  font-weight: 300;
-  color: rgba(255,255,255,0.78);
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: rgba(255,255,255,0.7);
   margin: 0;
-  letter-spacing: 0.01em;
 }
 .cp-section-desc--dark {
   color: #888;

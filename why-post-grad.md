@@ -11,7 +11,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">More Time. More Growth. Better Outcomes.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">A postgraduate year is a development-focused gap year designed to strengthen every dimension of your college candidacy — athletically, academically, and personally. While gap year popularity has risen with an estimated 22% increase since 2015, a structured PG year at an elite prep academy is different: it's competitive, intentional, and built to get you recruited.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; margin: 0;">A postgraduate year is a development-focused gap year designed to strengthen every dimension of your college candidacy — athletically, academically, and personally. While gap year popularity has risen with an estimated 22% increase since 2015, a structured PG year at an elite prep academy is different: it's competitive, intentional, and built to get you recruited.</p>
 </section>
 
 <!-- Stats Bar -->
@@ -45,8 +45,8 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <span class="section-label">Overview</span>
     <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">What is a Post-Graduate Year?</h2>
     <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">A post-graduate year is an additional year of academic and athletic development after high school graduation. Rather than heading directly to college, student-athletes enroll at a prep academy where they continue their education while competing at a higher level of basketball.</p>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">The goal is simple: arrive at college as a stronger student, a better player, and a more mature young man. PG programs combine elite coaching, structured academics, strength and conditioning, and direct college recruiting support — all within a single focused year.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">A post-graduate year is an additional year of academic and athletic development after high school graduation. Rather than heading directly to college, student-athletes enroll at a prep academy where they continue their education while competing at a higher level of basketball.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">The goal is simple: arrive at college as a stronger student, a better player, and a more mature young man. PG programs combine elite coaching, structured academics, strength and conditioning, and direct college recruiting support — all within a single focused year.</p>
   </div>
 </section>
 
@@ -101,8 +101,8 @@ hero_subtitle: The Bridge Between High School and College Basketball
     <span class="section-label">Recruiting Landscape</span>
     <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem; line-height: 1.25;">Why PG Matters More Than Ever</h2>
     <div class="gold-rule" style="margin: 0.75rem 0 1.25rem;"></div>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">The college recruiting landscape has never been more competitive. With the transfer portal expanding rosters and creating year-round roster movement, coaches increasingly value experienced players who can contribute immediately.</p>
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333; text-align: justify;">A post-graduate year gives you the edge — more film, stronger stats, greater maturity, and an enhanced academic profile. For many athletes, a PG year is no longer optional — it's the smartest path to earning a roster spot and maximizing scholarship opportunities.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">The college recruiting landscape has never been more competitive. With the transfer portal expanding rosters and creating year-round roster movement, coaches increasingly value experienced players who can contribute immediately.</p>
+    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">A post-graduate year gives you the edge — more film, stronger stats, greater maturity, and an enhanced academic profile. For many athletes, a PG year is no longer optional — it's the smartest path to earning a roster spot and maximizing scholarship opportunities.</p>
   </div>
 </section>
 
