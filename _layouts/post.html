@@ -104,8 +104,26 @@ layout: default
         <aside class="post-sidebar">
           <div class="sidebar-section">
             <h3 class="sidebar-heading">Related Stories</h3>
-            {% assign related = site.posts | where_exp: "post", "post.url != page.url" %}
-            {% for post in related limit: 5 %}
+            {% comment %}Pin Nathan Mariano & Sean East, fill 3 random, shuffle all 5{% endcomment %}
+            {% assign pinned_slugs = "nathan-mariano-from-fcp-to-the-nba|sean-east-from-coach-deforest-to-the-nba" | split: "|" %}
+            {% assign pinned_posts = "" | split: "" %}
+            {% assign other_posts = "" | split: "" %}
+            {% for p in site.posts %}
+              {% if p.url == page.url %}{% continue %}{% endif %}
+              {% assign p_slug = p.url | split: "/" | last %}
+              {% assign is_pinned = false %}
+              {% for slug in pinned_slugs %}
+                {% if p_slug == slug %}{% assign is_pinned = true %}{% break %}{% endif %}
+              {% endfor %}
+              {% if is_pinned %}
+                {% assign pinned_posts = pinned_posts | push: p %}
+              {% else %}
+                {% assign other_posts = other_posts | push: p %}
+              {% endif %}
+            {% endfor %}
+            {% assign random_others = other_posts | sample: 3 %}
+            {% assign sidebar_posts = pinned_posts | concat: random_others | sample: 5 %}
+            {% for post in sidebar_posts %}
             <a href="{{ post.url | relative_url }}" class="sidebar-story">
               {% if post.image %}
               <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy" class="sidebar-story-img">
