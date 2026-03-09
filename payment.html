@@ -1,25 +1,22 @@
 ---
-layout: page
+layout: payment
 title: "Make a Payment | Florida Coastal Prep"
 description: "Submit tuition payments, housing deposits, enrollment deposits, and registration fees securely online. Florida Coastal Prep never sees or stores your card information."
 og_image: /assets/images/fcp-logo-square.png
-hero_image: /assets/images/about-fcp.jpg
-hero_title: Make a Payment
-hero_subtitle: Secure Online Payments
 permalink: /payment/
 ---
 
 <!-- Accept.js from Authorize.net (production) -->
 <script type="text/javascript" src="https://js.authorize.net/v1/Accept.js" charset="utf-8"></script>
 
-<div class="staff-section staff-section-dark fade-in" style="margin-top: 0;">
+<div class="staff-section staff-section-dark fade-in" style="margin-top: 0; border-radius: 16px; max-width: 680px; margin-left: auto; margin-right: auto; padding: 2.5rem 1.5rem 3rem;">
   <div class="staff-section-header">
     <span class="section-label">Payments</span>
     <h2>Make a Payment</h2>
     <div class="gold-rule"></div>
   </div>
 
-  <div id="payment-form-container" style="max-width: 580px; margin: 2rem auto 0;">
+  <div id="payment-form-container" style="max-width: 580px; margin: 2rem auto 0; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 2.5rem 2rem;">
     <p style="text-align: center; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; font-size: 1.05rem;">
       Submit tuition payments, housing deposits, and enrollment fees securely below.
     </p>
@@ -211,11 +208,6 @@ permalink: /payment/
       Payments processed securely by Authorize.net.<br>Florida Coastal Prep never sees or stores your card information.
     </p>
 
-    <!-- Phone fallback -->
-    <p style="text-align: center; margin-top: 0.75rem; font-size: 0.85rem; color: rgba(255,255,255,0.5);">
-      Prefer to pay by phone? Call <a href="tel:8509612323" style="color: #d4a843; font-weight: 600;">850-961-2323</a>
-    </p>
-
     <!-- Tuition info link -->
     <p style="text-align: center; margin-top: 1.25rem; font-size: 0.9rem;">
       <a href="/tuition/" style="color: #d4a843; font-weight: 600; text-decoration: underline;">View Tuition &amp; Fee Details &rarr;</a>
@@ -325,9 +317,12 @@ permalink: /payment/
 }
 @keyframes pay-spin { to { transform: rotate(360deg); } }
 
-/* Responsive row stacking */
+/* Responsive */
 @media (max-width: 480px) {
   .pay-row { flex-direction: column; gap: 0; }
+}
+@media (max-width: 700px) {
+  #payment-form-container { padding: 1.5rem 1rem !important; border-radius: 12px !important; }
 }
 </style>
 
