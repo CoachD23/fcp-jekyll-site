@@ -6182,10 +6182,10 @@ iframe { max-width: 100%; }
   max-width: 700px;
   margin: 0 auto;
   min-height: 750px;
-  background: #fff;
-  border-radius: 12px;
+  background: transparent;
+  border-radius: 0;
   overflow: hidden;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: none;
 }
 .connect-form-wrapper iframe {
   display: block;
@@ -6204,7 +6204,6 @@ iframe { max-width: 100%; }
   }
   .connect-form-wrapper {
     margin: 0 0.5rem;
-    border-radius: 10px;
   }
 }
 @media (max-width: 480px) {
@@ -6216,7 +6215,6 @@ iframe { max-width: 100%; }
   }
   .connect-form-wrapper {
     margin: 0;
-    border-radius: 8px;
   }
 }
 @media (max-width: 768px) {
