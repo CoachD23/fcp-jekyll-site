@@ -6500,18 +6500,6 @@ iframe { max-width: 100%; }
   border-color: #d4a843;
   background: rgba(212, 168, 67, 0.08);
 }
-@media (max-width: 1024px) {
-  .espn-staff-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-  }
-  .espn-staff-overlay h3 {
-    font-size: 1.25rem;
-  }
-  .espn-staff-role {
-    font-size: 0.85rem;
-  }
-}
 @media (max-width: 768px) {
   .espn-staff-grid {
     grid-template-columns: 1fr;
