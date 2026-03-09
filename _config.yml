@@ -25,6 +25,8 @@ markdown: kramdown
 permalink: /:title/
 sass:
   style: compressed
+include:
+  - _redirects
 
 # Collections for organized pages
 collections:

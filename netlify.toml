@@ -210,7 +210,22 @@
 
 [[redirects]]
   from = "/payform/"
-  to = "/tuition/"
+  to = "/tuition/#payment"
+  status = 301
+
+[[redirects]]
+  from = "/internationalinvoice/"
+  to = "/tuition/#payment"
+  status = 301
+
+[[redirects]]
+  from = "/international-invoice/"
+  to = "/tuition/#payment"
+  status = 301
+
+[[redirects]]
+  from = "/pay/"
+  to = "/tuition/#payment"
   status = 301
 
 [[redirects]]
@@ -441,7 +456,7 @@
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains"
     Cross-Origin-Opener-Policy = "same-origin"
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://widgets.leadconnectorhq.com https://identity.netlify.com https://track.floridacoastalprep.com https://api.leadconnectorhq.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://www.googletagmanager.com https://www.google-analytics.com https://track.floridacoastalprep.com https://api.leadconnectorhq.com; connect-src 'self' https://www.google-analytics.com https://widgets.leadconnectorhq.com https://track.floridacoastalprep.com https://api.leadconnectorhq.com; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://track.floridacoastalprep.com https://api.leadconnectorhq.com https://www.google.com; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://widgets.leadconnectorhq.com https://identity.netlify.com https://track.floridacoastalprep.com https://api.leadconnectorhq.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://www.googletagmanager.com https://www.google-analytics.com https://track.floridacoastalprep.com https://api.leadconnectorhq.com; connect-src 'self' https://www.google-analytics.com https://widgets.leadconnectorhq.com https://track.floridacoastalprep.com https://api.leadconnectorhq.com; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://track.floridacoastalprep.com https://api.leadconnectorhq.com https://www.google.com; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://accept.authorize.net"
 
 # Decap CMS admin: relaxed CSP for CMS scripts, Identity, and Git Gateway
 [[headers]]
