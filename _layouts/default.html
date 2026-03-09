@@ -9,7 +9,7 @@
   <main id="main-content">
     {{ content }}
   </main>
-  {% unless page.url == "/" %}
+  {% unless page.url == "/" or page.hide_connect_form %}
     {% include connect-form.html %}
   {% endunless %}
   {% include footer.html %}
