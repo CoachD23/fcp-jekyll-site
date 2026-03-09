@@ -1,80 +1,764 @@
 ---
-layout: page
-title: US Resident Application | Florida Coastal Prep
-description: "Start your US Resident application to Florida Coastal Prep Sports Academy — Post-Grad & High School Basketball, Soccer, and eSports programs in Fort Walton Beach, FL."
+layout: default
+title: "US Resident Application | Florida Coastal Prep"
+description: "Apply to Florida Coastal Prep Sports Academy — Post-Grad & HS Basketball, Soccer, and eSports programs in Fort Walton Beach, FL. Start your application today."
 og_image: /assets/images/apply-now.jpeg
 permalink: /apply/us/
 hide_connect_form: true
 ---
 
-<div class="apply-sub-back">
-  <a href="/apply/" class="apply-sub-back-link">&#8592; Back to Apply</a>
-</div>
+<!-- Netlify form detection hook (hidden — required for Netlify to capture submissions) -->
+<form name="fcp-us-application" netlify netlify-honeypot="bot-field" data-netlify="true" hidden>
+  <input type="hidden" name="form-name" value="fcp-us-application" />
+  <input type="text" name="bot-field" />
+  <input type="text" name="program" />
+  <input type="text" name="first-name" /><input type="text" name="last-name" />
+  <input type="email" name="email" /><input type="tel" name="phone" />
+  <input type="date" name="dob" /><input type="text" name="position" />
+  <input type="text" name="height" /><input type="text" name="weight" />
+  <input type="url" name="highlight-tape" />
+  <input type="text" name="hs-name" />
+  <input type="text" name="hs-address1" /><input type="text" name="hs-address2" />
+  <input type="text" name="hs-city" /><input type="text" name="hs-state" /><input type="text" name="hs-zip" />
+  <input type="month" name="hs-graduation-date" />
+  <input type="text" name="gpa" /><input type="text" name="act-sat" />
+  <input type="text" name="hs-coach-name" /><input type="tel" name="hs-coach-phone" /><input type="email" name="hs-coach-email" />
+  <input type="text" name="parent-first-name" /><input type="text" name="parent-last-name" />
+  <input type="tel" name="parent-phone" /><input type="email" name="parent-email" />
+  <input type="text" name="parent-address1" /><input type="text" name="parent-address2" />
+  <input type="text" name="parent-city" /><input type="text" name="parent-state" /><input type="text" name="parent-zip" />
+  <input type="text" name="occupation" /><input type="text" name="employer" />
+  <select name="annual-income"><option value=""></option></select>
+  <select name="tuition-responsibility"><option value=""></option></select>
+  <input type="text" name="housing-preference" />
+  <input type="text" name="how-heard" />
+  <input type="text" name="signature" />
+</form>
 
-<section class="apply-sub-header fade-in">
-  <div class="apply-sub-flag">🇺🇸</div>
-  <h2>US Resident Application</h2>
-  <p>For student-athletes currently residing in the United States. Fill out the form below and our coaching staff will be in touch within 24 hours.</p>
-</section>
+<div class="apply-page-bg">
 
-<div class="ghl-form-wrapper" style="max-width: 860px; margin: 2rem auto 0;">
-  <iframe
-    src="https://api.leadconnectorhq.com/widget/form/ggx7Dtv0grTDuHLNmRRK"
-    scrolling="no"
-    style="width:100%; border:none; min-height:650px;"
-    id="fcp-apply-us-form"
-    title="FCP US Resident Application Form"
-  >
-  </iframe>
-  <script src="https://api.leadconnectorhq.com/js/form_embed.js"></script>
-</div>
+  <div class="apply-back-wrap">
+    <a href="/apply/" class="apply-back-link">&#8592; Back to Apply</a>
+  </div>
 
-<div style="text-align: center; margin-top: 1.5rem; padding-bottom: 1rem;">
-  <p style="color: #666; font-size: 0.95rem;">Have questions? Email us at <a href="mailto:info@floridacoastalprep.com" style="color: #c41e3a; font-weight: 600;">info@floridacoastalprep.com</a></p>
-</div>
+  <div class="apply-card">
+
+    <div class="apply-card-header">
+      <img src="/assets/images/fcp-logo-square.png" alt="Florida Coastal Prep" class="apply-card-logo" />
+      <h1 class="apply-card-title">Florida Coastal Prep Registration</h1>
+    </div>
+
+    <div class="apply-progress-wrap">
+      <p class="apply-step-label" id="stepLabel">Step 1 of 6</p>
+      <div class="apply-progress-track">
+        <div class="apply-progress-fill" id="progressFill"></div>
+      </div>
+    </div>
+
+    <div class="apply-steps-container" id="applySteps">
+
+      <!-- STEP 1: INTRO -->
+      <div class="apply-step" id="step1">
+        <div class="apply-step-intro">
+          <p class="apply-intro-text">Thank you for your interest in Florida Coastal Prep Sports Academy. This application takes about 10 minutes. Please have the following ready:</p>
+          <ul class="apply-checklist">
+            <li>Student's personal and athletic information</li>
+            <li>High school name, address, and GPA</li>
+            <li>Parent or guardian contact details</li>
+            <li>A $50 non-refundable application fee (collected at the end)</li>
+          </ul>
+          <p class="apply-req-note">Fields marked <span class="req-star">*</span> are required.</p>
+        </div>
+        <div class="apply-nav apply-nav-right">
+          <button type="button" class="btn-apply-next" onclick="goToStep(2)">Start Application &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 2: ATHLETIC INFORMATION -->
+      <div class="apply-step" id="step2" style="display:none">
+        <h2 class="apply-step-title">Athletic Information</h2>
+        <div class="apply-field-group">
+          <label class="apply-label">Program Selection <span class="req-star">*</span></label>
+          <div class="apply-radio-group" id="programGroup">
+            <label class="apply-radio-label"><input type="radio" name="program" value="National Post Grad Basketball" required /> National Post Grad Basketball</label>
+            <label class="apply-radio-label"><input type="radio" name="program" value="National HS Basketball" /> National HS Basketball</label>
+            <label class="apply-radio-label"><input type="radio" name="program" value="Spring Live Period Exposure Program" /> Spring Live Period Exposure Program</label>
+            <label class="apply-radio-label"><input type="radio" name="program" value="AAU Program" /> AAU Program</label>
+            <label class="apply-radio-label"><input type="radio" name="program" value="National Soccer Post Grad" /> National Soccer Post Grad</label>
+            <label class="apply-radio-label"><input type="radio" name="program" value="National Soccer HS" /> National Soccer HS</label>
+            <label class="apply-radio-label"><input type="radio" name="program" value="eSports HS" /> eSports HS</label>
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="firstName">First Name <span class="req-star">*</span></label>
+            <input type="text" id="firstName" name="first-name" class="apply-input" required />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="lastName">Last Name <span class="req-star">*</span></label>
+            <input type="text" id="lastName" name="last-name" class="apply-input" required />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="email">Email <span class="req-star">*</span></label>
+            <input type="email" id="email" name="email" class="apply-input" required />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="phone">Phone <span class="req-star">*</span></label>
+            <input type="tel" id="phone" name="phone" class="apply-input" required />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="dob">Date of Birth <span class="req-star">*</span></label>
+            <input type="date" id="dob" name="dob" class="apply-input" required />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="position">Position</label>
+            <input type="text" id="position" name="position" class="apply-input" placeholder="e.g. Point Guard, Forward" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="height">Height</label>
+            <input type="text" id="height" name="height" class="apply-input" placeholder='e.g. 6&apos;2"' />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="weight">Weight</label>
+            <input type="text" id="weight" name="weight" class="apply-input" placeholder="e.g. 185 lbs" />
+          </div>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label" for="highlightTape">Highlight Tape URL</label>
+          <input type="url" id="highlightTape" name="highlight-tape" class="apply-input" placeholder="https://youtube.com/..." />
+        </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(1)">&larr; Back</button>
+          <button type="button" class="btn-apply-next" onclick="validateAndGo(2,3)">Next &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 3: ACADEMIC INFORMATION -->
+      <div class="apply-step" id="step3" style="display:none">
+        <h2 class="apply-step-title">Academic Information</h2>
+        <div class="apply-field-group">
+          <label class="apply-label" for="hsName">High School Name</label>
+          <input type="text" id="hsName" name="hs-name" class="apply-input" placeholder="High School Name" />
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label">High School Address</label>
+          <input type="text" name="hs-address1" class="apply-input apply-mb-sm" placeholder="Address Line 1" />
+          <input type="text" name="hs-address2" class="apply-input apply-mb-sm" placeholder="Address Line 2 (optional)" />
+        </div>
+        <div class="apply-row apply-row-3">
+          <div class="apply-field">
+            <input type="text" name="hs-city" class="apply-input" placeholder="City" />
+          </div>
+          <div class="apply-field">
+            <input type="text" name="hs-state" class="apply-input" placeholder="State" maxlength="2" />
+          </div>
+          <div class="apply-field">
+            <input type="text" name="hs-zip" class="apply-input" placeholder="Zip" maxlength="10" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="hsGradDate">HS Graduation Date <span class="req-star">*</span></label>
+            <input type="month" id="hsGradDate" name="hs-graduation-date" class="apply-input" required />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="gpa">GPA</label>
+            <input type="text" id="gpa" name="gpa" class="apply-input" placeholder="e.g. 3.5" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="actSat">ACT / SAT Score</label>
+            <input type="text" id="actSat" name="act-sat" class="apply-input" placeholder="e.g. ACT 24 or SAT 1150" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="hsCoach">HS Head Coach</label>
+            <input type="text" id="hsCoach" name="hs-coach-name" class="apply-input" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="coachPhone">Coach Contact Number</label>
+            <input type="tel" id="coachPhone" name="hs-coach-phone" class="apply-input" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="coachEmail">Coach Email</label>
+            <input type="email" id="coachEmail" name="hs-coach-email" class="apply-input" />
+          </div>
+        </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(2)">&larr; Back</button>
+          <button type="button" class="btn-apply-next" onclick="validateAndGo(3,4)">Next &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 4: PARENT / GUARDIAN INFORMATION -->
+      <div class="apply-step" id="step4" style="display:none">
+        <h2 class="apply-step-title">Parent / Guardian Information</h2>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="parentFirst">First Name <span class="req-star">*</span></label>
+            <input type="text" id="parentFirst" name="parent-first-name" class="apply-input" required />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="parentLast">Last Name <span class="req-star">*</span></label>
+            <input type="text" id="parentLast" name="parent-last-name" class="apply-input" required />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="parentPhone">Phone Number <span class="req-star">*</span></label>
+            <input type="tel" id="parentPhone" name="parent-phone" class="apply-input" required />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="parentEmail">Parent Email</label>
+            <input type="email" id="parentEmail" name="parent-email" class="apply-input" />
+          </div>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label">Address <span class="req-star">*</span></label>
+          <input type="text" name="parent-address1" class="apply-input apply-mb-sm" placeholder="Address Line 1" required />
+          <input type="text" name="parent-address2" class="apply-input apply-mb-sm" placeholder="Address Line 2 (optional)" />
+        </div>
+        <div class="apply-row apply-row-3">
+          <div class="apply-field">
+            <input type="text" name="parent-city" class="apply-input" placeholder="City" required />
+          </div>
+          <div class="apply-field">
+            <input type="text" name="parent-state" class="apply-input" placeholder="State" maxlength="2" required />
+          </div>
+          <div class="apply-field">
+            <input type="text" name="parent-zip" class="apply-input" placeholder="Zip" maxlength="10" required />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="occupation">Occupation</label>
+            <input type="text" id="occupation" name="occupation" class="apply-input" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="employer">Employer</label>
+            <input type="text" id="employer" name="employer" class="apply-input" />
+          </div>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label" for="annualIncome">Est. Annual Income</label>
+          <select id="annualIncome" name="annual-income" class="apply-select">
+            <option value="">-- Select --</option>
+            <option>Under $25,000</option>
+            <option>$25,000 – $49,999</option>
+            <option>$50,000 – $74,999</option>
+            <option>$75,000 – $99,999</option>
+            <option>$100,000 – $149,999</option>
+            <option>$150,000 or more</option>
+            <option>Prefer not to say</option>
+          </select>
+        </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(3)">&larr; Back</button>
+          <button type="button" class="btn-apply-next" onclick="validateAndGo(4,5)">Next &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 5: ADDITIONAL INFORMATION -->
+      <div class="apply-step" id="step5" style="display:none">
+        <h2 class="apply-step-title">Additional Information</h2>
+        <div class="apply-field-group">
+          <label class="apply-label" for="tuitionResp">Responsibility for Tuition and Other Charges Will Be <span class="req-star">*</span></label>
+          <select id="tuitionResp" name="tuition-responsibility" class="apply-select" required>
+            <option value="">-- Select --</option>
+            <option>One Parent</option>
+            <option>Both Parents</option>
+            <option>Guardian</option>
+            <option>Self</option>
+          </select>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label">Housing Preference <span class="req-star">*</span></label>
+          <div class="apply-radio-group" id="housingGroup">
+            <label class="apply-radio-label">
+              <input type="radio" name="housing-preference" value="Beach Team House" required />
+              Beach Team House <span class="apply-price-tag">$$</span>
+            </label>
+            <label class="apply-radio-label">
+              <input type="radio" name="housing-preference" value="Team House" />
+              Team House <span class="apply-price-tag">$</span>
+            </label>
+          </div>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label">How Did You Hear About Us?</label>
+          <div class="apply-checkbox-group">
+            <label class="apply-checkbox-label"><input type="checkbox" name="how-heard" value="Social Media" /> Social Media</label>
+            <label class="apply-checkbox-label"><input type="checkbox" name="how-heard" value="Referred by Someone" /> Referred by Someone</label>
+            <label class="apply-checkbox-label"><input type="checkbox" name="how-heard" value="Email" /> Email</label>
+            <label class="apply-checkbox-label"><input type="checkbox" name="how-heard" value="Website/Yelp/Google" /> Website / Yelp / Google</label>
+          </div>
+        </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(4)">&larr; Back</button>
+          <button type="button" class="btn-apply-next" onclick="validateAndGo(5,6)">Next &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 6: TERMS + SIGNATURE + PAYMENT -->
+      <div class="apply-step" id="step6" style="display:none">
+        <h2 class="apply-step-title">Student / Parent Application</h2>
+        <div class="apply-terms-box">
+          <p>By submitting this application, I acknowledge that Florida Coastal Prep Sports Academy requires a <strong>$50 non-refundable application fee</strong> to process this registration.</p>
+          <p>I understand that submission of this application does not guarantee acceptance into any FCP program. Acceptance is contingent upon available roster spots, academic eligibility, and program fit as determined by FCP staff.</p>
+          <p>Florida Coastal Prep Sports Academy does not discriminate on the basis of race, color, national origin, sex, disability, or age in its programs and activities.</p>
+          <p>By typing your full name below, you agree that this constitutes your legal electronic signature and that all information provided in this application is accurate and complete to the best of your knowledge.</p>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label">I agree to these terms <span class="req-star">*</span></label>
+          <div class="apply-radio-group" id="agreeGroup">
+            <label class="apply-radio-label"><input type="radio" name="agree-to-terms" value="Yes" required /> Yes, I agree</label>
+          </div>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label" for="signature">Signature — Type Your Full Name <span class="req-star">*</span></label>
+          <input type="text" id="signature" name="signature" class="apply-input apply-input-sig" placeholder="Type your full legal name" required />
+        </div>
+        <div class="apply-payment-notice">
+          <div class="apply-payment-icon">💳</div>
+          <div>
+            <p class="apply-payment-title">Application Fee: $50.00</p>
+            <p class="apply-payment-desc">After submitting your application, you'll be directed to our secure payment page to pay the $50 non-refundable application fee via credit card.</p>
+          </div>
+        </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(5)">&larr; Back</button>
+          <button type="button" class="btn-apply-submit" id="submitBtn" onclick="submitApplication()">Submit Application &amp; Pay $50 &rarr;</button>
+        </div>
+        <p class="apply-secure-note">🔒 Your information is transmitted securely. Payment processed by Authorize.net.</p>
+      </div>
+
+    </div><!-- /.apply-steps-container -->
+  </div><!-- /.apply-card -->
+</div><!-- /.apply-page-bg -->
 
 <style>
-.page-header { padding: 4.5rem 0 1.5rem !important; }
-.page-content { padding: 1.75rem 0 3rem !important; }
-
-.apply-sub-back {
-  max-width: 860px;
-  margin: 0 auto 1.25rem;
+/* ===== APPLY PAGE ===== */
+.apply-page-bg {
+  background: #1a1a2e;
+  min-height: 100vh;
+  padding: 40px 16px 80px;
 }
-.apply-sub-back-link {
+.apply-back-wrap {
+  max-width: 680px;
+  margin: 0 auto 12px;
+}
+.apply-back-link {
+  color: #aaa;
   font-size: 0.9rem;
-  color: #c41e3a;
-  font-weight: 600;
   text-decoration: none;
+  transition: color 0.2s;
 }
-.apply-sub-back-link:hover { text-decoration: underline; }
-
-.apply-sub-header {
-  max-width: 860px;
-  margin: 0 auto 0;
-  text-align: center;
-  padding: 2rem 1rem 1.5rem;
-  background: #fff8f8;
-  border: 2px solid #c41e3a;
-  border-radius: 14px;
-}
-.apply-sub-flag {
-  font-size: 3rem;
-  line-height: 1;
-  margin-bottom: 0.75rem;
-}
-.apply-sub-header h2 {
-  font-size: 1.75rem;
-  font-weight: 800;
-  color: #0a1628;
-  margin: 0 0 0.5rem;
-}
-.apply-sub-header p {
-  color: #555;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin: 0;
-  max-width: 560px;
+.apply-back-link:hover { color: #fff; }
+.apply-card {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 680px;
   margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+}
+.apply-card-header {
+  background: #1a1a2e;
+  padding: 28px 32px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 3px solid #b22234;
+}
+.apply-card-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+.apply-card-title {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
 }
 </style>
+<style>
+/* Progress bar */
+.apply-progress-wrap {
+  background: #f5f5f5;
+  padding: 14px 32px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.apply-step-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #666;
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.apply-progress-track {
+  height: 6px;
+  background: #ddd;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.apply-progress-fill {
+  height: 100%;
+  background: #b22234;
+  border-radius: 3px;
+  transition: width 0.35s ease;
+  width: 16.67%;
+}
+/* Steps container */
+.apply-steps-container {
+  padding: 32px 32px 24px;
+}
+.apply-step-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 24px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f0f0f0;
+}
+/* Step 1 intro */
+.apply-intro-text {
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+.apply-checklist {
+  color: #333;
+  line-height: 1.9;
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+.apply-req-note {
+  font-size: 0.85rem;
+  color: #777;
+  margin: 0;
+}
+.req-star { color: #b22234; font-weight: 700; }
+</style>
+<style>
+/* Form fields */
+.apply-field-group { margin-bottom: 20px; }
+.apply-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.apply-row-3 {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.apply-field { display: flex; flex-direction: column; }
+.apply-label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+  display: block;
+}
+.apply-input {
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  color: #222;
+  outline: none;
+  transition: border-color 0.2s;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fafafa;
+}
+.apply-input:focus { border-color: #b22234; background: #fff; }
+.apply-input.apply-mb-sm { margin-bottom: 8px; }
+.apply-input-sig {
+  font-style: italic;
+  font-size: 1.1rem;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.02em;
+}
+.apply-select {
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  color: #222;
+  background: #fafafa;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+}
+.apply-select:focus { border-color: #b22234; }
+</style>
+<style>
+/* Radio & Checkbox groups */
+.apply-radio-group, .apply-checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.apply-radio-label, .apply-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  color: #333;
+  cursor: pointer;
+  padding: 10px 14px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  transition: border-color 0.2s, background 0.2s;
+}
+.apply-radio-label:hover, .apply-checkbox-label:hover {
+  border-color: #b22234;
+  background: #fff5f5;
+}
+.apply-radio-label input, .apply-checkbox-label input {
+  accent-color: #b22234;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.apply-price-tag {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: #b22234;
+  font-weight: 700;
+}
+/* Terms box */
+.apply-terms-box {
+  background: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.7;
+}
+.apply-terms-box p { margin: 0 0 12px; }
+.apply-terms-box p:last-child { margin-bottom: 0; }
+/* Payment notice */
+.apply-payment-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: #fff8f0;
+  border: 2px solid #e8a000;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin: 20px 0 24px;
+}
+.apply-payment-icon { font-size: 1.8rem; flex-shrink: 0; }
+.apply-payment-title { font-weight: 700; color: #1a1a2e; margin: 0 0 4px; font-size: 1rem; }
+.apply-payment-desc { color: #555; margin: 0; font-size: 0.88rem; line-height: 1.5; }
+</style>
+<style>
+/* Navigation buttons */
+.apply-nav {
+  display: flex;
+  margin-top: 8px;
+  padding-top: 20px;
+  border-top: 1px solid #f0f0f0;
+}
+.apply-nav-right { justify-content: flex-end; }
+.apply-nav-both { justify-content: space-between; }
+.btn-apply-next, .btn-apply-submit {
+  background: #b22234;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 28px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.btn-apply-next:hover, .btn-apply-submit:hover { background: #8b1a27; }
+.btn-apply-next:active, .btn-apply-submit:active { transform: scale(0.98); }
+.btn-apply-back {
+  background: transparent;
+  color: #666;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  padding: 12px 22px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+.btn-apply-back:hover { border-color: #888; color: #333; }
+.apply-secure-note {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999;
+  margin: 16px 0 0;
+}
+/* Error highlight */
+.apply-input.has-error, .apply-select.has-error { border-color: #b22234; background: #fff5f5; }
+.apply-error-msg { color: #b22234; font-size: 0.8rem; margin-top: 4px; }
+/* Mobile */
+@media (max-width: 600px) {
+  .apply-steps-container { padding: 24px 20px 20px; }
+  .apply-card-header { padding: 20px; }
+  .apply-row { grid-template-columns: 1fr; }
+  .apply-row-3 { grid-template-columns: 1fr; }
+  .apply-card-title { font-size: 1.05rem; }
+}
+</style>
+
+<script>
+var totalSteps = 6;
+var currentStep = 1;
+
+function goToStep(n) {
+  document.getElementById('step' + currentStep).style.display = 'none';
+  document.getElementById('step' + n).style.display = 'block';
+  currentStep = n;
+  updateProgress(n);
+  document.querySelector('.apply-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function updateProgress(n) {
+  document.getElementById('stepLabel').textContent = 'Step ' + n + ' of ' + totalSteps;
+  document.getElementById('progressFill').style.width = ((n / totalSteps) * 100) + '%';
+}
+
+function validateAndGo(fromStep, toStep) {
+  var stepEl = document.getElementById('step' + fromStep);
+  var required = stepEl.querySelectorAll('[required]');
+  var valid = true;
+
+  // Clear previous errors
+  stepEl.querySelectorAll('.has-error').forEach(function(el) { el.classList.remove('has-error'); });
+  stepEl.querySelectorAll('.apply-error-msg').forEach(function(el) { el.remove(); });
+
+  required.forEach(function(el) {
+    if (el.type === 'radio' || el.type === 'checkbox') {
+      var name = el.name;
+      var group = stepEl.querySelectorAll('[name="' + name + '"]');
+      var checked = false;
+      group.forEach(function(r) { if (r.checked) checked = true; });
+      if (!checked) {
+        valid = false;
+        var container = el.closest('.apply-radio-group, .apply-checkbox-group, .apply-field-group');
+        if (container && !container.querySelector('.apply-error-msg')) {
+          var err = document.createElement('p');
+          err.className = 'apply-error-msg';
+          err.textContent = 'This field is required.';
+          container.appendChild(err);
+        }
+      }
+    } else if (!el.value.trim()) {
+      valid = false;
+      el.classList.add('has-error');
+      if (!el.nextElementSibling || !el.nextElementSibling.classList.contains('apply-error-msg')) {
+        var err = document.createElement('p');
+        err.className = 'apply-error-msg';
+        err.textContent = 'This field is required.';
+        el.parentNode.insertBefore(err, el.nextSibling);
+      }
+    }
+  });
+
+  if (valid) goToStep(toStep);
+}
+</script>
+
+<script>
+function submitApplication() {
+  // Validate step 6
+  var stepEl = document.getElementById('step6');
+  var agreeChecked = stepEl.querySelector('[name="agree-to-terms"]:checked');
+  var sig = document.getElementById('signature').value.trim();
+  var valid = true;
+
+  stepEl.querySelectorAll('.has-error').forEach(function(el) { el.classList.remove('has-error'); });
+  stepEl.querySelectorAll('.apply-error-msg').forEach(function(el) { el.remove(); });
+
+  if (!agreeChecked) {
+    valid = false;
+    var agreeGroup = document.getElementById('agreeGroup');
+    var err = document.createElement('p');
+    err.className = 'apply-error-msg';
+    err.textContent = 'You must agree to the terms to proceed.';
+    agreeGroup.appendChild(err);
+  }
+  if (!sig) {
+    valid = false;
+    var sigEl = document.getElementById('signature');
+    sigEl.classList.add('has-error');
+    var err2 = document.createElement('p');
+    err2.className = 'apply-error-msg';
+    err2.textContent = 'Please type your full name as a signature.';
+    sigEl.parentNode.insertBefore(err2, sigEl.nextSibling);
+  }
+  if (!valid) return;
+
+  // Collect how-heard checkboxes
+  var howHeard = [];
+  document.querySelectorAll('[name="how-heard"]:checked').forEach(function(cb) {
+    howHeard.push(cb.value);
+  });
+  if (howHeard.length) {
+    // Overwrite how-heard hidden field in detection form with joined string
+    var hwEl = document.querySelector('form[name="fcp-us-application"] [name="how-heard"]');
+    if (hwEl) hwEl.value = howHeard.join(', ');
+  }
+
+  // Build FormData from all named inputs in the visible form
+  var formData = new FormData();
+  formData.append('form-name', 'fcp-us-application');
+
+  var allInputs = document.querySelectorAll('#applySteps input:not([type=radio]):not([type=checkbox]), #applySteps select, #applySteps textarea');
+  allInputs.forEach(function(el) {
+    if (el.name) formData.append(el.name, el.value);
+  });
+  // Radio buttons
+  document.querySelectorAll('#applySteps input[type=radio]:checked').forEach(function(el) {
+    formData.append(el.name, el.value);
+  });
+  // How-heard as joined string
+  formData.append('how-heard', howHeard.join(', '));
+
+  // Disable submit button
+  var btn = document.getElementById('submitBtn');
+  btn.disabled = true;
+  btn.textContent = 'Submitting…';
+
+  fetch('/', {
+    method: 'POST',
+    headers: { 'Accept': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams(formData)
+  })
+  .then(function(res) {
+    if (res.ok) {
+      window.location.href = '/payment/';
+    } else {
+      btn.disabled = false;
+      btn.innerHTML = 'Submit Application &amp; Pay $50 &rarr;';
+      alert('There was a problem submitting your application. Please try again.');
+    }
+  })
+  .catch(function() {
+    // Even on network error, redirect — Netlify may still catch it
+    window.location.href = '/payment/';
+  });
+}
+</script>
