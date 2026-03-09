@@ -123,6 +123,23 @@ layout: default
   </div>
 </article>
 
+<section class="related-posts">
+  <div class="container">
+    <h2>Latest News</h2>
+    <div class="post-grid">
+      {% for post in site.posts limit: 3 %}
+      <a href="{{ post.url | relative_url }}" class="post-card">
+        {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" width="600" height="338" loading="lazy">{% endif %}
+        <div class="post-card-body">
+          <time>{{ post.date | date: "%B %d, %Y" }}</time>
+          <h3>{{ post.title }}</h3>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <!-- Person Structured Data -->
 <script type="application/ld+json">
 {
