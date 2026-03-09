@@ -65,7 +65,7 @@ hide_connect_form: true
             <li>Student's personal and athletic information</li>
             <li>High school name, address, and GPA</li>
             <li>Parent or guardian contact details</li>
-            <li>A $50 non-refundable application fee (collected at the end)</li>
+
           </ul>
           <p class="apply-req-note">Fields marked <span class="req-star">*</span> are required.</p>
         </div>
@@ -311,7 +311,7 @@ hide_connect_form: true
       <div class="apply-step" id="step6" style="display:none">
         <h2 class="apply-step-title">Student / Parent Application</h2>
         <div class="apply-terms-box">
-          <p>By submitting this application, I acknowledge that Florida Coastal Prep Sports Academy requires a <strong>$50 non-refundable application fee</strong> to process this registration.</p>
+          <p>By submitting this application, I acknowledge that Florida Coastal Prep Sports Academy requires a <strong>$25 non-refundable application fee</strong> to process this registration.</p>
           <p>I understand that submission of this application does not guarantee acceptance into any FCP program. Acceptance is contingent upon available roster spots, academic eligibility, and program fit as determined by FCP staff.</p>
           <p>Florida Coastal Prep Sports Academy does not discriminate on the basis of race, color, national origin, sex, disability, or age in its programs and activities.</p>
           <p>By typing your full name below, you agree that this constitutes your legal electronic signature and that all information provided in this application is accurate and complete to the best of your knowledge.</p>
@@ -329,13 +329,13 @@ hide_connect_form: true
         <div class="apply-payment-notice">
           <div class="apply-payment-icon">💳</div>
           <div>
-            <p class="apply-payment-title">Application Fee: $50.00</p>
-            <p class="apply-payment-desc">After submitting your application, you'll be directed to our secure payment page to pay the $50 non-refundable application fee via credit card.</p>
+            <p class="apply-payment-title">Application Fee: $25.00</p>
+            <p class="apply-payment-desc">After submitting your application, you'll be directed to our secure payment page to pay the $25 non-refundable application fee via credit card.</p>
           </div>
         </div>
         <div class="apply-nav apply-nav-both">
           <button type="button" class="btn-apply-back" onclick="goToStep(5)">&larr; Back</button>
-          <button type="button" class="btn-apply-submit" id="submitBtn" onclick="submitApplication()">Submit Application &amp; Pay $50 &rarr;</button>
+          <button type="button" class="btn-apply-submit" id="submitBtn" onclick="submitApplication()">Submit Application &amp; Pay $25 &rarr;</button>
         </div>
         <p class="apply-secure-note">🔒 Your information is transmitted securely. Payment processed by Authorize.net.</p>
       </div>
@@ -441,8 +441,13 @@ hide_connect_form: true
 .apply-checklist {
   color: #333;
   line-height: 1.9;
-  padding-left: 20px;
+  padding-left: 28px;
   margin-bottom: 16px;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+.apply-checklist li {
+  display: list-item;
 }
 .apply-req-note {
   font-size: 0.85rem;
@@ -752,7 +757,7 @@ function submitApplication() {
       window.location.href = '/payment/';
     } else {
       btn.disabled = false;
-      btn.innerHTML = 'Submit Application &amp; Pay $50 &rarr;';
+      btn.innerHTML = 'Submit Application &amp; Pay $25 &rarr;';
       alert('There was a problem submitting your application. Please try again.');
     }
   })
