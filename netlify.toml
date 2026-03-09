@@ -210,22 +210,22 @@
 
 [[redirects]]
   from = "/payform/"
-  to = "/tuition/#payment"
+  to = "/payment/"
   status = 301
 
 [[redirects]]
   from = "/internationalinvoice/"
-  to = "/tuition/#payment"
+  to = "/payment/"
   status = 301
 
 [[redirects]]
   from = "/international-invoice/"
-  to = "/tuition/#payment"
+  to = "/payment/"
   status = 301
 
 [[redirects]]
   from = "/pay/"
-  to = "/tuition/#payment"
+  to = "/payment/"
   status = 301
 
 [[redirects]]

@@ -141,8 +141,8 @@ exports.handler = async function (event) {
                 showReceipt: true,
                 url: "https://floridacoastalprep.com/payment-complete/",
                 urlText: "Return to Florida Coastal Prep",
-                cancelUrl: "https://floridacoastalprep.com/tuition/#payment",
-                cancelUrlText: "Cancel and return to tuition page"
+                cancelUrl: "https://floridacoastalprep.com/payment/",
+                cancelUrlText: "Cancel and return to payment page"
               })
             },
             {
