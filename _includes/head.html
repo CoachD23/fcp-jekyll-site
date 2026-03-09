@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{% if page.title and page.title != "Home" %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline | default: "Post-Grad & High School Basketball in Fort Walton Beach, FL" }}{% endif %}</title>
+<title>{% if page.url == "/" %}Florida Coastal Prep | Post-Grad & High School Basketball in Fort Walton Beach{% elsif page.title and page.title != "Home" %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline | default: "Post-Grad & High School Basketball in Fort Walton Beach, FL" }}{% endif %}</title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
@@ -15,7 +15,7 @@
 
 <!-- Open Graph / Social Sharing -->
 <meta property="og:type" content="{% if page.layout == 'post' or page.layout == 'alumni-post' %}article{% else %}website{% endif %}">
-<meta property="og:title" content="{% if page.title and page.title != 'Home' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline | default: 'Where Future College Athletes Are Made' }}{% endif %}">
+<meta property="og:title" content="{% if page.url == '/' %}Florida Coastal Prep | Post-Grad & High School Basketball in Fort Walton Beach{% elsif page.title and page.title != 'Home' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline | default: 'Where Future College Athletes Are Made' }}{% endif %}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 {% if page.image %}<meta property="og:image" content="{{ page.image | relative_url }}">
 {% elsif page.og_image %}<meta property="og:image" content="{{ page.og_image | relative_url }}">
