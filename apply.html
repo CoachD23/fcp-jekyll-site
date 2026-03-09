@@ -56,37 +56,8 @@ hide_connect_form: true
   <p>FCP admits a limited number of student-athletes each year. Our coaching staff reviews every application personally and will be in touch within 24 hours. Choose your application path above to get started.</p>
 </section>
 
-<!-- Form Section — revealed after path selection -->
-<section id="apply-form-section" style="display:none; margin-top: 2rem;" aria-live="polite">
-
-  <!-- Path context banner -->
-  <div id="apply-path-banner" class="apply-path-banner">
-    <div class="apply-path-banner-inner">
-      <svg viewBox="0 0 24 24" width="20" height="20" style="flex-shrink:0;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="#d4a843"/></svg>
-      <span id="apply-path-label" style="font-weight: 700; font-size: 1.05rem;"></span>
-      <span id="apply-path-sub" style="color: #aaa; font-size: 0.9rem;"></span>
-    </div>
-    <a href="#apply-path-top" onclick="resetPath(); return false;" class="apply-path-change">
-      &#8592; Change path
-    </a>
-  </div>
-
-  <!-- GHL Application Form -->
-  <div class="ghl-form-wrapper">
-    <iframe
-      src="https://api.leadconnectorhq.com/widget/form/ggx7Dtv0grTDuHLNmRRK"
-      scrolling="no"
-      style="width:100%; border:none; min-height:600px;"
-      id="fcp-apply-form"
-      title="FCP Application Form"
-    >
-    </iframe>
-    <script src="https://api.leadconnectorhq.com/js/form_embed.js"></script>
-  </div>
-</section>
-
-<div id="apply-path-top" style="text-align: center; margin-top: 1.5rem;">
-  <p>Have questions? Email us at <a href="mailto:info@floridacoastalprep.com"><strong>info@floridacoastalprep.com</strong></a></p>
+<div style="text-align: center; margin-top: 1.5rem;">
+  <p style="color: #666; font-size: 0.95rem;">Have questions? Email us at <a href="mailto:info@floridacoastalprep.com" style="color: #c41e3a; font-weight: 600;">info@floridacoastalprep.com</a></p>
 </div>
 
 <script type="application/ld+json">
@@ -108,39 +79,7 @@ hide_connect_form: true
 
 <script>
 function selectPath(path) {
-  var isUS = (path === 'us');
-  var label = isUS ? '🇺🇸  US Resident Application' : '🌍  International Application';
-  var sub   = isUS ? 'Post-Grad, HS Basketball, Soccer &amp; eSports programs' : 'International Post-Grad Basketball — all countries welcome';
-
-  document.getElementById('apply-path-label').textContent = label;
-  document.getElementById('apply-path-sub').innerHTML = sub;
-
-  // Highlight selected card, dim the other
-  document.querySelectorAll('.apply-path-card').forEach(function(card) {
-    card.classList.remove('selected', 'dimmed');
-  });
-  var selectedCard = document.querySelector('.apply-path-' + (isUS ? 'us' : 'intl'));
-  var otherCard    = document.querySelector('.apply-path-' + (isUS ? 'intl' : 'us'));
-  if (selectedCard) selectedCard.classList.add('selected');
-  if (otherCard)    otherCard.classList.add('dimmed');
-
-  // Show form section
-  var formSection = document.getElementById('apply-form-section');
-  formSection.style.display = 'block';
-
-  // Smooth scroll to form after a brief delay
-  setTimeout(function() {
-    formSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, 80);
-}
-
-function resetPath() {
-  document.getElementById('apply-form-section').style.display = 'none';
-  document.querySelectorAll('.apply-path-card').forEach(function(card) {
-    card.classList.remove('selected', 'dimmed');
-  });
-  var top = document.querySelector('.apply-paths-section');
-  if (top) top.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  window.location.href = path === 'us' ? '/apply/us/' : '/apply/international/';
 }
 
 // Keyboard accessibility: Enter/Space activates path cards
