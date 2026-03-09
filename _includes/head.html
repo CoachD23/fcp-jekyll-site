@@ -92,6 +92,52 @@
 }
 </script>
 
+<!-- Structured Data: SiteNavigationElement (primary pages for sitelinks) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "SiteNavigationElement",
+      "position": 1,
+      "name": "News",
+      "url": "{{ '/blog/' | absolute_url }}"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 2,
+      "name": "High School Program",
+      "url": "{{ '/high-school/' | absolute_url }}"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 3,
+      "name": "Post Grad Program",
+      "url": "{{ '/post-grad/' | absolute_url }}"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 4,
+      "name": "Spartan Alumni",
+      "url": "{{ '/commitments/' | absolute_url }}"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 5,
+      "name": "Coaches & Staff",
+      "url": "{{ '/coaches/' | absolute_url }}"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 6,
+      "name": "Spartan Training Center",
+      "url": "{{ '/training/' | absolute_url }}"
+    }
+  ]
+}
+</script>
+
 {% if page.layout == 'post' or page.layout == 'alumni-post' %}
 <!-- Structured Data: Article (blog posts) -->
 <script type="application/ld+json">

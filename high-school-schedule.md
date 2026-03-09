@@ -1,6 +1,7 @@
 ---
 layout: page
 title: High School Schedule
+sitemap: false
 subtitle: 2025–2026 National High School Basketball Schedule
 description: "Florida Coastal Prep's national high school basketball schedule for 2025–2026. SIAA conference matchups, Grind Session competition, national showcases, and tournaments against top prep programs."
 hero_image: /assets/images/hs-schedule-hero.jpeg

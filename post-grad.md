@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Post-Graduate Basketball Program
+title: Post Grad Program
 subtitle: Florida Coastal Prep Post-Grad Academy
 description: "Florida Coastal Prep's post-graduate basketball program features NBA-level coaching, national SEHAL & PHSBA competition, college recruiting support, and year-round training in our 14,000 sq ft facility in Fort Walton Beach, FL."
 hero_image: /assets/images/post-grad/fcp-book-072.jpeg

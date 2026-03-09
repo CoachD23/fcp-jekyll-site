@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Privacy Policy | Florida Coastal Prep"
+sitemap: false
 description: "Florida Coastal Prep's privacy policy — how we collect, use, and protect your personal information when you visit our website or interact with our programs."
 og_image: /assets/images/fcp-logo-square.png
 ---

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Terms of Use | Florida Coastal Prep"
+sitemap: false
 description: "Terms of use for the Florida Coastal Prep Sports Academy website. Review our policies on content, conduct, and intellectual property."
 og_image: /assets/images/fcp-logo-square.png
 ---

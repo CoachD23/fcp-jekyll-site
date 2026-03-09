@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Post Grad Schedule
+sitemap: false
 subtitle: 2025–2026 Post Grad Basketball Schedule
 description: "Florida Coastal Prep's 2025–2026 post-graduate basketball schedule features matchups against JUCO programs, college JV squads, and national prep teams. View dates, opponents, and locations."
 hero_image: /assets/images/pg-schedule-hero.jpeg
