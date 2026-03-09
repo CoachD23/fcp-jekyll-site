@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Apply Now
-subtitle: Start Your Journey to College Basketball
-description: "Apply to Florida Coastal Prep Sports Academy. Fill out the form and our coaching staff will contact you within 24 hours. Roster spots are limited — apply early."
+title: Apply to Florida Coastal Prep Sports Academy
+subtitle: Two Paths, One Mission — Get to the Next Level
+description: "Apply to Florida Coastal Prep Sports Academy. Choose your path — US Resident or International — and start your journey to college basketball in Fort Walton Beach, FL."
 hero_image: /assets/images/about-fcp.jpg
 hero_title: Apply Now
 hero_subtitle: Start Your Journey to College Basketball
@@ -12,22 +12,83 @@ og_image: /assets/images/apply-now.jpeg
 <!-- Intro Statement -->
 <section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
   <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Your Future Starts Here.</h2>
-  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; margin: 0;">Fill out the form below and our coaching staff will be in touch to discuss your goals, eligibility, and next steps. Roster spots are limited — apply early.</p>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; margin: 0;">FCP admits a limited number of student-athletes each year. Our coaching staff reviews every application personally and will be in touch within 24 hours. Choose your application path below to get started.</p>
 </section>
 
-<div class="ghl-form-wrapper">
-  <iframe
-    src="https://api.leadconnectorhq.com/widget/form/ggx7Dtv0grTDuHLNmRRK"
-    scrolling="no"
-    style="width:100%; border:none; min-height:600px;"
-    id="fcp-apply-form"
-    title="FCP Application Form"
-  >
-  </iframe>
-  <script src="https://api.leadconnectorhq.com/js/form_embed.js"></script>
-</div>
+<!-- Two-Path Selection -->
+<section class="apply-paths-section fade-in">
+  <div class="apply-paths-grid">
 
-<div style="text-align: center; margin-top: 2rem;">
+    <!-- US Path -->
+    <div class="apply-path-card apply-path-us" onclick="selectPath('us')" tabindex="0" role="button" aria-label="Start US Resident Application">
+      <div class="apply-path-flag">🇺🇸</div>
+      <h3>US Resident Application</h3>
+      <p>For student-athletes currently residing in the United States</p>
+      <ul class="apply-path-bullets">
+        <li>Post-Grad &amp; High School Basketball</li>
+        <li>Soccer &amp; eSports programs</li>
+        <li>Spring Exposure &amp; AAU programs</li>
+        <li>In-state and out-of-state athletes welcome</li>
+      </ul>
+      <button class="btn btn-primary apply-path-btn" aria-label="Start US Application">
+        Start US Application &rarr;
+      </button>
+    </div>
+
+    <!-- Divider -->
+    <div class="apply-path-divider" aria-hidden="true">
+      <span>OR</span>
+    </div>
+
+    <!-- International Path -->
+    <div class="apply-path-card apply-path-intl" onclick="selectPath('international')" tabindex="0" role="button" aria-label="Start International Application">
+      <div class="apply-path-flag">🌍</div>
+      <h3>International Application</h3>
+      <p>For student-athletes located outside the United States</p>
+      <ul class="apply-path-bullets">
+        <li>International Post-Grad Basketball</li>
+        <li>Visa &amp; immigration guidance available</li>
+        <li>English language support provided</li>
+        <li>Athletes from all countries considered</li>
+      </ul>
+      <button class="btn btn-gold apply-path-btn" aria-label="Start International Application">
+        Start International Application &rarr;
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<!-- Form Section — revealed after path selection -->
+<section id="apply-form-section" style="display:none; margin-top: 2.5rem;" aria-live="polite">
+
+  <!-- Path context banner -->
+  <div id="apply-path-banner" class="apply-path-banner">
+    <div class="apply-path-banner-inner">
+      <svg viewBox="0 0 24 24" width="20" height="20" style="flex-shrink:0;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="#d4a843"/></svg>
+      <span id="apply-path-label" style="font-weight: 700; font-size: 1.05rem;"></span>
+      <span id="apply-path-sub" style="color: #aaa; font-size: 0.9rem;"></span>
+    </div>
+    <a href="#apply-path-top" onclick="resetPath(); return false;" class="apply-path-change">
+      &#8592; Change path
+    </a>
+  </div>
+
+  <!-- GHL Application Form -->
+  <div class="ghl-form-wrapper">
+    <iframe
+      src="https://api.leadconnectorhq.com/widget/form/ggx7Dtv0grTDuHLNmRRK"
+      scrolling="no"
+      style="width:100%; border:none; min-height:600px;"
+      id="fcp-apply-form"
+      title="FCP Application Form"
+    >
+    </iframe>
+    <script src="https://api.leadconnectorhq.com/js/form_embed.js"></script>
+  </div>
+</section>
+
+<div id="apply-path-top" style="text-align: center; margin-top: 2rem;">
   <p>Prefer to talk first? Call us at <a href="tel:8509612323"><strong>850-961-2323</strong></a> or email <a href="mailto:info@floridacoastalprep.com"><strong>info@floridacoastalprep.com</strong></a></p>
 </div>
 
@@ -83,7 +144,240 @@ og_image: /assets/images/apply-now.jpeg
 }
 </script>
 
+<script>
+function selectPath(path) {
+  var isUS = (path === 'us');
+  var label = isUS ? '🇺🇸  US Resident Application' : '🌍  International Application';
+  var sub   = isUS ? 'Post-Grad, HS Basketball, Soccer &amp; eSports programs' : 'International Post-Grad Basketball — all countries welcome';
+
+  document.getElementById('apply-path-label').textContent = label;
+  document.getElementById('apply-path-sub').innerHTML = sub;
+
+  // Highlight selected card, dim the other
+  document.querySelectorAll('.apply-path-card').forEach(function(card) {
+    card.classList.remove('selected', 'dimmed');
+  });
+  var selectedCard = document.querySelector('.apply-path-' + (isUS ? 'us' : 'intl'));
+  var otherCard    = document.querySelector('.apply-path-' + (isUS ? 'intl' : 'us'));
+  if (selectedCard) selectedCard.classList.add('selected');
+  if (otherCard)    otherCard.classList.add('dimmed');
+
+  // Show form section
+  var formSection = document.getElementById('apply-form-section');
+  formSection.style.display = 'block';
+
+  // Smooth scroll to form after a brief delay
+  setTimeout(function() {
+    formSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 80);
+}
+
+function resetPath() {
+  document.getElementById('apply-form-section').style.display = 'none';
+  document.querySelectorAll('.apply-path-card').forEach(function(card) {
+    card.classList.remove('selected', 'dimmed');
+  });
+  var top = document.querySelector('.apply-paths-section');
+  if (top) top.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// Keyboard accessibility: Enter/Space activates path cards
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.apply-path-card').forEach(function(card) {
+    card.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        var path = card.classList.contains('apply-path-us') ? 'us' : 'international';
+        selectPath(path);
+      }
+    });
+  });
+});
+</script>
+
 <style>
+/* ── Apply Page: Two-Path Layout ── */
+.apply-paths-section {
+  max-width: 980px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+}
+
+.apply-paths-grid {
+  display: grid;
+  grid-template-columns: 1fr 72px 1fr;
+  gap: 0;
+  align-items: stretch;
+}
+
+.apply-path-card {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apply-path-card:hover {
+  border-color: #c41e3a;
+  transform: translateY(-4px);
+  box-shadow: 0 14px 44px rgba(0,0,0,0.1);
+}
+
+.apply-path-card:focus {
+  outline: 3px solid #c41e3a;
+  outline-offset: 2px;
+}
+
+.apply-path-card.selected {
+  border-color: #c41e3a;
+  background: #fff8f8;
+  box-shadow: 0 8px 32px rgba(196,30,58,0.12);
+}
+
+.apply-path-card.dimmed {
+  opacity: 0.45;
+  transform: none;
+}
+
+.apply-path-flag {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.apply-path-card h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #0a1628;
+  margin: 0 0 0.6rem;
+  line-height: 1.25;
+}
+
+.apply-path-card > p {
+  color: #555;
+  font-size: 0.95rem;
+  margin: 0 0 1.25rem;
+  line-height: 1.5;
+}
+
+.apply-path-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.75rem;
+  text-align: left;
+  width: 100%;
+}
+
+.apply-path-bullets li {
+  padding: 0.3rem 0 0.3rem 1.5rem;
+  position: relative;
+  color: #333;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.apply-path-bullets li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #c41e3a;
+  font-weight: 800;
+}
+
+.apply-path-btn {
+  width: 100%;
+  justify-content: center;
+  margin-top: auto;
+  pointer-events: none; /* card handles click */
+}
+
+/* Divider */
+.apply-path-divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.apply-path-divider span {
+  background: #f2f3f5;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: #777;
+  font-size: 0.85rem;
+  border: 2px solid #e0e0e0;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+
+/* Banner */
+.apply-path-banner {
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+  padding: 1rem 1.5rem;
+  background: #0a1628;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.apply-path-banner-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.apply-path-change {
+  color: #d4a843;
+  font-size: 0.88rem;
+  text-decoration: underline;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.apply-path-change:hover {
+  color: #f0c060;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .apply-paths-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .apply-path-divider {
+    flex-direction: row;
+    padding: 1.25rem 0;
+  }
+
+  .apply-path-card {
+    border-radius: 12px;
+  }
+
+  .apply-path-card.dimmed {
+    opacity: 0.5;
+  }
+}
+
+/* Carry-over from original */
 .program-offers .feature-card { text-align: left; }
 .program-offers .feature-card p { text-align: left; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
