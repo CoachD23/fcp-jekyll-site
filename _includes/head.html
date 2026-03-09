@@ -167,7 +167,7 @@ h1,h2,h3,h4,h5,h6{font-weight:700;line-height:1.2;color:#0a1628}
 .hero-video-bg video,.hero-video-bg .hero-bg-image{width:100%;height:100%;object-fit:cover}
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,22,40,.7) 0%,rgba(10,22,40,.4) 40%,rgba(10,22,40,.6) 70%,rgba(10,22,40,.95) 100%);z-index:1}
 .hero-content{position:relative;z-index:2;text-align:center;padding:8rem 0 3.5rem}
-.hero-content h1{color:#fff;font-size:clamp(2.5rem,6vw,5rem);font-weight:900;text-transform:uppercase;letter-spacing:-.02em;margin-bottom:1rem;text-shadow:0 2px 30px rgba(0,0,0,.4);animation:heroFadeUp .9s ease-out .2s both}
+.hero-content h1{color:#fff;font-size:clamp(2.5rem,6vw,5rem);font-weight:900;text-transform:uppercase;letter-spacing:-.02em;margin-bottom:1rem;text-shadow:0 2px 30px rgba(0,0,0,.4);animation:heroSlideUp .6s ease-out both}
 .hero-subtitle{color:rgba(255,255,255,.9);font-size:clamp(1.1rem,2.5vw,1.5rem);font-weight:400;margin-bottom:2.5rem;max-width:600px;margin-left:auto;margin-right:auto;animation:heroFadeUp .9s ease-out .4s both}
 .hero-cta{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;animation:heroFadeUp .9s ease-out .6s both}
 .hero-credentials{margin-top:2.5rem;display:flex;flex-direction:column;align-items:center;gap:.75rem;animation:heroFadeUp .9s ease-out .8s both}
@@ -182,6 +182,7 @@ h1,h2,h3,h4,h5,h6{font-weight:700;line-height:1.2;color:#0a1628}
 .hero-scroll-indicator span{display:inline-block;width:24px;height:40px;border:2px solid rgba(255,255,255,.3);border-radius:12px;position:relative}
 .hero-scroll-indicator span::after{content:'';position:absolute;top:6px;left:50%;transform:translateX(-50%);width:4px;height:8px;background:rgba(255,255,255,.5);border-radius:2px;animation:scrollPulse 2s infinite}
 @keyframes heroFadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes heroSlideUp{from{transform:translateY(20px)}to{transform:translateY(0)}}
 @keyframes scrollPulse{0%{opacity:1;transform:translateX(-50%) translateY(0)}50%{opacity:.3;transform:translateX(-50%) translateY(10px)}100%{opacity:1;transform:translateX(-50%) translateY(0)}}
 .btn{display:inline-block;padding:1rem 2.5rem;border-radius:8px;font-weight:600;font-size:1.1rem;transition:all .2s;cursor:pointer;border:2px solid transparent}
 .btn-primary{background:#c41e3a;color:#fff;border-color:#c41e3a}
