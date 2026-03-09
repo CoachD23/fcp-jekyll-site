@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   color: #0a1628;
 }
-h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+h1 { font-size: clamp(1.75rem, 4vw, 2.75rem); }
 h2 { font-size: clamp(1.5rem, 3.5vw, 2.5rem); margin-bottom: 1rem; }
 h3 { font-size: clamp(1.2rem, 2.5vw, 1.75rem); }
 .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
@@ -179,7 +179,7 @@ section { padding: 4rem 0; }
 }
 .hero-content h1 {
   color: #fff;
-  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-size: clamp(2rem, 4.5vw, 3.25rem);
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: -0.02em;
@@ -2053,7 +2053,7 @@ section { padding: 4rem 0; }
 @media (max-width: 768px) {
   .hero { min-height: auto; }
   .hero-video { min-height: 70vh; }
-  .hero-content h1 { font-size: 2.25rem; }
+  .hero-content h1 { font-size: 1.85rem; }
   .hero-content { padding: 6rem 0 2.5rem; }
   .hero-stats { flex-direction: column; gap: 1.5rem; }
   .hero-scroll-indicator { display: none; }
