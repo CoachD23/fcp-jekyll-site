@@ -89,7 +89,10 @@
 # 9. FINANCIAL / PAYMENT pages → /tuition/
 # ----------------------------------------------------------
 /finance/                      /tuition/       301
-/payform/                      /tuition/       301
+/payform/                      /tuition/#payment  301
+/internationalinvoice/         /tuition/#payment  301
+/international-invoice/        /tuition/#payment  301
+/pay/                          /tuition/#payment  301
 
 # ----------------------------------------------------------
 # 10. INFO / ABOUT variants → relevant pages
