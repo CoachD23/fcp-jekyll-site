@@ -2,6 +2,21 @@
 layout: default
 ---
 <article class="post">
+  {% if page.image %}
+  <div class="post-hero-overlay">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" width="1200" height="675">
+    <div class="post-hero-caption">
+      <div class="container">
+        <div class="post-meta">
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+          <span class="post-meta-sep">&middot;</span>
+          <span class="post-read-time">{% assign words = content | number_of_words %}{% if words < 200 %}1{% else %}{{ words | divided_by: 200 }}{% endif %} min read</span>
+        </div>
+        <h1>{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+  {% else %}
   <header class="post-header">
     <div class="container">
       <div class="post-meta">
@@ -10,15 +25,8 @@ layout: default
         <span class="post-read-time">{% assign words = content | number_of_words %}{% if words < 200 %}1{% else %}{{ words | divided_by: 200 }}{% endif %} min read</span>
       </div>
       <h1>{{ page.title }}</h1>
-      {% if page.excerpt %}<p class="post-excerpt">{{ page.excerpt | strip_html }}</p>{% endif %}
     </div>
   </header>
-  {% if page.image %}
-  <div class="post-hero">
-    <div class="container">
-      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" width="1200" height="675" loading="lazy">
-    </div>
-  </div>
   {% endif %}
 
   <!-- Two-Column Layout: Main + Sidebar -->
