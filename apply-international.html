@@ -1,79 +1,818 @@
 ---
-layout: page
-title: International Application | Florida Coastal Prep
-description: "Start your International application to Florida Coastal Prep Sports Academy — Post-Grad Basketball, visa guidance, and English language support in Fort Walton Beach, FL."
+layout: form
+title: "International Application | Florida Coastal Prep"
+description: "Apply to Florida Coastal Prep Sports Academy from anywhere in the world. International Post-Grad Basketball, visa guidance, and housing in Fort Walton Beach, FL."
 og_image: /assets/images/apply-now.jpeg
 permalink: /apply/international/
 hide_connect_form: true
 ---
 
-<div class="apply-sub-back">
-  <a href="/apply/" class="apply-sub-back-link">&#8592; Back to Apply</a>
-</div>
+<!-- Netlify form detection hook (hidden — required for Netlify to capture submissions) -->
+<form name="fcp-international-application" netlify netlify-honeypot="bot-field" data-netlify="true" enctype="multipart/form-data" hidden>
+  <input type="hidden" name="form-name" value="fcp-international-application" />
+  <input type="text" name="bot-field" />
+  <input type="text" name="program" />
+  <input type="text" name="visa-type" />
+  <input type="text" name="first-name" /><input type="text" name="last-name" />
+  <input type="date" name="dob" />
+  <input type="text" name="city-of-birth" /><input type="text" name="country-of-birth" />
+  <input type="text" name="country-of-citizenship" />
+  <input type="text" name="position" /><input type="text" name="height-weight" />
+  <input type="url" name="highlight-tape" />
+  <input type="text" name="foreign-address1" /><input type="text" name="foreign-address2" />
+  <input type="text" name="foreign-city" /><input type="text" name="foreign-province" />
+  <input type="text" name="foreign-country" />
+  <input type="email" name="email" /><input type="tel" name="phone" />
+  <input type="text" name="passport-surname" /><input type="text" name="passport-given-name" />
+  <input type="text" name="passport-full-name" /><input type="text" name="preferred-name" />
+  <input type="file" name="passport-copy" />
+  <input type="text" name="hs-name" />
+  <input type="text" name="hs-address1" /><input type="text" name="hs-address2" />
+  <input type="text" name="hs-city" /><input type="text" name="hs-state" />
+  <input type="text" name="hs-postal" /><input type="text" name="hs-country" />
+  <input type="text" name="hs-graduation-date" />
+  <input type="text" name="gpa" /><input type="text" name="act-sat" />
+  <input type="text" name="hs-coach-name" /><input type="tel" name="hs-coach-phone" /><input type="email" name="hs-coach-email" />
+  <input type="file" name="transcript" />
+  <input type="text" name="parent-first-name" /><input type="text" name="parent-last-name" />
+  <input type="tel" name="parent-phone" /><input type="email" name="parent-email" />
+  <input type="text" name="parent-address1" /><input type="text" name="parent-address2" />
+  <input type="text" name="parent-city" /><input type="text" name="parent-state" /><input type="text" name="parent-zip" />
+  <input type="text" name="occupation" /><input type="text" name="employer" />
+  <select name="annual-income"><option value=""></option></select>
+  <select name="tuition-responsibility"><option value=""></option></select>
+  <input type="text" name="housing-preference" />
+  <input type="file" name="immunization-record" />
+  <input type="file" name="sports-physical" />
+  <input type="file" name="birth-certificate" />
+  <input type="text" name="how-heard" />
+  <input type="text" name="signature" />
+</form>
 
-<section class="apply-sub-header fade-in">
-  <div class="apply-sub-flag">🌍</div>
-  <h2>International Application</h2>
-  <p>For student-athletes located outside the United States. Fill out the form below and our coaching staff will be in touch within 24 hours.</p>
-</section>
+<div class="apply-page-bg">
 
-<div class="ghl-form-wrapper" style="max-width: 860px; margin: 2rem auto 0;">
-  <iframe
-    src="https://api.leadconnectorhq.com/widget/form/ggx7Dtv0grTDuHLNmRRK"
-    scrolling="no"
-    style="width:100%; border:none; min-height:650px;"
-    id="fcp-apply-intl-form"
-    title="FCP International Application Form"
-  >
-  </iframe>
-  <script src="https://api.leadconnectorhq.com/js/form_embed.js"></script>
-</div>
+  <div class="apply-back-wrap">
+    <a href="/apply/" class="apply-back-link">&#8592; Back to Apply</a>
+  </div>
 
-<div style="text-align: center; margin-top: 1.5rem; padding-bottom: 1rem;">
-  <p style="color: #666; font-size: 0.95rem;">Have questions? Email us at <a href="mailto:info@floridacoastalprep.com" style="color: #c41e3a; font-weight: 600;">info@floridacoastalprep.com</a></p>
-</div>
+  <div class="apply-card">
+
+    <div class="apply-card-header">
+      <img src="/assets/images/fcp-logo-square.png" alt="Florida Coastal Prep" class="apply-card-logo" />
+      <h1 class="apply-card-title">Florida Coastal Prep International Registration</h1>
+    </div>
+
+    <div class="apply-progress-wrap">
+      <p class="apply-step-label" id="stepLabel">Step 1 of 8</p>
+      <div class="apply-progress-track">
+        <div class="apply-progress-fill" id="progressFill"></div>
+      </div>
+    </div>
+
+    <div class="apply-steps-container" id="applySteps">
+
+      <!-- STEP 1: INTRO -->
+      <div class="apply-step" id="step1">
+        <div class="apply-step-intro">
+          <p class="apply-intro-text">Thank you for your interest in FCP Sports Academy. This international application takes about 15 minutes. Please have the following ready:</p>
+          <ul class="apply-checklist">
+            <li>Passport (names and a copy for upload)</li>
+            <li>Personal contact info and foreign address</li>
+            <li>High school information, GPA, and coach details</li>
+            <li>Parent or guardian contact and address</li>
+            <li>Immunization record and sports physical (file uploads)</li>
+            <li>Birth certificate (file upload)</li>
+          </ul>
+          <p class="apply-req-note">Fields marked <span class="req-star">*</span> are required.</p>
+        </div>
+        <div class="apply-nav apply-nav-right">
+          <button type="button" class="btn-apply-next" onclick="goToStep(2)">Start Application &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 2: ATHLETIC & VISA INFORMATION -->
+      <div class="apply-step" id="step2" style="display:none">
+        <h2 class="apply-step-title">Athletic &amp; Visa Information</h2>
+        <div class="apply-field-group">
+          <label class="apply-label">Program Selection <span class="req-star">*</span></label>
+          <div class="apply-radio-group" id="programGroup">
+            <label class="apply-radio-label"><input type="radio" name="program" value="International Post Grad Basketball" required /> International Post Grad Basketball</label>
+            <label class="apply-radio-label"><input type="radio" name="program" value="International HS Basketball" /> International HS Basketball</label>
+            <label class="apply-radio-label"><input type="radio" name="program" value="International Soccer Post Grad" /> International Soccer Post Grad</label>
+            <label class="apply-radio-label"><input type="radio" name="program" value="International Soccer HS" /> International Soccer HS</label>
+            <label class="apply-radio-label"><input type="radio" name="program" value="Spring Live Period Exposure Program" /> Spring Live Period Exposure Program</label>
+            <label class="apply-radio-label"><input type="radio" name="program" value="AAU Program" /> AAU Program</label>
+            <label class="apply-radio-label"><input type="radio" name="program" value="eSports HS" /> eSports HS</label>
+          </div>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label">Visa Information Requested <span class="req-star">*</span></label>
+          <div class="apply-radio-group" id="visaGroup">
+            <label class="apply-radio-label"><input type="radio" name="visa-type" value="B1/B2 Visitor Visa" required /> B1/B2 Visitor Visa</label>
+            <label class="apply-radio-label"><input type="radio" name="visa-type" value="I20 Transfer" /> I-20 Transfer</label>
+            <label class="apply-radio-label"><input type="radio" name="visa-type" value="New I20" /> New I-20</label>
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="position">Position</label>
+            <input type="text" id="position" name="position" class="apply-input" placeholder="e.g. Point Guard, Forward" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="heightWeight">Height &amp; Weight</label>
+            <input type="text" id="heightWeight" name="height-weight" class="apply-input" placeholder="e.g. 6'2&quot; / 185 lbs" />
+          </div>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label" for="highlightTape">Highlight Tape URL</label>
+          <input type="url" id="highlightTape" name="highlight-tape" class="apply-input" placeholder="https://youtube.com/..." />
+        </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(1)">&larr; Back</button>
+          <button type="button" class="btn-apply-next" onclick="validateAndGo(2,3)">Next &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 3: PERSONAL INFORMATION -->
+      <div class="apply-step" id="step3" style="display:none">
+        <h2 class="apply-step-title">Personal Information</h2>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="firstName">First Name <span class="req-star">*</span></label>
+            <input type="text" id="firstName" name="first-name" class="apply-input" required placeholder="First name" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="lastName">Last Name <span class="req-star">*</span></label>
+            <input type="text" id="lastName" name="last-name" class="apply-input" required placeholder="Last name" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="dob">Date of Birth <span class="req-star">*</span></label>
+            <input type="date" id="dob" name="dob" class="apply-input" required />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="cityOfBirth">City of Birth <span class="req-star">*</span></label>
+            <input type="text" id="cityOfBirth" name="city-of-birth" class="apply-input" required placeholder="City where you were born" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="countryOfBirth">Country of Birth <span class="req-star">*</span></label>
+            <input type="text" id="countryOfBirth" name="country-of-birth" class="apply-input" required placeholder="Country where you were born" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="countryOfCitizenship">Country of Citizenship <span class="req-star">*</span></label>
+            <input type="text" id="countryOfCitizenship" name="country-of-citizenship" class="apply-input" required placeholder="Your citizenship country" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="email">Email Address <span class="req-star">*</span></label>
+            <input type="email" id="email" name="email" class="apply-input" required placeholder="your@email.com" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="phone">Phone / WhatsApp <span class="req-star">*</span></label>
+            <input type="tel" id="phone" name="phone" class="apply-input" required placeholder="+1 (000) 000-0000" />
+          </div>
+        </div>
+        <h3 class="apply-section-sub">Current Foreign Address</h3>
+        <div class="apply-field-group">
+          <label class="apply-label" for="foreignAddress1">Address Line 1 <span class="req-star">*</span></label>
+          <input type="text" id="foreignAddress1" name="foreign-address1" class="apply-input" required placeholder="Street address" />
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label" for="foreignAddress2">Address Line 2</label>
+          <input type="text" id="foreignAddress2" name="foreign-address2" class="apply-input" placeholder="Apt, unit, etc. (optional)" />
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="foreignCity">City <span class="req-star">*</span></label>
+            <input type="text" id="foreignCity" name="foreign-city" class="apply-input" required placeholder="City" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="foreignProvince">State / Province</label>
+            <input type="text" id="foreignProvince" name="foreign-province" class="apply-input" placeholder="State or province" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="foreignPostal">Postal Code</label>
+            <input type="text" id="foreignPostal" name="foreign-postal" class="apply-input" placeholder="Postal / ZIP code" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="foreignCountry">Country <span class="req-star">*</span></label>
+            <input type="text" id="foreignCountry" name="foreign-country" class="apply-input" required placeholder="Country" />
+          </div>
+        </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(2)">&larr; Back</button>
+          <button type="button" class="btn-apply-next" onclick="validateAndGo(3,4)">Next &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 4: PASSPORT INFORMATION -->
+      <div class="apply-step" id="step4" style="display:none">
+        <h2 class="apply-step-title">Passport Information</h2>
+        <p class="apply-field-note">Enter your name exactly as it appears on your passport.</p>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="passportSurname">Surname (Last Name) <span class="req-star">*</span></label>
+            <input type="text" id="passportSurname" name="passport-surname" class="apply-input" required placeholder="Family name on passport" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="passportGivenName">Given Name (First Name) <span class="req-star">*</span></label>
+            <input type="text" id="passportGivenName" name="passport-given-name" class="apply-input" required placeholder="Given name on passport" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="passportFullName">Full Name as on Passport <span class="req-star">*</span></label>
+            <input type="text" id="passportFullName" name="passport-full-name" class="apply-input" required placeholder="Full legal name exactly as printed" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="preferredName">Preferred / Nickname</label>
+            <input type="text" id="preferredName" name="preferred-name" class="apply-input" placeholder="What you go by (optional)" />
+          </div>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label" for="passportCopy">Passport Copy (photo page) <span class="req-star">*</span></label>
+          <input type="file" id="passportCopy" name="passport-copy" class="apply-file-input" required accept=".pdf,.jpg,.jpeg,.png" />
+          <p class="apply-file-hint">Upload a clear scan or photo of your passport data page. PDF, JPG, or PNG.</p>
+        </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(3)">&larr; Back</button>
+          <button type="button" class="btn-apply-next" onclick="validateAndGo(4,5)">Next &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 5: ACADEMIC INFORMATION -->
+      <div class="apply-step" id="step5" style="display:none">
+        <h2 class="apply-step-title">Academic Information</h2>
+        <div class="apply-field-group">
+          <label class="apply-label" for="hsName">High School Name <span class="req-star">*</span></label>
+          <input type="text" id="hsName" name="hs-name" class="apply-input" required placeholder="Name of your high school" />
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label" for="hsAddress1">School Address Line 1</label>
+          <input type="text" id="hsAddress1" name="hs-address1" class="apply-input" placeholder="Street address" />
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="hsCity">City</label>
+            <input type="text" id="hsCity" name="hs-city" class="apply-input" placeholder="City" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="hsCountry">Country</label>
+            <input type="text" id="hsCountry" name="hs-country" class="apply-input" placeholder="Country" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="hsGraduationDate">Graduation Date <span class="req-star">*</span></label>
+            <input type="text" id="hsGraduationDate" name="hs-graduation-date" class="apply-input" required placeholder="e.g. June 2025" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="gpa">GPA</label>
+            <input type="text" id="gpa" name="gpa" class="apply-input" placeholder="e.g. 3.5 / 4.0" />
+          </div>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label" for="actSat">ACT / SAT Score</label>
+          <input type="text" id="actSat" name="act-sat" class="apply-input" placeholder="e.g. ACT 24 or SAT 1200 (if taken)" />
+        </div>
+        <h3 class="apply-section-sub">High School Coach</h3>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="hsCoachName">Coach Name</label>
+            <input type="text" id="hsCoachName" name="hs-coach-name" class="apply-input" placeholder="Full name" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="hsCoachPhone">Coach Phone</label>
+            <input type="tel" id="hsCoachPhone" name="hs-coach-phone" class="apply-input" placeholder="+1 (000) 000-0000" />
+          </div>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label" for="hsCoachEmail">Coach Email</label>
+          <input type="email" id="hsCoachEmail" name="hs-coach-email" class="apply-input" placeholder="coach@school.edu" />
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label" for="transcript">Official Transcript <span class="req-star">*</span></label>
+          <input type="file" id="transcript" name="transcript" class="apply-file-input" required accept=".pdf,.jpg,.jpeg,.png" />
+          <p class="apply-file-hint">Upload your most recent official or unofficial transcript. PDF, JPG, or PNG.</p>
+        </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(4)">&larr; Back</button>
+          <button type="button" class="btn-apply-next" onclick="validateAndGo(5,6)">Next &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 6: PARENT / GUARDIAN INFORMATION -->
+      <div class="apply-step" id="step6" style="display:none">
+        <h2 class="apply-step-title">Parent / Guardian Information</h2>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="parentFirstName">Parent First Name <span class="req-star">*</span></label>
+            <input type="text" id="parentFirstName" name="parent-first-name" class="apply-input" required placeholder="First name" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="parentLastName">Parent Last Name <span class="req-star">*</span></label>
+            <input type="text" id="parentLastName" name="parent-last-name" class="apply-input" required placeholder="Last name" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="parentPhone">Parent Phone <span class="req-star">*</span></label>
+            <input type="tel" id="parentPhone" name="parent-phone" class="apply-input" required placeholder="+1 (000) 000-0000" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="parentEmail">Parent Email <span class="req-star">*</span></label>
+            <input type="email" id="parentEmail" name="parent-email" class="apply-input" required placeholder="parent@email.com" />
+          </div>
+        </div>
+        <h3 class="apply-section-sub">Parent / Guardian Address</h3>
+        <div class="apply-field-group">
+          <label class="apply-label" for="parentAddress1">Address Line 1 <span class="req-star">*</span></label>
+          <input type="text" id="parentAddress1" name="parent-address1" class="apply-input" required placeholder="Street address" />
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label" for="parentAddress2">Address Line 2</label>
+          <input type="text" id="parentAddress2" name="parent-address2" class="apply-input" placeholder="Apt, suite, etc. (optional)" />
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="parentCity">City <span class="req-star">*</span></label>
+            <input type="text" id="parentCity" name="parent-city" class="apply-input" required placeholder="City" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="parentState">State / Province</label>
+            <input type="text" id="parentState" name="parent-state" class="apply-input" placeholder="State or province" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="parentZip">ZIP / Postal Code</label>
+            <input type="text" id="parentZip" name="parent-zip" class="apply-input" placeholder="ZIP or postal code" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="parentCountry">Country <span class="req-star">*</span></label>
+            <input type="text" id="parentCountry" name="parent-country" class="apply-input" required placeholder="Country" />
+          </div>
+        </div>
+        <h3 class="apply-section-sub">Financial Information</h3>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="occupation">Occupation</label>
+            <input type="text" id="occupation" name="occupation" class="apply-input" placeholder="Parent's occupation" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="employer">Employer</label>
+            <input type="text" id="employer" name="employer" class="apply-input" placeholder="Employer / company name" />
+          </div>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label" for="annualIncome">Annual Household Income <span class="req-star">*</span></label>
+          <select id="annualIncome" name="annual-income" class="apply-input apply-select" required>
+            <option value="">— Select —</option>
+            <option value="Under $25,000">Under $25,000</option>
+            <option value="$25,000 - $49,999">$25,000 – $49,999</option>
+            <option value="$50,000 - $74,999">$50,000 – $74,999</option>
+            <option value="$75,000 - $99,999">$75,000 – $99,999</option>
+            <option value="$100,000 - $149,999">$100,000 – $149,999</option>
+            <option value="$150,000+">$150,000+</option>
+          </select>
+        </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(5)">&larr; Back</button>
+          <button type="button" class="btn-apply-next" onclick="validateAndGo(6,7)">Next &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 7: DOCUMENTS & HOUSING -->
+      <div class="apply-step" id="step7" style="display:none">
+        <h2 class="apply-step-title">Documents &amp; Housing</h2>
+        <h3 class="apply-section-sub">Required Medical Documents</h3>
+        <div class="apply-field-group apply-mb-md">
+          <label class="apply-label" for="immunizationRecord">Immunization Record <span class="req-star">*</span></label>
+          <input type="file" id="immunizationRecord" name="immunization-record" class="apply-file-input" required accept=".pdf,.jpg,.jpeg,.png" />
+          <p class="apply-file-hint">Upload your official vaccination / immunization record. PDF, JPG, or PNG.</p>
+        </div>
+        <div class="apply-field-group apply-mb-md">
+          <label class="apply-label" for="sportsPhysical">Sports Physical <span class="req-star">*</span></label>
+          <input type="file" id="sportsPhysical" name="sports-physical" class="apply-file-input" required accept=".pdf,.jpg,.jpeg,.png" />
+          <p class="apply-file-hint">Upload your current sports physical (must be within the last 12 months). PDF, JPG, or PNG.</p>
+        </div>
+        <div class="apply-field-group apply-mb-md">
+          <label class="apply-label" for="birthCertificate">Birth Certificate <span class="req-star">*</span></label>
+          <input type="file" id="birthCertificate" name="birth-certificate" class="apply-file-input" required accept=".pdf,.jpg,.jpeg,.png" />
+          <p class="apply-file-hint">Upload a copy of your birth certificate. PDF, JPG, or PNG.</p>
+        </div>
+        <h3 class="apply-section-sub">Tuition &amp; Housing</h3>
+        <div class="apply-field-group">
+          <label class="apply-label" for="tuitionResponsibility">Who is responsible for tuition? <span class="req-star">*</span></label>
+          <select id="tuitionResponsibility" name="tuition-responsibility" class="apply-input apply-select" required>
+            <option value="">— Select —</option>
+            <option value="Parent / Guardian">Parent / Guardian</option>
+            <option value="Self">Self</option>
+            <option value="Sponsor / Organization">Sponsor / Organization</option>
+            <option value="Scholarship / Financial Aid">Scholarship / Financial Aid</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label">Housing Preference <span class="req-star">*</span></label>
+          <div class="apply-radio-group" id="housingGroup">
+            <label class="apply-radio-label"><input type="radio" name="housing-preference" value="FCP Housing" required /> FCP-provided housing (recommended for international students)</label>
+            <label class="apply-radio-label"><input type="radio" name="housing-preference" value="Self-Arranged" /> I will arrange my own housing</label>
+          </div>
+        </div>
+        <div class="apply-field-group">
+          <label class="apply-label">How did you hear about FCP?</label>
+          <div class="apply-checkbox-group">
+            <label class="apply-checkbox-label"><input type="checkbox" name="how-heard" value="Social Media" /> Social Media</label>
+            <label class="apply-checkbox-label"><input type="checkbox" name="how-heard" value="Coach / Trainer" /> Coach / Trainer</label>
+            <label class="apply-checkbox-label"><input type="checkbox" name="how-heard" value="Friend / Family" /> Friend / Family</label>
+            <label class="apply-checkbox-label"><input type="checkbox" name="how-heard" value="Google Search" /> Google Search</label>
+            <label class="apply-checkbox-label"><input type="checkbox" name="how-heard" value="Recruiting Event" /> Recruiting Event</label>
+            <label class="apply-checkbox-label"><input type="checkbox" name="how-heard" value="Other" /> Other</label>
+          </div>
+        </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(6)">&larr; Back</button>
+          <button type="button" class="btn-apply-next" onclick="validateAndGo(7,8)">Next &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 8: TERMS & AGREEMENT -->
+      <div class="apply-step" id="step8" style="display:none">
+        <h2 class="apply-step-title">Terms &amp; Agreement</h2>
+
+        <div class="apply-notice-box">
+          <p class="apply-notice-title">&#9888; Important Passport Notice</p>
+          <p>Your passport must be valid for at least <strong>six (6) months beyond</strong> your intended date of entry into the United States. Please verify your passport expiration date before submitting this application. FCP is not responsible for visa delays or denials resulting from an expired or soon-to-expire passport.</p>
+        </div>
+
+        <div class="apply-field-group apply-confirm-check">
+          <label class="apply-checkbox-label">
+            <input type="checkbox" id="passportConfirmed" name="passport-confirmed" value="Yes" required />
+            I confirm my passport will be valid for at least 6 months beyond my planned entry date into the U.S. <span class="req-star">*</span>
+          </label>
+        </div>
+
+        <div class="apply-terms-text">
+          <p>By submitting this application, I certify that all information provided is true and accurate to the best of my knowledge. I understand that providing false or misleading information may result in disqualification or dismissal from the program.</p>
+          <p>I acknowledge that submission of this application does not guarantee acceptance into FCP Sports Academy. I understand that a <strong>non-refundable $25 application fee</strong> is required to complete my application. I authorize FCP staff to contact me, my parents/guardians, and my coaches regarding this application.</p>
+          <p>I agree to comply with all FCP rules, policies, and code of conduct if admitted to the program.</p>
+        </div>
+
+        <div class="apply-field-group">
+          <label class="apply-label">I agree to the terms and conditions above. <span class="req-star">*</span></label>
+          <div class="apply-radio-group" id="agreeGroup">
+            <label class="apply-radio-label"><input type="radio" name="agree-to-terms" value="Yes, I agree" required /> Yes, I agree</label>
+          </div>
+        </div>
+
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="sigFirstName">First Name <span class="req-star">*</span></label>
+            <input type="text" id="sigFirstName" name="sig-first-name" class="apply-input" required placeholder="First name" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="sigLastName">Last Name <span class="req-star">*</span></label>
+            <input type="text" id="sigLastName" name="sig-last-name" class="apply-input" required placeholder="Last name" />
+          </div>
+        </div>
+
+        <div class="apply-field-group">
+          <label class="apply-label" for="signature">Electronic Signature <span class="req-star">*</span></label>
+          <input type="text" id="signature" name="signature" class="apply-input" required placeholder="Type your full legal name to sign" />
+          <p class="apply-field-note">Typing your full name constitutes a legally binding electronic signature.</p>
+        </div>
+
+        <div class="apply-notice-box apply-notice-payment">
+          <p class="apply-notice-title">&#128179; $25 Non-Refundable Application Fee</p>
+          <p>After submitting this form you will be directed to our secure payment portal to complete your <strong>$25 application fee</strong>. Your application will not be reviewed until the fee is received.</p>
+        </div>
+
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(7)">&larr; Back</button>
+          <button type="button" class="btn-apply-submit" id="submitBtn" onclick="submitApplication()">Submit Application</button>
+        </div>
+        <p class="apply-field-note" style="text-align:center;margin-top:0.75rem;">You will receive a confirmation email after submission.</p>
+      </div>
+
+    </div><!-- /.apply-steps-container -->
+
+    <!-- SUCCESS STATE -->
+    <div class="apply-success" id="applySuccess" style="display:none">
+      <div class="apply-success-icon">&#10003;</div>
+      <h2 class="apply-success-title">Application Submitted!</h2>
+      <p class="apply-success-text">Thank you for applying to Florida Coastal Prep Sports Academy. Our team will review your application and reach out within 2&ndash;3 business days.</p>
+      <a href="/tuition/" class="btn-apply-next" style="display:inline-block;margin-top:1rem;">View Tuition &amp; Fees &rarr;</a>
+    </div>
+
+  </div><!-- /.apply-card -->
+
+</div><!-- /.apply-page-bg -->
 
 <style>
-.page-header { padding: 4.5rem 0 1.5rem !important; }
-.page-content { padding: 1.75rem 0 3rem !important; }
+/* ── Apply Page Layout ─────────────────────────────────────── */
+.apply-page-bg { min-height: 100vh; background: #f5f5f5; padding: 2rem 1rem 4rem; }
+.apply-back-wrap { max-width: 680px; margin: 0 auto 0.75rem; }
+.apply-back-link { color: #b22234; font-size: 0.875rem; text-decoration: none; font-weight: 600; }
+.apply-back-link:hover { text-decoration: underline; }
+.apply-card { background: #fff; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.10); max-width: 680px; margin: 0 auto; overflow: hidden; }
 
-.apply-sub-back {
-  max-width: 860px;
-  margin: 0 auto 1.25rem;
-}
-.apply-sub-back-link {
-  font-size: 0.9rem;
-  color: #c41e3a;
-  font-weight: 600;
-  text-decoration: none;
-}
-.apply-sub-back-link:hover { text-decoration: underline; }
+/* ── Card Header ───────────────────────────────────────────── */
+.apply-card-header { background: #1a1a2e; padding: 1.5rem 2rem; display: flex; align-items: center; gap: 1rem; }
+.apply-card-logo { width: 52px; height: 52px; object-fit: contain; flex-shrink: 0; }
+.apply-card-title { color: #fff; font-size: 1.15rem; font-weight: 700; margin: 0; line-height: 1.3; }
 
-.apply-sub-header {
-  max-width: 860px;
-  margin: 0 auto 0;
-  text-align: center;
-  padding: 2rem 1rem 1.5rem;
-  background: #fffbf0;
-  border: 2px solid #d4a843;
-  border-radius: 14px;
-}
-.apply-sub-flag {
-  font-size: 3rem;
-  line-height: 1;
-  margin-bottom: 0.75rem;
-}
-.apply-sub-header h2 {
-  font-size: 1.75rem;
-  font-weight: 800;
-  color: #0a1628;
-  margin: 0 0 0.5rem;
-}
-.apply-sub-header p {
-  color: #555;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin: 0 auto;
-  max-width: 560px;
+/* ── Progress Bar ──────────────────────────────────────────── */
+.apply-progress-wrap { padding: 1rem 2rem 0; }
+.apply-step-label { font-size: 0.8rem; color: #666; margin: 0 0 0.35rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+.apply-progress-track { height: 6px; background: #e5e7eb; border-radius: 99px; overflow: hidden; }
+.apply-progress-fill { height: 100%; background: #b22234; border-radius: 99px; transition: width 0.4s ease; width: 12.5%; }
+
+/* ── Step Container ────────────────────────────────────────── */
+.apply-steps-container { padding: 1.5rem 2rem 2rem; }
+.apply-step-title { font-size: 1.2rem; font-weight: 700; color: #1a1a2e; margin: 0 0 1.25rem; }
+.apply-section-sub { font-size: 0.95rem; font-weight: 700; color: #1a1a2e; margin: 1.25rem 0 0.6rem; border-top: 1px solid #e5e7eb; padding-top: 1rem; }
+.apply-mb-md { margin-bottom: 1rem; }
+
+/* ── Intro Step ────────────────────────────────────────────── */
+.apply-step-intro { background: #f9fafb; border-radius: 8px; padding: 1.25rem 1.5rem; }
+.apply-intro-text { margin: 0 0 0.75rem; color: #374151; font-size: 0.95rem; }
+.apply-checklist { margin: 0 0 0.75rem 1.25rem; padding: 0; color: #374151; font-size: 0.9rem; line-height: 1.7; }
+.apply-req-note { margin: 0; font-size: 0.85rem; color: #6b7280; }
+
+/* ── Field Layouts ─────────────────────────────────────────── */
+.apply-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+.apply-field { display: flex; flex-direction: column; gap: 0.3rem; }
+.apply-field-group { margin-bottom: 1rem; }
+.apply-label { font-size: 0.85rem; font-weight: 600; color: #374151; }
+.req-star { color: #b22234; }
+.apply-input { border: 1.5px solid #d1d5db; border-radius: 6px; padding: 0.55rem 0.75rem; font-size: 0.95rem; color: #111; width: 100%; box-sizing: border-box; transition: border-color 0.2s; font-family: inherit; background: #fff; }
+.apply-input:focus { outline: none; border-color: #b22234; box-shadow: 0 0 0 3px rgba(178,34,52,0.1); }
+.apply-input.input-error { border-color: #dc2626; }
+.apply-select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b7280' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 0.75rem center; padding-right: 2rem; }
+.apply-field-note { font-size: 0.8rem; color: #6b7280; margin: 0.25rem 0 0; }
+
+/* ── Radio & Checkbox Groups ───────────────────────────────── */
+.apply-radio-group, .apply-checkbox-group { display: flex; flex-direction: column; gap: 0.45rem; margin-top: 0.35rem; }
+.apply-radio-label, .apply-checkbox-label { display: flex; align-items: flex-start; gap: 0.5rem; font-size: 0.9rem; color: #374151; cursor: pointer; line-height: 1.4; }
+.apply-radio-label input, .apply-checkbox-label input { margin-top: 0.1rem; accent-color: #b22234; flex-shrink: 0; }
+
+/* ── File Inputs ───────────────────────────────────────────── */
+.apply-file-input { border: 2px dashed #d1d5db; border-radius: 6px; padding: 0.6rem 0.75rem; font-size: 0.9rem; color: #374151; width: 100%; box-sizing: border-box; background: #f9fafb; cursor: pointer; transition: border-color 0.2s; }
+.apply-file-input:hover, .apply-file-input:focus { border-color: #b22234; outline: none; }
+.apply-file-input.input-error { border-color: #dc2626; }
+.apply-file-hint { font-size: 0.78rem; color: #6b7280; margin: 0.3rem 0 0; }
+
+/* ── Notice Boxes ──────────────────────────────────────────── */
+.apply-notice-box { background: #fff8e1; border-left: 4px solid #f59e0b; border-radius: 6px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; }
+.apply-notice-box p { margin: 0 0 0.4rem; font-size: 0.9rem; color: #374151; }
+.apply-notice-box p:last-child { margin-bottom: 0; }
+.apply-notice-title { font-weight: 700; color: #92400e !important; font-size: 0.95rem !important; }
+.apply-notice-payment { background: #f0fdf4; border-left-color: #22c55e; }
+.apply-notice-payment .apply-notice-title { color: #166534 !important; }
+.apply-confirm-check { background: #fef2f2; border: 1px solid #fca5a5; border-radius: 6px; padding: 0.85rem 1rem; }
+
+/* ── Terms Text ────────────────────────────────────────────── */
+.apply-terms-text { background: #f9fafb; border-radius: 6px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; max-height: 160px; overflow-y: auto; }
+.apply-terms-text p { font-size: 0.85rem; color: #374151; margin: 0 0 0.6rem; line-height: 1.6; }
+.apply-terms-text p:last-child { margin-bottom: 0; }
+
+/* ── Navigation ────────────────────────────────────────────── */
+.apply-nav { display: flex; margin-top: 1.75rem; gap: 0.75rem; }
+.apply-nav-right { justify-content: flex-end; }
+.apply-nav-both { justify-content: space-between; }
+.btn-apply-next, .btn-apply-submit { background: #b22234; color: #fff; border: none; border-radius: 6px; padding: 0.65rem 1.5rem; font-size: 0.95rem; font-weight: 700; cursor: pointer; transition: background 0.2s; font-family: inherit; }
+.btn-apply-next:hover, .btn-apply-submit:hover { background: #8b1a27; }
+.btn-apply-back { background: transparent; color: #6b7280; border: 1.5px solid #d1d5db; border-radius: 6px; padding: 0.65rem 1.25rem; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+.btn-apply-back:hover { border-color: #9ca3af; color: #374151; }
+.btn-apply-submit:disabled { background: #9ca3af; cursor: not-allowed; }
+
+/* ── Error Message ─────────────────────────────────────────── */
+.apply-error-msg { background: #fef2f2; border: 1px solid #fca5a5; border-radius: 6px; padding: 0.65rem 1rem; font-size: 0.875rem; color: #dc2626; margin-top: 1rem; display: none; }
+.apply-error-msg.visible { display: block; }
+
+/* ── Success State ─────────────────────────────────────────── */
+.apply-success { padding: 3rem 2rem; text-align: center; }
+.apply-success-icon { width: 64px; height: 64px; background: #dcfce7; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.75rem; color: #16a34a; margin: 0 auto 1.25rem; }
+.apply-success-title { font-size: 1.4rem; font-weight: 700; color: #1a1a2e; margin: 0 0 0.75rem; }
+.apply-success-text { color: #374151; font-size: 0.95rem; max-width: 420px; margin: 0 auto; line-height: 1.6; }
+
+/* ── Responsive ────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .apply-page-bg { padding: 1rem 0.5rem 3rem; }
+  .apply-card-header { padding: 1.25rem 1.25rem; }
+  .apply-card-title { font-size: 1rem; }
+  .apply-progress-wrap, .apply-steps-container { padding-left: 1.25rem; padding-right: 1.25rem; }
+  .apply-row { grid-template-columns: 1fr; }
 }
 </style>
+
+<script>
+const totalSteps = 8;
+
+function goToStep(n) {
+  document.querySelectorAll('.apply-step').forEach(function(s){ s.style.display = 'none'; });
+  var step = document.getElementById('step' + n);
+  if (step) { step.style.display = 'block'; }
+  document.getElementById('stepLabel').textContent = 'Step ' + n + ' of ' + totalSteps;
+  document.getElementById('progressFill').style.width = ((n / totalSteps) * 100) + '%';
+  var card = document.querySelector('.apply-card');
+  if (card) { card.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+}
+
+function getRequiredInStep(stepNum) {
+  var step = document.getElementById('step' + stepNum);
+  if (!step) { return []; }
+  var required = [];
+
+  /* Text / email / tel / date / url / select */
+  step.querySelectorAll('input[required]:not([type=radio]):not([type=checkbox]):not([type=file]), select[required]').forEach(function(el) {
+    required.push({ el: el, type: 'text' });
+  });
+
+  /* File inputs */
+  step.querySelectorAll('input[type=file][required]').forEach(function(el) {
+    required.push({ el: el, type: 'file' });
+  });
+
+  /* Radio groups — find each unique name, check if any is required */
+  var radioNames = {};
+  step.querySelectorAll('input[type=radio][required]').forEach(function(el) {
+    if (!radioNames[el.name]) { radioNames[el.name] = el; }
+  });
+  Object.keys(radioNames).forEach(function(name) {
+    required.push({ el: radioNames[name], type: 'radio', name: name, step: step });
+  });
+
+  /* Single required checkboxes */
+  step.querySelectorAll('input[type=checkbox][required]').forEach(function(el) {
+    required.push({ el: el, type: 'checkbox' });
+  });
+
+  return required;
+}
+
+function validateAndGo(fromStep, toStep) {
+  var items = getRequiredInStep(fromStep);
+  var valid = true;
+
+  /* Clear previous errors */
+  document.getElementById('step' + fromStep).querySelectorAll('.input-error').forEach(function(el) {
+    el.classList.remove('input-error');
+  });
+
+  items.forEach(function(item) {
+    var ok = true;
+    if (item.type === 'file') {
+      ok = item.el.files && item.el.files[0];
+    } else if (item.type === 'radio') {
+      ok = !!item.step.querySelector('input[name="' + item.name + '"]:checked');
+    } else if (item.type === 'checkbox') {
+      ok = item.el.checked;
+    } else {
+      ok = item.el.value.trim() !== '';
+    }
+    if (!ok) {
+      valid = false;
+      if (item.type === 'radio') {
+        /* highlight the group container */
+        var group = item.step.querySelector('[id$="Group"]');
+        if (!group) {
+          var wrap = item.el.closest('.apply-radio-group');
+          if (wrap) { wrap.style.outline = '2px solid #dc2626'; wrap.style.borderRadius = '4px'; }
+        }
+      } else {
+        item.el.classList.add('input-error');
+      }
+    }
+  });
+
+  if (!valid) {
+    var msg = document.querySelector('#step' + fromStep + ' .apply-error-msg');
+    if (!msg) {
+      msg = document.createElement('p');
+      msg.className = 'apply-error-msg visible';
+      msg.textContent = 'Please complete all required fields before continuing.';
+      document.getElementById('step' + fromStep).querySelector('.apply-nav').before(msg);
+    } else {
+      msg.classList.add('visible');
+    }
+    return;
+  }
+
+  goToStep(toStep);
+}
+
+function submitApplication() {
+  var lastStep = totalSteps;
+  var items = getRequiredInStep(lastStep);
+  var valid = true;
+
+  document.getElementById('step' + lastStep).querySelectorAll('.input-error').forEach(function(el) {
+    el.classList.remove('input-error');
+  });
+
+  items.forEach(function(item) {
+    var ok = true;
+    if (item.type === 'file') {
+      ok = item.el.files && item.el.files[0];
+    } else if (item.type === 'radio') {
+      ok = !!item.step.querySelector('input[name="' + item.name + '"]:checked');
+    } else if (item.type === 'checkbox') {
+      ok = item.el.checked;
+    } else {
+      ok = item.el.value.trim() !== '';
+    }
+    if (!ok) {
+      valid = false;
+      item.el.classList.add('input-error');
+    }
+  });
+
+  if (!valid) {
+    var msg = document.querySelector('#step' + lastStep + ' .apply-error-msg');
+    if (!msg) {
+      msg = document.createElement('p');
+      msg.className = 'apply-error-msg visible';
+      msg.textContent = 'Please complete all required fields before submitting.';
+      document.getElementById('step' + lastStep).querySelector('.apply-nav').before(msg);
+    } else {
+      msg.classList.add('visible');
+    }
+    return;
+  }
+
+  var btn = document.getElementById('submitBtn');
+  btn.disabled = true;
+  btn.textContent = 'Submitting…';
+
+  /* Build FormData — must use multipart for file uploads */
+  var formData = new FormData();
+  formData.append('form-name', 'fcp-international-application');
+
+  /* Text / select / radio / checkbox fields */
+  document.querySelectorAll('#applySteps input:not([type=file]):not([type=radio]):not([type=checkbox]), #applySteps select, #applySteps textarea').forEach(function(el) {
+    if (el.name) { formData.append(el.name, el.value); }
+  });
+
+  /* Checked radios */
+  document.querySelectorAll('#applySteps input[type=radio]:checked').forEach(function(el) {
+    formData.append(el.name, el.value);
+  });
+
+  /* Checked checkboxes — collect all values for same name */
+  var cbCollected = {};
+  document.querySelectorAll('#applySteps input[type=checkbox]:checked').forEach(function(el) {
+    if (!cbCollected[el.name]) { cbCollected[el.name] = []; }
+    cbCollected[el.name].push(el.value);
+  });
+  Object.keys(cbCollected).forEach(function(name) {
+    formData.append(name, cbCollected[name].join(', '));
+  });
+
+  /* File inputs */
+  document.querySelectorAll('#applySteps input[type=file]').forEach(function(el) {
+    if (el.name && el.files && el.files[0]) {
+      formData.append(el.name, el.files[0], el.files[0].name);
+    }
+  });
+
+  fetch('/', {
+    method: 'POST',
+    body: formData
+    /* Do NOT set Content-Type — browser sets multipart boundary automatically */
+  })
+  .then(function(response) {
+    if (response.ok) {
+      document.getElementById('applySteps').style.display = 'none';
+      document.getElementById('applySuccess').style.display = 'block';
+    } else {
+      throw new Error('Server returned ' + response.status);
+    }
+  })
+  .catch(function(err) {
+    btn.disabled = false;
+    btn.textContent = 'Submit Application';
+    var msg = document.querySelector('#step' + lastStep + ' .apply-error-msg');
+    if (!msg) {
+      msg = document.createElement('p');
+      msg.className = 'apply-error-msg visible';
+      document.getElementById('step' + lastStep).querySelector('.apply-nav').before(msg);
+    }
+    msg.textContent = 'Submission failed. Please try again or email us directly.';
+    msg.classList.add('visible');
+    console.error(err);
+  });
+}
+
+/* Init */
+document.addEventListener('DOMContentLoaded', function() {
+  goToStep(1);
+});
+</script>
