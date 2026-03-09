@@ -1,9 +1,4 @@
-/* ============================================
-   Florida Coastal Prep - Main Stylesheet
-   Colors: Navy #0a1628 | Red #c41e3a | Gold #d4a843 | White
-   ============================================ */
 
-/* --- Reset & Base --- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; font-size: 17px; }
 body {
@@ -14,7 +9,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 img { max-width: 100%; height: auto; display: block; }
-/* Touch/keyboard accessibility: visible focus ring for keyboard nav, suppress for mouse/touch */
 :focus-visible { outline: 2px solid #c41e3a; outline-offset: 2px; }
 :focus:not(:focus-visible) { outline: none; }
 a { color: #c41e3a; text-decoration: none; }
@@ -22,7 +16,6 @@ a:hover { color: #9b1830; }
 a:focus-visible { color: #9b1830; }
 a:active { color: #9b1830; }
 ul { list-style: none; }
-/* Screen-reader only utility — visually hidden but accessible */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -42,13 +35,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
 h2 { font-size: clamp(1.5rem, 3.5vw, 2.5rem); margin-bottom: 1rem; }
 h3 { font-size: clamp(1.2rem, 2.5vw, 1.75rem); }
-
-/* --- Layout --- */
 .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
 .container-narrow { max-width: 800px; }
 section { padding: 4rem 0; }
-
-/* --- Header / Nav --- */
 .site-header {
   position: fixed;
   top: 0;
@@ -105,8 +94,6 @@ section { padding: 4rem 0; }
 .nav-cta:hover { background: #a8182f !important; }
 .nav-cta:focus-visible { background: #a8182f !important; }
 .nav-cta:active { background: #a8182f !important; }
-
-/* Dropdown */
 .dropdown { position: relative; }
 .dropdown-menu {
   display: none;
@@ -129,8 +116,6 @@ section { padding: 4rem 0; }
 .dropdown-menu a:hover { background: rgba(255,255,255,0.05); }
 .dropdown-menu a:focus-visible { background: rgba(255,255,255,0.05); }
 .dropdown-menu a:active { background: rgba(255,255,255,0.05); }
-
-/* Mobile nav toggle */
 .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; }
 .nav-toggle span {
   display: block;
@@ -143,8 +128,6 @@ section { padding: 4rem 0; }
 .nav-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
 .nav-toggle.active span:nth-child(2) { opacity: 0; }
 .nav-toggle.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
-
-/* Dropdown arrow indicator */
 .dropdown > a::after {
   content: '';
   display: inline-block;
@@ -157,8 +140,6 @@ section { padding: 4rem 0; }
   vertical-align: middle;
   transition: transform 0.2s;
 }
-
-/* --- Hero Video --- */
 .hero { position: relative; min-height: auto; display: flex; align-items: center; overflow: hidden; }
 .hero-video { min-height: 80vh; }
 .hero-video-bg {
@@ -215,8 +196,6 @@ section { padding: 4rem 0; }
   margin-right: auto;
 }
 .hero-cta { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
-
-/* Hero stats bar */
 .hero-stats {
   display: flex;
   justify-content: center;
@@ -233,8 +212,6 @@ section { padding: 4rem 0; }
   font-weight: 800;
 }
 .stat-label { color: rgba(255,255,255,0.7); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
-
-/* Hero credential strip */
 .hero-credentials {
   margin-top: 2.5rem;
   display: flex;
@@ -271,8 +248,6 @@ section { padding: 4rem 0; }
 .credential-logo:active {
   opacity: 0.9;
 }
-
-/* Hero text entrance animation */
 @keyframes heroFadeUp {
   from {
     opacity: 0;
@@ -295,8 +270,6 @@ section { padding: 4rem 0; }
 .hero-content .hero-credentials {
   animation: heroFadeUp 0.9s ease-out 0.8s both;
 }
-
-/* Hero scroll indicator */
 .hero-scroll-indicator {
   position: relative;
   z-index: 3;
@@ -328,8 +301,6 @@ section { padding: 4rem 0; }
   50% { opacity: 0.3; transform: translateX(-50%) translateY(10px); }
   100% { opacity: 1; transform: translateX(-50%) translateY(0); }
 }
-
-/* Hero image variant */
 .hero-image {
   min-height: 60vh;
 }
@@ -343,7 +314,6 @@ section { padding: 4rem 0; }
   animation: kenburns 25s ease-in-out infinite alternate;
   z-index: 0;
 }
-
 @media (max-width: 768px) {
   .hero-image {
     min-height: 40vh;
@@ -352,13 +322,9 @@ section { padding: 4rem 0; }
     animation: none;
   }
 }
-
-/* FAQ hero — center on team trophy photo */
 .faq-page .hero-bg-img {
   object-position: center 35%;
 }
-
-/* --- Section Tags --- */
 .section-tag {
   display: inline-block;
   color: #c41e3a;
@@ -371,8 +337,6 @@ section { padding: 4rem 0; }
 .section-tag-light {
   color: #d4a843;
 }
-
-/* --- Impact Stats Bar --- */
 .impact-bar {
   background: #0a1628;
   padding: 3rem 0;
@@ -417,8 +381,6 @@ section { padding: 4rem 0; }
   letter-spacing: 0.1em;
   margin-top: 0.5rem;
 }
-
-/* --- Video Showcase --- */
 .video-showcase {
   padding: 5rem 0;
 }
@@ -442,8 +404,6 @@ section { padding: 4rem 0; }
   width: 100%;
   height: 100%;
 }
-
-/* --- About Split --- */
 .about-split {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -471,8 +431,6 @@ section { padding: 4rem 0; }
   box-shadow: 0 10px 40px rgba(0,0,0,0.1);
   animation: kenburns 25s ease-in-out infinite alternate;
 }
-
-/* --- Program Cards --- */
 .program-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -575,8 +533,6 @@ section { padding: 4rem 0; }
 .program-card:active .program-card-link {
   transform: translateX(4px);
 }
-
-/* --- Docuseries Section --- */
 .docuseries-section {
   background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 60%, #c41e3a 150%);
   padding: 5rem 0;
@@ -605,8 +561,6 @@ section { padding: 4rem 0; }
 .docuseries-video .video-embed {
   box-shadow: 0 20px 80px rgba(0,0,0,0.5);
 }
-
-/* --- Levels Grid (Where Athletes Play) --- */
 .placements-section {
   padding: 5rem 0;
 }
@@ -662,8 +616,6 @@ section { padding: 4rem 0; }
   font-size: 0.9rem;
   line-height: 1.5;
 }
-
-/* --- Partners Bar --- */
 .partners-bar {
   padding: 3rem 0;
   background: #f7f8fa;
@@ -700,8 +652,6 @@ section { padding: 4rem 0; }
   opacity: 1;
   filter: grayscale(0%);
 }
-
-/* --- Testimonials --- */
 .testimonials-section {
   padding: 5rem 0;
 }
@@ -756,8 +706,6 @@ section { padding: 4rem 0; }
   color: #999;
   font-size: 0.85rem;
 }
-
-/* --- Scroll Animations --- */
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
@@ -767,8 +715,6 @@ section { padding: 4rem 0; }
   opacity: 1;
   transform: translateY(0);
 }
-
-/* --- Buttons --- */
 .btn {
   display: inline-block;
   padding: 1rem 2.5rem;
@@ -799,8 +745,6 @@ section { padding: 4rem 0; }
 .btn-gold:hover { background: #c49a38; }
 .btn-gold:focus-visible { background: #c49a38; }
 .btn-gold:active { background: #c49a38; }
-
-/* --- Page Header --- */
 .page-header {
   background: #0a1628;
   padding: 8.5rem 0 3rem;
@@ -808,8 +752,6 @@ section { padding: 4rem 0; }
 }
 .page-header h1 { color: #fff; margin-bottom: 0.5rem; }
 .page-subtitle { color: rgba(255,255,255,0.7); font-size: 1.2rem; }
-
-/* --- Page Content --- */
 .page-content { padding: 3rem 0 4rem; }
 .page-content p { margin-bottom: 1.25rem; font-size: 1.08rem; color: #333; }
 .page-content h2 { margin-top: 2.5rem; margin-bottom: 1rem; }
@@ -817,29 +759,22 @@ section { padding: 4rem 0; }
 .page-content ul, .page-content ol { margin: 1rem 0 1.5rem 1.5rem; }
 .page-content li { margin-bottom: 0.5rem; color: #333; }
 .page-content img { border-radius: 12px; margin: 2rem 0; }
-
-/* --- Section Styles --- */
 .section-dark {
   background: #0a1628;
   color: #fff;
 }
 .section-dark h2, .section-dark h3 { color: #fff; }
 .section-dark p { color: rgba(255,255,255,0.8); }
-
 .section-light {
   background: #f7f8fa;
 }
-
 .section-header {
   text-align: center;
   max-width: 700px;
   margin: 0 auto 3rem;
 }
-
-/* --- Card Grids --- */
 .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
 .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
-
 .card {
   background: #fff;
   border-radius: 12px;
@@ -854,15 +789,11 @@ section { padding: 4rem 0; }
 .card-body { padding: 1.5rem; }
 .card-body h3 { margin-bottom: 0.5rem; font-size: 1.2rem; }
 .card-body p { color: #666; font-size: 0.95rem; }
-
-/* --- Staff / Coach Cards --- */
 .coach-card { text-align: center; }
 .coach-card img { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; object-position: top center; margin: 0 auto 1rem; }
 .coach-card h3 { font-size: 1.1rem; margin-bottom: 0.25rem; }
 .coach-card .role { color: #c41e3a; font-weight: 600; font-size: 0.9rem; }
 .coach-card .bio { color: #666; font-size: 0.9rem; margin-top: 0.5rem; }
-
-/* Staff grid */
 .staff-grid {
   display: grid;
   gap: 2rem;
@@ -870,8 +801,6 @@ section { padding: 4rem 0; }
 .staff-grid.grid-2-col { grid-template-columns: repeat(2, 1fr); }
 .staff-grid.grid-3-col { grid-template-columns: repeat(3, 1fr); }
 .staff-grid.grid-1-col { grid-template-columns: 1fr; max-width: 320px; margin-left: auto; margin-right: auto; }
-
-/* --- Placements / Stats --- */
 .placements-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -886,10 +815,6 @@ section { padding: 4rem 0; }
 }
 .placement .player { font-weight: 700; color: #d4a843; margin-bottom: 0.25rem; }
 .placement .school { font-size: 0.9rem; color: rgba(255,255,255,0.7); }
-
-/* --- Blog / News --- */
-
-/* Legacy post-grid (kept for compat) */
 .post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; }
 .post-card {
   display: block;
@@ -907,10 +832,6 @@ section { padding: 4rem 0; }
 .post-card-body { padding: 1.25rem; }
 .post-card-body time { color: #999; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
 .post-card-body h3 { font-size: 1.1rem; margin-top: 0.5rem; color: #0a1628; }
-
-/* ===== Blog / Newsroom — Premium Layout ===== */
-
-/* --- Hero Section --- */
 .blog-hero-section {
   background: #0a1628;
   padding: 9rem 0 3rem;
@@ -955,8 +876,6 @@ section { padding: 4rem 0; }
   font-style: italic;
   margin: 0;
 }
-
-/* --- Featured Section (dark) --- */
 .blog-feat-section {
   background: #0d1b30;
   padding: 4rem 0 4.5rem;
@@ -1091,8 +1010,6 @@ section { padding: 4rem 0; }
   color: #f0c860;
   letter-spacing: 2.5px;
 }
-
-/* --- Category badges (shared) --- */
 .blog-badge {
   display: inline-block;
   padding: 0.25rem 0.7rem;
@@ -1110,8 +1027,6 @@ section { padding: 4rem 0; }
 .blog-badge-program { background: #0a1628; color: #d4a843; border: 1px solid rgba(212,168,67,0.4); }
 .blog-badge-daily { background: #7c3aed; color: #fff; }
 .blog-badge-training { background: #ea580c; color: #fff; }
-
-/* --- All Stories Section (light) --- */
 .blog-stories-section {
   background: #f5f6f8;
   padding: 3.5rem 0 5rem;
@@ -1181,8 +1096,6 @@ section { padding: 4rem 0; }
   border-color: #0a1628;
   color: #fff;
 }
-
-/* --- Story Grid Cards --- */
 .blog-stories-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -1289,8 +1202,6 @@ section { padding: 4rem 0; }
   color: #f0c860;
   letter-spacing: 2.2px;
 }
-
-/* Post single */
 .post-header { background: #0a1628; padding: 8.5rem 0 3rem; text-align: center; }
 .post-header time { color: #d4a843; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; }
 .post-header h1 { color: #fff; margin-top: 0.75rem; }
@@ -1313,8 +1224,6 @@ section { padding: 4rem 0; }
 .post-body a:hover { color: #0a1628; }
 .post-body a:focus-visible { color: #0a1628; }
 .post-body a:active { color: #0a1628; }
-
-/* Post body — school/program comparison cards */
 .school-card { background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; padding: 2rem; margin: 2rem 0; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
 .school-card h2 { margin-top: 0; border-bottom: 3px solid #d4a843; }
 .school-card--fcp { border: 2px solid #c41e3a; background: linear-gradient(135deg, #fefefe 0%, #fdf5f5 100%); }
@@ -1325,8 +1234,6 @@ section { padding: 4rem 0; }
 .school-card .card-tag--location { background: #e8f4ff; color: #1a5276; }
 .school-card .card-tag--level { background: #e8ffe8; color: #1a6b1a; }
 .school-card h3 { font-size: 1.1rem; color: #0a1628; margin: 1.5rem 0 0.5rem; }
-
-/* Post body — comparison table */
 .compare-table-wrap { overflow-x: auto; margin: 2rem 0; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
 .compare-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
 .compare-table thead th { background: #0a1628; color: #fff; padding: 0.85rem 1rem; text-align: left; font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
@@ -1338,8 +1245,6 @@ section { padding: 4rem 0; }
 .compare-table tbody tr:hover { background: #f5f0e8; }
 .compare-table .highlight-row { background: #fdf5f5 !important; font-weight: 600; }
 .compare-table .highlight-row td { color: #c41e3a; }
-
-/* Post body — CTA banner */
 .post-cta { background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 100%); color: #fff; padding: 2.5rem; border-radius: 14px; text-align: center; margin: 3rem 0; }
 .post-cta h3 { color: #d4a843; font-size: 1.4rem; margin: 0 0 0.75rem; }
 .post-cta p { color: rgba(255,255,255,0.85); margin-bottom: 1.25rem; font-size: 1.05rem; }
@@ -1347,19 +1252,12 @@ section { padding: 4rem 0; }
 .post-cta a.cta-btn:hover { background: #a01830; transform: translateY(-2px); }
 .post-cta a.cta-btn:focus-visible { background: #a01830; transform: translateY(-2px); }
 .post-cta a.cta-btn:active { background: #a01830; transform: translateY(-2px); }
-
 @media (max-width: 768px) {
   .school-card { padding: 1.25rem; }
   .compare-table { font-size: 0.82rem; }
   .compare-table thead th, .compare-table tbody td { padding: 0.6rem 0.5rem; }
   .post-cta { padding: 1.5rem; }
 }
-
-/* ============================================
-   Alumni Article — Magazine-Style Blog Post
-   ============================================ */
-
-/* --- Hero Header --- */
 .alumni-article-hero {
   background: linear-gradient(165deg, #0a1628 0%, #0f2038 50%, #0a1628 100%);
   padding: 8rem 0 3.5rem;
@@ -1404,8 +1302,6 @@ section { padding: 4rem 0; }
   max-width: 620px;
   margin: 1rem auto 0;
 }
-
-/* --- Journey Card (Then → Now) --- */
 .journey-card-wrapper {
   background: #f0f2f5;
   padding: 2.5rem 0 1.5rem;
@@ -1505,8 +1401,6 @@ section { padding: 4rem 0; }
   margin-top: 1rem;
   margin-bottom: 0;
 }
-
-/* --- Journey Card: 3-Panel (with Video) --- */
 .journey-card-3 {
   grid-template-columns: 1fr auto 1fr auto 1fr;
   max-width: 1080px;
@@ -1525,8 +1419,6 @@ section { padding: 4rem 0; }
   background: rgba(10, 22, 40, 0.92);
   color: #d4a843;
 }
-
-/* --- Stats Bar --- */
 .alumni-stats-bar {
   background: #0a1628;
   padding: 1.75rem 0;
@@ -1556,8 +1448,6 @@ section { padding: 4rem 0; }
   letter-spacing: 0.1em;
   margin-top: 0.25rem;
 }
-
-/* --- Article Body Typography --- */
 .alumni-article-body {
   padding: 3.5rem 0 2rem;
 }
@@ -1665,8 +1555,6 @@ section { padding: 4rem 0; }
 .alumni-article-body em {
   color: #64748b;
 }
-
-/* Pull Quote */
 .alumni-article-body blockquote,
 .alumni-article-body .pull-quote {
   margin: 2.5rem 0;
@@ -1692,8 +1580,6 @@ section { padding: 4rem 0; }
   font-weight: 700;
   color: #c41e3a;
 }
-
-/* Highlight Box */
 .highlight-box {
   background: linear-gradient(135deg, #0a1628 0%, #142240 100%);
   border-radius: 12px;
@@ -1724,8 +1610,6 @@ section { padding: 4rem 0; }
 .highlight-box ul li strong {
   color: #fff;
 }
-
-/* Timeline Pill for College Journey */
 .timeline-stop {
   display: flex;
   gap: 1.25rem;
@@ -1748,8 +1632,6 @@ section { padding: 4rem 0; }
 .timeline-stop p {
   margin-bottom: 0;
 }
-
-/* --- Bio Footer Card --- */
 .alumni-bio-footer {
   padding: 0 0 3rem;
 }
@@ -1782,8 +1664,6 @@ section { padding: 4rem 0; }
   line-height: 1.6;
   margin: 0;
 }
-
-/* --- Alumni Article Responsive --- */
 @media (max-width: 768px) {
   .alumni-article-hero { padding: 6.5rem 0 2.5rem; }
   .alumni-article-title { font-size: 1.6rem; }
@@ -1826,8 +1706,6 @@ section { padding: 4rem 0; }
   .journey-card-now img { height: 160px; object-position: center 25%; }
   .journey-card-video video { height: 160px; }
 }
-
-/* --- GHL Form Embed --- */
 .ghl-form-wrapper {
   max-width: 600px;
   margin: 2rem auto;
@@ -1840,8 +1718,6 @@ section { padding: 4rem 0; }
   border: none;
   min-height: 500px;
 }
-
-/* --- CTA Section — ESPN-inspired --- */
 .cta-section {
   background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 100%);
   text-align: center;
@@ -1855,8 +1731,6 @@ section { padding: 4rem 0; }
 }
 .cta-section h2 { color: #fff; font-size: clamp(1.75rem, 4vw, 2.5rem); margin-bottom: 1rem; font-weight: 800; }
 .cta-section p { color: rgba(255,255,255,0.8); margin-bottom: 2rem; max-width: 550px; margin-left: auto; margin-right: auto; }
-
-/* --- Footer --- */
 .site-footer {
   background: #f7f8fa;
   color: #4a4a4a;
@@ -1944,8 +1818,6 @@ section { padding: 4rem 0; }
 .footer-bottom a:hover { color: #c41e3a; }
 .footer-bottom a:focus-visible { color: #c41e3a; }
 .footer-bottom a:active { color: #c41e3a; }
-
-/* --- Responsive: Tablet & Mobile Nav (<=1024px) --- */
 @media (max-width: 1024px) {
   .nav-toggle { display: block; z-index: 10; }
   .main-nav {
@@ -1973,7 +1845,6 @@ section { padding: 4rem 0; }
     min-width: unset;
     border-radius: 0;
   }
-  /* On mobile/tablet, only show dropdown when .open class is set (via JS click) */
   .dropdown:hover .dropdown-menu { display: none; }
   .dropdown.open > .dropdown-menu { display: block; }
   .dropdown.open > a::after { transform: rotate(180deg); }
@@ -1991,8 +1862,6 @@ section { padding: 4rem 0; }
   .video-hub-grid { grid-template-columns: 1fr; gap: 2rem; }
   .instagram-grid { grid-template-columns: repeat(2, 1fr); }
 }
-
-/* --- Responsive: Mobile (<=768px) --- */
 @media (max-width: 768px) {
   .hero { min-height: auto; }
   .hero-video { min-height: 70vh; }
@@ -2021,7 +1890,6 @@ section { padding: 4rem 0; }
   .staff-grid.grid-3-col { grid-template-columns: 1fr; }
   .news-ticker-label { font-size: 0.6rem; padding: 0.5rem 1rem; }
   .ticker-item { font-size: 0.75rem; padding: 0.5rem 1.5rem; }
-  /* Editorial: single-column grid + convert featured card to sidebar style on mobile */
   .editorial-grid { grid-template-columns: 1fr !important; }
   .editorial-feature { min-height: 0 !important; border-radius: 10px; display: grid; grid-template-columns: 100px 1fr; gap: 0.75rem; position: relative; overflow: hidden; background: #f5f7fa; }
   .editorial-feature-image { position: relative; height: 100%; min-height: 80px; max-height: 120px; }
@@ -2033,7 +1901,6 @@ section { padding: 4rem 0; }
   .editorial-feature-text time { color: #999; font-size: 0.7rem; text-transform: uppercase; }
   .editorial-sidebar { flex-direction: column; }
   .editorial-card { flex: 1 1 100%; min-width: 0; }
-  /* Blog / Newsroom responsive */
   .blog-hero-heading { font-size: 2.2rem; }
   .blog-feat-grid { grid-template-columns: 1fr; }
   .blog-feat-card { min-height: 380px; }
@@ -2048,8 +1915,6 @@ section { padding: 4rem 0; }
   .video-hub-grid { grid-template-columns: 1fr; gap: 2rem; }
   .testimonial-quote { font-size: 2.5rem; }
 }
-
-/* --- Responsive: Small Mobile (<=480px) --- */
 @media (max-width: 480px) {
   .container { padding: 0 1rem; }
   .hero-video { min-height: 100svh; min-height: 100vh; }
@@ -2069,7 +1934,6 @@ section { padding: 4rem 0; }
   .editorial-card-image { min-height: 80px; }
   .editorial-card-text { padding: 0.5rem 0.75rem 0.5rem 0; }
   .editorial-card-text h4 { font-size: 0.82rem; }
-  /* Blog / Newsroom small mobile */
   .blog-hero-section { padding: 7rem 0 2rem; }
   .blog-hero-heading { font-size: 1.8rem; }
   .blog-hero-desc { font-size: 1rem; }
@@ -2090,12 +1954,9 @@ section { padding: 4rem 0; }
   .news-ticker-label::after { right: -6px; width: 12px; }
   .partners-logos { gap: 1rem; }
   .partners-logos img { height: 24px; }
-  /* Footer small mobile */
   .footer-nav a { font-size: 0.85rem; }
   .footer-secondary a { font-size: 0.8rem; }
 }
-
-/* --- Touch Targets (coarse pointer) --- */
 @media (pointer: coarse) {
   .footer-nav a,
   .footer-secondary a,
@@ -2110,8 +1971,6 @@ section { padding: 4rem 0; }
     align-items: center;
   }
 }
-
-/* --- Utility Classes --- */
 .text-center { text-align: center; }
 .mt-2 { margin-top: 2rem; }
 .mt-3 { margin-top: 3rem; }
@@ -2123,12 +1982,8 @@ section { padding: 4rem 0; }
 .iframe-responsive { width: 100%; border: none; min-height: 500px; }
 .iframe-responsive-tall { width: 100%; border: none; min-height: 600px; }
 .map-embed { border: 0; }
-
-/* Ensure iframes never overflow containers */
 iframe { max-width: 100%; }
 .page-content iframe, .ghl-form-wrapper iframe { width: 100%; max-width: 100%; }
-
-/* --- Breaking News Ticker --- */
 .news-ticker {
   display: flex;
   align-items: stretch;
@@ -2205,8 +2060,6 @@ iframe { max-width: 100%; }
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
-
-/* --- Newsroom / Editorial Grid --- */
 .newsroom-section {
   padding: 2.5rem 0 3rem;
   background: #fff;
@@ -2381,9 +2234,6 @@ iframe { max-width: 100%; }
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
-
-
-/* --- Homepage Facilities Grid --- */
 .facilities-home-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2439,9 +2289,6 @@ iframe { max-width: 100%; }
 @media (max-width: 768px) {
   .facilities-home-grid { grid-template-columns: 1fr; }
 }
-
-
-/* --- Instagram Spotlight --- */
 .instagram-section {
   padding: 4rem 0 3rem;
   background: #f7f8fa;
@@ -2539,8 +2386,6 @@ iframe { max-width: 100%; }
   color: #fff;
   transform: translateY(-1px);
 }
-
-/* --- Video Hub --- */
 .video-hub-section {
   background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 60%, #c41e3a 180%);
   padding: 5rem 0;
@@ -2568,8 +2413,6 @@ iframe { max-width: 100%; }
   line-height: 1.5;
   margin-top: 0.75rem;
 }
-
-/* --- CTA Social Icons --- */
 .cta-social {
   display: flex;
   justify-content: center;
@@ -2603,13 +2446,6 @@ iframe { max-width: 100%; }
   border-color: #d4a843;
   background: rgba(212,168,67,0.12);
 }
-
-/* ============================================
-   Page Components — Staff, Housing, Training,
-   Programs, Post-Grad (BlackRock×Duke Premium)
-   ============================================ */
-
-/* --- Page Intro --- */
 .page-intro {
   max-width: 800px;
   margin: 0 auto;
@@ -2622,8 +2458,6 @@ iframe { max-width: 100%; }
   line-height: 1.8;
   margin-bottom: 1rem;
 }
-
-/* --- Section Headers (Shared Pattern) --- */
 .staff-section {
   padding: 4rem 0;
 }
@@ -2646,7 +2480,6 @@ iframe { max-width: 100%; }
 .staff-section-dark h2,
 .staff-section-dark h3 { color: #fff; }
 .staff-section-dark p { color: rgba(255,255,255,0.8); }
-
 .staff-section-header {
   text-align: center;
   margin-bottom: 3rem;
@@ -2670,8 +2503,6 @@ iframe { max-width: 100%; }
   margin: 1rem auto 0;
   border-radius: 2px;
 }
-
-/* --- Executive Team --- */
 .executive-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2776,8 +2607,6 @@ iframe { max-width: 100%; }
   letter-spacing: 0.05em;
   margin-top: 0.2rem;
 }
-
-/* --- Coaching Staff --- */
 .coaching-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2852,8 +2681,6 @@ iframe { max-width: 100%; }
   font-size: 0.88rem;
   line-height: 1.6;
 }
-
-/* --- Advisory Board --- */
 .advisory-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2897,8 +2724,6 @@ iframe { max-width: 100%; }
   font-size: 0.88rem;
   line-height: 1.5;
 }
-
-/* --- Admissions Feature --- */
 .admissions-feature {
   text-align: center;
   max-width: 400px;
@@ -2917,8 +2742,6 @@ iframe { max-width: 100%; }
 .admissions-feature .advisor-card img {
   border-color: rgba(212,168,67,0.3);
 }
-
-/* --- Housing Sections --- */
 .housing-section {
   padding: 3rem 0;
   max-width: 1200px;
@@ -2953,8 +2776,6 @@ iframe { max-width: 100%; }
 .housing-layout-reverse > * {
   direction: ltr;
 }
-
-/* Housing Gallery */
 .housing-gallery {
   display: flex;
   flex-direction: column;
@@ -3007,8 +2828,6 @@ iframe { max-width: 100%; }
 .gallery-row img:active {
   transform: scale(1.03);
 }
-
-/* Housing Info */
 .housing-info {
   display: flex;
   flex-direction: column;
@@ -3046,8 +2865,6 @@ iframe { max-width: 100%; }
   letter-spacing: 0.05em;
   margin-top: 0.25rem;
 }
-
-/* Interior Gallery */
 .interior-gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -3073,8 +2890,6 @@ iframe { max-width: 100%; }
 .interior-gallery img:active {
   transform: scale(1.04);
 }
-
-/* --- Facility Stats (Training Page) --- */
 .facility-stats {
   display: flex;
   justify-content: center;
@@ -3103,8 +2918,6 @@ iframe { max-width: 100%; }
   letter-spacing: 0.08em;
   margin-top: 0.35rem;
 }
-
-/* Facility Gallery */
 .facility-gallery {
   display: grid;
   grid-template-columns: 1.4fr 0.6fr;
@@ -3158,8 +2971,6 @@ iframe { max-width: 100%; }
 .facility-side:active img {
   transform: scale(1.03);
 }
-
-/* --- Feature Grid (Shared) --- */
 .feature-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -3205,8 +3016,6 @@ iframe { max-width: 100%; }
   font-size: 0.95rem;
   line-height: 1.65;
 }
-
-/* --- Program Highlights Bar --- */
 .program-highlights {
   display: flex;
   justify-content: center;
@@ -3235,8 +3044,6 @@ iframe { max-width: 100%; }
   letter-spacing: 0.08em;
   margin-top: 0.35rem;
 }
-
-/* --- Program Grid (Image + Details) --- */
 .program-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -3309,8 +3116,6 @@ iframe { max-width: 100%; }
   background: #c41e3a;
   border-radius: 50%;
 }
-
-/* --- Program Offers (Post-Grad) --- */
 .program-offers {
   max-width: 1200px;
   margin: 0 auto;
@@ -3351,12 +3156,6 @@ iframe { max-width: 100%; }
   font-size: 0.98rem;
   line-height: 1.65;
 }
-
-/* ============================================
-   Responsive — New Page Components
-   ============================================ */
-
-/* Tablet (<=1024px) */
 @media (max-width: 1024px) {
   .executive-grid { grid-template-columns: 1fr; gap: 2rem; }
   .coaching-grid { grid-template-columns: 1fr; }
@@ -3370,8 +3169,6 @@ iframe { max-width: 100%; }
   .feature-grid { grid-template-columns: repeat(2, 1fr); }
   .interior-gallery { grid-template-columns: repeat(2, 1fr); }
 }
-
-/* Mobile (<=768px) */
 @media (max-width: 768px) {
   .staff-section { padding: 3rem 0; }
   .staff-section-dark { padding: 3rem 0; }
@@ -3403,8 +3200,6 @@ iframe { max-width: 100%; }
   .page-intro p { font-size: 1.05rem; }
   .exec-stats { flex-wrap: wrap; gap: 1rem; justify-content: center; }
 }
-
-/* Small Mobile (<=480px) */
 @media (max-width: 480px) {
   .executive-photo { aspect-ratio: 1 / 1; }
   .executive-info { padding: 1.25rem; }
@@ -3423,8 +3218,6 @@ iframe { max-width: 100%; }
   .offer-item { padding: 1.5rem; }
   .advisor-card img { width: 100px; height: 100px; }
 }
-
-/* --- Testimonial Spotlight --- */
 .testimonial-spotlight {
   max-width: 800px;
   margin: 2rem auto 0;
@@ -3461,8 +3254,6 @@ iframe { max-width: 100%; }
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-
-/* --- Timeline Grid --- */
 .timeline-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -3510,8 +3301,6 @@ iframe { max-width: 100%; }
   color: #555;
   line-height: 1.6;
 }
-
-/* --- Testimonial Grid & Cards --- */
 .testimonial-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -3566,8 +3355,6 @@ iframe { max-width: 100%; }
   font-size: 0.85rem;
   color: #888;
 }
-
-/* Responsive: testimonials & timeline */
 @media (max-width: 768px) {
   .testimonial-grid { grid-template-columns: 1fr; }
   .timeline-grid { grid-template-columns: 1fr 1fr; gap: 1rem; }
@@ -3579,79 +3366,49 @@ iframe { max-width: 100%; }
   .timeline-card { padding: 1.5rem; }
   .testimonial-card { padding: 1.5rem; }
 }
-
-/* Biancardi duo — tighter proportions and photo framing */
 .biancardi-duo-photo img {
   aspect-ratio: 3 / 2;
   object-fit: cover;
   object-position: center 30%;
 }
-
-/* ============================================
-   Testimonials Page — Mobile Inline-Style Overrides
-   Fixes intro box padding, justified text,
-   CTA spacing, and section margins at mobile.
-   ============================================ */
-
 @media (max-width: 768px) {
-  /* Intro box: reduce padding so text has room */
   .page-content .fade-in[style*="border-left: 4px solid"] {
     padding: 1.5rem 1.25rem !important;
     border-radius: 0 8px 8px 0 !important;
     margin-bottom: 2rem !important;
   }
-
-  /* Kill justified text on inline-styled paragraphs — prevents rivers of whitespace */
   .page-content p[style*="text-align: justify"],
   .testimonial-card p {
     text-align: left !important;
   }
-
-  /* Scale down inline h2 font sizes */
   .page-content h2[style*="font-size: 2rem"] {
     font-size: 1.5rem !important;
   }
-
-  /* Scale down inline paragraph font sizes */
   .page-content p[style*="font-size: 1.1rem"] {
     font-size: 1rem !important;
   }
-
-  /* CTA section: tighter on tablet */
   .cta-section {
     padding: 2.5rem 1.25rem;
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 10px !important;
   }
-
-  /* Tighten section header spacing */
   .page-content .staff-section-header {
     margin-bottom: 2rem;
   }
-
-  /* Testimonial quote mark: scale down */
   .testimonial-quote-mark {
     font-size: 3rem;
   }
-
-  /* ESPN section: tighter padding */
   .page-content .staff-section-dark {
     padding: 2rem 0 !important;
   }
-
-  /* Program grid: reduce side padding on mobile */
   .program-grid {
     padding: 0 1rem;
     gap: 1.5rem;
   }
-
-  /* Program image: reduce min-height in single-column range */
   .program-image img {
     min-height: 220px;
   }
-
-  /* Feature icon SVG: slightly smaller on mobile */
   .feature-icon-svg {
     width: 46px;
     height: 46px;
@@ -3660,20 +3417,14 @@ iframe { max-width: 100%; }
     width: 22px;
     height: 22px;
   }
-
-  /* Program offers: reduce side padding */
   .program-offers {
     padding: 0 1rem;
   }
 }
-
 @media (max-width: 480px) {
-  /* Intro box: even tighter on small phones */
   .page-content .fade-in[style*="border-left: 4px solid"] {
     padding: 1.25rem 1rem !important;
   }
-
-  /* CTA section: compact on small phones */
   .cta-section {
     padding: 2rem 1rem;
     margin-left: 0.75rem;
@@ -3684,8 +3435,6 @@ iframe { max-width: 100%; }
   .cta-section h2 {
     font-size: 1.5rem;
   }
-
-  /* Hero CTA buttons: full width on small phones */
   .cta-section .hero-cta {
     flex-direction: column;
     align-items: stretch;
@@ -3694,32 +3443,22 @@ iframe { max-width: 100%; }
     width: 100%;
     text-align: center;
   }
-
-  /* Program grid: minimal padding on small phones */
   .program-grid {
     padding: 0 0.75rem;
     gap: 1.25rem;
   }
-
-  /* Program offers: minimal padding on small phones */
   .program-offers {
     padding: 0 0.75rem;
   }
-
-  /* Testimonial quote mark: even smaller */
   .testimonial-quote-mark {
     font-size: 2.5rem;
     margin-bottom: -0.25rem;
   }
-
-  /* Biancardi wrapper: tighter padding */
   .page-content .fade-in[style*="box-shadow"] {
     padding: 0.75rem !important;
     border-radius: 12px !important;
   }
 }
-
-/* --- 404 Page --- */
 .error-page { text-align: center; padding: 4rem 1.5rem; }
 .error-page p { font-size: 1.2rem; margin-bottom: 2rem; }
 .btn-outline-dark {
@@ -3754,8 +3493,6 @@ iframe { max-width: 100%; }
   box-shadow: 0 4px 16px rgba(196, 30, 58, 0.3);
   transform: translateY(-1px);
 }
-
-/* --- Process Steps (Tuition Page) --- */
 .process-steps {
   max-width: 800px;
   margin: 0 auto;
@@ -3827,8 +3564,6 @@ iframe { max-width: 100%; }
   color: #d4a843;
   font-weight: 700;
 }
-
-/* --- FAQ Grid & Cards --- */
 .faq-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -3866,8 +3601,6 @@ iframe { max-width: 100%; }
   line-height: 1.7;
   margin: 0;
 }
-
-/* --- Checklist (What to Bring) --- */
 .checklist {
   list-style: none;
   padding: 0;
@@ -3891,8 +3624,6 @@ iframe { max-width: 100%; }
   font-weight: 700;
   font-size: 0.95rem;
 }
-
-/* Responsive: Process & FAQ */
 @media (max-width: 768px) {
   .process-step { flex-direction: column; gap: 1rem; padding: 1.5rem; }
   .faq-grid { grid-template-columns: 1fr; }
@@ -3901,8 +3632,6 @@ iframe { max-width: 100%; }
   .process-number { width: 40px; height: 40px; font-size: 1.1rem; }
   .faq-card { padding: 1.5rem; }
 }
-
-/* --- FAQ Accordion (faq.html) --- */
 .faq-section {
   margin-bottom: 2rem;
 }
@@ -3987,8 +3716,6 @@ iframe { max-width: 100%; }
 .faq-answer a:active {
   text-decoration-color: #c41e3a;
 }
-
-/* FAQ Accordion — Tablet */
 @media (max-width: 768px) {
   .faq-section h2 {
     font-size: 1.3rem;
@@ -4001,8 +3728,6 @@ iframe { max-width: 100%; }
     font-size: 0.95rem;
   }
 }
-
-/* FAQ Accordion — Small Mobile */
 @media (max-width: 480px) {
   .faq-section h2 {
     font-size: 1.2rem;
@@ -4021,10 +3746,6 @@ iframe { max-width: 100%; }
     line-height: 1.65;
   }
 }
-
-/* ========================================
-   THE GRIND SESSION — Hero Badge
-   ======================================== */
 .grind-session-badge {
   display: inline-flex;
   align-items: center;
@@ -4082,10 +3803,6 @@ iframe { max-width: 100%; }
   0%, 100% { box-shadow: 0 0 0 0 rgba(196,30,58,0); }
   50% { box-shadow: 0 0 20px 4px rgba(196,30,58,0.3); }
 }
-
-/* ========================================
-   THE GRIND SESSION — Featured Section
-   ======================================== */
 .grind-section {
   position: relative;
   background: #0a1628;
@@ -4206,8 +3923,6 @@ iframe { max-width: 100%; }
   text-transform: uppercase;
   opacity: 0.85;
 }
-
-/* Grind Section Responsive */
 @media (max-width: 1024px) {
   .grind-layout { grid-template-columns: 1fr; gap: 2.5rem; }
   .grind-title { font-size: 2.2rem; }
@@ -4220,11 +3935,6 @@ iframe { max-width: 100%; }
   .grind-session-badge { flex-wrap: wrap; justify-content: center; text-align: center; padding: 0.5rem 1rem; gap: 0.4rem; }
   .gsb-text { font-size: 0.7rem; }
 }
-
-/* =============================================
-   COMMITMENTS PAGE
-   ============================================= */
-
 .commitments-intro {
   max-width: 780px;
   margin: 0 auto 2.5rem;
@@ -4233,8 +3943,6 @@ iframe { max-width: 100%; }
   line-height: 1.7;
   color: #555;
 }
-
-/* Filters */
 .commitment-filters {
   display: flex;
   flex-wrap: wrap;
@@ -4291,16 +3999,12 @@ iframe { max-width: 100%; }
   border-color: #c41e3a;
   color: #fff;
 }
-
-/* No Results */
 .commit-no-results {
   text-align: center;
   padding: 3rem 1rem;
   color: #888;
   font-size: 1.05rem;
 }
-
-/* Featured Alumni Carousel */
 .featured-alumni-carousel {
   margin: 2rem 0 2.5rem;
 }
@@ -4408,15 +4112,11 @@ iframe { max-width: 100%; }
     aspect-ratio: 16 / 10;
   }
 }
-
-/* Card Grid */
 .commit-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 1.25rem;
 }
-
-/* Individual Card */
 .commit-card {
   background: #fff;
   border-radius: 12px;
@@ -4471,7 +4171,6 @@ iframe { max-width: 100%; }
 .commit-badge-d3 { background: #2d5a3d; }
 .commit-badge-naia { background: #1e3a5f; }
 .commit-badge-juco { background: #3a6fa0; }
-
 .commit-position,
 .commit-year {
   font-size: 0.82rem;
@@ -4488,8 +4187,6 @@ iframe { max-width: 100%; }
   color: #d4a843;
   margin: 0.3rem 0 0;
 }
-
-/* Responsive */
 @media (max-width: 768px) {
   .commitment-filters {
     flex-direction: column;
@@ -4507,10 +4204,6 @@ iframe { max-width: 100%; }
     justify-content: center;
   }
 }
-
-/* ===================== */
-/* ALUMNI SPOTLIGHT      */
-/* ===================== */
 .alumni-spotlight {
   background: #0a1628;
   overflow: hidden;
@@ -4519,15 +4212,11 @@ iframe { max-width: 100%; }
 }
 .alumni-editorial { order: 1; }
 .alumni-editorial-cta { order: 2; }
-
-/* Dual editorial grid */
 .alumni-editorial {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2px;
 }
-
-/* Each card is a full-image editorial feature */
 .alumni-card {
   position: relative;
   overflow: hidden;
@@ -4536,8 +4225,6 @@ iframe { max-width: 100%; }
   text-decoration: none;
   cursor: pointer;
 }
-
-/* Full-bleed background image */
 .alumni-card-image {
   position: absolute;
   inset: 0;
@@ -4567,7 +4254,6 @@ iframe { max-width: 100%; }
   animation-play-state: paused;
   transform: scale(1.06);
 }
-
 @keyframes kenburns {
   0% {
     transform: scale(1) translate(0, 0);
@@ -4576,8 +4262,6 @@ iframe { max-width: 100%; }
     transform: scale(1.08) translate(-1%, -1.5%);
   }
 }
-
-/* Editorial overlay with gradient */
 .alumni-card-overlay {
   position: absolute;
   bottom: 0;
@@ -4596,8 +4280,6 @@ iframe { max-width: 100%; }
   flex-direction: column;
   gap: 0.5rem;
 }
-
-/* Badges row */
 .alumni-card-badges {
   display: flex;
   gap: 0.5rem;
@@ -4620,8 +4302,6 @@ iframe { max-width: 100%; }
   background: #d4a843;
   color: #0a1628;
 }
-
-/* Article title */
 .alumni-card-title {
   color: #fff;
   font-size: 1.4rem;
@@ -4629,16 +4309,12 @@ iframe { max-width: 100%; }
   line-height: 1.3;
   margin: 0;
 }
-
-/* Excerpt text */
 .alumni-card-excerpt {
   color: rgba(255,255,255,0.75);
   font-size: 0.9rem;
   line-height: 1.55;
   margin: 0;
 }
-
-/* Read more link */
 .alumni-card-link {
   color: #d4a843;
   font-weight: 700;
@@ -4658,8 +4334,6 @@ iframe { max-width: 100%; }
   color: #f0c860;
   letter-spacing: 2.5px;
 }
-
-/* CTA bar below cards */
 .alumni-editorial-cta {
   text-align: center;
   padding: 3.5rem 1.5rem;
@@ -4691,8 +4365,6 @@ iframe { max-width: 100%; }
 .spotlight-accent {
   color: #d4a843;
 }
-
-/* Responsive: stack on mobile */
 @media (max-width: 768px) {
   .alumni-editorial {
     grid-template-columns: 1fr;
@@ -4734,11 +4406,6 @@ iframe { max-width: 100%; }
     font-size: 1.3rem;
   }
 }
-/* end alumni spotlight */
-
-/* =============================================
-   POST META: Reading Time & Author
-   ============================================= */
 .post-meta {
   display: flex;
   align-items: center;
@@ -4760,10 +4427,6 @@ iframe { max-width: 100%; }
   color: #888;
   font-weight: 500;
 }
-
-/* =============================================
-   BLOG POST — Embedded Video
-   ============================================= */
 .blog-video-wrapper {
   margin: 2rem 0;
   border-radius: 12px;
@@ -4786,10 +4449,6 @@ iframe { max-width: 100%; }
   line-height: 1.6;
   font-style: normal;
 }
-
-/* =============================================
-   SOCIAL SHARING BAR
-   ============================================= */
 .post-share {
   border-top: 1px solid #eee;
   padding: 1.5rem 0;
@@ -4897,10 +4556,6 @@ iframe { max-width: 100%; }
   opacity: 1;
   transform: translateX(-50%) scale(1);
 }
-
-/* =============================================
-   AUTHOR CARD
-   ============================================= */
 .post-author {
   padding: 0 0 2.5rem;
 }
@@ -4936,8 +4591,6 @@ iframe { max-width: 100%; }
   color: #666;
   line-height: 1.5;
 }
-
-/* Responsive share & author */
 @media (max-width: 480px) {
   .post-share-bar {
     flex-direction: column;
@@ -4950,12 +4603,6 @@ iframe { max-width: 100%; }
     padding: 1.25rem 1rem;
   }
 }
-
-/* =============================================
-   COLLEGE COMMITMENTS PAGE  — Premium Redesign
-   ============================================= */
-
-/* ── Hero ── */
 .cp-hero {
   position: relative;
   background: #0a1628;
@@ -4996,8 +4643,6 @@ iframe { max-width: 100%; }
   margin: 0 0 2.5rem;
   letter-spacing: 0.01em;
 }
-
-/* Stats row */
 .cp-stats {
   display: flex;
   justify-content: center;
@@ -5035,8 +4680,6 @@ iframe { max-width: 100%; }
   height: 40px;
   background: rgba(255,255,255,0.12);
 }
-
-/* ── Section header (reusable) ── */
 .cp-section-header {
   text-align: center;
   margin-bottom: 2.5rem;
@@ -5068,8 +4711,6 @@ iframe { max-width: 100%; }
 .cp-section-desc--dark {
   color: #888;
 }
-
-/* ── Featured Alumni — dark section ── */
 .cp-featured {
   background: #0d1b30;
   padding: 4rem 0 4.5rem;
@@ -5118,7 +4759,6 @@ iframe { max-width: 100%; }
 .cp-feat-card:active .cp-feat-img img {
   transform: scale(1.05);
 }
-/* Per-player object-position overrides */
 .cp-feat-card[data-player="kylin-green"] .cp-feat-img img {
   object-position: center 45%;
 }
@@ -5186,7 +4826,6 @@ iframe { max-width: 100%; }
 .cp-feat-card:active .cp-feat-arrow {
   color: #d4a843;
 }
-/* Video card variant */
 .cp-feat-img video {
   display: block;
   width: 100%;
@@ -5212,14 +4851,10 @@ iframe { max-width: 100%; }
   z-index: 3;
   pointer-events: none;
 }
-
-/* ── Commitment Board — light section ── */
 .cp-board {
   background: #f5f6f8;
   padding: 4rem 0 4.5rem;
 }
-
-/* Filters */
 .cp-filters {
   background: #fff;
   border: 1px solid #e4e6ea;
@@ -5281,20 +4916,16 @@ iframe { max-width: 100%; }
   border-color: #0a1628;
   color: #fff;
 }
-/* Level-specific active colors */
 .cp-pill--d1.active { background: #c41e3a; border-color: #c41e3a; }
 .cp-pill--d2.active { background: #0a1628; border-color: #0a1628; }
 .cp-pill--d3.active { background: #2a5f8f; border-color: #2a5f8f; }
 .cp-pill--naia.active { background: #1a3a5c; border-color: #1a3a5c; }
 .cp-pill--juco.active { background: #4a7ab5; border-color: #4a7ab5; }
-
 .cp-filter-count {
   font-size: 0.75rem;
   color: #999;
   text-align: right;
 }
-
-/* Row-based commitment list */
 .cp-list {
   display: flex;
   flex-direction: column;
@@ -5342,7 +4973,6 @@ iframe { max-width: 100%; }
 .cp-level--d3 { background: #2a5f8f; color: #fff; }
 .cp-level--naia { background: #1a3a5c; color: #fff; }
 .cp-level--juco { background: #4a7ab5; color: #fff; }
-
 .cp-row-main {
   flex: 1;
   min-width: 0;
@@ -5396,8 +5026,6 @@ iframe { max-width: 100%; }
   border-radius: 12px;
   color: #888;
 }
-
-/* ── Commitments Responsive ── */
 @media (max-width: 1024px) {
   .cp-featured-row--top {
     grid-template-columns: repeat(3, 1fr);
@@ -5443,10 +5071,6 @@ iframe { max-width: 100%; }
   .cp-row { padding: 0.75rem 1rem; }
   .cp-row-details { padding-left: 0; }
 }
-
-/* ── Commitments Mobile Enhancement ─────────────────────── */
-
-/* Tablet: note alignment + touch-friendly pills */
 @media (max-width: 768px) {
   .cp-filters {
     padding: 1rem 1.25rem;
@@ -5461,8 +5085,6 @@ iframe { max-width: 100%; }
     padding-left: 58px;
   }
 }
-
-/* Small phone: tighter layout, realign details under name */
 @media (max-width: 480px) {
   .cp-filters {
     padding: 0.75rem 1rem;
@@ -5500,8 +5122,6 @@ iframe { max-width: 100%; }
     font-size: 0.95rem;
   }
 }
-
-/* Extra-small phones: iPhone SE, 375px and below */
 @media (max-width: 480px) {
   .cp-hero {
     padding: 4.5rem 0 2rem;
@@ -5544,8 +5164,6 @@ iframe { max-width: 100%; }
     padding-left: 50px;
   }
 }
-
-/* Touch devices: enforce 44px tap targets */
 @media (pointer: coarse) {
   .cp-pill {
     min-height: 44px;
@@ -5556,8 +5174,6 @@ iframe { max-width: 100%; }
     min-height: 56px;
   }
 }
-
-/* --- Schedule Tables --- */
 .schedule-intro {
   max-width: 800px;
   margin: 0 auto 2rem;
@@ -5686,8 +5302,6 @@ iframe { max-width: 100%; }
     padding: 0.55rem 1rem;
   }
 }
-
-/* --- Accessibility: Reduced Motion --- */
 @media (prefers-reduced-motion: reduce) {
   .hero-bg-img,
   .about-image img,
@@ -5702,12 +5316,6 @@ iframe { max-width: 100%; }
     animation: none !important;
   }
 }
-
-/* ===================================================================
-   MULTI-PAGE REDESIGN — SVG Icons, Coach Grid, Enrollment Steps
-   =================================================================== */
-
-/* --- SVG Icon System (replaces emoji icons site-wide) --- */
 .feature-icon-svg {
   display: flex;
   align-items: center;
@@ -5729,20 +5337,14 @@ iframe { max-width: 100%; }
 .feature-card .feature-icon-svg {
   margin-bottom: 1.1rem;
 }
-
-/* Alternate: red icon variant */
 .feature-icon-svg.icon-red {
   background: linear-gradient(135deg, #c41e3a 0%, #a01830 100%);
   color: #fff;
 }
-
-/* Alternate: gold icon variant */
 .feature-icon-svg.icon-gold {
   background: linear-gradient(135deg, #d4a843 0%, #b8912e 100%);
   color: #0a1628;
 }
-
-/* --- Coach Card Grid (3-4 per row, uniform images) --- */
 .coach-card-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -5829,8 +5431,6 @@ iframe { max-width: 100%; }
   border-radius: 20px;
   margin-bottom: 0.6rem;
 }
-
-/* Coach grid responsive */
 @media (max-width: 1024px) {
   .coach-card-grid,
   .coach-card-grid.four-col {
@@ -5852,8 +5452,6 @@ iframe { max-width: 100%; }
     margin: 0 auto;
   }
 }
-
-/* --- CCU Enrollment Steps --- */
 .enrollment-steps {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -5919,8 +5517,6 @@ iframe { max-width: 100%; }
     min-width: 0;
   }
 }
-
-/* --- CCU Contact Card --- */
 .ccu-contact {
   background: #fff;
   border-radius: 12px;
@@ -5945,8 +5541,6 @@ iframe { max-width: 100%; }
   color: #c41e3a;
   font-weight: 600;
 }
-
-/* --- Daily Schedule Table --- */
 .daily-schedule {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -5974,16 +5568,12 @@ iframe { max-width: 100%; }
   font-size: 0.98rem;
   color: rgba(255,255,255,0.9);
 }
-
-/* Light variant for non-dark sections */
 .daily-schedule-light .schedule-block {
   background: #f8f9fb;
 }
 .daily-schedule-light .schedule-activity {
   color: #333;
 }
-
-/* --- Alumni Callout Cards --- */
 .alumni-callout-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -6023,8 +5613,6 @@ iframe { max-width: 100%; }
   font-size: 0.82rem;
   margin-top: 0.3rem;
 }
-
-/* --- Supervised Living Trust Bar --- */
 .trust-bar {
   display: flex;
   align-items: center;
@@ -6061,11 +5649,6 @@ iframe { max-width: 100%; }
   font-size: 0.9rem;
   margin: 0;
 }
-
-/* ============================================
-   Feature Cards — Light Background Override
-   (fixes white-on-white text on About, Training, etc.)
-   ============================================ */
 .program-offers .feature-card,
 .staff-section:not(.staff-section-dark) .feature-card {
   background: #fff;
@@ -6102,11 +5685,6 @@ iframe { max-width: 100%; }
 .staff-section:not(.staff-section-dark) .feature-card p {
   color: #555;
 }
-
-/* ============================================
-   Coach Card — Photo Gradient Overlay
-   (adds SPIRE-style bottom gradient on photos)
-   ============================================ */
 .coach-card-photo {
   position: relative;
 }
@@ -6120,10 +5698,6 @@ iframe { max-width: 100%; }
   background: linear-gradient(to top, rgba(10,22,40,0.35), transparent);
   pointer-events: none;
 }
-
-/* ============================================
-   Admissions — Horizontal Feature Card
-   ============================================ */
 .admissions-feature {
   display: flex;
   align-items: center;
@@ -6184,10 +5758,6 @@ iframe { max-width: 100%; }
     text-align: center;
   }
 }
-
-/* ============================================
-   Feature Icon SVG — Size bump for premium feel
-   ============================================ */
 .feature-icon-svg {
   width: 60px;
   height: 60px;
@@ -6196,10 +5766,6 @@ iframe { max-width: 100%; }
   width: 28px;
   height: 28px;
 }
-
-/* ============================================
-   Coach Card — Larger text for premium look
-   ============================================ */
 .coach-card-info {
   padding: 1.4rem 1.15rem 1.6rem;
 }
@@ -6210,55 +5776,33 @@ iframe { max-width: 100%; }
   font-size: 0.72rem;
   padding: 0.3rem 0.85rem;
 }
-
-/* ============================================
-   Program Pages — Mobile Inline-Style Overrides
-   Fixes intro box padding, justified text,
-   impact grid, and image heights at mobile.
-   ============================================ */
-
 @media (max-width: 768px) {
-  /* Intro box: reduce padding so text has room */
   .page-content .fade-in[style*="border-left: 4px solid"] {
     padding: 1.5rem 1.25rem !important;
     border-radius: 0 8px 8px 0 !important;
   }
-
-  /* Kill justified text — prevents rivers of whitespace */
   .page-content p[style*="text-align: justify"],
   .program-details p[style*="text-align: justify"] {
     text-align: left !important;
   }
-
-  /* Scale down inline h2 sizes */
   .page-content h2[style*="font-size: 2rem"] {
     font-size: 1.5rem !important;
   }
-
-  /* Scale down inline paragraph font sizes */
   .page-content p[style*="font-size: 1.1rem"],
   .page-content p[style*="font-size: 1.08rem"] {
     font-size: 1rem !important;
   }
-
-  /* About: justified text via class (not caught by attribute selector) */
   .program-offers .feature-card p {
     text-align: left !important;
   }
-
-  /* About: partner logos — reduce padding and gap */
   .page-content .fade-in > div[style*="display: flex"][style*="gap: 3rem"] {
     gap: 1.5rem !important;
     padding: 1.25rem 1rem !important;
   }
-
-  /* About: partner logo images — scale down */
   .page-content .fade-in > div[style*="display: flex"] > img[style*="height: 75px"],
   .page-content .fade-in > div[style*="display: flex"] > img[style*="height: 80px"] {
     height: 50px !important;
   }
-
-  /* About: path card logos — tighten spacing */
   .path-logos {
     gap: 1rem;
     padding: 1rem 1.25rem;
@@ -6268,42 +5812,28 @@ iframe { max-width: 100%; }
     max-width: 140px;
   }
 }
-
 @media (max-width: 480px) {
-  /* Intro box: even tighter on small phones */
   .page-content .fade-in[style*="border-left: 4px solid"] {
     padding: 1.25rem 1rem !important;
   }
-
-  /* Impact grid: single column on small mobile */
   .impact-grid {
     grid-template-columns: 1fr;
     gap: 0.75rem;
   }
-
-  /* Program image: reduce excessive height */
   .program-image img {
     min-height: 200px;
   }
-
-  /* Feature cards: tighter padding */
   .feature-card {
     padding: 1.75rem 1rem;
   }
-
-  /* Docuseries grid gap */
   .staff-section-dark .program-grid {
     gap: 1.5rem !important;
   }
-
-  /* About: partner logos — even tighter on small phones */
   .page-content .fade-in > div[style*="display: flex"][style*="gap: 3rem"] {
     gap: 1rem !important;
     padding: 1rem 0.75rem !important;
     justify-content: center !important;
   }
-
-  /* About: path cards — reduce inline padding */
   .path-card {
     padding: 1.5rem 1rem !important;
   }
@@ -6315,37 +5845,23 @@ iframe { max-width: 100%; }
     height: 40px;
     max-width: 110px;
   }
-
-  /* About: two-paths grid — single column on small phones */
   .two-paths-grid {
     grid-template-columns: 1fr !important;
     gap: 1.5rem !important;
   }
 }
-
-/* ============================================
-   Post-Grad & Program Pages — Polish Pass
-   Rounds sharp corners on dark sections, impact
-   bar, alumni cards; fixes justified text rivers.
-   ============================================ */
-
-/* Dark sections: round corners + side margins (matches CTA section pattern) */
 .page-content .staff-section-dark {
   border-radius: 16px;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   overflow: hidden;
 }
-
-/* Impact bar: match the rounded dark-section treatment */
 .page-content .impact-bar {
   border-radius: 16px;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   overflow: hidden;
 }
-
-/* Alumni callout cards: stronger border + glow on hover */
 .alumni-callout-card {
   border: 1px solid rgba(212, 168, 67, 0.35) !important;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
@@ -6363,13 +5879,9 @@ iframe { max-width: 100%; }
   border-color: rgba(212, 168, 67, 0.6) !important;
   box-shadow: 0 8px 32px rgba(212, 168, 67, 0.15), 0 4px 16px rgba(0, 0, 0, 0.25);
 }
-
-/* Feature card text: left-align to prevent justified word-spacing rivers */
 .program-offers .feature-card p {
   text-align: left !important;
 }
-
-/* "View All" buttons inside dark sections: polished outline style */
 .staff-section-dark .btn-outline {
   border: 2px solid rgba(255, 255, 255, 0.4);
   border-radius: 8px;
@@ -6399,15 +5911,11 @@ iframe { max-width: 100%; }
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(255, 255, 255, 0.1);
 }
-
-/* Section spacing: breathe between rounded dark blocks and white content */
 .page-content .staff-section-dark + section,
 .page-content .staff-section-dark + .program-grid,
 .page-content .impact-bar + section {
   margin-top: 3rem;
 }
-
-/* Mobile adjustments for rounded dark sections */
 @media (max-width: 768px) {
   .page-content .staff-section-dark,
   .page-content .impact-bar {
@@ -6427,19 +5935,12 @@ iframe { max-width: 100%; }
     gap: 1rem;
   }
 }
-
-/* ============================================
-   Connect With Our Team — Inline Form Section
-   Appears on every page except the homepage,
-   right above the footer.
-   ============================================ */
 .connect-form-section {
   background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 100%);
   padding: 4rem 0 2rem;
   position: relative;
   overflow: hidden;
 }
-
 .connect-form-section::before {
   content: '';
   position: absolute;
@@ -6449,16 +5950,13 @@ iframe { max-width: 100%; }
   height: 4px;
   background: linear-gradient(90deg, #d4a843, #c49a38, #d4a843);
 }
-
 .connect-form-header {
   text-align: center;
   margin-bottom: 2rem;
 }
-
 .connect-form-header .section-label {
   color: #d4a843;
 }
-
 .connect-form-header h2 {
   color: #fff;
   font-size: 2.25rem;
@@ -6466,11 +5964,9 @@ iframe { max-width: 100%; }
   margin: 0.5rem 0;
   letter-spacing: -0.01em;
 }
-
 .connect-form-header .gold-rule {
   margin: 0.75rem auto 1.25rem;
 }
-
 .connect-form-header p {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1.1rem;
@@ -6478,7 +5974,6 @@ iframe { max-width: 100%; }
   margin: 0 auto;
   line-height: 1.6;
 }
-
 .connect-form-wrapper {
   max-width: 700px;
   margin: 0 auto;
@@ -6488,80 +5983,55 @@ iframe { max-width: 100%; }
   overflow: hidden;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
 }
-
 .connect-form-wrapper iframe {
   display: block;
   min-height: 750px;
 }
-
 @media (max-width: 768px) {
   .connect-form-section {
     padding: 3rem 0 1.5rem;
   }
-
   .connect-form-header h2 {
     font-size: 1.75rem;
   }
-
   .connect-form-header p {
     font-size: 1rem;
     padding: 0 1rem;
   }
-
   .connect-form-wrapper {
     margin: 0 0.5rem;
     border-radius: 10px;
   }
 }
-
 @media (max-width: 480px) {
   .connect-form-section {
     padding: 2.5rem 0 1rem;
   }
-
   .connect-form-header h2 {
     font-size: 1.5rem;
   }
-
   .connect-form-wrapper {
     margin: 0;
     border-radius: 8px;
   }
 }
-
-/* ============================================
-   Training Page — Mobile Clean-up
-   Facility gallery proportions, feature grid
-   spacing, CTA section overflow, and trust bar
-   refinements at mobile breakpoints.
-   ============================================ */
-
 @media (max-width: 768px) {
-  /* Facility gallery: better aspect ratio for side image on tablet */
   .facility-gallery {
     gap: 0.75rem;
     padding: 0 1rem;
   }
-
-  /* Trust bar: tighter on tablet */
   .trust-bar {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
   }
-
-  /* Events section feature grid: relax max-width constraint */
   .program-offers .feature-grid {
     max-width: 100% !important;
   }
-
-  /* Dark section description text: reduce font on mobile */
   .staff-section-dark > div[style*="max-width: 800px"] p {
     font-size: 1rem !important;
   }
 }
-
 @media (max-width: 480px) {
-  /* Facility gallery: tighter gap on phones */
   .facility-gallery {
     gap: 0.5rem;
     padding: 0 0.5rem;
@@ -6569,8 +6039,6 @@ iframe { max-width: 100%; }
   .facility-side {
     aspect-ratio: 16 / 8;
   }
-
-  /* Trust bar: full-width on phones */
   .trust-bar {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -6582,8 +6050,6 @@ iframe { max-width: 100%; }
   .trust-bar p {
     font-size: 0.9rem;
   }
-
-  /* CTA section: prevent right-side clip */
   .cta-section {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -6594,25 +6060,15 @@ iframe { max-width: 100%; }
   .cta-section p {
     font-size: 0.95rem;
   }
-
-  /* Feature grid: single column on small phones for easier reading */
   .feature-grid {
     grid-template-columns: 1fr !important;
   }
 }
-
-/* --- Print Styles --- */
 @media print {
   .site-header, .site-footer, .nav-toggle, .cta-section, .hero-cta { display: none !important; }
   .page-content { padding-top: 0 !important; }
   .page-header { background: #fff !important; color: #000 !important; padding: 1rem 0 !important; }
 }
-
-/* =====================================================
-   ESPN-STYLE STAFF CARDS (.espn-staff-*)
-   Staff directory grid cards with photo overlays
-   ===================================================== */
-
 .espn-staff-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -6621,7 +6077,6 @@ iframe { max-width: 100%; }
   margin: 0 auto;
   padding: 0 1.25rem;
 }
-
 .espn-staff-card {
   background: #fff;
   border-radius: 12px;
@@ -6633,7 +6088,6 @@ iframe { max-width: 100%; }
   position: relative;
   border-top: 3px solid #c41e3a;
 }
-
 .espn-staff-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(212, 168, 67, 0.12);
@@ -6646,19 +6100,16 @@ iframe { max-width: 100%; }
   transform: translateY(-10px);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(212, 168, 67, 0.12);
 }
-
 .espn-staff-card-link {
   text-decoration: none;
   color: inherit;
   display: block;
 }
-
 .espn-staff-card-img {
   position: relative;
   aspect-ratio: 4 / 5;
   overflow: hidden;
 }
-
 .espn-staff-card-img img {
   width: 100%;
   height: 100%;
@@ -6666,7 +6117,6 @@ iframe { max-width: 100%; }
   object-position: center 20%;
   transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
-
 .espn-staff-card:hover .espn-staff-card-img img {
   transform: scale(1.06);
 }
@@ -6676,7 +6126,6 @@ iframe { max-width: 100%; }
 .espn-staff-card:active .espn-staff-card-img img {
   transform: scale(1.06);
 }
-
 .espn-staff-badge {
   position: absolute;
   top: 0.75rem;
@@ -6691,7 +6140,6 @@ iframe { max-width: 100%; }
   border-radius: 4px;
   z-index: 3;
 }
-
 .espn-staff-overlay {
   position: absolute;
   bottom: 0;
@@ -6701,7 +6149,6 @@ iframe { max-width: 100%; }
   background: linear-gradient(to top, rgba(10, 22, 40, 0.98) 0%, rgba(10, 22, 40, 0.93) 35%, rgba(10, 22, 40, 0.55) 70%, transparent 100%);
   z-index: 2;
 }
-
 .espn-staff-overlay h3 {
   color: #fff;
   font-size: 1.45rem;
@@ -6710,7 +6157,6 @@ iframe { max-width: 100%; }
   line-height: 1.2;
   letter-spacing: 0.01em;
 }
-
 .espn-staff-role {
   color: #d4a843;
   font-size: 0.95rem;
@@ -6718,7 +6164,6 @@ iframe { max-width: 100%; }
   margin: 0;
   letter-spacing: 0.02em;
 }
-
 .espn-staff-card-footer {
   display: flex;
   align-items: center;
@@ -6727,12 +6172,10 @@ iframe { max-width: 100%; }
   border-top: 1px solid #eee;
   margin-top: auto;
 }
-
 .espn-staff-social {
   display: flex;
   gap: 0.5rem;
 }
-
 .espn-staff-social a {
   display: flex;
   align-items: center;
@@ -6744,7 +6187,6 @@ iframe { max-width: 100%; }
   color: #666;
   transition: all 0.2s ease;
 }
-
 .espn-staff-social a:hover {
   color: #c41e3a;
   border-color: #c41e3a;
@@ -6760,7 +6202,6 @@ iframe { max-width: 100%; }
   border-color: #c41e3a;
   background: rgba(196, 30, 58, 0.05);
 }
-
 .espn-staff-btn {
   display: inline-block;
   background: #c41e3a;
@@ -6774,7 +6215,6 @@ iframe { max-width: 100%; }
   border-radius: 6px;
   transition: transform 0.25s ease;
 }
-
 .espn-staff-btn:hover {
   background: #a11830;
   transform: translateY(-2px);
@@ -6790,14 +6230,11 @@ iframe { max-width: 100%; }
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(196, 30, 58, 0.3);
 }
-
-/* Dark section card adjustments */
 .staff-section-dark .espn-staff-card {
   background: #111b2e;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
   border-top-color: #d4a843;
 }
-
 .staff-section-dark .espn-staff-card:hover {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(212, 168, 67, 0.2);
 }
@@ -6807,16 +6244,13 @@ iframe { max-width: 100%; }
 .staff-section-dark .espn-staff-card:active {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(212, 168, 67, 0.2);
 }
-
 .staff-section-dark .espn-staff-card-footer {
   border-top-color: rgba(255, 255, 255, 0.08);
 }
-
 .staff-section-dark .espn-staff-social a {
   color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.15);
 }
-
 .staff-section-dark .espn-staff-social a:hover {
   color: #d4a843;
   border-color: #d4a843;
@@ -6832,57 +6266,40 @@ iframe { max-width: 100%; }
   border-color: #d4a843;
   background: rgba(212, 168, 67, 0.08);
 }
-
-/* ESPN Staff Grid — Tablet */
 @media (max-width: 1024px) {
   .espn-staff-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
-
   .espn-staff-overlay h3 {
     font-size: 1.25rem;
   }
-
   .espn-staff-role {
     font-size: 0.85rem;
   }
 }
-
-/* ESPN Staff Grid — Mobile */
 @media (max-width: 768px) {
   .espn-staff-grid {
     grid-template-columns: 1fr;
     gap: 1.25rem;
     padding: 0 1rem;
   }
-
   .espn-staff-overlay h3 {
     font-size: 1.15rem;
   }
-
   .espn-staff-role {
     font-size: 0.82rem;
   }
-
   .espn-staff-overlay {
     padding: 2.5rem 1.25rem 1.15rem;
   }
-
   .espn-staff-card-img {
     aspect-ratio: 3 / 4;
   }
-
   .espn-staff-card-footer {
     padding: 0.85rem 1.15rem;
   }
 }
-
-/* =====================================================
-   ADVISORY / EXECUTIVE TEAM GRID (.advisory-grid)
-   Smaller cards matching coaching style on dark bg
-   ===================================================== */
-
 .advisory-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -6891,76 +6308,55 @@ iframe { max-width: 100%; }
   margin: 0 auto;
   padding: 0 1.25rem;
 }
-
 .advisory-grid .espn-staff-card-img {
   aspect-ratio: 4 / 5;
 }
-
 .advisory-grid .espn-staff-card-img img {
   object-position: center 15%;
 }
-
 .advisory-grid .espn-staff-overlay h3 {
   font-size: 1.05rem;
 }
-
 .advisory-grid .espn-staff-overlay p {
   font-size: 0.78rem;
 }
-
 .advisory-grid .espn-staff-card-footer {
   padding: 0.75rem 1rem;
 }
-
 .advisory-grid .espn-staff-btn {
   font-size: 0.75rem;
   padding: 0.4rem 0.95rem;
 }
-
 .advisory-grid .espn-staff-social a {
   width: 28px;
   height: 28px;
 }
-
 .advisory-grid .espn-staff-social a svg {
   width: 13px;
   height: 13px;
 }
-
-/* Advisory Grid — Tablet */
 @media (max-width: 1024px) {
   .advisory-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.25rem;
   }
-
   .advisory-grid .espn-staff-overlay h3 {
     font-size: 1.15rem;
   }
 }
-
-/* Advisory Grid — Mobile */
 @media (max-width: 768px) {
   .advisory-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     padding: 0 1rem;
   }
-
   .advisory-grid .espn-staff-overlay h3 {
     font-size: 0.95rem;
   }
-
   .advisory-grid .espn-staff-card-img {
     aspect-ratio: 3 / 4;
   }
 }
-
-/* =====================================================
-   ADVISORY CIRCLE STRIP (.advisory-strip)
-   Horizontal row of circle headshots — minimal, no cards
-   ===================================================== */
-
 .advisory-strip {
   display: flex;
   flex-wrap: wrap;
@@ -6970,7 +6366,6 @@ iframe { max-width: 100%; }
   margin: 0 auto;
   padding: 0 1.25rem 3rem;
 }
-
 .advisory-circle-item {
   display: flex;
   flex-direction: column;
@@ -6978,26 +6373,22 @@ iframe { max-width: 100%; }
   text-align: center;
   width: 200px;
 }
-
 .advisory-circle-link {
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .advisory-circle-photo {
   width: 160px;
   margin-bottom: 1.1rem;
 }
-
 .advisory-circle-photo img {
   width: 100%;
   height: auto;
   display: block;
   transition: opacity 0.25s;
 }
-
 .advisory-circle-link:hover .advisory-circle-photo img {
   opacity: 0.85;
 }
@@ -7007,7 +6398,6 @@ iframe { max-width: 100%; }
 .advisory-circle-link:active .advisory-circle-photo img {
   opacity: 0.85;
 }
-
 .advisory-circle-info h3 {
   font-size: 1rem;
   font-weight: 700;
@@ -7015,7 +6405,6 @@ iframe { max-width: 100%; }
   margin: 0 0 0.3rem;
   line-height: 1.25;
 }
-
 .advisory-circle-role {
   font-size: 0.78rem;
   color: #b22234;
@@ -7023,7 +6412,6 @@ iframe { max-width: 100%; }
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-
 .advisory-circle-badge {
   display: inline-block;
   font-size: 0.68rem;
@@ -7036,7 +6424,6 @@ iframe { max-width: 100%; }
   letter-spacing: 0.05em;
   margin-top: 0.2rem;
 }
-
 .advisory-circle-more {
   display: inline-block;
   margin-top: 0.75rem;
@@ -7045,7 +6432,6 @@ iframe { max-width: 100%; }
   text-decoration: none;
   letter-spacing: 0.03em;
 }
-
 .advisory-circle-more:hover {
   color: #b22234;
 }
@@ -7055,7 +6441,6 @@ iframe { max-width: 100%; }
 .advisory-circle-more:active {
   color: #b22234;
 }
-
 @media (max-width: 768px) {
   .advisory-strip {
     display: grid;
@@ -7063,33 +6448,27 @@ iframe { max-width: 100%; }
     gap: 2rem 1rem;
     padding: 0 1rem 3rem;
   }
-
   .advisory-circle-item {
     width: auto;
   }
-
   .advisory-circle-photo {
     width: 110px;
     margin-bottom: 1.25rem;
     flex-shrink: 0;
     overflow: hidden;
   }
-
   .advisory-circle-photo img {
     width: 100%;
     height: auto;
     display: block;
   }
-
   .advisory-circle-info h3 {
     font-size: 0.9rem;
   }
-
   .advisory-circle-role {
     font-size: 0.7rem;
   }
 }
-
 @media (max-width: 480px) {
   .advisory-strip {
     gap: 1.5rem 0.75rem;
@@ -7108,13 +6487,6 @@ iframe { max-width: 100%; }
     font-size: 0.65rem;
   }
 }
-
-/* =====================================================
-   DIRECTOR CARDS (.director-card)
-   Photo on top, name/title on solid dark background below
-   Used for Program Directors section
-   ===================================================== */
-
 .director-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -7123,7 +6495,6 @@ iframe { max-width: 100%; }
   margin: 0 auto;
   padding: 0 1.25rem;
 }
-
 .director-card {
   background: #0a1628;
   border-radius: 12px;
@@ -7133,7 +6504,6 @@ iframe { max-width: 100%; }
   display: flex;
   flex-direction: column;
 }
-
 .director-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
@@ -7146,23 +6516,19 @@ iframe { max-width: 100%; }
   transform: translateY(-6px);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
-
 .director-card-link {
   text-decoration: none;
   color: #fff;
   display: block;
 }
-
 .director-card-link:visited {
   color: #fff;
 }
-
 .director-card-img {
   position: relative;
   aspect-ratio: 4 / 5;
   overflow: hidden;
 }
-
 .director-card-img img {
   width: 100%;
   height: 100%;
@@ -7170,7 +6536,6 @@ iframe { max-width: 100%; }
   object-position: center 20%;
   transition: transform 0.5s ease;
 }
-
 .director-card:hover .director-card-img img {
   transform: scale(1.05);
 }
@@ -7180,7 +6545,6 @@ iframe { max-width: 100%; }
 .director-card:active .director-card-img img {
   transform: scale(1.05);
 }
-
 .director-card-badge {
   position: absolute;
   top: 0.75rem;
@@ -7195,14 +6559,12 @@ iframe { max-width: 100%; }
   border-radius: 4px;
   z-index: 3;
 }
-
 .director-card-info {
   padding: 1.25rem 1.25rem 0.75rem;
   background: #0a1628;
   border-top: 3px solid #c41e3a;
   color: #fff;
 }
-
 .director-card-info h3 {
   color: #fff;
   font-size: 1.2rem;
@@ -7210,7 +6572,6 @@ iframe { max-width: 100%; }
   margin: 0 0 0.3rem;
   line-height: 1.25;
 }
-
 .director-card-info .director-card-role {
   color: #ffffff;
   font-size: 0.82rem;
@@ -7218,7 +6579,6 @@ iframe { max-width: 100%; }
   margin: 0;
   letter-spacing: 0.01em;
 }
-
 .director-card-footer {
   display: flex;
   align-items: center;
@@ -7227,12 +6587,10 @@ iframe { max-width: 100%; }
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   margin-top: auto;
 }
-
 .director-card-footer .espn-staff-social a {
   color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.15);
 }
-
 .director-card-footer .espn-staff-social a:hover {
   color: #d4a843;
   border-color: #d4a843;
@@ -7248,42 +6606,28 @@ iframe { max-width: 100%; }
   border-color: #d4a843;
   background: rgba(212, 168, 67, 0.08);
 }
-
-/* Director Grid — Tablet */
 @media (max-width: 1024px) {
   .director-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
 }
-
-/* Director Grid — Mobile */
 @media (max-width: 768px) {
   .director-grid {
     grid-template-columns: 1fr;
     gap: 1.25rem;
     padding: 0 1rem;
   }
-
   .director-card-img {
     aspect-ratio: 3 / 4;
   }
-
   .director-card-info h3 {
     font-size: 1.1rem;
   }
 }
-
-/* =====================================================
-   COACH PROFILE PAGE (.coach-profile-*)
-   Individual staff member profile layout
-   ===================================================== */
-
 .coach-profile-page {
   background: #fff;
 }
-
-/* --- Hero Section --- */
 .coach-profile-hero {
   position: relative;
   height: 50vh;
@@ -7294,7 +6638,6 @@ iframe { max-width: 100%; }
   align-items: flex-end;
   background: #000;
 }
-
 .coach-profile-hero-img {
   position: absolute;
   inset: 0;
@@ -7303,14 +6646,11 @@ iframe { max-width: 100%; }
   object-fit: cover;
   object-position: center 20%;
 }
-
-
 .coach-profile-hero-overlay {
   position: absolute;
   inset: 0;
   background: linear-gradient(to top, rgba(10, 22, 40, 0.95) 0%, rgba(10, 22, 40, 0.4) 50%, rgba(10, 22, 40, 0.2) 100%);
 }
-
 .coach-profile-hero-content {
   position: relative;
   z-index: 2;
@@ -7319,7 +6659,6 @@ iframe { max-width: 100%; }
   margin: 0 auto;
   padding: 0 1.25rem 2.5rem;
 }
-
 .coach-profile-back-link {
   display: inline-flex;
   align-items: center;
@@ -7330,7 +6669,6 @@ iframe { max-width: 100%; }
   text-decoration: none;
   margin-bottom: 1rem;
 }
-
 .coach-profile-back-link:hover {
   color: #fff;
 }
@@ -7340,7 +6678,6 @@ iframe { max-width: 100%; }
 .coach-profile-back-link:active {
   color: #fff;
 }
-
 .coach-profile-hero-badge {
   display: inline-block;
   background: #c41e3a;
@@ -7353,7 +6690,6 @@ iframe { max-width: 100%; }
   border-radius: 4px;
   margin-bottom: 0.75rem;
 }
-
 .coach-profile-hero-content h1 {
   color: #fff;
   font-size: clamp(2rem, 5vw, 3.2rem);
@@ -7363,22 +6699,18 @@ iframe { max-width: 100%; }
   margin: 0 0 0.4rem;
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
 }
-
 .coach-profile-hero-title {
   color: #d4a843;
   font-size: clamp(1rem, 2.5vw, 1.25rem);
   font-weight: 600;
   margin: 0;
 }
-
-/* --- Floating Profile Card --- */
 .coach-profile-card-wrapper {
   position: relative;
   z-index: 3;
   margin-top: -3.5rem;
   margin-bottom: 2rem;
 }
-
 .coach-profile-card {
   display: flex;
   align-items: center;
@@ -7389,7 +6721,6 @@ iframe { max-width: 100%; }
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
   max-width: 650px;
 }
-
 .coach-profile-card-img {
   flex-shrink: 0;
   width: 100px;
@@ -7398,14 +6729,12 @@ iframe { max-width: 100%; }
   overflow: hidden;
   border: 3px solid #f2f3f5;
 }
-
 .coach-profile-card-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center 20%;
 }
-
 .coach-profile-card-info h2 {
   font-size: 1.35rem;
   font-weight: 800;
@@ -7413,19 +6742,16 @@ iframe { max-width: 100%; }
   margin: 0 0 0.15rem;
   line-height: 1.2;
 }
-
 .coach-profile-card-title {
   color: #666;
   font-size: 0.9rem;
   font-weight: 500;
   margin: 0 0 0.6rem;
 }
-
 .coach-profile-social {
   display: flex;
   gap: 0.5rem;
 }
-
 .coach-profile-social a {
   display: flex;
   align-items: center;
@@ -7437,7 +6763,6 @@ iframe { max-width: 100%; }
   color: #666;
   transition: all 0.2s ease;
 }
-
 .coach-profile-social a:hover {
   color: #c41e3a;
   border-color: #c41e3a;
@@ -7453,24 +6778,19 @@ iframe { max-width: 100%; }
   border-color: #c41e3a;
   background: rgba(196, 30, 58, 0.05);
 }
-
-/* --- Stats Bar --- */
 .coach-profile-stats {
   background: #0a1628;
   padding: 1.75rem 0;
 }
-
 .coach-profile-stats-row {
   display: flex;
   justify-content: center;
   gap: 3rem;
   flex-wrap: wrap;
 }
-
 .coach-profile-stat {
   text-align: center;
 }
-
 .coach-profile-stat-value {
   display: block;
   font-size: 1.8rem;
@@ -7478,7 +6798,6 @@ iframe { max-width: 100%; }
   color: #d4a843;
   line-height: 1.2;
 }
-
 .coach-profile-stat-label {
   display: block;
   font-size: 0.75rem;
@@ -7488,26 +6807,20 @@ iframe { max-width: 100%; }
   letter-spacing: 0.06em;
   margin-top: 0.2rem;
 }
-
-/* --- Bio Section --- */
 .coach-profile-bio-section {
   padding: 3rem 0;
 }
-
 .coach-profile-bio-content {
   font-size: 1.05rem;
   line-height: 1.85;
   color: #333;
 }
-
 .coach-profile-bio-content p {
   margin-bottom: 1.25rem;
 }
-
 .coach-profile-bio-content p:last-child {
   margin-bottom: 0;
 }
-
 .coach-profile-details {
   display: flex;
   gap: 2rem;
@@ -7516,19 +6829,16 @@ iframe { max-width: 100%; }
   border-top: 1px solid #eee;
   flex-wrap: wrap;
 }
-
 .coach-profile-detail {
   display: flex;
   align-items: flex-start;
   gap: 0.75rem;
 }
-
 .coach-profile-detail svg {
   flex-shrink: 0;
   color: #c41e3a;
   margin-top: 0.15rem;
 }
-
 .coach-profile-detail .detail-label {
   display: block;
   font-size: 0.72rem;
@@ -7537,7 +6847,6 @@ iframe { max-width: 100%; }
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-
 .coach-profile-detail .detail-value {
   display: block;
   font-size: 0.95rem;
@@ -7545,56 +6854,43 @@ iframe { max-width: 100%; }
   color: #0a1628;
   margin-top: 0.1rem;
 }
-
-/* --- Coach Profile Responsive — Tablet --- */
 @media (max-width: 768px) {
   .coach-profile-hero {
     height: 40vh;
     min-height: 280px;
   }
-
   .coach-profile-card {
     gap: 1.25rem;
     padding: 1.25rem 1.5rem;
   }
-
   .coach-profile-card-img {
     width: 80px;
     height: 80px;
   }
-
   .coach-profile-card-info h2 {
     font-size: 1.15rem;
   }
-
   .coach-profile-stats-row {
     gap: 2rem;
   }
-
   .coach-profile-stat-value {
     font-size: 1.5rem;
   }
-
   .coach-profile-bio-section {
     padding: 2rem 0;
   }
 }
-
-/* --- Coach Profile Responsive — Mobile --- */
 @media (max-width: 480px) {
   .coach-profile-hero {
     height: 35vh;
     min-height: 250px;
   }
-
   .coach-profile-hero-content {
     padding: 0 1rem 2rem;
   }
-
   .coach-profile-card-wrapper {
     margin-top: -2.5rem;
   }
-
   .coach-profile-card {
     flex-direction: column;
     text-align: center;
@@ -7602,33 +6898,24 @@ iframe { max-width: 100%; }
     padding: 1.25rem;
     max-width: 100%;
   }
-
   .coach-profile-card-img {
     width: 90px;
     height: 90px;
   }
-
   .coach-profile-social {
     justify-content: center;
   }
-
   .coach-profile-stats-row {
     gap: 1.5rem;
   }
-
   .coach-profile-stat-value {
     font-size: 1.3rem;
   }
-
   .coach-profile-details {
     flex-direction: column;
     gap: 1.25rem;
   }
 }
-
-/* ============================================
-   Social Proof Toast Notification
-   ============================================ */
 .social-proof-toast {
   position: fixed;
   bottom: 24px;
@@ -7649,13 +6936,11 @@ iframe { max-width: 100%; }
   pointer-events: none;
   border-left: 4px solid #c41e3a;
 }
-
 .social-proof-toast.is-visible {
   transform: translateY(0);
   opacity: 1;
   pointer-events: auto;
 }
-
 .social-proof-toast-icon {
   flex-shrink: 0;
   width: 40px;
@@ -7669,12 +6954,10 @@ iframe { max-width: 100%; }
   font-size: 18px;
   line-height: 1;
 }
-
 .social-proof-toast-body {
   flex: 1;
   min-width: 0;
 }
-
 .social-proof-toast-msg {
   font-size: 0.82rem;
   color: #1a1a2e;
@@ -7682,14 +6965,12 @@ iframe { max-width: 100%; }
   line-height: 1.35;
   margin: 0;
 }
-
 .social-proof-toast-time {
   font-size: 0.72rem;
   color: #888;
   margin-top: 2px;
   display: block;
 }
-
 .social-proof-toast-close {
   flex-shrink: 0;
   background: none;
@@ -7701,7 +6982,6 @@ iframe { max-width: 100%; }
   line-height: 1;
   border-radius: 4px;
 }
-
 .social-proof-toast-close:hover {
   color: #333;
   background: rgba(0,0,0,0.05);
@@ -7714,8 +6994,6 @@ iframe { max-width: 100%; }
   color: #333;
   background: rgba(0,0,0,0.05);
 }
-
-/* Hide on very small screens or when chat widget is open */
 @media (max-width: 480px) {
   .social-proof-toast {
     bottom: 16px;
@@ -7732,12 +7010,9 @@ iframe { max-width: 100%; }
   }
   .social-proof-toast-msg { font-size: 0.78rem; }
 }
-
 @media print {
   .social-proof-toast { display: none !important; }
 }
-
-/* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .social-proof-toast {
     transition: opacity 0.2s ease;
