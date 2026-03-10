@@ -146,6 +146,7 @@ section { padding: 4rem 0; }
   position: absolute;
   inset: 0;
   z-index: 0;
+  background-color: #0a1628; /* dark navy fallback before poster/video loads */
 }
 .hero-video-bg video,
 .hero-video-bg .hero-bg-image {
