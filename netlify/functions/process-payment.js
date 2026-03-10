@@ -164,7 +164,6 @@ exports.handler = async function (event) {
         transactionRequest: {
           transactionType: "authCaptureTransaction",
           amount: amount.toFixed(2),
-          testRequest: "true",
           payment: {
             opaqueData: {
               dataDescriptor: dataDescriptor,
