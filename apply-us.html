@@ -59,16 +59,9 @@ hide_connect_form: true
 
       <!-- STEP 1: INTRO -->
       <div class="apply-step" id="step1">
-        <div class="apply-step-intro">
-          <p class="apply-intro-text">Thank you for your interest in Florida Coastal Prep Sports Academy. This application takes about 10 minutes. Please have the following ready:</p>
-          <ul class="apply-checklist">
-            <li>Student's personal and athletic information</li>
-            <li>High school name, address, and GPA</li>
-            <li>Parent or guardian contact details</li>
-
-          </ul>
-          <p class="apply-req-note">Fields marked <span class="req-star">*</span> are required.</p>
-        </div>
+        <img src="/assets/images/apply-page.webp" alt="Apply to Florida Coastal Prep Sports Academy" class="apply-intro-img" />
+        <p class="apply-intro-text">Welcome to the FCP Online Application for Admissions. FCP admits a limited amount of students annually from a large pool of qualified applicants, so we encourage interested student-athletes to submit an application as early as possible. Submit your online application to get started today.</p>
+        <p class="apply-intro-text">Please follow the steps below to apply. If you don't have all the necessary information, you can return to the application at anytime.</p>
         <div class="apply-nav apply-nav-right">
           <button type="button" class="btn-apply-next" onclick="goToStep(2)">Start Application &rarr;</button>
         </div>
@@ -433,26 +426,11 @@ hide_connect_form: true
   border-bottom: 2px solid #f0f0f0;
 }
 /* Step 1 intro */
+.apply-intro-img { width: 100%; border-radius: 8px; display: block; margin-bottom: 1.25rem; }
 .apply-intro-text {
   color: #444;
   line-height: 1.7;
   margin-bottom: 16px;
-}
-.apply-checklist {
-  color: #333;
-  line-height: 1.9;
-  padding-left: 28px;
-  margin-bottom: 16px;
-  list-style-type: disc;
-  list-style-position: outside;
-}
-.apply-checklist li {
-  display: list-item;
-}
-.apply-req-note {
-  font-size: 0.85rem;
-  color: #777;
-  margin: 0;
 }
 .req-star { color: #b22234; font-weight: 700; }
 </style>

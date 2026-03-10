@@ -73,18 +73,9 @@ hide_connect_form: true
 
       <!-- STEP 1: INTRO -->
       <div class="apply-step" id="step1">
-        <div class="apply-step-intro">
-          <p class="apply-intro-text">Thank you for your interest in FCP Sports Academy. This international application takes about 15 minutes. Please have the following ready:</p>
-          <ul class="apply-checklist">
-            <li>Passport (names and a copy for upload)</li>
-            <li>Personal contact info and foreign address</li>
-            <li>High school information, GPA, and coach details</li>
-            <li>Parent or guardian contact and address</li>
-            <li>Immunization record and sports physical (file uploads)</li>
-            <li>Birth certificate (file upload)</li>
-          </ul>
-          <p class="apply-req-note">Fields marked <span class="req-star">*</span> are required.</p>
-        </div>
+        <img src="/assets/images/apply-page.webp" alt="Apply to Florida Coastal Prep Sports Academy" class="apply-intro-img" />
+        <p class="apply-intro-text">Welcome to the FCP Online Application for Admissions. FCP admits a limited amount of students annually from a large pool of qualified applicants, so we encourage interested student-athletes to submit an application as early as possible. Submit your online application to get started today.</p>
+        <p class="apply-intro-text">Please follow the steps below to apply. If you don't have all the necessary information, you can return to the application at anytime.</p>
         <div class="apply-nav apply-nav-right">
           <button type="button" class="btn-apply-next" onclick="goToStep(2)">Start Application &rarr;</button>
         </div>
@@ -541,10 +532,8 @@ hide_connect_form: true
 .apply-mb-md { margin-bottom: 1rem; }
 
 /* ── Intro Step ────────────────────────────────────────────── */
-.apply-step-intro { background: #f9fafb; border-radius: 8px; padding: 1.25rem 1.5rem; }
-.apply-intro-text { margin: 0 0 0.75rem; color: #374151; font-size: 0.95rem; }
-.apply-checklist { margin: 0 0 0.75rem 1.25rem; padding: 0; color: #374151; font-size: 0.9rem; line-height: 1.7; }
-.apply-req-note { margin: 0; font-size: 0.85rem; color: #6b7280; }
+.apply-intro-img { width: 100%; border-radius: 8px; display: block; margin-bottom: 1.25rem; }
+.apply-intro-text { margin: 0 0 0.85rem; color: #374151; font-size: 0.95rem; line-height: 1.7; }
 
 /* ── Field Layouts ─────────────────────────────────────────── */
 .apply-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
