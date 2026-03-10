@@ -3,7 +3,7 @@ layout: post
 title: "NBA Champion Shares Insight on Life and Hoops"
 date: 2023-01-31
 categories: [highlights]
-image: /assets/images/training/spartan-center.jpg
+image: /assets/images/blog/mikedunlap-fcp.webp
 description: "NBA coach Mike Dunlap visits FCP to share championship wisdom, drills, and insights on the mental and physical DNA of a champion with our athletes."
 excerpt: "Mike Dunlap, an NBA and collegiate coach with over 40 years of experience, visited Florida Coastal Prep to share his insights on work ethic and basketball."
 ---
