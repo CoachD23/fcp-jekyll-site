@@ -13,14 +13,10 @@ hide_connect_form: true
     <!-- US Path -->
     <div class="apply-path-card apply-path-us" onclick="selectPath('us')" tabindex="0" role="button" aria-label="Start US Resident Application">
       <div class="apply-path-flag">🇺🇸</div>
-      <h3>US Resident Application</h3>
-      <p>For student-athletes currently residing in the United States</p>
-      <ul class="apply-path-bullets">
-        <li>Post-Grad &amp; High School Basketball</li>
-        <li>Soccer &amp; eSports programs</li>
-        <li>Spring Exposure &amp; AAU programs</li>
-        <li>In-state and out-of-state athletes welcome</li>
-      </ul>
+      <div class="apply-path-heading">
+        <h3>US Resident Application</h3>
+        <p>For student-athletes currently residing in the United States</p>
+      </div>
       <button class="btn btn-primary apply-path-btn" aria-label="Start US Application">
         Start US Application
       </button>
@@ -34,14 +30,10 @@ hide_connect_form: true
     <!-- International Path -->
     <div class="apply-path-card apply-path-intl" onclick="selectPath('international')" tabindex="0" role="button" aria-label="Start International Application">
       <div class="apply-path-flag">🌍</div>
-      <h3>International Application</h3>
-      <p>For student-athletes located outside the United States</p>
-      <ul class="apply-path-bullets">
-        <li>International Post-Grad Basketball</li>
-        <li>Visa &amp; immigration guidance available</li>
-        <li>English language support provided</li>
-        <li>Athletes from all countries considered</li>
-      </ul>
+      <div class="apply-path-heading">
+        <h3>International Application</h3>
+        <p>For student-athletes located outside the United States</p>
+      </div>
       <button class="btn btn-gold apply-path-btn" aria-label="Start International Application">
         Start International Application
       </button>
@@ -98,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <style>
 /* ── Apply page: compact header & tighter content padding ── */
-.page-header { padding: 4.5rem 0 1.5rem !important; }
+.page-header { padding: 6.5rem 0 1.5rem !important; }
 .page-content { padding: 1.75rem 0 3rem !important; }
 
 /* ── Apply Page: Two-Path Layout ── */
@@ -156,43 +148,30 @@ document.addEventListener('DOMContentLoaded', function() {
   line-height: 1;
 }
 
-.apply-path-card h3 {
+/* Heading wrapper — constrains subtitle to title width */
+.apply-path-heading {
+  display: inline-block;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.apply-path-heading h3 {
   font-size: 1.35rem;
   font-weight: 800;
   color: #0a1628;
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.5rem;
   line-height: 1.25;
+  white-space: nowrap;
 }
 
-.apply-path-card > p {
+.apply-path-heading p {
   color: #555;
-  font-size: 0.95rem;
-  margin: 0 0 1.25rem;
+  font-size: 0.9rem;
+  margin: 0;
   line-height: 1.5;
-}
-
-.apply-path-bullets {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1.75rem;
-  text-align: left;
-  width: 100%;
-}
-
-.apply-path-bullets li {
-  padding: 0.3rem 0 0.3rem 1.5rem;
-  position: relative;
-  color: #333;
-  font-size: 0.92rem;
-  line-height: 1.5;
-}
-
-.apply-path-bullets li::before {
-  content: "✓";
-  position: absolute;
-  left: 0;
-  color: #c41e3a;
-  font-weight: 800;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .apply-path-btn {
@@ -285,6 +264,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /* Mobile */
 @media (max-width: 768px) {
+  .apply-paths-section { padding: 0 0.75rem; }
+
   .apply-paths-grid {
     grid-template-columns: 1fr;
     gap: 0;
@@ -292,21 +273,36 @@ document.addEventListener('DOMContentLoaded', function() {
 
   .apply-path-divider {
     flex-direction: row;
-    padding: 1.25rem 0;
+    padding: 1rem 0;
   }
 
   .apply-path-card {
     border-radius: 12px;
+    padding: 1.75rem 1.25rem;
   }
 
-  .apply-path-card.dimmed {
-    opacity: 0.5;
-  }
+  .apply-path-card.dimmed { opacity: 0.5; }
+
+  /* Allow title to wrap on small screens */
+  .apply-path-heading h3 { white-space: normal; }
+  .apply-path-heading { display: block; }
+
+  .apply-path-flag { font-size: 2.75rem; }
+
+  .apply-path-btn { font-size: 0.9rem; padding: 0.65rem 1.25rem; }
 
   .apply-intro-statement {
     margin: 1.5rem 0 0;
     border-radius: 0 8px 8px 0;
+    padding: 1.25rem 1.25rem;
   }
+}
+
+@media (max-width: 480px) {
+  .apply-paths-section { padding: 0 0.5rem; }
+  .apply-path-card { padding: 1.5rem 1rem; }
+  .apply-path-heading h3 { font-size: 1.15rem; }
+  .apply-path-btn { width: 100%; }
 }
 
 

@@ -594,11 +594,48 @@ hide_connect_form: true
 
 /* ── Responsive ────────────────────────────────────────────── */
 @media (max-width: 600px) {
-  .apply-page-bg { padding: 1rem 0.5rem 3rem; }
-  .apply-card-header { padding: 1.25rem 1.25rem; }
-  .apply-card-title { font-size: 1rem; }
-  .apply-progress-wrap, .apply-steps-container { padding-left: 1.25rem; padding-right: 1.25rem; }
-  .apply-row { grid-template-columns: 1fr; }
+  /* Full-bleed card on phones */
+  .apply-page-bg { padding: 0 0 3rem; }
+  .apply-back-wrap { padding: 1rem 1rem 0; }
+  .apply-card { border-radius: 0; box-shadow: none; }
+
+  .apply-card-header { padding: 1rem; gap: 0.65rem; }
+  .apply-card-logo { width: 38px; height: 38px; }
+  .apply-card-title { font-size: 0.95rem; }
+
+  .apply-progress-wrap { padding: 0.75rem 1rem 0; }
+  .apply-steps-container { padding: 1.25rem 1rem 1.5rem; }
+
+  /* Stack all grid rows */
+  .apply-row { grid-template-columns: 1fr; gap: 0.75rem; }
+  .apply-row-3 { grid-template-columns: 1fr; gap: 0.75rem; }
+
+  /* Larger tap targets */
+  .apply-radio-label, .apply-checkbox-label {
+    padding: 0.75rem 0.85rem;
+    font-size: 0.9rem;
+  }
+
+  /* File inputs */
+  .apply-file-input { font-size: 0.85rem; }
+
+  /* Intro image */
+  .apply-intro-img { border-radius: 4px; }
+  .apply-intro-text { font-size: 0.9rem; }
+
+  /* Nav buttons — primary on top, back below */
+  .apply-nav { flex-direction: column-reverse; gap: 0.5rem; margin-top: 1.25rem; }
+  .btn-apply-next,
+  .btn-apply-submit { width: 100%; text-align: center; padding: 0.75rem 1rem; }
+  .btn-apply-back { width: 100%; text-align: center; }
+
+  /* Success state */
+  .apply-success { padding: 2rem 1rem; }
+}
+
+@media (max-width: 380px) {
+  .apply-card-title { font-size: 0.85rem; }
+  .apply-step-title { font-size: 1rem; }
 }
 </style>
 
