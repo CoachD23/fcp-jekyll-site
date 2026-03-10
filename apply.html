@@ -40,6 +40,12 @@ hide_connect_form: true
     </div>
 
   </div>
+
+  <div class="apply-summer-row">
+    <span class="apply-summer-label">Short-term program?</span>
+    <a href="/summer-2026/" class="apply-summer-btn">🏀 Summer 2026 Program →</a>
+  </div>
+
 </section>
 
 <!-- Intro Statement — below the cards -->
@@ -206,6 +212,36 @@ document.addEventListener('DOMContentLoaded', function() {
   flex-shrink: 0;
 }
 
+.apply-summer-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #e8e8e8;
+  flex-wrap: wrap;
+}
+.apply-summer-label {
+  color: #777;
+  font-size: 0.875rem;
+}
+.apply-summer-btn {
+  display: inline-block;
+  background: transparent;
+  border: 2px solid #b22234;
+  color: #b22234;
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+.apply-summer-btn:hover {
+  background: #b22234;
+  color: #fff;
+}
 /* Intro statement below cards */
 .apply-intro-statement {
   max-width: 800px;
