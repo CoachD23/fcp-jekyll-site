@@ -53,6 +53,16 @@ defaults:
     values:
       layout: "page"
 
+# Sitemap exclusions for non-content pages (static files without front matter)
+  - scope:
+      path: "admin"
+    values:
+      sitemap: false
+  - scope:
+      path: "offline.html"
+    values:
+      sitemap: false
+
 # Exclude from build
 exclude:
   - README.md

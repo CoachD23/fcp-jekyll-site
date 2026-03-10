@@ -5,6 +5,7 @@ date: 2024-03-06
 excerpt: "Florida Coastal Prep forward Brock Rose has committed to Radford University, joining the Highlanders' NCAA Division I program in the Big South Conference."
 image: /assets/images/commitments/brock-rose-radford.jpeg
 description: "FCP forward Brock Rose commits to Radford University, a Division I program in the Big South Conference — another D1 placement for Florida Coastal Prep."
+sitemap: false
 ---
 
 Florida Coastal Prep is proud to announce that forward **Brock Rose** has officially committed to **Radford University**, an NCAA Division I program competing in the Big South Conference. 🎉
