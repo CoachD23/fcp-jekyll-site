@@ -1,4 +1,32 @@
 User-agent: *
 Allow: /
 
+# WordPress artifact pages (legacy, all redirect to real pages via _redirects)
+Disallow: /elementor-10225/
+Disallow: /elementor-7032/
+Disallow: /all-groups/
+Disallow: /my-profile/
+Disallow: /search-users/
+Disallow: /default-user-group/
+Disallow: /test/
+Disallow: /sample-page/
+Disallow: /home-7-10/
+Disallow: /japan/
+Disallow: /login/
+Disallow: /forgot-password/
+
+# WordPress system paths
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-content/
+Disallow: /wp-json/
+Disallow: /wp-includes/
+Disallow: /xmlrpc.php
+
+# WordPress category/tag/pagination archives
+Disallow: /category/
+Disallow: /tag/
+Disallow: /page/
+Disallow: /blog/page/
+
 Sitemap: https://floridacoastalprep.com/sitemap.xml
