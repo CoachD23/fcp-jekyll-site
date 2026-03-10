@@ -123,7 +123,7 @@ hide_connect_form: true
         </div>
         <div class="apply-nav apply-nav-both">
           <button type="button" class="btn-apply-back" onclick="goToStep(1)">&larr; Back</button>
-          <button type="button" class="btn-apply-next" onclick="validateAndGo(2,3)">Next &rarr;</button>
+          <button type="button" class="btn-apply-next" onclick="if(validateAndGo(2,3)) captureLeadUS()">Next &rarr;</button>
         </div>
       </div>
 
@@ -690,6 +690,7 @@ function validateAndGo(fromStep, toStep) {
   });
 
   if (valid) goToStep(toStep);
+  return valid;
 }
 </script>
 
@@ -761,6 +762,7 @@ function submitApplication() {
   })
   .then(function(res) {
     if (res.ok) {
+      lsClear();
       window.location.href = '/payment/';
     } else {
       btn.disabled = false;
@@ -774,4 +776,67 @@ function submitApplication() {
     alert('There was a problem submitting your application. Please try again.');
   });
 }
+</script>
+
+<script>
+// ── localStorage form persistence ────────────────────────────────────────────
+var LS_KEY_US = 'fcp_apply_us';
+
+function lsSave() {
+  var state = {};
+  document.querySelectorAll('#applySteps input:not([type=file]), #applySteps select, #applySteps textarea').forEach(function(el) {
+    if (!el.name) return;
+    if (el.value && el.value.startsWith('data:')) return; // skip canvas/signature blobs
+    if (el.type === 'radio' || el.type === 'checkbox') {
+      state['_chk_' + el.name + '_' + el.value] = el.checked ? '1' : '0';
+    } else {
+      state[el.name] = el.value;
+    }
+  });
+  try { localStorage.setItem(LS_KEY_US, JSON.stringify(state)); } catch(e) {}
+}
+
+function lsRestore() {
+  var raw;
+  try { raw = localStorage.getItem(LS_KEY_US); } catch(e) { return; }
+  if (!raw) return;
+  var state;
+  try { state = JSON.parse(raw); } catch(e) { return; }
+  document.querySelectorAll('#applySteps input:not([type=file]), #applySteps select, #applySteps textarea').forEach(function(el) {
+    if (!el.name) return;
+    if (el.type === 'radio' || el.type === 'checkbox') {
+      var k = '_chk_' + el.name + '_' + el.value;
+      if (Object.prototype.hasOwnProperty.call(state, k)) { el.checked = (state[k] === '1'); }
+    } else if (Object.prototype.hasOwnProperty.call(state, el.name)) {
+      el.value = state[el.name];
+    }
+  });
+}
+
+function lsClear() {
+  try { localStorage.removeItem(LS_KEY_US); } catch(e) {}
+}
+
+// ── GHL partial lead capture ──────────────────────────────────────────────────
+function captureLeadUS() {
+  var emailEl = document.getElementById('email');
+  var email = emailEl ? emailEl.value.trim() : '';
+  if (!email) return;
+  fetch('/.netlify/functions/capture-lead', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      firstName: document.getElementById('firstName') ? document.getElementById('firstName').value : '',
+      lastName:  document.getElementById('lastName')  ? document.getElementById('lastName').value  : '',
+      email:     email,
+      phone:     document.getElementById('phone')     ? document.getElementById('phone').value     : ''
+    })
+  }).catch(function() {}); // fire-and-forget; never block the user
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  lsRestore();
+  document.getElementById('applySteps').addEventListener('input',  lsSave);
+  document.getElementById('applySteps').addEventListener('change', lsSave);
+});
 </script>

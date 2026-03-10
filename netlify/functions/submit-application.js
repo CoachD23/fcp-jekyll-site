@@ -98,6 +98,41 @@ function sanitize(raw) {
   return out;
 }
 
+// ─── GHL tag swap ─────────────────────────────────────────────────────────────
+
+/**
+ * After a completed submission, replace the "Started Application - Incomplete"
+ * tag with "Application Submitted" in GoHighLevel.  Runs fire-and-forget.
+ */
+async function ghlTagSwap(email) {
+  if (!email || !process.env.GHL_API_KEY) return;
+  const headers = {
+    Authorization: `Bearer ${process.env.GHL_API_KEY}`,
+    'Content-Type': 'application/json',
+    Version: '2021-07-28',
+  };
+  const upsertRes = await fetch('https://services.leadconnectorhq.com/contacts/upsert', {
+    method: 'POST',
+    headers,
+    body: JSON.stringify({ locationId: process.env.GHL_LOCATION_ID, email }),
+  });
+  if (!upsertRes.ok) return;
+  const { contact } = await upsertRes.json();
+  if (!contact?.id) return;
+  // Remove partial tag (ignore errors — contact may not have it)
+  await fetch(`https://services.leadconnectorhq.com/contacts/${contact.id}/tags`, {
+    method: 'DELETE',
+    headers,
+    body: JSON.stringify({ tags: ['Started Application - Incomplete'] }),
+  }).catch(() => {});
+  // Add completed tag
+  await fetch(`https://services.leadconnectorhq.com/contacts/${contact.id}/tags`, {
+    method: 'POST',
+    headers,
+    body: JSON.stringify({ tags: ['Application Submitted'] }),
+  }).catch(() => {});
+}
+
 // ─── Handler ─────────────────────────────────────────────────────────────────
 
 exports.handler = async function (event) {
@@ -133,6 +168,11 @@ exports.handler = async function (event) {
 
     const fields = sanitize(raw);
     await postToAirtable(tableId, fields);
+
+    // Fire-and-forget: swap GHL tag from "Incomplete" → "Submitted"
+    ghlTagSwap(fields.email).catch((err) =>
+      console.error('[submit-application] GHL tag swap failed:', err.message)
+    );
 
     return {
       statusCode: 200,
