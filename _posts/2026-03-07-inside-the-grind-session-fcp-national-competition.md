@@ -3,7 +3,7 @@ layout: post
 title: "Inside the Grind Session: How FCP Competes on the National Stage"
 date: 2026-03-07
 categories: [program]
-image: /assets/images/training/gym-main.jpg
+image: /assets/images/blog/darryn-peterson-poster.jpg
 description: "Florida Coastal Prep competes in the Grind Session — one of the nation's top post-graduate basketball circuits — with consistent results, competitive games, and a World Championship appearance that validates the program's national standing."
 excerpt: "FCP's Grind Session schedule pits the Spartans against the best post-graduate programs in the country. Here's what competing at that level looks like from the inside."
 ---
