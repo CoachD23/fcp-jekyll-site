@@ -3,7 +3,7 @@ layout: post
 title: "FCP Falls Short at #7 Florida Southwestern College"
 date: 2022-12-31
 categories: [game-recap]
-image: /assets/images/training/gym-main.jpg
+image: /assets/images/blog/fcp-game-recap.jpg
 description: "Game recap: FCP Spartans face NJCAA #7 Florida Southwestern College in a tough road matchup. Valuable experience against top-tier competition."
 excerpt: "Florida Coastal Prep faced a challenging road matchup against nationally-ranked Florida Southwestern College at Suncoast Credit Union Arena."
 ---

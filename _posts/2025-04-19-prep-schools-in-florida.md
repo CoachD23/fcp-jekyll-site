@@ -3,7 +3,7 @@ layout: post
 title: "Top Basketball Prep Schools in Florida for D1 Talent"
 date: 2025-04-19
 categories: [recruiting]
-image: /assets/images/about-fcp.jpg
+image: /assets/images/blog/prep-schools-florida.jpg
 description: "Florida's prep schools have produced NBA picks, G-League pros, and D1 commits. Compare FCP, Montverde, IMG Academy, and more top programs."
 excerpt: "Florida's basketball prep schools have produced NBA draft picks, G-League pros, and hundreds of D1 commits. Compare top programs like FCP, Montverde, and IMG Academy."
 ---
