@@ -747,7 +747,7 @@ function submitApplication() {
   btn.disabled = true;
   btn.textContent = 'Submitting…';
 
-  fetch('/', {
+  fetch('/.netlify/functions/submit-application', {
     method: 'POST',
     headers: { 'Accept': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams(formData)
@@ -762,8 +762,9 @@ function submitApplication() {
     }
   })
   .catch(function() {
-    // Even on network error, redirect — Netlify may still catch it
-    window.location.href = '/payment/';
+    btn.disabled = false;
+    btn.innerHTML = 'Submit Application &amp; Pay $25 &rarr;';
+    alert('There was a problem submitting your application. Please try again.');
   });
 }
 </script>

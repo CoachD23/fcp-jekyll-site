@@ -783,7 +783,7 @@ function submitApplication() {
     }
   });
 
-  fetch('/', {
+  fetch('/.netlify/functions/submit-application', {
     method: 'POST',
     body: formData
     /* Do NOT set Content-Type — browser sets multipart boundary automatically */
