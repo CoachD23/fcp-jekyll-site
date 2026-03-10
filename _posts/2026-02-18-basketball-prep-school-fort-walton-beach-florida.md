@@ -7,7 +7,7 @@ date: 2026-02-18
 categories: [basketball, recruiting]
 tags: [fort-walton-beach, prep-school, d1-recruiting, florida-panhandle, basketball-development]
 author: "Coach Lee DeForest"
-image: /assets/images/training/spartan-center.jpg
+image: /assets/images/blog/fort-walton-basketball.jpg
 ---
 
 If your son is serious about D1 basketball, the prep school decision might be the most important choice you make. And if you've never considered Fort Walton Beach, Florida — you've been overlooking one of the best-kept secrets in elite basketball development.
