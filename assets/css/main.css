@@ -2117,6 +2117,9 @@ section { padding: 4rem 0; }
   .blog-story-card { min-height: 280px; }
   .blog-stories-bar { flex-direction: column; gap: 1rem; align-items: flex-start; }
   .blog-stories-filters { flex-wrap: wrap; }
+  .blog-intro-text { display: none; }
+  .blog-feat-excerpt { display: none; }
+  .blog-story-excerpt { display: none; }
   .instagram-grid { grid-template-columns: repeat(2, 1fr); }
   .instagram-section { padding: 3rem 0 2rem; }
   .video-hub-section { padding: 3rem 0; }

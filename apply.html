@@ -286,8 +286,8 @@ hide_connect_form: true
 
 /* Mobile */
 @media (max-width: 768px) {
-  /* Reduce page header top padding on mobile */
-  .page-header { padding: 4rem 0 1rem !important; }
+  /* Clear the fixed 80px nav — was 4rem (64px) which caused overlap */
+  .page-header { padding: 5.5rem 0 1rem !important; }
 
   .apply-paths-section {
     padding: 0 0.75rem;
@@ -345,7 +345,8 @@ hide_connect_form: true
 }
 
 @media (max-width: 480px) {
-  .page-header { padding: 3.5rem 0 0.75rem !important; }
+  /* Still need to clear the 80px nav on small phones */
+  .page-header { padding: 5rem 0 0.75rem !important; }
   .apply-paths-section { padding: 0 0.5rem; }
   .apply-path-card { padding: 1.5rem 1rem; }
   .apply-path-heading h3 { font-size: 1.15rem; }
