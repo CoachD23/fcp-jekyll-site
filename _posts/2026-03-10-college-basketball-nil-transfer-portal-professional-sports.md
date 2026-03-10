@@ -3,7 +3,7 @@ layout: post
 title: "College Basketball Is Now a Professional Sport. Is Your Player Ready?"
 date: 2026-03-10
 categories: [recruiting]
-image: /assets/images/brandon-maclin-fcp.jpeg
+image: /assets/images/blog/fcp-basketball-team.jpg
 description: "NIL deals, the transfer portal, and overseas pros are reshaping college basketball. What young players need to understand about the new professional reality of college athletics."
 excerpt: "College basketball isn't amateur athletics anymore. NIL money, the transfer portal, and coaches recruiting proven players have permanently changed what it means to compete at the next level."
 ---
