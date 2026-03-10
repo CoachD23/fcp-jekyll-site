@@ -2023,7 +2023,7 @@ section { padding: 4rem 0; }
   }
   .main-nav.active { display: block; }
   .main-nav > ul { flex-direction: column; gap: 0; }
-  .main-nav a { display: block; padding: 0.75rem 1rem; font-size: 1rem; }
+  .main-nav a { display: block; padding: 0.875rem 1rem; font-size: 1rem; min-height: 48px; }
   .dropdown-menu {
     display: none;
     position: static;
@@ -2037,6 +2037,19 @@ section { padding: 4rem 0; }
   .dropdown:hover .dropdown-menu { display: none; }
   .dropdown.open > .dropdown-menu { display: block; }
   .dropdown.open > a::after { transform: rotate(180deg); }
+  /* Mobile nav: item separators, prominent Apply CTA, clearer sub-items */
+  .main-nav > ul > li { border-bottom: 1px solid rgba(255,255,255,0.07); }
+  .main-nav > ul > li:last-child { border-bottom: none; }
+  .main-nav .nav-cta {
+    display: block;
+    text-align: center;
+    padding: 0.875rem 1.5rem !important;
+    font-weight: 700 !important;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+  }
+  .dropdown-menu a { color: rgba(255,255,255,0.75) !important; }
+  .dropdown-menu a:hover, .dropdown-menu a:active { color: #fff !important; background: rgba(255,255,255,0.06); }
   .footer-top { flex-direction: column; gap: 1rem; text-align: center; }
   .footer-social { justify-content: center; }
   .docuseries-layout { grid-template-columns: 1fr; gap: 2.5rem; }
@@ -2111,6 +2124,7 @@ section { padding: 4rem 0; }
 }
 @media (max-width: 480px) {
   .container { padding: 0 1rem; }
+  .logo { font-size: 0.95rem; letter-spacing: 0.02em; }
   .hero-video { min-height: 100svh; min-height: 100vh; }
   .hero-content { padding: 5rem 0 2rem; }
   .hero-cta { flex-direction: column; align-items: center; gap: 0.75rem; }
