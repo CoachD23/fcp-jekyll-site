@@ -3,7 +3,7 @@ layout: post
 title: "Post-Graduate Basketball at Florida Coastal Prep: Seven Seasons of Building D1 Players"
 date: 2026-03-07
 categories: [program]
-image: /assets/images/training/spartan-center.jpg
+image: /assets/images/blog/lee-deforest-action.png
 description: "Florida Coastal Prep's post-graduate basketball program has spent seven seasons developing athletes from 43 states and 22 countries into college-ready players through elite training, Westside Barbell strength programming, and a national competition schedule."
 excerpt: "Seven seasons. 43 states. 22 countries. Here's how Florida Coastal Prep's post-graduate program turns overlooked athletes into college basketball players."
 ---

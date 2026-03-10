@@ -3,7 +3,7 @@ layout: post
 title: "Mastering the Pick and Roll: The Complete Basketball Guide"
 date: 2026-03-10
 categories: [training]
-image: /assets/images/training/spartan-center.jpg
+image: /assets/images/blog/pick-and-roll-training.jpg
 description: "What is a pick and roll in basketball? Learn how to execute, defend, and master the most effective play in the game — from basic mechanics to advanced reads."
 excerpt: "The pick and roll is the most powerful play in basketball. Here's how it works, how to run it at a high level, and how defenders try to stop it."
 ---

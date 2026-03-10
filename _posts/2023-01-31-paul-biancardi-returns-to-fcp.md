@@ -3,7 +3,7 @@ layout: post
 title: "Coach B Returns: ESPN's Biancardi Visits FCP Again"
 date: 2023-01-31
 categories: [highlights]
-image: /assets/images/training/spartan-center-2.jpg
+image: /assets/images/blog/paul-biancardi-fcp.jpg
 description: "ESPN's Paul Biancardi makes his second visit to FCP, evaluating players, sharing recruiting insights, and touring the academy's upgraded facilities."
 excerpt: "Florida Coastal Prep welcomes back Coach Paul Biancardi, ESPN's National Director of Recruiting, for his second visit to the academy."
 ---
