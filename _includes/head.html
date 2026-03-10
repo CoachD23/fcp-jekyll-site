@@ -3,6 +3,7 @@
 <title>{% if page.url == "/" %}Florida Coastal Prep | Post-Grad & High School Basketball in Fort Walton Beach{% elsif page.title and page.title != "Home" %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline | default: "Post-Grad & High School Basketball in Fort Walton Beach, FL" }}{% endif %}</title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
+{% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
 
 <!-- PWA & Mobile -->
 <meta name="theme-color" content="#0a1628">

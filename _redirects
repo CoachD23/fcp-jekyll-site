@@ -68,7 +68,7 @@
 # ----------------------------------------------------------
 # 6. SCHEDULE pages → program pages
 # ----------------------------------------------------------
-/schedule/                     /about/         301
+/schedule/                     /post-grad/     301
 /post-grad-schedule/           /post-grad/     301
 /high-school-schedule/         /high-school/   301
 
