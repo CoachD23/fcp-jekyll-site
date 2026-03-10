@@ -11,16 +11,16 @@ hide_connect_form: true
   <div class="apply-paths-grid">
 
     <!-- US Path -->
-    <div class="apply-path-card apply-path-us" onclick="selectPath('us')" tabindex="0" role="button" aria-label="Start US Resident Application">
+    <a class="apply-path-card apply-path-us" href="/apply/us/" aria-label="Start US Resident Application">
       <div class="apply-path-flag">🇺🇸</div>
       <div class="apply-path-heading">
         <h3>US Resident Application</h3>
         <p>For student-athletes currently residing in the United States</p>
       </div>
-      <button class="btn btn-primary apply-path-btn" aria-label="Start US Application">
+      <span class="btn btn-primary apply-path-btn">
         Start US Application
-      </button>
-    </div>
+      </span>
+    </a>
 
     <!-- Divider -->
     <div class="apply-path-divider" aria-hidden="true">
@@ -28,16 +28,16 @@ hide_connect_form: true
     </div>
 
     <!-- International Path -->
-    <div class="apply-path-card apply-path-intl" onclick="selectPath('international')" tabindex="0" role="button" aria-label="Start International Application">
+    <a class="apply-path-card apply-path-intl" href="/apply/international/" aria-label="Start International Application">
       <div class="apply-path-flag">🌍</div>
       <div class="apply-path-heading">
         <h3>International Application</h3>
         <p>For student-athletes located outside the United States</p>
       </div>
-      <button class="btn btn-gold apply-path-btn" aria-label="Start International Application">
+      <span class="btn btn-gold apply-path-btn">
         Start International Application
-      </button>
-    </div>
+      </span>
+    </a>
 
   </div>
 
@@ -75,22 +75,7 @@ hide_connect_form: true
 </script>
 
 <script>
-function selectPath(path) {
-  window.location.href = path === 'us' ? '/apply/us/' : '/apply/international/';
-}
-
-// Keyboard accessibility: Enter/Space activates path cards
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.apply-path-card').forEach(function(card) {
-    card.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        var path = card.classList.contains('apply-path-us') ? 'us' : 'international';
-        selectPath(path);
-      }
-    });
-  });
-});
+// No JS needed — cards are now <a href> links for reliable mobile tapping
 </script>
 
 <style>
@@ -123,6 +108,9 @@ document.addEventListener('DOMContentLoaded', function() {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .apply-path-card:hover {
@@ -183,7 +171,6 @@ document.addEventListener('DOMContentLoaded', function() {
   width: 100%;
   justify-content: center;
   margin-top: auto;
-  pointer-events: none; /* card handles click */
 }
 
 /* Divider */
