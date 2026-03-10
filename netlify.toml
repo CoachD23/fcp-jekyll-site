@@ -32,10 +32,6 @@
 [[plugins]]
   package = "netlify-plugin-jekyll-cache"
 
-# Minifies HTML output for smaller file sizes and faster page loads
-[[plugins]]
-  package = "netlify-plugin-minify-html"
-
 # =============================================================
 # 301 REDIRECTS — Preserves all Google-indexed WordPress URLs
 # Every old URL maps to its closest equivalent on the new site.
