@@ -4,17 +4,16 @@ layout: default
 {% if page.hero_video %}
   {% include hero-video.html %}
 {% elsif page.hero_image %}
-{% assign hero_filename = page.hero_image | split: "/" | last %}
-{% assign hero_basename = hero_filename | split: "." | first %}
+{%- assign _hi = page.hero_image | relative_url -%}
 <section class="hero hero-image">
-  <picture>
-    <source type="image/webp"
-            srcset="{{ '/assets/images/responsive/' | append: hero_basename | append: '-480w.webp' | relative_url }} 480w,
-                    {{ '/assets/images/responsive/' | append: hero_basename | append: '-768w.webp' | relative_url }} 768w,
-                    {{ '/assets/images/responsive/' | append: hero_basename | append: '-1200w.webp' | relative_url }} 1200w"
-            sizes="100vw">
-    <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_title | default: page.title }}" class="hero-bg-img" width="1600" height="900" fetchpriority="high" decoding="async">
-  </picture>
+  <img srcset="/.netlify/images?url={{ _hi }}&w=480&q=75 480w,
+               /.netlify/images?url={{ _hi }}&w=768&q=75 768w,
+               /.netlify/images?url={{ _hi }}&w=1200&q=75 1200w"
+       sizes="100vw"
+       src="/.netlify/images?url={{ _hi }}&w=1200&q=75"
+       alt="{{ page.hero_title | default: page.title }}"
+       class="hero-bg-img" width="1600" height="900"
+       fetchpriority="high" decoding="async">
   <div class="hero-overlay"></div>
   <div class="container hero-content">
     <h1>{{ page.hero_title | default: page.title }}</h1>

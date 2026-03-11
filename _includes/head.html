@@ -18,18 +18,18 @@
 <meta property="og:type" content="{% if page.layout == 'post' or page.layout == 'alumni-post' %}article{% else %}website{% endif %}">
 <meta property="og:title" content="{% if page.url == '/' %}Florida Coastal Prep | Post-Grad & High School Basketball in Fort Walton Beach{% elsif page.title and page.title != 'Home' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline | default: 'Where Future College Athletes Are Made' }}{% endif %}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-{% if page.image %}<meta property="og:image" content="{{ page.image | relative_url }}">
-{% elsif page.og_image %}<meta property="og:image" content="{{ page.og_image | relative_url }}">
-{% elsif page.hero_image %}<meta property="og:image" content="{{ page.hero_image | relative_url }}">
-{% else %}<meta property="og:image" content="{{ '/assets/images/hero-poster.jpeg' | relative_url }}">
+{% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">
+{% elsif page.og_image %}<meta property="og:image" content="{{ page.og_image | absolute_url }}">
+{% elsif page.hero_image %}<meta property="og:image" content="{{ page.hero_image | absolute_url }}">
+{% else %}<meta property="og:image" content="{{ '/assets/images/hero-poster.jpeg' | absolute_url }}">
 {% endif %}<meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@FLCoastalPrep">
-{% if page.image %}<meta name="twitter:image" content="{{ page.image | relative_url }}">
-{% elsif page.og_image %}<meta name="twitter:image" content="{{ page.og_image | relative_url }}">
-{% elsif page.hero_image %}<meta name="twitter:image" content="{{ page.hero_image | relative_url }}">
-{% else %}<meta name="twitter:image" content="{{ '/assets/images/hero-poster.jpeg' | relative_url }}">
+{% if page.image %}<meta name="twitter:image" content="{{ page.image | absolute_url }}">
+{% elsif page.og_image %}<meta name="twitter:image" content="{{ page.og_image | absolute_url }}">
+{% elsif page.hero_image %}<meta name="twitter:image" content="{{ page.hero_image | absolute_url }}">
+{% else %}<meta name="twitter:image" content="{{ '/assets/images/hero-poster.jpeg' | absolute_url }}">
 {% endif %}
 
 <!-- Favicon -->
@@ -153,9 +153,10 @@
   {% if page.image %}"image": "{{ page.image | absolute_url }}",{% endif %}
   "wordCount": "{{ content | number_of_words }}",
   "author": {
-    "@type": "Organization",
-    "name": "Florida Coastal Prep",
-    "url": "https://floridacoastalprep.com"
+    "@type": "Person",
+    "name": "Lee DeForest",
+    "jobTitle": "Founder & Director",
+    "url": "https://floridacoastalprep.com/coaches/"
   },
   "publisher": {
     "@type": "Organization",
@@ -264,4 +265,9 @@ var s=document.createElement('script');s.src='https://identity.netlify.com/v1/ne
 {% if page.hero_poster %}<link rel="preload" as="image"
   href="/.netlify/images?url={{ page.hero_poster | relative_url }}&w=1200&q=75"
   fetchpriority="high">
-{% elsif page.hero_image %}<link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" fetchpriority="high">{% endif %}
+{% elsif page.hero_image %}{%- assign _hi = page.hero_image | relative_url -%}
+<link rel="preload" as="image"
+  href="/.netlify/images?url={{ _hi }}&w=1200&q=75"
+  imagesrcset="/.netlify/images?url={{ _hi }}&w=480&q=75 480w, /.netlify/images?url={{ _hi }}&w=768&q=75 768w, /.netlify/images?url={{ _hi }}&w=1200&q=75 1200w"
+  imagesizes="100vw"
+  fetchpriority="high">{% endif %}
