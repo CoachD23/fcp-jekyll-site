@@ -362,7 +362,19 @@ hero_subtitle: Compete. Develop. Get Recruited.
 .program-offers .feature-card { text-align: left; }
 .program-offers .feature-card p { text-align: left; }
 .program-offers .feature-card .feature-icon-svg { margin-left: 0; margin-right: auto; }
-.hero-bg-img { object-position: center 30% !important; }
+/* Rotate post-grad hero 90° counterclockwise on all screen sizes */
+.hero-bg-img {
+  inset: auto !important;
+  /* Swap viewport units so the image fills the container after rotation */
+  width: 100vh !important;
+  height: 100vw !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) rotate(-90deg) !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  animation: none !important; /* Ken Burns also uses transform — disable to avoid conflict */
+}
 
 /* FAQ accordion */
 .faq-list { display: flex; flex-direction: column; gap: 0.75rem; }
