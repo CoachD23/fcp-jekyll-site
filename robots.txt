@@ -1,6 +1,22 @@
 User-agent: *
 Allow: /
 
+# AI crawlers — explicitly welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
 # WordPress artifact pages (legacy, all redirect to real pages via _redirects)
 Disallow: /elementor-10225/
 Disallow: /elementor-7032/
@@ -37,3 +53,4 @@ Disallow: /page/
 Disallow: /blog/page/
 
 Sitemap: https://floridacoastalprep.com/sitemap.xml
+LLMs: https://floridacoastalprep.com/llms.txt
