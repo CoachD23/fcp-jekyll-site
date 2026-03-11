@@ -1,3 +1,10 @@
+---
+layout: page
+title: "FCP Facts | Florida Coastal Prep Basketball Academy"
+description: "Key facts about Florida Coastal Prep — program stats, 14,000 sq ft Spartan Training Center, coaching staff, academics, and housing in Fort Walton Beach, FL."
+og_image: /assets/images/about-fcp.jpg
+sitemap: false
+---
 # FCP Source-of-Truth Facts
 <!-- This file is read by the /blog command before writing any post. All claims in blog posts MUST be verifiable against this file. Do not invent facts not listed here. -->
 
