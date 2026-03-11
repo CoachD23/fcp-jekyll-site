@@ -8,6 +8,20 @@
  *   GHL_LOCATION_ID  - GHL Location ID
  */
 
+// ── Rate limiter (in-memory, per function instance) ──────────────────────────
+const rateLimit = {};
+const RATE_LIMIT_WINDOW = 60 * 1000; // 1 minute
+const RATE_LIMIT_MAX = 10; // max 10 lead captures per minute per IP
+
+function isRateLimited(ip) {
+  const now = Date.now();
+  if (!rateLimit[ip]) rateLimit[ip] = [];
+  rateLimit[ip] = rateLimit[ip].filter((t) => now - t < RATE_LIMIT_WINDOW);
+  if (rateLimit[ip].length >= RATE_LIMIT_MAX) return true;
+  rateLimit[ip].push(now);
+  return false;
+}
+
 const GHL_BASE = 'https://services.leadconnectorhq.com';
 
 function ghlHeaders() {
@@ -56,6 +70,18 @@ exports.handler = async function (event) {
       statusCode: 405,
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ error: 'Method Not Allowed' }),
+    };
+  }
+
+  const clientIp =
+    event.headers['x-forwarded-for']?.split(',')[0].trim() ||
+    event.headers['client-ip'] ||
+    'unknown';
+  if (isRateLimited(clientIp)) {
+    return {
+      statusCode: 429,
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ error: 'Too many requests' }),
     };
   }
 
