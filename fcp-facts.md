@@ -59,7 +59,7 @@ sitemap: false
   - 1994 NBA All-Star
   - Former Fisk University head coach
 
-- **Jared Dugan** — Head PG Coach / Recruiting Coordinator
+- **Rico Overall** — Director of Recruiting
   - UCF graduate (Economics, Sports Management)
   - Scouting Director at Hoop Brothers
   - Analytics with UCF and Stetson

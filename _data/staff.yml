@@ -98,32 +98,6 @@
 
 # --- COACHING STAFF ---
 
-- name: "Jared Dugan"
-  slug: "jared-dugan"
-  title: "Head Post Grad Coach / Recruiting Coordinator"
-  section: "coaching"
-  badge: ""
-  image: "/assets/images/coaches/jared-dugan.jpg"
-  action_image: "/assets/images/coaches/jared-dugan-action2.jpeg"
-  hero_position: ""
-  bio: "UCF graduate (Economics, Sports Management). NBA skills trainer at IMPACT Academy in Las Vegas working with Bam Adebayo. Previously: Scouting Director at Hoop Brothers, analytics with UCF and Stetson, advanced scout with Indiana Fever."
-  bio_extended: |
-    Jared Dugan brings an analytics-driven approach to coaching and recruiting at Florida Coastal Prep. A University of Central Florida graduate with degrees in Economics and Sports Management, Dugan has built his career at the intersection of data and basketball development.
-
-    Before joining FCP, Dugan served as an NBA skills trainer at IMPACT Academy in Las Vegas, where he worked directly with NBA All-Star Bam Adebayo on skill development and game preparation. His additional experience includes serving as Scouting Director at Hoop Brothers, working in analytics departments with UCF and Stetson University, and serving as an advanced scout with the WNBA's Indiana Fever.
-
-    As Head Post-Graduate Coach and Recruiting Coordinator, Dugan leverages his extensive network and analytical mindset to identify talent, develop players, and connect them with the right college programs for their abilities and academic goals.
-  stats:
-    - label: "Programs Served"
-      value: "5+"
-  education: "University of Central Florida"
-  hometown: ""
-  social:
-    twitter: ""
-    instagram: ""
-    linkedin: ""
-    email: ""
-
 - name: "Dmitry Utolin"
   slug: "dmitry-utolin"
   title: "Varsity Head Coach"
@@ -248,19 +222,19 @@
 
 - name: "Rico Overall"
   slug: "rico-overall"
-  title: "Assistant Coach / Recruiting Coordinator"
+  title: "Director of Recruiting"
   section: "coaching"
   badge: ""
   image: "/assets/images/coaches/rico-overall.jpg"
   action_image: "/assets/images/coaches/rico-action.webp"
   hero_position: ""
-  bio: "Former Lee University (NCAA DII) player with college coaching and post-grad program experience. Leverages extensive international and collegiate connections to place FCP athletes at every level."
+  bio: "Former Lee University (NCAA DII) player with college coaching and post-grad program experience. Leads FCP's recruiting operation, leveraging extensive international and collegiate connections to place athletes at every level."
   bio_extended: |
-    Rico Overall brings firsthand playing experience and a deep recruiting network to Florida Coastal Prep as Assistant Coach and Recruiting Coordinator. A former player at Lee University — an NCAA Division II program in Cleveland, Tennessee — Overall understands what it takes to compete at the collegiate level.
+    Rico Overall brings firsthand playing experience and a deep recruiting network to Florida Coastal Prep as Director of Recruiting. A former player at Lee University — an NCAA Division II program in Cleveland, Tennessee — Overall understands what it takes to compete at the collegiate level and what college coaches are looking for.
 
-    After his playing career, Overall gained coaching experience at multiple post-graduate programs and at the college level, building an extensive network of connections both internationally and across the collegiate landscape. That combination of playing background, coaching résumé, and recruiting relationships makes him a valuable asset for FCP student-athletes looking to find the right collegiate fit.
+    After his playing career, Overall gained coaching experience at multiple post-graduate programs and at the college level, building an extensive network of connections both internationally and across the collegiate landscape. That combination of playing background, coaching résumé, and recruiting relationships positions him to lead FCP's recruiting efforts with both credibility and reach.
 
-    At Florida Coastal Prep, Overall contributes to on-court player development while managing recruiting relationships with college programs nationwide. He works closely with student-athletes on skills development and helps them navigate every step of the recruiting process — from film breakdowns and campus visits to connecting with coaches at the DI, DII, NAIA, and JUCO levels.
+    As Director of Recruiting, Overall oversees all collegiate placement for FCP student-athletes nationwide. He manages relationships with programs at the DI, DII, NAIA, and JUCO levels, guiding players through every step of the process — from film breakdowns and campus visits to offer evaluation and final decisions.
   stats:
     - label: "Played At"
       value: "Lee (DII)"

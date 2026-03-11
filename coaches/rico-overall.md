@@ -1,7 +1,7 @@
 ---
 layout: coach-profile
-title: "Rico Overall — Assistant Coach & Recruiting Coordinator"
-description: "Meet Rico Overall, Assistant Coach and Recruiting Coordinator at Florida Coastal Prep. Supporting player development and connecting talent with collegiate opportunities."
+title: "Rico Overall — Director of Recruiting"
+description: "Meet Rico Overall, Director of Recruiting at Florida Coastal Prep. Former Lee University player with extensive college coaching and post-grad program experience placing athletes at every level."
 staff_slug: rico-overall
 permalink: /coaches/rico-overall/
 ---
