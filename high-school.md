@@ -158,6 +158,131 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 </section>
 
 <!-- CTA -->
+<!-- FAQ Section -->
+<section class="program-offers fade-in" style="margin-top: 3rem;">
+  <div class="staff-section-header">
+    <span class="section-label">Common Questions</span>
+    <h2>High School Program FAQ</h2>
+    <div class="gold-rule"></div>
+  </div>
+  <div class="faq-list" style="max-width: 800px; margin: 0 auto;">
+
+    <details class="faq-item">
+      <summary class="faq-question">What grades does the FCP High School Program accept?</summary>
+      <div class="faq-answer"><p>The FCP National High School Basketball Academy accepts student-athletes in grades 9 through 12. Players can enter the program at any grade level and remain through their senior year.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Is the academic program NCAA-approved?</summary>
+      <div class="faq-answer"><p>Yes. FCP's academic program is fully accredited and NCAA-approved, satisfying core course requirements for Division I and Division II eligibility. Students can also earn college credit through dual enrollment options in partnership with accredited institutions.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Do high school athletes live at the academy?</summary>
+      <div class="faq-answer"><p>Yes. FCP provides supervised team housing with a live-in house coach, daily meals, and structured routines — all located in Fort Walton Beach on Florida's Emerald Coast. Boarding is part of the full-time program experience.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">How many games does the high school team play per season?</summary>
+      <div class="faq-answer"><p>High school players compete in up to 30 games per season against top prep programs and junior colleges nationwide. All games are professionally recorded and uploaded to YouTube for college recruiting exposure.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Do players need to be invited or already recruited to apply?</summary>
+      <div class="faq-answer"><p>No invitation or existing college interest is required. Any student-athlete in grades 9–12 who wants to develop their game, earn recruiting exposure, and compete nationally is welcome to apply. Roster spots are limited, so early applications are encouraged.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Can international students apply?</summary>
+      <div class="faq-answer"><p>Yes. FCP has enrolled athletes from 22 countries. International applicants can apply through our standard application page. Contact <a href="mailto:info@floridacoastalprep.com">info@floridacoastalprep.com</a> for specific questions about visas, transcripts, and academic eligibility.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">What makes FCP different from a local high school program?</summary>
+      <div class="faq-answer"><p>FCP is a full-time national prep academy, not a local school team. Athletes train twice a day, compete on a national schedule, receive professional recruiting film, live together as a team, and follow a structured academic program — all designed around one goal: earning a college scholarship.</p></div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">How do I apply?</summary>
+      <div class="faq-answer"><p>Submit an application through our <a href="/apply/">Apply page</a>. Roster spots are limited. You can also reach our coaching staff directly through the <a href="/contact/">Contact page</a> with any questions before applying.</p></div>
+    </details>
+
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What grades does the FCP High School Program accept?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The FCP National High School Basketball Academy accepts student-athletes in grades 9 through 12. Players can enter the program at any grade level and remain through their senior year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the academic program NCAA-approved?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. FCP's academic program is fully accredited and NCAA-approved, satisfying core course requirements for Division I and Division II eligibility. Students can also earn college credit through dual enrollment options in partnership with accredited institutions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do high school athletes live at the academy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. FCP provides supervised team housing with a live-in house coach, daily meals, and structured routines in Fort Walton Beach on Florida's Emerald Coast. Boarding is part of the full-time program experience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many games does the high school team play per season?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High school players compete in up to 30 games per season against top prep programs and junior colleges nationwide. All games are professionally recorded and uploaded to YouTube for college recruiting exposure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do players need to be invited or already recruited to apply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No invitation or existing college interest is required. Any student-athlete in grades 9–12 who wants to develop their game, earn recruiting exposure, and compete nationally is welcome to apply. Roster spots are limited."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can international students apply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. FCP has enrolled athletes from 22 countries. International applicants can apply through the standard application page. Contact info@floridacoastalprep.com for questions about visas, transcripts, and academic eligibility."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes FCP different from a local high school program?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FCP is a full-time national prep academy, not a local school team. Athletes train twice a day, compete on a national schedule, receive professional recruiting film, live together as a team, and follow a structured academic program — all designed around earning a college scholarship."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I apply to the FCP High School Program?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Submit an application at floridacoastalprep.com/apply/. Roster spots are limited. You can also contact the coaching staff directly at info@floridacoastalprep.com."
+      }
+    }
+  ]
+}
+</script>
+
 <div class="cta-section" style="margin-top: 0;">
   <h2>Apply for the High School Program</h2>
   <p>Roster spots are limited. Talk to our <a href="/coaches/" style="color: #d4a843;">coaching staff</a> or apply today.</p>
@@ -220,6 +345,17 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
   }
   .day-photo { order: -1; }
 }
+
+/* FAQ accordion */
+.faq-list { display: flex; flex-direction: column; gap: 0.75rem; }
+.faq-item { border: 1px solid #e0e0e8; border-radius: 10px; overflow: hidden; }
+.faq-question { display: flex; justify-content: space-between; align-items: center; padding: 1.1rem 1.5rem; font-weight: 700; font-size: 1rem; color: #0a1628; cursor: pointer; list-style: none; gap: 1rem; }
+.faq-question::-webkit-details-marker { display: none; }
+.faq-question::after { content: '+'; font-size: 1.4rem; font-weight: 400; color: #c41e3a; flex-shrink: 0; line-height: 1; }
+details[open] .faq-question::after { content: '−'; }
+details[open] .faq-question { border-bottom: 1px solid #e0e0e8; }
+.faq-answer { padding: 1.1rem 1.5rem; color: #444; line-height: 1.75; font-size: 0.97rem; }
+.faq-answer a { color: #c41e3a; font-weight: 600; }
 
 /* Clean link styling for feature cards */
 .feature-card a,
