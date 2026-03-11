@@ -15,6 +15,10 @@ Disallow: /japan/
 Disallow: /login/
 Disallow: /forgot-password/
 
+# Site utility pages (no SEO value)
+Disallow: /admin/
+Disallow: /payment-complete/
+
 # WordPress system paths
 Disallow: /wp-admin/
 Disallow: /wp-login.php
