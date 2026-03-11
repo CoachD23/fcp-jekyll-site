@@ -283,6 +283,53 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 }
 </script>
 
+<!-- TRAINING METHODS -->
+<div class="staff-section-dark" style="padding: 4rem 0; margin-top: 2rem;">
+  <div class="container">
+    <p class="section-label" style="text-align:center; color:#d4a843; letter-spacing:0.12em; font-size:0.8rem; font-weight:700; text-transform:uppercase; margin-bottom:0.4rem;">Go Deeper</p>
+    <h2 style="text-align:center; color:#fff; margin-bottom:0.5rem;">How We Develop Players</h2>
+    <div class="gold-rule" style="margin: 0.75rem auto 2.5rem;"></div>
+    <div class="feature-grid" style="max-width: 1000px; margin: 0 auto;">
+
+      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
+        <div style="font-size:2rem; margin-bottom:0.75rem;">💪</div>
+        <h3 style="color:#fff; margin-bottom:0.5rem;">Strength &amp; Conditioning</h3>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Westside Barbell conjugate method. Five days per week. Built for basketball explosiveness — not generic gym work.</p>
+        <a href="/strength-training/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">Explore the method →</a>
+      </div>
+
+      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
+        <div style="font-size:2rem; margin-bottom:0.75rem;">🎯</div>
+        <h3 style="color:#fff; margin-bottom:0.5rem;">Individual Workouts</h3>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">1-on-1 coaching, 300–500 makes per session, two shooting guns. Position-specific skill work every day.</p>
+        <a href="/individual-workouts/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">See the workouts →</a>
+      </div>
+
+      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
+        <div style="font-size:2rem; margin-bottom:0.75rem;">🎬</div>
+        <h3 style="color:#fff; margin-bottom:0.5rem;">Film Study</h3>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Video analytics, weekly individual film review, team breakdowns, and professional-quality highlight production.</p>
+        <a href="/film-study/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">Watch the process →</a>
+      </div>
+
+      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
+        <div style="font-size:2rem; margin-bottom:0.75rem;">📋</div>
+        <h3 style="color:#fff; margin-bottom:0.5rem;">Recruiting Strategy</h3>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">6-step system: profile build, film package, coach outreach, campus visits, offer management, and commitment support.</p>
+        <a href="/recruiting-strategy/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">Learn the process →</a>
+      </div>
+
+      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
+        <div style="font-size:2rem; margin-bottom:0.75rem;">🌊</div>
+        <h3 style="color:#fff; margin-bottom:0.5rem;">Beach Training</h3>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Sand conditioning on the Emerald Coast. 1.6× energy output vs. hardcourt. Builds stamina, ankle stability, and mental toughness.</p>
+        <a href="/beach-training/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">See the sessions →</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 <div class="cta-section" style="margin-top: 0;">
   <h2>Apply for the High School Program</h2>
   <p>Roster spots are limited. Talk to our <a href="/coaches/" style="color: #d4a843;">coaching staff</a> or apply today.</p>

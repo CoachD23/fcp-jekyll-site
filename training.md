@@ -196,6 +196,158 @@ hero_subtitle: 14,000 Square Feet of Elite Training
   </div>
 </section>
 
+<!-- FAQ Section -->
+<section class="fade-in" style="max-width: 860px; margin: 3.5rem auto;">
+  <div style="text-align: center; margin-bottom: 2.5rem;">
+    <span class="section-label">Common Questions</span>
+    <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; margin-top: 0.5rem;">Spartan Training Center FAQ</h2>
+    <div class="gold-rule" style="margin: 0.75rem auto 0;"></div>
+  </div>
+
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary class="faq-question">Is the Spartan Training Center open to outside players?</summary>
+      <div class="faq-answer">
+        <p>The facility is primarily dedicated to enrolled FCP athletes who train and live on campus. However, we do open the Spartan Training Center during our <a href="https://summer.floridacoastalprep.com" target="_blank" rel="noopener">summer basketball camps</a>. If you're interested in attending FCP's full-year program, <a href="/apply/">start your application here</a>.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">What does a typical training day look like at FCP?</summary>
+      <div class="faq-answer">
+        <p>Athletes follow a structured daily schedule that typically includes: morning strength and conditioning (5 days/week), academic coursework, individual skill development sessions with position coaches, team practice, and film review. Evening hours are open for additional court time, shooting machine work, or recovery. The 24/7 facility access lets athletes train beyond the scheduled blocks.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">What is the Westside Barbell conjugate method?</summary>
+      <div class="faq-answer">
+        <p>The conjugate method is a periodized strength system developed by Westside Barbell — the same training philosophy used by elite athletes across the NFL, NBA, and Olympic sports. Rather than cycling through linear phases, it simultaneously develops maximal strength and explosive power through max-effort and dynamic-effort training days. For basketball athletes, this means faster first-step speed, higher vertical jumps, and greater on-court athleticism. <a href="/strength-training/">Learn more about our strength program →</a></p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">How many hours per day do FCP athletes train?</summary>
+      <div class="faq-answer">
+        <p>Athletes typically log 4–6 structured training hours per day, split between strength and conditioning, individual skill work, and team practice. Beyond the scheduled sessions, athletes use the 24/7 facility for additional shooting, film review, and recovery. The volume is designed to match what college programs expect — so players arrive ready on Day 1.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">What strength and conditioning equipment is available?</summary>
+      <div class="faq-answer">
+        <p>The performance zone inside the Spartan Training Center includes free weights, barbells, power racks, and sport-specific equipment for our strength program. The turf training zone supports agility ladders, cone drills, and speed work. On select days, athletes also take training outside to Fort Walton Beach for sand conditioning and endurance work.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Can parents visit or tour the facility?</summary>
+      <div class="faq-answer">
+        <p>Absolutely — we encourage families to visit in person. You can schedule a tour of the Spartan Training Center, sit in on a training session, and meet our coaching staff. <a href="/contact/">Contact us to book a visit →</a></p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Do athletes train year-round or only during the season?</summary>
+      <div class="faq-answer">
+        <p>FCP is a full academic-year program with year-round training infrastructure. Our enrolled athletes train from fall through spring. In the summer, we transition to camp programming and open enrollment for summer athletes. There's no true "off season" at FCP — the facility is always open and coaches are always available.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">What makes training at FCP different from a standard high school or club program?</summary>
+      <div class="faq-answer">
+        <p>Three things most programs can't offer: (1) A <strong>dedicated 14,000 sq ft facility</strong> built specifically for basketball — not a shared gym or recreation center. (2) <strong>Professional-level coaching</strong>, including NBA All-Star Kenny Anderson and a staff with 100+ years of combined experience. (3) <strong>Individual accountability</strong> — every athlete has a recruiting plan, gets personalized coaching, and reviews their own film. That combination produces <a href="/commitments/">college commits from 43 states and 22 countries</a>.</p>
+      </div>
+    </details>
+  </div>
+</section>
+
+<style>
+.faq-list { display: flex; flex-direction: column; gap: 0.75rem; }
+.faq-item { border: 1px solid #e0e0e8; border-radius: 10px; overflow: hidden; }
+.faq-question { display: flex; justify-content: space-between; align-items: center; padding: 1.1rem 1.5rem; font-weight: 700; font-size: 1rem; color: #0a1628; cursor: pointer; list-style: none; gap: 1rem; }
+.faq-question::-webkit-details-marker { display: none; }
+.faq-question::after { content: '+'; font-size: 1.4rem; font-weight: 400; color: #c41e3a; flex-shrink: 0; line-height: 1; }
+details[open] .faq-question::after { content: '−'; }
+details[open] .faq-question { border-bottom: 1px solid #e0e0e8; }
+.faq-answer { padding: 1.1rem 1.5rem; color: #444; line-height: 1.75; font-size: 0.97rem; }
+.faq-answer a { color: #c41e3a; font-weight: 600; }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is the Spartan Training Center open to outside players?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The facility is primarily dedicated to enrolled FCP athletes. We open it during summer basketball camps. Interested players can apply at floridacoastalprep.com/apply/."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a typical training day look like at FCP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Athletes follow a structured daily schedule including morning strength and conditioning (5 days/week), academic coursework, individual skill development sessions, team practice, and film review. The 24/7 facility allows additional court time beyond scheduled sessions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Westside Barbell conjugate method?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The conjugate method is a periodized strength system used by elite NFL, NBA, and Olympic athletes. It simultaneously develops maximal strength and explosive power through max-effort and dynamic-effort training days. For basketball, this means faster first-step speed, higher vertical jumps, and greater athleticism."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many hours per day do FCP athletes train?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Athletes typically log 4–6 structured training hours per day, split between strength and conditioning, individual skill work, and team practice. The 24/7 facility allows additional work beyond scheduled sessions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What strength and conditioning equipment is available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The performance zone includes free weights, barbells, power racks, and sport-specific equipment. The turf zone supports agility and speed work. Athletes also train on Fort Walton Beach for sand conditioning on select days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can parents visit or tour the facility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — families are encouraged to visit in person. You can schedule a tour, sit in on a training session, and meet the coaching staff by contacting FCP at floridacoastalprep.com/contact/."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do athletes train year-round or only during the season?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FCP is a full academic-year program with year-round training infrastructure. Enrolled athletes train from fall through spring. In summer, the facility hosts camp programming. There's no true off season at FCP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes training at FCP different from a standard high school or club program?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three differentiators: a dedicated 14,000 sq ft facility built specifically for basketball, professional-level coaching including NBA All-Star Kenny Anderson and a staff with 100+ years of combined experience, and individual accountability through personalized recruiting plans, 1-on-1 coaching, and film review."
+      }
+    }
+  ]
+}
+</script>
+
 <!-- CTA -->
 <div class="cta-section" style="margin-top: 0;">
   <h2>Come See the Spartan Training Center</h2>
