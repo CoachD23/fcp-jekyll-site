@@ -289,7 +289,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <p class="section-label" style="text-align:center; color:#d4a843; letter-spacing:0.12em; font-size:0.8rem; font-weight:700; text-transform:uppercase; margin-bottom:0.4rem;">Go Deeper</p>
     <h2 style="text-align:center; color:#fff; margin-bottom:0.5rem;">How We Develop Players</h2>
     <div class="gold-rule" style="margin: 0.75rem auto 2.5rem;"></div>
-    <div class="feature-grid" style="max-width: 1000px; margin: 0 auto;">
+    <div class="feature-grid methods-grid">
 
       <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
         <div style="font-size:2rem; margin-bottom:0.75rem;">💪</div>
@@ -393,7 +393,12 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
   .day-photo { order: -1; }
 }
 
-/* FAQ accordion */
+/* FAQ accordion — lock question text to dark on all states */
+summary.faq-question,
+summary.faq-question:hover,
+summary.faq-question:focus-visible,
+summary.faq-question:focus,
+summary.faq-question:active { color: #0a1628; }
 .faq-list { display: flex; flex-direction: column; gap: 0.75rem; }
 .faq-item { border: 1px solid #e0e0e8; border-radius: 10px; overflow: hidden; }
 .faq-question { display: flex; justify-content: space-between; align-items: center; padding: 1.1rem 1.5rem; font-weight: 700; font-size: 1rem; color: #0a1628; cursor: pointer; list-style: none; gap: 1rem; }

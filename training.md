@@ -264,6 +264,12 @@ hero_subtitle: 14,000 Square Feet of Elite Training
 </section>
 
 <style>
+/* FAQ accordion — lock question text to dark on all states */
+summary.faq-question,
+summary.faq-question:hover,
+summary.faq-question:focus-visible,
+summary.faq-question:focus,
+summary.faq-question:active { color: #0a1628; }
 .faq-list { display: flex; flex-direction: column; gap: 0.75rem; }
 .faq-item { border: 1px solid #e0e0e8; border-radius: 10px; overflow: hidden; }
 .faq-question { display: flex; justify-content: space-between; align-items: center; padding: 1.1rem 1.5rem; font-weight: 700; font-size: 1rem; color: #0a1628; cursor: pointer; list-style: none; gap: 1rem; }
