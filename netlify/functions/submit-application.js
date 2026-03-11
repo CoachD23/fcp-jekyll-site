@@ -274,13 +274,14 @@ exports.handler = async function (event) {
     return { statusCode: 405, body: 'Method Not Allowed' };
   }
 
-  const contentType = (event.headers['content-type'] || '').toLowerCase();
+  const contentTypeRaw = event.headers['content-type'] || '';
+  const contentType = contentTypeRaw.toLowerCase();
 
   // Honeypot check
   let raw;
   try {
     if (contentType.includes('multipart/form-data')) {
-      const boundaryMatch = contentType.match(/boundary=([^\s;]+)/);
+      const boundaryMatch = contentTypeRaw.match(/boundary=([^\s;]+)/i);
       if (!boundaryMatch) throw new Error('Missing multipart boundary');
       const bodyBuf = event.isBase64Encoded
         ? Buffer.from(event.body, 'base64')
