@@ -154,9 +154,12 @@
   "wordCount": "{{ content | number_of_words }}",
   "author": {
     "@type": "Person",
-    "name": "Lee DeForest",
-    "jobTitle": "Founder & Director",
-    "url": "https://floridacoastalprep.com/coaches/"
+    {% if page.author == "vando" %}"name": "Vando Becheli", "jobTitle": "National Post Grad Director",
+    {% elsif page.author == "dada" %}"name": "Dada Huang", "jobTitle": "International Recruiter",
+    {% elsif page.author == "tyler" %}"name": "Tyler Martin", "jobTitle": "Head Skill Development Coach",
+    {% elsif page.author == "jared" %}"name": "Jared Dugan", "jobTitle": "Head Post Grad Coach & Recruiting Coordinator",
+    {% else %}"name": "Lee DeForest", "jobTitle": "Founder & Director",
+    {% endif %}"url": "https://floridacoastalprep.com/coaches/"
   },
   "publisher": {
     "@type": "Organization",
