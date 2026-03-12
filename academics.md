@@ -3,15 +3,15 @@ layout: page
 title: "Accredited Academics & NCAA-Approved Coursework"
 subtitle: Education That Prepares You for College
 description: "Florida Coastal Prep offers accredited academics, Colorado Christian University dual enrollment, NCAA-approved coursework, and unique electives — all built around a student-athlete's training schedule in Fort Walton Beach, FL."
-hero_image: /assets/images/academics/fcp-high-school.png
-og_image: /assets/images/academics/fcp-high-school.png
+hero_image: /assets/images/academics/academic-studying.jpg
+og_image: /assets/images/academics/academic-studying.jpg
 hero_title: Academics
 hero_subtitle: Education That Prepares You for College
 ---
 
 <style>
-/* Hero image — shift down to show more of the classroom */
-.hero-bg-img { object-position: center 25% !important; }
+/* Hero image — classroom photo, center it naturally */
+.hero-bg-img { object-position: center center !important; }
 /* 3+2 enrollment grid on desktop */
 .enrollment-steps { grid-template-columns: repeat(3, 1fr) !important; gap: 1rem; max-width: 900px; margin-left: auto; margin-right: auto; }
 .enrollment-step { padding: 1.25rem 1rem !important; }
@@ -67,7 +67,7 @@ hero_subtitle: Education That Prepares You for College
 <!-- Academic Overview — Global Perspective -->
 <div class="program-grid fade-in">
   <div class="program-image">
-    <img src="/assets/images/academics/fcp-book-074.jpeg" alt="Florida Coastal Prep student-athletes from around the world studying and training together at Fort Walton Beach campus" loading="lazy">
+    <img src="/assets/images/academics/fcp-high-school.png" alt="Florida Coastal Prep graduates in caps and gowns with international sashes representing students from 43 states and 22 countries" loading="lazy">
   </div>
   <div class="program-details">
     <div class="staff-section-header" style="text-align: left;">
