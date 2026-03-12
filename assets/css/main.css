@@ -7200,7 +7200,7 @@ iframe { max-width: 100%; }
   padding: 0;
 }
 .blueprint-card h3 { color: #fff; margin-bottom: 0.6rem; }
-.blueprint-card p { color: #a8b5c8; font-size: 0.95rem; flex: 1; }
+.blueprint-card p:not(.blueprint-card-label) { color: #a8b5c8; font-size: 0.95rem; flex: 1; }
 .blueprint-card a { color: #d4a843 !important; font-weight: 600; }
 .blueprint-card a:hover { color: #fff !important; }
 /* Zone 2 — Training method cards: pin link to bottom */
