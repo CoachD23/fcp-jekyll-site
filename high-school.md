@@ -26,32 +26,32 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <p class="blueprint-zone-label">WHAT'S INCLUDED</p>
     <div class="feature-grid">
       <div class="feature-card blueprint-card fade-in">
-        <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg></div>
+        <p class="blueprint-card-label">Coaching</p>
         <h3>Elite Coaching Staff</h3>
         <p>Train under former NBA players and <a href="/coaches/">D1 coaches</a> who bring real professional experience to every practice, film session, and game. ESPN's <a href="/paul-biancardi-espn-endorses-florida-coastal-prep/">Paul Biancardi</a> called FCP "first class treatment of players."</p>
       </div>
       <div class="feature-card blueprint-card fade-in">
-        <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zM5 15h14v3H5z"/></svg></div>
+        <p class="blueprint-card-label">Competition</p>
         <h3>National Competition</h3>
         <p>High school athletes compete in the <strong>SEHAL</strong> and <strong>PHSBA</strong> — top prep circuits featuring the best programs in the Southeast and across the country. Every game is a showcase.</p>
       </div>
       <div class="feature-card blueprint-card fade-in">
-        <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg></div>
+        <p class="blueprint-card-label">Recruiting</p>
         <h3>Recruiting Pipeline</h3>
         <p>Individual recruiting plans, professional game film, exposure events, and direct connections to college coaching staffs. See our <a href="/commitments/">Spartan Alumni</a>.</p>
       </div>
       <div class="feature-card blueprint-card fade-in">
-        <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg></div>
+        <p class="blueprint-card-label">Facility</p>
         <h3>World-Class Facility</h3>
         <p>Train daily in our 14,000 sq ft <a href="/training/">training facility</a> featuring professional hardwood, a turf performance zone, weight room, and film room with 24/7 access.</p>
       </div>
       <div class="feature-card blueprint-card fade-in">
-        <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
+        <p class="blueprint-card-label">Academics</p>
         <h3>Accredited Academics</h3>
         <p>Full <a href="/academics/">NCAA-approved academic program</a> with accredited coursework, dual enrollment options, and college application support.</p>
       </div>
       <div class="feature-card blueprint-card fade-in">
-        <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
+        <p class="blueprint-card-label">Housing</p>
         <h3>Emerald Coast Living</h3>
         <p>Supervised <a href="/housing/">team housing</a> with a live-in house coach, daily meals, and structured routines in Fort Walton Beach, FL — year-round sunshine and a safe community on Florida's Emerald Coast.</p>
       </div>
