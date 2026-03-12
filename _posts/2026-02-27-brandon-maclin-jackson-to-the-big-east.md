@@ -37,7 +37,7 @@ By his senior year, Maclin was contributing to a team that reached the TSSAA Sta
 
 ## The FCP Foundation
 
-<img src="/assets/images/players/brandon-maclin-basketball-training-fcp.jpeg" alt="Brandon Maclin training at Florida Coastal Prep" class="article-float-img">
+<img src="/assets/images/players/brandon-maclin-basketball-training-fcp.jpeg" alt="Brandon Maclin training at the Spartan Training Center, Florida Coastal Prep, Fort Walton Beach, Florida" class="article-float-img">
 
 After high school, Maclin made the decision that would change the trajectory of his career — he came to Florida Coastal Prep for a post-graduate year.
 

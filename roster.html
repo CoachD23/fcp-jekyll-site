@@ -28,9 +28,9 @@ sitemap: false
       <div class="roster-card" data-program="{{ player.program }}">
         <div class="roster-card-image">
           {% if player.image %}
-          <img src="{{ player.image | relative_url }}" alt="{{ player.name }}" width="400" height="400" loading="lazy">
+          <img src="{{ player.image | relative_url }}" alt="{{ player.name }} — Florida Coastal Prep basketball" width="400" height="400" loading="lazy">
           {% else %}
-          <img src="/assets/images/fcp-logo-square.png" alt="{{ player.name }}" width="400" height="400" loading="lazy">
+          <img src="/assets/images/fcp-logo-square.png" alt="{{ player.name }} — Florida Coastal Prep basketball" width="400" height="400" loading="lazy">
           {% endif %}
           <span class="roster-number">#{{ player.number }}</span>
         </div>

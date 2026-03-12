@@ -37,7 +37,7 @@ That wasn't a polished press statement. That was a man who has been inside hundr
 
 ## What This Means for FCP Athletes
 
-<img src="/assets/images/about/biancardi-gym.jpg" alt="Paul Biancardi at the Florida Coastal Prep facility" style="width: 100%; max-width: 640px; display: block; margin: 2rem auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+<img src="/assets/images/about/biancardi-gym.jpg" alt="Paul Biancardi, ESPN Director of Recruiting, at the Spartan Training Center, Florida Coastal Prep, Fort Walton Beach, Florida" style="width: 100%; max-width: 640px; display: block; margin: 2rem auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
 
 Biancardi's praise carries weight that goes beyond a quote on a website. Here's what it means in practical terms for FCP athletes:
 

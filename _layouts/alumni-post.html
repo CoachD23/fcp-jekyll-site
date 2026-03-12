@@ -33,7 +33,7 @@ layout: default
           </div>
         </div>
         <div class="journey-card-now">
-          <img src="{{ page.image | relative_url }}" alt="{{ page.player_name }} — {{ page.current_team }}" loading="lazy">
+          <img src="{{ page.image | relative_url }}" alt="{{ page.player_name }} — {{ page.current_team }}, Florida Coastal Prep alumnus" loading="lazy">
           <div class="journey-card-label">
             <span class="journey-label-tag journey-label-now">{{ page.current_team | default: "NBA" }}</span>
           </div>
@@ -145,7 +145,7 @@ layout: default
           {% if page.bio %}
           <div class="alumni-bio-footer">
             <div class="alumni-bio-card">
-              <img src="{{ page.image | relative_url }}" alt="{{ page.player_name }}" loading="lazy" class="alumni-bio-avatar">
+              <img src="{{ page.image | relative_url }}" alt="{{ page.player_name }} — Florida Coastal Prep alumnus" loading="lazy" class="alumni-bio-avatar">
               <div class="alumni-bio-info">
                 <h4>{{ page.player_name }}</h4>
                 <p>{{ page.bio }}</p>

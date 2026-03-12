@@ -53,4 +53,5 @@ Disallow: /page/
 Disallow: /blog/page/
 
 Sitemap: https://floridacoastalprep.com/sitemap.xml
+Sitemap: https://floridacoastalprep.com/sitemap-images.xml
 LLMs: https://floridacoastalprep.com/llms.txt
