@@ -16,9 +16,7 @@ hero_subtitle: Investing in Your Athletic and Academic Future
     <h2>High School Program Costs</h2>
     <div class="gold-rule"></div>
   </div>
-  <div style="max-width: 800px; margin: 1rem auto 0;">
-    <p style="font-size: 1.08rem; line-height: 1.75; color: #333;">Our National High School Program includes everything student-athletes need to develop and compete at an elite level. Tuition covers daily basketball training, strength and conditioning, accredited academics, supervised housing, meals, recruiting support, and access to our 14,000 sq ft Spartan Training Center. For a detailed cost breakdown and payment plan options, <a href="/contact/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">contact our admissions team</a>.</p>
-  </div>
+
 </div>
 
 <!-- Intro Statement -->
@@ -207,10 +205,10 @@ hero_subtitle: Investing in Your Athletic and Academic Future
 <section class="cta-section fade-in" style="margin-top: 3rem;">
   <h2>Ready to Invest in Your Future?</h2>
   <p>Contact our admissions team to get a full cost breakdown, explore financial assistance options, and take the first step toward your college basketball career.</p>
-  <div class="cta-buttons">
-    <a href="/apply/" class="cta-button-primary">Apply Now</a>
-    <a href="/payment/" class="cta-button-secondary">Make a Payment</a>
-    <a href="/contact/" class="cta-button-secondary">Contact Admissions</a>
+  <div class="hero-cta">
+    <a href="/apply/" class="btn btn-primary">Apply Now</a>
+    <a href="/payment/" class="btn btn-gold">Make a Payment</a>
+    <a href="/contact/" class="btn btn-gold">Contact Admissions</a>
   </div>
 </section>
 
