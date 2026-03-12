@@ -104,7 +104,7 @@ hero_subtitle: Compete. Develop. Get Recruited.
 </section>
 
 <!-- Featured Alumni — Dark Section -->
-<section class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
+<section class="staff-section staff-section-dark fade-in" style="margin-top: 3rem; margin-left: 1.5rem; margin-right: 1.5rem; border-radius: 16px; overflow: hidden;">
   <div class="staff-section-header">
     <span class="section-label">Results</span>
     <h2>Where PG Athletes Go</h2>
@@ -395,7 +395,7 @@ summary.faq-question:active { color: #0a1628; }
 .faq-question::after { content: '+'; font-size: 1.4rem; font-weight: 400; color: #c41e3a; flex-shrink: 0; line-height: 1; }
 details[open] .faq-question::after { content: '−'; }
 details[open] .faq-question { border-bottom: 1px solid #e0e0e8; }
-.faq-answer { padding: 1.1rem 1.5rem; color: #444; line-height: 1.75; font-size: 0.97rem; }
+.faq-answer { max-height: none !important; overflow: visible !important; padding: 1.1rem 1.5rem; color: #444; line-height: 1.75; font-size: 0.97rem; }
 .faq-answer a { color: #c41e3a; font-weight: 600; }
 
 /* Clean link styling for feature cards and program details */
