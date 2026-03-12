@@ -3,7 +3,7 @@ layout: post
 title: "Scholarships for Student-Athletes: A Complete Guide"
 date: 2024-11-25
 categories: [recruiting]
-image: /assets/images/blog-scholarships.jpg
+image: /assets/images/blog/college-basketball-scholarships-student-athletes.jpg
 description: "Complete guide to athletic, academic, and need-based scholarships for student-athletes at NCAA, NAIA, and JUCO schools — including international students."
 excerpt: "There are plenty of scholarships available to help student-athletes cover tuition, fees, and living expenses at two-year and four-year institutions."
 ---

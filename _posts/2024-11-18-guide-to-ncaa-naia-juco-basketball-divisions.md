@@ -3,7 +3,7 @@ layout: post
 title: "A Complete Guide to NCAA, NAIA, and JUCO Basketball Divisions"
 date: 2024-11-18
 categories: [recruiting]
-image: /assets/images/blog-divisions.jpg
+image: /assets/images/blog/ncaa-naia-juco-basketball-divisions-guide.jpg
 description: "What is JUCO basketball? Learn NCAA D1/D2/D3, NAIA, and JUCO — scholarship limits, eligibility rules, and which path fits your recruiting timeline."
 excerpt: "Understanding different athletic divisions is a critical decision for aspiring student-athletes. Each provides distinct opportunities and financial support."
 ---
