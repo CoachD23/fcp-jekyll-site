@@ -21,65 +21,41 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
     <h2>What's Included</h2>
     <div class="gold-rule"></div>
   </div>
-  <div class="feature-grid" style="max-width: 1000px; margin: 0 auto;">
+  <div class="feature-grid" style="margin-top: 2rem;">
     <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 4.2c3.4 2.8 3.4 12.8 0 15.6M18 4.2c-3.4 2.8-3.4 12.8 0 15.6M2 12h20" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></div>
-      <h3>Daily Court Work</h3>
-      <p>Two on-court practices and workouts per day with our <a href="/coaches/">coaching staff</a>.</p>
+      <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg></div>
+      <h3>Elite Coaching Staff</h3>
+      <p>Train under former NBA players and <a href="/coaches/">D1 coaches</a> who bring real professional experience to every practice, film session, and game. ESPN's <a href="/paul-biancardi-espn-endorses-florida-coastal-prep/">Paul Biancardi</a> called FCP "first class treatment of players."</p>
     </div>
     <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M6.5 6.5v11M17.5 6.5v11M6.5 12h11M2 9v6M4 7v10M20 7v10M22 9v6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-      <h3>Strength & Conditioning</h3>
-      <p>Three dedicated S&C sessions per week plus beach workouts and team conditioning.</p>
+      <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zM5 15h14v3H5z"/></svg></div>
+      <h3>National Competition</h3>
+      <p>High school athletes compete in the <strong>SEHAL</strong> and <strong>PHSBA</strong> — top prep circuits featuring the best programs in the Southeast and across the country. Every game is a showcase.</p>
     </div>
     <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="1.5"/><line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="1.5"/><line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="1.5"/></svg></div>
-      <h3>National Schedule</h3>
-      <p>Up to 30 games per season against top prep programs and junior colleges nationwide.</p>
+      <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg></div>
+      <h3>Recruiting Pipeline</h3>
+      <p>Individual recruiting plans, professional game film, exposure events, and direct connections to college coaching staffs. See our <a href="/commitments/">Spartan Alumni</a>.</p>
     </div>
     <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg></div>
-      <h3>Film & Recruiting</h3>
-      <p>All games professionally recorded and uploaded to YouTube for maximum college recruiting exposure.</p>
+      <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg></div>
+      <h3>World-Class Facility</h3>
+      <p>Train daily in our 14,000 sq ft <a href="/training/">training facility</a> featuring professional hardwood, a turf performance zone, weight room, and film room with 24/7 access.</p>
     </div>
     <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M4 10v7h3v-7H4zm6 0v7h4v-7h-4zm8 0v7h3v-7h-3zM2 22h20v-3H2v3zm0-12l10-6 10 6H2z" fill="currentColor"/></svg></div>
-      <h3>Campus Visits</h3>
-      <p>Campus and sports facility tours at visiting universities throughout the season.</p>
-    </div>
-    <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" fill="currentColor"/></svg></div>
+      <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
       <h3>Accredited Academics</h3>
-      <p>Full <a href="/academics/">NCAA-approved academic program</a> with accredited coursework and college credit options.</p>
+      <p>Full <a href="/academics/">NCAA-approved academic program</a> with accredited coursework, dual enrollment options, and college application support.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
+      <h3>Emerald Coast Living</h3>
+      <p>Supervised <a href="/housing/">team housing</a> with a live-in house coach, daily meals, and structured routines in Fort Walton Beach, FL — year-round sunshine and a safe community on Florida's Emerald Coast.</p>
     </div>
   </div>
 </section>
 
-<!-- Three Pillars -->
-<section class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
-  <div class="staff-section-header">
-    <span class="section-label">The FCP Difference</span>
-    <h2>Three Pillars of Development</h2>
-    <div class="gold-rule"></div>
-  </div>
-  <div class="feature-grid" style="max-width: 1000px; margin: 0 auto;">
-    <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="1.5"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></div>
-      <h3>Instruction</h3>
-      <p>World-class daily basketball training and instruction ensuring players achieve college readiness on the court.</p>
-    </div>
-    <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg></div>
-      <h3>Exposure</h3>
-      <p>Highlight tapes and game film that leverages our network of coaches to facilitate scholarship opportunities.</p>
-    </div>
-    <div class="feature-card fade-in">
-      <div class="feature-icon-svg"><svg viewBox="0 0 24 24"><path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V19H7v2h10v-2h-4v-3.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z"/></svg></div>
-      <h3>Competition</h3>
-      <p>A national schedule against the best prep programs and junior colleges in the country.</p>
-    </div>
-  </div>
-</section>
+
 
 <!-- Day in the Life — Two Column with Photo -->
 <section class="program-offers fade-in" style="margin-top: 3rem;">
@@ -133,29 +109,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 
 <div id="schedule"></div>
 
-<!-- Docuseries -->
-<section class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
-  <div class="staff-section-header">
-    <span class="section-label">Watch</span>
-    <h2>See the High School Experience</h2>
-    <div class="gold-rule"></div>
-  </div>
-  <div class="program-grid" style="max-width: 900px; margin: 1.5rem auto 0; align-items: center;">
-    <div class="program-image" style="background: #0a1628;">
-      <a href="/docuseries/">
-        <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — FCP docuseries" loading="lazy" style="object-fit: contain; min-height: auto; border-radius: 10px;">
-      </a>
-    </div>
-    <div style="color: rgba(255,255,255,0.8);">
-      <h3 style="color: #fff; font-size: 1.3rem; font-weight: 800; margin: 0 0 0.75rem;">6 Months to Change Everything</h3>
-      <p style="font-size: 1rem; line-height: 1.7; margin: 0 0 1.25rem;">Our original docuseries follows FCP athletes through a full season — training, competition, recruiting, and the daily grind. With <strong style="color: #fff;">hundreds of thousands of views</strong>, it's the best way to see what life is really like inside the academy.</p>
-      <a href="/docuseries/" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff; display: inline-flex; align-items: center; gap: 0.5rem;">
-        <svg viewBox="0 0 24 24" style="width: 18px; height: 18px; fill: currentColor;"><path d="M8 5v14l11-7z"/></svg>
-        Watch the Series
-      </a>
-    </div>
-  </div>
-</section>
+
 
 <!-- CTA -->
 <!-- FAQ Section -->
