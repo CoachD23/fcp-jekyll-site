@@ -19,7 +19,7 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
   <div class="container">
     <div class="staff-section-header">
       <p class="section-label" style="text-align:center; color:#d4a843;">THE FCP HIGH SCHOOL SYSTEM</p>
-      <h2 style="text-align:center; color:#fff;">Everything Included. Nothing Held Back.</h2>
+      <h2 style="text-align:center; color:#fff;">Player Development. National Exposure.</h2>
       <div class="gold-rule" style="margin: 0.75rem auto 3rem;"></div>
     </div>
 
@@ -57,37 +57,37 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
       </div>
     </div>
 
-    <div class="blueprint-divider"><span>GO DEEPER — HOW WE TRAIN</span></div>
+    <div class="blueprint-divider"><span>Training and College Placement</span></div>
 
     <div class="feature-grid methods-grid">
       <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
         <div style="font-size:2rem; margin-bottom:0.75rem;">💪</div>
         <h3 style="color:#fff; margin-bottom:0.5rem;">Strength &amp; Conditioning</h3>
-        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Westside Barbell conjugate method. Five days per week. Built for basketball explosiveness — not generic gym work.</p>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Conjugate periodization built for basketball athletes. Five days per week, focused on explosiveness, speed, and injury prevention.</p>
         <a href="/strength-training/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">Explore the method →</a>
       </div>
       <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
         <div style="font-size:2rem; margin-bottom:0.75rem;">🎯</div>
         <h3 style="color:#fff; margin-bottom:0.5rem;">Individual Workouts</h3>
-        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">1-on-1 coaching, 300–500 makes per session, two shooting guns. Position-specific skill work every day.</p>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Daily skill development with direct coaching attention. Position-specific work built around each player's game and college goals.</p>
         <a href="/individual-workouts/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">See the workouts →</a>
       </div>
       <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
         <div style="font-size:2rem; margin-bottom:0.75rem;">🎬</div>
         <h3 style="color:#fff; margin-bottom:0.5rem;">Film Study</h3>
-        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Video analytics, weekly individual film review, team breakdowns, and professional-quality highlight production.</p>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Video analytics, individual film review, and team breakdowns to sharpen game IQ and build a strong recruiting record.</p>
         <a href="/film-study/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">Watch the process →</a>
       </div>
       <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
         <div style="font-size:2rem; margin-bottom:0.75rem;">📋</div>
         <h3 style="color:#fff; margin-bottom:0.5rem;">Recruiting Strategy</h3>
-        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">6-step system: profile build, film package, coach outreach, campus visits, offer management, and commitment support.</p>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Coach outreach, profile building, campus visits, offer management, and commitment support — guided every step of the way.</p>
         <a href="/recruiting-strategy/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">Learn the process →</a>
       </div>
       <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
         <div style="font-size:2rem; margin-bottom:0.75rem;">🌊</div>
         <h3 style="color:#fff; margin-bottom:0.5rem;">Beach Training</h3>
-        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Sand conditioning on the Emerald Coast. 1.6× energy output vs. hardcourt. Builds stamina, ankle stability, and mental toughness.</p>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Sand conditioning on Florida's Emerald Coast builds stamina, ankle stability, and mental toughness that carries over to the hardcourt.</p>
         <a href="/beach-training/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">See the sessions →</a>
       </div>
     </div>
