@@ -372,9 +372,15 @@ hero_subtitle: Compete. Develop. Get Recruited.
   left: 50% !important;
   transform: translate(-50%, -50%) rotate(-90deg) !important;
   object-fit: cover !important;
-  object-position: center center !important;
+  object-position: 75% center !important;
   animation: none !important; /* Ken Burns also uses transform — disable to avoid conflict */
 }
+
+/* Impact / stats bar — compact & clean */
+.page-content .impact-bar { padding: 1.25rem 0 !important; }
+.page-content .impact-item { padding: 0.5rem 1rem !important; }
+.page-content .impact-number { font-size: clamp(1.3rem, 2vw, 1.75rem) !important; line-height: 1.2 !important; }
+.page-content .impact-label { font-size: 0.78rem !important; letter-spacing: 0.12em !important; margin-top: 0.3rem !important; }
 
 /* FAQ accordion — lock question text to dark on all states */
 summary.faq-question,
