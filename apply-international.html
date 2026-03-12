@@ -102,6 +102,35 @@ sitemap: false
         </div>
         <div class="apply-row">
           <div class="apply-field">
+            <label class="apply-label" for="firstName">First Name <span class="req-star">*</span></label>
+            <input type="text" id="firstName" name="first-name" class="apply-input" required placeholder="First name" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="lastName">Last Name <span class="req-star">*</span></label>
+            <input type="text" id="lastName" name="last-name" class="apply-input" required placeholder="Last name" />
+          </div>
+        </div>
+        <div class="apply-row">
+          <div class="apply-field">
+            <label class="apply-label" for="email">Email Address <span class="req-star">*</span></label>
+            <input type="email" id="email" name="email" class="apply-input" required placeholder="your@email.com" />
+          </div>
+          <div class="apply-field">
+            <label class="apply-label" for="phone">Phone / WhatsApp <span class="req-star">*</span></label>
+            <input type="tel" id="phone" name="phone" class="apply-input" required placeholder="+1 (000) 000-0000" />
+          </div>
+        </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(1)">&larr; Back</button>
+          <button type="button" class="btn-apply-next" onclick="if(validateAndGo(2,3)) captureLeadIntl()">Next &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 3: PERSONAL INFORMATION -->
+      <div class="apply-step" id="step3" style="display:none">
+        <h2 class="apply-step-title">Personal Information</h2>
+        <div class="apply-row">
+          <div class="apply-field">
             <label class="apply-label" for="position">Position</label>
             <input type="text" id="position" name="position" class="apply-input" placeholder="e.g. Point Guard, Forward" />
           </div>
@@ -113,25 +142,6 @@ sitemap: false
         <div class="apply-field-group">
           <label class="apply-label" for="highlightTape">Highlight Tape URL</label>
           <input type="url" id="highlightTape" name="highlight-tape" class="apply-input" placeholder="https://youtube.com/..." />
-        </div>
-        <div class="apply-nav apply-nav-both">
-          <button type="button" class="btn-apply-back" onclick="goToStep(1)">&larr; Back</button>
-          <button type="button" class="btn-apply-next" onclick="validateAndGo(2,3)">Next &rarr;</button>
-        </div>
-      </div>
-
-      <!-- STEP 3: PERSONAL INFORMATION -->
-      <div class="apply-step" id="step3" style="display:none">
-        <h2 class="apply-step-title">Personal Information</h2>
-        <div class="apply-row">
-          <div class="apply-field">
-            <label class="apply-label" for="firstName">First Name <span class="req-star">*</span></label>
-            <input type="text" id="firstName" name="first-name" class="apply-input" required placeholder="First name" />
-          </div>
-          <div class="apply-field">
-            <label class="apply-label" for="lastName">Last Name <span class="req-star">*</span></label>
-            <input type="text" id="lastName" name="last-name" class="apply-input" required placeholder="Last name" />
-          </div>
         </div>
         <div class="apply-row">
           <div class="apply-field">
@@ -151,16 +161,6 @@ sitemap: false
           <div class="apply-field">
             <label class="apply-label" for="countryOfCitizenship">Country of Citizenship <span class="req-star">*</span></label>
             <input type="text" id="countryOfCitizenship" name="country-of-citizenship" class="apply-input" required placeholder="Your citizenship country" />
-          </div>
-        </div>
-        <div class="apply-row">
-          <div class="apply-field">
-            <label class="apply-label" for="email">Email Address <span class="req-star">*</span></label>
-            <input type="email" id="email" name="email" class="apply-input" required placeholder="your@email.com" />
-          </div>
-          <div class="apply-field">
-            <label class="apply-label" for="phone">Phone / WhatsApp <span class="req-star">*</span></label>
-            <input type="tel" id="phone" name="phone" class="apply-input" required placeholder="+1 (000) 000-0000" />
           </div>
         </div>
         <h3 class="apply-section-sub">Current Foreign Address</h3>
@@ -194,7 +194,7 @@ sitemap: false
         </div>
         <div class="apply-nav apply-nav-both">
           <button type="button" class="btn-apply-back" onclick="goToStep(2)">&larr; Back</button>
-          <button type="button" class="btn-apply-next" onclick="if(validateAndGo(3,4)) captureLeadIntl()">Next &rarr;</button>
+          <button type="button" class="btn-apply-next" onclick="validateAndGo(3,4)">Next &rarr;</button>
         </div>
       </div>
 
