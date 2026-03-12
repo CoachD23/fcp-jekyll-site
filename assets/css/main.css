@@ -7231,3 +7231,16 @@ iframe { max-width: 100%; }
   letter-spacing: 0.18em;
   white-space: nowrap;
 }
+
+/* Alumni photo grid — responsive 4-col → 2-col on mobile */
+.alumni-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  max-width: 960px;
+  margin: 0 auto 1.5rem;
+  padding: 0 1.5rem;
+}
+@media (max-width: 600px) {
+  .alumni-photo-grid { grid-template-columns: repeat(2, 1fr); }
+}

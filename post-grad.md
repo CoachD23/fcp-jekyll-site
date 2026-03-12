@@ -124,7 +124,7 @@ hero_subtitle: Compete. Develop. Get Recruited.
     <h2>Where PG Athletes Go</h2>
     <div class="gold-rule"></div>
   </div>
-  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; max-width: 960px; margin: 0 auto 1.5rem; padding: 0 1.5rem;">
+  <div class="alumni-photo-grid">
     <div style="text-align: center;">
       <img src="/assets/images/sean-east-fcp.jpeg" alt="Sean East II — FCP Alumni, NBA" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
       <h4 style="color: #fff; font-size: 1rem; font-weight: 800; margin: 0 0 0.25rem;">Sean East II</h4>
