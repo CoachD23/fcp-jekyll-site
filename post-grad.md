@@ -37,30 +37,6 @@ hero_subtitle: Compete. Develop. Get Recruited.
   </div>
 </div>
 
-<!-- Docuseries -->
-<section class="staff-section staff-section-dark fade-in" style="margin-top: 0;">
-  <div class="staff-section-header">
-    <span class="section-label">Watch</span>
-    <h2>See the PG Experience Firsthand</h2>
-    <div class="gold-rule"></div>
-  </div>
-  <div class="program-grid" style="max-width: 900px; margin: 1.5rem auto 0; align-items: center;">
-    <div class="program-image" style="background: #0a1628;">
-      <a href="/docuseries/">
-        <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — FCP docuseries" loading="lazy" style="object-fit: contain; min-height: auto; border-radius: 10px;">
-      </a>
-    </div>
-    <div style="color: rgba(255,255,255,0.8);">
-      <h3 style="color: #fff; font-size: 1.3rem; font-weight: 800; margin: 0 0 0.75rem;">6 Months to Change Everything</h3>
-      <p style="font-size: 1rem; line-height: 1.7; margin: 0 0 1.25rem;">Our original docuseries follows FCP athletes through a full season — training, competition, recruiting, and the daily grind. With <strong style="color: #fff;">hundreds of thousands of views</strong>, it's the best way to see what life is really like inside the academy.</p>
-      <a href="/docuseries/" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff; display: inline-flex; align-items: center; gap: 0.5rem;">
-        <svg viewBox="0 0 24 24" style="width: 18px; height: 18px; fill: currentColor;"><path d="M8 5v14l11-7z"/></svg>
-        Watch the Series
-      </a>
-    </div>
-  </div>
-</section>
-
 <!-- What the Program Includes — Light Feature Cards -->
 <section class="program-offers fade-in" style="margin-top: 3rem;">
   <div class="staff-section-header">
@@ -103,31 +79,87 @@ hero_subtitle: Compete. Develop. Get Recruited.
   </div>
 </section>
 
-<!-- Featured Alumni — Dark Section -->
-<section class="staff-section staff-section-dark fade-in" style="margin-top: 3rem; margin-left: 1.5rem; margin-right: 1.5rem; border-radius: 16px; overflow: hidden;">
-  <div class="staff-section-header">
+<!-- TRAINING METHODS -->
+<div class="staff-section-dark" style="padding: 4rem 0; margin-top: 2rem;">
+  <div class="container">
+    <p class="section-label" style="text-align:center; color:#d4a843; letter-spacing:0.12em; font-size:0.8rem; font-weight:700; text-transform:uppercase; margin-bottom:0.4rem;">Go Deeper</p>
+    <h2 style="text-align:center; color:#fff; margin-bottom:0.5rem;">How We Develop Players</h2>
+    <div class="gold-rule" style="margin: 0.75rem auto 2.5rem;"></div>
+    <div class="feature-grid methods-grid">
+
+      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
+        <div style="font-size:2rem; margin-bottom:0.75rem;">💪</div>
+        <h3 style="color:#fff; margin-bottom:0.5rem;">Strength &amp; Conditioning</h3>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Westside Barbell conjugate method. Five days per week. Built for basketball explosiveness — not generic gym work.</p>
+        <a href="/strength-training/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">Explore the method →</a>
+      </div>
+
+      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
+        <div style="font-size:2rem; margin-bottom:0.75rem;">🎯</div>
+        <h3 style="color:#fff; margin-bottom:0.5rem;">Individual Workouts</h3>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">1-on-1 coaching, 300–500 makes per session, two shooting guns. Position-specific skill work every day.</p>
+        <a href="/individual-workouts/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">See the workouts →</a>
+      </div>
+
+      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
+        <div style="font-size:2rem; margin-bottom:0.75rem;">🎬</div>
+        <h3 style="color:#fff; margin-bottom:0.5rem;">Film Study</h3>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Video analytics, weekly individual film review, team breakdowns, and professional-quality highlight production.</p>
+        <a href="/film-study/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">Watch the process →</a>
+      </div>
+
+      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
+        <div style="font-size:2rem; margin-bottom:0.75rem;">📋</div>
+        <h3 style="color:#fff; margin-bottom:0.5rem;">Recruiting Strategy</h3>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">6-step system: profile build, film package, coach outreach, campus visits, offer management, and commitment support.</p>
+        <a href="/recruiting-strategy/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">Learn the process →</a>
+      </div>
+
+      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
+        <div style="font-size:2rem; margin-bottom:0.75rem;">🌊</div>
+        <h3 style="color:#fff; margin-bottom:0.5rem;">Beach Training</h3>
+        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Sand conditioning on the Emerald Coast. 1.6× energy output vs. hardcourt. Builds stamina, ankle stability, and mental toughness.</p>
+        <a href="/beach-training/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">See the sessions →</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Where They Go — Photo Alumni Row -->
+<section class="staff-section staff-section-dark fade-in" style="margin-top: 0; padding-top: 0; margin-left: 1.5rem; margin-right: 1.5rem; border-radius: 16px; overflow: hidden;">
+  <div class="staff-section-header" style="padding-top: 2.5rem;">
     <span class="section-label">Results</span>
     <h2>Where PG Athletes Go</h2>
     <div class="gold-rule"></div>
   </div>
-  <div class="alumni-callout-grid">
-    <div class="alumni-callout-card fade-in">
-      <h4>Sean East II</h4>
-      <div class="alumni-school">University of Missouri &rarr; NBA G-League &rarr; NBA</div>
-      <div class="alumni-detail">Point Guard &middot; Coach DeForest Alumni</div>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; max-width: 960px; margin: 0 auto 1.5rem; padding: 0 1.5rem;">
+    <div style="text-align: center;">
+      <img src="/assets/images/alumni/sean-east-fcp.jpeg" alt="Sean East II — FCP Alumni, NBA" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
+      <h4 style="color: #fff; font-size: 1rem; font-weight: 800; margin: 0 0 0.25rem;">Sean East II</h4>
+      <p style="color: #d4a843; font-size: 0.82rem; font-weight: 700; margin: 0 0 0.2rem;">Mizzou &rarr; NBA</p>
+      <p style="color: rgba(255,255,255,0.6); font-size: 0.78rem; margin: 0;">Point Guard</p>
     </div>
-    <div class="alumni-callout-card fade-in">
-      <h4>Nathan Mariano</h4>
-      <div class="alumni-school">4x NBB Champion &rarr; NBA</div>
-      <div class="alumni-detail">Forward &middot; Phoenix Suns Organization</div>
+    <div style="text-align: center;">
+      <img src="/assets/images/alumni/nathan-mariano-fcp.jpeg" alt="Nathan Mariano — FCP Alumni, NBA" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
+      <h4 style="color: #fff; font-size: 1rem; font-weight: 800; margin: 0 0 0.25rem;">Nathan Mariano</h4>
+      <p style="color: #d4a843; font-size: 0.82rem; font-weight: 700; margin: 0 0 0.2rem;">4x NBB Champ &rarr; NBA</p>
+      <p style="color: rgba(255,255,255,0.6); font-size: 0.78rem; margin: 0;">Forward</p>
     </div>
-    <div class="alumni-callout-card fade-in">
-      <h4>Ring Malith</h4>
-      <div class="alumni-school">SIU Edwardsville (D1)</div>
-      <div class="alumni-detail">Forward &middot; Class of 2024</div>
+    <div style="text-align: center;">
+      <img src="/assets/images/alumni/brandon-maclin-fcp.jpeg" alt="Brandon Maclin — FCP Alumni, DePaul University" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
+      <h4 style="color: #fff; font-size: 1rem; font-weight: 800; margin: 0 0 0.25rem;">Brandon Maclin</h4>
+      <p style="color: #d4a843; font-size: 0.82rem; font-weight: 700; margin: 0 0 0.2rem;">DePaul University (D1)</p>
+      <p style="color: rgba(255,255,255,0.6); font-size: 0.78rem; margin: 0;">Guard</p>
+    </div>
+    <div style="text-align: center;">
+      <img src="/assets/images/alumni/ring-malith-fcp.jpeg" alt="Ring Malith — FCP Alumni, SIU Edwardsville" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
+      <h4 style="color: #fff; font-size: 1rem; font-weight: 800; margin: 0 0 0.25rem;">Ring Malith</h4>
+      <p style="color: #d4a843; font-size: 0.82rem; font-weight: 700; margin: 0 0 0.2rem;">SIU Edwardsville (D1)</p>
+      <p style="color: rgba(255,255,255,0.6); font-size: 0.78rem; margin: 0;">Forward &middot; Class of 2024</p>
     </div>
   </div>
-  <div style="text-align: center; margin-top: 1.5rem;">
+  <div style="text-align: center; padding-bottom: 2rem;">
     <a href="/commitments/" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">View All Spartan Alumni &rarr;</a>
   </div>
 </section>
@@ -135,9 +167,7 @@ hero_subtitle: Compete. Develop. Get Recruited.
 <!-- Why PG — Light Teaser -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <a href="/paul-biancardi-espn-endorses-florida-coastal-prep/">
-      <img src="/assets/images/about/biancardi-gym.jpg" alt="ESPN Director of Recruiting Paul Biancardi visiting the FCP Spartan Training Center in Fort Walton Beach" loading="lazy">
-    </a>
+    <img src="/assets/images/fcp-dunk.png" alt="FCP athlete dunking during training at the Spartan Training Center in Fort Walton Beach" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">The PG Advantage</span>
@@ -278,53 +308,6 @@ hero_subtitle: Compete. Develop. Get Recruited.
   ]
 }
 </script>
-
-<!-- TRAINING METHODS -->
-<div class="staff-section-dark" style="padding: 4rem 0; margin-top: 2rem;">
-  <div class="container">
-    <p class="section-label" style="text-align:center; color:#d4a843; letter-spacing:0.12em; font-size:0.8rem; font-weight:700; text-transform:uppercase; margin-bottom:0.4rem;">Go Deeper</p>
-    <h2 style="text-align:center; color:#fff; margin-bottom:0.5rem;">How We Develop Players</h2>
-    <div class="gold-rule" style="margin: 0.75rem auto 2.5rem;"></div>
-    <div class="feature-grid methods-grid">
-
-      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
-        <div style="font-size:2rem; margin-bottom:0.75rem;">💪</div>
-        <h3 style="color:#fff; margin-bottom:0.5rem;">Strength &amp; Conditioning</h3>
-        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Westside Barbell conjugate method. Five days per week. Built for basketball explosiveness — not generic gym work.</p>
-        <a href="/strength-training/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">Explore the method →</a>
-      </div>
-
-      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
-        <div style="font-size:2rem; margin-bottom:0.75rem;">🎯</div>
-        <h3 style="color:#fff; margin-bottom:0.5rem;">Individual Workouts</h3>
-        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">1-on-1 coaching, 300–500 makes per session, two shooting guns. Position-specific skill work every day.</p>
-        <a href="/individual-workouts/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">See the workouts →</a>
-      </div>
-
-      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
-        <div style="font-size:2rem; margin-bottom:0.75rem;">🎬</div>
-        <h3 style="color:#fff; margin-bottom:0.5rem;">Film Study</h3>
-        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Video analytics, weekly individual film review, team breakdowns, and professional-quality highlight production.</p>
-        <a href="/film-study/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">Watch the process →</a>
-      </div>
-
-      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
-        <div style="font-size:2rem; margin-bottom:0.75rem;">📋</div>
-        <h3 style="color:#fff; margin-bottom:0.5rem;">Recruiting Strategy</h3>
-        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">6-step system: profile build, film package, coach outreach, campus visits, offer management, and commitment support.</p>
-        <a href="/recruiting-strategy/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">Learn the process →</a>
-      </div>
-
-      <div class="feature-card" style="background:#1e2d4a; border:none; text-align:left;">
-        <div style="font-size:2rem; margin-bottom:0.75rem;">🌊</div>
-        <h3 style="color:#fff; margin-bottom:0.5rem;">Beach Training</h3>
-        <p style="color:#a8b5c8; font-size:0.95rem; line-height:1.6; margin-bottom:1rem;">Sand conditioning on the Emerald Coast. 1.6× energy output vs. hardcourt. Builds stamina, ankle stability, and mental toughness.</p>
-        <a href="/beach-training/" style="color:#d4a843; font-weight:700; text-decoration:none; font-size:0.9rem;">See the sessions →</a>
-      </div>
-
-    </div>
-  </div>
-</div>
 
 <div class="cta-section" style="margin-top: 3rem;">
   <h2>Apply for the Post-Grad Program</h2>

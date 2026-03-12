@@ -162,5 +162,15 @@ hero_subtitle: The Bridge Between High School and College Basketball
 </script>
 
 <style>
-.hero-bg-img { object-position: center 30% !important; }
+.hero-bg-img {
+  inset: auto !important;
+  width: 100vh !important;
+  height: 100vw !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) rotate(-90deg) !important;
+  object-fit: cover !important;
+  object-position: 75% center !important;
+  animation: none !important;
+}
 </style>
