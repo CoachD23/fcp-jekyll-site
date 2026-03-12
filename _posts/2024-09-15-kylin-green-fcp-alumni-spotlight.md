@@ -3,8 +3,8 @@ layout: alumni-post
 title: "The Playmaker's Path: Kylin Green from FCP to D1"
 date: 2024-09-15
 categories: [alumni]
-image: /assets/images/kylin-green-hcu.jpeg
-image_fcp: /assets/images/kylin-green-fcp-action.jpeg
+image: /assets/images/players/kylin-green-houston-christian-university.jpeg
+image_fcp: /assets/images/players/kylin-green-florida-coastal-prep-action.jpeg
 player_name: Kylin Green
 current_team: Houston Christian Huskies
 fcp_label: FCP Spartans
@@ -52,7 +52,7 @@ In Texas, 6A is where the heavyweights play. Leading the entire Metroplex in sco
 
 ## The FCP Foundation
 
-<img src="/assets/images/kylin-green-fcp-action.jpeg" alt="Kylin Green in FCP Spartans jersey, driving for a layup" class="article-float-img">
+<img src="/assets/images/players/kylin-green-florida-coastal-prep-action.jpeg" alt="Kylin Green in FCP Spartans jersey, driving for a layup" class="article-float-img">
 
 After graduation, Green made the decision that separated him from other overlooked guards — he came to Florida Coastal Prep for a post-graduate year.
 

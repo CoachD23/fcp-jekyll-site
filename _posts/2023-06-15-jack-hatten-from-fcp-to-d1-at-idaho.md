@@ -3,8 +3,8 @@ layout: alumni-post
 title: "From Bakersfield to the Big Sky: Jack Hatten's D1 Journey"
 date: 2023-06-15
 categories: [alumni]
-image: /assets/images/jack-hatten-idaho.jpeg
-image_fcp: /assets/images/jack-hatten-fcp.jpeg
+image: /assets/images/players/jack-hatten-university-of-idaho.jpeg
+image_fcp: /assets/images/players/jack-hatten-florida-coastal-prep.jpeg
 player_name: Jack Hatten
 current_team: Idaho Vandals
 fcp_label: FCP Spartans

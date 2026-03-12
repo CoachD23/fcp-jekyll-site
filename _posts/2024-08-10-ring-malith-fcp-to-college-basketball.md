@@ -3,8 +3,8 @@ layout: alumni-post
 title: "Ring Malith's Rise: South Sudan to the NCAA Tournament"
 date: 2024-08-10
 categories: [alumni]
-image: /assets/images/ring-malith-siue.jpeg
-image_fcp: /assets/images/ring-malith-fcp.jpeg
+image: /assets/images/players/ring-malith-siu-edwardsville-d1.jpeg
+image_fcp: /assets/images/players/ring-malith-florida-coastal-prep.jpeg
 player_name: Ring Malith
 current_team: SIU Edwardsville Cougars
 fcp_label: FCP Spartans

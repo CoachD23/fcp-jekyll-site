@@ -3,7 +3,7 @@ layout: post
 title: "Paul Biancardi — ESPN's Director of Recruiting — Visits Florida Coastal Prep"
 date: 2026-03-04
 categories: [highlights]
-image: /assets/images/paul-biancardi.jpg
+image: /assets/images/players/paul-biancardi-espn-director-recruiting.jpg
 description: "Paul Biancardi, ESPN's Director of Basketball Recruiting and former D1 head coach, visited Florida Coastal Prep and praised the program firsthand. Watch the video of his visit."
 excerpt: "When ESPN's top basketball recruiting director — a man who has personally evaluated thousands of programs — visits your academy and calls it 'first class,' that means something."
 ---

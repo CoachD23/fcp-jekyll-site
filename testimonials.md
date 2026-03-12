@@ -27,7 +27,7 @@ hero_subtitle: Real Families. Real Results.
     <div class="biancardi-duo">
       <div class="biancardi-duo-photo">
         <a href="https://www.youtube.com/clip/UgkxYRSWlhaFin_eNGfyP-Hh_BDKpvDObTX6" target="_blank" rel="noopener" class="biancardi-video-link" aria-label="Watch Paul Biancardi's visit to Florida Coastal Prep on YouTube">
-          <img src="/assets/images/paul-biancardi.jpg" alt="Paul Biancardi visiting Florida Coastal Prep — click to watch video" loading="lazy">
+          <img src="/assets/images/players/paul-biancardi-espn-director-recruiting.jpg" alt="Paul Biancardi visiting Florida Coastal Prep — click to watch video" loading="lazy">
           <div class="biancardi-play-btn">
             <svg width="48" height="48" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
           </div>

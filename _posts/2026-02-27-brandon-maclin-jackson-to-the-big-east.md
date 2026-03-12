@@ -3,9 +3,9 @@ layout: alumni-post
 title: "Whatever It Takes to Win: Brandon Maclin's Road to the Big East"
 date: 2026-02-27
 categories: [alumni]
-image: /assets/images/brandon-maclin-depaul.jpeg
+image: /assets/images/players/brandon-maclin-depaul-university-big-east.jpeg
 alumni_video: /assets/videos/brandon-maclin-clip.mp4
-image_fcp: /assets/images/brandon-maclin-fcp-action.jpeg
+image_fcp: /assets/images/players/brandon-maclin-florida-coastal-prep-action.jpeg
 player_name: Brandon Maclin
 current_team: DePaul Blue Demons
 fcp_label: FCP Spartans
@@ -37,7 +37,7 @@ By his senior year, Maclin was contributing to a team that reached the TSSAA Sta
 
 ## The FCP Foundation
 
-<img src="/assets/images/brandon-maclin-training.jpeg" alt="Brandon Maclin training at Florida Coastal Prep" class="article-float-img">
+<img src="/assets/images/players/brandon-maclin-basketball-training-fcp.jpeg" alt="Brandon Maclin training at Florida Coastal Prep" class="article-float-img">
 
 After high school, Maclin made the decision that would change the trajectory of his career — he came to Florida Coastal Prep for a post-graduate year.
 

@@ -3,8 +3,8 @@ layout: alumni-post
 title: "Gerald Gittens Jr.: Brooklyn Grit to a D1 Finish"
 date: 2025-03-20
 categories: [alumni]
-image: /assets/images/gerald-gittens-nmu.png
-image_fcp: /assets/images/gerald-gittens-fcp.jpeg
+image: /assets/images/players/gerald-gittens-northern-michigan-university.png
+image_fcp: /assets/images/players/gerald-gittens-florida-coastal-prep.jpeg
 player_name: Gerald Gittens Jr.
 current_team: Northern Michigan Wildcats
 fcp_label: FCP Spartans

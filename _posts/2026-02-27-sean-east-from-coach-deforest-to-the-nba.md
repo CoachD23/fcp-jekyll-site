@@ -3,8 +3,8 @@ layout: alumni-post
 title: "Sean East II: From Coach DeForest to NBA Rising Stars"
 date: 2026-02-27
 categories: [alumni]
-image: /assets/images/sean-east-lakers.jpeg
-image_fcp: /assets/images/sean-east-fcp.jpeg
+image: /assets/images/players/sean-east-nba-la-lakers.jpeg
+image_fcp: /assets/images/players/sean-east-florida-coastal-prep.jpeg
 player_name: Sean East II
 current_team: LA Lakers
 fcp_label: Coach DeForest Era
