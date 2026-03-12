@@ -3,8 +3,8 @@ layout: page
 title: Spartan Training Center
 subtitle: Our Brand New 14,000 sq ft Home
 description: "Tour the Spartan Training Center — Florida Coastal Prep's brand new 14,000 sq ft basketball training facility in Fort Walton Beach, FL with professional hardwood court, strength & conditioning, individual player development, and 24/7 athlete access."
-hero_image: /assets/images/training/fcp-book-060.jpeg
-og_image: /assets/images/training/fcp-book-060.jpeg
+hero_image: /assets/images/training/florida-coastal-prep-basketball-training-fort-walton-beach.jpeg
+og_image: /assets/images/training/florida-coastal-prep-basketball-training-fort-walton-beach.jpeg
 hero_title: Spartan Training Center
 hero_subtitle: 14,000 Square Feet of Elite Training
 ---
@@ -47,7 +47,7 @@ hero_subtitle: 14,000 Square Feet of Elite Training
 <!-- Strength & Conditioning (moved up — right after stats bar) -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/training/fcp-brochure-016.jpg" alt="Florida Coastal Prep student-athletes during strength and conditioning training at the Spartan Training Center" loading="lazy">
+    <img src="/assets/images/training/florida-coastal-prep-strength-conditioning-basketball.jpg" alt="Florida Coastal Prep student-athletes during strength and conditioning training at the Spartan Training Center" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">Strength & Conditioning</span>

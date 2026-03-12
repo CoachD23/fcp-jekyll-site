@@ -3,7 +3,7 @@ layout: post
 title: "From Zero Offers to D1: How FCP Athletes Get Recruited"
 date: 2026-03-07
 categories: [recruiting]
-image: /assets/images/post-grad/fcp-book-024.jpeg
+image: /assets/images/post-grad/florida-coastal-prep-postgrad-basketball-training.jpeg
 description: "How Florida Coastal Prep's post-graduate program turns athletes with zero college offers into recruited Division I basketball players through daily training, professional film, national exposure, and a staff that knows how to open doors."
 excerpt: "No offers after high school doesn't mean no future. Here's how FCP's training system, national schedule, and recruiting pipeline turn overlooked athletes into college basketball players."
 ---
@@ -31,7 +31,7 @@ The athletes who arrive at FCP with no offers aren't less talented than the ones
 
 ## The Daily Grind: Where Development Actually Happens
 
-<img src="/assets/images/training/fcp-book-033.jpeg" alt="FCP basketball athletes in daily training at the Spartan Training Center" class="article-float-img">
+<img src="/assets/images/training/florida-coastal-prep-basketball-training-spartan-center.jpeg" alt="FCP basketball athletes in daily training at the Spartan Training Center" class="article-float-img">
 
 The reason FCP athletes make the kind of jumps that turn zero offers into multiple offers isn't a secret. It's the daily structure.
 

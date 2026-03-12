@@ -3,8 +3,8 @@ layout: page
 title: "Accredited Academics & NCAA-Approved Coursework"
 subtitle: Education That Prepares You for College
 description: "Florida Coastal Prep offers accredited academics, Colorado Christian University dual enrollment, NCAA-approved coursework, and unique electives — all built around a student-athlete's training schedule in Fort Walton Beach, FL."
-hero_image: /assets/images/academics/academic-studying.jpg
-og_image: /assets/images/academics/academic-studying.jpg
+hero_image: /assets/images/academics/florida-coastal-prep-student-athletes-studying.jpg
+og_image: /assets/images/academics/florida-coastal-prep-student-athletes-studying.jpg
 hero_title: Academics
 hero_subtitle: Education That Prepares You for College
 ---
@@ -94,7 +94,7 @@ hero_subtitle: Education That Prepares You for College
       <a href="/contact/" class="btn btn-primary" style="margin-top: 0.75rem; display: inline-block;">Talk to Our Academic Team</a>
     </div>
     <div class="program-image">
-      <img src="/assets/images/academics/academic-studying.jpg" alt="Florida Coastal Prep student-athletes studying together at the Fort Walton Beach campus" loading="lazy">
+      <img src="/assets/images/academics/florida-coastal-prep-student-athletes-studying.jpg" alt="Florida Coastal Prep student-athletes studying together at the Fort Walton Beach campus" loading="lazy">
     </div>
   </div>
 </div>

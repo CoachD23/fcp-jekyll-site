@@ -26,7 +26,7 @@ That continuity matters more than people realize. When a staff has been together
 
 ## Training That Prepares You for the Next Level
 
-<img src="/assets/images/training/fcp-book-060.jpeg" alt="FCP athletes training at the Spartan Training Center in Fort Walton Beach" class="article-float-img">
+<img src="/assets/images/training/florida-coastal-prep-basketball-training-fort-walton-beach.jpeg" alt="FCP athletes training at the Spartan Training Center in Fort Walton Beach" class="article-float-img">
 
 Most post-graduate programs give you court time. FCP gives you a professional development environment.
 
@@ -60,7 +60,7 @@ And that's the whole point of the daily grind. When game day comes, FCP athletes
 
 ## Individual Development, Not Just Team Practice
 
-<img src="/assets/images/training/fcp-brochure-016.jpg" alt="Individual basketball skill development at Florida Coastal Prep" class="article-float-img">
+<img src="/assets/images/training/florida-coastal-prep-strength-conditioning-basketball.jpg" alt="Individual basketball skill development at Florida Coastal Prep" class="article-float-img">
 
 Team practice matters. But the athletes who make the biggest jumps in a post-graduate year are the ones who invest in individual development.
 

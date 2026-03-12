@@ -1,0 +1,247 @@
+# FCP Image Rename Map — Phase 1 (PLANNING ONLY — DO NOT EXECUTE YET)
+# Format: /assets/images/OLD -> /assets/images/NEW
+# Generated: 2026-03-12
+# Base folder changes: current subfolders → new SEO folders
+#   training/     → basketball-training/
+#   housing/      → facilities/         (housing photos)
+#   alumni/       → players/
+#   root players  → players/
+#   root branding → branding/
+#
+# NOTE: responsive/ srcset variants must be renamed to match their source files.
+# NOTE: _data/staff.yml and all page front matter must be updated after rename.
+
+# =============================================================================
+# OPAQUE FILENAMES (fcp-book-*, fcp-brochure-*) — HIGH PRIORITY
+# =============================================================================
+/assets/images/post-grad/fcp-book-072.jpeg -> /assets/images/post-grad-program/fcp-post-grad-basketball-program-players-fort-walton-beach.jpeg
+/assets/images/post-grad/fcp-book-024.jpeg -> /assets/images/post-grad-program/fcp-post-grad-program-training-drills-fort-walton-beach.jpeg
+/assets/images/training/fcp-book-060.jpeg -> /assets/images/basketball-training/fcp-basketball-training-facility-spartan-center-fort-walton-beach.jpeg
+/assets/images/training/fcp-book-033.jpeg -> /assets/images/basketball-training/fcp-basketball-training-drills-spartan-center-fort-walton-beach.jpeg
+/assets/images/high-school/fcp-book-010.jpeg -> /assets/images/high-school-program/fcp-high-school-basketball-program-fort-walton-beach.jpeg
+/assets/images/academics/fcp-book-074.jpeg -> /assets/images/academics/fcp-basketball-academics-student-athlete-fort-walton-beach.jpeg
+/assets/images/contact/fcp-book-076.jpeg -> /assets/images/facilities/fcp-basketball-program-contact-coaches-fort-walton-beach.jpeg
+/assets/images/high-school/fcp-brochure-040.png -> /assets/images/high-school-program/fcp-high-school-basketball-program-hero-fort-walton-beach.png
+/assets/images/training/fcp-brochure-016.jpg -> /assets/images/basketball-training/fcp-strength-conditioning-training-spartan-center-fort-walton-beach.jpg
+
+# =============================================================================
+# PLAYER PORTRAITS — Root-level → players/ folder
+# =============================================================================
+/assets/images/sean-east-fcp.jpeg -> /assets/images/players/sean-east-fcp-basketball-guard-florida-coastal-prep.jpeg
+/assets/images/sean-east-lakers.jpeg -> /assets/images/players/sean-east-la-lakers-nba-fcp-alumni.jpeg
+/assets/images/nathan-mariano-fcp.jpeg -> /assets/images/players/nathan-mariano-fcp-basketball-guard-florida-coastal-prep.jpeg
+/assets/images/nathan-mariano-nba.jpeg -> /assets/images/players/nathan-mariano-nba-basketball-fcp-alumni.jpeg
+/assets/images/nathan-mariano-trophy.jpeg -> /assets/images/players/nathan-mariano-championship-trophy-fcp-alumni.jpeg
+/assets/images/nathan-mariano-wfi.jpeg -> /assets/images/players/nathan-mariano-wfi-championship-florida-coastal-prep.jpeg
+/assets/images/brandon-maclin-fcp.jpeg -> /assets/images/players/brandon-maclin-fcp-basketball-forward-florida-coastal-prep.jpeg
+/assets/images/brandon-maclin-depaul.jpeg -> /assets/images/players/brandon-maclin-depaul-big-east-fcp-alumni.jpeg
+/assets/images/brandon-maclin-fcp-action.jpeg -> /assets/images/players/brandon-maclin-fcp-basketball-action-florida-coastal-prep.jpeg
+/assets/images/brandon-maclin-training.jpeg -> /assets/images/players/brandon-maclin-basketball-training-florida-coastal-prep.jpeg
+/assets/images/brandon-maclin-signing.jpg -> /assets/images/players/brandon-maclin-college-signing-day-fcp-alumni.jpg
+/assets/images/ring-malith-fcp.jpeg -> /assets/images/players/ring-malith-fcp-basketball-center-florida-coastal-prep.jpeg
+/assets/images/ring-malith-siue.jpeg -> /assets/images/players/ring-malith-siue-ncaa-tournament-fcp-alumni.jpeg
+/assets/images/ring-malith-action.jpeg -> /assets/images/players/ring-malith-fcp-basketball-action-florida-coastal-prep.jpeg
+/assets/images/kylin-green-fcp-action.jpeg -> /assets/images/players/kylin-green-fcp-basketball-action-florida-coastal-prep.jpeg
+/assets/images/kylin-green-action.jpeg -> /assets/images/players/kylin-green-basketball-dribble-action-florida-coastal-prep.jpeg
+/assets/images/kylin-green-hcu.jpeg -> /assets/images/players/kylin-green-houston-christian-d1-fcp-alumni.jpeg
+/assets/images/jack-hatten-fcp.jpeg -> /assets/images/players/jack-hatten-fcp-basketball-florida-coastal-prep.jpeg
+/assets/images/jack-hatten-idaho.jpeg -> /assets/images/players/jack-hatten-university-idaho-d1-big-sky-fcp-alumni.jpeg
+/assets/images/gerald-gittens-fcp.jpeg -> /assets/images/players/gerald-gittens-fcp-basketball-florida-coastal-prep.jpeg
+/assets/images/gerald-gittens-nmu.png -> /assets/images/players/gerald-gittens-northern-michigan-d1-fcp-alumni.png
+
+# =============================================================================
+# ALUMNI subfolder → players/ folder
+# =============================================================================
+/assets/images/alumni/brock-rose.jpeg -> /assets/images/players/brock-rose-fcp-basketball-florida-coastal-prep.jpeg
+/assets/images/alumni/gavin-flowers.webp -> /assets/images/players/gavin-flowers-fcp-basketball-florida-coastal-prep.webp
+/assets/images/alumni/hikaru-awata-fcp.jpeg -> /assets/images/players/hikaru-awata-fcp-basketball-florida-coastal-prep.jpeg
+
+# =============================================================================
+# TRAINING FACILITY → basketball-training/ folder
+# =============================================================================
+/assets/images/training/gym-main.jpg -> /assets/images/basketball-training/fcp-spartan-training-center-main-gym-fort-walton-beach.jpg
+/assets/images/training/spartan-center.jpg -> /assets/images/basketball-training/fcp-spartan-training-center-fort-walton-beach.jpg
+/assets/images/training/spartan-center-2.jpg -> /assets/images/basketball-training/fcp-spartan-training-center-interior-fort-walton-beach.jpg
+/assets/images/training/strength-training-hero.jpeg -> /assets/images/basketball-training/fcp-strength-conditioning-training-hero-fort-walton-beach.jpeg
+/assets/images/training/individual-workouts-hero.jpg -> /assets/images/basketball-training/fcp-individual-basketball-workouts-fort-walton-beach.jpg
+/assets/images/training/fort-walton-basketball.jpg -> /assets/images/basketball-training/fcp-beach-basketball-training-fort-walton-beach-florida.jpg
+/assets/images/training/film-study-hero.png -> /assets/images/basketball-training/fcp-film-study-basketball-coaching-fort-walton-beach.png
+
+# =============================================================================
+# HOUSING → facilities/ folder (misnamed housing hero fixed)
+# =============================================================================
+/assets/images/housing/florida-panhandle-basketball.jpeg -> /assets/images/facilities/fcp-player-housing-fort-walton-beach-florida-panhandle.jpeg
+/assets/images/housing/standish.webp -> /assets/images/facilities/fcp-player-housing-standish-building-fort-walton-beach.webp
+/assets/images/housing/beach-view.webp -> /assets/images/facilities/fcp-player-housing-beach-view-fort-walton-beach.webp
+/assets/images/housing/beach.jpg -> /assets/images/facilities/fort-walton-beach-florida-panhandle-gulf-coast.jpg
+/assets/images/housing/kitchen.webp -> /assets/images/facilities/fcp-player-housing-kitchen-fort-walton-beach.webp
+/assets/images/housing/bedrooms.webp -> /assets/images/facilities/fcp-player-housing-bedroom-fort-walton-beach.webp
+/assets/images/housing/beach-condo-1.jpg -> /assets/images/facilities/fcp-player-housing-beach-condo-fort-walton-beach-1.jpg
+/assets/images/housing/beach-condo-2.jpg -> /assets/images/facilities/fcp-player-housing-beach-condo-fort-walton-beach-2.jpg
+/assets/images/housing/pool-gulf.webp -> /assets/images/facilities/fcp-player-housing-pool-gulf-view-fort-walton-beach.webp
+/assets/images/housing/bathroom.jpg -> /assets/images/facilities/fcp-player-housing-bathroom-fort-walton-beach.jpg
+/assets/images/housing/hallway.jpg -> /assets/images/facilities/fcp-player-housing-hallway-fort-walton-beach.jpg
+/assets/images/housing/kitchen-2.webp -> /assets/images/facilities/fcp-player-housing-kitchen-2-fort-walton-beach.webp
+/assets/images/housing/living-room.webp -> /assets/images/facilities/fcp-player-housing-living-room-fort-walton-beach.webp
+/assets/images/housing/pool.jpg -> /assets/images/facilities/fcp-player-housing-pool-fort-walton-beach.jpg
+/assets/images/housing/team-house-1.jpg -> /assets/images/facilities/fcp-player-team-house-fort-walton-beach-1.jpg
+/assets/images/housing/team-house-2.jpg -> /assets/images/facilities/fcp-player-team-house-fort-walton-beach-2.jpg
+/assets/images/housing/beach-house-1.jpg -> /assets/images/facilities/fcp-player-housing-beach-house-fort-walton-beach-1.jpg
+/assets/images/housing/beach-house-2.jpg -> /assets/images/facilities/fcp-player-housing-beach-house-fort-walton-beach-2.jpg
+
+# =============================================================================
+# COACHES — Add SEO descriptors
+# =============================================================================
+/assets/images/coaches/coaches-hero.jpeg -> /assets/images/coaches/florida-coastal-prep-coaching-staff-hero-fort-walton-beach.jpeg
+/assets/images/coaches/lee-deforest.jpg -> /assets/images/coaches/lee-deforest-head-coach-florida-coastal-prep-basketball.jpg
+/assets/images/coaches/kenny-anderson.jpg -> /assets/images/coaches/kenny-anderson-nba-coach-florida-coastal-prep-basketball.jpg
+/assets/images/coaches/vando-becheli.jpg -> /assets/images/coaches/vando-becheli-assistant-coach-florida-coastal-prep.jpg
+/assets/images/coaches/dmitry-utolin.jpg -> /assets/images/coaches/dmitry-utolin-basketball-coach-florida-coastal-prep.jpg
+/assets/images/coaches/tyler-martin.jpg -> /assets/images/coaches/tyler-martin-basketball-coach-florida-coastal-prep.jpg
+/assets/images/coaches/mario-webb.jpg -> /assets/images/coaches/mario-webb-basketball-coach-florida-coastal-prep.jpg
+/assets/images/coaches/ian-masone.jpg -> /assets/images/coaches/ian-masone-basketball-coach-florida-coastal-prep.jpg
+/assets/images/coaches/maurice-dickerson.jpg -> /assets/images/coaches/maurice-dickerson-basketball-coach-florida-coastal-prep.jpg
+/assets/images/coaches/rico-overall.jpg -> /assets/images/coaches/rico-overall-basketball-coach-florida-coastal-prep.jpg
+/assets/images/coaches/dada-huang.jpg -> /assets/images/coaches/dada-huang-basketball-coach-florida-coastal-prep.jpg
+/assets/images/coaches/tom-bower.webp -> /assets/images/coaches/tom-bower-basketball-coach-florida-coastal-prep.webp
+/assets/images/coaches/shadia-natour.webp -> /assets/images/coaches/shadia-natour-basketball-coach-florida-coastal-prep.webp
+/assets/images/coaches/paul-peck.webp -> /assets/images/coaches/paul-peck-basketball-coach-florida-coastal-prep.webp
+/assets/images/coaches/alba-reyes.webp -> /assets/images/coaches/alba-reyes-basketball-coach-florida-coastal-prep.webp
+/assets/images/coaches/deforest-action.jpg -> /assets/images/coaches/lee-deforest-coaching-action-florida-coastal-prep.jpg
+/assets/images/coaches/lee-action2.png -> /assets/images/coaches/lee-deforest-coaching-action-2-florida-coastal-prep.png
+/assets/images/coaches/vando-action.jpg -> /assets/images/coaches/vando-becheli-coaching-action-florida-coastal-prep.jpg
+/assets/images/coaches/vando-action2.png -> /assets/images/coaches/vando-becheli-coaching-action-2-florida-coastal-prep.png
+/assets/images/coaches/vando-huddle.jpg -> /assets/images/coaches/vando-becheli-team-huddle-florida-coastal-prep.jpg
+/assets/images/coaches/kenny-anderson-action.png -> /assets/images/coaches/kenny-anderson-coaching-basketball-florida-coastal-prep.png
+/assets/images/coaches/dmitry-action.jpg -> /assets/images/coaches/dmitry-utolin-coaching-action-florida-coastal-prep.jpg
+/assets/images/coaches/ian-action.jpg -> /assets/images/coaches/ian-masone-coaching-action-florida-coastal-prep.jpg
+/assets/images/coaches/jared-dugan.jpg -> /assets/images/coaches/jared-dugan-basketball-coach-florida-coastal-prep.jpg
+/assets/images/coaches/jared-dugan-action.jpeg -> /assets/images/coaches/jared-dugan-coaching-action-florida-coastal-prep.jpeg
+/assets/images/coaches/jared-dugan-action2.jpeg -> /assets/images/coaches/jared-dugan-coaching-action-2-florida-coastal-prep.jpeg
+/assets/images/coaches/dada-action2.jpeg -> /assets/images/coaches/dada-huang-coaching-action-2-florida-coastal-prep.jpeg
+/assets/images/coaches/dada-huang.webp -> /assets/images/coaches/dada-huang-basketball-coach-florida-coastal-prep.webp
+/assets/images/coaches/mario-webb-action.jpeg -> /assets/images/coaches/mario-webb-coaching-action-florida-coastal-prep.jpeg
+/assets/images/coaches/maurice-action.webp -> /assets/images/coaches/maurice-dickerson-coaching-action-florida-coastal-prep.webp
+/assets/images/coaches/rico-action.webp -> /assets/images/coaches/rico-overall-coaching-action-florida-coastal-prep.webp
+/assets/images/coaches/tyler-action.webp -> /assets/images/coaches/tyler-martin-coaching-action-florida-coastal-prep.webp
+
+# =============================================================================
+# ROOT-LEVEL PROGRAM / FACILITY IMAGES → facilities/ or named folders
+# =============================================================================
+/assets/images/hero-poster.jpeg -> /assets/images/facilities/florida-coastal-prep-basketball-program-hero-fort-walton-beach.jpeg
+/assets/images/homepage-hero.jpeg -> /assets/images/facilities/florida-coastal-prep-homepage-basketball-hero-fort-walton-beach.jpeg
+/assets/images/about-fcp.jpg -> /assets/images/facilities/florida-coastal-prep-basketball-program-fort-walton-beach.jpg
+/assets/images/about/about-hero.jpg -> /assets/images/facilities/florida-coastal-prep-about-hero-basketball-fort-walton-beach.jpg
+/assets/images/fcp-arena-coaching.jpg -> /assets/images/basketball-training/fcp-arena-basketball-coaching-fort-walton-beach.jpg
+/assets/images/fcp-dunk.png -> /assets/images/basketball-training/fcp-basketball-player-dunking-fort-walton-beach.png
+/assets/images/faq-hero.jpg -> /assets/images/facilities/florida-coastal-prep-faq-basketball-program-hero.jpg
+/assets/images/info-hero.jpeg -> /assets/images/facilities/florida-coastal-prep-info-basketball-program-hero.jpeg
+/assets/images/whatsapp-team.jpeg -> /assets/images/players/fcp-basketball-team-fort-walton-beach-florida.jpeg
+/assets/images/apply-now.jpeg -> /assets/images/facilities/florida-coastal-prep-apply-basketball-program.jpeg
+/assets/images/apply-page.webp -> /assets/images/facilities/florida-coastal-prep-apply-page-basketball-program.webp
+/assets/images/pg-schedule-hero.jpeg -> /assets/images/post-grad-program/fcp-post-grad-basketball-schedule-fort-walton-beach.jpeg
+/assets/images/hs-schedule-hero.jpeg -> /assets/images/high-school-program/fcp-high-school-basketball-schedule-fort-walton-beach.jpeg
+
+# =============================================================================
+# TESTIMONIALS / ENDORSEMENTS
+# =============================================================================
+/assets/images/paul-biancardi.jpg -> /assets/images/coaches/paul-biancardi-espn-basketball-analyst-fcp.jpg
+/assets/images/about/biancardi-endorsement.jpg -> /assets/images/coaches/paul-biancardi-espn-endorsement-fcp-basketball.jpg
+/assets/images/about/biancardi-gym.jpg -> /assets/images/coaches/paul-biancardi-fcp-training-gym-fort-walton-beach.jpg
+/assets/images/about/docuseries-thumbnail.jpg -> /assets/images/events/fcp-basketball-docuseries-thumbnail-florida-coastal-prep.jpg
+
+# =============================================================================
+# ACADEMICS
+# =============================================================================
+/assets/images/academics/academic-studying.jpg -> /assets/images/academics/fcp-basketball-student-athlete-studying-fort-walton-beach.jpg
+/assets/images/academics/fcp-high-school.png -> /assets/images/academics/fcp-high-school-basketball-academics-program-fort-walton-beach.png
+/assets/images/tuition/florida-coastal-prep-school.png -> /assets/images/tuition/florida-coastal-prep-basketball-school-tuition-fort-walton-beach.png
+
+# =============================================================================
+# BRANDING — logos, favicons
+# =============================================================================
+/assets/images/fcp-logo.png -> /assets/images/branding/fcp-logo-florida-coastal-prep.png
+/assets/images/fcp-logo-square.png -> /assets/images/branding/fcp-logo-square-florida-coastal-prep.png
+/assets/images/fcp-logo-newest.png -> /assets/images/branding/fcp-logo-newest-florida-coastal-prep.png
+/assets/images/favicon-32x32.png -> /assets/images/branding/favicon-32x32.png
+/assets/images/favicon-16x16.png -> /assets/images/branding/favicon-16x16.png
+/assets/images/apple-touch-icon.png -> /assets/images/branding/apple-touch-icon-florida-coastal-prep.png
+
+# =============================================================================
+# PARTNER LOGOS (already in partners/ — add descriptors)
+# =============================================================================
+/assets/images/partners/adidas-logo.png -> /assets/images/partners/adidas-logo-fcp-basketball-partner.png
+/assets/images/partners/jr-nba-logo.png -> /assets/images/partners/jr-nba-logo-fcp-basketball-partner.png
+/assets/images/partners/usssa-logo.png -> /assets/images/partners/usssa-logo-fcp-basketball-partner.png
+/assets/images/siaa-transparent.png -> /assets/images/partners/siaa-league-logo-florida-coastal-prep.png
+/assets/images/sehal-transparent.png -> /assets/images/partners/sehal-league-logo-florida-coastal-prep.png
+/assets/images/phsba-transparent.png -> /assets/images/partners/phsba-league-logo-florida-coastal-prep.png
+/assets/images/grind-session-transparent.png -> /assets/images/partners/grind-session-tournament-logo-fcp.png
+/assets/images/siaa.webp -> /assets/images/partners/siaa-league-logo-fcp.webp
+/assets/images/gear.png -> /assets/images/partners/gear-partner-logo-fcp.png
+
+# =============================================================================
+# BLOG IMAGES — Currently in root (move to blog/) or rename for SEO
+# =============================================================================
+/assets/images/blog-kenny.jpg -> /assets/images/blog/kenny-anderson-nba-coach-fcp-basketball-fort-walton-beach.jpg
+/assets/images/blog-kenny.png -> /assets/images/blog/kenny-anderson-nba-coach-fcp-visit-fort-walton-beach.png
+/assets/images/blog-divisions.jpg -> /assets/images/blog/ncaa-naia-juco-basketball-divisions-guide-hero.jpg
+/assets/images/blog-scholarships.jpg -> /assets/images/blog/scholarships-student-athletes-basketball-guide-hero.jpg
+
+# =============================================================================
+# BLOG/folder IMAGES — Rename for better SEO where needed
+# =============================================================================
+/assets/images/blog/kenny-visit.jpg -> /assets/images/blog/kenny-anderson-nba-visits-fcp-basketball-fort-walton-beach.jpg
+/assets/images/blog/espn-visit.jpg -> /assets/images/blog/paul-biancardi-espn-visits-fcp-basketball-fort-walton-beach.jpg
+/assets/images/blog/paul-biancardi-fcp.jpg -> /assets/images/blog/paul-biancardi-espn-fcp-basketball-coaching-visit.jpg
+/assets/images/blog/postgrad-program.jpg -> /assets/images/blog/fcp-post-grad-basketball-program-players-fort-walton-beach.jpg
+/assets/images/blog/postgrad-program-wp.jpg -> /assets/images/blog/fcp-basketball-boarding-school-post-grad-program.jpg
+/assets/images/blog/kenny-anderson-visit-hero.jpg -> /assets/images/blog/kenny-anderson-fcp-basketball-coaching-visit-hero-fort-walton-beach.jpg
+/assets/images/blog/lee-deforest-action.png -> /assets/images/blog/lee-deforest-head-coach-fcp-basketball-coaching-action.png
+/assets/images/blog/fcp-basketball-team.jpg -> /assets/images/blog/fcp-basketball-team-nil-transfer-portal-fort-walton-beach.jpg
+
+# =============================================================================
+# COMMITMENTS — referenced from commitments.yml
+# =============================================================================
+/assets/images/commitments/brock-rose-radford.jpeg -> /assets/images/players/brock-rose-radford-university-fcp-alumni.jpeg
+/assets/images/commitments/gavin-flowers-southern.webp -> /assets/images/players/gavin-flowers-southern-university-fcp-alumni.webp
+/assets/images/commitments/shot.png -> /assets/images/players/fcp-alumni-commitment-shot-fort-walton-beach.png
+
+# =============================================================================
+# ORPHANED / LOW-PRIORITY (confirm before renaming)
+# =============================================================================
+# /assets/images/about-hero.jpg -> ORPHAN (about.md uses about/about-hero.jpg)
+# /assets/images/info-hero.webp -> ORPHAN (info.html uses info-hero.jpeg)
+# /assets/images/film-study-session.jpg -> ORPHAN (verify before rename)
+# /assets/images/apply-now-banner.png -> ORPHAN (verify before rename)
+# /assets/images/adidas.png / hudl.png / jr-nba.png / ussa.png -> ROOT DUPLICATES of partners/ folder
+# /assets/images/seal.png -> ORPHAN (verify)
+# /assets/images/phsba.jpg / phsba.png / phsba-opt.png / grind-session.png -> verify usage
+# /assets/images/coaches/coaches-hero.jpg -> DUPLICATE of coaches-hero.jpeg (verify)
+# /assets/images/brandon-maclin-fcp.jpeg -> also used in _data/commitments.yml? verify
+
+# =============================================================================
+# RESPONSIVE/ VARIANTS — rename to match their source file's new name
+# =============================================================================
+# Must update AFTER source file renames are confirmed.
+# Pattern: responsive/{stem}-{width}w.webp → responsive/{new-stem}-{width}w.webp
+# Affected:
+#   blog-kenny-* → kenny-anderson-nba-coach-fcp-basketball-fort-walton-beach-*
+#   about-fcp-* → florida-coastal-prep-basketball-program-fort-walton-beach-*
+#   about-hero-* → (orphaned — was for about-hero.jpg which is now orphaned)
+#   fcp-book-060-* → fcp-basketball-training-facility-spartan-center-fort-walton-beach-*
+#   fcp-book-072-* → fcp-post-grad-basketball-program-players-fort-walton-beach-*
+#   fcp-book-076-* → fcp-basketball-program-contact-coaches-fort-walton-beach-*
+#   fcp-brochure-040-* → fcp-high-school-basketball-program-hero-fort-walton-beach-*
+#   faq-hero-* → florida-coastal-prep-faq-basketball-program-hero-*
+#   coaches-hero-* → florida-coastal-prep-coaching-staff-hero-fort-walton-beach-*
+#   docuseries-thumbnail-* → fcp-basketball-docuseries-thumbnail-florida-coastal-prep-*
+#   spartan-center-* → fcp-spartan-training-center-fort-walton-beach-*
+#   homepage-hero-* → florida-coastal-prep-homepage-basketball-hero-fort-walton-beach-*
+#   paul-biancardi-* → paul-biancardi-espn-basketball-analyst-fcp-*
+#   pg-schedule-hero-* → fcp-post-grad-basketball-schedule-fort-walton-beach-*
+#   hs-schedule-hero-* → fcp-high-school-basketball-schedule-fort-walton-beach-*
+#   beach-house-1-* → fcp-player-housing-beach-house-fort-walton-beach-1-*
+#   fcp-high-school-* → fcp-high-school-basketball-academics-program-fort-walton-beach-*
+#   florida-coastal-prep-school-* → florida-coastal-prep-basketball-school-tuition-*
+#   ring-malith-siue-640.jpeg → players/ring-malith-siue-ncaa-tournament-fcp-alumni-640.jpeg

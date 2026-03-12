@@ -3,8 +3,8 @@ layout: page
 title: Why Post Grad?
 subtitle: Why a Post-Graduate Basketball Year
 description: "A post-graduate basketball year bridges high school and college — offering academic improvement, recruiting exposure, physical development, and the maturity college coaches want. Learn why top athletes choose a PG year."
-hero_image: /assets/images/post-grad/fcp-book-072.jpeg
-og_image: /assets/images/post-grad/fcp-book-072.jpeg
+hero_image: /assets/images/post-grad/florida-coastal-prep-post-graduate-basketball-program.jpeg
+og_image: /assets/images/post-grad/florida-coastal-prep-post-graduate-basketball-program.jpeg
 hero_title: Why a Post-Graduate Year?
 hero_subtitle: The Bridge Between High School and College Basketball
 ---
@@ -96,7 +96,7 @@ hero_subtitle: The Bridge Between High School and College Basketball
 <!-- Recruiting Landscape — Two Column -->
 <section class="program-grid fade-in" style="margin-top: 3rem;">
   <div class="program-image">
-    <img src="/assets/images/post-grad/fcp-book-024.jpeg" alt="Florida Coastal Prep post-graduate basketball athlete training at the Spartan Training Center" loading="lazy">
+    <img src="/assets/images/post-grad/florida-coastal-prep-postgrad-basketball-training.jpeg" alt="Florida Coastal Prep post-graduate basketball athlete training at the Spartan Training Center" loading="lazy">
   </div>
   <div class="program-details">
     <span class="section-label">Recruiting Landscape</span>
