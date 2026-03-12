@@ -135,25 +135,25 @@ hero_subtitle: Compete. Develop. Get Recruited.
   </div>
   <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; max-width: 960px; margin: 0 auto 1.5rem; padding: 0 1.5rem;">
     <div style="text-align: center;">
-      <img src="/assets/images/alumni/sean-east-fcp.jpeg" alt="Sean East II — FCP Alumni, NBA" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
+      <img src="/assets/images/sean-east-fcp.jpeg" alt="Sean East II — FCP Alumni, NBA" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
       <h4 style="color: #fff; font-size: 1rem; font-weight: 800; margin: 0 0 0.25rem;">Sean East II</h4>
       <p style="color: #d4a843; font-size: 0.82rem; font-weight: 700; margin: 0 0 0.2rem;">Mizzou &rarr; NBA</p>
       <p style="color: rgba(255,255,255,0.6); font-size: 0.78rem; margin: 0;">Point Guard</p>
     </div>
     <div style="text-align: center;">
-      <img src="/assets/images/alumni/nathan-mariano-fcp.jpeg" alt="Nathan Mariano — FCP Alumni, NBA" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
+      <img src="/assets/images/nathan-mariano-fcp.jpeg" alt="Nathan Mariano — FCP Alumni, NBA" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
       <h4 style="color: #fff; font-size: 1rem; font-weight: 800; margin: 0 0 0.25rem;">Nathan Mariano</h4>
       <p style="color: #d4a843; font-size: 0.82rem; font-weight: 700; margin: 0 0 0.2rem;">4x NBB Champ &rarr; NBA</p>
       <p style="color: rgba(255,255,255,0.6); font-size: 0.78rem; margin: 0;">Forward</p>
     </div>
     <div style="text-align: center;">
-      <img src="/assets/images/alumni/brandon-maclin-fcp.jpeg" alt="Brandon Maclin — FCP Alumni, DePaul University" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
+      <img src="/assets/images/brandon-maclin-fcp.jpeg" alt="Brandon Maclin — FCP Alumni, DePaul University" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
       <h4 style="color: #fff; font-size: 1rem; font-weight: 800; margin: 0 0 0.25rem;">Brandon Maclin</h4>
       <p style="color: #d4a843; font-size: 0.82rem; font-weight: 700; margin: 0 0 0.2rem;">DePaul University (D1)</p>
       <p style="color: rgba(255,255,255,0.6); font-size: 0.78rem; margin: 0;">Guard</p>
     </div>
     <div style="text-align: center;">
-      <img src="/assets/images/alumni/ring-malith-fcp.jpeg" alt="Ring Malith — FCP Alumni, SIU Edwardsville" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
+      <img src="/assets/images/ring-malith-fcp.jpeg" alt="Ring Malith — FCP Alumni, SIU Edwardsville" loading="lazy" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 10px; margin-bottom: 0.75rem;">
       <h4 style="color: #fff; font-size: 1rem; font-weight: 800; margin: 0 0 0.25rem;">Ring Malith</h4>
       <p style="color: #d4a843; font-size: 0.82rem; font-weight: 700; margin: 0 0 0.2rem;">SIU Edwardsville (D1)</p>
       <p style="color: rgba(255,255,255,0.6); font-size: 0.78rem; margin: 0;">Forward &middot; Class of 2024</p>
