@@ -312,7 +312,7 @@
   staff_count: 6
   coach_status: changed
 - name: Rice Owls
-  slug: rice-owls
+  slug: rice-owls-tx-d1
   nickname: Owls
   abbreviation: RICE
   espn_id: '242'
@@ -982,7 +982,7 @@
   staff_count: 12
   coach_status: verified
 - name: VCU Rams
-  slug: vcu-rams
+  slug: vcu-rams-va-d1
   nickname: Rams
   abbreviation: VCU
   espn_id: '2670'
@@ -1546,7 +1546,7 @@
   head_coach: Kevin Young
   coach_status: patched
 - name: Utah Utes
-  slug: utah-utes
+  slug: utah-utes-ut-d1
   nickname: Utes
   abbreviation: UTAH
   espn_id: '254'
@@ -7413,7 +7413,7 @@
   staff_count: 3
   coach_status: imported
 - name: Embry-Riddle Aeronautical University
-  slug: embry-riddle-aeronautical-university
+  slug: embry-riddle-aeronautical-university-fl
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -7749,7 +7749,7 @@
   staff_count: 3
   coach_status: imported
 - name: Emmanuel College
-  slug: emmanuel-college
+  slug: emmanuel-college-ga
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -11214,7 +11214,7 @@
   staff_count: 2
   coach_status: imported
 - name: Anderson University
-  slug: anderson-university
+  slug: anderson-university-sc
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -12075,7 +12075,7 @@
   staff_count: 5
   coach_status: imported
 - name: Westminster College
-  slug: westminster-college
+  slug: westminster-college-ut
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -13944,7 +13944,7 @@
   staff_count: 3
   coach_status: imported
 - name: Wheaton College
-  slug: wheaton-college
+  slug: wheaton-college-il
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -13965,7 +13965,7 @@
   staff_count: 3
   coach_status: imported
 - name: Anderson University
-  slug: anderson-university
+  slug: anderson-university-in
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -14511,7 +14511,7 @@
   staff_count: 3
   coach_status: imported
 - name: Emmanuel College
-  slug: emmanuel-college
+  slug: emmanuel-college-ma
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -14931,7 +14931,7 @@
   staff_count: 4
   coach_status: imported
 - name: Wheaton College
-  slug: wheaton-college
+  slug: wheaton-college-ma
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -15624,7 +15624,7 @@
   staff_count: 5
   coach_status: imported
 - name: Bethel University
-  slug: bethel-university
+  slug: bethel-university-mn
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -15687,7 +15687,7 @@
   staff_count: 3
   coach_status: imported
 - name: Crown College
-  slug: crown-college
+  slug: crown-college-mn
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -15939,7 +15939,7 @@
   staff_count: 5
   coach_status: imported
 - name: University of St. Thomas
-  slug: university-of-st-thomas
+  slug: university-of-st-thomas-mn
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -16023,7 +16023,7 @@
   staff_count: 3
   coach_status: imported
 - name: Westminster College
-  slug: westminster-college
+  slug: westminster-college-mo
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -17892,7 +17892,7 @@
   staff_count: 1
   coach_status: imported
 - name: Union College
-  slug: union-college
+  slug: union-college-ny
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -18018,7 +18018,7 @@
   staff_count: 6
   coach_status: imported
 - name: York College
-  slug: york-college
+  slug: york-college-ny
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -19719,7 +19719,7 @@
   staff_count: 1
   coach_status: imported
 - name: Westminster College
-  slug: westminster-college
+  slug: westminster-college-pa
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -19803,7 +19803,7 @@
   staff_count: 2
   coach_status: imported
 - name: York College
-  slug: york-college
+  slug: york-college-pa
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -20286,7 +20286,7 @@
   staff_count: 4
   coach_status: imported
 - name: University of St. Thomas
-  slug: university-of-st-thomas
+  slug: university-of-st-thomas-tx
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -21840,7 +21840,7 @@
   coach_status: imported
   juco_org: NJCAA
 - name: Williams Baptist University
-  slug: williams-baptist-university
+  slug: williams-baptist-university-ar-juco
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -22280,7 +22280,7 @@
   coach_status: imported
   juco_org: NJCAA
 - name: ASA Miami
-  slug: asa-miami
+  slug: asa-miami-fl-juco
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -30982,7 +30982,7 @@
   staff_count: 2
   coach_status: imported
 - name: Williams Baptist University
-  slug: williams-baptist-university
+  slug: williams-baptist-university-ar-naia
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -31045,7 +31045,7 @@
   staff_count: 2
   coach_status: imported
 - name: Embry-Riddle Aeronautical University
-  slug: embry-riddle-aeronautical-university
+  slug: embry-riddle-aeronautical-university-az
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -32284,7 +32284,7 @@
   staff_count: 6
   coach_status: imported
 - name: Bethel University
-  slug: bethel-university
+  slug: bethel-university-in
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -33124,7 +33124,7 @@
   staff_count: 1
   coach_status: imported
 - name: Union College
-  slug: union-college
+  slug: union-college-ky
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -33418,7 +33418,7 @@
   staff_count: 1
   coach_status: imported
 - name: Concordia University
-  slug: concordia-university
+  slug: concordia-university-mi
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -34111,7 +34111,7 @@
   staff_count: 3
   coach_status: imported
 - name: Concordia University
-  slug: concordia-university
+  slug: concordia-university-ne
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -34951,7 +34951,7 @@
   staff_count: 3
   coach_status: imported
 - name: Bethel University
-  slug: bethel-university
+  slug: bethel-university-tn
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -35917,7 +35917,7 @@
   staff_count: 3
   coach_status: imported
 - name: SUNY - ESF
-  slug: suny-esf
+  slug: suny-esf-ny-uscaa
   nickname: ''
   abbreviation: ''
   espn_id: ''
@@ -36463,7 +36463,7 @@
   staff_count: 4
   coach_status: imported
 - name: Crown College
-  slug: crown-college
+  slug: crown-college-tn
   nickname: ''
   abbreviation: ''
   espn_id: ''
