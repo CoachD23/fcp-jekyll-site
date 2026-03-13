@@ -118,7 +118,7 @@ module FCP
         'layout'      => 'recruit-school',
         'title'       => "#{school['name']} #{div_label} Basketball — Coach, Roster & Recruiting | FCP",
         'description' => "#{school['name']} #{div_label} basketball (#{conf_name}) in #{city_part}: view #{coach_name}'s contact, staff directory, and recruiting guide.",
-        'og_image'    => (school['logo_url'].to_s.empty? ? '/assets/images/about-fcp.jpg' : school['logo_url']),
+        'og_image'    => (school['logo_url'].to_s.empty? ? '/assets/images/basketball-placeholder.jpg' : school['logo_url']),
         'school'      => school,
       }
       self.content = ''

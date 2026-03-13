@@ -17,15 +17,13 @@ layout: default
     </nav>
 
     <div class="recruit-school-hero-inner">
-      {% if school.logo_url %}
       <div class="recruit-school-hero-logo">
-        <img src="{{ school.logo_url }}"
+        <img src="{{ school.logo_url | default: '/assets/images/basketball-placeholder.jpg' }}"
              alt="{{ school.name }} logo"
              width="100" height="100"
              fetchpriority="high"
-             onerror="this.style.display='none'">
+             onerror="this.src='/assets/images/basketball-placeholder.jpg'">
       </div>
-      {% endif %}
       <div class="recruit-school-hero-text">
         <h1>{{ school.name }} Men's Basketball — {{ school.division }} Recruiting Profile</h1>
         <p class="page-subtitle">
