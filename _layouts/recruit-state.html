@@ -78,6 +78,14 @@ layout: default
       {% endfor %}
     </div>
 
+    <!-- State description -->
+    {% assign state_desc = site.data.recruiting.state_descriptions[page.state.slug] %}
+    {% if state_desc %}
+    <div class="recruit-region-description">
+      <p>{{ state_desc }}</p>
+    </div>
+    {% endif %}
+
     <!-- Conference breakdown for this state -->
     {% assign state_confs = page.schools | group_by: "conference" %}
     {% if state_confs.size > 1 %}

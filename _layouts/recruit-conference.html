@@ -81,6 +81,14 @@ layout: default
       {% endfor %}
     </div>
 
+    <!-- Conference description -->
+    {% assign conf_desc = site.data.recruiting.conf_descriptions[conf.slug] %}
+    {% if conf_desc %}
+    <div class="recruit-region-description">
+      <p>{{ conf_desc }}</p>
+    </div>
+    {% endif %}
+
     <!-- Schools by State -->
     {% if schools_by_state.size > 1 %}
     <h2 class="recruit-section-title">{{ conf.name }} Schools by State</h2>

@@ -96,6 +96,10 @@ layout: default
       <!-- About This Program -->
       <div class="recruit-info-card">
         <h2>About {{ school.name }} Basketball</h2>
+        {% assign school_desc = site.data.recruiting.school_descriptions[school.slug] %}
+        {% if school_desc %}
+        <p>{{ school_desc }}</p>
+        {% else %}
         <p>
           {{ school.name }} competes in {{ school.division }} men's basketball as a member of the
           <a href="/{{ conf_slug }}-basketball-programs/">{{ school.conference }}</a>.
@@ -105,6 +109,7 @@ layout: default
           Like all {{ school.division }} programs, {{ school.name }} recruits players who demonstrate
           high-level film, strong academics, and proven exposure at competitive events.
         </p>
+        {% endif %}
         <p>
           Getting recruited at this level requires more than raw talent — coaches need to see
           your film at the right moment, your eligibility paperwork must be in order, and your
