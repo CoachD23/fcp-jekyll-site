@@ -21847,10 +21847,10 @@
   city: ''
   state: AR
   state_slug: arkansas
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Arkansas Collegiate Athletic Conference
-  conference_slug: arkansas-collegiate-athletic-conference
+  division: NAIA
+  division_slug: naia-basketball-programs
+  conference: American Midwest Conference
+  conference_slug: american-midwest-conference
   color: ''
   alt_color: ''
   logo_url: ''
@@ -21860,7 +21860,7 @@
   best_email: ''
   staff_count: 1
   coach_status: imported
-  juco_org: NJCAA
+  juco_org: null
 - name: Arizona Western College
   slug: arizona-western-college
   nickname: ''
@@ -22279,28 +22279,6 @@
   staff_count: 4
   coach_status: imported
   juco_org: NJCAA
-- name: ASA Miami
-  slug: asa-miami-fl-juco
-  nickname: ''
-  abbreviation: ''
-  espn_id: ''
-  city: ''
-  state: FL
-  state_slug: florida
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Florida College System Athletic Association
-  conference_slug: florida-college-system-athletic-association
-  color: ''
-  alt_color: ''
-  logo_url: ''
-  logo_dark_url: ''
-  espn_url: ''
-  head_coach: Kevin Paustenbach
-  best_email: coachpaustenbach@asa.edu
-  staff_count: 1
-  coach_status: imported
-  juco_org: NJCAA
 - name: Chipola College
   slug: chipola-college
   nickname: ''
@@ -22672,28 +22650,6 @@
   espn_url: ''
   head_coach: Earnest Crumbley
   best_email: crumbley.earnest@spcollege.edu
-  staff_count: 4
-  coach_status: imported
-  juco_org: NJCAA
-- name: State College of Florida, Manatee-Sarasota
-  slug: state-college-of-florida-manatee-sarasota
-  nickname: ''
-  abbreviation: ''
-  espn_id: ''
-  city: ''
-  state: FL
-  state_slug: florida
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Mid-Florida Conference
-  conference_slug: mid-florida-conference
-  color: ''
-  alt_color: ''
-  logo_url: https://www.scfmanatees.com/images/setup/Primary_Logo_-_.5x.png
-  logo_dark_url: ''
-  espn_url: ''
-  head_coach: Tom Parks
-  best_email: parkst@scf.edu
   staff_count: 4
   coach_status: imported
   juco_org: NJCAA
@@ -24171,7 +24127,7 @@
   staff_count: 1
   coach_status: imported
   juco_org: NJCAA
-- name: Ancilla College
+- name: Marian University Ancilla
   slug: ancilla-college
   nickname: ''
   abbreviation: ''
@@ -24443,10 +24399,10 @@
   city: ''
   state: KS
   state_slug: kansas
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Kansas Jayhawk Community College Conference
-  conference_slug: kansas-jayhawk-community-college-conference
+  division: NAIA
+  division_slug: naia-basketball-programs
+  conference: Continental Athletic Conference
+  conference_slug: continental-athletic-conference
   color: ''
   alt_color: ''
   logo_url: ''
@@ -24456,7 +24412,7 @@
   best_email: matt.hiebert@hesston.edu
   staff_count: 2
   coach_status: imported
-  juco_org: NJCAA
+  juco_org: null
 - name: Highland Community College – Kansas
   slug: highland-community-college-kansas
   nickname: ''
@@ -24611,7 +24567,7 @@
   staff_count: 2
   coach_status: imported
   juco_org: NJCAA
-- name: Northwest Kansas Technical College
+- name: Fort Hays Tech Northwest
   slug: northwest-kansas-technical-college
   nickname: ''
   abbreviation: ''
@@ -25887,28 +25843,6 @@
   staff_count: 2
   coach_status: imported
   juco_org: NJCAA
-- name: Fond du Lac Tribal & Community College
-  slug: fond-du-lac-tribal-community-college
-  nickname: ''
-  abbreviation: ''
-  espn_id: ''
-  city: ''
-  state: MN
-  state_slug: minnesota
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Minnesota College Athletic Conference
-  conference_slug: minnesota-college-athletic-conference
-  color: ''
-  alt_color: ''
-  logo_url: ''
-  logo_dark_url: ''
-  espn_url: ''
-  head_coach: Robert Smith
-  best_email: robert.smith@fdltcc.edu
-  staff_count: 1
-  coach_status: imported
-  juco_org: NJCAA
 - name: Minnesota North College – Hibbing
   slug: minnesota-north-college-hibbing
   nickname: ''
@@ -26723,28 +26657,6 @@
   staff_count: 4
   coach_status: imported
   juco_org: NJCAA
-- name: Little Big Horn College
-  slug: little-big-horn-college
-  nickname: ''
-  abbreviation: ''
-  espn_id: ''
-  city: ''
-  state: MT
-  state_slug: montana
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Frontier Conference
-  conference_slug: frontier-conference
-  color: ''
-  alt_color: ''
-  logo_url: ''
-  logo_dark_url: ''
-  espn_url: ''
-  head_coach: ''
-  best_email: ''
-  staff_count: 1
-  coach_status: imported
-  juco_org: NJCAA
 - name: Miles Community College
   slug: miles-community-college
   nickname: ''
@@ -27127,10 +27039,10 @@
   city: ''
   state: ND
   state_slug: north-dakota
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Mon-Dak Athletic Conference
-  conference_slug: mon-dak-athletic-conference
+  division: NAIA
+  division_slug: naia-basketball-programs
+  conference: Frontier Conference
+  conference_slug: frontier-conference
   color: ''
   alt_color: ''
   logo_url: ''
@@ -27140,7 +27052,7 @@
   best_email: kevin.rice.1@bismarckstate.edu
   staff_count: 1
   coach_status: imported
-  juco_org: NJCAA
+  juco_org: null
 - name: Dakota College at Bottineau
   slug: dakota-college-at-bottineau
   nickname: ''
@@ -27779,28 +27691,6 @@
   staff_count: 2
   coach_status: imported
   juco_org: NJCAA
-- name: ASA College New York
-  slug: asa-college-new-york
-  nickname: ''
-  abbreviation: ''
-  espn_id: ''
-  city: ''
-  state: NY
-  state_slug: new-york
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Region III
-  conference_slug: region-iii
-  color: ''
-  alt_color: ''
-  logo_url: ''
-  logo_dark_url: ''
-  espn_url: ''
-  head_coach: Devonne Martinez
-  best_email: coachmartinez@asa.edu
-  staff_count: 2
-  coach_status: imported
-  juco_org: NJCAA
 - name: Borough of Manhattan Community College
   slug: borough-of-manhattan-community-college
   nickname: ''
@@ -28197,7 +28087,7 @@
   staff_count: 3
   coach_status: imported
   juco_org: NJCAA
-- name: Monroe College
+- name: Monroe University
   slug: monroe-college
   nickname: ''
   abbreviation: ''
@@ -29371,10 +29261,10 @@
   city: ''
   state: SC
   state_slug: south-carolina
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Carolinas Athletic Association
-  conference_slug: carolinas-athletic-association
+  division: NAIA
+  division_slug: naia-basketball-programs
+  conference: Appalachian Athletic Conference
+  conference_slug: appalachian-athletic-conference
   color: ''
   alt_color: ''
   logo_url: ''
@@ -29384,7 +29274,7 @@
   best_email: johnsonn@smcsc.edu
   staff_count: 6
   coach_status: imported
-  juco_org: NJCAA
+  juco_org: null
 - name: USC Salkehatchie
   slug: usc-salkehatchie
   nickname: ''
@@ -29847,28 +29737,6 @@
   staff_count: 2
   coach_status: imported
   juco_org: NJCAA
-- name: Jacksonville College – Jacksonville TX
-  slug: jacksonville-college-jacksonville-tx
-  nickname: ''
-  abbreviation: ''
-  espn_id: ''
-  city: ''
-  state: TX
-  state_slug: texas
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Texas Eastern Athletic Conference
-  conference_slug: texas-eastern-athletic-conference
-  color: ''
-  alt_color: ''
-  logo_url: ''
-  logo_dark_url: ''
-  espn_url: ''
-  head_coach: Truscott, Louis
-  best_email: ltruscott@jacksonville-college.edu
-  staff_count: 2
-  coach_status: imported
-  juco_org: NJCAA
 - name: Kilgore College
   slug: kilgore-college
   nickname: ''
@@ -30240,28 +30108,6 @@
   espn_url: ''
   head_coach: Mike Marquis
   best_email: mmar1@tjc.edu
-  staff_count: 2
-  coach_status: imported
-  juco_org: NJCAA
-- name: Victoria College
-  slug: victoria-college
-  nickname: ''
-  abbreviation: ''
-  espn_id: ''
-  city: ''
-  state: TX
-  state_slug: texas
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Southwest Junior College Football Conference
-  conference_slug: southwest-junior-college-football-conference
-  color: ''
-  alt_color: ''
-  logo_url: ''
-  logo_dark_url: ''
-  espn_url: ''
-  head_coach: Donte' Davis
-  best_email: Donte.Davis@VictoriaCollege.edu
   staff_count: 2
   coach_status: imported
   juco_org: NJCAA
@@ -30656,10 +30502,10 @@
   logo_url: ''
   logo_dark_url: ''
   espn_url: ''
-  head_coach: Shaun Gutting
+  head_coach: Deion Anderson
   best_email: shaun.gutting@caspercollege.edu
   staff_count: 2
-  coach_status: imported
+  coach_status: updated-2026
   juco_org: NJCAA
 - name: Central Wyoming College
   slug: central-wyoming-college
@@ -39272,3 +39118,69 @@
   staff_count: 2
   coach_status: imported
   juco_org: NWAC
+- name: Calhoun Community College
+  slug: calhoun-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Decatur
+  state: AL
+  state_slug: alabama
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Alabama Community College Conference
+  conference_slug: alabama-community-college-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Gillette College
+  slug: gillette-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Gillette
+  state: WY
+  state_slug: wyoming
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Scenic West Athletic Conference
+  conference_slug: scenic-west-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: North Idaho College
+  slug: north-idaho-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Coeur d'Alene
+  state: ID
+  state_slug: idaho
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Scenic West Athletic Conference
+  conference_slug: scenic-west-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
