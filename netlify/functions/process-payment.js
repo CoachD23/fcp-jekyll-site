@@ -293,8 +293,8 @@ exports.handler = async function (event) {
       // Success — responseCode 1 = Approved
       console.log("Payment approved: txnId=" + txnResponse.transId + " amount=$" + amount.toFixed(2));
 
-      // Tag applicant in GHL if this payment came from the application form
-      if (source === "intl-apply" && email) {
+      // Tag applicant in GHL if this payment came from either application form
+      if ((source === "intl-apply" || source === "us-apply") && email) {
         try { await tagApplicantInGhl(email); }
         catch (ghlErr) { console.error("[process-payment] GHL tagging failed:", ghlErr.message); }
       }

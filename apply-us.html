@@ -363,7 +363,15 @@ function validateAndGo(fromStep, toStep) {
     }
 
     function payNow() {
-      window.location.href = '/payment/';
+      var params = new URLSearchParams({
+        firstName: document.getElementById('firstName').value.trim(),
+        lastName:  document.getElementById('lastName').value.trim(),
+        email:     document.getElementById('email').value.trim(),
+        phone:     document.getElementById('phone').value.trim(),
+        program:   (document.querySelector('[name="program"]:checked') || {}).value || '',
+        source:    'us-apply'
+      });
+      window.location.href = '/payment/?' + params.toString();
     }
   </script>
 </body>
