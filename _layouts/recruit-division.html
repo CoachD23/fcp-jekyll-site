@@ -1,0 +1,90 @@
+---
+layout: default
+---
+<!-- Division Index Page: /d1-basketball-programs/, /d2-basketball-programs/, etc. -->
+
+{% assign division = site.data.recruiting.divisions | where: "slug", page.division_slug | first %}
+{% assign all_schools = site.data.recruiting.schools | where: "division", page.division_id %}
+{% assign states = site.data.recruiting.states | sort: "name" %}
+{% assign conferences = site.data.recruiting.conferences | where: "division", page.division_id | sort: "name" %}
+
+<section class="page-header recruit-hero">
+  <div class="container">
+    <nav class="recruit-breadcrumb" aria-label="Breadcrumb">
+      <a href="/college-basketball-programs-directory/">All Programs</a> › <span>{{ page.title }}</span>
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <p class="page-subtitle">{{ page.subtitle | default: division.description }}</p>
+    <div class="recruit-hero-stats">
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">{{ all_schools | size }}</span>
+        <span class="recruit-stat-label">Programs</span>
+      </div>
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">{{ conferences | size }}</span>
+        <span class="recruit-stat-label">Conferences</span>
+      </div>
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">50</span>
+        <span class="recruit-stat-label">States</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container">
+
+    <!-- Intro text (injected by content field or default) -->
+    {% if content and content != "" %}
+    <div class="recruit-intro prose">{{ content }}</div>
+    {% endif %}
+
+    <!-- Browse by State -->
+    <h2 class="recruit-section-title">Browse {{ page.division_label | default: division.label }} Programs by State</h2>
+    <div class="recruit-state-grid">
+      {% for state in states %}
+        {% assign state_schools = all_schools | where: "state_slug", state.slug %}
+        {% if state_schools.size > 0 %}
+        <a href="/{{ page.division_slug }}/{{ state.slug }}/" class="recruit-state-card">
+          <span class="recruit-state-name">{{ state.name }}</span>
+          <span class="recruit-state-count">{{ state_schools.size }} program{% if state_schools.size != 1 %}s{% endif %}</span>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Browse by Conference -->
+    {% if conferences.size > 0 %}
+    <h2 class="recruit-section-title">{{ page.division_label | default: division.label }} Conferences</h2>
+    <div class="recruit-conf-grid">
+      {% for conf in conferences %}
+      <a href="/{{ conf.slug }}-basketball-programs/" class="recruit-conf-chip">
+        {{ conf.name }} <span class="chip-count">{{ conf.school_count }}</span>
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- FCP CTA -->
+    <div class="recruit-bottom-cta">
+      <h2>FCP Develops Players Who Earn {{ page.division_label | default: division.label }} Offers</h2>
+      <p>Florida Coastal Prep — Fort Walton Beach, FL. Our staff has relationships with coaches across the country and knows how to get your film in front of the right programs.</p>
+      <div class="recruit-cta-buttons">
+        <a href="/apply/" class="btn btn-primary">Apply to FCP</a>
+        <a href="/contact/" class="btn btn-outline-dark">Contact a Coach</a>
+      </div>
+    </div>
+
+    <!-- Related guides -->
+    {% if page.related_guides %}
+    <h2 class="recruit-section-title">Recruiting Guides</h2>
+    <ul class="recruit-guide-list">
+      {% for guide in page.related_guides %}
+      <li><a href="{{ guide.url }}">{{ guide.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+  </div>
+</section>

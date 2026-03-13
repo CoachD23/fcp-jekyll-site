@@ -1,0 +1,131 @@
+---
+layout: default
+---
+<!-- Conference page: /{conf-slug}-basketball-programs/ -->
+<!-- page.conference, page.schools injected by generator plugin -->
+
+{% assign conf = page.conference %}
+{% assign schools_by_state = page.schools | group_by: "state" %}
+
+<section class="page-header recruit-hero">
+  <div class="container">
+    <nav class="recruit-breadcrumb" aria-label="Breadcrumb">
+      <a href="/college-basketball-programs-directory/">All Programs</a> ›
+      <a href="/{{ conf.division | downcase }}-basketball-programs/">{{ conf.division }} Programs</a> ›
+      <span>{{ conf.name }}</span>
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <p class="page-subtitle">All {{ conf.name }} men's basketball programs — complete roster, locations, coach info, and recruiting guidance.</p>
+    <div class="recruit-hero-stats">
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">{{ page.school_count }}</span>
+        <span class="recruit-stat-label">Member Schools</span>
+      </div>
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">{{ conf.division }}</span>
+        <span class="recruit-stat-label">Division</span>
+      </div>
+      {% assign states_in_conf = page.schools | map: "state" | uniq | compact %}
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">{{ states_in_conf | size }}</span>
+        <span class="recruit-stat-label">States</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container">
+
+    <!-- All Schools in Conference -->
+    <h2 class="recruit-section-title">{{ conf.name }} Member Schools</h2>
+    <div class="recruit-school-grid">
+      {% for school in page.schools %}
+      <div class="recruit-school-card">
+        {% if school.logo_url %}
+        <div class="recruit-school-logo">
+          <img src="{{ school.logo_url }}"
+               alt="{{ school.name }} logo"
+               width="80" height="80"
+               loading="lazy"
+               onerror="this.style.display='none'">
+        </div>
+        {% endif %}
+        <div class="recruit-school-info">
+          <h3 class="recruit-school-name">
+            {% if school.slug %}
+            <a href="/{{ school.division_slug }}/{{ school.slug }}/">{{ school.name }}</a>
+            {% else %}{{ school.name }}{% endif %}
+          </h3>
+          {% if school.state %}
+          <p class="recruit-school-state">
+            <a href="/{{ school.division_slug }}/{{ school.state_slug }}/">{{ school.state }}</a>
+          </p>
+          {% endif %}
+          {% if school.head_coach %}
+          <p class="recruit-school-coach">{{ school.head_coach }}</p>
+          {% endif %}
+        </div>
+        <div class="recruit-school-actions">
+          {% if school.slug %}
+          <a href="/{{ school.division_slug }}/{{ school.slug }}/" class="recruit-school-link">
+            Program Info →
+          </a>
+          {% elsif school.espn_url %}
+          <a href="{{ school.espn_url }}" class="recruit-school-link" target="_blank" rel="noopener">
+            ESPN ↗
+          </a>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Schools by State -->
+    {% if schools_by_state.size > 1 %}
+    <h2 class="recruit-section-title">{{ conf.name }} Schools by State</h2>
+    <div class="recruit-conf-breakdown">
+      {% for group in schools_by_state %}
+        {% if group.name != "" %}
+        <div class="recruit-conf-group">
+          <h3>{{ group.name }}
+            <span class="chip-count">{{ group.items | size }}</span>
+          </h3>
+          <ul>
+            {% for s in group.items %}
+            <li>{{ s.name }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Related Conferences -->
+    <div class="recruit-other-conf">
+      <h2 class="recruit-section-title">Other {{ conf.division }} Conferences</h2>
+      <div class="recruit-conf-grid">
+        {% assign other_confs = site.data.recruiting.conferences | where: "division", conf.division | sort: "name" %}
+        {% for c in other_confs %}
+          {% unless c.slug == conf.slug %}
+          <a href="/{{ c.slug }}-basketball-programs/" class="recruit-conf-chip">
+            {{ c.name }} <span class="chip-count">{{ c.school_count }}</span>
+          </a>
+          {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- FCP CTA -->
+    <div class="recruit-bottom-cta">
+      <h2>Targeting {{ conf.name }} Programs?</h2>
+      <p>FCP coaches know what {{ conf.name }} programs look for in a recruit. We build players' film, exposure, and eligibility profiles to match what coaches at this level want to see.</p>
+      <div class="recruit-cta-buttons">
+        <a href="/apply/" class="btn btn-primary">Apply to FCP</a>
+        <a href="/contact/" class="btn btn-outline-dark">Speak With a Coach</a>
+      </div>
+    </div>
+
+  </div>
+</section>

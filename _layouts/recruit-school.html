@@ -1,0 +1,249 @@
+---
+layout: default
+---
+{% assign school = page.school %}
+{% assign conf_slug = school.conference_slug %}
+{% assign div_slug  = school.division_slug %}
+
+<section class="page-header recruit-hero recruit-school-hero">
+  <div class="container">
+    <nav class="recruit-breadcrumb" aria-label="Breadcrumb">
+      <a href="/college-basketball-programs-directory/">All Programs</a> ›
+      <a href="/{{ div_slug }}/">{{ school.division }}</a> ›
+      <a href="/{{ div_slug }}/{{ school.state_slug }}/">{{ school.state }}</a> ›
+      <span>{{ school.name }}</span>
+    </nav>
+
+    <div class="recruit-school-hero-inner">
+      {% if school.logo_url %}
+      <div class="recruit-school-hero-logo">
+        <img src="{{ school.logo_url }}"
+             alt="{{ school.name }} logo"
+             width="100" height="100"
+             fetchpriority="high"
+             onerror="this.style.display='none'">
+      </div>
+      {% endif %}
+      <div class="recruit-school-hero-text">
+        <h1>{{ school.name }}</h1>
+        <p class="page-subtitle">
+          {% if school.conference %}<a href="/{{ conf_slug }}-basketball-programs/" class="hero-conf-link">{{ school.conference }}</a> · {% endif %}
+          {{ school.division }} ·
+          <a href="/{{ div_slug }}/{{ school.state_slug }}/">{{ school.state }}</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="recruit-hero-stats">
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">{{ school.division }}</span>
+        <span class="recruit-stat-label">Division</span>
+      </div>
+      {% if school.staff_count %}
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">{{ school.staff_count }}</span>
+        <span class="recruit-stat-label">Staff Contacts</span>
+      </div>
+      {% endif %}
+      <div class="recruit-stat">
+        <span class="recruit-stat-num" style="font-size:0.95rem">{{ school.conference | truncate: 20 }}</span>
+        <span class="recruit-stat-label">Conference</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container recruit-school-layout">
+
+    <!-- Main column -->
+    <div class="recruit-school-main">
+
+      <!-- Head Coach -->
+      <div class="recruit-info-card">
+        <h2>Head Coach</h2>
+        {% if school.head_coach %}
+        <p class="recruit-head-coach-name">{{ school.head_coach }}</p>
+        {% if school.best_email %}
+        <p class="recruit-coach-contact">
+          <strong>Contact:</strong>
+          <a href="mailto:{{ school.best_email }}" class="recruit-email-link">{{ school.best_email }}</a>
+        </p>
+        {% endif %}
+        {% else %}
+        <p class="recruit-muted">Contact information not available — reach out via the <a href="{{ school.espn_url }}" target="_blank" rel="noopener">ESPN program page</a>.</p>
+        {% endif %}
+      </div>
+
+      <!-- Staff Contacts (JS-loaded from d1-staff.min.json) -->
+      {% if school.espn_id %}
+      <div class="recruit-info-card" id="staff-contacts-card">
+        <h2>Basketball Staff Contacts
+          <button class="recruit-load-staff btn btn-sm btn-outline-dark"
+                  data-espn-id="{{ school.espn_id }}"
+                  onclick="loadStaff(this)">Show All Staff</button>
+        </h2>
+        <div id="staff-list-{{ school.espn_id }}" class="recruit-staff-list" aria-live="polite">
+          {% if school.best_email %}
+          <p class="recruit-muted">Click "Show All Staff" to see the full coaching staff directory for {{ school.name }}.</p>
+          {% else %}
+          <p class="recruit-muted">Staff contact data not yet available for this program.</p>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- About This Program -->
+      <div class="recruit-info-card">
+        <h2>About {{ school.name }} Basketball</h2>
+        <p>
+          {{ school.name }} competes in {{ school.division }} men's basketball as a member of the
+          <a href="/{{ conf_slug }}-basketball-programs/">{{ school.conference }}</a>.
+          {% if school.head_coach %}
+            The program is currently led by head coach <strong>{{ school.head_coach }}</strong>.
+          {% endif %}
+          Like all {{ school.division }} programs, {{ school.name }} recruits players who demonstrate
+          high-level film, strong academics, and proven exposure at competitive events.
+        </p>
+        <p>
+          Getting recruited at this level requires more than raw talent — coaches need to see
+          your film at the right moment, your eligibility paperwork must be in order, and your
+          tournament exposure has to match the standard the program is recruiting to.
+        </p>
+        {% if school.espn_url %}
+        <p>
+          <a href="{{ school.espn_url }}" class="recruit-school-link" target="_blank" rel="noopener">
+            View {{ school.name }} on ESPN ↗
+          </a>
+        </p>
+        {% endif %}
+      </div>
+
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="recruit-school-sidebar">
+
+      <!-- Quick Facts -->
+      <div class="recruit-info-card recruit-quick-facts">
+        <h3>Program Info</h3>
+        <dl>
+          <dt>Division</dt>
+          <dd>{{ school.division }}</dd>
+          {% if school.conference %}
+          <dt>Conference</dt>
+          <dd><a href="/{{ conf_slug }}-basketball-programs/">{{ school.conference }}</a></dd>
+          {% endif %}
+          {% if school.state %}
+          <dt>State</dt>
+          <dd><a href="/{{ div_slug }}/{{ school.state_slug }}/">{{ school.state }}</a></dd>
+          {% endif %}
+          {% if school.city and school.city != "" %}
+          <dt>City</dt>
+          <dd>{{ school.city }}</dd>
+          {% endif %}
+          {% if school.head_coach %}
+          <dt>Head Coach</dt>
+          <dd>{{ school.head_coach }}</dd>
+          {% endif %}
+        </dl>
+        {% if school.espn_url %}
+        <a href="{{ school.espn_url }}" class="recruit-espn-btn" target="_blank" rel="noopener">
+          <img src="https://a.espncdn.com/i/espn/misc_logos/500/espn_red.png" alt="ESPN" width="40" height="14" style="vertical-align:middle;margin-right:6px">
+          View on ESPN
+        </a>
+        {% endif %}
+      </div>
+
+      <!-- More programs in this state -->
+      <div class="recruit-info-card">
+        <h3>More {{ school.division }} Programs in {{ school.state }}</h3>
+        {% assign state_schools = site.data.recruiting.schools | where: "division", school.division | where: "state", school.state %}
+        <ul class="recruit-sidebar-list">
+          {% for s in state_schools limit:8 %}
+            {% unless s.slug == school.slug %}
+            <li><a href="/{{ s.division_slug }}/{{ s.slug }}/">{{ s.name }}</a></li>
+            {% endunless %}
+          {% endfor %}
+        </ul>
+        <a href="/{{ div_slug }}/{{ school.state_slug }}/" class="recruit-see-all">
+          All {{ school.division }} programs in {{ school.state }} →
+        </a>
+      </div>
+
+      <!-- Conference mates -->
+      <div class="recruit-info-card">
+        <h3>{{ school.conference | truncate: 30 }}</h3>
+        {% assign conf_schools = site.data.recruiting.schools | where: "conference_slug", conf_slug %}
+        <ul class="recruit-sidebar-list">
+          {% for s in conf_schools limit:8 %}
+            {% unless s.slug == school.slug %}
+            <li><a href="/{{ s.division_slug }}/{{ s.slug }}/">{{ s.name }}</a></li>
+            {% endunless %}
+          {% endfor %}
+        </ul>
+        <a href="/{{ conf_slug }}-basketball-programs/" class="recruit-see-all">
+          All {{ school.conference }} schools →
+        </a>
+      </div>
+
+    </aside>
+
+  </div><!-- /.recruit-school-layout -->
+
+  <!-- FCP CTA -->
+  <div class="container">
+    <div class="recruit-bottom-cta">
+      <h2>Targeting {{ school.name }}?</h2>
+      <p>
+        FCP coaches understand what {{ school.division }} programs like {{ school.name }} look for in a recruit.
+        We build players' film, exposure, and eligibility profiles to match exactly what coaches at this level
+        need to see before making an offer.
+      </p>
+      <div class="recruit-cta-buttons">
+        <a href="/apply/" class="btn btn-primary">Apply to FCP</a>
+        <a href="/contact/" class="btn btn-outline-dark">Talk to a Coach</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<script>
+(function() {
+  var cache = null;
+  window.loadStaff = function(btn) {
+    var espnId = btn.getAttribute('data-espn-id');
+    var container = document.getElementById('staff-list-' + espnId);
+    btn.disabled = true;
+    btn.textContent = 'Loading…';
+
+    function renderStaff(data) {
+      var entry = data.find(function(s) { return String(s.i) === String(espnId); });
+      if (!entry || !entry.st || !entry.st.length) {
+        container.innerHTML = '<p class="recruit-muted">No staff contact data available.</p>';
+        btn.style.display = 'none';
+        return;
+      }
+      var html = '<table class="recruit-staff-table"><thead><tr><th>Name</th><th>Position</th><th>Email</th></tr></thead><tbody>';
+      entry.st.forEach(function(s) {
+        html += '<tr><td>' + (s.n || '') + '</td><td>' + (s.p || '') + '</td>';
+        html += '<td>' + (s.e ? '<a href="mailto:' + s.e + '">' + s.e + '</a>' : '—') + '</td></tr>';
+      });
+      html += '</tbody></table>';
+      container.innerHTML = html;
+      btn.style.display = 'none';
+    }
+
+    if (cache) { renderStaff(cache); return; }
+    fetch('/assets/data/d1-staff.min.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) { cache = data; renderStaff(data); })
+      .catch(function() {
+        container.innerHTML = '<p class="recruit-muted">Could not load staff data. Try refreshing.</p>';
+        btn.disabled = false;
+        btn.textContent = 'Retry';
+      });
+  };
+})();
+</script>

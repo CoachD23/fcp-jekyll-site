@@ -1,0 +1,35 @@
+- id: D1
+  label: NCAA Division I
+  slug: d1-basketball-programs
+  description: The highest level of college basketball in the US. 362 programs, 32 conferences, the path to the NBA.
+  school_count: 299
+  seo_title: NCAA Division I Basketball Programs — Complete List
+  seo_description: Browse every NCAA Division I men's basketball program. Filter by state, conference, and more.
+- id: D2
+  label: NCAA Division II
+  slug: d2-basketball-programs
+  description: Athletic scholarships + high-level competition. 300+ programs with strong academic balance.
+  school_count: 0
+  seo_title: NCAA Division II Basketball Programs — Complete List
+  seo_description: Browse every NCAA Division II men's basketball program. Filter by state, conference, and more.
+- id: D3
+  label: NCAA Division III
+  slug: d3-basketball-programs
+  description: No athletic scholarships but 400+ programs — the most programs at any level. Strong academics, real competition.
+  school_count: 0
+  seo_title: NCAA Division III Basketball Programs — Complete List
+  seo_description: Browse every NCAA Division III men's basketball program. Filter by state, conference, and more.
+- id: NAIA
+  label: NAIA
+  slug: naia-basketball-programs
+  description: 200+ programs, athletic scholarships, and faster eligibility timelines than NCAA. A serious path to pro ball.
+  school_count: 0
+  seo_title: NAIA Basketball Programs — Complete List
+  seo_description: Browse every NAIA men's basketball program. Filter by state, conference, and more.
+- id: JUCO
+  label: JUCO / NJCAA
+  slug: juco-basketball-programs
+  description: Junior college basketball — the fastest route to D1. 500+ programs, 2-year eligibility, academically flexible.
+  school_count: 0
+  seo_title: JUCO / NJCAA Basketball Programs — Complete List
+  seo_description: Browse every JUCO / NJCAA men's basketball program. Filter by state, conference, and more.

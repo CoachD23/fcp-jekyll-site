@@ -7244,3 +7244,856 @@ iframe { max-width: 100%; }
 @media (max-width: 600px) {
   .alumni-photo-grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+
+/* =====================================================================
+   RECRUITING HUB — floridacoastalprep.com/college-basketball-programs-directory/
+   All styles for the 300+ page recruiting hub
+   ===================================================================== */
+
+/* ── Shared hero / header ── */
+.recruit-hero {
+  background: var(--navy);
+  color: #fff;
+  padding: 5rem 0 3rem;
+  text-align: center;
+}
+.recruit-hero h1 {
+  color: #fff;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  margin-bottom: 0.75rem;
+}
+.recruit-hero .page-subtitle {
+  color: rgba(255,255,255,0.8);
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+.recruit-hero-badge {
+  display: inline-block;
+  background: var(--red);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+.recruit-hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.12);
+}
+.recruit-stat { text-align: center; }
+.recruit-stat-num {
+  display: block;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--gold, #d4a843);
+  line-height: 1;
+}
+.recruit-stat-label {
+  display: block;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 0.25rem;
+}
+
+/* ── Breadcrumb ── */
+.recruit-breadcrumb {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 1rem;
+}
+.recruit-breadcrumb a { color: rgba(255,255,255,0.7); text-decoration: underline; }
+.recruit-breadcrumb a:hover { color: #fff; }
+
+/* ── Section titles ── */
+.recruit-section-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--navy);
+  margin: 3rem 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--red);
+}
+
+/* ── Division grid (hub page) ── */
+.recruit-division-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+.recruit-division-card {
+  display: block;
+  background: #f8f9fb;
+  border: 1px solid #e5e8ef;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.recruit-division-card:hover {
+  border-color: var(--red);
+  box-shadow: 0 4px 20px rgba(196,30,58,0.12);
+  transform: translateY(-2px);
+}
+.recruit-division-card-inner { display: flex; flex-direction: column; gap: 0.5rem; }
+.recruit-division-icon { font-size: 1.75rem; }
+.recruit-division-card h3 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--navy);
+  margin: 0;
+}
+.recruit-division-card p {
+  font-size: 0.88rem;
+  color: #555;
+  line-height: 1.5;
+  flex: 1;
+}
+.recruit-card-count {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--red);
+}
+.recruit-card-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-top: 0.5rem;
+}
+
+/* ── State grid ── */
+.recruit-state-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+.recruit-state-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f8f9fb;
+  border: 1px solid #e5e8ef;
+  border-radius: 8px;
+  padding: 0.85rem 0.75rem;
+  text-decoration: none;
+  transition: all 0.18s;
+  text-align: center;
+}
+.recruit-state-card:hover {
+  border-color: var(--red);
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(196,30,58,0.1);
+}
+.recruit-state-name {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+.recruit-state-count {
+  font-size: 0.78rem;
+  color: var(--red);
+  font-weight: 600;
+  margin-top: 0.2rem;
+}
+
+/* ── State alpha-chips (hub page) ── */
+.recruit-state-alpha-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ── Conference chips ── */
+.recruit-conf-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.recruit-conf-chip,
+.recruit-state-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: #f0f2f7;
+  border: 1px solid #d8dce8;
+  border-radius: 20px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  transition: all 0.15s;
+}
+.recruit-conf-chip:hover,
+.recruit-state-chip:hover {
+  background: var(--navy);
+  color: #fff;
+  border-color: var(--navy);
+}
+.chip-count {
+  display: inline-block;
+  background: var(--red);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.1rem 0.45rem;
+  line-height: 1.4;
+}
+
+/* ── School cards ── */
+.recruit-school-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.recruit-school-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #fff;
+  border: 1px solid #e5e8ef;
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  transition: box-shadow 0.18s;
+}
+.recruit-school-card:hover {
+  box-shadow: 0 3px 16px rgba(10,22,40,0.1);
+}
+.recruit-school-logo {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recruit-school-logo img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+.recruit-school-info { flex: 1; min-width: 0; }
+.recruit-school-name {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 0 0 0.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.recruit-school-conf,
+.recruit-school-state {
+  font-size: 0.78rem;
+  color: #667;
+  margin: 0;
+}
+.recruit-school-conf a,
+.recruit-school-state a { color: var(--red); text-decoration: none; }
+.recruit-school-conf a:hover,
+.recruit-school-state a:hover { text-decoration: underline; }
+.recruit-school-color-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+}
+.recruit-school-actions { flex-shrink: 0; }
+.recruit-school-link {
+  font-size: 0.78rem;
+  color: var(--red);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.recruit-school-link:hover { text-decoration: underline; }
+
+/* ── Conference breakdown ── */
+.recruit-conf-breakdown {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+.recruit-conf-group {
+  background: #f8f9fb;
+  border: 1px solid #e5e8ef;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.recruit-conf-group h3 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.recruit-conf-group h3 a { color: var(--navy); text-decoration: none; }
+.recruit-conf-group h3 a:hover { color: var(--red); }
+.recruit-conf-group ul { list-style: disc; padding-left: 1.1rem; }
+.recruit-conf-group ul li {
+  font-size: 0.82rem;
+  color: #445;
+  padding: 0.15rem 0;
+}
+
+/* ── Other divisions links ── */
+.recruit-division-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+.recruit-div-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: #f0f2f7;
+  border: 1px solid #d8dce8;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  transition: all 0.15s;
+}
+.recruit-div-link:hover {
+  background: var(--navy);
+  color: #fff;
+  border-color: var(--navy);
+}
+
+/* ── Callout box (hub) ── */
+.recruit-callout {
+  background: linear-gradient(135deg, var(--navy) 0%, #1a2d4f 100%);
+  border-radius: 14px;
+  padding: 2.5rem;
+  margin: 2rem 0 3rem;
+  color: #fff;
+}
+.recruit-callout-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.recruit-callout-text h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+.recruit-callout-text p {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.95rem;
+  max-width: 560px;
+}
+.recruit-callout-cta {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+/* ── Bottom CTA ── */
+.recruit-bottom-cta {
+  background: #f0f2f7;
+  border-left: 4px solid var(--red);
+  border-radius: 0 12px 12px 0;
+  padding: 2.5rem;
+  margin: 3rem 0 1.5rem;
+  text-align: center;
+}
+.recruit-bottom-cta h2 {
+  font-size: 1.5rem;
+  color: var(--navy);
+  margin-bottom: 0.6rem;
+}
+.recruit-bottom-cta p {
+  color: #445;
+  font-size: 0.95rem;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+.recruit-cta-buttons {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn-outline-dark {
+  display: inline-block;
+  padding: 0.85rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 2px solid var(--navy);
+  color: var(--navy);
+  background: transparent;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+.btn-outline-dark:hover {
+  background: var(--navy);
+  color: #fff;
+}
+
+/* ── Guide list ── */
+.recruit-guide-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.recruit-guide-list li a {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--red);
+  text-decoration: none;
+}
+.recruit-guide-list li a:hover { text-decoration: underline; }
+
+/* ── Logo link cards ── */
+.recruit-logo-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+.recruit-logo-link-card {
+  display: inline-block;
+  background: #f0f2f7;
+  border: 1px solid #d8dce8;
+  border-radius: 8px;
+  padding: 0.6rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  transition: all 0.15s;
+}
+.recruit-logo-link-card:hover { background: var(--navy); color: #fff; }
+
+/* ── Intro prose area ── */
+.recruit-intro.prose {
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: #334;
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
+}
+.recruit-intro.prose p { margin-bottom: 1rem; }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .recruit-hero { padding: 3.5rem 0 2rem; }
+  .recruit-hero-stats { gap: 1.5rem; }
+  .recruit-stat-num { font-size: 1.5rem; }
+  .recruit-callout-inner { flex-direction: column; text-align: center; }
+  .recruit-callout-cta { justify-content: center; }
+  .recruit-school-grid { grid-template-columns: 1fr; }
+  .recruit-division-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+  .recruit-bottom-cta { padding: 1.75rem 1.25rem; }
+}
+@media (max-width: 480px) {
+  .recruit-school-card { flex-wrap: wrap; }
+  .recruit-hero h1 { font-size: 1.6rem; }
+  .recruit-state-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   RECRUIT — Individual School Page
+   ═══════════════════════════════════════════════════════════ */
+
+/* Hero w/ side-by-side logo + text */
+.recruit-school-hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.recruit-school-hero-logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+}
+.recruit-school-hero-text h1 { margin: 0 0 .25rem; }
+.hero-conf-link { color: rgba(255,255,255,.85); text-decoration: underline; }
+.hero-conf-link:hover { color: #fff; }
+
+/* Two-column layout: main (2fr) + sidebar (1fr) */
+.recruit-school-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+.recruit-school-main { min-width: 0; }
+.recruit-school-sidebar { min-width: 0; }
+
+/* Card wrapper used on school page */
+.recruit-info-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.recruit-info-card h2 {
+  font-size: 1.15rem;
+  margin: 0 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+.recruit-info-card h3 {
+  font-size: 1rem;
+  margin: 0 0 .75rem;
+}
+
+/* Head coach display */
+.recruit-head-coach-name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 .5rem;
+}
+.recruit-coach-contact { margin: 0; font-size: .9rem; }
+.recruit-email-link { color: var(--red); word-break: break-all; }
+.recruit-email-link:hover { text-decoration: underline; }
+
+/* Coach name on cards in state/conf grids */
+.recruit-school-coach {
+  font-size: .78rem;
+  color: #6b7280;
+  margin: .15rem 0 0;
+}
+
+/* Load staff button */
+.recruit-load-staff {
+  font-size: .78rem;
+  padding: .25rem .65rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Staff table */
+.recruit-staff-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .85rem;
+  margin-top: .5rem;
+}
+.recruit-staff-table th {
+  text-align: left;
+  padding: .4rem .6rem;
+  border-bottom: 2px solid #e5e7eb;
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: #6b7280;
+}
+.recruit-staff-table td {
+  padding: .45rem .6rem;
+  border-bottom: 1px solid #f3f4f6;
+  vertical-align: top;
+}
+.recruit-staff-table td a { color: var(--red); }
+.recruit-staff-table td a:hover { text-decoration: underline; }
+
+/* Staff placeholder text */
+.recruit-muted { color: #6b7280; font-size: .9rem; margin: 0; }
+
+/* Quick-facts DL */
+.recruit-quick-facts dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: .3rem .75rem; }
+.recruit-quick-facts dt { font-weight: 600; font-size: .82rem; color: #6b7280; text-transform: uppercase; letter-spacing: .04em; align-self: start; padding-top: .05rem; }
+.recruit-quick-facts dd { margin: 0; font-size: .9rem; }
+.recruit-quick-facts dd a { color: var(--red); }
+
+/* ESPN button in sidebar */
+.recruit-espn-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: .45rem .9rem;
+  background: #cc0000;
+  color: #fff;
+  border-radius: 6px;
+  font-size: .82rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.recruit-espn-btn:hover { background: #a80000; color: #fff; }
+.recruit-espn-btn img { filter: brightness(0) invert(1); }
+
+/* Sidebar school lists */
+.recruit-sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 .75rem;
+  font-size: .88rem;
+}
+.recruit-sidebar-list li { padding: .3rem 0; border-bottom: 1px solid #f3f4f6; }
+.recruit-sidebar-list li:last-child { border-bottom: none; }
+.recruit-sidebar-list a { color: #374151; text-decoration: none; }
+.recruit-sidebar-list a:hover { color: var(--red); }
+.recruit-see-all { font-size: .82rem; color: var(--red); text-decoration: none; font-weight: 600; }
+.recruit-see-all:hover { text-decoration: underline; }
+
+/* Responsive: stack to single column on mobile */
+@media (max-width: 768px) {
+  .recruit-school-layout { grid-template-columns: 1fr; }
+  .recruit-school-sidebar { order: -1; }
+  .recruit-school-hero-inner { flex-direction: column; text-align: center; gap: 1rem; }
+  .recruit-school-hero-logo img { width: 70px; height: 70px; }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   COACH SEARCH PAGE  (/coach-search/)
+   ═══════════════════════════════════════════════════════════ */
+
+/* Controls bar */
+.cs-controls {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  margin-bottom: 1.5rem;
+}
+.cs-search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.cs-search-icon {
+  position: absolute;
+  left: .9rem;
+  color: #9ca3af;
+  pointer-events: none;
+  flex-shrink: 0;
+}
+.cs-search-input {
+  width: 100%;
+  padding: .7rem 2.5rem .7rem 2.7rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color .15s;
+  background: #fff;
+}
+.cs-search-input:focus { border-color: var(--red); }
+.cs-clear-btn {
+  position: absolute;
+  right: .75rem;
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: .25rem;
+  line-height: 1;
+}
+.cs-clear-btn:hover { color: #374151; }
+.cs-filters {
+  display: flex;
+  gap: .6rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cs-select {
+  padding: .45rem .75rem;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: .88rem;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+  flex: 1;
+  min-width: 140px;
+}
+.cs-select:focus { border-color: var(--red); }
+
+/* Status text */
+.cs-status {
+  font-size: .85rem;
+  color: #6b7280;
+  margin-bottom: .75rem;
+  min-height: 1.2em;
+}
+
+/* Results grid */
+.cs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+/* School card */
+.cs-card {
+  display: flex;
+  align-items: flex-start;
+  gap: .85rem;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: box-shadow .15s, border-color .15s;
+}
+.cs-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,.08);
+  border-color: #d1d5db;
+}
+.cs-card-logo {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cs-card-logo img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #f9fafb;
+  padding: 4px;
+}
+.cs-card-logo-placeholder {
+  width: 56px;
+  height: 56px;
+  background: #f3f4f6;
+  border-radius: 6px;
+}
+.cs-card-body { flex: 1; min-width: 0; }
+.cs-card-title {
+  font-size: .95rem;
+  font-weight: 700;
+  margin: 0 0 .2rem;
+  line-height: 1.3;
+}
+.cs-card-title a { color: #111; text-decoration: none; }
+.cs-card-title a:hover { color: var(--red); }
+.cs-card-meta {
+  font-size: .78rem;
+  color: #6b7280;
+  margin: 0 0 .25rem;
+}
+.cs-meta-link { color: #6b7280; text-decoration: none; }
+.cs-meta-link:hover { color: var(--red); }
+.cs-card-coach {
+  font-size: .82rem;
+  color: #374151;
+  margin: 0;
+}
+.cs-card-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .4rem;
+  flex-shrink: 0;
+}
+.cs-card-email {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  font-size: .78rem;
+  color: var(--red);
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.cs-card-email:hover { text-decoration: underline; }
+.cs-card-profile {
+  font-size: .75rem;
+  color: #6b7280;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.cs-card-profile:hover { color: var(--red); }
+
+/* Loading / error / empty states */
+.cs-loading, .cs-error {
+  grid-column: 1/-1;
+  text-align: center;
+  padding: 3rem;
+  color: #6b7280;
+}
+.cs-empty {
+  text-align: center;
+  padding: 3rem;
+  color: #6b7280;
+}
+.cs-link-btn {
+  background: none;
+  border: none;
+  color: var(--red);
+  cursor: pointer;
+  font-size: inherit;
+  text-decoration: underline;
+  padding: 0;
+}
+
+/* Responsive */
+@media (min-width: 640px) {
+  .cs-controls { flex-direction: row; align-items: flex-start; }
+  .cs-search-wrap { flex: 1; }
+  .cs-filters { flex-wrap: nowrap; }
+}
+@media (max-width: 480px) {
+  .cs-grid { grid-template-columns: 1fr; }
+  .cs-card { flex-wrap: wrap; }
+  .cs-card-actions { flex-direction: row; width: 100%; justify-content: flex-end; }
+}
+
+/* Coach Finder promo block on hub page */
+.recruit-coach-finder-promo {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  margin: 2rem 0;
+  color: #fff;
+}
+.recruit-coach-finder-promo-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.recruit-coach-finder-promo h2 { color: #fff; margin: 0 0 .5rem; font-size: 1.4rem; }
+.recruit-coach-finder-promo p  { color: rgba(255,255,255,.8); margin: 0; max-width: 520px; }
+@media (max-width: 600px) {
+  .recruit-coach-finder-promo { padding: 1.5rem; }
+  .recruit-coach-finder-promo-inner { flex-direction: column; }
+}

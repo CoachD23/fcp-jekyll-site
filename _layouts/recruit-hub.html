@@ -1,0 +1,122 @@
+---
+layout: default
+---
+<!-- Master Recruiting Hub: /college-basketball-programs-directory/ -->
+
+<section class="page-header recruit-hero">
+  <div class="container">
+    <div class="recruit-hero-badge">🏀 Complete Directory</div>
+    <h1>{{ page.title }}</h1>
+    <p class="page-subtitle">{{ page.subtitle | default: "Every college basketball program in America — D1, D2, D3, NAIA, and JUCO — organized by division, state, and conference." }}</p>
+    <div class="recruit-hero-stats">
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">1,000+</span>
+        <span class="recruit-stat-label">Programs Listed</span>
+      </div>
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">5</span>
+        <span class="recruit-stat-label">Divisions</span>
+      </div>
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">50</span>
+        <span class="recruit-stat-label">States Covered</span>
+      </div>
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">43</span>
+        <span class="recruit-stat-label">States FCP Has Placed Players</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container">
+
+    <!-- FCP Value Prop -->
+    <div class="recruit-callout">
+      <div class="recruit-callout-inner">
+        <div class="recruit-callout-text">
+          <h2>Find Your College. FCP Gets You There.</h2>
+          <p>Florida Coastal Prep has helped players earn offers at every level listed on this page — from Power Five D1 programs to JUCO. Our coaches know how each program recruits, what they look for, and how to get your film in front of them.</p>
+        </div>
+        <div class="recruit-callout-cta">
+          <a href="/apply/" class="btn btn-primary">Apply to FCP</a>
+          <a href="/contact/" class="btn btn-outline-dark">Talk to a Coach</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Division Cards -->
+    <h2 class="recruit-section-title">Browse by Division</h2>
+    <div class="recruit-division-grid">
+      {% assign divisions = site.data.recruiting.divisions %}
+      {% for div in divisions %}
+      <a href="/{{ div.slug }}/" class="recruit-division-card">
+        <div class="recruit-division-card-inner">
+          <div class="recruit-division-icon">
+            {% if div.id == 'D1' %}🏆
+            {% elsif div.id == 'D2' %}🥈
+            {% elsif div.id == 'D3' %}🎓
+            {% elsif div.id == 'NAIA' %}⭐
+            {% else %}⚡{% endif %}
+          </div>
+          <h3>{{ div.label }}</h3>
+          <p>{{ div.description }}</p>
+          {% if div.school_count > 0 %}
+          <span class="recruit-card-count">{{ div.school_count }} programs</span>
+          {% endif %}
+          <span class="recruit-card-link">View All Programs →</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <!-- Browse by State -->
+    <h2 class="recruit-section-title">Browse D1 Programs by State</h2>
+    <div class="recruit-state-alpha-grid">
+      {% assign states = site.data.recruiting.states | sort: "name" %}
+      {% for state in states %}
+        {% if state.school_count > 0 %}
+        <a href="/d1-basketball-programs/{{ state.slug }}/" class="recruit-state-chip">
+          {{ state.name }} <span class="chip-count">{{ state.school_count }}</span>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Featured Conferences -->
+    <h2 class="recruit-section-title">Browse by Conference</h2>
+    <div class="recruit-conf-grid">
+      {% assign confs = site.data.recruiting.conferences | sort: "name" %}
+      {% for conf in confs %}
+      <a href="/{{ conf.slug }}-basketball-programs/" class="recruit-conf-chip">
+        {{ conf.name }}
+        <span class="chip-count">{{ conf.school_count }}</span>
+      </a>
+      {% endfor %}
+    </div>
+
+    <!-- Coach Finder Feature -->
+    <div class="recruit-coach-finder-promo">
+      <div class="recruit-coach-finder-promo-inner">
+        <div>
+          <h2>D1 Coach Finder</h2>
+          <p>Search all 299 NCAA Division I programs by school, coach name, state, or conference. View current head coaches and staff contact info in one place.</p>
+        </div>
+        <a href="/coach-search/" class="btn btn-primary">Search D1 Coaches →</a>
+      </div>
+    </div>
+
+    <!-- Bottom CTA -->
+    <div class="recruit-bottom-cta">
+      <h2>Ready to Get Recruited?</h2>
+      <p>FCP players have earned offers from programs at every level on this list. Fort Walton Beach, FL. Year-round training. Real results.</p>
+      <div class="recruit-cta-buttons">
+        <a href="/apply/" class="btn btn-primary">Apply Now</a>
+        <a href="/post-grad/" class="btn btn-outline-dark">Post-Grad Program</a>
+        <a href="/high-school/" class="btn btn-outline-dark">High School Program</a>
+      </div>
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,6259 @@
+- name: New Hampshire Wildcats
+  slug: new-hampshire-wildcats
+  nickname: Wildcats
+  abbreviation: UNH
+  espn_id: "160"
+  city: ""
+  state: NH
+  state_slug: new-hampshire
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: America East Conference
+  conference_slug: america-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/160.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/160.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/160
+  head_coach: Nathan Davis
+  best_email: bill.herrion@unh.edu
+  staff_count: 4
+  coach_status: changed
+- name: Vermont Catamounts
+  slug: vermont-catamounts
+  nickname: Catamounts
+  abbreviation: UVM
+  espn_id: "261"
+  city: ""
+  state: VT
+  state_slug: vermont
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: America East Conference
+  conference_slug: america-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/261.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/261.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/261
+  head_coach: John Becker
+  best_email: ryan.schneider@uvm.edu
+  staff_count: 4
+  coach_status: verified
+- name: Maine Black Bears
+  slug: maine-black-bears
+  nickname: Black Bears
+  abbreviation: ME
+  espn_id: "311"
+  city: ""
+  state: ME
+  state_slug: maine
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: America East Conference
+  conference_slug: america-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/311.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/311.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/311
+  head_coach: Chris Markwood
+  best_email: robert.odriscoll@maine.edu
+  staff_count: 3
+  coach_status: verified
+- name: UAlbany Great Danes
+  slug: ualbany-great-danes
+  nickname: Great Danes
+  abbreviation: UALB
+  espn_id: "399"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: America East Conference
+  conference_slug: america-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/399.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/399.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/399
+  head_coach: Dwayne Killings
+  best_email: dmadhavapallil@albany.edu
+  staff_count: 6
+  coach_status: patched
+- name: Binghamton Bearcats
+  slug: binghamton-bearcats
+  nickname: Bearcats
+  abbreviation: BING
+  espn_id: "2066"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: America East Conference
+  conference_slug: america-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2066.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2066.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2066
+  head_coach: Levell Sanders
+  coach_status: changed
+- name: UMass Lowell River Hawks
+  slug: umass-lowell-river-hawks
+  nickname: River Hawks
+  abbreviation: UML
+  espn_id: "2349"
+  city: ""
+  state: MA
+  state_slug: massachusetts
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: America East Conference
+  conference_slug: america-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2349.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2349.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2349
+  head_coach: Pat Duquette
+  best_email: patrick_duquette@uml.edu
+  staff_count: 5
+  coach_status: verified
+- name: UMBC Retrievers
+  slug: umbc-retrievers
+  nickname: Retrievers
+  abbreviation: UMBC
+  espn_id: "2378"
+  city: ""
+  state: MD
+  state_slug: maryland
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: America East Conference
+  conference_slug: america-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2378.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2378.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2378
+  head_coach: Jim Ferry
+  best_email: dlawson@umbc.edu
+  staff_count: 5
+  coach_status: patched
+- name: Bryant Bulldogs
+  slug: bryant-bulldogs
+  nickname: Bulldogs
+  abbreviation: BRY
+  espn_id: "2803"
+  city: ""
+  state: RI
+  state_slug: rhode-island
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: America East Conference
+  conference_slug: america-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2803.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2803.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2803
+  head_coach: Phil Martelli Jr.
+  best_email: emahar@bryant.edu
+  staff_count: 5
+  coach_status: changed
+- name: NJIT Highlanders
+  slug: njit-highlanders
+  nickname: Highlanders
+  abbreviation: NJIT
+  espn_id: "2885"
+  city: ""
+  state: NJ
+  state_slug: new-jersey
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: America East Conference
+  conference_slug: america-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2885.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2885.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2885
+  head_coach: Grant Billmeier
+  best_email: bkennedy@njit.edu
+  staff_count: 9
+  coach_status: patched
+- name: UAB Blazers
+  slug: uab-blazers
+  nickname: Blazers
+  abbreviation: UAB
+  espn_id: "5"
+  city: ""
+  state: AL
+  state_slug: alabama
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/5.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/5.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/5
+  head_coach: Andy Kennedy
+  best_email: achurch@uab.edu
+  staff_count: 6
+  coach_status: patched
+- name: South Florida Bulls
+  slug: south-florida-bulls
+  nickname: Bulls
+  abbreviation: USF
+  espn_id: "58"
+  city: ""
+  state: FL
+  state_slug: florida
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/58.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/58.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/58
+  head_coach: Bryan Hodgson
+  best_email: therrion@usf.edu
+  staff_count: 8
+  coach_status: changed
+- name: East Carolina Pirates
+  slug: east-carolina-pirates
+  nickname: Pirates
+  abbreviation: ECU
+  espn_id: "151"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/151.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/151.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/151
+  head_coach: Michael Schwartz
+  best_email: robinsonjos@ecu.edu
+  staff_count: 13
+  coach_status: changed
+- name: Tulsa Golden Hurricane
+  slug: tulsa-golden-hurricane
+  nickname: Golden Hurricane
+  abbreviation: TLSA
+  espn_id: "202"
+  city: ""
+  state: OK
+  state_slug: oklahoma
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/202.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/202.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/202
+  head_coach: Eric Konkol
+  best_email: gcw5783@utulsa.edu
+  staff_count: 12
+  coach_status: patched
+- name: Temple Owls
+  slug: temple-owls
+  nickname: Owls
+  abbreviation: TEM
+  espn_id: "218"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/218.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/218.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/218
+  head_coach: Adam Fisher
+  best_email: aaron.mckie@temple.edu
+  staff_count: 7
+  coach_status: changed
+- name: Memphis Tigers
+  slug: memphis-tigers
+  nickname: Tigers
+  abbreviation: MEM
+  espn_id: "235"
+  city: ""
+  state: TN
+  state_slug: tennessee
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/235.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/235.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/235
+  head_coach: Anfernee Hardaway
+  best_email: "@coach_shawn10"
+  staff_count: 6
+  coach_status: changed
+- name: Rice Owls
+  slug: rice-owls
+  nickname: Owls
+  abbreviation: RICE
+  espn_id: "242"
+  city: ""
+  state: TX
+  state_slug: texas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/242.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/242.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/242
+  head_coach: Rob Lanier
+  best_email: scott.pera@rice.edu
+  staff_count: 4
+  coach_status: changed
+- name: North Texas Mean Green
+  slug: north-texas-mean-green
+  nickname: Mean Green
+  abbreviation: UNT
+  espn_id: "249"
+  city: ""
+  state: TX
+  state_slug: texas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/249.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/249.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/249
+  head_coach: Daniyal Robinson
+  best_email: rox1@txstate.edu
+  staff_count: 8
+  coach_status: changed
+- name: Florida Atlantic Owls
+  slug: florida-atlantic-owls
+  nickname: Owls
+  abbreviation: FAU
+  espn_id: "2226"
+  city: ""
+  state: FL
+  state_slug: florida
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2226.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2226
+  head_coach: John Jakus
+  best_email: robert.mccullum@famu.edu
+  staff_count: 5
+  coach_status: changed
+- name: Charlotte 49ers
+  slug: charlotte-49ers
+  nickname: 49ers
+  abbreviation: CLT
+  espn_id: "2429"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2429.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2429
+  head_coach: Aaron Fearne
+  best_email: afearne@uncc.edu
+  staff_count: 6
+  coach_status: changed
+- name: UTSA Roadrunners
+  slug: utsa-roadrunners
+  nickname: Roadrunners
+  abbreviation: UTSA
+  espn_id: "2636"
+  city: ""
+  state: TX
+  state_slug: texas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2636.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2636
+  head_coach: Austin Claunch
+  best_email: michael.peck@utsa.edu
+  staff_count: 7
+  coach_status: patched
+- name: Tulane Green Wave
+  slug: tulane-green-wave
+  nickname: Green Wave
+  abbreviation: TULN
+  espn_id: "2655"
+  city: ""
+  state: LA
+  state_slug: louisiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2655.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2655
+  head_coach: Ron Hunter
+  best_email: hmccallum@tulane.edu
+  staff_count: 7
+  coach_status: verified
+- name: Wichita State Shockers
+  slug: wichita-state-shockers
+  nickname: Shockers
+  abbreviation: WICH
+  espn_id: "2724"
+  city: ""
+  state: KS
+  state_slug: kansas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: American Conference
+  conference_slug: american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2724.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2724.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2724
+  head_coach: Paul Mills
+  best_email: rhillard@goshockers.com
+  staff_count: 10
+  coach_status: changed
+- name: Stetson Hatters
+  slug: stetson-hatters
+  nickname: Hatters
+  abbreviation: STET
+  espn_id: "56"
+  city: ""
+  state: FL
+  state_slug: florida
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: ASUN Conference
+  conference_slug: asun-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/56.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/56.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/56
+  head_coach: Donnie Jones
+  best_email: jmitchell4@stetson.edu
+  staff_count: 4
+  coach_status: verified
+- name: Bellarmine Knights
+  slug: bellarmine-knights
+  nickname: Knights
+  abbreviation: BELL
+  espn_id: "91"
+  city: ""
+  state: KY
+  state_slug: kentucky
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: ASUN Conference
+  conference_slug: asun-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/91.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/91.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/91
+  head_coach: Scott Davenport
+  coach_status: changed
+- name: Lipscomb Bisons
+  slug: lipscomb-bisons
+  nickname: Bisons
+  abbreviation: LIP
+  espn_id: "288"
+  city: ""
+  state: TN
+  state_slug: tennessee
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: ASUN Conference
+  conference_slug: asun-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/288.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/288.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/288
+  head_coach: Lennie Acuff
+  best_email: lennie.acuff@lipscomb.edu
+  staff_count: 7
+  coach_status: changed
+- name: Jacksonville Dolphins
+  slug: jacksonville-dolphins
+  nickname: Dolphins
+  abbreviation: JAX
+  espn_id: "294"
+  city: ""
+  state: FL
+  state_slug: florida
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: ASUN Conference
+  conference_slug: asun-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/294.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/294.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/294
+  head_coach: Jordan Mincy
+  best_email: harper@jsu.edu
+  staff_count: 7
+  coach_status: changed
+- name: Florida Gulf Coast Eagles
+  slug: florida-gulf-coast-eagles
+  nickname: Eagles
+  abbreviation: FGCU
+  espn_id: "526"
+  city: ""
+  state: FL
+  state_slug: florida
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: ASUN Conference
+  conference_slug: asun-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/526.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/526.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/526
+  head_coach: Pat Chambers
+  best_email: mbb@fgcu.edu
+  staff_count: 12
+  coach_status: changed
+- name: Austin Peay Governors
+  slug: austin-peay-governors
+  nickname: Governors
+  abbreviation: APSU
+  espn_id: "2046"
+  city: ""
+  state: TN
+  state_slug: tennessee
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: ASUN Conference
+  conference_slug: asun-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2046.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2046.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2046
+  head_coach: Corey Gipson
+  best_email: johnsonn@apsu.edu
+  staff_count: 6
+  coach_status: changed
+- name: Central Arkansas Bears
+  slug: central-arkansas-bears
+  nickname: Bears
+  abbreviation: CARK
+  espn_id: "2110"
+  city: ""
+  state: AR
+  state_slug: arkansas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: ASUN Conference
+  conference_slug: asun-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2110.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2110
+  head_coach: John Shulman
+  best_email: mensbball@astate.edu
+  staff_count: 8
+  coach_status: changed
+- name: Eastern Kentucky Colonels
+  slug: eastern-kentucky-colonels
+  nickname: Colonels
+  abbreviation: EKU
+  espn_id: "2198"
+  city: ""
+  state: KY
+  state_slug: kentucky
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: ASUN Conference
+  conference_slug: asun-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2198.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2198.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2198
+  head_coach: A.W. Hamilton
+  best_email: jvca222@uky.edu
+  staff_count: 6
+  coach_status: changed
+- name: North Alabama Lions
+  slug: north-alabama-lions
+  nickname: Lions
+  abbreviation: UNA
+  espn_id: "2453"
+  city: ""
+  state: AL
+  state_slug: alabama
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: ASUN Conference
+  conference_slug: asun-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2453.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2453
+  head_coach: Tony Pujol
+  best_email: apettway@ia.ua.edu
+  staff_count: 6
+  coach_status: changed
+- name: North Florida Ospreys
+  slug: north-florida-ospreys
+  nickname: Ospreys
+  abbreviation: UNF
+  espn_id: "2454"
+  city: ""
+  state: FL
+  state_slug: florida
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: ASUN Conference
+  conference_slug: asun-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2454.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2454
+  head_coach: Matthew Driscoll
+  best_email: robert.mccullum@famu.edu
+  staff_count: 5
+  coach_status: changed
+- name: Queens University Royals
+  slug: queens-university-royals
+  nickname: Royals
+  abbreviation: QUC
+  espn_id: "2511"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: ASUN Conference
+  conference_slug: asun-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2511.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2511.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2511
+  head_coach: Grant Leonard
+  best_email: wilsonc5@queens.edu
+  staff_count: 7
+  coach_status: changed
+- name: West Georgia Wolves
+  slug: west-georgia-wolves
+  nickname: Wolves
+  abbreviation: WGA
+  espn_id: "2698"
+  city: ""
+  state: GA
+  state_slug: georgia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: ASUN Conference
+  conference_slug: asun-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2698.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2698
+  head_coach: Dave Moore
+  best_email: rlanier@gsu.edu
+  staff_count: 12
+  coach_status: changed
+- name: George Washington Revolutionaries
+  slug: george-washington-revolutionaries
+  nickname: Revolutionaries
+  abbreviation: GW
+  espn_id: "45"
+  city: ""
+  state: DC
+  state_slug: district-of-columbia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/45.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/45.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/45
+  head_coach: Chris Caputo
+  best_email: coassistant coassistant coachhhnima@gwu.edu
+  staff_count: 10
+  coach_status: changed
+- name: Saint Louis Billikens
+  slug: saint-louis-billikens
+  nickname: Billikens
+  abbreviation: SLU
+  espn_id: "139"
+  city: ""
+  state: MO
+  state_slug: missouri
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/139.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/139.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/139
+  head_coach: Josh Schertz
+  best_email: sarah.wagner.1@slu.edu
+  staff_count: 9
+  coach_status: changed
+- name: St. Bonaventure Bonnies
+  slug: st-bonaventure-bonnies
+  nickname: Bonnies
+  abbreviation: SBU
+  espn_id: "179"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/179.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/179.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/179
+  head_coach: Mark Schmidt
+  best_email: sneal@sbu.edu
+  staff_count: 6
+  coach_status: verified
+- name: Rhode Island Rams
+  slug: rhode-island-rams
+  nickname: Rams
+  abbreviation: URI
+  espn_id: "227"
+  city: ""
+  state: RI
+  state_slug: rhode-island
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/227.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/227.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/227
+  head_coach: Archie Miller
+  best_email: dcuri@uri.edu
+  staff_count: 12
+  coach_status: changed
+- name: Richmond Spiders
+  slug: richmond-spiders
+  nickname: Spiders
+  abbreviation: RICH
+  espn_id: "257"
+  city: ""
+  state: VA
+  state_slug: virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/257.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/257.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/257
+  head_coach: Chris Mooney
+  best_email: sthomas8@richmond.edu
+  staff_count: 9
+  coach_status: verified
+- name: Davidson Wildcats
+  slug: davidson-wildcats
+  nickname: Wildcats
+  abbreviation: DAV
+  espn_id: "2166"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2166.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2166
+  head_coach: Matt McKillop
+  best_email: bomckillop@davidson.edu
+  staff_count: 8
+  coach_status: changed
+- name: Dayton Flyers
+  slug: dayton-flyers
+  nickname: Flyers
+  abbreviation: DAY
+  espn_id: "2168"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2168.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2168.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2168
+  head_coach: Anthony Grant
+  best_email: asolomon1@udayton.edu
+  staff_count: 10
+  coach_status: verified
+- name: Duquesne Dukes
+  slug: duquesne-dukes
+  nickname: Dukes
+  abbreviation: DUQ
+  espn_id: "2184"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2184.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2184
+  head_coach: Dru Joyce III
+  best_email: mensbasketball@duq.edu
+  staff_count: 11
+  coach_status: changed
+- name: Fordham Rams
+  slug: fordham-rams
+  nickname: Rams
+  abbreviation: FOR
+  espn_id: "2230"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2230.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2230.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2230
+  head_coach: Mike Magpayo
+  best_email: kurgo@fordham.edu
+  staff_count: 12
+  coach_status: changed
+- name: George Mason Patriots
+  slug: george-mason-patriots
+  nickname: Patriots
+  abbreviation: GMU
+  espn_id: "2244"
+  city: ""
+  state: VA
+  state_slug: virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2244.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2244
+  head_coach: Tony Skinn
+  best_email: masonmbb@gmu.edu
+  staff_count: 12
+  coach_status: changed
+- name: La Salle Explorers
+  slug: la-salle-explorers
+  nickname: Explorers
+  abbreviation: LAS
+  espn_id: "2325"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2325.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2325
+  head_coach: Darris Nichols
+  best_email: martinm@lasalle.edu
+  staff_count: 10
+  coach_status: changed
+- name: Loyola Chicago Ramblers
+  slug: loyola-chicago-ramblers
+  nickname: Ramblers
+  abbreviation: LUC
+  espn_id: "2350"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2350.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2350.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2350
+  head_coach: Drew Valentine
+  best_email: cvalentine1@luc.edu
+  staff_count: 10
+  coach_status: changed
+- name: Saint Joseph's Hawks
+  slug: saint-josephs-hawks
+  nickname: Hawks
+  abbreviation: JOES
+  espn_id: "2603"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2603.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2603
+  head_coach: Billy Lange
+  best_email: mthomas@sju.edu
+  staff_count: 12
+  coach_status: verified
+- name: VCU Rams
+  slug: vcu-rams
+  nickname: Rams
+  abbreviation: VCU
+  espn_id: "2670"
+  city: ""
+  state: VA
+  state_slug: virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic 10 Conference
+  conference_slug: atlantic-10-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2670.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2670
+  head_coach: Ryan Odom
+  best_email: vcuhoops@vcu.edu
+  staff_count: 7
+  coach_status: patched
+- name: Stanford Cardinal
+  slug: stanford-cardinal
+  nickname: Cardinal
+  abbreviation: STAN
+  espn_id: "24"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/24.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/24.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/24
+  head_coach: Kyle Smith
+  best_email: mens_hoops@stanford.edu
+  staff_count: 11
+  coach_status: changed
+- name: California Golden Bears
+  slug: california-golden-bears
+  nickname: Golden Bears
+  abbreviation: CAL
+  espn_id: "25"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/25.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/25.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/25
+  head_coach: Mark Madsen
+  best_email: coachfrancis@berkeley.edu
+  staff_count: 4
+  coach_status: changed
+- name: Florida State Seminoles
+  slug: florida-state-seminoles
+  nickname: Seminoles
+  abbreviation: FSU
+  espn_id: "52"
+  city: ""
+  state: FL
+  state_slug: florida
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/52.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/52.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/52
+  head_coach: Luke Loucks
+  best_email: mleonard@athletics.ucf.edu
+  staff_count: 8
+  coach_status: changed
+- name: Georgia Tech Yellow Jackets
+  slug: georgia-tech-yellow-jackets
+  nickname: Yellow Jackets
+  abbreviation: GT
+  espn_id: "59"
+  city: ""
+  state: GA
+  state_slug: georgia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/59.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/59.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/59
+  head_coach: Damon Stoudamire
+  best_email: rlanier@gsu.edu
+  staff_count: 12
+  coach_status: changed
+- name: Notre Dame Fighting Irish
+  slug: notre-dame-fighting-irish
+  nickname: Fighting Irish
+  abbreviation: ND
+  espn_id: "87"
+  city: ""
+  state: IN
+  state_slug: indiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/87.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/87.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/87
+  head_coach: Micah Shrewsberry
+  best_email: asolomon@nd.edu
+  staff_count: 9
+  coach_status: changed
+- name: Louisville Cardinals
+  slug: louisville-cardinals
+  nickname: Cardinals
+  abbreviation: LOU
+  espn_id: "97"
+  city: ""
+  state: KY
+  state_slug: kentucky
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/97.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/97.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/97
+  head_coach: Pat Kelsey
+  best_email: stephanied@gocards.com
+  staff_count: 14
+  coach_status: changed
+- name: Boston College Eagles
+  slug: boston-college-eagles
+  nickname: Eagles
+  abbreviation: BC
+  espn_id: "103"
+  city: ""
+  state: MA
+  state_slug: massachusetts
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/103.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/103.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/103
+  head_coach: Earl Grant
+  best_email: jjones11@bu.edu
+  staff_count: 6
+  coach_status: changed
+- name: Duke Blue Devils
+  slug: duke-blue-devils
+  nickname: Blue Devils
+  abbreviation: DUKE
+  espn_id: "150"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/150.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/150.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/150
+  head_coach: Jon Scheyer
+  best_email: lahoward@duke.edu
+  staff_count: 16
+  coach_status: changed
+- name: NC State Wolfpack
+  slug: nc-state-wolfpack
+  nickname: Wolfpack
+  abbreviation: NCSU
+  espn_id: "152"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/152.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/152.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/152
+  head_coach: Will Wade
+  best_email: ddwinter@ncsu.edu
+  staff_count: 17
+  coach_status: patched
+- name: North Carolina Tar Heels
+  slug: north-carolina-tar-heels
+  nickname: Tar Heels
+  abbreviation: UNC
+  espn_id: "153"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/153.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/153.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/153
+  head_coach: Hubert Davis
+  best_email: jcjoyner@ncat.edu
+  staff_count: 7
+  coach_status: changed
+- name: Wake Forest Demon Deacons
+  slug: wake-forest-demon-deacons
+  nickname: Demon Deacons
+  abbreviation: WAKE
+  espn_id: "154"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/154.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/154.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/154
+  head_coach: Steve Forbes
+  best_email: wfmbb@wfu.edu
+  staff_count: 15
+  coach_status: changed
+- name: Syracuse Orange
+  slug: syracuse-orange
+  nickname: Orange
+  abbreviation: SYR
+  espn_id: "183"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/183.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/183.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/183
+  head_coach: Adrian Autry
+  best_email: assistant coassistant coachhautry@syr.edu
+  staff_count: 7
+  coach_status: changed
+- name: Pittsburgh Panthers
+  slug: pittsburgh-panthers
+  nickname: Panthers
+  abbreviation: PITT
+  espn_id: "221"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/221.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/221.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/221
+  head_coach: Jeff Capel
+  best_email: jmcapel@athletics.pitt.edu
+  staff_count: 6
+  coach_status: verified
+- name: Clemson Tigers
+  slug: clemson-tigers
+  nickname: Tigers
+  abbreviation: CLEM
+  espn_id: "228"
+  city: ""
+  state: SC
+  state_slug: south-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/228.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/228.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/228
+  head_coach: Brad Brownell
+  best_email: coassistant coassistant coachhhb@clemson.edu
+  staff_count: 8
+  coach_status: verified
+- name: Virginia Cavaliers
+  slug: virginia-cavaliers
+  nickname: Cavaliers
+  abbreviation: UVA
+  espn_id: "258"
+  city: ""
+  state: VA
+  state_slug: virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/258.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/258.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/258
+  head_coach: Ryan Odom
+  best_email: bws3k@virginia.edu
+  staff_count: 7
+  coach_status: changed
+- name: Virginia Tech Hokies
+  slug: virginia-tech-hokies
+  nickname: Hokies
+  abbreviation: VT
+  espn_id: "259"
+  city: ""
+  state: VA
+  state_slug: virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/259.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/259.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/259
+  head_coach: Mike Young
+  best_email: bws3k@virginia.edu
+  staff_count: 7
+  coach_status: changed
+- name: Miami Hurricanes
+  slug: miami-hurricanes
+  nickname: Hurricanes
+  abbreviation: MIA
+  espn_id: "2390"
+  city: ""
+  state: FL
+  state_slug: florida
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2390.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2390
+  head_coach: Jai Lucas
+  best_email: mensbasketball@miami.edu
+  staff_count: 2
+  coach_status: changed
+- name: SMU Mustangs
+  slug: smu-mustangs
+  nickname: Mustangs
+  abbreviation: SMU
+  espn_id: "2567"
+  city: ""
+  state: TX
+  state_slug: texas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Atlantic Coast Conference
+  conference_slug: atlantic-coast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2567.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2567
+  head_coach: Andy Enfield
+  best_email: kjturner@smu.edu
+  staff_count: 11
+  coach_status: patched
+- name: Arizona State Sun Devils
+  slug: arizona-state-sun-devils
+  nickname: Sun Devils
+  abbreviation: ASU
+  espn_id: "9"
+  city: ""
+  state: AZ
+  state_slug: arizona
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/9.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/9.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/9
+  best_email: eric.brown1@asu.edu
+  staff_count: 7
+  coach_status: espn_error
+- name: Arizona Wildcats
+  slug: arizona-wildcats
+  nickname: Wildcats
+  abbreviation: ARIZ
+  espn_id: "12"
+  city: ""
+  state: AZ
+  state_slug: arizona
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/12.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/12.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/12
+  head_coach: Tommy Lloyd
+  best_email: eric.brown1@asu.edu
+  staff_count: 7
+  coach_status: changed
+- name: Colorado Buffaloes
+  slug: colorado-buffaloes
+  nickname: Buffaloes
+  abbreviation: COLO
+  espn_id: "38"
+  city: ""
+  state: CO
+  state_slug: colorado
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/38.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/38.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/38
+  head_coach: Tad Boyle
+  best_email: buffsmbb@colorado.edu
+  staff_count: 6
+  coach_status: verified
+- name: Iowa State Cyclones
+  slug: iowa-state-cyclones
+  nickname: Cyclones
+  abbreviation: ISU
+  espn_id: "66"
+  city: ""
+  state: IA
+  state_slug: iowa
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/66.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/66.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/66
+  head_coach: T.J. Otzelberger
+  best_email: sprohm@iastate.edu
+  staff_count: 14
+  coach_status: changed
+- name: Oklahoma State Cowboys
+  slug: oklahoma-state-cowboys
+  nickname: Cowboys
+  abbreviation: OKST
+  espn_id: "197"
+  city: ""
+  state: OK
+  state_slug: oklahoma
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/197.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/197.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/197
+  head_coach: Steve Lutz
+  best_email: mike.boynton@okstate.edu
+  staff_count: 11
+  coach_status: changed
+- name: Baylor Bears
+  slug: baylor-bears
+  nickname: Bears
+  abbreviation: BAY
+  espn_id: "239"
+  city: ""
+  state: TX
+  state_slug: texas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/239.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/239.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/239
+  head_coach: Scott Drew
+  best_email: scott_drew@baylor.edu
+  staff_count: 10
+  coach_status: verified
+- name: Houston Cougars
+  slug: houston-cougars
+  nickname: Cougars
+  abbreviation: HOU
+  espn_id: "248"
+  city: ""
+  state: TX
+  state_slug: texas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/248.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/248.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/248
+  head_coach: Kelvin Sampson
+  best_email: kmsampso@central.uh.edu
+  staff_count: 13
+  coach_status: verified
+- name: BYU Cougars
+  slug: byu-cougars
+  nickname: Cougars
+  abbreviation: BYU
+  espn_id: "252"
+  city: ""
+  state: UT
+  state_slug: utah
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/252.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/252.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/252
+  head_coach: Kevin Young
+  coach_status: patched
+- name: Utah Utes
+  slug: utah-utes
+  nickname: Utes
+  abbreviation: UTAH
+  espn_id: "254"
+  city: ""
+  state: UT
+  state_slug: utah
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/254.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/254.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/254
+  head_coach: Craig Smith
+  best_email: johnwardenburg@suu.edu
+  staff_count: 5
+  coach_status: changed
+- name: West Virginia Mountaineers
+  slug: west-virginia-mountaineers
+  nickname: Mountaineers
+  abbreviation: WVU
+  espn_id: "277"
+  city: ""
+  state: WV
+  state_slug: west-virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/277.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/277.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/277
+  head_coach: Ross Hodge
+  best_email: bws3k@virginia.edu
+  staff_count: 7
+  coach_status: changed
+- name: UCF Knights
+  slug: ucf-knights
+  nickname: Knights
+  abbreviation: UCF
+  espn_id: "2116"
+  city: ""
+  state: FL
+  state_slug: florida
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2116.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2116
+  head_coach: Johnny Dawkins
+  best_email: mleonard@athletics.ucf.edu
+  staff_count: 8
+  coach_status: patched
+- name: Cincinnati Bearcats
+  slug: cincinnati-bearcats
+  nickname: Bearcats
+  abbreviation: CIN
+  espn_id: "2132"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2132.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2132
+  head_coach: Wes Miller
+  best_email: miller1m@ucmail.uc.edu
+  staff_count: 6
+  coach_status: changed
+- name: Kansas Jayhawks
+  slug: kansas-jayhawks
+  nickname: Jayhawks
+  abbreviation: KU
+  espn_id: "2305"
+  city: ""
+  state: KS
+  state_slug: kansas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2305.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2305
+  head_coach: Bill Self
+  best_email: bweber@kstatesports.com
+  staff_count: 13
+  coach_status: changed
+- name: Kansas State Wildcats
+  slug: kansas-state-wildcats
+  nickname: Wildcats
+  abbreviation: KSU
+  espn_id: "2306"
+  city: ""
+  state: KS
+  state_slug: kansas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2306.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2306
+  head_coach: Jerome Tang
+  best_email: mbbhc@k-state.edu
+  staff_count: 13
+  coach_status: changed
+- name: TCU Horned Frogs
+  slug: tcu-horned-frogs
+  nickname: Horned Frogs
+  abbreviation: TCU
+  espn_id: "2628"
+  city: ""
+  state: TX
+  state_slug: texas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2628.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2628
+  head_coach: Jamie Dixon
+  best_email: t.montigel@tcu.edu
+  staff_count: 2
+  coach_status: patched
+- name: Texas Tech Red Raiders
+  slug: texas-tech-red-raiders
+  nickname: Red Raiders
+  abbreviation: TTU
+  espn_id: "2641"
+  city: ""
+  state: TX
+  state_slug: texas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big 12 Conference
+  conference_slug: big-12-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2641.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2641
+  head_coach: Grant McCasland
+  best_email: rox1@txstate.edu
+  staff_count: 8
+  coach_status: changed
+- name: UConn Huskies
+  slug: uconn-huskies
+  nickname: Huskies
+  abbreviation: CONN
+  espn_id: "41"
+  city: ""
+  state: CT
+  state_slug: connecticut
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big East Conference
+  conference_slug: big-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/41.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/41.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/41
+  head_coach: Dan Hurley
+  best_email: kenya.hunter@uconn.edu
+  staff_count: 11
+  coach_status: patched
+- name: Georgetown Hoyas
+  slug: georgetown-hoyas
+  nickname: Hoyas
+  abbreviation: GTWN
+  espn_id: "46"
+  city: ""
+  state: DC
+  state_slug: district-of-columbia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big East Conference
+  conference_slug: big-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/46.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/46.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/46
+  head_coach: Ed Cooley
+  best_email: menshoops@georgetown.edu
+  staff_count: 15
+  coach_status: changed
+- name: Creighton Bluejays
+  slug: creighton-bluejays
+  nickname: Bluejays
+  abbreviation: CREI
+  espn_id: "156"
+  city: ""
+  state: NE
+  state_slug: nebraska
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big East Conference
+  conference_slug: big-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/156.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/156.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/156
+  head_coach: Greg McDermott
+  best_email: gjm52@creighton.edu
+  staff_count: 12
+  coach_status: verified
+- name: Villanova Wildcats
+  slug: villanova-wildcats
+  nickname: Wildcats
+  abbreviation: VILL
+  espn_id: "222"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big East Conference
+  conference_slug: big-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/222.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/222.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/222
+  head_coach: Kevin Willard
+  best_email: jerold.wright@villanova.edu
+  staff_count: 11
+  coach_status: changed
+- name: Marquette Golden Eagles
+  slug: marquette-golden-eagles
+  nickname: Golden Eagles
+  abbreviation: MARQ
+  espn_id: "269"
+  city: ""
+  state: WI
+  state_slug: wisconsin
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big East Conference
+  conference_slug: big-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/269.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/269.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/269
+  head_coach: Shaka Smart
+  best_email: dwayne.killings@marquette.edu
+  staff_count: 16
+  coach_status: changed
+- name: DePaul Blue Demons
+  slug: depaul-blue-demons
+  nickname: Blue Demons
+  abbreviation: DEP
+  espn_id: "305"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big East Conference
+  conference_slug: big-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/305.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/305.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/305
+  head_coach: Chris Holtmann
+  best_email: dleitao@depaul.edu
+  staff_count: 15
+  coach_status: changed
+- name: Butler Bulldogs
+  slug: butler-bulldogs
+  nickname: Bulldogs
+  abbreviation: BUT
+  espn_id: "2086"
+  city: ""
+  state: IN
+  state_slug: indiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big East Conference
+  conference_slug: big-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2086.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2086
+  head_coach: Thad Matta
+  best_email: butlermbb@butler.edu
+  staff_count: 12
+  coach_status: changed
+- name: Providence Friars
+  slug: providence-friars
+  nickname: Friars
+  abbreviation: PROV
+  espn_id: "2507"
+  city: ""
+  state: RI
+  state_slug: rhode-island
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big East Conference
+  conference_slug: big-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2507.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2507
+  head_coach: Kim English
+  best_email: bblaney1@providence.edu
+  staff_count: 5
+  coach_status: changed
+- name: Seton Hall Pirates
+  slug: seton-hall-pirates
+  nickname: Pirates
+  abbreviation: HALL
+  espn_id: "2550"
+  city: ""
+  state: NJ
+  state_slug: new-jersey
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big East Conference
+  conference_slug: big-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2550.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2550
+  head_coach: Shaheen Holloway
+  best_email: anthony.skinn@shu.edu
+  staff_count: 5
+  coach_status: changed
+- name: St. John's Red Storm
+  slug: st-johns-red-storm
+  nickname: Red Storm
+  abbreviation: SJU
+  espn_id: "2599"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big East Conference
+  conference_slug: big-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2599.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2599
+  head_coach: Rick Pitino
+  best_email: clevelat@stjohns.edu
+  staff_count: 8
+  coach_status: changed
+- name: Xavier Musketeers
+  slug: xavier-musketeers
+  nickname: Musketeers
+  abbreviation: XAV
+  espn_id: "2752"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big East Conference
+  conference_slug: big-east-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2752.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2752
+  head_coach: Richard Pitino
+  best_email: steelet@xavier.edu
+  staff_count: 13
+  coach_status: changed
+- name: Sacramento State Hornets
+  slug: sacramento-state-hornets
+  nickname: Hornets
+  abbreviation: SAC
+  espn_id: "16"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Sky Conference
+  conference_slug: big-sky-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/16.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/16.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/16
+  head_coach: Mike Bibby
+  best_email: bkatz@csus.edu
+  staff_count: 6
+  coach_status: changed
+- name: Idaho Vandals
+  slug: idaho-vandals
+  nickname: Vandals
+  abbreviation: IDHO
+  espn_id: "70"
+  city: ""
+  state: ID
+  state_slug: idaho
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Sky Conference
+  conference_slug: big-sky-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/70.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/70.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/70
+  head_coach: Alex Pribble
+  best_email: loonryan@isu.edu
+  staff_count: 4
+  coach_status: changed
+- name: Montana State Bobcats
+  slug: montana-state-bobcats
+  nickname: Bobcats
+  abbreviation: MTST
+  espn_id: "147"
+  city: ""
+  state: MT
+  state_slug: montana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Sky Conference
+  conference_slug: big-sky-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/147.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/147.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/147
+  head_coach: Matt Logie
+  best_email: shawn.dirden@msubobcats.com
+  staff_count: 4
+  coach_status: changed
+- name: Montana Grizzlies
+  slug: montana-grizzlies
+  nickname: Grizzlies
+  abbreviation: MONT
+  espn_id: "149"
+  city: ""
+  state: MT
+  state_slug: montana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Sky Conference
+  conference_slug: big-sky-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/149.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/149.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/149
+  head_coach: Travis DeCuire
+  best_email: shawn.dirden@msubobcats.com
+  staff_count: 4
+  coach_status: changed
+- name: Idaho State Bengals
+  slug: idaho-state-bengals
+  nickname: Bengals
+  abbreviation: IDST
+  espn_id: "304"
+  city: ""
+  state: ID
+  state_slug: idaho
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Sky Conference
+  conference_slug: big-sky-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/304.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/304.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/304
+  head_coach: Ryan Looney
+  best_email: loonryan@isu.edu
+  staff_count: 4
+  coach_status: verified
+- name: Eastern Washington Eagles
+  slug: eastern-washington-eagles
+  nickname: Eagles
+  abbreviation: EWU
+  espn_id: "331"
+  city: ""
+  state: WA
+  state_slug: washington
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Sky Conference
+  conference_slug: big-sky-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/331.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/331.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/331
+  head_coach: Dan Monson
+  best_email: daverice@uw.edu
+  staff_count: 5
+  coach_status: changed
+- name: Northern Colorado Bears
+  slug: northern-colorado-bears
+  nickname: Bears
+  abbreviation: UNCO
+  espn_id: "2458"
+  city: ""
+  state: CO
+  state_slug: colorado
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Sky Conference
+  conference_slug: big-sky-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2458.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2458
+  head_coach: Steve Smiley
+  best_email: stephen.smiley@unco.edu
+  staff_count: 8
+  coach_status: changed
+- name: Northern Arizona Lumberjacks
+  slug: northern-arizona-lumberjacks
+  nickname: Lumberjacks
+  abbreviation: NAU
+  espn_id: "2464"
+  city: ""
+  state: AZ
+  state_slug: arizona
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Sky Conference
+  conference_slug: big-sky-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2464.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2464
+  head_coach: Shane Burcar
+  best_email: eric.brown1@asu.edu
+  staff_count: 7
+  coach_status: changed
+- name: Portland State Vikings
+  slug: portland-state-vikings
+  nickname: Vikings
+  abbreviation: PRST
+  espn_id: "2502"
+  city: ""
+  state: OR
+  state_slug: oregon
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Sky Conference
+  conference_slug: big-sky-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2502.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2502
+  head_coach: Jase Coburn
+  best_email: legans@up.edu
+  staff_count: 10
+  coach_status: changed
+- name: Weber State Wildcats
+  slug: weber-state-wildcats
+  nickname: Wildcats
+  abbreviation: WEB
+  espn_id: "2692"
+  city: ""
+  state: UT
+  state_slug: utah
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Sky Conference
+  conference_slug: big-sky-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2692.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2692
+  head_coach: Eric Duft
+  best_email: ericduft@weber.edu
+  staff_count: 8
+  coach_status: changed
+- name: Charleston Southern Buccaneers
+  slug: charleston-southern-buccaneers
+  nickname: Buccaneers
+  abbreviation: CHSO
+  espn_id: "2127"
+  city: ""
+  state: SC
+  state_slug: south-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big South Conference
+  conference_slug: big-south-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2127.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2127
+  head_coach: Saah Nimley
+  best_email: sean_woods@subr.edu
+  staff_count: 5
+  coach_status: changed
+- name: Gardner-Webb Runnin' Bulldogs
+  slug: gardner-webb-runnin-bulldogs
+  nickname: Runnin' Bulldogs
+  abbreviation: GWEB
+  espn_id: "2241"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big South Conference
+  conference_slug: big-south-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2241.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2241
+  head_coach: Jeremy Luther
+  best_email: jluther@gardner-webb.edu
+  staff_count: 11
+  coach_status: changed
+- name: High Point Panthers
+  slug: high-point-panthers
+  nickname: Panthers
+  abbreviation: HPU
+  espn_id: "2272"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big South Conference
+  conference_slug: big-south-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2272.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2272
+  head_coach: Alan Huss
+  best_email: tsmith4@highpoint.edu
+  staff_count: 9
+  coach_status: changed
+- name: Longwood Lancers
+  slug: longwood-lancers
+  nickname: Lancers
+  abbreviation: LONG
+  espn_id: "2344"
+  city: ""
+  state: VA
+  state_slug: virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big South Conference
+  conference_slug: big-south-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2344.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2344.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2344
+  head_coach: Griff Aldrich
+  best_email: aldrichsg@longwood.edu
+  staff_count: 12
+  coach_status: verified
+- name: UNC Asheville Bulldogs
+  slug: unc-asheville-bulldogs
+  nickname: Bulldogs
+  abbreviation: UNCA
+  espn_id: "2427"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big South Conference
+  conference_slug: big-south-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2427.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2427.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2427
+  head_coach: Mike Morrell
+  best_email: nmcdevit@unca.edu
+  staff_count: 8
+  coach_status: changed
+- name: Presbyterian Blue Hose
+  slug: presbyterian-blue-hose
+  nickname: Blue Hose
+  abbreviation: PRES
+  espn_id: "2506"
+  city: ""
+  state: SC
+  state_slug: south-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big South Conference
+  conference_slug: big-south-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2506.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2506.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2506
+  head_coach: Quinton Ferrell
+  best_email: qmferrell@presby.edu
+  staff_count: 5
+  coach_status: verified
+- name: Radford Highlanders
+  slug: radford-highlanders
+  nickname: Highlanders
+  abbreviation: RAD
+  espn_id: "2515"
+  city: ""
+  state: VA
+  state_slug: virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big South Conference
+  conference_slug: big-south-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2515.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2515.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2515
+  head_coach: Darris Nichols
+  best_email: dboyden@radford.edu
+  staff_count: 4
+  coach_status: changed
+- name: Winthrop Eagles
+  slug: winthrop-eagles
+  nickname: Eagles
+  abbreviation: WIN
+  espn_id: "2737"
+  city: ""
+  state: SC
+  state_slug: south-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big South Conference
+  conference_slug: big-south-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2737.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2737.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2737
+  head_coach: Mark Prosser
+  best_email: prosserm@winthrop.edu
+  staff_count: 11
+  coach_status: changed
+- name: South Carolina Upstate Spartans
+  slug: south-carolina-upstate-spartans
+  nickname: Spartans
+  abbreviation: UPST
+  espn_id: "2908"
+  city: ""
+  state: SC
+  state_slug: south-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big South Conference
+  conference_slug: big-south-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2908.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2908
+  head_coach: Marty Richter
+  best_email: mgarvin3@scsu.edu
+  staff_count: 6
+  coach_status: changed
+- name: UCLA Bruins
+  slug: ucla-bruins
+  nickname: Bruins
+  abbreviation: UCLA
+  espn_id: "26"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/26.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/26.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/26
+  head_coach: Mick Cronin
+  best_email: mcronin@athletics.ucla.edu
+  staff_count: 4
+  coach_status: verified
+- name: USC Trojans
+  slug: usc-trojans
+  nickname: Trojans
+  abbreviation: USC
+  espn_id: "30"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/30.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/30.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/30
+  head_coach: Eric Musselman
+  best_email: uschoops@usc.edu
+  staff_count: 8
+  coach_status: patched
+- name: Northwestern Wildcats
+  slug: northwestern-wildcats
+  nickname: Wildcats
+  abbreviation: NU
+  espn_id: "77"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/77.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/77.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/77
+  head_coach: Chris Collins
+  best_email: bjames@northwestern.edu
+  staff_count: 11
+  coach_status: verified
+- name: Indiana Hoosiers
+  slug: indiana-hoosiers
+  nickname: Hoosiers
+  abbreviation: IU
+  espn_id: "84"
+  city: ""
+  state: IN
+  state_slug: indiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/84.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/84.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/84
+  head_coach: Darian DeVries
+  best_email: mbasket@indiana.edu
+  staff_count: 5
+  coach_status: changed
+- name: Maryland Terrapins
+  slug: maryland-terrapins
+  nickname: Terrapins
+  abbreviation: MD
+  espn_id: "120"
+  city: ""
+  state: MD
+  state_slug: maryland
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/120.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/120.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/120
+  head_coach: Buzz Williams
+  best_email: jkfinger@loyola.edu
+  staff_count: 7
+  coach_status: changed
+- name: Michigan State Spartans
+  slug: michigan-state-spartans
+  nickname: Spartans
+  abbreviation: MSU
+  espn_id: "127"
+  city: ""
+  state: MI
+  state_slug: michigan
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/127.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/127.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/127
+  head_coach: Tom Izzo
+  best_email: steve.hawkins@wmich.edu
+  staff_count: 10
+  coach_status: changed
+- name: Michigan Wolverines
+  slug: michigan-wolverines
+  nickname: Wolverines
+  abbreviation: MICH
+  espn_id: "130"
+  city: ""
+  state: MI
+  state_slug: michigan
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/130.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/130.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/130
+  head_coach: Dusty May
+  best_email: steve.hawkins@wmich.edu
+  staff_count: 10
+  coach_status: changed
+- name: Minnesota Golden Gophers
+  slug: minnesota-golden-gophers
+  nickname: Golden Gophers
+  abbreviation: MINN
+  espn_id: "135"
+  city: ""
+  state: MN
+  state_slug: minnesota
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/135.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/135.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/135
+  head_coach: Ben Johnson
+  best_email: mbball@umn.edu
+  staff_count: 5
+  coach_status: changed
+- name: Nebraska Cornhuskers
+  slug: nebraska-cornhuskers
+  nickname: Cornhuskers
+  abbreviation: NEB
+  espn_id: "158"
+  city: ""
+  state: NE
+  state_slug: nebraska
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/158.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/158.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/158
+  head_coach: Fred Hoiberg
+  best_email: sburbach@huskers.com
+  staff_count: 6
+  coach_status: verified
+- name: Rutgers Scarlet Knights
+  slug: rutgers-scarlet-knights
+  nickname: Scarlet Knights
+  abbreviation: RUTG
+  espn_id: "164"
+  city: ""
+  state: NJ
+  state_slug: new-jersey
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/164.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/164.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/164
+  head_coach: Steve Pikiell
+  best_email: bknight@scarletknights.com
+  staff_count: 6
+  coach_status: verified
+- name: Ohio State Buckeyes
+  slug: ohio-state-buckeyes
+  nickname: Buckeyes
+  abbreviation: OSU
+  espn_id: "194"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/194.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/194.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/194
+  head_coach: Jake Diebler
+  best_email: diebler.11@osu.edu
+  staff_count: 6
+  coach_status: changed
+- name: Penn State Nittany Lions
+  slug: penn-state-nittany-lions
+  nickname: Nittany Lions
+  abbreviation: PSU
+  espn_id: "213"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/213.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/213.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/213
+  head_coach: Mike Rhoades
+  best_email: mbasketball@psu.edu
+  staff_count: 7
+  coach_status: changed
+- name: Washington Huskies
+  slug: washington-huskies
+  nickname: Huskies
+  abbreviation: WASH
+  espn_id: "264"
+  city: ""
+  state: WA
+  state_slug: washington
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/264.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/264.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/264
+  head_coach: Danny Sprinkle
+  best_email: coassistant coassistant coachhhnima@gwu.edu
+  staff_count: 10
+  coach_status: changed
+- name: Wisconsin Badgers
+  slug: wisconsin-badgers
+  nickname: Badgers
+  abbreviation: WIS
+  espn_id: "275"
+  city: ""
+  state: WI
+  state_slug: wisconsin
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/275.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/275.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/275
+  head_coach: Greg Gard
+  best_email: baldwinp@uwm.edu
+  staff_count: 5
+  coach_status: changed
+- name: Illinois Fighting Illini
+  slug: illinois-fighting-illini
+  nickname: Fighting Illini
+  abbreviation: ILL
+  espn_id: "356"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/356.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/356.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/356
+  head_coach: Brad Underwood
+  best_email: coachunderwood@illinois.edu
+  staff_count: 6
+  coach_status: verified
+- name: Iowa Hawkeyes
+  slug: iowa-hawkeyes
+  nickname: Hawkeyes
+  abbreviation: IOWA
+  espn_id: "2294"
+  city: ""
+  state: IA
+  state_slug: iowa
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2294.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2294
+  head_coach: Ben McCollum
+  best_email: sprohm@iastate.edu
+  staff_count: 14
+  coach_status: changed
+- name: Oregon Ducks
+  slug: oregon-ducks
+  nickname: Ducks
+  abbreviation: ORE
+  espn_id: "2483"
+  city: ""
+  state: OR
+  state_slug: oregon
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2483.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2483
+  head_coach: Dana Altman
+  best_email: daobb@uoregon.edu
+  staff_count: 5
+  coach_status: verified
+- name: Purdue Boilermakers
+  slug: purdue-boilermakers
+  nickname: Boilermakers
+  abbreviation: PUR
+  espn_id: "2509"
+  city: ""
+  state: IN
+  state_slug: indiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big Ten Conference
+  conference_slug: big-ten-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2509.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2509
+  head_coach: Matt Painter
+  best_email: paul.corsaro@pfw.edu
+  staff_count: 4
+  coach_status: changed
+- name: Cal Poly Mustangs
+  slug: cal-poly-mustangs
+  nickname: Mustangs
+  abbreviation: CP
+  espn_id: "13"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big West Conference
+  conference_slug: big-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/13.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/13.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/13
+  head_coach: Mike DeGeorge
+  best_email: olowery@calpoly.edu
+  staff_count: 3
+  coach_status: patched
+- name: UC Riverside Highlanders
+  slug: uc-riverside-highlanders
+  nickname: Highlanders
+  abbreviation: UCR
+  espn_id: "27"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big West Conference
+  conference_slug: big-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/27.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/27.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/27
+  head_coach: Mike Magpayo
+  best_email: mike.magpayo@ucr.edu
+  staff_count: 6
+  coach_status: changed
+- name: UC San Diego Tritons
+  slug: uc-san-diego-tritons
+  nickname: Tritons
+  abbreviation: UCSD
+  espn_id: "28"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big West Conference
+  conference_slug: big-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/28.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/28.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/28
+  head_coach: Eric Olen
+  best_email: usdbasketball@sandiego.edu
+  staff_count: 6
+  coach_status: changed
+- name: Hawai'i Rainbow Warriors
+  slug: hawaii-rainbow-warriors
+  nickname: Rainbow Warriors
+  abbreviation: HAW
+  espn_id: "62"
+  city: ""
+  state: HI
+  state_slug: hawaii
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big West Conference
+  conference_slug: big-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/62.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/62.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/62
+  head_coach: Eran Ganot
+  best_email: uhmbkb@hawaii.edu
+  staff_count: 5
+  coach_status: patched
+- name: Long Beach State Beach
+  slug: long-beach-state-beach
+  nickname: Beach
+  abbreviation: LBSU
+  espn_id: "299"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big West Conference
+  conference_slug: big-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/299.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/299.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/299
+  head_coach: Chris Acker
+  best_email: dan.monson@csulb.edu
+  staff_count: 5
+  coach_status: changed
+- name: UC Irvine Anteaters
+  slug: uc-irvine-anteaters
+  nickname: Anteaters
+  abbreviation: UCI
+  espn_id: "300"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big West Conference
+  conference_slug: big-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/300.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/300.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/300
+  head_coach: Russell Turner
+  best_email: ucimbb@uci.edu
+  staff_count: 5
+  coach_status: verified
+- name: UC Davis Aggies
+  slug: uc-davis-aggies
+  nickname: Aggies
+  abbreviation: UCD
+  espn_id: "302"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big West Conference
+  conference_slug: big-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/302.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/302.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/302
+  head_coach: Jim Les
+  best_email: aggiebasketball@ucdavis.edu
+  staff_count: 5
+  coach_status: verified
+- name: Cal State Fullerton Titans
+  slug: cal-state-fullerton-titans
+  nickname: Titans
+  abbreviation: CSUF
+  espn_id: "2239"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big West Conference
+  conference_slug: big-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2239.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2239.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2239
+  head_coach: Dedrique Taylor
+  best_email: mensbasketball@fullerton.edu
+  staff_count: 6
+  coach_status: verified
+- name: Cal State Northridge Matadors
+  slug: cal-state-northridge-matadors
+  nickname: Matadors
+  abbreviation: CSUN
+  espn_id: "2463"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big West Conference
+  conference_slug: big-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2463.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2463.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2463
+  head_coach: Andy Newman
+  best_email: mark.gottfried@csun.edu
+  staff_count: 5
+  coach_status: changed
+- name: UC Santa Barbara Gauchos
+  slug: uc-santa-barbara-gauchos
+  nickname: Gauchos
+  abbreviation: UCSB
+  espn_id: "2540"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big West Conference
+  conference_slug: big-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2540.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2540.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2540
+  head_coach: Joe Pasternack
+  best_email: joe.pasternack@athletics.ucsb.edu
+  staff_count: 5
+  coach_status: verified
+- name: Cal State Bakersfield Roadrunners
+  slug: cal-state-bakersfield-roadrunners
+  nickname: Roadrunners
+  abbreviation: CSUB
+  espn_id: "2934"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Big West Conference
+  conference_slug: big-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2934.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2934.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2934
+  head_coach: Rod Barnes
+  best_email: rbarnes4@csub.edu
+  staff_count: 5
+  coach_status: verified
+- name: Northeastern Huskies
+  slug: northeastern-huskies
+  nickname: Huskies
+  abbreviation: NE
+  espn_id: "111"
+  city: ""
+  state: MA
+  state_slug: massachusetts
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/111.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/111.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/111
+  head_coach: Bill Coen
+  best_email: w.coen@northeastern.edu
+  staff_count: 9
+  coach_status: verified
+- name: Towson Tigers
+  slug: towson-tigers
+  nickname: Tigers
+  abbreviation: TOW
+  espn_id: "119"
+  city: ""
+  state: MD
+  state_slug: maryland
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/119.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/119.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/119
+  head_coach: Pat Skerry
+  best_email: pskerry@towson.edu
+  staff_count: 8
+  coach_status: verified
+- name: Charleston Cougars
+  slug: charleston-cougars
+  nickname: Cougars
+  abbreviation: COFC
+  espn_id: "232"
+  city: ""
+  state: SC
+  state_slug: south-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/232.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/232.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/232
+  head_coach: Chris Mack
+  best_email: bradebaugh@csuniv.edu
+  staff_count: 7
+  coach_status: changed
+- name: UNC Wilmington Seahawks
+  slug: unc-wilmington-seahawks
+  nickname: Seahawks
+  abbreviation: UNCW
+  espn_id: "350"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/350.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/350.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/350
+  head_coach: Takayo Siddle
+  best_email: siddlet@uncw.edu
+  staff_count: 6
+  coach_status: changed
+- name: Campbell Fighting Camels
+  slug: campbell-fighting-camels
+  nickname: Fighting Camels
+  abbreviation: CAM
+  espn_id: "2097"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2097.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2097.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2097
+  head_coach: John Andrzejek
+  best_email: kwhite@campbell.edu
+  staff_count: 6
+  coach_status: changed
+- name: Drexel Dragons
+  slug: drexel-dragons
+  nickname: Dragons
+  abbreviation: DREX
+  espn_id: "2182"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2182.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2182.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2182
+  head_coach: Zach Spiker
+  best_email: zjs36@drexel.edu
+  staff_count: 8
+  coach_status: verified
+- name: Elon Phoenix
+  slug: elon-phoenix
+  nickname: Phoenix
+  abbreviation: ELON
+  espn_id: "2210"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2210.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2210.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2210
+  head_coach: Billy Taylor
+  best_email: mschrage@elon.edu
+  staff_count: 5
+  coach_status: changed
+- name: Hampton Pirates
+  slug: hampton-pirates
+  nickname: Pirates
+  abbreviation: HAMP
+  espn_id: "2261"
+  city: ""
+  state: VA
+  state_slug: virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2261.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2261.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2261
+  head_coach: Ivan Thomas
+  best_email: edward.joyner@hamptonu.edu
+  staff_count: 7
+  coach_status: changed
+- name: Hofstra Pride
+  slug: hofstra-pride
+  nickname: Pride
+  abbreviation: HOF
+  espn_id: "2275"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2275.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2275.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2275
+  head_coach: Speedy Claxton
+  best_email: craig.e.claxton@hofstra.edu
+  staff_count: 9
+  coach_status: changed
+- name: Monmouth Hawks
+  slug: monmouth-hawks
+  nickname: Hawks
+  abbreviation: MONM
+  espn_id: "2405"
+  city: ""
+  state: NJ
+  state_slug: new-jersey
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2405.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2405.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2405
+  head_coach: King Rice
+  best_email: rcallaha@monmouth.edu
+  staff_count: 5
+  coach_status: verified
+- name: North Carolina A&T Aggies
+  slug: north-carolina-at-aggies
+  nickname: Aggies
+  abbreviation: NCAT
+  espn_id: "2448"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2448.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2448.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2448
+  head_coach: Monte Ross
+  best_email: jcjoyner@ncat.edu
+  staff_count: 7
+  coach_status: changed
+- name: Stony Brook Seawolves
+  slug: stony-brook-seawolves
+  nickname: Seawolves
+  abbreviation: STBK
+  espn_id: "2619"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2619.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2619
+  head_coach: Geno Ford
+  best_email: jordan.mckenzie@stonybrook.edu
+  staff_count: 5
+  coach_status: verified
+- name: William & Mary Tribe
+  slug: william-mary-tribe
+  nickname: Tribe
+  abbreviation: W&M
+  espn_id: "2729"
+  city: ""
+  state: VA
+  state_slug: virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Coastal Athletic Association
+  conference_slug: coastal-athletic-association
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2729.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2729.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2729
+  head_coach: Brian Earl
+  best_email: dfischer@wm.edu
+  staff_count: 5
+  coach_status: changed
+- name: Delaware Blue Hens
+  slug: delaware-blue-hens
+  nickname: Blue Hens
+  abbreviation: DEL
+  espn_id: "48"
+  city: ""
+  state: DE
+  state_slug: delaware
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Conference USA
+  conference_slug: conference-usa
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/48.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/48.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/48
+  head_coach: Martin Ingelsby
+  best_email: mingelsb@udel.edu
+  staff_count: 7
+  coach_status: verified
+- name: Jacksonville State Gamecocks
+  slug: jacksonville-state-gamecocks
+  nickname: Gamecocks
+  abbreviation: JXST
+  espn_id: "55"
+  city: ""
+  state: AL
+  state_slug: alabama
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Conference USA
+  conference_slug: conference-usa
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/55.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/55.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/55
+  head_coach: Ray Harper
+  best_email: harper@jsu.edu
+  staff_count: 7
+  coach_status: verified
+- name: Western Kentucky Hilltoppers
+  slug: western-kentucky-hilltoppers
+  nickname: Hilltoppers
+  abbreviation: WKU
+  espn_id: "98"
+  city: ""
+  state: KY
+  state_slug: kentucky
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Conference USA
+  conference_slug: conference-usa
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/98.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/98.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/98
+  head_coach: Hank Plona
+  best_email: jvca222@uky.edu
+  staff_count: 6
+  coach_status: changed
+- name: New Mexico State Aggies
+  slug: new-mexico-state-aggies
+  nickname: Aggies
+  abbreviation: NMSU
+  espn_id: "166"
+  city: ""
+  state: NM
+  state_slug: new-mexico
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Conference USA
+  conference_slug: conference-usa
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/166.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/166.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/166
+  head_coach: Jason Hooten
+  best_email: beckv@nmsu.edu
+  staff_count: 14
+  coach_status: changed
+- name: Kennesaw State Owls
+  slug: kennesaw-state-owls
+  nickname: Owls
+  abbreviation: KENN
+  espn_id: "338"
+  city: ""
+  state: GA
+  state_slug: georgia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Conference USA
+  conference_slug: conference-usa
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/338.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/338.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/338
+  head_coach: Antoine Pettway
+  best_email: bfletc15@kennesaw.edu
+  staff_count: 5
+  coach_status: changed
+- name: Florida International Panthers
+  slug: florida-international-panthers
+  nickname: Panthers
+  abbreviation: FIU
+  espn_id: "2229"
+  city: ""
+  state: FL
+  state_slug: florida
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Conference USA
+  conference_slug: conference-usa
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2229.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2229
+  head_coach: Jeremy Ballard
+  best_email: robert.mccullum@famu.edu
+  staff_count: 5
+  coach_status: changed
+- name: Liberty Flames
+  slug: liberty-flames
+  nickname: Flames
+  abbreviation: LIB
+  espn_id: "2335"
+  city: ""
+  state: VA
+  state_slug: virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Conference USA
+  conference_slug: conference-usa
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2335.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2335
+  head_coach: Ritchie McKay
+  best_email: lubasketball@liberty.edu
+  staff_count: 11
+  coach_status: verified
+- name: Louisiana Tech Bulldogs
+  slug: louisiana-tech-bulldogs
+  nickname: Bulldogs
+  abbreviation: LT
+  espn_id: "2348"
+  city: ""
+  state: LA
+  state_slug: louisiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Conference USA
+  conference_slug: conference-usa
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2348.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2348
+  head_coach: Talvin Hester
+  best_email: thester@latech.edu
+  staff_count: 12
+  coach_status: changed
+- name: Middle Tennessee Blue Raiders
+  slug: middle-tennessee-blue-raiders
+  nickname: Blue Raiders
+  abbreviation: MTSU
+  espn_id: "2393"
+  city: ""
+  state: TN
+  state_slug: tennessee
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Conference USA
+  conference_slug: conference-usa
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2393.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2393
+  head_coach: Nick McDevitt
+  best_email: bcollins9@tnstate.edu
+  staff_count: 7
+  coach_status: changed
+- name: Sam Houston Bearkats
+  slug: sam-houston-bearkats
+  nickname: Bearkats
+  abbreviation: SHSU
+  espn_id: "2534"
+  city: ""
+  state: TX
+  state_slug: texas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Conference USA
+  conference_slug: conference-usa
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2534.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2534
+  head_coach: Chris Mudge
+  best_email: mnegga2@central.uh.edu
+  staff_count: 13
+  coach_status: changed
+- name: Missouri State Bears
+  slug: missouri-state-bears
+  nickname: Bears
+  abbreviation: MOST
+  espn_id: "2623"
+  city: ""
+  state: MO
+  state_slug: missouri
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Conference USA
+  conference_slug: conference-usa
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2623.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2623
+  head_coach: Cuonzo Martin
+  best_email: dford@missouristate.edu
+  staff_count: 12
+  coach_status: changed
+- name: UTEP Miners
+  slug: utep-miners
+  nickname: Miners
+  abbreviation: UTEP
+  espn_id: "2638"
+  city: ""
+  state: TX
+  state_slug: texas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Conference USA
+  conference_slug: conference-usa
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2638.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2638
+  head_coach: Joe Golding
+  best_email: mjramos4@utep.edu
+  staff_count: 5
+  coach_status: patched
+- name: IU Indianapolis Jaguars
+  slug: iu-indianapolis-jaguars
+  nickname: Jaguars
+  abbreviation: IUIN
+  espn_id: "85"
+  city: ""
+  state: IN
+  state_slug: indiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Horizon League
+  conference_slug: horizon-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/85.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/85.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/85
+  head_coach: Matt Crenshaw
+  best_email: brimmii@iupui.edu
+  staff_count: 4
+  coach_status: changed
+- name: Northern Kentucky Norse
+  slug: northern-kentucky-norse
+  nickname: Norse
+  abbreviation: NKU
+  espn_id: "94"
+  city: ""
+  state: KY
+  state_slug: kentucky
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Horizon League
+  conference_slug: horizon-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/94.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/94.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/94
+  head_coach: Darrin Horn
+  best_email: jvca222@uky.edu
+  staff_count: 6
+  coach_status: changed
+- name: Milwaukee Panthers
+  slug: milwaukee-panthers
+  nickname: Panthers
+  abbreviation: MILW
+  espn_id: "270"
+  city: ""
+  state: WI
+  state_slug: wisconsin
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Horizon League
+  conference_slug: horizon-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/270.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/270.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/270
+  head_coach: Bart Lundy
+  best_email: baldwinp@uwm.edu
+  staff_count: 5
+  coach_status: changed
+- name: Cleveland State Vikings
+  slug: cleveland-state-vikings
+  nickname: Vikings
+  abbreviation: CLE
+  espn_id: "325"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Horizon League
+  conference_slug: horizon-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/325.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/325.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/325
+  head_coach: Daniyal Robinson
+  best_email: j.d.joyce@csuohio.edu
+  staff_count: 11
+  coach_status: changed
+- name: Detroit Mercy Titans
+  slug: detroit-mercy-titans
+  nickname: Titans
+  abbreviation: DETM
+  espn_id: "2174"
+  city: ""
+  state: MI
+  state_slug: michigan
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Horizon League
+  conference_slug: horizon-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2174.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2174
+  head_coach: Mark Montgomery
+  best_email: davismi3@udmercy.edu
+  staff_count: 10
+  coach_status: changed
+- name: Oakland Golden Grizzlies
+  slug: oakland-golden-grizzlies
+  nickname: Golden Grizzlies
+  abbreviation: OAK
+  espn_id: "2473"
+  city: ""
+  state: MI
+  state_slug: michigan
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Horizon League
+  conference_slug: horizon-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2473.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2473.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2473
+  head_coach: Greg Kampe
+  best_email: basketball@oakland.edu
+  staff_count: 9
+  coach_status: verified
+- name: Robert Morris Colonials
+  slug: robert-morris-colonials
+  nickname: Colonials
+  abbreviation: RMU
+  espn_id: "2523"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Horizon League
+  conference_slug: horizon-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2523.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2523
+  head_coach: Andrew Toole
+  best_email: toole@rmu.edu
+  staff_count: 5
+  coach_status: verified
+- name: Green Bay Phoenix
+  slug: green-bay-phoenix
+  nickname: Phoenix
+  abbreviation: GB
+  espn_id: "2739"
+  city: ""
+  state: WI
+  state_slug: wisconsin
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Horizon League
+  conference_slug: horizon-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2739.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2739.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2739
+  head_coach: Doug Gottlieb
+  best_email: darnerl@uwgb.edu
+  staff_count: 5
+  coach_status: changed
+- name: Wright State Raiders
+  slug: wright-state-raiders
+  nickname: Raiders
+  abbreviation: WRST
+  espn_id: "2750"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Horizon League
+  conference_slug: horizon-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2750.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2750
+  head_coach: Clint Sargent
+  best_email: clint.sargent@wright.edu
+  staff_count: 8
+  coach_status: changed
+- name: Youngstown State Penguins
+  slug: youngstown-state-penguins
+  nickname: Penguins
+  abbreviation: YSU
+  espn_id: "2754"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Horizon League
+  conference_slug: horizon-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2754.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2754
+  head_coach: Ethan Faulkner
+  best_email: egfaulkner@ysu.edu
+  staff_count: 8
+  coach_status: changed
+- name: Purdue Fort Wayne Mastodons
+  slug: purdue-fort-wayne-mastodons
+  nickname: Mastodons
+  abbreviation: PFW
+  espn_id: "2870"
+  city: ""
+  state: IN
+  state_slug: indiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Horizon League
+  conference_slug: horizon-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2870.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2870.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2870
+  head_coach: Jon Coffman
+  best_email: paul.corsaro@pfw.edu
+  staff_count: 4
+  coach_status: verified
+- name: Yale Bulldogs
+  slug: yale-bulldogs
+  nickname: Bulldogs
+  abbreviation: YALE
+  espn_id: "43"
+  city: ""
+  state: CT
+  state_slug: connecticut
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ivy League
+  conference_slug: ivy-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/43.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/43.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/43
+  head_coach: James Jones
+  best_email: j.jones@yale.edu
+  staff_count: 7
+  coach_status: verified
+- name: Harvard Crimson
+  slug: harvard-crimson
+  nickname: Crimson
+  abbreviation: HARV
+  espn_id: "108"
+  city: ""
+  state: MA
+  state_slug: massachusetts
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ivy League
+  conference_slug: ivy-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/108.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/108.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/108
+  head_coach: Tommy Amaker
+  best_email: harvardmbb@fas.harvard.edu
+  staff_count: 8
+  coach_status: verified
+- name: Dartmouth Big Green
+  slug: dartmouth-big-green
+  nickname: Big Green
+  abbreviation: DART
+  espn_id: "159"
+  city: ""
+  state: NH
+  state_slug: new-hampshire
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ivy League
+  conference_slug: ivy-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/159.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/159.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/159
+  head_coach: Dave McLaughlin
+  best_email: mens.basketball@dartmouth.edu
+  staff_count: 9
+  coach_status: changed
+- name: Princeton Tigers
+  slug: princeton-tigers
+  nickname: Tigers
+  abbreviation: PRIN
+  espn_id: "163"
+  city: ""
+  state: NJ
+  state_slug: new-jersey
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ivy League
+  conference_slug: ivy-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/163.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/163.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/163
+  head_coach: Mitch Henderson
+  best_email: jjones55@princeton.edu
+  staff_count: 6
+  coach_status: verified
+- name: Columbia Lions
+  slug: columbia-lions
+  nickname: Lions
+  abbreviation: COLU
+  espn_id: "171"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ivy League
+  conference_slug: ivy-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/171.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/171.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/171
+  head_coach: Kevin Hovde
+  best_email: culionsmbb@columbia.edu
+  staff_count: 5
+  coach_status: changed
+- name: Cornell Big Red
+  slug: cornell-big-red
+  nickname: Big Red
+  abbreviation: COR
+  espn_id: "172"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ivy League
+  conference_slug: ivy-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/172.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/172.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/172
+  head_coach: Jon Jaques
+  best_email: jdj26@cornell.edu
+  staff_count: 9
+  coach_status: changed
+- name: Pennsylvania Quakers
+  slug: pennsylvania-quakers
+  nickname: Quakers
+  abbreviation: PENN
+  espn_id: "219"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ivy League
+  conference_slug: ivy-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/219.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/219.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/219
+  head_coach: Steve Donahue
+  best_email: toole@rmu.edu
+  staff_count: 5
+  coach_status: changed
+- name: Brown Bears
+  slug: brown-bears
+  nickname: Bears
+  abbreviation: BRWN
+  espn_id: "225"
+  city: ""
+  state: RI
+  state_slug: rhode-island
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ivy League
+  conference_slug: ivy-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/225.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/225.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/225
+  head_coach: Mike Martin
+  best_email: brownbasketball@brown.edu
+  staff_count: 8
+  coach_status: verified
+- name: Mount St. Mary's Mountaineers
+  slug: mount-st-marys-mountaineers
+  nickname: Mountaineers
+  abbreviation: MSM
+  espn_id: "116"
+  city: ""
+  state: MD
+  state_slug: maryland
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/116.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/116.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/116
+  head_coach: Donny Lind
+  best_email: d.f.engelstad@msmary.edu
+  staff_count: 9
+  coach_status: changed
+- name: Iona Gaels
+  slug: iona-gaels
+  nickname: Gaels
+  abbreviation: IONA
+  espn_id: "314"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/314.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/314.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/314
+  head_coach: Dan Geriot
+  best_email: tcluess@iona.edu
+  staff_count: 5
+  coach_status: changed
+- name: Niagara Purple Eagles
+  slug: niagara-purple-eagles
+  nickname: Purple Eagles
+  abbreviation: NIA
+  espn_id: "315"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/315.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/315.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/315
+  head_coach: Greg Paulus
+  best_email: bsmothers@niagara.edu
+  staff_count: 4
+  coach_status: verified
+- name: Canisius Golden Griffins
+  slug: canisius-golden-griffins
+  nickname: Golden Griffins
+  abbreviation: CAN
+  espn_id: "2099"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2099.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2099
+  head_coach: Jim Christian
+  best_email: withersp@canisius.edu
+  staff_count: 6
+  coach_status: changed
+- name: Fairfield Stags
+  slug: fairfield-stags
+  nickname: Stags
+  abbreviation: FAIR
+  espn_id: "2217"
+  city: ""
+  state: CT
+  state_slug: connecticut
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2217.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2217.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2217
+  head_coach: Chris Casey
+  best_email: ccasey@fairfield.edu
+  staff_count: 7
+  coach_status: changed
+- name: Manhattan Jaspers
+  slug: manhattan-jaspers
+  nickname: Jaspers
+  abbreviation: MAN
+  espn_id: "2363"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2363.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2363.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2363
+  head_coach: John Gallagher
+  best_email: stephen.masiello@manhattan.edu
+  staff_count: 6
+  coach_status: changed
+- name: Marist Red Foxes
+  slug: marist-red-foxes
+  nickname: Red Foxes
+  abbreviation: MRST
+  espn_id: "2368"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2368.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2368
+  head_coach: John Dunne
+  best_email: cheryl.southern@marist.edu
+  staff_count: 5
+  coach_status: verified
+- name: Quinnipiac Bobcats
+  slug: quinnipiac-bobcats
+  nickname: Bobcats
+  abbreviation: QUIN
+  espn_id: "2514"
+  city: ""
+  state: CT
+  state_slug: connecticut
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2514.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2514.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2514
+  head_coach: Tom Pecora
+  best_email: thomas.pecora@qu.edu
+  staff_count: 9
+  coach_status: changed
+- name: Rider Broncs
+  slug: rider-broncs
+  nickname: Broncs
+  abbreviation: RID
+  espn_id: "2520"
+  city: ""
+  state: NJ
+  state_slug: new-jersey
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2520.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2520.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2520
+  head_coach: Kevin Baggett
+  best_email: kbaggett@rider.edu
+  staff_count: 7
+  coach_status: verified
+- name: Sacred Heart Pioneers
+  slug: sacred-heart-pioneers
+  nickname: Pioneers
+  abbreviation: SHU
+  espn_id: "2529"
+  city: ""
+  state: CT
+  state_slug: connecticut
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2529.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2529.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2529
+  head_coach: Anthony Latina
+  best_email: latinaa@sacredheart.edu
+  staff_count: 6
+  coach_status: verified
+- name: Siena Saints
+  slug: siena-saints
+  nickname: Saints
+  abbreviation: SIE
+  espn_id: "2561"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2561.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2561
+  head_coach: Gerry McNamara
+  best_email: hfuller@siena.edu
+  staff_count: 9
+  coach_status: changed
+- name: Saint Peter's Peacocks
+  slug: saint-peters-peacocks
+  nickname: Peacocks
+  abbreviation: SPU
+  espn_id: "2612"
+  city: ""
+  state: NJ
+  state_slug: new-jersey
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2612.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2612.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2612
+  head_coach: Bashir Mason
+  best_email: bmason@saintpeters.edu
+  staff_count: 12
+  coach_status: changed
+- name: Merrimack Warriors
+  slug: merrimack-warriors
+  nickname: Warriors
+  abbreviation: MRMK
+  espn_id: "2771"
+  city: ""
+  state: MA
+  state_slug: massachusetts
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Metro Atlantic Athletic Conference
+  conference_slug: metro-atlantic-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2771.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2771
+  head_coach: Joe Gallo
+  coach_status: no_csv
+- name: Massachusetts Minutemen
+  slug: massachusetts-minutemen
+  nickname: Minutemen
+  abbreviation: MASS
+  espn_id: "113"
+  city: ""
+  state: MA
+  state_slug: massachusetts
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/113.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/113.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/113
+  head_coach: Frank Martin
+  best_email: ljordan04@umass.edu
+  staff_count: 4
+  coach_status: changed
+- name: Bowling Green Falcons
+  slug: bowling-green-falcons
+  nickname: Falcons
+  abbreviation: BGSU
+  espn_id: "189"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/189.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/189.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/189
+  head_coach: Todd Simon
+  best_email: mhuger@bgsu.edu
+  staff_count: 10
+  coach_status: changed
+- name: Miami (OH) RedHawks
+  slug: miami-oh-redhawks
+  nickname: RedHawks
+  abbreviation: M-OH
+  espn_id: "193"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/193.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/193.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/193
+  head_coach: Travis Steele
+  best_email: wenecked@miamioh.edu
+  staff_count: 11
+  coach_status: changed
+- name: Ohio Bobcats
+  slug: ohio-bobcats
+  nickname: Bobcats
+  abbreviation: OHIO
+  espn_id: "195"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/195.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/195.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/195
+  head_coach: Jeff Boals
+  best_email: holtmann.7@osu.edu
+  staff_count: 6
+  coach_status: changed
+- name: Akron Zips
+  slug: akron-zips
+  nickname: Zips
+  abbreviation: AKR
+  espn_id: "2006"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2006.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2006
+  head_coach: John Groce
+  best_email: akronhoops@uakron.edu
+  staff_count: 12
+  coach_status: verified
+- name: Ball State Cardinals
+  slug: ball-state-cardinals
+  nickname: Cardinals
+  abbreviation: BALL
+  espn_id: "2050"
+  city: ""
+  state: IN
+  state_slug: indiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2050.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2050
+  best_email: mbasketball@bsu.edu
+  staff_count: 5
+  coach_status: espn_error
+- name: Buffalo Bulls
+  slug: buffalo-bulls
+  nickname: Bulls
+  abbreviation: BUF
+  espn_id: "2084"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2084.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2084
+  head_coach: George Halcovage III
+  best_email: ub-mensbasketball@buffalo.edu
+  staff_count: 5
+  coach_status: changed
+- name: Central Michigan Chippewas
+  slug: central-michigan-chippewas
+  nickname: Chippewas
+  abbreviation: CMU
+  espn_id: "2117"
+  city: ""
+  state: MI
+  state_slug: michigan
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2117.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2117
+  head_coach: Tony Barbee
+  best_email: coachhoward@umich.edu
+  staff_count: 6
+  coach_status: changed
+- name: Eastern Michigan Eagles
+  slug: eastern-michigan-eagles
+  nickname: Eagles
+  abbreviation: EMU
+  espn_id: "2199"
+  city: ""
+  state: MI
+  state_slug: michigan
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2199.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2199
+  head_coach: Stan Heath
+  best_email: coachhoward@umich.edu
+  staff_count: 6
+  coach_status: changed
+- name: Kent State Golden Flashes
+  slug: kent-state-golden-flashes
+  nickname: Golden Flashes
+  abbreviation: KENT
+  espn_id: "2309"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2309.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2309
+  head_coach: Rob Senderoff
+  best_email: rsendero@kent.edu
+  staff_count: 7
+  coach_status: verified
+- name: Northern Illinois Huskies
+  slug: northern-illinois-huskies
+  nickname: Huskies
+  abbreviation: NIU
+  espn_id: "2459"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2459.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2459
+  head_coach: Rashon Burno
+  best_email: bwatkins3@niu.edu
+  staff_count: 3
+  coach_status: changed
+- name: Toledo Rockets
+  slug: toledo-rockets
+  nickname: Rockets
+  abbreviation: TOL
+  espn_id: "2649"
+  city: ""
+  state: OH
+  state_slug: ohio
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2649.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2649
+  head_coach: Tod Kowalczyk
+  best_email: jeffrey.massey@utoledo.edu
+  staff_count: 7
+  coach_status: verified
+- name: Western Michigan Broncos
+  slug: western-michigan-broncos
+  nickname: Broncos
+  abbreviation: WMU
+  espn_id: "2711"
+  city: ""
+  state: MI
+  state_slug: michigan
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-American Conference
+  conference_slug: mid-american-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2711.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2711
+  head_coach: Dwayne Stephens
+  best_email: steve.hawkins@wmich.edu
+  staff_count: 10
+  coach_status: changed
+- name: Howard Bison
+  slug: howard-bison
+  nickname: Bison
+  abbreviation: HOW
+  espn_id: "47"
+  city: ""
+  state: DC
+  state_slug: district-of-columbia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-Eastern Athletic Conference
+  conference_slug: mid-eastern-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/47.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/47.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/47
+  head_coach: Kenneth Blakeney
+  best_email: keith.coutreyer@howard.edu
+  staff_count: 6
+  coach_status: verified
+- name: Coppin State Eagles
+  slug: coppin-state-eagles
+  nickname: Eagles
+  abbreviation: COPP
+  espn_id: "2154"
+  city: ""
+  state: MD
+  state_slug: maryland
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-Eastern Athletic Conference
+  conference_slug: mid-eastern-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2154.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2154.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2154
+  head_coach: Larry Stewart
+  best_email: judixon@coppin.edu
+  staff_count: 3
+  coach_status: changed
+- name: Delaware State Hornets
+  slug: delaware-state-hornets
+  nickname: Hornets
+  abbreviation: DSU
+  espn_id: "2169"
+  city: ""
+  state: DE
+  state_slug: delaware
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-Eastern Athletic Conference
+  conference_slug: mid-eastern-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2169.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2169.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2169
+  head_coach: Stan Waterman
+  best_email: mingelsb@udel.edu
+  staff_count: 7
+  coach_status: changed
+- name: Maryland Eastern Shore Hawks
+  slug: maryland-eastern-shore-hawks
+  nickname: Hawks
+  abbreviation: UMES
+  espn_id: "2379"
+  city: ""
+  state: MD
+  state_slug: maryland
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-Eastern Athletic Conference
+  conference_slug: mid-eastern-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2379.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2379.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2379
+  head_coach: Cleo Hill Jr.
+  best_email: kknoche@umd.edu
+  staff_count: 5
+  coach_status: changed
+- name: Morgan State Bears
+  slug: morgan-state-bears
+  nickname: Bears
+  abbreviation: MORG
+  espn_id: "2415"
+  city: ""
+  state: MD
+  state_slug: maryland
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-Eastern Athletic Conference
+  conference_slug: mid-eastern-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2415.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2415
+  head_coach: Kevin Broadus
+  best_email: kevin.broadus@morgan.edu
+  staff_count: 3
+  coach_status: verified
+- name: North Carolina Central Eagles
+  slug: north-carolina-central-eagles
+  nickname: Eagles
+  abbreviation: NCCU
+  espn_id: "2428"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-Eastern Athletic Conference
+  conference_slug: mid-eastern-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2428.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2428.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2428
+  head_coach: LeVelle Moton
+  best_email: jcjoyner@ncat.edu
+  staff_count: 7
+  coach_status: changed
+- name: Norfolk State Spartans
+  slug: norfolk-state-spartans
+  nickname: Spartans
+  abbreviation: NORF
+  espn_id: "2450"
+  city: ""
+  state: VA
+  state_slug: virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-Eastern Athletic Conference
+  conference_slug: mid-eastern-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2450.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2450
+  head_coach: Robert Jones
+  best_email: spartanbasketball@nsu.edu
+  staff_count: 5
+  coach_status: verified
+- name: South Carolina State Bulldogs
+  slug: south-carolina-state-bulldogs
+  nickname: Bulldogs
+  abbreviation: SCST
+  espn_id: "2569"
+  city: ""
+  state: SC
+  state_slug: south-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mid-Eastern Athletic Conference
+  conference_slug: mid-eastern-athletic-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2569.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2569.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2569
+  head_coach: Erik Martin
+  best_email: mgarvin3@scsu.edu
+  staff_count: 6
+  coach_status: changed
+- name: Bradley Braves
+  slug: bradley-braves
+  nickname: Braves
+  abbreviation: BRAD
+  espn_id: "71"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Missouri Valley Conference
+  conference_slug: missouri-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/71.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/71.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/71
+  head_coach: Brian Wardle
+  best_email: jcfoster@bradley.edu
+  staff_count: 7
+  coach_status: verified
+- name: Southern Illinois Salukis
+  slug: southern-illinois-salukis
+  nickname: Salukis
+  abbreviation: SIU
+  espn_id: "79"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Missouri Valley Conference
+  conference_slug: missouri-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/79.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/79.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/79
+  head_coach: Scott Nagy
+  best_email: coachunderwood@illinois.edu
+  staff_count: 6
+  coach_status: changed
+- name: UIC Flames
+  slug: uic-flames
+  nickname: Flames
+  abbreviation: UIC
+  espn_id: "82"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Missouri Valley Conference
+  conference_slug: missouri-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/82.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/82.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/82
+  head_coach: Robert Ehsan
+  best_email: uicmbb@uic.edu
+  staff_count: 7
+  coach_status: patched
+- name: Murray State Racers
+  slug: murray-state-racers
+  nickname: Racers
+  abbreviation: MUR
+  espn_id: "93"
+  city: ""
+  state: KY
+  state_slug: kentucky
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Missouri Valley Conference
+  conference_slug: missouri-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/93.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/93.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/93
+  head_coach: Ryan Miller
+  best_email: msubasketball@murraystate.edu
+  staff_count: 10
+  coach_status: changed
+- name: Indiana State Sycamores
+  slug: indiana-state-sycamores
+  nickname: Sycamores
+  abbreviation: INST
+  espn_id: "282"
+  city: ""
+  state: IN
+  state_slug: indiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Missouri Valley Conference
+  conference_slug: missouri-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/282.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/282.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/282
+  head_coach: Matthew Graves
+  best_email: mbasket@indiana.edu
+  staff_count: 5
+  coach_status: changed
+- name: Evansville Purple Aces
+  slug: evansville-purple-aces
+  nickname: Purple Aces
+  abbreviation: EVAN
+  espn_id: "339"
+  city: ""
+  state: IN
+  state_slug: indiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Missouri Valley Conference
+  conference_slug: missouri-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/339.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/339.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/339
+  head_coach: David Ragland
+  best_email: uebasketball@evansville.edu
+  staff_count: 5
+  coach_status: changed
+- name: Belmont Bruins
+  slug: belmont-bruins
+  nickname: Bruins
+  abbreviation: BEL
+  espn_id: "2057"
+  city: ""
+  state: TN
+  state_slug: tennessee
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Missouri Valley Conference
+  conference_slug: missouri-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2057.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2057.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2057
+  head_coach: Casey Alexander
+  best_email: sean.rutigliano@belmont.edu
+  staff_count: 6
+  coach_status: verified
+- name: Drake Bulldogs
+  slug: drake-bulldogs
+  nickname: Bulldogs
+  abbreviation: DRKE
+  espn_id: "2181"
+  city: ""
+  state: IA
+  state_slug: iowa
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Missouri Valley Conference
+  conference_slug: missouri-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2181.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2181.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2181
+  head_coach: Eric Henderson
+  best_email: darian.devries@drake.edu
+  staff_count: 9
+  coach_status: changed
+- name: Illinois State Redbirds
+  slug: illinois-state-redbirds
+  nickname: Redbirds
+  abbreviation: ILST
+  espn_id: "2287"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Missouri Valley Conference
+  conference_slug: missouri-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2287.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2287
+  head_coach: Ryan Pedon
+  best_email: bwatkins3@niu.edu
+  staff_count: 3
+  coach_status: changed
+- name: Northern Iowa Panthers
+  slug: northern-iowa-panthers
+  nickname: Panthers
+  abbreviation: UNI
+  espn_id: "2460"
+  city: ""
+  state: IA
+  state_slug: iowa
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Missouri Valley Conference
+  conference_slug: missouri-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2460.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2460
+  head_coach: Ben Jacobson
+  best_email: sprohm@iastate.edu
+  staff_count: 14
+  coach_status: changed
+- name: Valparaiso Beacons
+  slug: valparaiso-beacons
+  nickname: Beacons
+  abbreviation: VAL
+  espn_id: "2674"
+  city: ""
+  state: IN
+  state_slug: indiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Missouri Valley Conference
+  conference_slug: missouri-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2674.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2674.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2674
+  head_coach: Roger Powell Jr.
+  best_email: mensbasketball@valpo.edu
+  staff_count: 7
+  coach_status: changed
+- name: San Diego State Aztecs
+  slug: san-diego-state-aztecs
+  nickname: Aztecs
+  abbreviation: SDSU
+  espn_id: "21"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mountain West Conference
+  conference_slug: mountain-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/21.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/21.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/21
+  head_coach: Brian Dutcher
+  best_email: usdbasketball@sandiego.edu
+  staff_count: 6
+  coach_status: changed
+- name: San José State Spartans
+  slug: san-jose-state-spartans
+  nickname: Spartans
+  abbreviation: SJSU
+  espn_id: "23"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mountain West Conference
+  conference_slug: mountain-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/23.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/23.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/23
+  head_coach: Tim Miles
+  best_email: jean.prioleau@sjsu.edu
+  staff_count: 9
+  coach_status: changed
+- name: Colorado State Rams
+  slug: colorado-state-rams
+  nickname: Rams
+  abbreviation: CSU
+  espn_id: "36"
+  city: ""
+  state: CO
+  state_slug: colorado
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mountain West Conference
+  conference_slug: mountain-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/36.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/36.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/36
+  head_coach: Niko Medved
+  best_email: buffsmbb@colorado.edu
+  staff_count: 6
+  coach_status: changed
+- name: Boise State Broncos
+  slug: boise-state-broncos
+  nickname: Broncos
+  abbreviation: BOIS
+  espn_id: "68"
+  city: ""
+  state: ID
+  state_slug: idaho
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mountain West Conference
+  conference_slug: mountain-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/68.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/68.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/68
+  head_coach: Leon Rice
+  best_email: leonrice@boisestate.edu
+  staff_count: 7
+  coach_status: verified
+- name: New Mexico Lobos
+  slug: new-mexico-lobos
+  nickname: Lobos
+  abbreviation: UNM
+  espn_id: "167"
+  city: ""
+  state: NM
+  state_slug: new-mexico
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mountain West Conference
+  conference_slug: mountain-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/167.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/167.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/167
+  head_coach: Eric Olen
+  best_email: beckv@nmsu.edu
+  staff_count: 14
+  coach_status: changed
+- name: Fresno State Bulldogs
+  slug: fresno-state-bulldogs
+  nickname: Bulldogs
+  abbreviation: FRES
+  espn_id: "278"
+  city: ""
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mountain West Conference
+  conference_slug: mountain-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/278.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/278.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/278
+  head_coach: Vance Walberg
+  best_email: jhutson@csufresno.edu
+  staff_count: 5
+  coach_status: changed
+- name: Utah State Aggies
+  slug: utah-state-aggies
+  nickname: Aggies
+  abbreviation: USU
+  espn_id: "328"
+  city: ""
+  state: UT
+  state_slug: utah
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mountain West Conference
+  conference_slug: mountain-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/328.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/328.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/328
+  head_coach: Jerrod Calhoun
+  best_email: johnwardenburg@suu.edu
+  staff_count: 5
+  coach_status: changed
+- name: Air Force Falcons
+  slug: air-force-falcons
+  nickname: Falcons
+  abbreviation: AF
+  espn_id: "2005"
+  city: ""
+  state: CO
+  state_slug: colorado
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mountain West Conference
+  conference_slug: mountain-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2005.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2005
+  head_coach: Joe Scott
+  best_email: holly.green@usafa.edu
+  staff_count: 7
+  coach_status: changed
+- name: Grand Canyon Lopes
+  slug: grand-canyon-lopes
+  nickname: Lopes
+  abbreviation: GCU
+  espn_id: "2253"
+  city: ""
+  state: AZ
+  state_slug: arizona
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mountain West Conference
+  conference_slug: mountain-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2253.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2253
+  head_coach: Bryce Drew
+  best_email: chris.crevelone@gcu.edu
+  staff_count: 11
+  coach_status: changed
+- name: UNLV Rebels
+  slug: unlv-rebels
+  nickname: Rebels
+  abbreviation: UNLV
+  espn_id: "2439"
+  city: ""
+  state: NV
+  state_slug: nevada
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mountain West Conference
+  conference_slug: mountain-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2439.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2439
+  head_coach: Josh Pastner
+  best_email: christin.hinton@unlv.edu
+  staff_count: 5
+  coach_status: patched
+- name: Nevada Wolf Pack
+  slug: nevada-wolf-pack
+  nickname: Wolf Pack
+  abbreviation: NEV
+  espn_id: "2440"
+  city: ""
+  state: NV
+  state_slug: nevada
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mountain West Conference
+  conference_slug: mountain-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2440.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2440
+  head_coach: Steve Alford
+  best_email: salford@unr.edu
+  staff_count: 5
+  coach_status: verified
+- name: Wyoming Cowboys
+  slug: wyoming-cowboys
+  nickname: Cowboys
+  abbreviation: WYO
+  espn_id: "2751"
+  city: ""
+  state: WY
+  state_slug: wyoming
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Mountain West Conference
+  conference_slug: mountain-west-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2751.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2751
+  head_coach: Sundance Wicks
+  best_email: swicks4@uwyo.edu
+  staff_count: 8
+  coach_status: changed
+- name: Fairleigh Dickinson Knights
+  slug: fairleigh-dickinson-knights
+  nickname: Knights
+  abbreviation: FDU
+  espn_id: "161"
+  city: ""
+  state: NJ
+  state_slug: new-jersey
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Northeast Conference
+  conference_slug: northeast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/161.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/161.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/161
+  head_coach: Jack Castleberry
+  best_email: gherenda@fdu.edu
+  staff_count: 5
+  coach_status: changed
+- name: Stonehill Skyhawks
+  slug: stonehill-skyhawks
+  nickname: Skyhawks
+  abbreviation: STO
+  espn_id: "284"
+  city: ""
+  state: MA
+  state_slug: massachusetts
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Northeast Conference
+  conference_slug: northeast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/284.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/284.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/284
+  head_coach: Chris Kraus
+  coach_status: no_csv
+- name: Central Connecticut Blue Devils
+  slug: central-connecticut-blue-devils
+  nickname: Blue Devils
+  abbreviation: CCSU
+  espn_id: "2115"
+  city: ""
+  state: CT
+  state_slug: connecticut
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Northeast Conference
+  conference_slug: northeast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2115.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2115.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2115
+  head_coach: Patrick Sellers
+  best_email: kenya.hunter@uconn.edu
+  staff_count: 11
+  coach_status: changed
+- name: Chicago State Cougars
+  slug: chicago-state-cougars
+  nickname: Cougars
+  abbreviation: CHST
+  espn_id: "2130"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Northeast Conference
+  conference_slug: northeast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2130.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2130.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2130
+  head_coach: Gerald Gillion
+  best_email: tharvey3@uic.edu
+  staff_count: 4
+  coach_status: changed
+- name: Le Moyne Dolphins
+  slug: le-moyne-dolphins
+  nickname: Dolphins
+  abbreviation: LEM
+  espn_id: "2330"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Northeast Conference
+  conference_slug: northeast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2330.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2330.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2330
+  head_coach: Nate Champion
+  coach_status: no_csv
+- name: Mercyhurst Lakers
+  slug: mercyhurst-lakers
+  nickname: Lakers
+  abbreviation: MERC
+  espn_id: "2385"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Northeast Conference
+  conference_slug: northeast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2385.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2385
+  head_coach: Gary Manchel
+  coach_status: no_csv
+- name: New Haven Chargers
+  slug: new-haven-chargers
+  nickname: Chargers
+  abbreviation: NHVN
+  espn_id: "2441"
+  city: ""
+  state: CT
+  state_slug: connecticut
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Northeast Conference
+  conference_slug: northeast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2441.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2441
+  best_email: coachsless@uno.edu
+  staff_count: 8
+  coach_status: espn_error
+- name: Saint Francis Red Flash
+  slug: saint-francis-red-flash
+  nickname: Red Flash
+  abbreviation: SFPA
+  espn_id: "2598"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Northeast Conference
+  conference_slug: northeast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2598.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2598.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2598
+  head_coach: Rob Krimmel
+  best_email: rkrimmel@francis.edu
+  staff_count: 10
+  coach_status: verified
+- name: Wagner Seahawks
+  slug: wagner-seahawks
+  nickname: Seahawks
+  abbreviation: WAG
+  espn_id: "2681"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Northeast Conference
+  conference_slug: northeast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2681.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2681
+  head_coach: Donald Copeland
+  best_email: donald.copeland@wagner.edu
+  staff_count: 9
+  coach_status: changed
+- name: Long Island University Sharks
+  slug: long-island-university-sharks
+  nickname: Sharks
+  abbreviation: LIU
+  espn_id: "112358"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Northeast Conference
+  conference_slug: northeast-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/112358.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/112358.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/112358
+  head_coach: Rod Strickland
+  best_email: derek.kellogg@liu.edu
+  staff_count: 7
+  coach_status: changed
+- name: Southern Indiana Screaming Eagles
+  slug: southern-indiana-screaming-eagles
+  nickname: Screaming Eagles
+  abbreviation: USI
+  espn_id: "88"
+  city: ""
+  state: IN
+  state_slug: indiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ohio Valley Conference
+  conference_slug: ohio-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/88.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/88.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/88
+  head_coach: Stan Gouard
+  best_email: mbasket@indiana.edu
+  staff_count: 5
+  coach_status: changed
+- name: Little Rock Trojans
+  slug: little-rock-trojans
+  nickname: Trojans
+  abbreviation: LR
+  espn_id: "2031"
+  city: ""
+  state: AR
+  state_slug: arkansas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ohio Valley Conference
+  conference_slug: ohio-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2031.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2031
+  best_email: dwalker@ualr.edu
+  staff_count: 8
+  coach_status: espn_error
+- name: Eastern Illinois Panthers
+  slug: eastern-illinois-panthers
+  nickname: Panthers
+  abbreviation: EIU
+  espn_id: "2197"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ohio Valley Conference
+  conference_slug: ohio-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2197.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2197.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2197
+  head_coach: Marty Simmons
+  best_email: coachunderwood@illinois.edu
+  staff_count: 6
+  coach_status: changed
+- name: Morehead State Eagles
+  slug: morehead-state-eagles
+  nickname: Eagles
+  abbreviation: MORE
+  espn_id: "2413"
+  city: ""
+  state: KY
+  state_slug: kentucky
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ohio Valley Conference
+  conference_slug: ohio-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2413.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2413.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2413
+  head_coach: Jonathan Mattox
+  best_email: jmattox@moreheadstate.edu
+  staff_count: 9
+  coach_status: changed
+- name: Southeast Missouri State Redhawks
+  slug: southeast-missouri-state-redhawks
+  nickname: Redhawks
+  abbreviation: SEMO
+  espn_id: "2546"
+  city: ""
+  state: MO
+  state_slug: missouri
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ohio Valley Conference
+  conference_slug: ohio-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2546.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2546
+  head_coach: Brad Korn
+  best_email: dford@missouristate.edu
+  staff_count: 12
+  coach_status: changed
+- name: SIU Edwardsville Cougars
+  slug: siu-edwardsville-cougars
+  nickname: Cougars
+  abbreviation: SIUE
+  espn_id: "2565"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ohio Valley Conference
+  conference_slug: ohio-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2565.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2565.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2565
+  head_coach: Brian Barone
+  best_email: coachbbarone@siue.edu
+  staff_count: 8
+  coach_status: verified
+- name: UT Martin Skyhawks
+  slug: ut-martin-skyhawks
+  nickname: Skyhawks
+  abbreviation: UTM
+  espn_id: "2630"
+  city: ""
+  state: TN
+  state_slug: tennessee
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ohio Valley Conference
+  conference_slug: ohio-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2630.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2630.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2630
+  head_coach: Jeremy Shulman
+  best_email: astewa54@utm.edu
+  staff_count: 5
+  coach_status: changed
+- name: Tennessee State Tigers
+  slug: tennessee-state-tigers
+  nickname: Tigers
+  abbreviation: TNST
+  espn_id: "2634"
+  city: ""
+  state: TN
+  state_slug: tennessee
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ohio Valley Conference
+  conference_slug: ohio-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2634.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2634.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2634
+  head_coach: Brian Collins
+  best_email: forbess@etsu.edu
+  staff_count: 6
+  coach_status: changed
+- name: Tennessee Tech Golden Eagles
+  slug: tennessee-tech-golden-eagles
+  nickname: Golden Eagles
+  abbreviation: TNTC
+  espn_id: "2635"
+  city: ""
+  state: TN
+  state_slug: tennessee
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ohio Valley Conference
+  conference_slug: ohio-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2635.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2635
+  head_coach: John Pelphrey
+  best_email: bcollins9@tnstate.edu
+  staff_count: 7
+  coach_status: changed
+- name: Western Illinois Leathernecks
+  slug: western-illinois-leathernecks
+  nickname: Leathernecks
+  abbreviation: WIU
+  espn_id: "2710"
+  city: ""
+  state: IL
+  state_slug: illinois
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ohio Valley Conference
+  conference_slug: ohio-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2710.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2710
+  head_coach: Chad Boudreau
+  best_email: coachunderwood@illinois.edu
+  staff_count: 6
+  coach_status: changed
+- name: Lindenwood Lions
+  slug: lindenwood-lions
+  nickname: Lions
+  abbreviation: LIN
+  espn_id: "2815"
+  city: ""
+  state: MO
+  state_slug: missouri
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Ohio Valley Conference
+  conference_slug: ohio-valley-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2815.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2815
+  head_coach: Kyle Gerdeman
+  coach_status: no_csv
+- name: American University Eagles
+  slug: american-university-eagles
+  nickname: Eagles
+  abbreviation: AMER
+  espn_id: "44"
+  city: ""
+  state: DC
+  state_slug: district-of-columbia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Patriot League
+  conference_slug: patriot-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/44.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/44.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/44
+  head_coach: Duane Simpkins
+  best_email: mbrennan@american.edu
+  staff_count: 8
+  coach_status: changed
+- name: Boston University Terriers
+  slug: boston-university-terriers
+  nickname: Terriers
+  abbreviation: BU
+  espn_id: "104"
+  city: ""
+  state: MA
+  state_slug: massachusetts
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Patriot League
+  conference_slug: patriot-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/104.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/104.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/104
+  head_coach: Joe Jones
+  best_email: jjones11@bu.edu
+  staff_count: 6
+  coach_status: verified
+- name: Holy Cross Crusaders
+  slug: holy-cross-crusaders
+  nickname: Crusaders
+  abbreviation: HC
+  espn_id: "107"
+  city: ""
+  state: MA
+  state_slug: massachusetts
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Patriot League
+  conference_slug: patriot-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/107.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/107.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/107
+  head_coach: Dave Paulsen
+  best_email: jkennedy@holycross.edu
+  staff_count: 6
+  coach_status: changed
+- name: Lafayette Leopards
+  slug: lafayette-leopards
+  nickname: Leopards
+  abbreviation: LAF
+  espn_id: "322"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Patriot League
+  conference_slug: patriot-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/322.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/322.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/322
+  head_coach: Mike McGarvey
+  best_email: nhardin@louisiana.edu
+  staff_count: 4
+  coach_status: changed
+- name: Army Black Knights
+  slug: army-black-knights
+  nickname: Black Knights
+  abbreviation: ARMY
+  espn_id: "349"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Patriot League
+  conference_slug: patriot-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/349.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/349.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/349
+  head_coach: Kevin Kuwik
+  best_email: james.allen@westpoint.edu
+  staff_count: 4
+  coach_status: patched
+- name: Bucknell Bison
+  slug: bucknell-bison
+  nickname: Bison
+  abbreviation: BUCK
+  espn_id: "2083"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Patriot League
+  conference_slug: patriot-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2083.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2083
+  head_coach: John Griffin III
+  best_email: ndavis@bucknell.edu
+  staff_count: 7
+  coach_status: changed
+- name: Colgate Raiders
+  slug: colgate-raiders
+  nickname: Raiders
+  abbreviation: COLG
+  espn_id: "2142"
+  city: ""
+  state: NY
+  state_slug: new-york
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Patriot League
+  conference_slug: patriot-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2142.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2142.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2142
+  head_coach: Matt Langel
+  best_email: mlangel@colgate.edu
+  staff_count: 8
+  coach_status: patched
+- name: Lehigh Mountain Hawks
+  slug: lehigh-mountain-hawks
+  nickname: Mountain Hawks
+  abbreviation: LEH
+  espn_id: "2329"
+  city: ""
+  state: PA
+  state_slug: pennsylvania
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Patriot League
+  conference_slug: patriot-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2329.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2329.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2329
+  head_coach: Brett Reed
+  best_email: lehighmbb@lehigh.edu
+  staff_count: 8
+  coach_status: verified
+- name: Loyola Maryland Greyhounds
+  slug: loyola-maryland-greyhounds
+  nickname: Greyhounds
+  abbreviation: L-MD
+  espn_id: "2352"
+  city: ""
+  state: MD
+  state_slug: maryland
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Patriot League
+  conference_slug: patriot-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2352.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2352.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2352
+  head_coach: Josh Loeffler
+  best_email: jkfinger@loyola.edu
+  staff_count: 7
+  coach_status: changed
+- name: Navy Midshipmen
+  slug: navy-midshipmen
+  nickname: Midshipmen
+  abbreviation: NAVY
+  espn_id: "2426"
+  city: ""
+  state: MD
+  state_slug: maryland
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Patriot League
+  conference_slug: patriot-league
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2426.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2426
+  head_coach: John Perry
+  best_email: jperry@usna.edu
+  staff_count: 5
+  coach_status: patched
+- name: Auburn Tigers
+  slug: auburn-tigers
+  nickname: Tigers
+  abbreviation: AUB
+  espn_id: "2"
+  city: ""
+  state: AL
+  state_slug: alabama
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2
+  head_coach: Bruce Pearl
+  best_email: bap0030@auburn.edu
+  staff_count: 13
+  coach_status: verified
+- name: Arkansas Razorbacks
+  slug: arkansas-razorbacks
+  nickname: Razorbacks
+  abbreviation: ARK
+  espn_id: "8"
+  city: ""
+  state: AR
+  state_slug: arkansas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/8.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/8.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/8
+  head_coach: John Calipari
+  best_email: ivoryg@uapb.edu
+  staff_count: 3
+  coach_status: changed
+- name: Florida Gators
+  slug: florida-gators
+  nickname: Gators
+  abbreviation: FLA
+  espn_id: "57"
+  city: ""
+  state: FL
+  state_slug: florida
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/57.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/57.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/57
+  head_coach: Todd Golden
+  best_email: mleonard@athletics.ucf.edu
+  staff_count: 8
+  coach_status: changed
+- name: Georgia Bulldogs
+  slug: georgia-bulldogs
+  nickname: Bulldogs
+  abbreviation: UGA
+  espn_id: "61"
+  city: ""
+  state: GA
+  state_slug: georgia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/61.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/61
+  head_coach: Mike White
+  best_email: rlanier@gsu.edu
+  staff_count: 12
+  coach_status: changed
+- name: Kentucky Wildcats
+  slug: kentucky-wildcats
+  nickname: Wildcats
+  abbreviation: UK
+  espn_id: "96"
+  city: ""
+  state: KY
+  state_slug: kentucky
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/96.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/96.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/96
+  head_coach: Mark Pope
+  best_email: jvca222@uky.edu
+  staff_count: 6
+  coach_status: changed
+- name: LSU Tigers
+  slug: lsu-tigers
+  nickname: Tigers
+  abbreviation: LSU
+  espn_id: "99"
+  city: ""
+  state: LA
+  state_slug: louisiana
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/99.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/99.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/99
+  head_coach: Matt McMahon
+  best_email: ncaldwell@lsu.edu
+  staff_count: 11
+  coach_status: changed
+- name: Missouri Tigers
+  slug: missouri-tigers
+  nickname: Tigers
+  abbreviation: MIZ
+  espn_id: "142"
+  city: ""
+  state: MO
+  state_slug: missouri
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/142.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/142.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/142
+  head_coach: Dennis Gates
+  best_email: dford@missouristate.edu
+  staff_count: 12
+  coach_status: changed
+- name: Ole Miss Rebels
+  slug: ole-miss-rebels
+  nickname: Rebels
+  abbreviation: MISS
+  espn_id: "145"
+  city: ""
+  state: MS
+  state_slug: mississippi
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/145.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/145.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/145
+  head_coach: Chris Beard
+  best_email: khhobson@olemiss.edu
+  staff_count: 11
+  coach_status: patched
+- name: Oklahoma Sooners
+  slug: oklahoma-sooners
+  nickname: Sooners
+  abbreviation: OU
+  espn_id: "201"
+  city: ""
+  state: OK
+  state_slug: oklahoma
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/201.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/201.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/201
+  head_coach: Porter Moser
+  best_email: mike.boynton@okstate.edu
+  staff_count: 11
+  coach_status: changed
+- name: Vanderbilt Commodores
+  slug: vanderbilt-commodores
+  nickname: Commodores
+  abbreviation: VAN
+  espn_id: "238"
+  city: ""
+  state: TN
+  state_slug: tennessee
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/238.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/238.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/238
+  head_coach: Mark Byington
+  best_email: jerry.stackhouse@vanderbilt.edu
+  staff_count: 14
+  coach_status: changed
+- name: Texas A&M Aggies
+  slug: texas-am-aggies
+  nickname: Aggies
+  abbreviation: TA&M
+  espn_id: "245"
+  city: ""
+  state: TX
+  state_slug: texas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/245.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/245.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/245
+  head_coach: Bucky McMillan
+  best_email: steve.henson@utsa.edu
+  staff_count: 7
+  coach_status: changed
+- name: Texas Longhorns
+  slug: texas-longhorns
+  nickname: Longhorns
+  abbreviation: TEX
+  espn_id: "251"
+  city: ""
+  state: TX
+  state_slug: texas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/251.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/251.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/251
+  head_coach: Sean Miller
+  best_email: steve.henson@utsa.edu
+  staff_count: 7
+  coach_status: changed
+- name: Alabama Crimson Tide
+  slug: alabama-crimson-tide
+  nickname: Crimson Tide
+  abbreviation: ALA
+  espn_id: "333"
+  city: ""
+  state: AL
+  state_slug: alabama
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/333.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/333.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/333
+  head_coach: Nate Oats
+  best_email: apettway@ia.ua.edu
+  staff_count: 6
+  coach_status: verified
+- name: Mississippi State Bulldogs
+  slug: mississippi-state-bulldogs
+  nickname: Bulldogs
+  abbreviation: MSST
+  espn_id: "344"
+  city: ""
+  state: MS
+  state_slug: mississippi
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/344.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/344.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/344
+  head_coach: Chris Jans
+  best_email: clarence.g.weatherspoon@usm.edu
+  staff_count: 5
+  coach_status: changed
+- name: South Carolina Gamecocks
+  slug: south-carolina-gamecocks
+  nickname: Gamecocks
+  abbreviation: SC
+  espn_id: "2579"
+  city: ""
+  state: SC
+  state_slug: south-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2579.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2579
+  head_coach: Lamont Paris
+  best_email: mgarvin3@scsu.edu
+  staff_count: 6
+  coach_status: changed
+- name: Tennessee Volunteers
+  slug: tennessee-volunteers
+  nickname: Volunteers
+  abbreviation: TENN
+  espn_id: "2633"
+  city: ""
+  state: TN
+  state_slug: tennessee
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southeastern Conference
+  conference_slug: southeastern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2633.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2633
+  head_coach: Rick Barnes
+  best_email: forbess@etsu.edu
+  staff_count: 6
+  coach_status: changed
+- name: Furman Paladins
+  slug: furman-paladins
+  nickname: Paladins
+  abbreviation: FUR
+  espn_id: "231"
+  city: ""
+  state: SC
+  state_slug: south-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southern Conference
+  conference_slug: southern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/231.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/231.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/231
+  head_coach: Bob Richey
+  best_email: bob.richey@furman.edu
+  staff_count: 10
+  coach_status: verified
+- name: Chattanooga Mocs
+  slug: chattanooga-mocs
+  nickname: Mocs
+  abbreviation: UTC
+  espn_id: "236"
+  city: ""
+  state: TN
+  state_slug: tennessee
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southern Conference
+  conference_slug: southern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/236.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/236.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/236
+  head_coach: Dan Earl
+  best_email: lamont-paris@utc.edu
+  staff_count: 6
+  coach_status: changed
+- name: East Tennessee State Buccaneers
+  slug: east-tennessee-state-buccaneers
+  nickname: Buccaneers
+  abbreviation: ETSU
+  espn_id: "2193"
+  city: ""
+  state: TN
+  state_slug: tennessee
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southern Conference
+  conference_slug: southern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2193.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2193.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2193
+  head_coach: Brooks Savage
+  best_email: savagebt@etsu.edu
+  staff_count: 6
+  coach_status: changed
+- name: Mercer Bears
+  slug: mercer-bears
+  nickname: Bears
+  abbreviation: MER
+  espn_id: "2382"
+  city: ""
+  state: GA
+  state_slug: georgia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southern Conference
+  conference_slug: southern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2382.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2382
+  head_coach: Ryan Ridder
+  best_email: gary_gg@mercer.edu
+  staff_count: 5
+  coach_status: changed
+- name: UNC Greensboro Spartans
+  slug: unc-greensboro-spartans
+  nickname: Spartans
+  abbreviation: UNCG
+  espn_id: "2430"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southern Conference
+  conference_slug: southern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2430.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2430
+  head_coach: Mike Jones
+  best_email: argray2@uncg.edu
+  staff_count: 4
+  coach_status: changed
+- name: Samford Bulldogs
+  slug: samford-bulldogs
+  nickname: Bulldogs
+  abbreviation: SAM
+  espn_id: "2535"
+  city: ""
+  state: AL
+  state_slug: alabama
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southern Conference
+  conference_slug: southern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2535.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2535
+  head_coach: Bucky McMillan
+  best_email: bmcmilla@samford.edu
+  staff_count: 12
+  coach_status: changed
+- name: The Citadel Bulldogs
+  slug: the-citadel-bulldogs
+  nickname: Bulldogs
+  abbreviation: CIT
+  espn_id: "2643"
+  city: ""
+  state: SC
+  state_slug: south-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southern Conference
+  conference_slug: southern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2643.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2643.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2643
+  head_coach: Ed Conroy
+  best_email: rbaucom1@citadel.edu
+  staff_count: 5
+  coach_status: changed
+- name: VMI Keydets
+  slug: vmi-keydets
+  nickname: Keydets
+  abbreviation: VMI
+  espn_id: "2678"
+  city: ""
+  state: VA
+  state_slug: virginia
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southern Conference
+  conference_slug: southern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2678.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2678.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2678
+  head_coach: Andrew Wilson
+  best_email: earlmd@vmi.edu
+  staff_count: 5
+  coach_status: changed
+- name: Western Carolina Catamounts
+  slug: western-carolina-catamounts
+  nickname: Catamounts
+  abbreviation: WCU
+  espn_id: "2717"
+  city: ""
+  state: NC
+  state_slug: north-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southern Conference
+  conference_slug: southern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2717.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2717.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2717
+  head_coach: Tim Craft
+  best_email: mprosser@email.wcu.edu
+  staff_count: 10
+  coach_status: changed
+- name: Wofford Terriers
+  slug: wofford-terriers
+  nickname: Terriers
+  abbreviation: WOF
+  espn_id: "2747"
+  city: ""
+  state: SC
+  state_slug: south-carolina
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southern Conference
+  conference_slug: southern-conference
+  color: ""
+  alt_color: ""
+  logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png
+  logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2747.png
+  espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2747
+  head_coach: Dwight Perry
+  best_email: perrydd@wofford.edu
+  staff_count: 5
+  coach_status: patched

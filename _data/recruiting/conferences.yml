@@ -1,0 +1,499 @@
+- name: America East Conference
+  abbreviation: aeast
+  slug: america-east-conference
+  division: D1
+  school_count: 9
+  seo_title: America East Conference Basketball Programs
+  seo_description: All America East Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - New Hampshire Wildcats
+    - Vermont Catamounts
+    - Maine Black Bears
+    - UAlbany Great Danes
+    - Binghamton Bearcats
+    - UMass Lowell River Hawks
+    - UMBC Retrievers
+    - Bryant Bulldogs
+    - NJIT Highlanders
+- name: American Conference
+  abbreviation: American
+  slug: american-conference
+  division: D1
+  school_count: 13
+  seo_title: American Conference Basketball Programs
+  seo_description: All American Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - UAB Blazers
+    - South Florida Bulls
+    - East Carolina Pirates
+    - Tulsa Golden Hurricane
+    - Temple Owls
+    - Memphis Tigers
+    - Rice Owls
+    - North Texas Mean Green
+    - Florida Atlantic Owls
+    - Charlotte 49ers
+    - UTSA Roadrunners
+    - Tulane Green Wave
+    - Wichita State Shockers
+- name: ASUN Conference
+  abbreviation: a-sun
+  slug: asun-conference
+  division: D1
+  school_count: 12
+  seo_title: ASUN Conference Basketball Programs
+  seo_description: All ASUN Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Stetson Hatters
+    - Bellarmine Knights
+    - Lipscomb Bisons
+    - Jacksonville Dolphins
+    - Florida Gulf Coast Eagles
+    - Austin Peay Governors
+    - Central Arkansas Bears
+    - Eastern Kentucky Colonels
+    - North Alabama Lions
+    - North Florida Ospreys
+    - Queens University Royals
+    - West Georgia Wolves
+- name: Atlantic 10 Conference
+  abbreviation: atl10
+  slug: atlantic-10-conference
+  division: D1
+  school_count: 14
+  seo_title: Atlantic 10 Conference Basketball Programs
+  seo_description: All Atlantic 10 Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - George Washington Revolutionaries
+    - Saint Louis Billikens
+    - St. Bonaventure Bonnies
+    - Rhode Island Rams
+    - Richmond Spiders
+    - Davidson Wildcats
+    - Dayton Flyers
+    - Duquesne Dukes
+    - Fordham Rams
+    - George Mason Patriots
+    - La Salle Explorers
+    - Loyola Chicago Ramblers
+    - Saint Joseph's Hawks
+    - VCU Rams
+- name: Atlantic Coast Conference
+  abbreviation: acc
+  slug: atlantic-coast-conference
+  division: D1
+  school_count: 18
+  seo_title: Atlantic Coast Conference Basketball Programs
+  seo_description: All Atlantic Coast Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Stanford Cardinal
+    - California Golden Bears
+    - Florida State Seminoles
+    - Georgia Tech Yellow Jackets
+    - Notre Dame Fighting Irish
+    - Louisville Cardinals
+    - Boston College Eagles
+    - Duke Blue Devils
+    - NC State Wolfpack
+    - North Carolina Tar Heels
+    - Wake Forest Demon Deacons
+    - Syracuse Orange
+    - Pittsburgh Panthers
+    - Clemson Tigers
+    - Virginia Cavaliers
+    - Virginia Tech Hokies
+    - Miami Hurricanes
+    - SMU Mustangs
+- name: Big 12 Conference
+  abbreviation: big12
+  slug: big-12-conference
+  division: D1
+  school_count: 16
+  seo_title: Big 12 Conference Basketball Programs
+  seo_description: All Big 12 Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Arizona State Sun Devils
+    - Arizona Wildcats
+    - Colorado Buffaloes
+    - Iowa State Cyclones
+    - Oklahoma State Cowboys
+    - Baylor Bears
+    - Houston Cougars
+    - BYU Cougars
+    - Utah Utes
+    - West Virginia Mountaineers
+    - UCF Knights
+    - Cincinnati Bearcats
+    - Kansas Jayhawks
+    - Kansas State Wildcats
+    - TCU Horned Frogs
+    - Texas Tech Red Raiders
+- name: Big East Conference
+  abbreviation: bige
+  slug: big-east-conference
+  division: D1
+  school_count: 11
+  seo_title: Big East Conference Basketball Programs
+  seo_description: All Big East Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - UConn Huskies
+    - Georgetown Hoyas
+    - Creighton Bluejays
+    - Villanova Wildcats
+    - Marquette Golden Eagles
+    - DePaul Blue Demons
+    - Butler Bulldogs
+    - Providence Friars
+    - Seton Hall Pirates
+    - St. John's Red Storm
+    - Xavier Musketeers
+- name: Big Sky Conference
+  abbreviation: bsky
+  slug: big-sky-conference
+  division: D1
+  school_count: 10
+  seo_title: Big Sky Conference Basketball Programs
+  seo_description: All Big Sky Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Sacramento State Hornets
+    - Idaho Vandals
+    - Montana State Bobcats
+    - Montana Grizzlies
+    - Idaho State Bengals
+    - Eastern Washington Eagles
+    - Northern Colorado Bears
+    - Northern Arizona Lumberjacks
+    - Portland State Vikings
+    - Weber State Wildcats
+- name: Big South Conference
+  abbreviation: bsou
+  slug: big-south-conference
+  division: D1
+  school_count: 9
+  seo_title: Big South Conference Basketball Programs
+  seo_description: All Big South Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Charleston Southern Buccaneers
+    - Gardner-Webb Runnin' Bulldogs
+    - High Point Panthers
+    - Longwood Lancers
+    - UNC Asheville Bulldogs
+    - Presbyterian Blue Hose
+    - Radford Highlanders
+    - Winthrop Eagles
+    - South Carolina Upstate Spartans
+- name: Big Ten Conference
+  abbreviation: big10
+  slug: big-ten-conference
+  division: D1
+  school_count: 18
+  seo_title: Big Ten Conference Basketball Programs
+  seo_description: All Big Ten Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - UCLA Bruins
+    - USC Trojans
+    - Northwestern Wildcats
+    - Indiana Hoosiers
+    - Maryland Terrapins
+    - Michigan State Spartans
+    - Michigan Wolverines
+    - Minnesota Golden Gophers
+    - Nebraska Cornhuskers
+    - Rutgers Scarlet Knights
+    - Ohio State Buckeyes
+    - Penn State Nittany Lions
+    - Washington Huskies
+    - Wisconsin Badgers
+    - Illinois Fighting Illini
+    - Iowa Hawkeyes
+    - Oregon Ducks
+    - Purdue Boilermakers
+- name: Big West Conference
+  abbreviation: bigw
+  slug: big-west-conference
+  division: D1
+  school_count: 11
+  seo_title: Big West Conference Basketball Programs
+  seo_description: All Big West Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Cal Poly Mustangs
+    - UC Riverside Highlanders
+    - UC San Diego Tritons
+    - Hawai'i Rainbow Warriors
+    - Long Beach State Beach
+    - UC Irvine Anteaters
+    - UC Davis Aggies
+    - Cal State Fullerton Titans
+    - Cal State Northridge Matadors
+    - UC Santa Barbara Gauchos
+    - Cal State Bakersfield Roadrunners
+- name: Coastal Athletic Association
+  abbreviation: col
+  slug: coastal-athletic-association
+  division: D1
+  school_count: 13
+  seo_title: Coastal Athletic Association Basketball Programs
+  seo_description: All Coastal Athletic Association men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Northeastern Huskies
+    - Towson Tigers
+    - Charleston Cougars
+    - UNC Wilmington Seahawks
+    - Campbell Fighting Camels
+    - Drexel Dragons
+    - Elon Phoenix
+    - Hampton Pirates
+    - Hofstra Pride
+    - Monmouth Hawks
+    - North Carolina A&T Aggies
+    - Stony Brook Seawolves
+    - William & Mary Tribe
+- name: Conference USA
+  abbreviation: usa
+  slug: conference-usa
+  division: D1
+  school_count: 12
+  seo_title: Conference USA Basketball Programs
+  seo_description: All Conference USA men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Delaware Blue Hens
+    - Jacksonville State Gamecocks
+    - Western Kentucky Hilltoppers
+    - New Mexico State Aggies
+    - Kennesaw State Owls
+    - Florida International Panthers
+    - Liberty Flames
+    - Louisiana Tech Bulldogs
+    - Middle Tennessee Blue Raiders
+    - Sam Houston Bearkats
+    - Missouri State Bears
+    - UTEP Miners
+- name: Horizon League
+  abbreviation: hor
+  slug: horizon-league
+  division: D1
+  school_count: 11
+  seo_title: Horizon League Basketball Programs
+  seo_description: All Horizon League men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - IU Indianapolis Jaguars
+    - Northern Kentucky Norse
+    - Milwaukee Panthers
+    - Cleveland State Vikings
+    - Detroit Mercy Titans
+    - Oakland Golden Grizzlies
+    - Robert Morris Colonials
+    - Green Bay Phoenix
+    - Wright State Raiders
+    - Youngstown State Penguins
+    - Purdue Fort Wayne Mastodons
+- name: Ivy League
+  abbreviation: ivy
+  slug: ivy-league
+  division: D1
+  school_count: 8
+  seo_title: Ivy League Basketball Programs
+  seo_description: All Ivy League men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Yale Bulldogs
+    - Harvard Crimson
+    - Dartmouth Big Green
+    - Princeton Tigers
+    - Columbia Lions
+    - Cornell Big Red
+    - Pennsylvania Quakers
+    - Brown Bears
+- name: Metro Atlantic Athletic Conference
+  abbreviation: maac
+  slug: metro-atlantic-athletic-conference
+  division: D1
+  school_count: 13
+  seo_title: Metro Atlantic Athletic Conference Basketball Programs
+  seo_description: All Metro Atlantic Athletic Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Mount St. Mary's Mountaineers
+    - Iona Gaels
+    - Niagara Purple Eagles
+    - Canisius Golden Griffins
+    - Fairfield Stags
+    - Manhattan Jaspers
+    - Marist Red Foxes
+    - Quinnipiac Bobcats
+    - Rider Broncs
+    - Sacred Heart Pioneers
+    - Siena Saints
+    - Saint Peter's Peacocks
+    - Merrimack Warriors
+- name: Mid-American Conference
+  abbreviation: midam
+  slug: mid-american-conference
+  division: D1
+  school_count: 13
+  seo_title: Mid-American Conference Basketball Programs
+  seo_description: All Mid-American Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Massachusetts Minutemen
+    - Bowling Green Falcons
+    - Miami (OH) RedHawks
+    - Ohio Bobcats
+    - Akron Zips
+    - Ball State Cardinals
+    - Buffalo Bulls
+    - Central Michigan Chippewas
+    - Eastern Michigan Eagles
+    - Kent State Golden Flashes
+    - Northern Illinois Huskies
+    - Toledo Rockets
+    - Western Michigan Broncos
+- name: Mid-Eastern Athletic Conference
+  abbreviation: meac
+  slug: mid-eastern-athletic-conference
+  division: D1
+  school_count: 8
+  seo_title: Mid-Eastern Athletic Conference Basketball Programs
+  seo_description: All Mid-Eastern Athletic Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Howard Bison
+    - Coppin State Eagles
+    - Delaware State Hornets
+    - Maryland Eastern Shore Hawks
+    - Morgan State Bears
+    - North Carolina Central Eagles
+    - Norfolk State Spartans
+    - South Carolina State Bulldogs
+- name: Missouri Valley Conference
+  abbreviation: mvc
+  slug: missouri-valley-conference
+  division: D1
+  school_count: 11
+  seo_title: Missouri Valley Conference Basketball Programs
+  seo_description: All Missouri Valley Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Bradley Braves
+    - Southern Illinois Salukis
+    - UIC Flames
+    - Murray State Racers
+    - Indiana State Sycamores
+    - Evansville Purple Aces
+    - Belmont Bruins
+    - Drake Bulldogs
+    - Illinois State Redbirds
+    - Northern Iowa Panthers
+    - Valparaiso Beacons
+- name: Mountain West Conference
+  abbreviation: mwest
+  slug: mountain-west-conference
+  division: D1
+  school_count: 12
+  seo_title: Mountain West Conference Basketball Programs
+  seo_description: All Mountain West Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - San Diego State Aztecs
+    - San José State Spartans
+    - Colorado State Rams
+    - Boise State Broncos
+    - New Mexico Lobos
+    - Fresno State Bulldogs
+    - Utah State Aggies
+    - Air Force Falcons
+    - Grand Canyon Lopes
+    - UNLV Rebels
+    - Nevada Wolf Pack
+    - Wyoming Cowboys
+- name: Northeast Conference
+  abbreviation: neast
+  slug: northeast-conference
+  division: D1
+  school_count: 10
+  seo_title: Northeast Conference Basketball Programs
+  seo_description: All Northeast Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Fairleigh Dickinson Knights
+    - Stonehill Skyhawks
+    - Central Connecticut Blue Devils
+    - Chicago State Cougars
+    - Le Moyne Dolphins
+    - Mercyhurst Lakers
+    - New Haven Chargers
+    - Saint Francis Red Flash
+    - Wagner Seahawks
+    - Long Island University Sharks
+- name: Ohio Valley Conference
+  abbreviation: ovc
+  slug: ohio-valley-conference
+  division: D1
+  school_count: 11
+  seo_title: Ohio Valley Conference Basketball Programs
+  seo_description: All Ohio Valley Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Southern Indiana Screaming Eagles
+    - Little Rock Trojans
+    - Eastern Illinois Panthers
+    - Morehead State Eagles
+    - Southeast Missouri State Redhawks
+    - SIU Edwardsville Cougars
+    - UT Martin Skyhawks
+    - Tennessee State Tigers
+    - Tennessee Tech Golden Eagles
+    - Western Illinois Leathernecks
+    - Lindenwood Lions
+- name: Patriot League
+  abbreviation: pat
+  slug: patriot-league
+  division: D1
+  school_count: 10
+  seo_title: Patriot League Basketball Programs
+  seo_description: All Patriot League men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - American University Eagles
+    - Boston University Terriers
+    - Holy Cross Crusaders
+    - Lafayette Leopards
+    - Army Black Knights
+    - Bucknell Bison
+    - Colgate Raiders
+    - Lehigh Mountain Hawks
+    - Loyola Maryland Greyhounds
+    - Navy Midshipmen
+- name: Southeastern Conference
+  abbreviation: sec
+  slug: southeastern-conference
+  division: D1
+  school_count: 16
+  seo_title: Southeastern Conference Basketball Programs
+  seo_description: All Southeastern Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Auburn Tigers
+    - Arkansas Razorbacks
+    - Florida Gators
+    - Georgia Bulldogs
+    - Kentucky Wildcats
+    - LSU Tigers
+    - Missouri Tigers
+    - Ole Miss Rebels
+    - Oklahoma Sooners
+    - Vanderbilt Commodores
+    - Texas A&M Aggies
+    - Texas Longhorns
+    - Alabama Crimson Tide
+    - Mississippi State Bulldogs
+    - South Carolina Gamecocks
+    - Tennessee Volunteers
+- name: Southern Conference
+  abbreviation: south
+  slug: southern-conference
+  division: D1
+  school_count: 10
+  seo_title: Southern Conference Basketball Programs
+  seo_description: All Southern Conference men's basketball programs — complete roster, locations, and recruiting information.
+  schools:
+    - Furman Paladins
+    - Chattanooga Mocs
+    - East Tennessee State Buccaneers
+    - Mercer Bears
+    - UNC Greensboro Spartans
+    - Samford Bulldogs
+    - The Citadel Bulldogs
+    - VMI Keydets
+    - Western Carolina Catamounts
+    - Wofford Terriers
