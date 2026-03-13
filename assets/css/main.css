@@ -7806,6 +7806,29 @@ iframe { max-width: 100%; }
   margin: 0 auto 2.5rem;
 }
 .recruit-intro.prose p { margin-bottom: 1rem; }
+.recruit-intro.prose ul,
+.recruit-intro.prose ol { list-style: disc; padding-left: 1.4rem; margin-bottom: 1.1rem; }
+.recruit-intro.prose ol { list-style: decimal; }
+.recruit-intro.prose li { margin-bottom: 0.4rem; line-height: 1.8; font-size: 0.97rem; color: #334; }
+.recruit-intro.prose h2 { font-size: 1.4rem; font-weight: 800; color: var(--navy); border-bottom: 3px solid var(--red); padding-bottom: 0.4rem; margin: 2.2rem 0 1rem; }
+.recruit-intro.prose h3 { font-size: 1.05rem; font-weight: 700; color: var(--navy); margin: 1.5rem 0 0.5rem; }
+.recruit-intro.prose strong { color: var(--navy); font-weight: 700; }
+
+/* ── Division page stat row ── */
+.div-stat-row { display: flex; gap: 1.25rem; flex-wrap: wrap; margin: 1.5rem 0 2rem; }
+.div-stat-box { flex: 1; min-width: 120px; background: var(--navy); color: #fff; border-radius: 12px; padding: 1.1rem 1rem; text-align: center; }
+.div-stat-box .num { display: block; font-size: 1.85rem; font-weight: 900; color: #e63946; line-height: 1; }
+.div-stat-box .lbl { display: block; font-size: 0.75rem; color: #aac; margin-top: 0.35rem; letter-spacing: 0.03em; text-transform: uppercase; }
+
+/* ── Division page callout box ── */
+.div-callout { background: #f0f2f7; border-left: 4px solid var(--red); border-radius: 0 10px 10px 0; padding: 1.2rem 1.5rem; margin: 1.5rem 0; }
+.div-callout p { margin: 0; font-size: 0.95rem; line-height: 1.7; color: #334; }
+
+@media (max-width: 600px) {
+  .div-stat-row { gap: 0.75rem; }
+  .div-stat-box { min-width: calc(50% - 0.375rem); }
+  .div-stat-box .num { font-size: 1.5rem; }
+}
 
 /* ── Responsive ── */
 @media (max-width: 768px) {

@@ -14,7 +14,7 @@ layout: default
         <span class="recruit-stat-label">Programs Listed</span>
       </div>
       <div class="recruit-stat">
-        <span class="recruit-stat-num">5</span>
+        <span class="recruit-stat-num">6</span>
         <span class="recruit-stat-label">Divisions</span>
       </div>
       <div class="recruit-stat">
@@ -58,7 +58,9 @@ layout: default
             {% elsif div.id == 'D2' %}🥈
             {% elsif div.id == 'D3' %}🎓
             {% elsif div.id == 'NAIA' %}⭐
-            {% else %}⚡{% endif %}
+            {% elsif div.id == 'JUCO' %}⚡
+            {% elsif div.id == 'USCAA' %}🏫
+            {% else %}🏀{% endif %}
           </div>
           <h3>{{ div.label }}</h3>
           <p>{{ div.description }}</p>

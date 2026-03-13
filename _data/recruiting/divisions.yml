@@ -29,7 +29,14 @@
 - id: JUCO
   label: JUCO / NJCAA
   slug: juco-basketball-programs
-  description: Junior college basketball — the fastest route to D1. 500+ programs, 2-year eligibility, academically flexible.
+  description: Junior college basketball — the fastest route to D1. 525+ programs, 2-year eligibility, academically flexible.
   school_count: 0
   seo_title: JUCO / NJCAA Basketball Programs — Complete List
   seo_description: Browse every JUCO / NJCAA men's basketball program. Filter by state, conference, and more.
+- id: USCAA
+  label: USCAA
+  slug: uscaa-basketball-programs
+  description: Small and specialized colleges outside the NCAA and NAIA footprint. 110+ programs, four years of eligibility, independent certification process.
+  school_count: 0
+  seo_title: USCAA Basketball Programs — Complete List
+  seo_description: Browse USCAA men's basketball programs by state. 110+ programs at small colleges across two divisions.
