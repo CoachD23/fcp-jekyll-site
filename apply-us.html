@@ -98,6 +98,15 @@ sitemap: false
             <input type="tel" id="phone" name="phone" class="apply-input" required />
           </div>
         </div>
+        <div class="apply-nav apply-nav-both">
+          <button type="button" class="btn-apply-back" onclick="goToStep(1)">&larr; Back</button>
+          <button type="button" class="btn-apply-next" onclick="if(validateAndGo(2,3)) captureLeadUS()">Next &rarr;</button>
+        </div>
+      </div>
+
+      <!-- STEP 3: ACADEMIC INFORMATION -->
+      <div class="apply-step" id="step3" style="display:none">
+        <h2 class="apply-step-title">Academic Information</h2>
         <div class="apply-row">
           <div class="apply-field">
             <label class="apply-label" for="dob">Date of Birth <span class="req-star">*</span></label>
@@ -122,15 +131,6 @@ sitemap: false
           <label class="apply-label" for="highlightTape">Highlight Tape URL</label>
           <input type="url" id="highlightTape" name="highlight-tape" class="apply-input" placeholder="https://youtube.com/..." />
         </div>
-        <div class="apply-nav apply-nav-both">
-          <button type="button" class="btn-apply-back" onclick="goToStep(1)">&larr; Back</button>
-          <button type="button" class="btn-apply-next" onclick="if(validateAndGo(2,3)) captureLeadUS()">Next &rarr;</button>
-        </div>
-      </div>
-
-      <!-- STEP 3: ACADEMIC INFORMATION -->
-      <div class="apply-step" id="step3" style="display:none">
-        <h2 class="apply-step-title">Academic Information</h2>
         <div class="apply-field-group">
           <label class="apply-label" for="hsName">High School Name</label>
           <input type="text" id="hsName" name="hs-name" class="apply-input" placeholder="High School Name" />
