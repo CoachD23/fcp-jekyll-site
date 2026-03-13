@@ -1,0 +1,471 @@
+---
+layout: default
+title: "Gym Liability Waiver | Florida Coastal Prep"
+description: "Sign the FCP gym liability waiver online. Required before using the Spartan Training Center facilities at Florida Coastal Prep."
+og_image: /assets/images/training/gym-main.jpg
+permalink: /waiver/
+---
+
+<style>
+  /* ── Waiver page styles ──────────────────────────────── */
+  .waiver-hero {
+    background: var(--navy, #1a1a2e);
+    color: #fff;
+    padding: 3rem 1.5rem 2.5rem;
+    text-align: center;
+  }
+  .waiver-hero h1 {
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    margin: 0 0 0.5rem;
+    color: #fff;
+  }
+  .waiver-hero p {
+    color: rgba(255,255,255,0.75);
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .waiver-wrap {
+    max-width: 760px;
+    margin: 2.5rem auto 4rem;
+    padding: 0 1.25rem;
+  }
+
+  /* Legal text box */
+  .waiver-text {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1.5rem 1.75rem;
+    font-size: 0.82rem;
+    line-height: 1.7;
+    color: #333;
+    max-height: 280px;
+    overflow-y: auto;
+    margin-bottom: 2rem;
+  }
+  .waiver-text h2 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0 0 0.75rem;
+    color: #1a1a2e;
+  }
+  .waiver-text p { margin: 0 0 0.75rem; }
+  .waiver-text p:last-child { margin: 0; }
+
+  /* Form */
+  .waiver-form .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .waiver-form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    margin-bottom: 1rem;
+  }
+  .waiver-form label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1a1a2e;
+  }
+  .waiver-form label .req {
+    color: #b22234;
+    margin-left: 2px;
+  }
+  .waiver-form input {
+    padding: 0.65rem 0.85rem;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    transition: border-color 0.2s;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .waiver-form input:focus {
+    outline: none;
+    border-color: #b22234;
+  }
+
+  /* Signature pad */
+  .sig-block {
+    margin-bottom: 1.5rem;
+  }
+  .sig-block label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 0.4rem;
+  }
+  .sig-block label .req { color: #b22234; margin-left: 2px; }
+  .sig-canvas-wrap {
+    position: relative;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    overflow: hidden;
+    touch-action: none;
+  }
+  .sig-canvas-wrap canvas {
+    display: block;
+    width: 100%;
+    cursor: crosshair;
+  }
+  .sig-placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 0.9rem;
+    pointer-events: none;
+    user-select: none;
+  }
+  .sig-actions {
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sig-clear {
+    background: none;
+    border: none;
+    color: #b22234;
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 0.2rem 0.4rem;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  /* Submit area */
+  .waiver-submit-wrap {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  .btn-waiver {
+    background: #b22234;
+    color: #fff;
+    border: none;
+    padding: 0.9rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    transition: background 0.2s, opacity 0.2s;
+  }
+  .btn-waiver:hover { background: #8e1a27; }
+  .btn-waiver:disabled { opacity: 0.55; cursor: not-allowed; }
+
+  /* Error message */
+  .waiver-error {
+    background: #fef2f2;
+    border: 1px solid #f5c0c0;
+    color: #8b1a1a;
+    border-radius: 5px;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    display: none;
+  }
+  .waiver-error.visible { display: block; }
+
+  /* Success screen */
+  .waiver-success {
+    display: none;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  .waiver-success.visible { display: block; }
+  .waiver-success .check-icon {
+    width: 64px;
+    height: 64px;
+    background: #2e7d32;
+    border-radius: 50%;
+    margin: 0 auto 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .waiver-success .check-icon svg {
+    width: 36px;
+    height: 36px;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .waiver-success h2 {
+    color: #1a1a2e;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .waiver-success p {
+    color: #555;
+    max-width: 440px;
+    margin: 0 auto;
+  }
+
+  /* Honeypot */
+  .hp-field { display: none !important; }
+
+  @media (max-width: 600px) {
+    .waiver-form .form-row {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<section class="waiver-hero">
+  <h1>Gym Liability Waiver</h1>
+  <p>Required before using the Spartan Training Center</p>
+</section>
+
+<div class="waiver-wrap">
+
+  <!-- Legal waiver text -->
+  <div class="waiver-text">
+    <h2>Florida Coastal Prep — Gym Liability Waiver & Release</h2>
+    <p>In consideration of being permitted to use the facilities, equipment, and programs of Florida Coastal Prep ("FCP"), I hereby agree to the following:</p>
+    <p><strong>1. Assumption of Risk.</strong> I acknowledge that physical exercise and use of gym equipment carries inherent risks, including but not limited to physical injury, muscle strains, cardiovascular events, and other health complications. I voluntarily assume all such risks associated with my participation and use of FCP facilities.</p>
+    <p><strong>2. Release of Liability.</strong> I, on behalf of myself, my heirs, personal representatives, and assigns, hereby release, waive, and discharge Florida Coastal Prep, its owners, officers, coaches, employees, agents, and volunteers from any and all claims, demands, losses, damages, and causes of action arising from my use of FCP gym facilities and equipment, whether caused by the negligence of FCP or otherwise.</p>
+    <p><strong>3. Medical Fitness.</strong> I represent that I am in good physical health and have no medical conditions that would prevent safe participation in physical exercise. I agree to consult a physician before beginning any exercise program if I have any doubts about my fitness level.</p>
+    <p><strong>4. Rules and Conduct.</strong> I agree to follow all FCP facility rules and staff instructions. I understand that failure to follow rules may result in removal from the facility. I accept responsibility for any damage I cause to FCP equipment or property.</p>
+    <p><strong>5. Emergency Treatment.</strong> I consent to emergency medical treatment in the event that I am incapacitated and unable to make decisions. I understand that FCP is not responsible for any costs related to such treatment.</p>
+    <p><strong>6. Governing Law.</strong> This agreement shall be governed by the laws of the State of Florida. If any provision is found unenforceable, the remaining provisions shall remain in full force and effect.</p>
+    <p>By signing below, I confirm that I have read, understand, and agree to the terms of this waiver. I acknowledge that this is a binding legal agreement and I am signing it freely and voluntarily.</p>
+  </div>
+
+  <!-- Form (hidden once submitted) -->
+  <div id="waiver-form-wrap">
+    <form class="waiver-form" id="waiverForm" novalidate>
+
+      <!-- Honeypot -->
+      <div class="hp-field" aria-hidden="true">
+        <input type="text" name="botField" id="botField" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="w-first-name">First Name <span class="req">*</span></label>
+          <input type="text" id="w-first-name" name="firstName" required autocomplete="given-name" placeholder="John">
+        </div>
+        <div class="form-group">
+          <label for="w-last-name">Last Name <span class="req">*</span></label>
+          <input type="text" id="w-last-name" name="lastName" required autocomplete="family-name" placeholder="Smith">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="w-email">Email Address <span class="req">*</span></label>
+        <input type="email" id="w-email" name="email" required autocomplete="email" placeholder="john@example.com">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="w-phone">Phone Number</label>
+          <input type="tel" id="w-phone" name="phone" autocomplete="tel" placeholder="(555) 123-4567">
+        </div>
+        <div class="form-group">
+          <label for="w-dob">Date of Birth</label>
+          <input type="date" id="w-dob" name="dob" autocomplete="bday">
+        </div>
+      </div>
+
+      <!-- Signature pad -->
+      <div class="sig-block">
+        <label>Signature <span class="req">*</span></label>
+        <div class="sig-canvas-wrap" id="sigWrap">
+          <canvas id="sigCanvas" height="160"></canvas>
+          <div class="sig-placeholder" id="sigPlaceholder">Draw your signature here</div>
+        </div>
+        <div class="sig-actions">
+          <button type="button" class="sig-clear" id="sigClear">Clear signature</button>
+        </div>
+      </div>
+
+      <div class="waiver-submit-wrap">
+        <button type="submit" class="btn-waiver" id="waiverSubmit">
+          I Agree &amp; Submit Waiver
+        </button>
+      </div>
+
+      <div class="waiver-error" id="waiverError" role="alert"></div>
+
+    </form>
+  </div>
+
+  <!-- Success screen -->
+  <div class="waiver-success" id="waiverSuccess">
+    <div class="check-icon">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <polyline points="20 6 9 17 4 12"></polyline>
+      </svg>
+    </div>
+    <h2>Waiver Signed!</h2>
+    <p>Thank you — your gym liability waiver has been recorded. You're all set to use the Spartan Training Center.</p>
+  </div>
+
+</div><!-- /.waiver-wrap -->
+
+<script>
+(function () {
+  'use strict';
+
+  /* ── Signature pad ─────────────────────────────────── */
+  const canvas    = document.getElementById('sigCanvas');
+  const wrap      = document.getElementById('sigWrap');
+  const hint      = document.getElementById('sigPlaceholder');
+  const clearBtn  = document.getElementById('sigClear');
+  const ctx       = canvas.getContext('2d');
+  let drawing     = false;
+  let hasMark     = false;
+
+  function resizeCanvas() {
+    const rect = wrap.getBoundingClientRect();
+    const ratio = window.devicePixelRatio || 1;
+    canvas.width  = rect.width  * ratio;
+    canvas.height = canvas.offsetHeight * ratio;
+    ctx.scale(ratio, ratio);
+    ctx.strokeStyle = '#1a1a2e';
+    ctx.lineWidth   = 2;
+    ctx.lineCap     = 'round';
+    ctx.lineJoin    = 'round';
+  }
+
+  function getPos(e) {
+    const rect = canvas.getBoundingClientRect();
+    const src  = e.touches ? e.touches[0] : e;
+    return {
+      x: (src.clientX - rect.left),
+      y: (src.clientY - rect.top),
+    };
+  }
+
+  function start(e) {
+    e.preventDefault();
+    drawing = true;
+    const p = getPos(e);
+    ctx.beginPath();
+    ctx.moveTo(p.x, p.y);
+  }
+
+  function move(e) {
+    if (!drawing) return;
+    e.preventDefault();
+    const p = getPos(e);
+    ctx.lineTo(p.x, p.y);
+    ctx.stroke();
+    if (!hasMark) {
+      hasMark = true;
+      hint.style.display = 'none';
+    }
+  }
+
+  function stop(e) {
+    e.preventDefault();
+    drawing = false;
+  }
+
+  canvas.addEventListener('mousedown',  start,  { passive: false });
+  canvas.addEventListener('mousemove',  move,   { passive: false });
+  canvas.addEventListener('mouseup',    stop,   { passive: false });
+  canvas.addEventListener('mouseleave', stop,   { passive: false });
+  canvas.addEventListener('touchstart', start,  { passive: false });
+  canvas.addEventListener('touchmove',  move,   { passive: false });
+  canvas.addEventListener('touchend',   stop,   { passive: false });
+
+  clearBtn.addEventListener('click', function () {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    hasMark = false;
+    hint.style.display = '';
+  });
+
+  function isBlank() {
+    const data = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
+    for (let i = 3; i < data.length; i += 4) {
+      if (data[i] > 10) return false;
+    }
+    return true;
+  }
+
+  window.addEventListener('resize', function () {
+    if (!hasMark) resizeCanvas();
+  });
+
+  resizeCanvas();
+
+  /* ── Form submission ──────────────────────────────── */
+  const form      = document.getElementById('waiverForm');
+  const submitBtn = document.getElementById('waiverSubmit');
+  const errorBox  = document.getElementById('waiverError');
+  const formWrap  = document.getElementById('waiver-form-wrap');
+  const successEl = document.getElementById('waiverSuccess');
+
+  function showError(msg) {
+    errorBox.textContent = msg;
+    errorBox.classList.add('visible');
+  }
+  function clearError() {
+    errorBox.classList.remove('visible');
+  }
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    clearError();
+
+    const firstName = document.getElementById('w-first-name').value.trim();
+    const lastName  = document.getElementById('w-last-name').value.trim();
+    const email     = document.getElementById('w-email').value.trim();
+    const phone     = document.getElementById('w-phone').value.trim();
+    const dob       = document.getElementById('w-dob').value;
+    const botField  = document.getElementById('botField').value;
+
+    if (!firstName || !lastName || !email) {
+      showError('Please fill in your first name, last name, and email address.');
+      return;
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      showError('Please enter a valid email address.');
+      return;
+    }
+    if (isBlank()) {
+      showError('Please sign in the signature box before submitting.');
+      return;
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Submitting…';
+
+    const signature = canvas.toDataURL('image/png');
+
+    try {
+      const res = await fetch('/.netlify/functions/submit-waiver', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ firstName, lastName, email, phone, dob, signature, botField }),
+      });
+
+      if (!res.ok) {
+        const text = await res.text();
+        throw new Error(text || 'Server error');
+      }
+
+      formWrap.style.display = 'none';
+      successEl.classList.add('visible');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    } catch (err) {
+      showError('Something went wrong. Please try again or contact us directly.');
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'I Agree & Submit Waiver';
+    }
+  });
+})();
+</script>
