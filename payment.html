@@ -337,6 +337,22 @@ sitemap: false
   var form = document.getElementById("fcp-payment-form");
   if (!form) return;
 
+  // ── Pre-fill from URL params (e.g., when coming from /apply/international/) ──
+  var _source = new URLSearchParams(window.location.search).get('source') || '';
+  (function prefillFromUrl() {
+    if (!_source) return;
+    var p = new URLSearchParams(window.location.search);
+    var fn = p.get('firstName') || '';
+    var ln = p.get('lastName')  || '';
+    var fullName = (fn + ' ' + ln).trim();
+    if (fullName) document.getElementById('pay-name').value  = fullName;
+    if (p.get('email')) document.getElementById('pay-email').value = p.get('email');
+    if (_source === 'intl-apply') {
+      document.getElementById('pay-purpose').value = 'Registration Fee';
+      document.getElementById('pay-amount').value  = '25';
+    }
+  })();
+
   // ── Card number formatting (add spaces every 4 digits) ──
   var cardInput = document.getElementById("pay-card");
   cardInput.addEventListener("input", function () {
@@ -449,7 +465,8 @@ sitemap: false
           billCity: city,
           billState: state,
           billZip: zip,
-          billCountry: country
+          billCountry: country,
+          source: _source
         })
       })
         .then(function (res) { return res.json(); })

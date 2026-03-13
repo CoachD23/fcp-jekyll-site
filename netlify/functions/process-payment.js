@@ -38,6 +38,55 @@ function sanitize(str, maxLen) {
   return str.replace(/[<>"'&]/g, "").trim().substring(0, maxLen);
 }
 
+// ── GHL: tag applicant as "applied" after successful payment ─────
+async function tagApplicantInGhl(email) {
+  var ghlApiKey = process.env.GHL_API_KEY;
+  var ghlLocationId = process.env.GHL_LOCATION_ID;
+  if (!ghlApiKey || !ghlLocationId) {
+    console.warn("[process-payment] GHL env vars missing — skipping tag");
+    return;
+  }
+
+  var ghlBase = "https://services.leadconnectorhq.com";
+  var ghlHeaders = {
+    Authorization: "Bearer " + ghlApiKey,
+    "Content-Type": "application/json",
+    Version: "2021-07-28"
+  };
+
+  // 1. Look up contact by email
+  var searchRes = await fetch(
+    ghlBase + "/contacts/?locationId=" + ghlLocationId + "&email=" + encodeURIComponent(email),
+    { headers: ghlHeaders }
+  );
+  if (!searchRes.ok) throw new Error("GHL search " + searchRes.status);
+  var searchData = await searchRes.json();
+  var contact = searchData.contacts && searchData.contacts[0];
+  if (!contact) throw new Error("GHL contact not found for " + email);
+  var contactId = contact.id;
+
+  // 2. Add "applied" tag
+  var addRes = await fetch(ghlBase + "/contacts/" + contactId + "/tags", {
+    method: "POST",
+    headers: ghlHeaders,
+    body: JSON.stringify({ tags: ["applied"] })
+  });
+  if (!addRes.ok) throw new Error("GHL addTag " + addRes.status);
+
+  // 3. Remove "Started Application - Incomplete" tag
+  var delRes = await fetch(ghlBase + "/contacts/" + contactId + "/tags", {
+    method: "DELETE",
+    headers: ghlHeaders,
+    body: JSON.stringify({ tags: ["Started Application - Incomplete"] })
+  });
+  if (!delRes.ok) {
+    // Non-fatal: log but don't throw — the "applied" tag already triggered the workflow
+    console.warn("[process-payment] Could not remove incomplete tag:", delRes.status);
+  }
+
+  console.log("[process-payment] GHL tagged as 'applied': contactId=" + contactId);
+}
+
 // ── Main handler ─────────────────────────────────────────────────
 exports.handler = async function (event) {
   var origin = event.headers.origin || event.headers.Origin || "";
@@ -79,6 +128,8 @@ exports.handler = async function (event) {
     var purpose = sanitize(body.purpose, 100);
     var email = sanitize(body.email, 255);
     var amount = parseFloat(body.amount);
+
+    var source = sanitize(body.source, 50);
 
     var billFirstName = sanitize(body.billFirstName, 50);
     var billLastName = sanitize(body.billLastName, 50);
@@ -241,6 +292,13 @@ exports.handler = async function (event) {
     ) {
       // Success — responseCode 1 = Approved
       console.log("Payment approved: txnId=" + txnResponse.transId + " amount=$" + amount.toFixed(2));
+
+      // Tag applicant in GHL if this payment came from the application form
+      if (source === "intl-apply" && email) {
+        try { await tagApplicantInGhl(email); }
+        catch (ghlErr) { console.error("[process-payment] GHL tagging failed:", ghlErr.message); }
+      }
+
       return {
         statusCode: 200,
         headers: headers,
