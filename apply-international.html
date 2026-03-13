@@ -381,14 +381,14 @@ sitemap: false
       var form = document.getElementById('netlify-hidden-form');
       var fields = ['program','first-name','last-name','email','phone','grad-year','position','country'];
       fields.forEach(function(id) {
-        var src = document.getElementById(id);
         var dst = form.querySelector('[name="' + id + '"]');
-        if (!src || !dst) return;
-        if (src.type === 'radio') {
-          var checked = document.querySelector('[name="' + id + '"]:checked');
+        if (!dst) return;
+        if (id === 'program') {
+          var checked = document.querySelector('[name="program"]:checked');
           dst.value = checked ? checked.value : '';
         } else {
-          dst.value = src.value || '';
+          var src = document.querySelector('#step1 [name="' + id + '"]');
+          dst.value = src ? src.value : '';
         }
       });
       var fd = new FormData(form);
