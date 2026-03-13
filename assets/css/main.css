@@ -7632,6 +7632,90 @@ iframe { max-width: 100%; }
   margin: 0;
 }
 
+/* ── Homepage Resource Cards ── */
+.recruiting-resources-section { padding-top: 2.5rem; padding-bottom: 3rem; }
+.resource-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+}
+.resource-card {
+  background: #fff;
+  border: 1px solid #e4e7f0;
+  border-radius: 12px;
+  padding: 1.5rem 1.4rem 1.75rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow .2s, border-color .2s, transform .15s;
+}
+.resource-card:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,.09);
+  border-color: var(--red);
+  transform: translateY(-2px);
+}
+.resource-card-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+}
+.resource-card h3 {
+  color: var(--navy);
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem;
+}
+.resource-card p {
+  color: #556;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  margin: 0 0 auto;
+  padding-bottom: 1rem;
+}
+.resource-card-link {
+  color: var(--red);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  margin-top: 0.75rem;
+}
+
+/* ── Recruiting Hub Guide Links ── */
+.recruit-guides-section { margin: 2rem 0; }
+.recruit-guides-section h2 { font-size: 1.4rem; color: var(--navy); margin-bottom: 1rem; }
+.recruit-guide-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.recruit-guide-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #fff;
+  border: 1.5px solid #dde0ee;
+  border-radius: 8px;
+  padding: 0.65rem 1.1rem;
+  color: var(--navy);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color .2s, background .2s, color .2s;
+}
+.recruit-guide-chip:hover {
+  border-color: var(--red);
+  background: #fff5f5;
+  color: var(--red);
+}
+.recruit-guide-chip-icon { font-size: 1rem; }
+@media (max-width: 600px) {
+  .resource-cards { grid-template-columns: 1fr 1fr; }
+  .resource-card { padding: 1.1rem 1rem 1.4rem; }
+}
+@media (max-width: 380px) {
+  .resource-cards { grid-template-columns: 1fr; }
+}
+
 /* ── Bottom CTA ── */
 .recruit-bottom-cta {
   background: #f0f2f7;
