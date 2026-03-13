@@ -254,9 +254,20 @@ hero_subtitle: 2025–2026 Season — FCP Spartans National HS Team
   "name": "FCP Spartans 2025-2026 National High School Basketball Season",
   "description": "Florida Coastal Prep’s national high school basketball schedule for 2025-2026 featuring SIAA conference matchups, Grind Session competition, and national showcases.",
   "url": "https://floridacoastalprep.com/high-school-schedule/",
+  "startDate": "2025-11-11",
+  "endDate": "2026-02-25",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "image": "https://floridacoastalprep.com/assets/images/hs-schedule-hero.jpeg",
   "organizer": {
     "@type": "SportsOrganization",
     "name": "Florida Coastal Prep Sports Academy",
+    "url": "https://floridacoastalprep.com/"
+  },
+  "performer": {
+    "@type": "SportsTeam",
+    "name": "FCP Spartans",
+    "sport": "Basketball",
     "url": "https://floridacoastalprep.com/"
   },
   "location": {
@@ -269,6 +280,13 @@ hero_subtitle: 2025–2026 Season — FCP Spartans National HS Team
       "postalCode": "32548",
       "addressCountry": "US"
     }
+  },
+  "offers": {
+    "@type": "Offer",
+    "name": "Program Enrollment",
+    "url": "https://floridacoastalprep.com/apply/",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2025-06-01"
   }
 }
 </script>

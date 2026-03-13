@@ -353,9 +353,20 @@ hero_subtitle: 2025–2026 Season — FCP Spartans
   "name": "FCP Spartans 2025-2026 Post-Grad Basketball Season",
   "description": "Florida Coastal Prep’s 2025–2026 post-graduate basketball schedule featuring matchups against JUCO programs, college JV squads, and national prep teams.",
   "url": "https://floridacoastalprep.com/post-grad-schedule/",
+  "startDate": "2025-11-02",
+  "endDate": "2026-03-08",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "image": "https://floridacoastalprep.com/assets/images/pg-schedule-hero.jpeg",
   "organizer": {
     "@type": "SportsOrganization",
     "name": "Florida Coastal Prep Sports Academy",
+    "url": "https://floridacoastalprep.com/"
+  },
+  "performer": {
+    "@type": "SportsTeam",
+    "name": "FCP Spartans",
+    "sport": "Basketball",
     "url": "https://floridacoastalprep.com/"
   },
   "location": {
@@ -368,6 +379,13 @@ hero_subtitle: 2025–2026 Season — FCP Spartans
       "postalCode": "32548",
       "addressCountry": "US"
     }
+  },
+  "offers": {
+    "@type": "Offer",
+    "name": "Program Enrollment",
+    "url": "https://floridacoastalprep.com/apply/",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2025-06-01"
   }
 }
 </script>
