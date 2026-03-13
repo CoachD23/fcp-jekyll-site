@@ -1,405 +1,577 @@
 - abbr: AL
   name: Alabama
   slug: alabama
-  school_count: 6
+  school_count: 35
   by_division:
     D1: 6
+    D2: 7
+    D3: 2
+    NAIA: 5
+    JUCO: 15
   seo_title: Alabama College Basketball Programs
   seo_description: All college basketball programs in Alabama — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: AK
   name: Alaska
   slug: alaska
-  school_count: 0
   by_division: {}
+  school_count: 2
+  by_division:
+    D2: 2
   seo_title: Alaska College Basketball Programs
   seo_description: All college basketball programs in Alaska — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: AZ
   name: Arizona
   slug: arizona
-  school_count: 4
+  school_count: 19
   by_division:
     D1: 4
+    NAIA: 5
+    JUCO: 10
   seo_title: Arizona College Basketball Programs
   seo_description: All college basketball programs in Arizona — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: AR
   name: Arkansas
   slug: arkansas
-  school_count: 3
+  school_count: 26
   by_division:
     D1: 3
+    D2: 7
+    D3: 3
+    NAIA: 6
+    JUCO: 7
   seo_title: Arkansas College Basketball Programs
   seo_description: All college basketball programs in Arkansas — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: CA
   name: California
   slug: california
-  school_count: 18
+  school_count: 65
   by_division:
     D1: 18
+    D2: 20
+    D3: 10
+    NAIA: 16
+    JUCO: 1
   seo_title: California College Basketball Programs
   seo_description: All college basketball programs in California — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: CO
   name: Colorado
   slug: colorado
-  school_count: 4
+  school_count: 20
   by_division:
     D1: 4
+    D2: 10
+    D3: 1
+    JUCO: 5
   seo_title: Colorado College Basketball Programs
   seo_description: All college basketball programs in Colorado — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: CT
   name: Connecticut
   slug: connecticut
-  school_count: 7
+  school_count: 21
   by_division:
     D1: 7
+    D2: 3
+    D3: 9
+    JUCO: 2
   seo_title: Connecticut College Basketball Programs
   seo_description: All college basketball programs in Connecticut — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: DE
   name: Delaware
   slug: delaware
-  school_count: 2
+  school_count: 5
   by_division:
     D1: 2
+    D2: 2
+    JUCO: 1
   seo_title: Delaware College Basketball Programs
   seo_description: All college basketball programs in Delaware — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: DC
   name: District of Columbia
   slug: district-of-columbia
-  school_count: 4
+  school_count: 7
   by_division:
     D1: 4
+    D2: 1
+    D3: 2
   seo_title: District of Columbia College Basketball Programs
   seo_description: All college basketball programs in District of Columbia — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: FL
   name: Florida
   slug: florida
-  school_count: 11
+  school_count: 54
   by_division:
     D1: 11
+    D2: 14
+    NAIA: 9
+    JUCO: 20
   seo_title: Florida College Basketball Programs
   seo_description: All college basketball programs in Florida — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: GA
   name: Georgia
   slug: georgia
-  school_count: 5
+  school_count: 46
   by_division:
     D1: 5
+    D2: 16
+    D3: 6
+    NAIA: 9
+    JUCO: 10
   seo_title: Georgia College Basketball Programs
   seo_description: All college basketball programs in Georgia — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: HI
   name: Hawaii
   slug: hawaii
-  school_count: 1
+  school_count: 4
   by_division:
     D1: 1
+    D2: 3
   seo_title: Hawaii College Basketball Programs
   seo_description: All college basketball programs in Hawaii — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: ID
   name: Idaho
   slug: idaho
-  school_count: 3
+  school_count: 7
   by_division:
     D1: 3
+    D2: 1
+    NAIA: 2
+    JUCO: 1
   seo_title: Idaho College Basketball Programs
   seo_description: All college basketball programs in Idaho — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: IL
   name: Illinois
   slug: illinois
-  school_count: 13
+  school_count: 92
   by_division:
     D1: 13
+    D2: 4
+    D3: 23
+    NAIA: 8
+    JUCO: 44
   seo_title: Illinois College Basketball Programs
   seo_description: All college basketball programs in Illinois — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: IN
   name: Indiana
   slug: indiana
-  school_count: 11
+  school_count: 43
   by_division:
     D1: 11
+    D2: 3
+    D3: 9
+    NAIA: 18
+    JUCO: 2
   seo_title: Indiana College Basketball Programs
   seo_description: All college basketball programs in Indiana — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: IA
   name: Iowa
   slug: iowa
-  school_count: 4
+  school_count: 38
   by_division:
     D1: 4
+    D2: 1
+    D3: 10
+    NAIA: 12
+    JUCO: 11
   seo_title: Iowa College Basketball Programs
   seo_description: All college basketball programs in Iowa — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: KS
   name: Kansas
   slug: kansas
-  school_count: 3
+  school_count: 44
   by_division:
     D1: 3
+    D2: 5
+    NAIA: 15
+    JUCO: 21
   seo_title: Kansas College Basketball Programs
   seo_description: All college basketball programs in Kansas — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: KY
   name: Kentucky
   slug: kentucky
-  school_count: 8
+  school_count: 26
   by_division:
     D1: 8
+    D2: 3
+    D3: 5
+    NAIA: 10
   seo_title: Kentucky College Basketball Programs
   seo_description: All college basketball programs in Kentucky — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: LA
   name: Louisiana
   slug: louisiana
-  school_count: 3
+  school_count: 16
   by_division:
     D1: 3
+    D3: 1
+    NAIA: 7
+    JUCO: 5
   seo_title: Louisiana College Basketball Programs
   seo_description: All college basketball programs in Louisiana — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: ME
   name: Maine
   slug: maine
-  school_count: 1
+  school_count: 16
   by_division:
     D1: 1
+    D3: 11
+    USCAA: 4
   seo_title: Maine College Basketball Programs
   seo_description: All college basketball programs in Maine — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: MD
   name: Maryland
   slug: maryland
-  school_count: 9
+  school_count: 35
   by_division:
     D1: 9
+    D2: 2
+    D3: 8
+    NAIA: 1
+    JUCO: 15
   seo_title: Maryland College Basketball Programs
   seo_description: All college basketball programs in Maryland — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: MA
   name: Massachusetts
   slug: massachusetts
-  school_count: 9
+  school_count: 61
   by_division:
     D1: 9
+    D2: 5
+    D3: 35
+    NAIA: 1
+    JUCO: 10
+    USCAA: 1
   seo_title: Massachusetts College Basketball Programs
   seo_description: All college basketball programs in Massachusetts — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: MI
   name: Michigan
   slug: michigan
-  school_count: 7
+  school_count: 58
   by_division:
     D1: 7
+    D2: 10
+    D3: 8
+    NAIA: 10
+    JUCO: 22
+    USCAA: 1
   seo_title: Michigan College Basketball Programs
   seo_description: All college basketball programs in Michigan — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: MN
   name: Minnesota
   slug: minnesota
-  school_count: 1
+  school_count: 44
   by_division:
     D1: 1
+    D2: 9
+    D3: 18
+    JUCO: 16
   seo_title: Minnesota College Basketball Programs
   seo_description: All college basketball programs in Minnesota — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: MS
   name: Mississippi
   slug: mississippi
-  school_count: 2
+  school_count: 22
   by_division:
     D1: 2
+    D2: 2
+    D3: 3
+    JUCO: 15
   seo_title: Mississippi College Basketball Programs
   seo_description: All college basketball programs in Mississippi — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: MO
   name: Missouri
   slug: missouri
-  school_count: 5
+  school_count: 44
   by_division:
     D1: 5
+    D2: 14
+    D3: 4
+    NAIA: 12
+    JUCO: 9
   seo_title: Missouri College Basketball Programs
   seo_description: All college basketball programs in Missouri — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: MT
   name: Montana
   slug: montana
-  school_count: 2
+  school_count: 12
   by_division:
     D1: 2
+    D2: 1
+    NAIA: 6
+    JUCO: 3
   seo_title: Montana College Basketball Programs
   seo_description: All college basketball programs in Montana — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: NE
   name: Nebraska
   slug: nebraska
-  school_count: 2
+  school_count: 19
   by_division:
     D1: 2
+    D2: 3
+    D3: 1
+    NAIA: 7
+    JUCO: 6
   seo_title: Nebraska College Basketball Programs
   seo_description: All college basketball programs in Nebraska — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: NV
   name: Nevada
   slug: nevada
-  school_count: 2
+  school_count: 3
   by_division:
     D1: 2
+    JUCO: 1
   seo_title: Nevada College Basketball Programs
   seo_description: All college basketball programs in Nevada — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: NH
   name: New Hampshire
   slug: new-hampshire
-  school_count: 2
+  school_count: 12
   by_division:
     D1: 2
+    D2: 3
+    D3: 5
+    USCAA: 2
   seo_title: New Hampshire College Basketball Programs
   seo_description: All college basketball programs in New Hampshire — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: NJ
   name: New Jersey
   slug: new-jersey
-  school_count: 8
+  school_count: 43
   by_division:
     D1: 8
+    D2: 4
+    D3: 15
+    JUCO: 15
+    USCAA: 1
   seo_title: New Jersey College Basketball Programs
   seo_description: All college basketball programs in New Jersey — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: NM
   name: New Mexico
   slug: new-mexico
-  school_count: 2
+  school_count: 9
   by_division:
     D1: 2
+    D2: 3
+    NAIA: 2
+    JUCO: 2
   seo_title: New Mexico College Basketball Programs
   seo_description: All college basketball programs in New Mexico — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: NY
   name: New York
   slug: new-york
-  school_count: 22
+  school_count: 148
   by_division:
     D1: 22
+    D2: 14
+    D3: 63
+    JUCO: 36
+    USCAA: 13
   seo_title: New York College Basketball Programs
   seo_description: All college basketball programs in New York — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: NC
   name: North Carolina
   slug: north-carolina
-  school_count: 18
+  school_count: 63
   by_division:
     D1: 18
+    D2: 17
+    D3: 8
+    NAIA: 2
+    JUCO: 16
+    USCAA: 2
   seo_title: North Carolina College Basketball Programs
   seo_description: All college basketball programs in North Carolina — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: ND
   name: North Dakota
   slug: north-dakota
-  school_count: 0
   by_division: {}
+  school_count: 12
+  by_division:
+    D2: 2
+    NAIA: 4
+    JUCO: 6
   seo_title: North Dakota College Basketball Programs
   seo_description: All college basketball programs in North Dakota — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: OH
   name: Ohio
   slug: ohio
-  school_count: 13
+  school_count: 66
   by_division:
     D1: 13
+    D2: 10
+    D3: 21
+    NAIA: 7
+    JUCO: 10
+    USCAA: 5
   seo_title: Ohio College Basketball Programs
   seo_description: All college basketball programs in Ohio — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: OK
   name: Oklahoma
   slug: oklahoma
-  school_count: 3
+  school_count: 30
   by_division:
     D1: 3
+    D2: 11
+    NAIA: 8
+    JUCO: 8
   seo_title: Oklahoma College Basketball Programs
   seo_description: All college basketball programs in Oklahoma — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: OR
   name: Oregon
   slug: oregon
-  school_count: 2
+  school_count: 15
   by_division:
     D1: 2
+    D2: 1
+    D3: 5
+    NAIA: 7
   seo_title: Oregon College Basketball Programs
   seo_description: All college basketball programs in Oregon — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: PA
   name: Pennsylvania
   slug: pennsylvania
-  school_count: 15
+  school_count: 131
   by_division:
     D1: 15
+    D2: 22
+    D3: 59
+    NAIA: 3
+    JUCO: 16
+    USCAA: 16
   seo_title: Pennsylvania College Basketball Programs
   seo_description: All college basketball programs in Pennsylvania — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: RI
   name: Rhode Island
   slug: rhode-island
-  school_count: 4
+  school_count: 9
   by_division:
     D1: 4
+    D3: 4
+    JUCO: 1
   seo_title: Rhode Island College Basketball Programs
   seo_description: All college basketball programs in Rhode Island — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: SC
   name: South Carolina
   slug: south-carolina
-  school_count: 11
+  school_count: 32
   by_division:
     D1: 11
+    D2: 14
+    D3: 1
+    NAIA: 3
+    JUCO: 3
   seo_title: South Carolina College Basketball Programs
   seo_description: All college basketball programs in South Carolina — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: SD
   name: South Dakota
   slug: south-dakota
-  school_count: 0
   by_division: {}
+  school_count: 9
+  by_division:
+    D2: 5
+    NAIA: 4
   seo_title: South Dakota College Basketball Programs
   seo_description: All college basketball programs in South Dakota — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: TN
   name: Tennessee
   slug: tennessee
-  school_count: 12
+  school_count: 43
   by_division:
     D1: 12
+    D2: 10
+    D3: 3
+    NAIA: 9
+    JUCO: 8
+    USCAA: 1
   seo_title: Tennessee College Basketball Programs
   seo_description: All college basketball programs in Tennessee — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: TX
   name: Texas
   slug: texas
-  school_count: 12
+  school_count: 84
   by_division:
     D1: 12
+    D2: 12
+    D3: 16
+    NAIA: 11
+    JUCO: 33
   seo_title: Texas College Basketball Programs
   seo_description: All college basketball programs in Texas — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: UT
   name: Utah
   slug: utah
-  school_count: 4
+  school_count: 9
   by_division:
     D1: 4
+    D2: 2
+    JUCO: 3
   seo_title: Utah College Basketball Programs
   seo_description: All college basketball programs in Utah — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: VT
   name: Vermont
   slug: vermont
-  school_count: 1
+  school_count: 8
   by_division:
     D1: 1
+    D2: 1
+    D3: 5
+    USCAA: 1
   seo_title: Vermont College Basketball Programs
   seo_description: All college basketball programs in Vermont — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: VA
   name: Virginia
   slug: virginia
-  school_count: 12
+  school_count: 43
   by_division:
     D1: 12
+    D2: 4
+    D3: 17
+    NAIA: 1
+    JUCO: 7
+    USCAA: 2
   seo_title: Virginia College Basketball Programs
   seo_description: All college basketball programs in Virginia — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: WA
   name: Washington
   slug: washington
-  school_count: 2
+  school_count: 13
   by_division:
     D1: 2
+    D2: 4
+    D3: 4
+    NAIA: 3
   seo_title: Washington College Basketball Programs
   seo_description: All college basketball programs in Washington — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: WV
   name: West Virginia
   slug: west-virginia
-  school_count: 1
+  school_count: 19
   by_division:
     D1: 1
+    D2: 13
+    D3: 1
+    NAIA: 1
+    JUCO: 1
+    USCAA: 2
   seo_title: West Virginia College Basketball Programs
   seo_description: All college basketball programs in West Virginia — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: WI
   name: Wisconsin
   slug: wisconsin
-  school_count: 4
+  school_count: 34
   by_division:
     D1: 4
+    D2: 1
+    D3: 23
+    NAIA: 2
+    JUCO: 4
   seo_title: Wisconsin College Basketball Programs
   seo_description: All college basketball programs in Wisconsin — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: WY
   name: Wyoming
   slug: wyoming
-  school_count: 1
+  school_count: 7
   by_division:
     D1: 1
+    JUCO: 6
   seo_title: Wyoming College Basketball Programs
   seo_description: All college basketball programs in Wyoming — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
