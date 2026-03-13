@@ -753,3 +753,354 @@ nc_d2:
 
 
 # Non-D1 state blurbs (title + body format)
+
+ca_d2:
+  title: "D2 Basketball Programs in California"
+  body: |
+    California fields one of the largest NCAA Division II basketball footprints in the country,
+    with approximately twenty programs concentrated in two conferences. The California Collegiate
+    Athletic Association (CCAA) is the dominant conference, including Cal State East Bay, Cal State
+    Dominguez Hills, Cal State San Marcos, Cal State San Bernardino, Cal State Monterey Bay, Chico
+    State, Sonoma State, Humboldt State, and Cal Poly Pomona, among others. UC San Diego
+    transitioned to Division I through the Big West, but the CCAA remains one of the deepest D2
+    basketball conferences in the nation and consistently sends multiple teams to the NCAA D2
+    tournament.
+
+    D2 basketball programs in California can award up to 10 full equivalencies in men's basketball,
+    divided across rosters as each coaching staff chooses. Because these are California State
+    University system schools, in-state tuition rates are significantly lower than private D2
+    institutions, and scholarship dollars can be stacked with Cal Grants, Pell Grants, and
+    institutional aid to bring net cost down substantially. Recruits should run the net price
+    calculator for each school, then discuss the realistic scholarship offer with coaches directly.
+
+    For a high school player from California who did not receive a D1 offer, the CCAA is among the
+    best D2 conference options anywhere in the country — not a fallback, but a legitimate
+    competitive environment with solid academic infrastructure, real postseason access, and
+    proximity to family. The geographic range of programs from San Diego north to Humboldt means
+    recruits can find campus settings ranging from urban commuter campuses to smaller, residential
+    college towns. Fit varies widely within the conference. Athletes from FCP programs benefit from
+    early exposure to this level through our recruiting network and direct relationships with CCAA
+    coaching staffs.
+
+ca_d3:
+  title: "D3 Basketball Programs in California"
+  body: |
+    NCAA Division III basketball in California is a smaller but genuinely competitive pool anchored
+    by the Southern California Intercollegiate Athletic Conference (SCIAC) and independent programs.
+    SCIAC members with men's basketball include California Institute of Technology (Caltech), Chapman
+    University, Claremont-Mudd-Scripps, University of La Verne, Occidental College, Pomona-Pitzer
+    Colleges, University of Redlands, and Whittier College. These programs operate on the campuses
+    of some of California's most academically selective private institutions, and the conference
+    plays an unusually compact schedule given the geographic proximity of most members in the Los
+    Angeles and Inland Empire region.
+
+    Division III programs in California offer no athletic scholarships. Financial aid is merit- and
+    need-based, and sticker prices at SCIAC institutions can be high. However, private liberal arts
+    schools in this conference often have significant endowments and substantial institutional aid
+    budgets, so a student from a middle-income family may receive a larger total aid package than
+    expected. Running the net price calculator before a campus visit is essential. The admissions
+    process is academically driven — coaches can advocate, but the academic office makes the final
+    call.
+
+    For a student-athlete who values elite academics alongside competitive basketball and wants to
+    remain in California, SCIAC programs represent a distinctive opportunity. Caltech is the most
+    academically selective D3 program in the country; Chapman and Occidental sit in the top tier
+    of California private liberal arts schools. The basketball itself is competitive — SCIAC teams
+    routinely reach the NCAA D3 tournament — and the professional and academic networks available
+    through these institutions are exceptional. FCP athletes who meet the academic profile for
+    SCIAC schools gain a meaningful recruiting angle that more athletically focused players often
+    overlook.
+
+ca_naia:
+  title: "NAIA Basketball Programs in California"
+  body: |
+    California hosts a substantial NAIA basketball ecosystem, with approximately sixteen programs
+    competing primarily in the Golden State Athletic Conference (GSAC) and the California Pacific
+    Conference (Cal Pac). GSAC members include Vanguard University (Costa Mesa), Westmont College
+    (Santa Barbara), Hope International University (Fullerton), Marymount California University,
+    and several other faith-affiliated institutions in Southern California. The Cal Pac features
+    additional California NAIA programs including Dominican University of California (San Rafael),
+    Menlo College (Atherton), and William Jessup University (Rocklin).
+
+    NAIA programs can award up to 11 equivalent scholarships in men's basketball. In practice,
+    packages vary by school and are rarely full grants-in-aid — recruits should ask coaches directly
+    about the realistic per-player award size and how it combines with academic and institutional
+    aid. Several California NAIA programs are faith-based, which shapes campus culture meaningfully.
+    Recruits should understand the mission of each school alongside its basketball program before
+    committing.
+
+    The GSAC and Cal Pac together offer an active competitive calendar that feeds into the NAIA
+    national tournament. Programs like Westmont have sustained strong national profiles within the
+    NAIA, and the Bay Area and Southern California programs draw from deep local talent pools.
+    For a California recruit who did not receive an NCAA offer but wants to play legitimate college
+    basketball close to home, California's NAIA programs are a real option — not a placeholder.
+    The evaluation process should mirror what any serious D2 recruit would do: visit campuses, ask
+    coaches about roster openings and scholarship availability, and verify that the academic
+    program fits long-term career goals.
+
+ny_d2:
+  title: "D2 Basketball Programs in New York"
+  body: |
+    New York fields one of the more competitive clusters of NCAA Division II basketball programs
+    on the East Coast, with approximately fourteen programs competing primarily in the Northeast-10
+    Conference (NE-10) and the East Coast Conference (ECC). Northeast-10 members in New York
+    include Adelphi University (Garden City), Le Moyne College (Syracuse), Molloy University
+    (Rockville Centre), and St. Thomas Aquinas College (Sparkill). The ECC includes New York
+    programs such as Mercy University (Dobbs Ferry), Long Island University Post, New York
+    Institute of Technology, Queens College (CUNY), and Roberts Wesleyan University (Rochester).
+
+    D2 basketball programs in New York can award up to 10 full equivalencies in men's basketball,
+    divided across rosters as coaching staffs determine. The suburban New York City setting of
+    programs like Adelphi, LIU Post, Mercy, and NYIT means recruits gain access to the metropolitan
+    area's professional networks, internship pipelines, and alumni communities while competing at
+    the D2 level. Upstate programs like Le Moyne and Roberts Wesleyan offer smaller-city settings
+    with strong regional reputations and close-knit basketball cultures.
+
+    For a New York high school player who is honest about their D1 offer picture by junior year,
+    the NE-10 and ECC deserve immediate attention. These conferences are competitive — NE-10
+    programs regularly qualify for the NCAA D2 tournament, and coaching staffs in the region
+    actively recruit New York prep talent. Programs like Adelphi and Le Moyne have histories of
+    developing players who go on to professional opportunities. FCP athletes who have trained at
+    a high prep level can compete at this level immediately, and our relationships with coaches
+    across both conferences create direct recruiting pathways.
+
+ny_juco:
+  title: "JUCO Basketball Programs in New York"
+  body: |
+    New York hosts one of the largest junior college basketball systems in the country, with
+    approximately 36 programs operating under NJCAA Region 15. The geographic range spans New York
+    City's five boroughs north through the Hudson Valley, west through the Southern Tier, east
+    through Long Island, and up through the North Country. Notable programs include Sullivan
+    Community College (Loch Sheldrake), Nassau Community College (Garden City), Suffolk County
+    Community College (Selden), Monroe Community College (Rochester), Rockland Community College
+    (Suffern), Orange County Community College (Middletown), Dutchess Community College
+    (Poughkeepsie), Jefferson Community College (Watertown), and Herkimer County Community
+    College (Herkimer). The majority of New York JUCO programs compete at the NJCAA Division III
+    level, which means no athletic scholarships are available — financial aid is institutional
+    and need-based only.
+
+    That scholarship structure is the most important thing any New York JUCO recruit needs to
+    understand upfront. Unlike Florida or Texas JUCO programs that offer full athletic grants,
+    New York's NJCAA Division III programs operate on the same financial aid model as community
+    colleges in California — what you receive depends on your FAFSA, not on a coach's budget.
+    Sullivan Community College has historically competed at a higher level and has produced
+    notable transfers, but even programs with strong competitive reputations in New York cannot
+    supplement that with athletic money.
+
+    For a recruit who needs two years of competitive basketball and academic development before
+    transferring to a four-year program, New York JUCO provides a genuine pathway. The transfer
+    pipeline from New York community colleges into D3, NAIA, and occasionally D2 programs is
+    active and well-documented. Coaches across all levels recruit out of Region 15. The honest
+    case for a New York JUCO is this: it is a financially accessible entry point with a clear
+    transfer pathway, but not a scholarship opportunity. Plan the financial piece first.
+
+ny_uscaa:
+  title: "USCAA Basketball Programs in New York"
+  body: |
+    New York has approximately thirteen member institutions in the United States Collegiate Athletic
+    Association (USCAA), the governing body for the smallest colleges in American higher education.
+    USCAA programs are typically small private colleges, religious institutions, or specialized
+    universities with enrollments under 1,000 students. These schools operate with limited athletic
+    budgets, and scholarship availability — while possible at some USCAA members — is inconsistent
+    and should be verified directly with each institution.
+
+    USCAA basketball competes at a level below NCAA Division III. The competition is genuine and
+    the game is real, but recruits should understand the distinction: USCAA programs are not NCAA
+    members, their competitions do not count toward NCAA statistics, and transfer pathways to
+    NCAA programs require careful attention to eligibility rules. For a student-athlete whose
+    primary goal is playing competitive basketball while completing a degree at a small, affordable
+    private institution in New York, USCAA programs can serve that purpose.
+
+    The practical evaluation questions for a USCAA prospect are straightforward: Does the academic
+    program match your career goals? Is the total cost of attendance — after all aid — genuinely
+    affordable? And is the level of basketball consistent with your development goals? USCAA
+    programs should not be the first call for a recruit with realistic D3, NAIA, or JUCO options.
+    But for a player who values campus culture, small class sizes, and the opportunity to play at
+    any collegiate level, New York's USCAA members offer a legitimate, if modest, pathway.
+
+tx_d2:
+  title: "D2 Basketball Programs in Texas"
+  body: |
+    Texas fields approximately twelve NCAA Division II basketball programs across two primary
+    conferences. The Lone Star Conference (LSC) is the dominant D2 league in Texas, including
+    programs such as Tarleton State University (Stephenville), West Texas A&M University (Canyon),
+    UT Permian Basin (Odessa), UT Tyler, Texas A&M-Kingsville, Angelo State University (San Angelo),
+    and St. Edward's University (Austin). The South Central Association of Colleges and Schools
+    (SCC/Red River Athletic Conference) adds programs from the Dallas-Fort Worth area, including
+    Dallas Baptist University and Lubbock Christian University. St. Mary's University (San Antonio)
+    rounds out the LSC's Texas contingent.
+
+    D2 basketball programs in Texas can award up to 10 full equivalencies in men's basketball,
+    divided across rosters. The Lone Star Conference is one of the better-resourced D2 conferences
+    in the country, with facilities and program investment that at some schools approaches lower-tier
+    D1 quality. Tarleton State and West Texas A&M have both made sustained runs at the national
+    level, and the LSC sends multiple teams to the NCAA D2 tournament most years. The geographic
+    spread of programs across the state means recruits from Houston, Dallas-Fort Worth, San Antonio,
+    and West Texas each have realistic proximity options.
+
+    For a Texas high school player who did not land a D1 offer by junior year, the Lone Star
+    Conference should be on the call list immediately. The level of play is serious, coaching staffs
+    across the conference actively recruit in-state Texas talent, and the transfer pathway from D2
+    into graduate programs or professional leagues abroad is documented. FCP athletes who have
+    competed at a high prep level are well-positioned for D2 Texas programs — coaches in the LSC
+    value the preparation and discipline that come from a structured prep year.
+
+tx_d3:
+  title: "D3 Basketball Programs in Texas"
+  body: |
+    Texas has approximately sixteen NCAA Division III basketball programs competing primarily in
+    the Southern Collegiate Athletic Conference (SCAC) and independent status. SCAC members in
+    Texas include Trinity University (San Antonio), Southwestern University (Georgetown), Texas
+    Lutheran University (Seguin), Schreiner University (Kerrville), Sul Ross State University
+    (Alpine), and Hardin-Simmons University (Abilene), among others. Additional Texas D3 programs
+    include the University of Texas at Dallas, Howard Payne University (Brownwood), and McMurry
+    University (Abilene). Texas Wesleyan University competes at the NAIA level, so recruits
+    should verify current divisional affiliation when researching schools.
+
+    Division III programs in Texas offer no athletic scholarships. Financial aid is merit- and
+    need-based, and the cost of attendance varies significantly between SCAC institutions — from
+    smaller faith-affiliated colleges with modest endowments to schools like Trinity, which
+    has a substantial institutional aid budget and consistently ranks among the top D3 academic
+    institutions in the South. Running the net price calculator at each school before a campus
+    visit is essential for understanding the realistic financial picture.
+
+    The SCAC is a competitive D3 conference that has produced multiple national tournament
+    qualifiers. Trinity in particular has an outsized academic and athletic reputation within
+    the D3 landscape. For a Texas recruit who is academically strong and wants a balance of
+    serious competition and genuine academic investment without the scholarship power dynamic,
+    the SCAC is worth exploring carefully. FCP athletes who meet the academic profiles of SCAC
+    schools bring a prep training background that translates well at D3, where basketball IQ
+    and skill development are valued over raw athleticism.
+
+tx_naia:
+  title: "NAIA Basketball Programs in Texas"
+  body: |
+    Texas hosts approximately eleven NAIA basketball programs, primarily in the Red River Athletic
+    Conference (RRAC). RRAC members in Texas include Wiley College (Marshall), Huston-Tillotson
+    University (Austin), Jarvis Christian University (Hawkins), Paul Quinn College (Dallas), Texas
+    College (Tyler), and Southwestern Assemblies of God University (Waxahachie). Several of these
+    institutions are Historically Black Colleges and Universities (HBCUs), which bring distinct
+    cultural identities and campus missions that shape both recruiting and student experience. The
+    RRAC competes regionally and sends the conference champion to the NAIA national tournament.
+
+    NAIA programs can award up to 11 equivalent scholarships in men's basketball, divided across
+    rosters. Because several Texas NAIA programs are smaller institutions with limited athletic
+    budgets, actual per-player awards often represent partial aid rather than full grant-in-aid
+    packages. Recruits should ask coaches directly what the current roster opening looks like and
+    what a realistic financial aid package — combining athletic scholarship with federal and
+    institutional aid — actually totals. The HBCU mission of several Texas NAIA programs is a
+    legitimate recruiting draw for the right student-athlete, not simply a financial option.
+
+    For a Texas recruit without a D1, D2, or JUCO offer, NAIA programs in the RRAC offer a
+    pathway to competitive college basketball, a degree, and in some cases a platform for
+    professional development. The level of competition is real. Coaches in the RRAC have track
+    records of developing players who later pursue professional basketball abroad. The evaluation
+    framework should be the same as any other level: Does the campus fit? Does the coach develop
+    players who look like you athletically? And does the financial package make attendance
+    genuinely affordable?
+
+nc_d3:
+  title: "D3 Basketball Programs in North Carolina"
+  body: |
+    North Carolina has approximately eight NCAA Division III basketball programs, several of which
+    compete in the USA South Athletic Conference or as Conference Carolinas members at the D3 level.
+    Programs include Greensboro College (Greensboro), Guilford College (Greensboro), Methodist
+    University (Fayetteville), North Carolina Wesleyan University (Rocky Mount), and Peace University
+    (Raleigh), among others. The geographic concentration of multiple D3 programs in the Piedmont
+    and Triangle regions creates a natural competitive cluster with meaningful conference schedules
+    and manageable travel.
+
+    Division III programs in North Carolina offer no athletic scholarships. Aid is merit- and
+    need-based, and sticker prices at North Carolina's private D3 institutions vary. The practical
+    aid picture depends on each school's endowment, and recruits should run the net price calculator
+    at every school before committing to a campus visit. North Carolina's D3 programs sit within a
+    state that is saturated with D1 recruiting activity, which means D3 coaches here are accustomed
+    to recruiting players who were legitimately on D1 radar and landed at D3 for financial, academic,
+    or playing-time reasons — not simply because they ran out of options.
+
+    For a North Carolina recruit who is academically strong and wants a genuine college experience
+    alongside competitive basketball without the scholarship-driven power dynamic, the state's D3
+    programs are underutilized options. Guilford and Greensboro in particular sit in a city with
+    multiple college campuses, strong career networks, and access to professional sports culture
+    that most D3 settings cannot match. FCP athletes who land at North Carolina D3 programs bring
+    a prep year of professional training that coaches at this level consistently value.
+
+nc_juco:
+  title: "JUCO Basketball Programs in North Carolina"
+  body: |
+    North Carolina operates one of the most active junior college basketball systems in the Southeast,
+    with approximately sixteen programs competing in the NJCAA. The majority of North Carolina JUCO
+    programs are members of Region 10 and compete within the National Junior College Athletic
+    Association structure. Conference affiliations include the Western Division and Eastern Division
+    of the Carolina Community College Conference, with programs at Alamance Community College
+    (Graham), Catawba Valley Community College (Hickory), Cleveland Community College (Shelby),
+    Davidson-Davie Community College (Lexington), Forsyth Technical Community College
+    (Winston-Salem), Gaston College (Dallas), Johnston Community College (Smithfield), and several
+    others spread across the Piedmont and eastern regions of the state.
+
+    Most North Carolina JUCO programs compete at the NJCAA Division II level, meaning partial
+    athletic scholarships are available — typically covering tuition and fees rather than full room
+    and board. Recruits should ask coaches directly about the current award structure and how
+    scholarship dollars combine with Pell Grants and state aid at North Carolina community colleges.
+    In-state tuition at North Carolina community colleges is among the most affordable in the
+    Southeast, which meaningfully changes the net cost calculation relative to out-of-state JUCO
+    options.
+
+    For a North Carolina recruit who needs two years of competitive development before transferring
+    to a four-year program, the state's JUCO system offers a genuinely local option. Transfer
+    pathways from North Carolina JUCO programs into the state's D2 programs (Lenoir-Rhyne, Catawba,
+    Barton, Wingate), D3 schools, NAIA programs, and out-of-state four-year programs are all
+    active. Coaches at four-year programs in the Carolinas recruit directly out of the JUCO level.
+    The key evaluation question is not whether the level is real — it is whether the two-year
+    model and partial-scholarship structure make sense for an individual player's development
+    timeline.
+
+nc_naia:
+  title: "NAIA Basketball Programs in North Carolina"
+  body: |
+    North Carolina hosts two active NAIA men's basketball programs, both members of Conference
+    Carolinas. Belmont Abbey College (Belmont) and Chowan University (Murfreesboro) represent the
+    state's NAIA basketball footprint. Conference Carolinas is primarily a D2 conference, and both
+    programs compete in a mixed-division conference structure — which means NAIA teams in this
+    conference regularly face NCAA D2 opponents on their schedules. That competitive context is
+    unusual and worth understanding: a recruit at an NC NAIA program will play against D2-level
+    opposition more often than NAIA-only conference schedules in other states.
+
+    NAIA programs can award up to 11 equivalent scholarships in men's basketball. As with all
+    NAIA programs, recruits should ask coaches directly what the realistic per-player scholarship
+    looks like and how it stacks with institutional and federal aid. The small size of North
+    Carolina's NAIA pool means recruiting competition for spots at these two programs is real,
+    and coaches are selective about roster construction given the limited number of available
+    positions each cycle.
+
+    For a North Carolina recruit who is evaluating NAIA basketball as a legitimate collegiate
+    option, the small in-state pool means the search should extend to Conference Carolinas
+    members in South Carolina, Virginia, and the broader Southeast — not just the two North
+    Carolina programs. The NAIA landscape nationally is deep, and programs in neighboring
+    states may offer better scholarship packages, more roster openings, or stronger fits
+    academically and athletically than limiting the search to geography alone.
+
+nc_uscaa:
+  title: "USCAA Basketball Programs in North Carolina"
+  body: |
+    North Carolina has two member institutions in the United States Collegiate Athletic Association
+    (USCAA), the governing body for the smallest colleges in American higher education. USCAA
+    programs are typically small private institutions with enrollments under 1,000 students.
+    Scholarship availability at USCAA members is inconsistent and should be confirmed directly
+    with each school — some programs offer partial athletic aid while others operate entirely
+    on institutional and need-based financial structures.
+
+    USCAA basketball competes below the NCAA Division III level. For a recruit with realistic
+    D3, NAIA, or JUCO options, those pathways should be evaluated first. USCAA programs serve
+    a specific profile of student-athlete: someone who values small class sizes, close community,
+    and the opportunity to play competitive basketball at an accessible college, often at a lower
+    total cost of attendance than larger institutions. The transfer pathway from USCAA into
+    NCAA programs is manageable but requires careful attention to eligibility rules and timing.
+
+    The honest evaluation framework for North Carolina's USCAA programs mirrors what applies
+    at every level: Does the academic program serve your career goals? Is the total cost of
+    attendance — after all available aid — genuinely affordable? And does the basketball
+    environment match your development priorities? With only two in-state USCAA options,
+    recruits interested in this level should also look at USCAA members across the Southeast,
+    where a larger pool of programs provides more opportunities to find the right campus,
+    program fit, and financial package.
