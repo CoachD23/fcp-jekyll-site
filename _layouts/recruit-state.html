@@ -54,7 +54,7 @@ layout: default
             <a href="/{{ school.division_slug }}/{{ school.slug }}/">{{ school.name }}</a>
             {% else %}{{ school.name }}{% endif %}
           </h3>
-          {% if school.conference %}
+          {% if school.conference != "" and school.conference %}
           <p class="recruit-school-conf">
             <a href="/{{ school.conference_slug }}-basketball-programs/">{{ school.conference }}</a>
           </p>
@@ -78,12 +78,14 @@ layout: default
       {% endfor %}
     </div>
 
-    <!-- State description -->
+    <!-- State description (D1 only — copy is D1-specific) -->
+    {% if page.division.id == 'D1' %}
     {% assign state_desc = site.data.recruiting.state_descriptions[page.state.slug] %}
     {% if state_desc %}
     <div class="recruit-region-description">
       <p>{{ state_desc }}</p>
     </div>
+    {% endif %}
     {% endif %}
 
     <!-- Conference breakdown for this state -->

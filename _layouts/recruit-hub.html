@@ -78,9 +78,10 @@ layout: default
     <div class="recruit-state-alpha-grid">
       {% assign states = site.data.recruiting.states | sort: "name" %}
       {% for state in states %}
-        {% if state.school_count > 0 %}
+        {% assign d1_count = state.by_division.D1 %}
+        {% if d1_count > 0 %}
         <a href="/d1-basketball-programs/{{ state.slug }}/" class="recruit-state-chip">
-          {{ state.name }} <span class="chip-count">{{ state.school_count }}</span>
+          {{ state.name }} <span class="chip-count">{{ d1_count }}</span>
         </a>
         {% endif %}
       {% endfor %}
@@ -114,7 +115,22 @@ layout: default
       <h2 class="recruit-section-title">Recruiting Guides &amp; Tools</h2>
       <div class="recruit-guide-chips">
         <a href="/how-to-get-recruited-for-college-basketball/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">📋</span> How to Get Recruited Guide
+          <span class="recruit-guide-chip-icon">📋</span> How to Get Recruited
+        </a>
+        <a href="/how-to-contact-college-basketball-coaches/" class="recruit-guide-chip">
+          <span class="recruit-guide-chip-icon">📧</span> How to Contact Coaches
+        </a>
+        <a href="/best-prep-schools-for-basketball/" class="recruit-guide-chip">
+          <span class="recruit-guide-chip-icon">🏫</span> Best Prep Schools
+        </a>
+        <a href="/post-grad-basketball-program-guide/" class="recruit-guide-chip">
+          <span class="recruit-guide-chip-icon">📅</span> Post-Grad Program Guide
+        </a>
+        <a href="/how-naia-basketball-recruiting-works/" class="recruit-guide-chip">
+          <span class="recruit-guide-chip-icon">⭐</span> NAIA Recruiting Guide
+        </a>
+        <a href="/how-juco-basketball-recruiting-works/" class="recruit-guide-chip">
+          <span class="recruit-guide-chip-icon">⚡</span> JUCO Recruiting Guide
         </a>
         <a href="/d1-basketball-scholarship-guide/" class="recruit-guide-chip">
           <span class="recruit-guide-chip-icon">🏆</span> D1 Scholarship Guide
@@ -129,7 +145,7 @@ layout: default
           <span class="recruit-guide-chip-icon">🌍</span> International Players Guide
         </a>
         <a href="/florida-basketball-prep-school/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">🏀</span> Florida Basketball Prep School
+          <span class="recruit-guide-chip-icon">🏀</span> Florida Prep School
         </a>
       </div>
     </div>
