@@ -55,17 +55,19 @@ async function upsertGhlContact({ firstName, lastName, email, phone, dob }) {
   return res.json();
 }
 
-async function addGhlNote(contactId, ip) {
+async function addGhlNote(contactId, ip, minorName) {
   const timestamp = new Date().toLocaleString('en-US', {
     timeZone: 'America/New_York',
     dateStyle: 'long',
     timeStyle: 'short',
   });
+  const minorLine = minorName ? `Signed on behalf of minor: ${minorName}\n` : '';
   const body =
     `Florida Coastal Prep — Gym Liability Waiver\n` +
     `Signed: ${timestamp} ET\n` +
-    `IP: ${ip}\n\n` +
-    `Applicant read and agreed to the full FCP gym liability waiver. Digital signature captured.`;
+    `IP: ${ip}\n` +
+    minorLine +
+    `\nApplicant read and agreed to the full FCP gym liability waiver. Digital signature captured.`;
 
   const res = await fetch(
     `https://services.leadconnectorhq.com/contacts/${contactId}/notes`,
@@ -113,9 +115,9 @@ exports.handler = async function (event) {
     return { statusCode: 200, body: JSON.stringify({ success: true }) };
   }
 
-  const { firstName, lastName, email, phone, dob, signature } = body;
+  const { firstName, lastName, email, phone, dob, minorName, signature } = body;
 
-  if (!firstName || !lastName || !email || !signature) {
+  if (!firstName || !lastName || !email || !phone || !signature) {
     return { statusCode: 400, body: 'Missing required fields' };
   }
 
@@ -129,15 +131,16 @@ exports.handler = async function (event) {
     firstName: String(firstName).trim().slice(0, 100),
     lastName:  String(lastName).trim().slice(0, 100),
     email:     String(email).trim().slice(0, 200).toLowerCase(),
-    phone:     phone ? String(phone).trim().slice(0, 30) : '',
-    dob:       dob   ? String(dob).trim().slice(0, 20) : '',
+    phone:     String(phone).trim().slice(0, 30),
+    dob:       dob       ? String(dob).trim().slice(0, 20)       : '',
+    minorName: minorName ? String(minorName).trim().slice(0, 200) : '',
   };
 
   try {
     const result = await upsertGhlContact(safe);
     const contactId = result.contact?.id || result.id;
     if (contactId) {
-      await addGhlNote(contactId, clientIp);
+      await addGhlNote(contactId, clientIp, safe.minorName);
     }
   } catch (err) {
     console.error('GHL error:', err.message);

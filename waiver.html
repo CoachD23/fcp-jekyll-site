@@ -269,13 +269,18 @@ permalink: /waiver/
 
       <div class="form-row">
         <div class="form-group">
-          <label for="w-phone">Phone Number</label>
-          <input type="tel" id="w-phone" name="phone" autocomplete="tel" placeholder="(555) 123-4567">
+          <label for="w-phone">Phone Number <span class="req">*</span></label>
+          <input type="tel" id="w-phone" name="phone" required autocomplete="tel" placeholder="(555) 123-4567">
         </div>
         <div class="form-group">
           <label for="w-dob">Date of Birth</label>
           <input type="date" id="w-dob" name="dob" autocomplete="bday">
         </div>
+      </div>
+
+      <div class="form-group">
+        <label for="w-minor-name">Minor's Name <span style="font-weight:400;color:#777;font-size:0.8rem;">(if signing on behalf of a minor)</span></label>
+        <input type="text" id="w-minor-name" name="minorName" placeholder="e.g. James Smith">
       </div>
 
       <!-- Signature pad -->
@@ -425,10 +430,11 @@ permalink: /waiver/
     const email     = document.getElementById('w-email').value.trim();
     const phone     = document.getElementById('w-phone').value.trim();
     const dob       = document.getElementById('w-dob').value;
+    const minorName = document.getElementById('w-minor-name').value.trim();
     const botField  = document.getElementById('botField').value;
 
-    if (!firstName || !lastName || !email) {
-      showError('Please fill in your first name, last name, and email address.');
+    if (!firstName || !lastName || !email || !phone) {
+      showError('Please fill in your first name, last name, email address, and phone number.');
       return;
     }
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
@@ -449,7 +455,7 @@ permalink: /waiver/
       const res = await fetch('/.netlify/functions/submit-waiver', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ firstName, lastName, email, phone, dob, signature, botField }),
+        body: JSON.stringify({ firstName, lastName, email, phone, dob, minorName, signature, botField }),
       });
 
       if (!res.ok) {
