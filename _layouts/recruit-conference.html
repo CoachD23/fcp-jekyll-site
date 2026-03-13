@@ -101,7 +101,13 @@ layout: default
           </h3>
           <ul>
             {% for s in group.items %}
-            <li>{{ s.name }}</li>
+            <li>
+              {% if s.slug and s.division_slug %}
+              <a href="/{{ s.division_slug }}/{{ s.slug }}/">{{ s.name }}</a>
+              {% else %}
+              {{ s.name }}
+              {% endif %}
+            </li>
             {% endfor %}
           </ul>
         </div>

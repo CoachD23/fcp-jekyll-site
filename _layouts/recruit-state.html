@@ -78,14 +78,25 @@ layout: default
       {% endfor %}
     </div>
 
-    <!-- State description (D1 only — copy is D1-specific) -->
+    <!-- State description: D1 uses plain-string key (state slug); non-D1 uses title/body key (abbr_division) -->
     {% if page.division.id == 'D1' %}
-    {% assign state_desc = site.data.recruiting.state_descriptions[page.state.slug] %}
-    {% if state_desc %}
-    <div class="recruit-region-description">
-      <p>{{ state_desc }}</p>
-    </div>
-    {% endif %}
+      {% assign state_desc = site.data.recruiting.state_descriptions[page.state.slug] %}
+      {% if state_desc %}
+      <div class="recruit-region-description">
+        <p>{{ state_desc }}</p>
+      </div>
+      {% endif %}
+    {% else %}
+      {% assign _state_lower = page.state.abbr | downcase %}
+      {% assign _div_lower = page.division.id | downcase %}
+      {% assign _desc_key = _state_lower | append: "_" | append: _div_lower %}
+      {% assign div_state_desc = site.data.recruiting.state_descriptions[_desc_key] %}
+      {% if div_state_desc %}
+      <div class="recruit-region-description">
+        {% if div_state_desc.title %}<h2>{{ div_state_desc.title }}</h2>{% endif %}
+        {% if div_state_desc.body %}{{ div_state_desc.body | markdownify }}{% endif %}
+      </div>
+      {% endif %}
     {% endif %}
 
     <!-- Conference breakdown for this state -->

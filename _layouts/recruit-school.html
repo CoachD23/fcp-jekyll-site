@@ -4,13 +4,15 @@ layout: default
 {% assign school = page.school %}
 {% assign conf_slug = school.conference_slug %}
 {% assign div_slug  = school.division_slug %}
+{% assign state_obj = site.data.recruiting.states | where: "abbr", school.state | first %}
+{% assign state_display = state_obj.name | default: school.state %}
 
 <section class="page-header recruit-hero recruit-school-hero">
   <div class="container">
     <nav class="recruit-breadcrumb" aria-label="Breadcrumb">
       <a href="/college-basketball-programs-directory/">All Programs</a> ›
       <a href="/{{ div_slug }}/">{{ school.division }}</a> ›
-      <a href="/{{ div_slug }}/{{ school.state_slug }}/">{{ school.state }}</a> ›
+      <a href="/{{ div_slug }}/{{ school.state_slug }}/">{{ state_display }}</a> ›
       <span>{{ school.name }}</span>
     </nav>
 
@@ -25,11 +27,11 @@ layout: default
       </div>
       {% endif %}
       <div class="recruit-school-hero-text">
-        <h1>{{ school.name }}</h1>
+        <h1>{{ school.name }} Men's Basketball — {{ school.division }} Recruiting Profile</h1>
         <p class="page-subtitle">
           {% if school.conference %}<a href="/{{ conf_slug }}-basketball-programs/" class="hero-conf-link">{{ school.conference }}</a> · {% endif %}
           {{ school.division }} ·
-          <a href="/{{ div_slug }}/{{ school.state_slug }}/">{{ school.state }}</a>
+          <a href="/{{ div_slug }}/{{ school.state_slug }}/">{{ state_display }}</a>
         </p>
       </div>
     </div>
@@ -71,7 +73,14 @@ layout: default
         </p>
         {% endif %}
         {% else %}
-        <p class="recruit-muted">Contact information not available — reach out via the <a href="{{ school.espn_url }}" target="_blank" rel="noopener">ESPN program page</a>.</p>
+        <p class="recruit-muted">
+          {% if school.espn_url and school.espn_url != "" %}
+            Contact information not available — reach out via the
+            <a href="{{ school.espn_url }}" target="_blank" rel="noopener">ESPN program page</a>.
+          {% else %}
+            Contact information not currently available for this program.
+          {% endif %}
+        </p>
         {% endif %}
       </div>
 
@@ -135,13 +144,17 @@ layout: default
         <dl>
           <dt>Division</dt>
           <dd>{{ school.division }}</dd>
+          {% if school.juco_org %}
+          <dt>Governing Body</dt>
+          <dd>{{ school.juco_org }}</dd>
+          {% endif %}
           {% if school.conference %}
           <dt>Conference</dt>
           <dd><a href="/{{ conf_slug }}-basketball-programs/">{{ school.conference }}</a></dd>
           {% endif %}
           {% if school.state %}
           <dt>State</dt>
-          <dd><a href="/{{ div_slug }}/{{ school.state_slug }}/">{{ school.state }}</a></dd>
+          <dd><a href="/{{ div_slug }}/{{ school.state_slug }}/">{{ state_display }}</a></dd>
           {% endif %}
           {% if school.city and school.city != "" %}
           <dt>City</dt>
@@ -162,7 +175,7 @@ layout: default
 
       <!-- More programs in this state -->
       <div class="recruit-info-card">
-        <h3>More {{ school.division }} Programs in {{ school.state }}</h3>
+        <h3>More {{ school.division }} Programs in {{ state_display }}</h3>
         {% assign state_schools = site.data.recruiting.schools | where: "division", school.division | where: "state", school.state %}
         <ul class="recruit-sidebar-list">
           {% for s in state_schools limit:8 %}
@@ -172,14 +185,14 @@ layout: default
           {% endfor %}
         </ul>
         <a href="/{{ div_slug }}/{{ school.state_slug }}/" class="recruit-see-all">
-          All {{ school.division }} programs in {{ school.state }} →
+          All {{ school.division }} programs in {{ state_display }} →
         </a>
       </div>
 
       <!-- Conference mates -->
       <div class="recruit-info-card">
         <h3>{{ school.conference | truncate: 30 }}</h3>
-        {% assign conf_schools = site.data.recruiting.schools | where: "conference_slug", conf_slug %}
+        {% assign conf_schools = site.data.recruiting.schools | where: "conference_slug", conf_slug | where: "division", school.division %}
         <ul class="recruit-sidebar-list">
           {% for s in conf_schools limit:8 %}
             {% unless s.slug == school.slug %}
@@ -223,6 +236,14 @@ layout: default
     btn.disabled = true;
     btn.textContent = 'Loading…';
 
+    function escHtml(str) {
+      return String(str || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
     function renderStaff(data) {
       var entry = data.find(function(s) { return String(s.i) === String(espnId); });
       if (!entry || !entry.st || !entry.st.length) {
@@ -232,8 +253,8 @@ layout: default
       }
       var html = '<table class="recruit-staff-table"><thead><tr><th>Name</th><th>Position</th><th>Email</th></tr></thead><tbody>';
       entry.st.forEach(function(s) {
-        html += '<tr><td>' + (s.n || '') + '</td><td>' + (s.p || '') + '</td>';
-        html += '<td>' + (s.e ? '<a href="mailto:' + s.e + '">' + s.e + '</a>' : '—') + '</td></tr>';
+        html += '<tr><td>' + escHtml(s.n) + '</td><td>' + escHtml(s.p) + '</td>';
+        html += '<td>' + (s.e ? '<a href="mailto:' + escHtml(s.e) + '">' + escHtml(s.e) + '</a>' : '—') + '</td></tr>';
       });
       html += '</tbody></table>';
       container.innerHTML = html;

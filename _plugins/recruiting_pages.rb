@@ -109,17 +109,16 @@ module FCP
       @name = 'index.html'
 
       self.process(@name)
-      coach_name = school['head_coach'] || 'the coaching staff'
-      conf_name  = school['conference'] || 'their conference'
+      coach_name = school['head_coach'].to_s.empty? ? 'coaching staff' : school['head_coach']
+      conf_name  = school['conference'].to_s.empty? ? school['division'] : school['conference']
+      city_part  = school['city'].to_s.empty? ? school['state'] : school['city']
       div_label  = school['division']
-      state_name = school['state'] || ''
 
       self.data = {
         'layout'      => 'recruit-school',
-        'title'       => "#{school['name']} Basketball — Coach, Contacts & Recruiting Info",
-        'description' => "#{school['name']} men's basketball in #{state_name}: coach #{coach_name}, " \
-                         "#{conf_name} (#{div_label}). Coach contacts, scholarship info, and how FCP prepares players for #{div_label} offers.",
-        'og_image'    => school['logo_url'] || '/assets/images/about-fcp.jpg',
+        'title'       => "#{school['name']} #{div_label} Basketball — Coach, Roster & Recruiting | FCP",
+        'description' => "#{school['name']} #{div_label} basketball (#{conf_name}) in #{city_part}: view #{coach_name}'s contact, staff directory, and recruiting guide.",
+        'og_image'    => (school['logo_url'].to_s.empty? ? '/assets/images/about-fcp.jpg' : school['logo_url']),
         'school'      => school,
       }
       self.content = ''

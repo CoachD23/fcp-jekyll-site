@@ -10,7 +10,8 @@ layout: default
     <p class="page-subtitle">{{ page.subtitle | default: "Every college basketball program in America — D1, D2, D3, NAIA, JUCO, and USCAA — organized by division, state, and conference." }}</p>
     <div class="recruit-hero-stats">
       <div class="recruit-stat">
-        <span class="recruit-stat-num">1,000+</span>
+        {% assign total_schools = site.data.recruiting.schools | size %}
+        <span class="recruit-stat-num">{{ total_schools }}</span>
         <span class="recruit-stat-label">Programs Listed</span>
       </div>
       <div class="recruit-stat">

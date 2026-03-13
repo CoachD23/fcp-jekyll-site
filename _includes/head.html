@@ -140,6 +140,76 @@
 }
 </script>
 
+{% if page.layout == 'recruit-school' %}
+{% assign school = page.school %}
+{% assign state_obj_h = site.data.recruiting.states | where: "abbr", school.state | first %}
+{% assign state_display_h = state_obj_h.name | default: school.state %}
+<!-- Structured Data: SportsTeam (school recruiting pages) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsTeam",
+  "name": "{{ school.name | escape }} Men's Basketball",
+  "sport": "Basketball",
+  "memberOf": {
+    "@type": "SportsOrganization",
+    "name": "{{ school.conference | escape }}",
+    "url": "https://floridacoastalprep.com/{{ school.conference_slug }}-basketball-programs/"
+  },
+  "location": {
+    "@type": "Place",
+    "name": "{{ school.name | escape }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "{{ school.state }}",
+      "addressCountry": "US"
+    }
+  },
+  "url": "{{ page.url | absolute_url }}"{% if school.espn_url and school.espn_url != "" %},
+  "sameAs": "{{ school.espn_url }}"{% endif %}{% if school.head_coach and school.head_coach != "" %},
+  "coach": {
+    "@type": "Person",
+    "name": "{{ school.head_coach | escape }}",
+    "jobTitle": "Head Coach"{% if school.best_email and school.best_email != "" %},
+    "email": "{{ school.best_email }}"{% endif %}
+  }{% endif %}
+}
+</script>
+<!-- Structured Data: BreadcrumbList (school recruiting pages) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "All Programs",
+      "item": "https://floridacoastalprep.com/college-basketball-programs-directory/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ school.division }} Basketball Programs",
+      "item": "https://floridacoastalprep.com/{{ school.division_slug }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ state_display_h | default: school.state }} {{ school.division }} Programs",
+      "item": "https://floridacoastalprep.com/{{ school.division_slug }}/{{ school.state_slug }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "{{ school.name | escape }}",
+      "item": "{{ page.url | absolute_url }}"
+    }
+  ]
+}
+</script>
+{% endif %}
+
 {% if page.layout == 'post' or page.layout == 'alumni-post' %}
 <!-- Structured Data: Article (blog posts) -->
 <script type="application/ld+json">
