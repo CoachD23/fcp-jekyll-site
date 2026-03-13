@@ -204,7 +204,12 @@
 /blog/page/*                   /blog/         301
 
 # ----------------------------------------------------------
-# 19. DUPLICATE CONTENT CONSOLIDATION
+# 19. RECRUITING DIRECTORY URL RENAMES
+# ----------------------------------------------------------
+/coach-search/                 /d1-basketball-coaches/   301
+
+# ----------------------------------------------------------
+# 20. DUPLICATE CONTENT CONSOLIDATION
 # ----------------------------------------------------------
 # Old blog post → canonical alumni-post (preserves SEO equity)
 /brock-rose-commits-radford-university/    /brock-rose-commits-to-radford-university/    301

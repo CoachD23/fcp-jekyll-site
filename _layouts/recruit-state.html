@@ -89,7 +89,9 @@ layout: default
     {% endif %}
 
     <!-- Conference breakdown for this state -->
-    {% assign state_confs = page.schools | group_by: "conference" %}
+    {% assign state_confs_raw = page.schools | group_by: "conference" %}
+    {% assign state_confs = "" | split: "" %}
+    {% for g in state_confs_raw %}{% if g.name != "" %}{% assign state_confs = state_confs | push: g %}{% endif %}{% endfor %}
     {% if state_confs.size > 1 %}
     <h2 class="recruit-section-title">By Conference</h2>
     <div class="recruit-conf-breakdown">

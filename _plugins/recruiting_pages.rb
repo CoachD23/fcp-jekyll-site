@@ -1,9 +1,9 @@
 # _plugins/recruiting_pages.rb
 # Generates all programmatic recruiting hub pages from _data/recruiting/*.yml
 # Produces:
-#   /d1-basketball-programs/{state-slug}/   (and d2, d3, naia, juco when data exists)
+#   /d1-basketball-programs/{state-slug}/   (and d2, d3, naia, juco, uscaa when data exists)
 #   /{conference-slug}-basketball-programs/
-#   /d1-basketball-programs/{school-slug}/  (individual school pages, D1 only)
+#   /{division-slug}/{school-slug}/  (individual school pages, all divisions)
 #
 # Safe for Netlify: no network calls, pure data-driven page generation.
 
@@ -44,9 +44,9 @@ module FCP
         site.pages << ConferencePage.new(site, conf, conf_schools)
       end
 
-      # ── Individual school pages (D1 only) ─────────────────────────────────
-      d1_schools = schools.select { |s| s['division'] == 'D1' && s['slug'] }
-      d1_schools.each do |school|
+      # ── Individual school pages (all divisions) ───────────────────────────
+      all_schools = schools.select { |s| s['slug'] && s['division_slug'] }
+      all_schools.each do |school|
         site.pages << SchoolPage.new(site, school)
       end
     end
@@ -109,14 +109,16 @@ module FCP
       @name = 'index.html'
 
       self.process(@name)
-      coach_name = school['head_coach'] || 'the head coaching staff'
+      coach_name = school['head_coach'] || 'the coaching staff'
       conf_name  = school['conference'] || 'their conference'
+      div_label  = school['division']
+      state_name = school['state'] || ''
 
       self.data = {
         'layout'      => 'recruit-school',
         'title'       => "#{school['name']} Basketball — Coach, Contacts & Recruiting Info",
-        'description' => "#{school['name']} men's basketball: head coach #{coach_name}, #{conf_name} program. " \
-                         "Find coach contacts and learn how FCP prepares players to earn #{school['division']} offers.",
+        'description' => "#{school['name']} men's basketball in #{state_name}: coach #{coach_name}, " \
+                         "#{conf_name} (#{div_label}). Coach contacts, scholarship info, and how FCP prepares players for #{div_label} offers.",
         'og_image'    => school['logo_url'] || '/assets/images/about-fcp.jpg',
         'school'      => school,
       }

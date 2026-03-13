@@ -5,7 +5,7 @@
 - **Deploy:** Netlify auto-deploys on push to `master` branch
 - **URL:** https://floridacoastalprep.com
 - **Repo:** `CoachD23/fcp-jekyll-site` on GitHub
-- **Working dir:** `/Users/fcp/Florida Coastal Prep Website/fcp-jekyll-site-master/`
+- **Working dir:** `/Users/fcp/Florida Coastal Prep Website/`
 
 ## Git Workflow
 Git CLI works normally. Remote uses token-embedded URL for auth (already configured).

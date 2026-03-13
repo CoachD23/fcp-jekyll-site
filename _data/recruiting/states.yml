@@ -13,7 +13,6 @@
 - abbr: AK
   name: Alaska
   slug: alaska
-  by_division: {}
   school_count: 2
   by_division:
     D2: 2
@@ -44,13 +43,13 @@
 - abbr: CA
   name: California
   slug: california
-  school_count: 65
+  school_count: 154
   by_division:
     D1: 18
     D2: 20
     D3: 10
     NAIA: 16
-    JUCO: 1
+    JUCO: 90
   seo_title: California College Basketball Programs
   seo_description: All college basketball programs in California — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: CO
@@ -383,7 +382,6 @@
 - abbr: ND
   name: North Dakota
   slug: north-dakota
-  by_division: {}
   school_count: 12
   by_division:
     D2: 2
@@ -418,12 +416,13 @@
 - abbr: OR
   name: Oregon
   slug: oregon
-  school_count: 15
+  school_count: 25
   by_division:
     D1: 2
     D2: 1
     D3: 5
     NAIA: 7
+    JUCO: 10
   seo_title: Oregon College Basketball Programs
   seo_description: All college basketball programs in Oregon — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: PA
@@ -464,7 +463,6 @@
 - abbr: SD
   name: South Dakota
   slug: south-dakota
-  by_division: {}
   school_count: 9
   by_division:
     D2: 5
@@ -533,12 +531,13 @@
 - abbr: WA
   name: Washington
   slug: washington
-  school_count: 13
+  school_count: 36
   by_division:
     D1: 2
     D2: 4
     D3: 4
     NAIA: 3
+    JUCO: 23
   seo_title: Washington College Basketball Programs
   seo_description: All college basketball programs in Washington — D1, D2, D3, NAIA, and JUCO schools with conference and recruiting info.
 - abbr: WV

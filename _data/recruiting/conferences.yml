@@ -4,496 +4,1744 @@
   division: D1
   school_count: 9
   seo_title: America East Conference Basketball Programs
-  seo_description: All America East Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All America East Conference men's basketball programs — complete
+    roster, locations, and recruiting information.
   schools:
-    - New Hampshire Wildcats
-    - Vermont Catamounts
-    - Maine Black Bears
-    - UAlbany Great Danes
-    - Binghamton Bearcats
-    - UMass Lowell River Hawks
-    - UMBC Retrievers
-    - Bryant Bulldogs
-    - NJIT Highlanders
+  - New Hampshire Wildcats
+  - Vermont Catamounts
+  - Maine Black Bears
+  - UAlbany Great Danes
+  - Binghamton Bearcats
+  - UMass Lowell River Hawks
+  - UMBC Retrievers
+  - Bryant Bulldogs
+  - NJIT Highlanders
 - name: American Conference
   abbreviation: American
   slug: american-conference
   division: D1
   school_count: 13
   seo_title: American Conference Basketball Programs
-  seo_description: All American Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All American Conference men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - UAB Blazers
-    - South Florida Bulls
-    - East Carolina Pirates
-    - Tulsa Golden Hurricane
-    - Temple Owls
-    - Memphis Tigers
-    - Rice Owls
-    - North Texas Mean Green
-    - Florida Atlantic Owls
-    - Charlotte 49ers
-    - UTSA Roadrunners
-    - Tulane Green Wave
-    - Wichita State Shockers
+  - UAB Blazers
+  - South Florida Bulls
+  - East Carolina Pirates
+  - Tulsa Golden Hurricane
+  - Temple Owls
+  - Memphis Tigers
+  - Rice Owls
+  - North Texas Mean Green
+  - Florida Atlantic Owls
+  - Charlotte 49ers
+  - UTSA Roadrunners
+  - Tulane Green Wave
+  - Wichita State Shockers
 - name: ASUN Conference
   abbreviation: a-sun
   slug: asun-conference
   division: D1
   school_count: 12
   seo_title: ASUN Conference Basketball Programs
-  seo_description: All ASUN Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All ASUN Conference men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - Stetson Hatters
-    - Bellarmine Knights
-    - Lipscomb Bisons
-    - Jacksonville Dolphins
-    - Florida Gulf Coast Eagles
-    - Austin Peay Governors
-    - Central Arkansas Bears
-    - Eastern Kentucky Colonels
-    - North Alabama Lions
-    - North Florida Ospreys
-    - Queens University Royals
-    - West Georgia Wolves
+  - Stetson Hatters
+  - Bellarmine Knights
+  - Lipscomb Bisons
+  - Jacksonville Dolphins
+  - Florida Gulf Coast Eagles
+  - Austin Peay Governors
+  - Central Arkansas Bears
+  - Eastern Kentucky Colonels
+  - North Alabama Lions
+  - North Florida Ospreys
+  - Queens University Royals
+  - West Georgia Wolves
 - name: Atlantic 10 Conference
   abbreviation: atl10
   slug: atlantic-10-conference
   division: D1
   school_count: 14
   seo_title: Atlantic 10 Conference Basketball Programs
-  seo_description: All Atlantic 10 Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Atlantic 10 Conference men's basketball programs — complete
+    roster, locations, and recruiting information.
   schools:
-    - George Washington Revolutionaries
-    - Saint Louis Billikens
-    - St. Bonaventure Bonnies
-    - Rhode Island Rams
-    - Richmond Spiders
-    - Davidson Wildcats
-    - Dayton Flyers
-    - Duquesne Dukes
-    - Fordham Rams
-    - George Mason Patriots
-    - La Salle Explorers
-    - Loyola Chicago Ramblers
-    - Saint Joseph's Hawks
-    - VCU Rams
+  - George Washington Revolutionaries
+  - Saint Louis Billikens
+  - St. Bonaventure Bonnies
+  - Rhode Island Rams
+  - Richmond Spiders
+  - Davidson Wildcats
+  - Dayton Flyers
+  - Duquesne Dukes
+  - Fordham Rams
+  - George Mason Patriots
+  - La Salle Explorers
+  - Loyola Chicago Ramblers
+  - Saint Joseph's Hawks
+  - VCU Rams
 - name: Atlantic Coast Conference
   abbreviation: acc
   slug: atlantic-coast-conference
   division: D1
   school_count: 18
   seo_title: Atlantic Coast Conference Basketball Programs
-  seo_description: All Atlantic Coast Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Atlantic Coast Conference men's basketball programs — complete
+    roster, locations, and recruiting information.
   schools:
-    - Stanford Cardinal
-    - California Golden Bears
-    - Florida State Seminoles
-    - Georgia Tech Yellow Jackets
-    - Notre Dame Fighting Irish
-    - Louisville Cardinals
-    - Boston College Eagles
-    - Duke Blue Devils
-    - NC State Wolfpack
-    - North Carolina Tar Heels
-    - Wake Forest Demon Deacons
-    - Syracuse Orange
-    - Pittsburgh Panthers
-    - Clemson Tigers
-    - Virginia Cavaliers
-    - Virginia Tech Hokies
-    - Miami Hurricanes
-    - SMU Mustangs
+  - Stanford Cardinal
+  - California Golden Bears
+  - Florida State Seminoles
+  - Georgia Tech Yellow Jackets
+  - Notre Dame Fighting Irish
+  - Louisville Cardinals
+  - Boston College Eagles
+  - Duke Blue Devils
+  - NC State Wolfpack
+  - North Carolina Tar Heels
+  - Wake Forest Demon Deacons
+  - Syracuse Orange
+  - Pittsburgh Panthers
+  - Clemson Tigers
+  - Virginia Cavaliers
+  - Virginia Tech Hokies
+  - Miami Hurricanes
+  - SMU Mustangs
 - name: Big 12 Conference
   abbreviation: big12
   slug: big-12-conference
   division: D1
   school_count: 16
   seo_title: Big 12 Conference Basketball Programs
-  seo_description: All Big 12 Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Big 12 Conference men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - Arizona State Sun Devils
-    - Arizona Wildcats
-    - Colorado Buffaloes
-    - Iowa State Cyclones
-    - Oklahoma State Cowboys
-    - Baylor Bears
-    - Houston Cougars
-    - BYU Cougars
-    - Utah Utes
-    - West Virginia Mountaineers
-    - UCF Knights
-    - Cincinnati Bearcats
-    - Kansas Jayhawks
-    - Kansas State Wildcats
-    - TCU Horned Frogs
-    - Texas Tech Red Raiders
+  - Arizona State Sun Devils
+  - Arizona Wildcats
+  - Colorado Buffaloes
+  - Iowa State Cyclones
+  - Oklahoma State Cowboys
+  - Baylor Bears
+  - Houston Cougars
+  - BYU Cougars
+  - Utah Utes
+  - West Virginia Mountaineers
+  - UCF Knights
+  - Cincinnati Bearcats
+  - Kansas Jayhawks
+  - Kansas State Wildcats
+  - TCU Horned Frogs
+  - Texas Tech Red Raiders
 - name: Big East Conference
   abbreviation: bige
   slug: big-east-conference
   division: D1
   school_count: 11
   seo_title: Big East Conference Basketball Programs
-  seo_description: All Big East Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Big East Conference men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - UConn Huskies
-    - Georgetown Hoyas
-    - Creighton Bluejays
-    - Villanova Wildcats
-    - Marquette Golden Eagles
-    - DePaul Blue Demons
-    - Butler Bulldogs
-    - Providence Friars
-    - Seton Hall Pirates
-    - St. John's Red Storm
-    - Xavier Musketeers
+  - UConn Huskies
+  - Georgetown Hoyas
+  - Creighton Bluejays
+  - Villanova Wildcats
+  - Marquette Golden Eagles
+  - DePaul Blue Demons
+  - Butler Bulldogs
+  - Providence Friars
+  - Seton Hall Pirates
+  - St. John's Red Storm
+  - Xavier Musketeers
 - name: Big Sky Conference
   abbreviation: bsky
   slug: big-sky-conference
   division: D1
   school_count: 10
   seo_title: Big Sky Conference Basketball Programs
-  seo_description: All Big Sky Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Big Sky Conference men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - Sacramento State Hornets
-    - Idaho Vandals
-    - Montana State Bobcats
-    - Montana Grizzlies
-    - Idaho State Bengals
-    - Eastern Washington Eagles
-    - Northern Colorado Bears
-    - Northern Arizona Lumberjacks
-    - Portland State Vikings
-    - Weber State Wildcats
+  - Sacramento State Hornets
+  - Idaho Vandals
+  - Montana State Bobcats
+  - Montana Grizzlies
+  - Idaho State Bengals
+  - Eastern Washington Eagles
+  - Northern Colorado Bears
+  - Northern Arizona Lumberjacks
+  - Portland State Vikings
+  - Weber State Wildcats
 - name: Big South Conference
   abbreviation: bsou
   slug: big-south-conference
   division: D1
   school_count: 9
   seo_title: Big South Conference Basketball Programs
-  seo_description: All Big South Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Big South Conference men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - Charleston Southern Buccaneers
-    - Gardner-Webb Runnin' Bulldogs
-    - High Point Panthers
-    - Longwood Lancers
-    - UNC Asheville Bulldogs
-    - Presbyterian Blue Hose
-    - Radford Highlanders
-    - Winthrop Eagles
-    - South Carolina Upstate Spartans
+  - Charleston Southern Buccaneers
+  - Gardner-Webb Runnin' Bulldogs
+  - High Point Panthers
+  - Longwood Lancers
+  - UNC Asheville Bulldogs
+  - Presbyterian Blue Hose
+  - Radford Highlanders
+  - Winthrop Eagles
+  - South Carolina Upstate Spartans
 - name: Big Ten Conference
   abbreviation: big10
   slug: big-ten-conference
   division: D1
   school_count: 18
   seo_title: Big Ten Conference Basketball Programs
-  seo_description: All Big Ten Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Big Ten Conference men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - UCLA Bruins
-    - USC Trojans
-    - Northwestern Wildcats
-    - Indiana Hoosiers
-    - Maryland Terrapins
-    - Michigan State Spartans
-    - Michigan Wolverines
-    - Minnesota Golden Gophers
-    - Nebraska Cornhuskers
-    - Rutgers Scarlet Knights
-    - Ohio State Buckeyes
-    - Penn State Nittany Lions
-    - Washington Huskies
-    - Wisconsin Badgers
-    - Illinois Fighting Illini
-    - Iowa Hawkeyes
-    - Oregon Ducks
-    - Purdue Boilermakers
+  - UCLA Bruins
+  - USC Trojans
+  - Northwestern Wildcats
+  - Indiana Hoosiers
+  - Maryland Terrapins
+  - Michigan State Spartans
+  - Michigan Wolverines
+  - Minnesota Golden Gophers
+  - Nebraska Cornhuskers
+  - Rutgers Scarlet Knights
+  - Ohio State Buckeyes
+  - Penn State Nittany Lions
+  - Washington Huskies
+  - Wisconsin Badgers
+  - Illinois Fighting Illini
+  - Iowa Hawkeyes
+  - Oregon Ducks
+  - Purdue Boilermakers
 - name: Big West Conference
   abbreviation: bigw
   slug: big-west-conference
   division: D1
   school_count: 11
   seo_title: Big West Conference Basketball Programs
-  seo_description: All Big West Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Big West Conference men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - Cal Poly Mustangs
-    - UC Riverside Highlanders
-    - UC San Diego Tritons
-    - Hawai'i Rainbow Warriors
-    - Long Beach State Beach
-    - UC Irvine Anteaters
-    - UC Davis Aggies
-    - Cal State Fullerton Titans
-    - Cal State Northridge Matadors
-    - UC Santa Barbara Gauchos
-    - Cal State Bakersfield Roadrunners
+  - Cal Poly Mustangs
+  - UC Riverside Highlanders
+  - UC San Diego Tritons
+  - Hawai'i Rainbow Warriors
+  - Long Beach State Beach
+  - UC Irvine Anteaters
+  - UC Davis Aggies
+  - Cal State Fullerton Titans
+  - Cal State Northridge Matadors
+  - UC Santa Barbara Gauchos
+  - Cal State Bakersfield Roadrunners
 - name: Coastal Athletic Association
   abbreviation: col
   slug: coastal-athletic-association
   division: D1
   school_count: 13
   seo_title: Coastal Athletic Association Basketball Programs
-  seo_description: All Coastal Athletic Association men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Coastal Athletic Association men's basketball programs — complete
+    roster, locations, and recruiting information.
   schools:
-    - Northeastern Huskies
-    - Towson Tigers
-    - Charleston Cougars
-    - UNC Wilmington Seahawks
-    - Campbell Fighting Camels
-    - Drexel Dragons
-    - Elon Phoenix
-    - Hampton Pirates
-    - Hofstra Pride
-    - Monmouth Hawks
-    - North Carolina A&T Aggies
-    - Stony Brook Seawolves
-    - William & Mary Tribe
+  - Northeastern Huskies
+  - Towson Tigers
+  - Charleston Cougars
+  - UNC Wilmington Seahawks
+  - Campbell Fighting Camels
+  - Drexel Dragons
+  - Elon Phoenix
+  - Hampton Pirates
+  - Hofstra Pride
+  - Monmouth Hawks
+  - North Carolina A&T Aggies
+  - Stony Brook Seawolves
+  - William & Mary Tribe
 - name: Conference USA
   abbreviation: usa
   slug: conference-usa
   division: D1
   school_count: 12
   seo_title: Conference USA Basketball Programs
-  seo_description: All Conference USA men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Conference USA men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - Delaware Blue Hens
-    - Jacksonville State Gamecocks
-    - Western Kentucky Hilltoppers
-    - New Mexico State Aggies
-    - Kennesaw State Owls
-    - Florida International Panthers
-    - Liberty Flames
-    - Louisiana Tech Bulldogs
-    - Middle Tennessee Blue Raiders
-    - Sam Houston Bearkats
-    - Missouri State Bears
-    - UTEP Miners
+  - Delaware Blue Hens
+  - Jacksonville State Gamecocks
+  - Western Kentucky Hilltoppers
+  - New Mexico State Aggies
+  - Kennesaw State Owls
+  - Florida International Panthers
+  - Liberty Flames
+  - Louisiana Tech Bulldogs
+  - Middle Tennessee Blue Raiders
+  - Sam Houston Bearkats
+  - Missouri State Bears
+  - UTEP Miners
 - name: Horizon League
   abbreviation: hor
   slug: horizon-league
   division: D1
   school_count: 11
   seo_title: Horizon League Basketball Programs
-  seo_description: All Horizon League men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Horizon League men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - IU Indianapolis Jaguars
-    - Northern Kentucky Norse
-    - Milwaukee Panthers
-    - Cleveland State Vikings
-    - Detroit Mercy Titans
-    - Oakland Golden Grizzlies
-    - Robert Morris Colonials
-    - Green Bay Phoenix
-    - Wright State Raiders
-    - Youngstown State Penguins
-    - Purdue Fort Wayne Mastodons
+  - IU Indianapolis Jaguars
+  - Northern Kentucky Norse
+  - Milwaukee Panthers
+  - Cleveland State Vikings
+  - Detroit Mercy Titans
+  - Oakland Golden Grizzlies
+  - Robert Morris Colonials
+  - Green Bay Phoenix
+  - Wright State Raiders
+  - Youngstown State Penguins
+  - Purdue Fort Wayne Mastodons
 - name: Ivy League
   abbreviation: ivy
   slug: ivy-league
   division: D1
   school_count: 8
   seo_title: Ivy League Basketball Programs
-  seo_description: All Ivy League men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Ivy League men's basketball programs — complete roster, locations,
+    and recruiting information.
   schools:
-    - Yale Bulldogs
-    - Harvard Crimson
-    - Dartmouth Big Green
-    - Princeton Tigers
-    - Columbia Lions
-    - Cornell Big Red
-    - Pennsylvania Quakers
-    - Brown Bears
+  - Yale Bulldogs
+  - Harvard Crimson
+  - Dartmouth Big Green
+  - Princeton Tigers
+  - Columbia Lions
+  - Cornell Big Red
+  - Pennsylvania Quakers
+  - Brown Bears
 - name: Metro Atlantic Athletic Conference
   abbreviation: maac
   slug: metro-atlantic-athletic-conference
   division: D1
   school_count: 13
   seo_title: Metro Atlantic Athletic Conference Basketball Programs
-  seo_description: All Metro Atlantic Athletic Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Metro Atlantic Athletic Conference men's basketball programs
+    — complete roster, locations, and recruiting information.
   schools:
-    - Mount St. Mary's Mountaineers
-    - Iona Gaels
-    - Niagara Purple Eagles
-    - Canisius Golden Griffins
-    - Fairfield Stags
-    - Manhattan Jaspers
-    - Marist Red Foxes
-    - Quinnipiac Bobcats
-    - Rider Broncs
-    - Sacred Heart Pioneers
-    - Siena Saints
-    - Saint Peter's Peacocks
-    - Merrimack Warriors
+  - Mount St. Mary's Mountaineers
+  - Iona Gaels
+  - Niagara Purple Eagles
+  - Canisius Golden Griffins
+  - Fairfield Stags
+  - Manhattan Jaspers
+  - Marist Red Foxes
+  - Quinnipiac Bobcats
+  - Rider Broncs
+  - Sacred Heart Pioneers
+  - Siena Saints
+  - Saint Peter's Peacocks
+  - Merrimack Warriors
 - name: Mid-American Conference
   abbreviation: midam
   slug: mid-american-conference
   division: D1
   school_count: 13
   seo_title: Mid-American Conference Basketball Programs
-  seo_description: All Mid-American Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Mid-American Conference men's basketball programs — complete
+    roster, locations, and recruiting information.
   schools:
-    - Massachusetts Minutemen
-    - Bowling Green Falcons
-    - Miami (OH) RedHawks
-    - Ohio Bobcats
-    - Akron Zips
-    - Ball State Cardinals
-    - Buffalo Bulls
-    - Central Michigan Chippewas
-    - Eastern Michigan Eagles
-    - Kent State Golden Flashes
-    - Northern Illinois Huskies
-    - Toledo Rockets
-    - Western Michigan Broncos
+  - Massachusetts Minutemen
+  - Bowling Green Falcons
+  - Miami (OH) RedHawks
+  - Ohio Bobcats
+  - Akron Zips
+  - Ball State Cardinals
+  - Buffalo Bulls
+  - Central Michigan Chippewas
+  - Eastern Michigan Eagles
+  - Kent State Golden Flashes
+  - Northern Illinois Huskies
+  - Toledo Rockets
+  - Western Michigan Broncos
 - name: Mid-Eastern Athletic Conference
   abbreviation: meac
   slug: mid-eastern-athletic-conference
   division: D1
   school_count: 8
   seo_title: Mid-Eastern Athletic Conference Basketball Programs
-  seo_description: All Mid-Eastern Athletic Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Mid-Eastern Athletic Conference men's basketball programs —
+    complete roster, locations, and recruiting information.
   schools:
-    - Howard Bison
-    - Coppin State Eagles
-    - Delaware State Hornets
-    - Maryland Eastern Shore Hawks
-    - Morgan State Bears
-    - North Carolina Central Eagles
-    - Norfolk State Spartans
-    - South Carolina State Bulldogs
+  - Howard Bison
+  - Coppin State Eagles
+  - Delaware State Hornets
+  - Maryland Eastern Shore Hawks
+  - Morgan State Bears
+  - North Carolina Central Eagles
+  - Norfolk State Spartans
+  - South Carolina State Bulldogs
 - name: Missouri Valley Conference
   abbreviation: mvc
   slug: missouri-valley-conference
   division: D1
   school_count: 11
   seo_title: Missouri Valley Conference Basketball Programs
-  seo_description: All Missouri Valley Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Missouri Valley Conference men's basketball programs — complete
+    roster, locations, and recruiting information.
   schools:
-    - Bradley Braves
-    - Southern Illinois Salukis
-    - UIC Flames
-    - Murray State Racers
-    - Indiana State Sycamores
-    - Evansville Purple Aces
-    - Belmont Bruins
-    - Drake Bulldogs
-    - Illinois State Redbirds
-    - Northern Iowa Panthers
-    - Valparaiso Beacons
+  - Bradley Braves
+  - Southern Illinois Salukis
+  - UIC Flames
+  - Murray State Racers
+  - Indiana State Sycamores
+  - Evansville Purple Aces
+  - Belmont Bruins
+  - Drake Bulldogs
+  - Illinois State Redbirds
+  - Northern Iowa Panthers
+  - Valparaiso Beacons
 - name: Mountain West Conference
   abbreviation: mwest
   slug: mountain-west-conference
   division: D1
   school_count: 12
   seo_title: Mountain West Conference Basketball Programs
-  seo_description: All Mountain West Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Mountain West Conference men's basketball programs — complete
+    roster, locations, and recruiting information.
   schools:
-    - San Diego State Aztecs
-    - San José State Spartans
-    - Colorado State Rams
-    - Boise State Broncos
-    - New Mexico Lobos
-    - Fresno State Bulldogs
-    - Utah State Aggies
-    - Air Force Falcons
-    - Grand Canyon Lopes
-    - UNLV Rebels
-    - Nevada Wolf Pack
-    - Wyoming Cowboys
+  - San Diego State Aztecs
+  - San José State Spartans
+  - Colorado State Rams
+  - Boise State Broncos
+  - New Mexico Lobos
+  - Fresno State Bulldogs
+  - Utah State Aggies
+  - Air Force Falcons
+  - Grand Canyon Lopes
+  - UNLV Rebels
+  - Nevada Wolf Pack
+  - Wyoming Cowboys
 - name: Northeast Conference
   abbreviation: neast
   slug: northeast-conference
   division: D1
   school_count: 10
   seo_title: Northeast Conference Basketball Programs
-  seo_description: All Northeast Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Northeast Conference men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - Fairleigh Dickinson Knights
-    - Stonehill Skyhawks
-    - Central Connecticut Blue Devils
-    - Chicago State Cougars
-    - Le Moyne Dolphins
-    - Mercyhurst Lakers
-    - New Haven Chargers
-    - Saint Francis Red Flash
-    - Wagner Seahawks
-    - Long Island University Sharks
+  - Fairleigh Dickinson Knights
+  - Stonehill Skyhawks
+  - Central Connecticut Blue Devils
+  - Chicago State Cougars
+  - Le Moyne Dolphins
+  - Mercyhurst Lakers
+  - New Haven Chargers
+  - Saint Francis Red Flash
+  - Wagner Seahawks
+  - Long Island University Sharks
 - name: Ohio Valley Conference
   abbreviation: ovc
   slug: ohio-valley-conference
   division: D1
   school_count: 11
   seo_title: Ohio Valley Conference Basketball Programs
-  seo_description: All Ohio Valley Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Ohio Valley Conference men's basketball programs — complete
+    roster, locations, and recruiting information.
   schools:
-    - Southern Indiana Screaming Eagles
-    - Little Rock Trojans
-    - Eastern Illinois Panthers
-    - Morehead State Eagles
-    - Southeast Missouri State Redhawks
-    - SIU Edwardsville Cougars
-    - UT Martin Skyhawks
-    - Tennessee State Tigers
-    - Tennessee Tech Golden Eagles
-    - Western Illinois Leathernecks
-    - Lindenwood Lions
+  - Southern Indiana Screaming Eagles
+  - Little Rock Trojans
+  - Eastern Illinois Panthers
+  - Morehead State Eagles
+  - Southeast Missouri State Redhawks
+  - SIU Edwardsville Cougars
+  - UT Martin Skyhawks
+  - Tennessee State Tigers
+  - Tennessee Tech Golden Eagles
+  - Western Illinois Leathernecks
+  - Lindenwood Lions
 - name: Patriot League
   abbreviation: pat
   slug: patriot-league
   division: D1
   school_count: 10
   seo_title: Patriot League Basketball Programs
-  seo_description: All Patriot League men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Patriot League men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - American University Eagles
-    - Boston University Terriers
-    - Holy Cross Crusaders
-    - Lafayette Leopards
-    - Army Black Knights
-    - Bucknell Bison
-    - Colgate Raiders
-    - Lehigh Mountain Hawks
-    - Loyola Maryland Greyhounds
-    - Navy Midshipmen
+  - American University Eagles
+  - Boston University Terriers
+  - Holy Cross Crusaders
+  - Lafayette Leopards
+  - Army Black Knights
+  - Bucknell Bison
+  - Colgate Raiders
+  - Lehigh Mountain Hawks
+  - Loyola Maryland Greyhounds
+  - Navy Midshipmen
 - name: Southeastern Conference
   abbreviation: sec
   slug: southeastern-conference
   division: D1
   school_count: 16
   seo_title: Southeastern Conference Basketball Programs
-  seo_description: All Southeastern Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Southeastern Conference men's basketball programs — complete
+    roster, locations, and recruiting information.
   schools:
-    - Auburn Tigers
-    - Arkansas Razorbacks
-    - Florida Gators
-    - Georgia Bulldogs
-    - Kentucky Wildcats
-    - LSU Tigers
-    - Missouri Tigers
-    - Ole Miss Rebels
-    - Oklahoma Sooners
-    - Vanderbilt Commodores
-    - Texas A&M Aggies
-    - Texas Longhorns
-    - Alabama Crimson Tide
-    - Mississippi State Bulldogs
-    - South Carolina Gamecocks
-    - Tennessee Volunteers
+  - Auburn Tigers
+  - Arkansas Razorbacks
+  - Florida Gators
+  - Georgia Bulldogs
+  - Kentucky Wildcats
+  - LSU Tigers
+  - Missouri Tigers
+  - Ole Miss Rebels
+  - Oklahoma Sooners
+  - Vanderbilt Commodores
+  - Texas A&M Aggies
+  - Texas Longhorns
+  - Alabama Crimson Tide
+  - Mississippi State Bulldogs
+  - South Carolina Gamecocks
+  - Tennessee Volunteers
 - name: Southern Conference
   abbreviation: south
   slug: southern-conference
   division: D1
   school_count: 10
   seo_title: Southern Conference Basketball Programs
-  seo_description: All Southern Conference men's basketball programs — complete roster, locations, and recruiting information.
+  seo_description: All Southern Conference men's basketball programs — complete roster,
+    locations, and recruiting information.
   schools:
-    - Furman Paladins
-    - Chattanooga Mocs
-    - East Tennessee State Buccaneers
-    - Mercer Bears
-    - UNC Greensboro Spartans
-    - Samford Bulldogs
-    - The Citadel Bulldogs
-    - VMI Keydets
-    - Western Carolina Catamounts
-    - Wofford Terriers
+  - Furman Paladins
+  - Chattanooga Mocs
+  - East Tennessee State Buccaneers
+  - Mercer Bears
+  - UNC Greensboro Spartans
+  - Samford Bulldogs
+  - The Citadel Bulldogs
+  - VMI Keydets
+  - Western Carolina Catamounts
+  - Wofford Terriers
+- name: Alabama Community College Conference
+  slug: alabama-community-college-conference
+  division: JUCO
+  school_count: 15
+  seo_title: Alabama Community College Conference Basketball Programs
+  seo_description: All Alabama Community College Conference men's basketball programs
+    — 15 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Allegheny Mountain Collegiate Conference
+  slug: allegheny-mountain-collegiate-conference
+  division: D3
+  school_count: 8
+  seo_title: Allegheny Mountain Collegiate Conference Basketball Programs
+  seo_description: All Allegheny Mountain Collegiate Conference men's basketball programs
+    — 8 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: American Mideast Conference
+  slug: american-mideast-conference
+  division: NAIA
+  school_count: 2
+  seo_title: American Mideast Conference Basketball Programs
+  seo_description: All American Mideast Conference men's basketball programs — 2 NAIA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: American Midwest Conference
+  slug: american-midwest-conference
+  division: NAIA
+  school_count: 7
+  seo_title: American Midwest Conference Basketball Programs
+  seo_description: All American Midwest Conference men's basketball programs — 7 NAIA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: American Rivers Conference
+  slug: american-rivers-conference
+  division: D3
+  school_count: 9
+  seo_title: American Rivers Conference Basketball Programs
+  seo_description: All American Rivers Conference men's basketball programs — 9 NCAA
+    Division III programs with coach contacts, recruiting info, and scholarship details.
+- name: American Southwest Conference
+  slug: american-southwest-conference
+  division: D3
+  school_count: 6
+  seo_title: American Southwest Conference Basketball Programs
+  seo_description: All American Southwest Conference men's basketball programs — 6
+    NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Appalachian Athletic Conference
+  slug: appalachian-athletic-conference
+  division: NAIA
+  school_count: 14
+  seo_title: Appalachian Athletic Conference Basketball Programs
+  seo_description: All Appalachian Athletic Conference men's basketball programs —
+    14 NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Arizona Community College Athletic Conference
+  slug: arizona-community-college-athletic-conference
+  division: JUCO
+  school_count: 10
+  seo_title: Arizona Community College Athletic Conference Basketball Programs
+  seo_description: All Arizona Community College Athletic Conference men's basketball
+    programs — 10 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Arkansas Collegiate Athletic Conference
+  slug: arkansas-collegiate-athletic-conference
+  division: JUCO
+  school_count: 1
+  seo_title: Arkansas Collegiate Athletic Conference Basketball Programs
+  seo_description: All Arkansas Collegiate Athletic Conference men's basketball programs
+    — 1 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Arkansas Community Colleges
+  slug: arkansas-community-colleges
+  division: JUCO
+  school_count: 6
+  seo_title: Arkansas Community Colleges Basketball Programs
+  seo_description: All Arkansas Community Colleges men's basketball programs — 6 JUCO/NJCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Arrowhead Conference
+  slug: arrowhead-conference
+  division: JUCO
+  school_count: 10
+  seo_title: Arrowhead Conference Basketball Programs
+  seo_description: All Arrowhead Conference men's basketball programs — 10 JUCO/NJCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Atlantic East Conference
+  slug: atlantic-east-conference
+  division: D3
+  school_count: 8
+  seo_title: Atlantic East Conference Basketball Programs
+  seo_description: All Atlantic East Conference men's basketball programs — 8 NCAA
+    Division III programs with coach contacts, recruiting info, and scholarship details.
+- name: Bay Valley Conference
+  slug: bay-valley-conference
+  division: JUCO
+  school_count: 19
+  seo_title: Bay Valley Conference Basketball Programs
+  seo_description: All Bay Valley Conference men's basketball programs — 19 JUCO/NJCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Big 8 Conference
+  slug: big-8-conference
+  division: JUCO
+  school_count: 6
+  seo_title: Big 8 Conference Basketball Programs
+  seo_description: All Big 8 Conference men's basketball programs — 6 JUCO/NJCAA programs
+    with coach contacts, recruiting info, and scholarship details.
+- name: California Collegiate Athletic Association
+  slug: california-collegiate-athletic-association
+  division: D2
+  school_count: 14
+  seo_title: California Collegiate Athletic Association Basketball Programs
+  seo_description: All California Collegiate Athletic Association men's basketball
+    programs — 14 NCAA Division II programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: California Community College Athletic Association
+  slug: california-community-college-athletic-association
+  division: JUCO
+  school_count: 3
+  seo_title: California Community College Athletic Association Basketball Programs
+  seo_description: All California Community College Athletic Association men's basketball
+    programs — 3 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: California Pacific Conference
+  slug: california-pacific-conference
+  division: NAIA
+  school_count: 7
+  seo_title: California Pacific Conference Basketball Programs
+  seo_description: All California Pacific Conference men's basketball programs — 7
+    NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Carolinas Athletic Association
+  slug: carolinas-athletic-association
+  division: JUCO
+  school_count: 19
+  seo_title: Carolinas Athletic Association Basketball Programs
+  seo_description: All Carolinas Athletic Association men's basketball programs —
+    19 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship details.
+- name: Cascade Collegiate Conference
+  slug: cascade-collegiate-conference
+  division: NAIA
+  school_count: 14
+  seo_title: Cascade Collegiate Conference Basketball Programs
+  seo_description: All Cascade Collegiate Conference men's basketball programs — 14
+    NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Centennial Conference
+  slug: centennial-conference
+  division: D3
+  school_count: 11
+  seo_title: Centennial Conference Basketball Programs
+  seo_description: All Centennial Conference men's basketball programs — 11 NCAA Division
+    III programs with coach contacts, recruiting info, and scholarship details.
+- name: Central Atlantic Collegiate Conference
+  slug: central-atlantic-collegiate-conference
+  division: D2
+  school_count: 14
+  seo_title: Central Atlantic Collegiate Conference Basketball Programs
+  seo_description: All Central Atlantic Collegiate Conference men's basketball programs
+    — 14 NCAA Division II programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Central Intercollegiate Athletic Association
+  slug: central-intercollegiate-athletic-association
+  division: D2
+  school_count: 13
+  seo_title: Central Intercollegiate Athletic Association Basketball Programs
+  seo_description: All Central Intercollegiate Athletic Association men's basketball
+    programs — 13 NCAA Division II programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: Chicago Area Athletic Conference
+  slug: chicago-area-athletic-conference
+  division: JUCO
+  school_count: 9
+  seo_title: Chicago Area Athletic Conference Basketball Programs
+  seo_description: All Chicago Area Athletic Conference men's basketball programs
+    — 9 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Chicagoland Collegiate Athletic Conference
+  slug: chicagoland-collegiate-athletic-conference
+  division: NAIA
+  school_count: 15
+  seo_title: Chicagoland Collegiate Athletic Conference Basketball Programs
+  seo_description: All Chicagoland Collegiate Athletic Conference men's basketball
+    programs — 15 NAIA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: City University of New York Athletic Conference
+  slug: city-university-of-new-york-athletic-conference
+  division: JUCO
+  school_count: 12
+  seo_title: City University of New York Athletic Conference Basketball Programs
+  seo_description: All City University of New York Athletic Conference men's basketball
+    programs — 12 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Coast Conference
+  slug: coast-conference
+  division: JUCO
+  school_count: 4
+  seo_title: Coast Conference Basketball Programs
+  seo_description: All Coast Conference men's basketball programs — 4 JUCO/NJCAA programs
+    with coach contacts, recruiting info, and scholarship details.
+- name: Coast to Coast Athletic Conference
+  slug: coast-to-coast-athletic-conference
+  division: D3
+  school_count: 5
+  seo_title: Coast to Coast Athletic Conference Basketball Programs
+  seo_description: All Coast to Coast Athletic Conference men's basketball programs
+    — 5 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: College Conference of Illinois and Wisconsin
+  slug: college-conference-of-illinois-and-wisconsin
+  division: D3
+  school_count: 9
+  seo_title: College Conference of Illinois and Wisconsin Basketball Programs
+  seo_description: All College Conference of Illinois and Wisconsin men's basketball
+    programs — 9 NCAA Division III programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: Collegiate Conference of the South
+  slug: collegiate-conference-of-the-south
+  division: D3
+  school_count: 7
+  seo_title: Collegiate Conference of the South Basketball Programs
+  seo_description: All Collegiate Conference of the South men's basketball programs
+    — 7 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Colonial States Athletic Conference
+  slug: colonial-states-athletic-conference
+  division: D3
+  school_count: 2
+  seo_title: Colonial States Athletic Conference Basketball Programs
+  seo_description: All Colonial States Athletic Conference men's basketball programs
+    — 2 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Colorado Mountain Athletic Conference
+  slug: colorado-mountain-athletic-conference
+  division: JUCO
+  school_count: 5
+  seo_title: Colorado Mountain Athletic Conference Basketball Programs
+  seo_description: All Colorado Mountain Athletic Conference men's basketball programs
+    — 5 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Conference Carolinas
+  slug: conference-carolinas
+  division: D2
+  school_count: 15
+  seo_title: Conference Carolinas Basketball Programs
+  seo_description: All Conference Carolinas men's basketball programs — 15 NCAA Division
+    II programs with coach contacts, recruiting info, and scholarship details.
+- name: Conference of New England
+  slug: conference-of-new-england
+  division: D3
+  school_count: 10
+  seo_title: Conference of New England Basketball Programs
+  seo_description: All Conference of New England men's basketball programs — 10 NCAA
+    Division III programs with coach contacts, recruiting info, and scholarship details.
+- name: Continental Athletic Conference
+  slug: continental-athletic-conference
+  division: NAIA
+  school_count: 9
+  seo_title: Continental Athletic Conference Basketball Programs
+  seo_description: All Continental Athletic Conference men's basketball programs —
+    9 NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Crossroads League
+  slug: crossroads-league
+  division: NAIA
+  school_count: 11
+  seo_title: Crossroads League Basketball Programs
+  seo_description: All Crossroads League men's basketball programs — 11 NAIA programs
+    with coach contacts, recruiting info, and scholarship details.
+- name: East Coast Conference
+  slug: east-coast-conference
+  division: D2
+  school_count: 10
+  seo_title: East Coast Conference Basketball Programs
+  seo_description: All East Coast Conference men's basketball programs — 10 NCAA Division
+    II programs with coach contacts, recruiting info, and scholarship details.
+- name: Empire 8
+  slug: empire-8
+  division: D3
+  school_count: 1
+  seo_title: Empire 8 Basketball Programs
+  seo_description: All Empire 8 men's basketball programs — 1 NCAA Division III programs
+    with coach contacts, recruiting info, and scholarship details.
+- name: Florida College System Athletic Association
+  slug: florida-college-system-athletic-association
+  division: JUCO
+  school_count: 1
+  seo_title: Florida College System Athletic Association Basketball Programs
+  seo_description: All Florida College System Athletic Association men's basketball
+    programs — 1 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Frontier Conference
+  slug: frontier-conference
+  division: NAIA
+  school_count: 14
+  seo_title: Frontier Conference Basketball Programs
+  seo_description: All Frontier Conference men's basketball programs — 14 NAIA programs
+    with coach contacts, recruiting info, and scholarship details.
+- name: Garden State Athletic Conference
+  slug: garden-state-athletic-conference
+  division: JUCO
+  school_count: 15
+  seo_title: Garden State Athletic Conference Basketball Programs
+  seo_description: All Garden State Athletic Conference men's basketball programs
+    — 15 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Georgia Collegiate Athletic Association
+  slug: georgia-collegiate-athletic-association
+  division: JUCO
+  school_count: 10
+  seo_title: Georgia Collegiate Athletic Association Basketball Programs
+  seo_description: All Georgia Collegiate Athletic Association men's basketball programs
+    — 10 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Golden State Athletic Conference
+  slug: golden-state-athletic-conference
+  division: NAIA
+  school_count: 6
+  seo_title: Golden State Athletic Conference Basketball Programs
+  seo_description: All Golden State Athletic Conference men's basketball programs
+    — 6 NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Golden Valley Conference
+  slug: golden-valley-conference
+  division: JUCO
+  school_count: 7
+  seo_title: Golden Valley Conference Basketball Programs
+  seo_description: All Golden Valley Conference men's basketball programs — 7 JUCO/NJCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Great American Conference
+  slug: great-american-conference
+  division: D2
+  school_count: 12
+  seo_title: Great American Conference Basketball Programs
+  seo_description: All Great American Conference men's basketball programs — 12 NCAA
+    Division II programs with coach contacts, recruiting info, and scholarship details.
+- name: Great Lakes Intercollegiate Athletic Conference
+  slug: great-lakes-intercollegiate-athletic-conference
+  division: D2
+  school_count: 10
+  seo_title: Great Lakes Intercollegiate Athletic Conference Basketball Programs
+  seo_description: All Great Lakes Intercollegiate Athletic Conference men's basketball
+    programs — 10 NCAA Division II programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: Great Lakes Valley Conference
+  slug: great-lakes-valley-conference
+  division: D2
+  school_count: 16
+  seo_title: Great Lakes Valley Conference Basketball Programs
+  seo_description: All Great Lakes Valley Conference men's basketball programs — 16
+    NCAA Division II programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Great Midwest Athletic Conference
+  slug: great-midwest-athletic-conference
+  division: D2
+  school_count: 12
+  seo_title: Great Midwest Athletic Conference Basketball Programs
+  seo_description: All Great Midwest Athletic Conference men's basketball programs
+    — 12 NCAA Division II programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Great Northeast Athletic Conference
+  slug: great-northeast-athletic-conference
+  division: D3
+  school_count: 14
+  seo_title: Great Northeast Athletic Conference Basketball Programs
+  seo_description: All Great Northeast Athletic Conference men's basketball programs
+    — 14 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Great Northwest Athletic Conference
+  slug: great-northwest-athletic-conference
+  division: D2
+  school_count: 9
+  seo_title: Great Northwest Athletic Conference Basketball Programs
+  seo_description: All Great Northwest Athletic Conference men's basketball programs
+    — 9 NCAA Division II programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Great Plains Athletic Conference
+  slug: great-plains-athletic-conference
+  division: NAIA
+  school_count: 13
+  seo_title: Great Plains Athletic Conference Basketball Programs
+  seo_description: All Great Plains Athletic Conference men's basketball programs
+    — 13 NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Great Southwest Athletic Conference
+  slug: great-southwest-athletic-conference
+  division: NAIA
+  school_count: 9
+  seo_title: Great Southwest Athletic Conference Basketball Programs
+  seo_description: All Great Southwest Athletic Conference men's basketball programs
+    — 9 NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Gulf South Conference
+  slug: gulf-south-conference
+  division: D2
+  school_count: 13
+  seo_title: Gulf South Conference Basketball Programs
+  seo_description: All Gulf South Conference men's basketball programs — 13 NCAA Division
+    II programs with coach contacts, recruiting info, and scholarship details.
+- name: HBCU Athletic Conference
+  slug: hbcu-athletic-conference
+  division: NAIA
+  school_count: 11
+  seo_title: HBCU Athletic Conference Basketball Programs
+  seo_description: All HBCU Athletic Conference men's basketball programs — 11 NAIA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Heart of America Athletic Conference
+  slug: heart-of-america-athletic-conference
+  division: NAIA
+  school_count: 16
+  seo_title: Heart of America Athletic Conference Basketball Programs
+  seo_description: All Heart of America Athletic Conference men's basketball programs
+    — 16 NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Heartland Collegiate Athletic Conference
+  slug: heartland-collegiate-athletic-conference
+  division: D3
+  school_count: 10
+  seo_title: Heartland Collegiate Athletic Conference Basketball Programs
+  seo_description: All Heartland Collegiate Athletic Conference men's basketball programs
+    — 10 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Hudson Valley Athletic Conference
+  slug: hudson-valley-athletic-conference
+  division: JUCO
+  school_count: 10
+  seo_title: Hudson Valley Athletic Conference Basketball Programs
+  seo_description: All Hudson Valley Athletic Conference men's basketball programs
+    — 10 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Illinois Skyway Collegiate Conference
+  slug: illinois-skyway-collegiate-conference
+  division: JUCO
+  school_count: 6
+  seo_title: Illinois Skyway Collegiate Conference Basketball Programs
+  seo_description: All Illinois Skyway Collegiate Conference men's basketball programs
+    — 6 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Independent
+  slug: independent
+  division: D3
+  school_count: 1
+  seo_title: Independent Basketball Programs
+  seo_description: All Independent men's basketball programs — 1 NCAA Division III
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Indiana Community College Athletic Conference
+  slug: indiana-community-college-athletic-conference
+  division: JUCO
+  school_count: 2
+  seo_title: Indiana Community College Athletic Conference Basketball Programs
+  seo_description: All Indiana Community College Athletic Conference men's basketball
+    programs — 2 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Inland Empire Athletic Conference
+  slug: inland-empire-athletic-conference
+  division: JUCO
+  school_count: 11
+  seo_title: Inland Empire Athletic Conference Basketball Programs
+  seo_description: All Inland Empire Athletic Conference men's basketball programs
+    — 11 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Iowa Community College Athletic Conference
+  slug: iowa-community-college-athletic-conference
+  division: JUCO
+  school_count: 11
+  seo_title: Iowa Community College Athletic Conference Basketball Programs
+  seo_description: All Iowa Community College Athletic Conference men's basketball
+    programs — 11 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Kansas Collegiate Athletic Conference
+  slug: kansas-collegiate-athletic-conference
+  division: NAIA
+  school_count: 13
+  seo_title: Kansas Collegiate Athletic Conference Basketball Programs
+  seo_description: All Kansas Collegiate Athletic Conference men's basketball programs
+    — 13 NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Kansas Jayhawk Community College Conference
+  slug: kansas-jayhawk-community-college-conference
+  division: JUCO
+  school_count: 21
+  seo_title: Kansas Jayhawk Community College Conference Basketball Programs
+  seo_description: All Kansas Jayhawk Community College Conference men's basketball
+    programs — 21 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Landmark Conference
+  slug: landmark-conference
+  division: D3
+  school_count: 10
+  seo_title: Landmark Conference Basketball Programs
+  seo_description: All Landmark Conference men's basketball programs — 10 NCAA Division
+    III programs with coach contacts, recruiting info, and scholarship details.
+- name: Liberty League
+  slug: liberty-league
+  division: D3
+  school_count: 16
+  seo_title: Liberty League Basketball Programs
+  seo_description: All Liberty League men's basketball programs — 16 NCAA Division
+    III programs with coach contacts, recruiting info, and scholarship details.
+- name: Little East Conference
+  slug: little-east-conference
+  division: D3
+  school_count: 8
+  seo_title: Little East Conference Basketball Programs
+  seo_description: All Little East Conference men's basketball programs — 8 NCAA Division
+    III programs with coach contacts, recruiting info, and scholarship details.
+- name: Lone Star Conference
+  slug: lone-star-conference
+  division: D2
+  school_count: 16
+  seo_title: Lone Star Conference Basketball Programs
+  seo_description: All Lone Star Conference men's basketball programs — 16 NCAA Division
+    II programs with coach contacts, recruiting info, and scholarship details.
+- name: Long Island Athletic Conference
+  slug: long-island-athletic-conference
+  division: JUCO
+  school_count: 3
+  seo_title: Long Island Athletic Conference Basketball Programs
+  seo_description: All Long Island Athletic Conference men's basketball programs —
+    3 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship details.
+- name: Louisiana Junior College Athletic Conference
+  slug: louisiana-junior-college-athletic-conference
+  division: JUCO
+  school_count: 5
+  seo_title: Louisiana Junior College Athletic Conference Basketball Programs
+  seo_description: All Louisiana Junior College Athletic Conference men's basketball
+    programs — 5 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: MAC Commonwealth Conference
+  slug: mac-commonwealth-conference
+  division: D3
+  school_count: 8
+  seo_title: MAC Commonwealth Conference Basketball Programs
+  seo_description: All MAC Commonwealth Conference men's basketball programs — 8 NCAA
+    Division III programs with coach contacts, recruiting info, and scholarship details.
+- name: MAC Freedom Conference
+  slug: mac-freedom-conference
+  division: D3
+  school_count: 8
+  seo_title: MAC Freedom Conference Basketball Programs
+  seo_description: All MAC Freedom Conference men's basketball programs — 8 NCAA Division
+    III programs with coach contacts, recruiting info, and scholarship details.
+- name: Maryland-District of Columbia Athletic Conference
+  slug: maryland-district-of-columbia-athletic-conference
+  division: JUCO
+  school_count: 15
+  seo_title: Maryland-District of Columbia Athletic Conference Basketball Programs
+  seo_description: All Maryland-District of Columbia Athletic Conference men's basketball
+    programs — 15 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Massachusetts State Collegiate Athletic Conference
+  slug: massachusetts-state-collegiate-athletic-conference
+  division: D3
+  school_count: 8
+  seo_title: Massachusetts State Collegiate Athletic Conference Basketball Programs
+  seo_description: All Massachusetts State Collegiate Athletic Conference men's basketball
+    programs — 8 NCAA Division III programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: Michigan Community College Athletic Association
+  slug: michigan-community-college-athletic-association
+  division: JUCO
+  school_count: 22
+  seo_title: Michigan Community College Athletic Association Basketball Programs
+  seo_description: All Michigan Community College Athletic Association men's basketball
+    programs — 22 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Michigan Intercollegiate Athletic Association
+  slug: michigan-intercollegiate-athletic-association
+  division: D3
+  school_count: 8
+  seo_title: Michigan Intercollegiate Athletic Association Basketball Programs
+  seo_description: All Michigan Intercollegiate Athletic Association men's basketball
+    programs — 8 NCAA Division III programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: Mid-America Intercollegiate Athletics Association
+  slug: mid-america-intercollegiate-athletics-association
+  division: D2
+  school_count: 14
+  seo_title: Mid-America Intercollegiate Athletics Association Basketball Programs
+  seo_description: All Mid-America Intercollegiate Athletics Association men's basketball
+    programs — 14 NCAA Division II programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: Mid-Florida Conference
+  slug: mid-florida-conference
+  division: JUCO
+  school_count: 6
+  seo_title: Mid-Florida Conference Basketball Programs
+  seo_description: All Mid-Florida Conference men's basketball programs — 6 JUCO/NJCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Mid-South Conference
+  slug: mid-south-conference
+  division: NAIA
+  school_count: 7
+  seo_title: Mid-South Conference Basketball Programs
+  seo_description: All Mid-South Conference men's basketball programs — 7 NAIA programs
+    with coach contacts, recruiting info, and scholarship details.
+- name: Middle Atlantic Conferences
+  slug: middle-atlantic-conferences
+  division: D3
+  school_count: 1
+  seo_title: Middle Atlantic Conferences Basketball Programs
+  seo_description: All Middle Atlantic Conferences men's basketball programs — 1 NCAA
+    Division III programs with coach contacts, recruiting info, and scholarship details.
+- name: Midwest Community College Athletic Conference
+  slug: midwest-community-college-athletic-conference
+  division: JUCO
+  school_count: 6
+  seo_title: Midwest Community College Athletic Conference Basketball Programs
+  seo_description: All Midwest Community College Athletic Conference men's basketball
+    programs — 6 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Midwest Conference
+  slug: midwest-conference
+  division: D3
+  school_count: 9
+  seo_title: Midwest Conference Basketball Programs
+  seo_description: All Midwest Conference men's basketball programs — 9 NCAA Division
+    III programs with coach contacts, recruiting info, and scholarship details.
+- name: Minnesota College Athletic Conference
+  slug: minnesota-college-athletic-conference
+  division: JUCO
+  school_count: 16
+  seo_title: Minnesota College Athletic Conference Basketball Programs
+  seo_description: All Minnesota College Athletic Conference men's basketball programs
+    — 16 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Minnesota Intercollegiate Athletic Conference
+  slug: minnesota-intercollegiate-athletic-conference
+  division: D3
+  school_count: 12
+  seo_title: Minnesota Intercollegiate Athletic Conference Basketball Programs
+  seo_description: All Minnesota Intercollegiate Athletic Conference men's basketball
+    programs — 12 NCAA Division III programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: Mississippi Association of Community Colleges
+  slug: mississippi-association-of-community-colleges
+  division: JUCO
+  school_count: 15
+  seo_title: Mississippi Association of Community Colleges Basketball Programs
+  seo_description: All Mississippi Association of Community Colleges men's basketball
+    programs — 15 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Missouri College Athletic Conference
+  slug: missouri-college-athletic-conference
+  division: JUCO
+  school_count: 9
+  seo_title: Missouri College Athletic Conference Basketball Programs
+  seo_description: All Missouri College Athletic Conference men's basketball programs
+    — 9 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Mon-Dak Athletic Conference
+  slug: mon-dak-athletic-conference
+  division: JUCO
+  school_count: 6
+  seo_title: Mon-Dak Athletic Conference Basketball Programs
+  seo_description: All Mon-Dak Athletic Conference men's basketball programs — 6 JUCO/NJCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Mountain East Conference
+  slug: mountain-east-conference
+  division: JUCO
+  school_count: 13
+  seo_title: Mountain East Conference Basketball Programs
+  seo_description: All Mountain East Conference men's basketball programs — 13 JUCO/NJCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: NCAA Division II independent schools
+  slug: ncaa-division-ii-independent-schools
+  division: D2
+  school_count: 1
+  seo_title: NCAA Division II independent schools Basketball Programs
+  seo_description: All NCAA Division II independent schools men's basketball programs
+    — 1 NCAA Division II programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: NCAA Division III independent schools
+  slug: ncaa-division-iii-independent-schools
+  division: D3
+  school_count: 1
+  seo_title: NCAA Division III independent schools Basketball Programs
+  seo_description: All NCAA Division III independent schools men's basketball programs
+    — 1 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: New England Athletic Conference
+  slug: new-england-athletic-conference
+  division: JUCO
+  school_count: 12
+  seo_title: New England Athletic Conference Basketball Programs
+  seo_description: All New England Athletic Conference men's basketball programs —
+    12 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship details.
+- name: New England Collegiate Conference
+  slug: new-england-collegiate-conference
+  division: USCAA
+  school_count: 9
+  seo_title: New England Collegiate Conference Basketball Programs
+  seo_description: All New England Collegiate Conference men's basketball programs
+    — 9 USCAA programs with coach contacts, recruiting info, and scholarship details.
+- name: New England Small College Athletic Conference
+  slug: new-england-small-college-athletic-conference
+  division: D3
+  school_count: 11
+  seo_title: New England Small College Athletic Conference Basketball Programs
+  seo_description: All New England Small College Athletic Conference men's basketball
+    programs — 11 NCAA Division III programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: New England Women's and Men's Athletic Conference
+  slug: new-england-womens-and-mens-athletic-conference
+  division: D3
+  school_count: 9
+  seo_title: New England Women's and Men's Athletic Conference Basketball Programs
+  seo_description: All New England Women's and Men's Athletic Conference men's basketball
+    programs — 9 NCAA Division III programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: New Jersey Athletic Conference
+  slug: new-jersey-athletic-conference
+  division: D3
+  school_count: 10
+  seo_title: New Jersey Athletic Conference Basketball Programs
+  seo_description: All New Jersey Athletic Conference men's basketball programs —
+    10 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: North Atlantic Conference
+  slug: north-atlantic-conference
+  division: D3
+  school_count: 11
+  seo_title: North Atlantic Conference Basketball Programs
+  seo_description: All North Atlantic Conference men's basketball programs — 11 NCAA
+    Division III programs with coach contacts, recruiting info, and scholarship details.
+- name: North Coast Athletic Conference
+  slug: north-coast-athletic-conference
+  division: D3
+  school_count: 8
+  seo_title: North Coast Athletic Conference Basketball Programs
+  seo_description: All North Coast Athletic Conference men's basketball programs —
+    8 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: North Florida Athletic Conference
+  slug: north-florida-athletic-conference
+  division: JUCO
+  school_count: 4
+  seo_title: North Florida Athletic Conference Basketball Programs
+  seo_description: All North Florida Athletic Conference men's basketball programs
+    — 4 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Northeast-10 Conference
+  slug: northeast-10-conference
+  division: D2
+  school_count: 11
+  seo_title: Northeast-10 Conference Basketball Programs
+  seo_description: All Northeast-10 Conference men's basketball programs — 11 NCAA
+    Division II programs with coach contacts, recruiting info, and scholarship details.
+- name: Northeastern Athletic Conference
+  slug: northeastern-athletic-conference
+  division: D3
+  school_count: 3
+  seo_title: Northeastern Athletic Conference Basketball Programs
+  seo_description: All Northeastern Athletic Conference men's basketball programs
+    — 3 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Northern Athletic Conference
+  slug: northern-athletic-conference
+  division: JUCO
+  school_count: 8
+  seo_title: Northern Athletic Conference Basketball Programs
+  seo_description: All Northern Athletic Conference men's basketball programs — 8
+    JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship details.
+- name: Northern Athletics Collegiate Conference
+  slug: northern-athletics-collegiate-conference
+  division: D3
+  school_count: 14
+  seo_title: Northern Athletics Collegiate Conference Basketball Programs
+  seo_description: All Northern Athletics Collegiate Conference men's basketball programs
+    — 14 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Northern Illinois Athletic Conference
+  slug: northern-illinois-athletic-conference
+  division: JUCO
+  school_count: 10
+  seo_title: Northern Illinois Athletic Conference Basketball Programs
+  seo_description: All Northern Illinois Athletic Conference men's basketball programs
+    — 10 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Northern Sun Intercollegiate Conference
+  slug: northern-sun-intercollegiate-conference
+  division: D2
+  school_count: 15
+  seo_title: Northern Sun Intercollegiate Conference Basketball Programs
+  seo_description: All Northern Sun Intercollegiate Conference men's basketball programs
+    — 15 NCAA Division II programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Northwest Athletic Conference
+  slug: northwest-athletic-conference
+  division: JUCO
+  school_count: 33
+  seo_title: Northwest Athletic Conference Basketball Programs
+  seo_description: All Northwest Athletic Conference men's basketball programs — 33
+    JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship details.
+- name: Northwest Conference
+  slug: northwest-conference
+  division: D3
+  school_count: 9
+  seo_title: Northwest Conference Basketball Programs
+  seo_description: All Northwest Conference men's basketball programs — 9 NCAA Division
+    III programs with coach contacts, recruiting info, and scholarship details.
+- name: Ohio Athletic Conference
+  slug: ohio-athletic-conference
+  division: D3
+  school_count: 10
+  seo_title: Ohio Athletic Conference Basketball Programs
+  seo_description: All Ohio Athletic Conference men's basketball programs — 10 NCAA
+    Division III programs with coach contacts, recruiting info, and scholarship details.
+- name: Ohio Community College Athletic Conference
+  slug: ohio-community-college-athletic-conference
+  division: JUCO
+  school_count: 10
+  seo_title: Ohio Community College Athletic Conference Basketball Programs
+  seo_description: All Ohio Community College Athletic Conference men's basketball
+    programs — 10 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Oklahoma Collegiate Athletic Conference
+  slug: oklahoma-collegiate-athletic-conference
+  division: JUCO
+  school_count: 8
+  seo_title: Oklahoma Collegiate Athletic Conference Basketball Programs
+  seo_description: All Oklahoma Collegiate Athletic Conference men's basketball programs
+    — 8 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Old Dominion Athletic Conference
+  slug: old-dominion-athletic-conference
+  division: D3
+  school_count: 13
+  seo_title: Old Dominion Athletic Conference Basketball Programs
+  seo_description: All Old Dominion Athletic Conference men's basketball programs
+    — 13 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Orange Empire Conference
+  slug: orange-empire-conference
+  division: JUCO
+  school_count: 9
+  seo_title: Orange Empire Conference Basketball Programs
+  seo_description: All Orange Empire Conference men's basketball programs — 9 JUCO/NJCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Pacific Coast Athletic Conference
+  slug: pacific-coast-athletic-conference
+  division: JUCO
+  school_count: 5
+  seo_title: Pacific Coast Athletic Conference Basketball Programs
+  seo_description: All Pacific Coast Athletic Conference men's basketball programs
+    — 5 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Pacific Southwest Conference
+  slug: pacific-southwest-conference
+  division: JUCO
+  school_count: 6
+  seo_title: Pacific Southwest Conference Basketball Programs
+  seo_description: All Pacific Southwest Conference men's basketball programs — 6
+    JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship details.
+- name: Pacific West Conference
+  slug: pacific-west-conference
+  division: D2
+  school_count: 9
+  seo_title: Pacific West Conference Basketball Programs
+  seo_description: All Pacific West Conference men's basketball programs — 9 NCAA
+    Division II programs with coach contacts, recruiting info, and scholarship details.
+- name: Panhandle Conference
+  slug: panhandle-conference
+  division: JUCO
+  school_count: 5
+  seo_title: Panhandle Conference Basketball Programs
+  seo_description: All Panhandle Conference men's basketball programs — 5 JUCO/NJCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Peach Belt Conference
+  slug: peach-belt-conference
+  division: D2
+  school_count: 9
+  seo_title: Peach Belt Conference Basketball Programs
+  seo_description: All Peach Belt Conference men's basketball programs — 9 NCAA Division
+    II programs with coach contacts, recruiting info, and scholarship details.
+- name: Penn-Jersey Athletic Conference
+  slug: penn-jersey-athletic-conference
+  division: JUCO
+  school_count: 17
+  seo_title: Penn-Jersey Athletic Conference Basketball Programs
+  seo_description: All Penn-Jersey Athletic Conference men's basketball programs —
+    17 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship details.
+- name: Penn State University Athletic Conference
+  slug: penn-state-university-athletic-conference
+  division: USCAA
+  school_count: 14
+  seo_title: Penn State University Athletic Conference Basketball Programs
+  seo_description: All Penn State University Athletic Conference men's basketball
+    programs — 14 USCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Pennsylvania Athletic Conference
+  slug: pennsylvania-athletic-conference
+  division: NAIA
+  school_count: 1
+  seo_title: Pennsylvania Athletic Conference Basketball Programs
+  seo_description: All Pennsylvania Athletic Conference men's basketball programs
+    — 1 NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Pennsylvania State Athletic Conference
+  slug: pennsylvania-state-athletic-conference
+  division: D2
+  school_count: 17
+  seo_title: Pennsylvania State Athletic Conference Basketball Programs
+  seo_description: All Pennsylvania State Athletic Conference men's basketball programs
+    — 17 NCAA Division II programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Presidents' Athletic Conference
+  slug: presidents-athletic-conference
+  division: D3
+  school_count: 12
+  seo_title: Presidents' Athletic Conference Basketball Programs
+  seo_description: All Presidents' Athletic Conference men's basketball programs —
+    12 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Red River Athletic Conference
+  slug: red-river-athletic-conference
+  division: NAIA
+  school_count: 11
+  seo_title: Red River Athletic Conference Basketball Programs
+  seo_description: All Red River Athletic Conference men's basketball programs — 11
+    NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Region III
+  slug: region-iii
+  division: JUCO
+  school_count: 3
+  seo_title: Region III Basketball Programs
+  seo_description: All Region III men's basketball programs — 3 JUCO/NJCAA programs
+    with coach contacts, recruiting info, and scholarship details.
+- name: River States Conference
+  slug: river-states-conference
+  division: NAIA
+  school_count: 10
+  seo_title: River States Conference Basketball Programs
+  seo_description: All River States Conference men's basketball programs — 10 NAIA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Rocky Mountain Athletic Conference
+  slug: rocky-mountain-athletic-conference
+  division: D2
+  school_count: 15
+  seo_title: Rocky Mountain Athletic Conference Basketball Programs
+  seo_description: All Rocky Mountain Athletic Conference men's basketball programs
+    — 15 NCAA Division II programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Scenic West Athletic Conference
+  slug: scenic-west-athletic-conference
+  division: JUCO
+  school_count: 10
+  seo_title: Scenic West Athletic Conference Basketball Programs
+  seo_description: All Scenic West Athletic Conference men's basketball programs —
+    10 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship details.
+- name: Skyline Conference
+  slug: skyline-conference
+  division: D3
+  school_count: 13
+  seo_title: Skyline Conference Basketball Programs
+  seo_description: All Skyline Conference men's basketball programs — 13 NCAA Division
+    III programs with coach contacts, recruiting info, and scholarship details.
+- name: Sooner Athletic Conference
+  slug: sooner-athletic-conference
+  division: NAIA
+  school_count: 11
+  seo_title: Sooner Athletic Conference Basketball Programs
+  seo_description: All Sooner Athletic Conference men's basketball programs — 11 NAIA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: South Atlantic Conference
+  slug: south-atlantic-conference
+  division: D2
+  school_count: 13
+  seo_title: South Atlantic Conference Basketball Programs
+  seo_description: All South Atlantic Conference men's basketball programs — 13 NCAA
+    Division II programs with coach contacts, recruiting info, and scholarship details.
+- name: South Coast Conference
+  slug: south-coast-conference
+  division: JUCO
+  school_count: 10
+  seo_title: South Coast Conference Basketball Programs
+  seo_description: All South Coast Conference men's basketball programs — 10 JUCO/NJCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: South Florida Athletic Conference
+  slug: south-florida-athletic-conference
+  division: JUCO
+  school_count: 4
+  seo_title: South Florida Athletic Conference Basketball Programs
+  seo_description: All South Florida Athletic Conference men's basketball programs
+    — 4 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Southern Athletic Association
+  slug: southern-athletic-association
+  division: D3
+  school_count: 9
+  seo_title: Southern Athletic Association Basketball Programs
+  seo_description: All Southern Athletic Association men's basketball programs — 9
+    NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Southern California Intercollegiate Athletic Conference
+  slug: southern-california-intercollegiate-athletic-conference
+  division: D3
+  school_count: 9
+  seo_title: Southern California Intercollegiate Athletic Conference Basketball Programs
+  seo_description: All Southern California Intercollegiate Athletic Conference men's
+    basketball programs — 9 NCAA Division III programs with coach contacts, recruiting
+    info, and scholarship details.
+- name: Southern Collegiate Athletic Conference
+  slug: southern-collegiate-athletic-conference
+  division: D3
+  school_count: 12
+  seo_title: Southern Collegiate Athletic Conference Basketball Programs
+  seo_description: All Southern Collegiate Athletic Conference men's basketball programs
+    — 12 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Southern Illinois Athletic Conference
+  slug: southern-illinois-athletic-conference
+  division: JUCO
+  school_count: 9
+  seo_title: Southern Illinois Athletic Conference Basketball Programs
+  seo_description: All Southern Illinois Athletic Conference men's basketball programs
+    — 9 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Southern Intercollegiate Athletic Conference
+  slug: southern-intercollegiate-athletic-conference
+  division: D2
+  school_count: 15
+  seo_title: Southern Intercollegiate Athletic Conference Basketball Programs
+  seo_description: All Southern Intercollegiate Athletic Conference men's basketball
+    programs — 15 NCAA Division II programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: Southern States Athletic Conference
+  slug: southern-states-athletic-conference
+  division: NAIA
+  school_count: 9
+  seo_title: Southern States Athletic Conference Basketball Programs
+  seo_description: All Southern States Athletic Conference men's basketball programs
+    — 9 NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Southwest Junior College Football Conference
+  slug: southwest-junior-college-football-conference
+  division: JUCO
+  school_count: 14
+  seo_title: Southwest Junior College Football Conference Basketball Programs
+  seo_description: All Southwest Junior College Football Conference men's basketball
+    programs — 14 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: St. Louis Intercollegiate Athletic Conference
+  slug: st-louis-intercollegiate-athletic-conference
+  division: D3
+  school_count: 10
+  seo_title: St. Louis Intercollegiate Athletic Conference Basketball Programs
+  seo_description: All St. Louis Intercollegiate Athletic Conference men's basketball
+    programs — 10 NCAA Division III programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: State University of New York Athletic Conference
+  slug: state-university-of-new-york-athletic-conference
+  division: D3
+  school_count: 14
+  seo_title: State University of New York Athletic Conference Basketball Programs
+  seo_description: All State University of New York Athletic Conference men's basketball
+    programs — 14 NCAA Division III programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: Sun Conference
+  slug: sun-conference
+  division: NAIA
+  school_count: 8
+  seo_title: Sun Conference Basketball Programs
+  seo_description: All Sun Conference men's basketball programs — 8 NAIA programs
+    with coach contacts, recruiting info, and scholarship details.
+- name: Sunshine State Conference
+  slug: sunshine-state-conference
+  division: D2
+  school_count: 11
+  seo_title: Sunshine State Conference Basketball Programs
+  seo_description: All Sunshine State Conference men's basketball programs — 11 NCAA
+    Division II programs with coach contacts, recruiting info, and scholarship details.
+- name: Tennessee Community College Athletic Association
+  slug: tennessee-community-college-athletic-association
+  division: JUCO
+  school_count: 8
+  seo_title: Tennessee Community College Athletic Association Basketball Programs
+  seo_description: All Tennessee Community College Athletic Association men's basketball
+    programs — 8 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Texas Eastern Athletic Conference
+  slug: texas-eastern-athletic-conference
+  division: JUCO
+  school_count: 6
+  seo_title: Texas Eastern Athletic Conference Basketball Programs
+  seo_description: All Texas Eastern Athletic Conference men's basketball programs
+    — 6 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: United East Conference
+  slug: united-east-conference
+  division: D3
+  school_count: 11
+  seo_title: United East Conference Basketball Programs
+  seo_description: All United East Conference men's basketball programs — 11 NCAA
+    Division III programs with coach contacts, recruiting info, and scholarship details.
+- name: University Athletic Association
+  slug: university-athletic-association
+  division: D3
+  school_count: 8
+  seo_title: University Athletic Association Basketball Programs
+  seo_description: All University Athletic Association men's basketball programs —
+    8 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Upper Midwest Athletic Conference
+  slug: upper-midwest-athletic-conference
+  division: D3
+  school_count: 8
+  seo_title: Upper Midwest Athletic Conference Basketball Programs
+  seo_description: All Upper Midwest Athletic Conference men's basketball programs
+    — 8 NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: USA South Athletic Conference
+  slug: usa-south-athletic-conference
+  division: D3
+  school_count: 8
+  seo_title: USA South Athletic Conference Basketball Programs
+  seo_description: All USA South Athletic Conference men's basketball programs — 8
+    NCAA Division III programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: USCAA Atlantic Conference
+  slug: uscaa-atlantic-conference
+  division: USCAA
+  school_count: 6
+  seo_title: USCAA Atlantic Conference Basketball Programs
+  seo_description: All USCAA Atlantic Conference men's basketball programs — 6 USCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: USCAA Independent
+  slug: uscaa-independent
+  division: USCAA
+  school_count: 14
+  seo_title: USCAA Independent Basketball Programs
+  seo_description: All USCAA Independent men's basketball programs — 14 USCAA programs
+    with coach contacts, recruiting info, and scholarship details.
+- name: USCAA Mid-East Conference
+  slug: uscaa-mid-east-conference
+  division: USCAA
+  school_count: 2
+  seo_title: USCAA Mid-East Conference Basketball Programs
+  seo_description: All USCAA Mid-East Conference men's basketball programs — 2 USCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: USCAA Mountain East Conference
+  slug: uscaa-mountain-east-conference
+  division: USCAA
+  school_count: 2
+  seo_title: USCAA Mountain East Conference Basketball Programs
+  seo_description: All USCAA Mountain East Conference men's basketball programs —
+    2 USCAA programs with coach contacts, recruiting info, and scholarship details.
+- name: USCAA Ohio Athletic Conference
+  slug: uscaa-ohio-athletic-conference
+  division: USCAA
+  school_count: 5
+  seo_title: USCAA Ohio Athletic Conference Basketball Programs
+  seo_description: All USCAA Ohio Athletic Conference men's basketball programs —
+    5 USCAA programs with coach contacts, recruiting info, and scholarship details.
+- name: Virginia JUCO Athletic Conference
+  slug: virginia-juco-athletic-conference
+  division: JUCO
+  school_count: 7
+  seo_title: Virginia JUCO Athletic Conference Basketball Programs
+  seo_description: All Virginia JUCO Athletic Conference men's basketball programs
+    — 7 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Western Athletic Conference
+  slug: western-athletic-conference
+  division: D2
+  school_count: 1
+  seo_title: Western Athletic Conference Basketball Programs
+  seo_description: All Western Athletic Conference men's basketball programs — 1 NCAA
+    Division II programs with coach contacts, recruiting info, and scholarship details.
+- name: Western Coast Conference
+  slug: western-coast-conference
+  division: JUCO
+  school_count: 8
+  seo_title: Western Coast Conference Basketball Programs
+  seo_description: All Western Coast Conference men's basketball programs — 8 JUCO/NJCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Western Junior College Athletic Conference
+  slug: western-junior-college-athletic-conference
+  division: JUCO
+  school_count: 15
+  seo_title: Western Junior College Athletic Conference Basketball Programs
+  seo_description: All Western Junior College Athletic Conference men's basketball
+    programs — 15 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Western New York Athletic Conference
+  slug: western-new-york-athletic-conference
+  division: JUCO
+  school_count: 8
+  seo_title: Western New York Athletic Conference Basketball Programs
+  seo_description: All Western New York Athletic Conference men's basketball programs
+    — 8 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Western State Conference
+  slug: western-state-conference
+  division: JUCO
+  school_count: 2
+  seo_title: Western State Conference Basketball Programs
+  seo_description: All Western State Conference men's basketball programs — 2 JUCO/NJCAA
+    programs with coach contacts, recruiting info, and scholarship details.
+- name: Western States Athletic Conference
+  slug: western-states-athletic-conference
+  division: JUCO
+  school_count: 1
+  seo_title: Western States Athletic Conference Basketball Programs
+  seo_description: All Western States Athletic Conference men's basketball programs
+    — 1 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Wisconsin Intercollegiate Athletic Conference
+  slug: wisconsin-intercollegiate-athletic-conference
+  division: D3
+  school_count: 8
+  seo_title: Wisconsin Intercollegiate Athletic Conference Basketball Programs
+  seo_description: All Wisconsin Intercollegiate Athletic Conference men's basketball
+    programs — 8 NCAA Division III programs with coach contacts, recruiting info,
+    and scholarship details.
+- name: Wisconsin Technical College Athletic Conference
+  slug: wisconsin-technical-college-athletic-conference
+  division: JUCO
+  school_count: 4
+  seo_title: Wisconsin Technical College Athletic Conference Basketball Programs
+  seo_description: All Wisconsin Technical College Athletic Conference men's basketball
+    programs — 4 JUCO/NJCAA programs with coach contacts, recruiting info, and scholarship
+    details.
+- name: Wolverine-Hoosier Athletic Conference
+  slug: wolverine-hoosier-athletic-conference
+  division: NAIA
+  school_count: 4
+  seo_title: Wolverine-Hoosier Athletic Conference Basketball Programs
+  seo_description: All Wolverine-Hoosier Athletic Conference men's basketball programs
+    — 4 NAIA programs with coach contacts, recruiting info, and scholarship details.
+- name: Wolverine–Hoosier Athletic Conference
+  slug: wolverinehoosier-athletic-conference
+  division: NAIA
+  school_count: 8
+  seo_title: Wolverine–Hoosier Athletic Conference Basketball Programs
+  seo_description: All Wolverine–Hoosier Athletic Conference men's basketball programs
+    — 8 NAIA programs with coach contacts, recruiting info, and scholarship details.
