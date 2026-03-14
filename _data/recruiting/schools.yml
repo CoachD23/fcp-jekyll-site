@@ -18,7 +18,7 @@
   head_coach: Nathan Davis
   best_email: bill.herrion@unh.edu
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: Vermont Catamounts
   slug: vermont-catamounts
   nickname: Catamounts
@@ -39,7 +39,7 @@
   head_coach: John Becker
   best_email: ryan.schneider@uvm.edu
   staff_count: 4
-  coach_status: verified
+  coach_status: researched
 - name: Maine Black Bears
   slug: maine-black-bears
   nickname: Black Bears
@@ -60,7 +60,7 @@
   head_coach: Chris Markwood
   best_email: robert.odriscoll@maine.edu
   staff_count: 3
-  coach_status: verified
+  coach_status: researched
 - name: UAlbany Great Danes
   slug: ualbany-great-danes
   nickname: Great Danes
@@ -81,7 +81,7 @@
   head_coach: Dwayne Killings
   best_email: dmadhavapallil@albany.edu
   staff_count: 6
-  coach_status: patched
+  coach_status: researched
 - name: Binghamton Bearcats
   slug: binghamton-bearcats
   nickname: Bearcats
@@ -100,7 +100,7 @@
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2066.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2066
   head_coach: Levell Sanders
-  coach_status: changed
+  coach_status: researched
 - name: UMass Lowell River Hawks
   slug: umass-lowell-river-hawks
   nickname: River Hawks
@@ -121,7 +121,7 @@
   head_coach: Pat Duquette
   best_email: patrick_duquette@uml.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: UMBC Retrievers
   slug: umbc-retrievers
   nickname: Retrievers
@@ -142,7 +142,7 @@
   head_coach: Jim Ferry
   best_email: dlawson@umbc.edu
   staff_count: 5
-  coach_status: patched
+  coach_status: researched
 - name: Bryant Bulldogs
   slug: bryant-bulldogs
   nickname: Bulldogs
@@ -160,10 +160,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2803.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2803.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2803
-  head_coach: Phil Martelli Jr.
+  head_coach: Jamion Christian
   best_email: emahar@bryant.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: NJIT Highlanders
   slug: njit-highlanders
   nickname: Highlanders
@@ -184,7 +184,7 @@
   head_coach: Grant Billmeier
   best_email: bkennedy@njit.edu
   staff_count: 9
-  coach_status: patched
+  coach_status: researched
 - name: UAB Blazers
   slug: uab-blazers
   nickname: Blazers
@@ -205,7 +205,7 @@
   head_coach: Andy Kennedy
   best_email: achurch@uab.edu
   staff_count: 6
-  coach_status: patched
+  coach_status: researched
 - name: South Florida Bulls
   slug: south-florida-bulls
   nickname: Bulls
@@ -226,7 +226,7 @@
   head_coach: Bryan Hodgson
   best_email: therrion@usf.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: East Carolina Pirates
   slug: east-carolina-pirates
   nickname: Pirates
@@ -247,7 +247,7 @@
   head_coach: Michael Schwartz
   best_email: robinsonjos@ecu.edu
   staff_count: 13
-  coach_status: changed
+  coach_status: researched
 - name: Tulsa Golden Hurricane
   slug: tulsa-golden-hurricane
   nickname: Golden Hurricane
@@ -268,7 +268,7 @@
   head_coach: Eric Konkol
   best_email: gcw5783@utulsa.edu
   staff_count: 12
-  coach_status: patched
+  coach_status: researched
 - name: Temple Owls
   slug: temple-owls
   nickname: Owls
@@ -289,7 +289,7 @@
   head_coach: Adam Fisher
   best_email: aaron.mckie@temple.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Memphis Tigers
   slug: memphis-tigers
   nickname: Tigers
@@ -307,10 +307,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/235.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/235.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/235
-  head_coach: Anfernee Hardaway
+  head_coach: Penny Hardaway
   best_email: '@coach_shawn10'
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Rice Owls
   slug: rice-owls-tx-d1
   nickname: Owls
@@ -331,7 +331,7 @@
   head_coach: Rob Lanier
   best_email: scott.pera@rice.edu
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: North Texas Mean Green
   slug: north-texas-mean-green
   nickname: Mean Green
@@ -352,7 +352,7 @@
   head_coach: Daniyal Robinson
   best_email: rox1@txstate.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Florida Atlantic Owls
   slug: florida-atlantic-owls
   nickname: Owls
@@ -373,7 +373,7 @@
   head_coach: John Jakus
   best_email: robert.mccullum@famu.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Charlotte 49ers
   slug: charlotte-49ers
   nickname: 49ers
@@ -394,7 +394,7 @@
   head_coach: Aaron Fearne
   best_email: afearne@uncc.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: UTSA Roadrunners
   slug: utsa-roadrunners
   nickname: Roadrunners
@@ -415,7 +415,7 @@
   head_coach: Austin Claunch
   best_email: michael.peck@utsa.edu
   staff_count: 7
-  coach_status: patched
+  coach_status: researched
 - name: Tulane Green Wave
   slug: tulane-green-wave
   nickname: Green Wave
@@ -436,7 +436,7 @@
   head_coach: Ron Hunter
   best_email: hmccallum@tulane.edu
   staff_count: 7
-  coach_status: verified
+  coach_status: researched
 - name: Wichita State Shockers
   slug: wichita-state-shockers
   nickname: Shockers
@@ -457,7 +457,7 @@
   head_coach: Paul Mills
   best_email: rhillard@goshockers.com
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Stetson Hatters
   slug: stetson-hatters
   nickname: Hatters
@@ -478,7 +478,7 @@
   head_coach: Donnie Jones
   best_email: jmitchell4@stetson.edu
   staff_count: 4
-  coach_status: verified
+  coach_status: researched
 - name: Bellarmine Knights
   slug: bellarmine-knights
   nickname: Knights
@@ -496,8 +496,8 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/91.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/91.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/91
-  head_coach: Scott Davenport
-  coach_status: changed
+  head_coach: Doug Davenport
+  coach_status: researched
 - name: Lipscomb Bisons
   slug: lipscomb-bisons
   nickname: Bisons
@@ -515,10 +515,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/288.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/288.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/288
-  head_coach: Lennie Acuff
+  head_coach: Kevin Carroll
   best_email: lennie.acuff@lipscomb.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Jacksonville Dolphins
   slug: jacksonville-dolphins
   nickname: Dolphins
@@ -539,7 +539,7 @@
   head_coach: Jordan Mincy
   best_email: harper@jsu.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Florida Gulf Coast Eagles
   slug: florida-gulf-coast-eagles
   nickname: Eagles
@@ -560,7 +560,7 @@
   head_coach: Pat Chambers
   best_email: mbb@fgcu.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: Austin Peay Governors
   slug: austin-peay-governors
   nickname: Governors
@@ -581,7 +581,7 @@
   head_coach: Corey Gipson
   best_email: johnsonn@apsu.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Central Arkansas Bears
   slug: central-arkansas-bears
   nickname: Bears
@@ -602,7 +602,7 @@
   head_coach: John Shulman
   best_email: mensbball@astate.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Eastern Kentucky Colonels
   slug: eastern-kentucky-colonels
   nickname: Colonels
@@ -623,7 +623,7 @@
   head_coach: A.W. Hamilton
   best_email: jvca222@uky.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: North Alabama Lions
   slug: north-alabama-lions
   nickname: Lions
@@ -644,7 +644,7 @@
   head_coach: Tony Pujol
   best_email: apettway@ia.ua.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: North Florida Ospreys
   slug: north-florida-ospreys
   nickname: Ospreys
@@ -662,10 +662,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2454.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2454
-  head_coach: Matthew Driscoll
+  head_coach: Bobby Kennen
   best_email: robert.mccullum@famu.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Queens University Royals
   slug: queens-university-royals
   nickname: Royals
@@ -686,7 +686,7 @@
   head_coach: Grant Leonard
   best_email: wilsonc5@queens.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: West Georgia Wolves
   slug: west-georgia-wolves
   nickname: Wolves
@@ -707,7 +707,7 @@
   head_coach: Dave Moore
   best_email: rlanier@gsu.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: George Washington Revolutionaries
   slug: george-washington-revolutionaries
   nickname: Revolutionaries
@@ -728,7 +728,7 @@
   head_coach: Chris Caputo
   best_email: coassistant coassistant coachhhnima@gwu.edu
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Saint Louis Billikens
   slug: saint-louis-billikens
   nickname: Billikens
@@ -749,7 +749,7 @@
   head_coach: Josh Schertz
   best_email: sarah.wagner.1@slu.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: St. Bonaventure Bonnies
   slug: st-bonaventure-bonnies
   nickname: Bonnies
@@ -770,7 +770,7 @@
   head_coach: Mark Schmidt
   best_email: sneal@sbu.edu
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Rhode Island Rams
   slug: rhode-island-rams
   nickname: Rams
@@ -791,7 +791,7 @@
   head_coach: Archie Miller
   best_email: dcuri@uri.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: Richmond Spiders
   slug: richmond-spiders
   nickname: Spiders
@@ -812,7 +812,7 @@
   head_coach: Chris Mooney
   best_email: sthomas8@richmond.edu
   staff_count: 9
-  coach_status: verified
+  coach_status: researched
 - name: Davidson Wildcats
   slug: davidson-wildcats
   nickname: Wildcats
@@ -833,7 +833,7 @@
   head_coach: Matt McKillop
   best_email: bomckillop@davidson.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Dayton Flyers
   slug: dayton-flyers
   nickname: Flyers
@@ -854,7 +854,7 @@
   head_coach: Anthony Grant
   best_email: asolomon1@udayton.edu
   staff_count: 10
-  coach_status: verified
+  coach_status: researched
 - name: Duquesne Dukes
   slug: duquesne-dukes
   nickname: Dukes
@@ -875,7 +875,7 @@
   head_coach: Dru Joyce III
   best_email: mensbasketball@duq.edu
   staff_count: 11
-  coach_status: changed
+  coach_status: researched
 - name: Fordham Rams
   slug: fordham-rams
   nickname: Rams
@@ -896,7 +896,7 @@
   head_coach: Mike Magpayo
   best_email: kurgo@fordham.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: George Mason Patriots
   slug: george-mason-patriots
   nickname: Patriots
@@ -917,7 +917,7 @@
   head_coach: Tony Skinn
   best_email: masonmbb@gmu.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: La Salle Explorers
   slug: la-salle-explorers
   nickname: Explorers
@@ -938,7 +938,7 @@
   head_coach: Darris Nichols
   best_email: martinm@lasalle.edu
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Loyola Chicago Ramblers
   slug: loyola-chicago-ramblers
   nickname: Ramblers
@@ -959,7 +959,7 @@
   head_coach: Drew Valentine
   best_email: cvalentine1@luc.edu
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Saint Joseph's Hawks
   slug: saint-josephs-hawks
   nickname: Hawks
@@ -977,10 +977,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2603.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2603
-  head_coach: Billy Lange
+  head_coach: Steve Donahue
   best_email: mthomas@sju.edu
   staff_count: 12
-  coach_status: verified
+  coach_status: researched
 - name: VCU Rams
   slug: vcu-rams-va-d1
   nickname: Rams
@@ -998,10 +998,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2670.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2670
-  head_coach: Ryan Odom
+  head_coach: Phil Martelli Jr.
   best_email: vcuhoops@vcu.edu
   staff_count: 7
-  coach_status: patched
+  coach_status: researched
 - name: Stanford Cardinal
   slug: stanford-cardinal
   nickname: Cardinal
@@ -1022,7 +1022,7 @@
   head_coach: Kyle Smith
   best_email: mens_hoops@stanford.edu
   staff_count: 11
-  coach_status: changed
+  coach_status: researched
 - name: California Golden Bears
   slug: california-golden-bears
   nickname: Golden Bears
@@ -1043,7 +1043,7 @@
   head_coach: Mark Madsen
   best_email: coachfrancis@berkeley.edu
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: Florida State Seminoles
   slug: florida-state-seminoles
   nickname: Seminoles
@@ -1064,7 +1064,7 @@
   head_coach: Luke Loucks
   best_email: mleonard@athletics.ucf.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Georgia Tech Yellow Jackets
   slug: georgia-tech-yellow-jackets
   nickname: Yellow Jackets
@@ -1085,7 +1085,7 @@
   head_coach: Damon Stoudamire
   best_email: rlanier@gsu.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: Notre Dame Fighting Irish
   slug: notre-dame-fighting-irish
   nickname: Fighting Irish
@@ -1106,7 +1106,7 @@
   head_coach: Micah Shrewsberry
   best_email: asolomon@nd.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: Louisville Cardinals
   slug: louisville-cardinals
   nickname: Cardinals
@@ -1127,7 +1127,7 @@
   head_coach: Pat Kelsey
   best_email: stephanied@gocards.com
   staff_count: 14
-  coach_status: changed
+  coach_status: researched
 - name: Boston College Eagles
   slug: boston-college-eagles
   nickname: Eagles
@@ -1148,7 +1148,7 @@
   head_coach: Earl Grant
   best_email: jjones11@bu.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Duke Blue Devils
   slug: duke-blue-devils
   nickname: Blue Devils
@@ -1169,7 +1169,7 @@
   head_coach: Jon Scheyer
   best_email: lahoward@duke.edu
   staff_count: 16
-  coach_status: changed
+  coach_status: researched
 - name: NC State Wolfpack
   slug: nc-state-wolfpack
   nickname: Wolfpack
@@ -1190,7 +1190,7 @@
   head_coach: Will Wade
   best_email: ddwinter@ncsu.edu
   staff_count: 17
-  coach_status: patched
+  coach_status: researched
 - name: North Carolina Tar Heels
   slug: north-carolina-tar-heels
   nickname: Tar Heels
@@ -1211,7 +1211,7 @@
   head_coach: Hubert Davis
   best_email: jcjoyner@ncat.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Wake Forest Demon Deacons
   slug: wake-forest-demon-deacons
   nickname: Demon Deacons
@@ -1232,7 +1232,7 @@
   head_coach: Steve Forbes
   best_email: wfmbb@wfu.edu
   staff_count: 15
-  coach_status: changed
+  coach_status: researched
 - name: Syracuse Orange
   slug: syracuse-orange
   nickname: Orange
@@ -1253,7 +1253,7 @@
   head_coach: Adrian Autry
   best_email: assistant coassistant coachhautry@syr.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Pittsburgh Panthers
   slug: pittsburgh-panthers
   nickname: Panthers
@@ -1274,7 +1274,7 @@
   head_coach: Jeff Capel
   best_email: jmcapel@athletics.pitt.edu
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Clemson Tigers
   slug: clemson-tigers
   nickname: Tigers
@@ -1295,7 +1295,7 @@
   head_coach: Brad Brownell
   best_email: coassistant coassistant coachhhb@clemson.edu
   staff_count: 8
-  coach_status: verified
+  coach_status: researched
 - name: Virginia Cavaliers
   slug: virginia-cavaliers
   nickname: Cavaliers
@@ -1316,7 +1316,7 @@
   head_coach: Ryan Odom
   best_email: bws3k@virginia.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Virginia Tech Hokies
   slug: virginia-tech-hokies
   nickname: Hokies
@@ -1337,7 +1337,7 @@
   head_coach: Mike Young
   best_email: bws3k@virginia.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Miami Hurricanes
   slug: miami-hurricanes
   nickname: Hurricanes
@@ -1358,7 +1358,7 @@
   head_coach: Jai Lucas
   best_email: mensbasketball@miami.edu
   staff_count: 2
-  coach_status: changed
+  coach_status: researched
 - name: SMU Mustangs
   slug: smu-mustangs
   nickname: Mustangs
@@ -1379,7 +1379,7 @@
   head_coach: Andy Enfield
   best_email: kjturner@smu.edu
   staff_count: 11
-  coach_status: patched
+  coach_status: researched
 - name: Arizona State Sun Devils
   slug: arizona-state-sun-devils
   nickname: Sun Devils
@@ -1399,7 +1399,7 @@
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/9
   best_email: eric.brown1@asu.edu
   staff_count: 7
-  coach_status: espn_error
+  coach_status: researched
 - name: Arizona Wildcats
   slug: arizona-wildcats
   nickname: Wildcats
@@ -1420,7 +1420,7 @@
   head_coach: Tommy Lloyd
   best_email: eric.brown1@asu.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Colorado Buffaloes
   slug: colorado-buffaloes
   nickname: Buffaloes
@@ -1441,7 +1441,7 @@
   head_coach: Tad Boyle
   best_email: buffsmbb@colorado.edu
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Iowa State Cyclones
   slug: iowa-state-cyclones
   nickname: Cyclones
@@ -1462,7 +1462,7 @@
   head_coach: T.J. Otzelberger
   best_email: sprohm@iastate.edu
   staff_count: 14
-  coach_status: changed
+  coach_status: researched
 - name: Oklahoma State Cowboys
   slug: oklahoma-state-cowboys
   nickname: Cowboys
@@ -1483,7 +1483,7 @@
   head_coach: Steve Lutz
   best_email: mike.boynton@okstate.edu
   staff_count: 11
-  coach_status: changed
+  coach_status: researched
 - name: Baylor Bears
   slug: baylor-bears
   nickname: Bears
@@ -1504,7 +1504,7 @@
   head_coach: Scott Drew
   best_email: scott_drew@baylor.edu
   staff_count: 10
-  coach_status: verified
+  coach_status: researched
 - name: Houston Cougars
   slug: houston-cougars
   nickname: Cougars
@@ -1525,7 +1525,7 @@
   head_coach: Kelvin Sampson
   best_email: kmsampso@central.uh.edu
   staff_count: 13
-  coach_status: verified
+  coach_status: researched
 - name: BYU Cougars
   slug: byu-cougars
   nickname: Cougars
@@ -1544,7 +1544,7 @@
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/252.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/252
   head_coach: Kevin Young
-  coach_status: patched
+  coach_status: researched
 - name: Utah Utes
   slug: utah-utes-ut-d1
   nickname: Utes
@@ -1565,7 +1565,7 @@
   head_coach: Craig Smith
   best_email: johnwardenburg@suu.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: West Virginia Mountaineers
   slug: west-virginia-mountaineers
   nickname: Mountaineers
@@ -1586,7 +1586,7 @@
   head_coach: Ross Hodge
   best_email: bws3k@virginia.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: UCF Knights
   slug: ucf-knights
   nickname: Knights
@@ -1607,7 +1607,7 @@
   head_coach: Johnny Dawkins
   best_email: mleonard@athletics.ucf.edu
   staff_count: 8
-  coach_status: patched
+  coach_status: researched
 - name: Cincinnati Bearcats
   slug: cincinnati-bearcats
   nickname: Bearcats
@@ -1628,7 +1628,7 @@
   head_coach: Wes Miller
   best_email: miller1m@ucmail.uc.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Kansas Jayhawks
   slug: kansas-jayhawks
   nickname: Jayhawks
@@ -1649,7 +1649,7 @@
   head_coach: Bill Self
   best_email: bweber@kstatesports.com
   staff_count: 13
-  coach_status: changed
+  coach_status: researched
 - name: Kansas State Wildcats
   slug: kansas-state-wildcats
   nickname: Wildcats
@@ -1670,7 +1670,7 @@
   head_coach: Jerome Tang
   best_email: mbbhc@k-state.edu
   staff_count: 13
-  coach_status: changed
+  coach_status: researched
 - name: TCU Horned Frogs
   slug: tcu-horned-frogs
   nickname: Horned Frogs
@@ -1691,7 +1691,7 @@
   head_coach: Jamie Dixon
   best_email: t.montigel@tcu.edu
   staff_count: 2
-  coach_status: patched
+  coach_status: researched
 - name: Texas Tech Red Raiders
   slug: texas-tech-red-raiders
   nickname: Red Raiders
@@ -1712,7 +1712,7 @@
   head_coach: Grant McCasland
   best_email: rox1@txstate.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: UConn Huskies
   slug: uconn-huskies
   nickname: Huskies
@@ -1733,7 +1733,7 @@
   head_coach: Dan Hurley
   best_email: kenya.hunter@uconn.edu
   staff_count: 11
-  coach_status: patched
+  coach_status: researched
 - name: Georgetown Hoyas
   slug: georgetown-hoyas
   nickname: Hoyas
@@ -1754,7 +1754,7 @@
   head_coach: Ed Cooley
   best_email: menshoops@georgetown.edu
   staff_count: 15
-  coach_status: changed
+  coach_status: researched
 - name: Creighton Bluejays
   slug: creighton-bluejays
   nickname: Bluejays
@@ -1775,7 +1775,7 @@
   head_coach: Greg McDermott
   best_email: gjm52@creighton.edu
   staff_count: 12
-  coach_status: verified
+  coach_status: researched
 - name: Villanova Wildcats
   slug: villanova-wildcats
   nickname: Wildcats
@@ -1796,7 +1796,7 @@
   head_coach: Kevin Willard
   best_email: jerold.wright@villanova.edu
   staff_count: 11
-  coach_status: changed
+  coach_status: researched
 - name: Marquette Golden Eagles
   slug: marquette-golden-eagles
   nickname: Golden Eagles
@@ -1817,7 +1817,7 @@
   head_coach: Shaka Smart
   best_email: dwayne.killings@marquette.edu
   staff_count: 16
-  coach_status: changed
+  coach_status: researched
 - name: DePaul Blue Demons
   slug: depaul-blue-demons
   nickname: Blue Demons
@@ -1838,7 +1838,7 @@
   head_coach: Chris Holtmann
   best_email: dleitao@depaul.edu
   staff_count: 15
-  coach_status: changed
+  coach_status: researched
 - name: Butler Bulldogs
   slug: butler-bulldogs
   nickname: Bulldogs
@@ -1859,7 +1859,7 @@
   head_coach: Thad Matta
   best_email: butlermbb@butler.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: Providence Friars
   slug: providence-friars
   nickname: Friars
@@ -1880,7 +1880,7 @@
   head_coach: Kim English
   best_email: bblaney1@providence.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Seton Hall Pirates
   slug: seton-hall-pirates
   nickname: Pirates
@@ -1901,7 +1901,7 @@
   head_coach: Shaheen Holloway
   best_email: anthony.skinn@shu.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: St. John's Red Storm
   slug: st-johns-red-storm
   nickname: Red Storm
@@ -1922,7 +1922,7 @@
   head_coach: Rick Pitino
   best_email: clevelat@stjohns.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Xavier Musketeers
   slug: xavier-musketeers
   nickname: Musketeers
@@ -1943,7 +1943,7 @@
   head_coach: Richard Pitino
   best_email: steelet@xavier.edu
   staff_count: 13
-  coach_status: changed
+  coach_status: researched
 - name: Sacramento State Hornets
   slug: sacramento-state-hornets
   nickname: Hornets
@@ -1964,7 +1964,7 @@
   head_coach: Mike Bibby
   best_email: bkatz@csus.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Idaho Vandals
   slug: idaho-vandals
   nickname: Vandals
@@ -1985,7 +1985,7 @@
   head_coach: Alex Pribble
   best_email: loonryan@isu.edu
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: Montana State Bobcats
   slug: montana-state-bobcats
   nickname: Bobcats
@@ -2006,7 +2006,7 @@
   head_coach: Matt Logie
   best_email: shawn.dirden@msubobcats.com
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: Montana Grizzlies
   slug: montana-grizzlies
   nickname: Grizzlies
@@ -2027,7 +2027,7 @@
   head_coach: Travis DeCuire
   best_email: shawn.dirden@msubobcats.com
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: Idaho State Bengals
   slug: idaho-state-bengals
   nickname: Bengals
@@ -2048,7 +2048,7 @@
   head_coach: Ryan Looney
   best_email: loonryan@isu.edu
   staff_count: 4
-  coach_status: verified
+  coach_status: researched
 - name: Eastern Washington Eagles
   slug: eastern-washington-eagles
   nickname: Eagles
@@ -2069,7 +2069,7 @@
   head_coach: Dan Monson
   best_email: daverice@uw.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Northern Colorado Bears
   slug: northern-colorado-bears
   nickname: Bears
@@ -2090,7 +2090,7 @@
   head_coach: Steve Smiley
   best_email: stephen.smiley@unco.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Northern Arizona Lumberjacks
   slug: northern-arizona-lumberjacks
   nickname: Lumberjacks
@@ -2111,7 +2111,7 @@
   head_coach: Shane Burcar
   best_email: eric.brown1@asu.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Portland State Vikings
   slug: portland-state-vikings
   nickname: Vikings
@@ -2132,7 +2132,7 @@
   head_coach: Jase Coburn
   best_email: legans@up.edu
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Weber State Wildcats
   slug: weber-state-wildcats
   nickname: Wildcats
@@ -2153,7 +2153,7 @@
   head_coach: Eric Duft
   best_email: ericduft@weber.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Charleston Southern Buccaneers
   slug: charleston-southern-buccaneers
   nickname: Buccaneers
@@ -2174,7 +2174,7 @@
   head_coach: Saah Nimley
   best_email: sean_woods@subr.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Gardner-Webb Runnin' Bulldogs
   slug: gardner-webb-runnin-bulldogs
   nickname: Runnin' Bulldogs
@@ -2195,7 +2195,7 @@
   head_coach: Jeremy Luther
   best_email: jluther@gardner-webb.edu
   staff_count: 11
-  coach_status: changed
+  coach_status: researched
 - name: High Point Panthers
   slug: high-point-panthers
   nickname: Panthers
@@ -2213,10 +2213,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2272.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2272
-  head_coach: Alan Huss
+  head_coach: Flynn Clayman
   best_email: tsmith4@highpoint.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: Longwood Lancers
   slug: longwood-lancers
   nickname: Lancers
@@ -2234,10 +2234,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2344.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2344.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2344
-  head_coach: Griff Aldrich
+  head_coach: Ronnie Thomas
   best_email: aldrichsg@longwood.edu
   staff_count: 12
-  coach_status: verified
+  coach_status: researched
 - name: UNC Asheville Bulldogs
   slug: unc-asheville-bulldogs
   nickname: Bulldogs
@@ -2258,7 +2258,7 @@
   head_coach: Mike Morrell
   best_email: nmcdevit@unca.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Presbyterian Blue Hose
   slug: presbyterian-blue-hose
   nickname: Blue Hose
@@ -2279,7 +2279,7 @@
   head_coach: Quinton Ferrell
   best_email: qmferrell@presby.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: Radford Highlanders
   slug: radford-highlanders
   nickname: Highlanders
@@ -2297,10 +2297,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2515.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2515.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2515
-  head_coach: Darris Nichols
+  head_coach: Zach Chu
   best_email: dboyden@radford.edu
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: Winthrop Eagles
   slug: winthrop-eagles
   nickname: Eagles
@@ -2321,7 +2321,7 @@
   head_coach: Mark Prosser
   best_email: prosserm@winthrop.edu
   staff_count: 11
-  coach_status: changed
+  coach_status: researched
 - name: South Carolina Upstate Spartans
   slug: south-carolina-upstate-spartans
   nickname: Spartans
@@ -2342,7 +2342,7 @@
   head_coach: Marty Richter
   best_email: mgarvin3@scsu.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: UCLA Bruins
   slug: ucla-bruins
   nickname: Bruins
@@ -2363,7 +2363,7 @@
   head_coach: Mick Cronin
   best_email: mcronin@athletics.ucla.edu
   staff_count: 4
-  coach_status: verified
+  coach_status: researched
 - name: USC Trojans
   slug: usc-trojans
   nickname: Trojans
@@ -2384,7 +2384,7 @@
   head_coach: Eric Musselman
   best_email: uschoops@usc.edu
   staff_count: 8
-  coach_status: patched
+  coach_status: researched
 - name: Northwestern Wildcats
   slug: northwestern-wildcats
   nickname: Wildcats
@@ -2405,7 +2405,7 @@
   head_coach: Chris Collins
   best_email: bjames@northwestern.edu
   staff_count: 11
-  coach_status: verified
+  coach_status: researched
 - name: Indiana Hoosiers
   slug: indiana-hoosiers
   nickname: Hoosiers
@@ -2426,7 +2426,7 @@
   head_coach: Darian DeVries
   best_email: mbasket@indiana.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Maryland Terrapins
   slug: maryland-terrapins
   nickname: Terrapins
@@ -2447,7 +2447,7 @@
   head_coach: Buzz Williams
   best_email: jkfinger@loyola.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Michigan State Spartans
   slug: michigan-state-spartans
   nickname: Spartans
@@ -2468,7 +2468,7 @@
   head_coach: Tom Izzo
   best_email: steve.hawkins@wmich.edu
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Michigan Wolverines
   slug: michigan-wolverines
   nickname: Wolverines
@@ -2489,7 +2489,7 @@
   head_coach: Dusty May
   best_email: steve.hawkins@wmich.edu
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Minnesota Golden Gophers
   slug: minnesota-golden-gophers
   nickname: Golden Gophers
@@ -2507,10 +2507,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/135.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/135.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/135
-  head_coach: Ben Johnson
+  head_coach: Niko Medved
   best_email: mbball@umn.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Nebraska Cornhuskers
   slug: nebraska-cornhuskers
   nickname: Cornhuskers
@@ -2531,7 +2531,7 @@
   head_coach: Fred Hoiberg
   best_email: sburbach@huskers.com
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Rutgers Scarlet Knights
   slug: rutgers-scarlet-knights
   nickname: Scarlet Knights
@@ -2552,7 +2552,7 @@
   head_coach: Steve Pikiell
   best_email: bknight@scarletknights.com
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Ohio State Buckeyes
   slug: ohio-state-buckeyes
   nickname: Buckeyes
@@ -2573,7 +2573,7 @@
   head_coach: Jake Diebler
   best_email: diebler.11@osu.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Penn State Nittany Lions
   slug: penn-state-nittany-lions
   nickname: Nittany Lions
@@ -2594,7 +2594,7 @@
   head_coach: Mike Rhoades
   best_email: mbasketball@psu.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Washington Huskies
   slug: washington-huskies
   nickname: Huskies
@@ -2615,7 +2615,7 @@
   head_coach: Danny Sprinkle
   best_email: coassistant coassistant coachhhnima@gwu.edu
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Wisconsin Badgers
   slug: wisconsin-badgers
   nickname: Badgers
@@ -2636,7 +2636,7 @@
   head_coach: Greg Gard
   best_email: baldwinp@uwm.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Illinois Fighting Illini
   slug: illinois-fighting-illini
   nickname: Fighting Illini
@@ -2657,7 +2657,7 @@
   head_coach: Brad Underwood
   best_email: coachunderwood@illinois.edu
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Iowa Hawkeyes
   slug: iowa-hawkeyes
   nickname: Hawkeyes
@@ -2678,7 +2678,7 @@
   head_coach: Ben McCollum
   best_email: sprohm@iastate.edu
   staff_count: 14
-  coach_status: changed
+  coach_status: researched
 - name: Oregon Ducks
   slug: oregon-ducks
   nickname: Ducks
@@ -2699,7 +2699,7 @@
   head_coach: Dana Altman
   best_email: daobb@uoregon.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: Purdue Boilermakers
   slug: purdue-boilermakers
   nickname: Boilermakers
@@ -2720,7 +2720,7 @@
   head_coach: Matt Painter
   best_email: paul.corsaro@pfw.edu
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: Cal Poly Mustangs
   slug: cal-poly-mustangs
   nickname: Mustangs
@@ -2741,7 +2741,7 @@
   head_coach: Mike DeGeorge
   best_email: olowery@calpoly.edu
   staff_count: 3
-  coach_status: patched
+  coach_status: researched
 - name: UC Riverside Highlanders
   slug: uc-riverside-highlanders
   nickname: Highlanders
@@ -2759,10 +2759,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/27.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/27.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/27
-  head_coach: Mike Magpayo
+  head_coach: Gus Argenal
   best_email: mike.magpayo@ucr.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: UC San Diego Tritons
   slug: uc-san-diego-tritons
   nickname: Tritons
@@ -2780,10 +2780,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/28.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/28.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/28
-  head_coach: Eric Olen
+  head_coach: Clint Allard
   best_email: usdbasketball@sandiego.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Hawai'i Rainbow Warriors
   slug: hawaii-rainbow-warriors
   nickname: Rainbow Warriors
@@ -2804,7 +2804,7 @@
   head_coach: Eran Ganot
   best_email: uhmbkb@hawaii.edu
   staff_count: 5
-  coach_status: patched
+  coach_status: researched
 - name: Long Beach State Beach
   slug: long-beach-state-beach
   nickname: Beach
@@ -2825,7 +2825,7 @@
   head_coach: Chris Acker
   best_email: dan.monson@csulb.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: UC Irvine Anteaters
   slug: uc-irvine-anteaters
   nickname: Anteaters
@@ -2846,7 +2846,7 @@
   head_coach: Russell Turner
   best_email: ucimbb@uci.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: UC Davis Aggies
   slug: uc-davis-aggies
   nickname: Aggies
@@ -2867,7 +2867,7 @@
   head_coach: Jim Les
   best_email: aggiebasketball@ucdavis.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: Cal State Fullerton Titans
   slug: cal-state-fullerton-titans
   nickname: Titans
@@ -2888,7 +2888,7 @@
   head_coach: Dedrique Taylor
   best_email: mensbasketball@fullerton.edu
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Cal State Northridge Matadors
   slug: cal-state-northridge-matadors
   nickname: Matadors
@@ -2909,7 +2909,7 @@
   head_coach: Andy Newman
   best_email: mark.gottfried@csun.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: UC Santa Barbara Gauchos
   slug: uc-santa-barbara-gauchos
   nickname: Gauchos
@@ -2930,7 +2930,7 @@
   head_coach: Joe Pasternack
   best_email: joe.pasternack@athletics.ucsb.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: Cal State Bakersfield Roadrunners
   slug: cal-state-bakersfield-roadrunners
   nickname: Roadrunners
@@ -2948,10 +2948,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2934.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2934.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2934
-  head_coach: Rod Barnes
+  head_coach: Mike Scott
   best_email: rbarnes4@csub.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: Northeastern Huskies
   slug: northeastern-huskies
   nickname: Huskies
@@ -2972,7 +2972,7 @@
   head_coach: Bill Coen
   best_email: w.coen@northeastern.edu
   staff_count: 9
-  coach_status: verified
+  coach_status: researched
 - name: Towson Tigers
   slug: towson-tigers
   nickname: Tigers
@@ -2993,7 +2993,7 @@
   head_coach: Pat Skerry
   best_email: pskerry@towson.edu
   staff_count: 8
-  coach_status: verified
+  coach_status: researched
 - name: Charleston Cougars
   slug: charleston-cougars
   nickname: Cougars
@@ -3014,7 +3014,7 @@
   head_coach: Chris Mack
   best_email: bradebaugh@csuniv.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: UNC Wilmington Seahawks
   slug: unc-wilmington-seahawks
   nickname: Seahawks
@@ -3035,7 +3035,7 @@
   head_coach: Takayo Siddle
   best_email: siddlet@uncw.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Campbell Fighting Camels
   slug: campbell-fighting-camels
   nickname: Fighting Camels
@@ -3056,7 +3056,7 @@
   head_coach: John Andrzejek
   best_email: kwhite@campbell.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Drexel Dragons
   slug: drexel-dragons
   nickname: Dragons
@@ -3077,7 +3077,7 @@
   head_coach: Zach Spiker
   best_email: zjs36@drexel.edu
   staff_count: 8
-  coach_status: verified
+  coach_status: researched
 - name: Elon Phoenix
   slug: elon-phoenix
   nickname: Phoenix
@@ -3098,7 +3098,7 @@
   head_coach: Billy Taylor
   best_email: mschrage@elon.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Hampton Pirates
   slug: hampton-pirates
   nickname: Pirates
@@ -3119,7 +3119,7 @@
   head_coach: Ivan Thomas
   best_email: edward.joyner@hamptonu.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Hofstra Pride
   slug: hofstra-pride
   nickname: Pride
@@ -3140,7 +3140,7 @@
   head_coach: Speedy Claxton
   best_email: craig.e.claxton@hofstra.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: Monmouth Hawks
   slug: monmouth-hawks
   nickname: Hawks
@@ -3161,7 +3161,7 @@
   head_coach: King Rice
   best_email: rcallaha@monmouth.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: North Carolina A&T Aggies
   slug: north-carolina-at-aggies
   nickname: Aggies
@@ -3182,7 +3182,7 @@
   head_coach: Monte Ross
   best_email: jcjoyner@ncat.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Stony Brook Seawolves
   slug: stony-brook-seawolves
   nickname: Seawolves
@@ -3203,7 +3203,7 @@
   head_coach: Geno Ford
   best_email: jordan.mckenzie@stonybrook.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: William & Mary Tribe
   slug: william-mary-tribe
   nickname: Tribe
@@ -3224,7 +3224,7 @@
   head_coach: Brian Earl
   best_email: dfischer@wm.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Delaware Blue Hens
   slug: delaware-blue-hens
   nickname: Blue Hens
@@ -3245,7 +3245,7 @@
   head_coach: Martin Ingelsby
   best_email: mingelsb@udel.edu
   staff_count: 7
-  coach_status: verified
+  coach_status: researched
 - name: Jacksonville State Gamecocks
   slug: jacksonville-state-gamecocks
   nickname: Gamecocks
@@ -3266,7 +3266,7 @@
   head_coach: Ray Harper
   best_email: harper@jsu.edu
   staff_count: 7
-  coach_status: verified
+  coach_status: researched
 - name: Western Kentucky Hilltoppers
   slug: western-kentucky-hilltoppers
   nickname: Hilltoppers
@@ -3287,7 +3287,7 @@
   head_coach: Hank Plona
   best_email: jvca222@uky.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: New Mexico State Aggies
   slug: new-mexico-state-aggies
   nickname: Aggies
@@ -3308,7 +3308,7 @@
   head_coach: Jason Hooten
   best_email: beckv@nmsu.edu
   staff_count: 14
-  coach_status: changed
+  coach_status: researched
 - name: Kennesaw State Owls
   slug: kennesaw-state-owls
   nickname: Owls
@@ -3329,7 +3329,7 @@
   head_coach: Antoine Pettway
   best_email: bfletc15@kennesaw.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Florida International Panthers
   slug: florida-international-panthers
   nickname: Panthers
@@ -3350,7 +3350,7 @@
   head_coach: Jeremy Ballard
   best_email: robert.mccullum@famu.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Liberty Flames
   slug: liberty-flames
   nickname: Flames
@@ -3371,7 +3371,7 @@
   head_coach: Ritchie McKay
   best_email: lubasketball@liberty.edu
   staff_count: 11
-  coach_status: verified
+  coach_status: researched
 - name: Louisiana Tech Bulldogs
   slug: louisiana-tech-bulldogs
   nickname: Bulldogs
@@ -3392,7 +3392,7 @@
   head_coach: Talvin Hester
   best_email: thester@latech.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: Middle Tennessee Blue Raiders
   slug: middle-tennessee-blue-raiders
   nickname: Blue Raiders
@@ -3413,7 +3413,7 @@
   head_coach: Nick McDevitt
   best_email: bcollins9@tnstate.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Sam Houston Bearkats
   slug: sam-houston-bearkats
   nickname: Bearkats
@@ -3434,7 +3434,7 @@
   head_coach: Chris Mudge
   best_email: mnegga2@central.uh.edu
   staff_count: 13
-  coach_status: changed
+  coach_status: researched
 - name: Missouri State Bears
   slug: missouri-state-bears
   nickname: Bears
@@ -3455,7 +3455,7 @@
   head_coach: Cuonzo Martin
   best_email: dford@missouristate.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: UTEP Miners
   slug: utep-miners
   nickname: Miners
@@ -3476,7 +3476,7 @@
   head_coach: Joe Golding
   best_email: mjramos4@utep.edu
   staff_count: 5
-  coach_status: patched
+  coach_status: researched
 - name: IU Indianapolis Jaguars
   slug: iu-indianapolis-jaguars
   nickname: Jaguars
@@ -3494,10 +3494,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/85.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/85.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/85
-  head_coach: Matt Crenshaw
+  head_coach: Ben Howlett
   best_email: brimmii@iupui.edu
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: Northern Kentucky Norse
   slug: northern-kentucky-norse
   nickname: Norse
@@ -3518,7 +3518,7 @@
   head_coach: Darrin Horn
   best_email: jvca222@uky.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Milwaukee Panthers
   slug: milwaukee-panthers
   nickname: Panthers
@@ -3539,7 +3539,7 @@
   head_coach: Bart Lundy
   best_email: baldwinp@uwm.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Cleveland State Vikings
   slug: cleveland-state-vikings
   nickname: Vikings
@@ -3557,10 +3557,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/325.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/325.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/325
-  head_coach: Daniyal Robinson
+  head_coach: Rob Summers
   best_email: j.d.joyce@csuohio.edu
   staff_count: 11
-  coach_status: changed
+  coach_status: researched
 - name: Detroit Mercy Titans
   slug: detroit-mercy-titans
   nickname: Titans
@@ -3581,7 +3581,7 @@
   head_coach: Mark Montgomery
   best_email: davismi3@udmercy.edu
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Oakland Golden Grizzlies
   slug: oakland-golden-grizzlies
   nickname: Golden Grizzlies
@@ -3602,7 +3602,7 @@
   head_coach: Greg Kampe
   best_email: basketball@oakland.edu
   staff_count: 9
-  coach_status: verified
+  coach_status: researched
 - name: Robert Morris Colonials
   slug: robert-morris-colonials
   nickname: Colonials
@@ -3623,7 +3623,7 @@
   head_coach: Andrew Toole
   best_email: toole@rmu.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: Green Bay Phoenix
   slug: green-bay-phoenix
   nickname: Phoenix
@@ -3644,7 +3644,7 @@
   head_coach: Doug Gottlieb
   best_email: darnerl@uwgb.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Wright State Raiders
   slug: wright-state-raiders
   nickname: Raiders
@@ -3665,7 +3665,7 @@
   head_coach: Clint Sargent
   best_email: clint.sargent@wright.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Youngstown State Penguins
   slug: youngstown-state-penguins
   nickname: Penguins
@@ -3686,7 +3686,7 @@
   head_coach: Ethan Faulkner
   best_email: egfaulkner@ysu.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Purdue Fort Wayne Mastodons
   slug: purdue-fort-wayne-mastodons
   nickname: Mastodons
@@ -3707,7 +3707,7 @@
   head_coach: Jon Coffman
   best_email: paul.corsaro@pfw.edu
   staff_count: 4
-  coach_status: verified
+  coach_status: researched
 - name: Yale Bulldogs
   slug: yale-bulldogs
   nickname: Bulldogs
@@ -3728,7 +3728,7 @@
   head_coach: James Jones
   best_email: j.jones@yale.edu
   staff_count: 7
-  coach_status: verified
+  coach_status: researched
 - name: Harvard Crimson
   slug: harvard-crimson
   nickname: Crimson
@@ -3749,7 +3749,7 @@
   head_coach: Tommy Amaker
   best_email: harvardmbb@fas.harvard.edu
   staff_count: 8
-  coach_status: verified
+  coach_status: researched
 - name: Dartmouth Big Green
   slug: dartmouth-big-green
   nickname: Big Green
@@ -3770,7 +3770,7 @@
   head_coach: Dave McLaughlin
   best_email: mens.basketball@dartmouth.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: Princeton Tigers
   slug: princeton-tigers
   nickname: Tigers
@@ -3791,7 +3791,7 @@
   head_coach: Mitch Henderson
   best_email: jjones55@princeton.edu
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Columbia Lions
   slug: columbia-lions
   nickname: Lions
@@ -3812,7 +3812,7 @@
   head_coach: Kevin Hovde
   best_email: culionsmbb@columbia.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Cornell Big Red
   slug: cornell-big-red
   nickname: Big Red
@@ -3833,7 +3833,7 @@
   head_coach: Jon Jaques
   best_email: jdj26@cornell.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: Pennsylvania Quakers
   slug: pennsylvania-quakers
   nickname: Quakers
@@ -3851,10 +3851,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/219.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/219.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/219
-  head_coach: Steve Donahue
+  head_coach: Fran McCaffery
   best_email: toole@rmu.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Brown Bears
   slug: brown-bears
   nickname: Bears
@@ -3875,7 +3875,7 @@
   head_coach: Mike Martin
   best_email: brownbasketball@brown.edu
   staff_count: 8
-  coach_status: verified
+  coach_status: researched
 - name: Mount St. Mary's Mountaineers
   slug: mount-st-marys-mountaineers
   nickname: Mountaineers
@@ -3896,7 +3896,7 @@
   head_coach: Donny Lind
   best_email: d.f.engelstad@msmary.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: Iona Gaels
   slug: iona-gaels
   nickname: Gaels
@@ -3917,7 +3917,7 @@
   head_coach: Dan Geriot
   best_email: tcluess@iona.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Niagara Purple Eagles
   slug: niagara-purple-eagles
   nickname: Purple Eagles
@@ -3938,7 +3938,7 @@
   head_coach: Greg Paulus
   best_email: bsmothers@niagara.edu
   staff_count: 4
-  coach_status: verified
+  coach_status: researched
 - name: Canisius Golden Griffins
   slug: canisius-golden-griffins
   nickname: Golden Griffins
@@ -3959,7 +3959,7 @@
   head_coach: Jim Christian
   best_email: withersp@canisius.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Fairfield Stags
   slug: fairfield-stags
   nickname: Stags
@@ -3980,7 +3980,7 @@
   head_coach: Chris Casey
   best_email: ccasey@fairfield.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Manhattan Jaspers
   slug: manhattan-jaspers
   nickname: Jaspers
@@ -4001,7 +4001,7 @@
   head_coach: John Gallagher
   best_email: stephen.masiello@manhattan.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Marist Red Foxes
   slug: marist-red-foxes
   nickname: Red Foxes
@@ -4022,7 +4022,7 @@
   head_coach: John Dunne
   best_email: cheryl.southern@marist.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: Quinnipiac Bobcats
   slug: quinnipiac-bobcats
   nickname: Bobcats
@@ -4043,7 +4043,7 @@
   head_coach: Tom Pecora
   best_email: thomas.pecora@qu.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: Rider Broncs
   slug: rider-broncs
   nickname: Broncs
@@ -4064,7 +4064,7 @@
   head_coach: Kevin Baggett
   best_email: kbaggett@rider.edu
   staff_count: 7
-  coach_status: verified
+  coach_status: researched
 - name: Sacred Heart Pioneers
   slug: sacred-heart-pioneers
   nickname: Pioneers
@@ -4085,7 +4085,7 @@
   head_coach: Anthony Latina
   best_email: latinaa@sacredheart.edu
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Siena Saints
   slug: siena-saints
   nickname: Saints
@@ -4106,7 +4106,7 @@
   head_coach: Gerry McNamara
   best_email: hfuller@siena.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: Saint Peter's Peacocks
   slug: saint-peters-peacocks
   nickname: Peacocks
@@ -4127,7 +4127,7 @@
   head_coach: Bashir Mason
   best_email: bmason@saintpeters.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: Merrimack Warriors
   slug: merrimack-warriors
   nickname: Warriors
@@ -4146,7 +4146,7 @@
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2771.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2771
   head_coach: Joe Gallo
-  coach_status: no_csv
+  coach_status: researched
 - name: Massachusetts Minutemen
   slug: massachusetts-minutemen
   nickname: Minutemen
@@ -4167,7 +4167,7 @@
   head_coach: Frank Martin
   best_email: ljordan04@umass.edu
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: Bowling Green Falcons
   slug: bowling-green-falcons
   nickname: Falcons
@@ -4188,7 +4188,7 @@
   head_coach: Todd Simon
   best_email: mhuger@bgsu.edu
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Miami (OH) RedHawks
   slug: miami-oh-redhawks
   nickname: RedHawks
@@ -4209,7 +4209,7 @@
   head_coach: Travis Steele
   best_email: wenecked@miamioh.edu
   staff_count: 11
-  coach_status: changed
+  coach_status: researched
 - name: Ohio Bobcats
   slug: ohio-bobcats
   nickname: Bobcats
@@ -4230,7 +4230,7 @@
   head_coach: Jeff Boals
   best_email: holtmann.7@osu.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Akron Zips
   slug: akron-zips
   nickname: Zips
@@ -4251,7 +4251,7 @@
   head_coach: John Groce
   best_email: akronhoops@uakron.edu
   staff_count: 12
-  coach_status: verified
+  coach_status: researched
 - name: Ball State Cardinals
   slug: ball-state-cardinals
   nickname: Cardinals
@@ -4271,7 +4271,7 @@
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2050
   best_email: mbasketball@bsu.edu
   staff_count: 5
-  coach_status: espn_error
+  coach_status: researched
 - name: Buffalo Bulls
   slug: buffalo-bulls
   nickname: Bulls
@@ -4292,7 +4292,7 @@
   head_coach: George Halcovage III
   best_email: ub-mensbasketball@buffalo.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Central Michigan Chippewas
   slug: central-michigan-chippewas
   nickname: Chippewas
@@ -4310,10 +4310,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2117.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2117
-  head_coach: Tony Barbee
+  head_coach: Andy Bronkema
   best_email: coachhoward@umich.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Eastern Michigan Eagles
   slug: eastern-michigan-eagles
   nickname: Eagles
@@ -4334,7 +4334,7 @@
   head_coach: Stan Heath
   best_email: coachhoward@umich.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Kent State Golden Flashes
   slug: kent-state-golden-flashes
   nickname: Golden Flashes
@@ -4355,7 +4355,7 @@
   head_coach: Rob Senderoff
   best_email: rsendero@kent.edu
   staff_count: 7
-  coach_status: verified
+  coach_status: researched
 - name: Northern Illinois Huskies
   slug: northern-illinois-huskies
   nickname: Huskies
@@ -4376,7 +4376,7 @@
   head_coach: Rashon Burno
   best_email: bwatkins3@niu.edu
   staff_count: 3
-  coach_status: changed
+  coach_status: researched
 - name: Toledo Rockets
   slug: toledo-rockets
   nickname: Rockets
@@ -4397,7 +4397,7 @@
   head_coach: Tod Kowalczyk
   best_email: jeffrey.massey@utoledo.edu
   staff_count: 7
-  coach_status: verified
+  coach_status: researched
 - name: Western Michigan Broncos
   slug: western-michigan-broncos
   nickname: Broncos
@@ -4418,7 +4418,7 @@
   head_coach: Dwayne Stephens
   best_email: steve.hawkins@wmich.edu
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Howard Bison
   slug: howard-bison
   nickname: Bison
@@ -4439,7 +4439,7 @@
   head_coach: Kenneth Blakeney
   best_email: keith.coutreyer@howard.edu
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Coppin State Eagles
   slug: coppin-state-eagles
   nickname: Eagles
@@ -4460,7 +4460,7 @@
   head_coach: Larry Stewart
   best_email: judixon@coppin.edu
   staff_count: 3
-  coach_status: changed
+  coach_status: researched
 - name: Delaware State Hornets
   slug: delaware-state-hornets
   nickname: Hornets
@@ -4481,7 +4481,7 @@
   head_coach: Stan Waterman
   best_email: mingelsb@udel.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Maryland Eastern Shore Hawks
   slug: maryland-eastern-shore-hawks
   nickname: Hawks
@@ -4502,7 +4502,7 @@
   head_coach: Cleo Hill Jr.
   best_email: kknoche@umd.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Morgan State Bears
   slug: morgan-state-bears
   nickname: Bears
@@ -4523,7 +4523,7 @@
   head_coach: Kevin Broadus
   best_email: kevin.broadus@morgan.edu
   staff_count: 3
-  coach_status: verified
+  coach_status: researched
 - name: North Carolina Central Eagles
   slug: north-carolina-central-eagles
   nickname: Eagles
@@ -4544,7 +4544,7 @@
   head_coach: LeVelle Moton
   best_email: jcjoyner@ncat.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Norfolk State Spartans
   slug: norfolk-state-spartans
   nickname: Spartans
@@ -4565,7 +4565,7 @@
   head_coach: Robert Jones
   best_email: spartanbasketball@nsu.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: South Carolina State Bulldogs
   slug: south-carolina-state-bulldogs
   nickname: Bulldogs
@@ -4586,7 +4586,7 @@
   head_coach: Erik Martin
   best_email: mgarvin3@scsu.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Bradley Braves
   slug: bradley-braves
   nickname: Braves
@@ -4607,7 +4607,7 @@
   head_coach: Brian Wardle
   best_email: jcfoster@bradley.edu
   staff_count: 7
-  coach_status: verified
+  coach_status: researched
 - name: Southern Illinois Salukis
   slug: southern-illinois-salukis
   nickname: Salukis
@@ -4628,7 +4628,7 @@
   head_coach: Scott Nagy
   best_email: coachunderwood@illinois.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: UIC Flames
   slug: uic-flames
   nickname: Flames
@@ -4649,7 +4649,7 @@
   head_coach: Robert Ehsan
   best_email: uicmbb@uic.edu
   staff_count: 7
-  coach_status: patched
+  coach_status: researched
 - name: Murray State Racers
   slug: murray-state-racers
   nickname: Racers
@@ -4670,7 +4670,7 @@
   head_coach: Ryan Miller
   best_email: msubasketball@murraystate.edu
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Indiana State Sycamores
   slug: indiana-state-sycamores
   nickname: Sycamores
@@ -4691,7 +4691,7 @@
   head_coach: Matthew Graves
   best_email: mbasket@indiana.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Evansville Purple Aces
   slug: evansville-purple-aces
   nickname: Purple Aces
@@ -4712,7 +4712,7 @@
   head_coach: David Ragland
   best_email: uebasketball@evansville.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Belmont Bruins
   slug: belmont-bruins
   nickname: Bruins
@@ -4733,7 +4733,7 @@
   head_coach: Casey Alexander
   best_email: sean.rutigliano@belmont.edu
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Drake Bulldogs
   slug: drake-bulldogs
   nickname: Bulldogs
@@ -4754,7 +4754,7 @@
   head_coach: Eric Henderson
   best_email: darian.devries@drake.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: Illinois State Redbirds
   slug: illinois-state-redbirds
   nickname: Redbirds
@@ -4775,7 +4775,7 @@
   head_coach: Ryan Pedon
   best_email: bwatkins3@niu.edu
   staff_count: 3
-  coach_status: changed
+  coach_status: researched
 - name: Northern Iowa Panthers
   slug: northern-iowa-panthers
   nickname: Panthers
@@ -4796,7 +4796,7 @@
   head_coach: Ben Jacobson
   best_email: sprohm@iastate.edu
   staff_count: 14
-  coach_status: changed
+  coach_status: researched
 - name: Valparaiso Beacons
   slug: valparaiso-beacons
   nickname: Beacons
@@ -4817,7 +4817,7 @@
   head_coach: Roger Powell Jr.
   best_email: mensbasketball@valpo.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: San Diego State Aztecs
   slug: san-diego-state-aztecs
   nickname: Aztecs
@@ -4838,7 +4838,7 @@
   head_coach: Brian Dutcher
   best_email: usdbasketball@sandiego.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: San José State Spartans
   slug: san-jose-state-spartans
   nickname: Spartans
@@ -4859,7 +4859,7 @@
   head_coach: Tim Miles
   best_email: jean.prioleau@sjsu.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: Colorado State Rams
   slug: colorado-state-rams
   nickname: Rams
@@ -4877,10 +4877,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/36.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/36.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/36
-  head_coach: Niko Medved
+  head_coach: Ali Farokhmanesh
   best_email: buffsmbb@colorado.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Boise State Broncos
   slug: boise-state-broncos
   nickname: Broncos
@@ -4901,7 +4901,7 @@
   head_coach: Leon Rice
   best_email: leonrice@boisestate.edu
   staff_count: 7
-  coach_status: verified
+  coach_status: researched
 - name: New Mexico Lobos
   slug: new-mexico-lobos
   nickname: Lobos
@@ -4922,7 +4922,7 @@
   head_coach: Eric Olen
   best_email: beckv@nmsu.edu
   staff_count: 14
-  coach_status: changed
+  coach_status: researched
 - name: Fresno State Bulldogs
   slug: fresno-state-bulldogs
   nickname: Bulldogs
@@ -4943,7 +4943,7 @@
   head_coach: Vance Walberg
   best_email: jhutson@csufresno.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Utah State Aggies
   slug: utah-state-aggies
   nickname: Aggies
@@ -4964,7 +4964,7 @@
   head_coach: Jerrod Calhoun
   best_email: johnwardenburg@suu.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Air Force Falcons
   slug: air-force-falcons
   nickname: Falcons
@@ -4982,10 +4982,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2005.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2005
-  head_coach: Joe Scott
+  head_coach: Jon Jordan
   best_email: holly.green@usafa.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Grand Canyon Lopes
   slug: grand-canyon-lopes
   nickname: Lopes
@@ -5006,7 +5006,7 @@
   head_coach: Bryce Drew
   best_email: chris.crevelone@gcu.edu
   staff_count: 11
-  coach_status: changed
+  coach_status: researched
 - name: UNLV Rebels
   slug: unlv-rebels
   nickname: Rebels
@@ -5027,7 +5027,7 @@
   head_coach: Josh Pastner
   best_email: christin.hinton@unlv.edu
   staff_count: 5
-  coach_status: patched
+  coach_status: researched
 - name: Nevada Wolf Pack
   slug: nevada-wolf-pack
   nickname: Wolf Pack
@@ -5048,7 +5048,7 @@
   head_coach: Steve Alford
   best_email: salford@unr.edu
   staff_count: 5
-  coach_status: verified
+  coach_status: researched
 - name: Wyoming Cowboys
   slug: wyoming-cowboys
   nickname: Cowboys
@@ -5069,7 +5069,7 @@
   head_coach: Sundance Wicks
   best_email: swicks4@uwyo.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Fairleigh Dickinson Knights
   slug: fairleigh-dickinson-knights
   nickname: Knights
@@ -5090,7 +5090,7 @@
   head_coach: Jack Castleberry
   best_email: gherenda@fdu.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Stonehill Skyhawks
   slug: stonehill-skyhawks
   nickname: Skyhawks
@@ -5109,7 +5109,7 @@
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/284.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/284
   head_coach: Chris Kraus
-  coach_status: no_csv
+  coach_status: researched
 - name: Central Connecticut Blue Devils
   slug: central-connecticut-blue-devils
   nickname: Blue Devils
@@ -5130,7 +5130,7 @@
   head_coach: Patrick Sellers
   best_email: kenya.hunter@uconn.edu
   staff_count: 11
-  coach_status: changed
+  coach_status: researched
 - name: Chicago State Cougars
   slug: chicago-state-cougars
   nickname: Cougars
@@ -5148,10 +5148,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2130.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2130.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2130
-  head_coach: Gerald Gillion
+  head_coach: Landon Bussie
   best_email: tharvey3@uic.edu
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: Le Moyne Dolphins
   slug: le-moyne-dolphins
   nickname: Dolphins
@@ -5170,7 +5170,7 @@
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2330.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2330
   head_coach: Nate Champion
-  coach_status: no_csv
+  coach_status: researched
 - name: Mercyhurst Lakers
   slug: mercyhurst-lakers
   nickname: Lakers
@@ -5189,7 +5189,7 @@
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2385.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2385
   head_coach: Gary Manchel
-  coach_status: no_csv
+  coach_status: researched
 - name: New Haven Chargers
   slug: new-haven-chargers
   nickname: Chargers
@@ -5209,7 +5209,7 @@
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2441
   best_email: coachsless@uno.edu
   staff_count: 8
-  coach_status: espn_error
+  coach_status: researched
 - name: Saint Francis Red Flash
   slug: saint-francis-red-flash
   nickname: Red Flash
@@ -5227,10 +5227,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2598.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2598.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2598
-  head_coach: Rob Krimmel
+  head_coach: Luke McConnell
   best_email: rkrimmel@francis.edu
   staff_count: 10
-  coach_status: verified
+  coach_status: researched
 - name: Wagner Seahawks
   slug: wagner-seahawks
   nickname: Seahawks
@@ -5248,10 +5248,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2681.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2681
-  head_coach: Donald Copeland
+  head_coach: Dwan McMillan
   best_email: donald.copeland@wagner.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: Long Island University Sharks
   slug: long-island-university-sharks
   nickname: Sharks
@@ -5272,7 +5272,7 @@
   head_coach: Rod Strickland
   best_email: derek.kellogg@liu.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Southern Indiana Screaming Eagles
   slug: southern-indiana-screaming-eagles
   nickname: Screaming Eagles
@@ -5293,7 +5293,7 @@
   head_coach: Stan Gouard
   best_email: mbasket@indiana.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Little Rock Trojans
   slug: little-rock-trojans
   nickname: Trojans
@@ -5313,7 +5313,7 @@
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2031
   best_email: dwalker@ualr.edu
   staff_count: 8
-  coach_status: espn_error
+  coach_status: researched
 - name: Eastern Illinois Panthers
   slug: eastern-illinois-panthers
   nickname: Panthers
@@ -5334,7 +5334,7 @@
   head_coach: Marty Simmons
   best_email: coachunderwood@illinois.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Morehead State Eagles
   slug: morehead-state-eagles
   nickname: Eagles
@@ -5355,7 +5355,7 @@
   head_coach: Jonathan Mattox
   best_email: jmattox@moreheadstate.edu
   staff_count: 9
-  coach_status: changed
+  coach_status: researched
 - name: Southeast Missouri State Redhawks
   slug: southeast-missouri-state-redhawks
   nickname: Redhawks
@@ -5376,7 +5376,7 @@
   head_coach: Brad Korn
   best_email: dford@missouristate.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: SIU Edwardsville Cougars
   slug: siu-edwardsville-cougars
   nickname: Cougars
@@ -5397,7 +5397,7 @@
   head_coach: Brian Barone
   best_email: coachbbarone@siue.edu
   staff_count: 8
-  coach_status: verified
+  coach_status: researched
 - name: UT Martin Skyhawks
   slug: ut-martin-skyhawks
   nickname: Skyhawks
@@ -5418,7 +5418,7 @@
   head_coach: Jeremy Shulman
   best_email: astewa54@utm.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Tennessee State Tigers
   slug: tennessee-state-tigers
   nickname: Tigers
@@ -5436,10 +5436,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2634.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2634.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2634
-  head_coach: Brian Collins
+  head_coach: Nolan Smith
   best_email: forbess@etsu.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Tennessee Tech Golden Eagles
   slug: tennessee-tech-golden-eagles
   nickname: Golden Eagles
@@ -5460,7 +5460,7 @@
   head_coach: John Pelphrey
   best_email: bcollins9@tnstate.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Western Illinois Leathernecks
   slug: western-illinois-leathernecks
   nickname: Leathernecks
@@ -5481,7 +5481,7 @@
   head_coach: Chad Boudreau
   best_email: coachunderwood@illinois.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Lindenwood Lions
   slug: lindenwood-lions
   nickname: Lions
@@ -5500,7 +5500,7 @@
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2815.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2815
   head_coach: Kyle Gerdeman
-  coach_status: no_csv
+  coach_status: researched
 - name: American University Eagles
   slug: american-university-eagles
   nickname: Eagles
@@ -5521,7 +5521,7 @@
   head_coach: Duane Simpkins
   best_email: mbrennan@american.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Boston University Terriers
   slug: boston-university-terriers
   nickname: Terriers
@@ -5542,7 +5542,7 @@
   head_coach: Joe Jones
   best_email: jjones11@bu.edu
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Holy Cross Crusaders
   slug: holy-cross-crusaders
   nickname: Crusaders
@@ -5563,7 +5563,7 @@
   head_coach: Dave Paulsen
   best_email: jkennedy@holycross.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Lafayette Leopards
   slug: lafayette-leopards
   nickname: Leopards
@@ -5584,7 +5584,7 @@
   head_coach: Mike McGarvey
   best_email: nhardin@louisiana.edu
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: Army Black Knights
   slug: army-black-knights
   nickname: Black Knights
@@ -5605,7 +5605,7 @@
   head_coach: Kevin Kuwik
   best_email: james.allen@westpoint.edu
   staff_count: 4
-  coach_status: patched
+  coach_status: researched
 - name: Bucknell Bison
   slug: bucknell-bison
   nickname: Bison
@@ -5626,7 +5626,7 @@
   head_coach: John Griffin III
   best_email: ndavis@bucknell.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Colgate Raiders
   slug: colgate-raiders
   nickname: Raiders
@@ -5647,7 +5647,7 @@
   head_coach: Matt Langel
   best_email: mlangel@colgate.edu
   staff_count: 8
-  coach_status: patched
+  coach_status: researched
 - name: Lehigh Mountain Hawks
   slug: lehigh-mountain-hawks
   nickname: Mountain Hawks
@@ -5668,7 +5668,7 @@
   head_coach: Brett Reed
   best_email: lehighmbb@lehigh.edu
   staff_count: 8
-  coach_status: verified
+  coach_status: researched
 - name: Loyola Maryland Greyhounds
   slug: loyola-maryland-greyhounds
   nickname: Greyhounds
@@ -5689,7 +5689,7 @@
   head_coach: Josh Loeffler
   best_email: jkfinger@loyola.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Navy Midshipmen
   slug: navy-midshipmen
   nickname: Midshipmen
@@ -5710,7 +5710,7 @@
   head_coach: John Perry
   best_email: jperry@usna.edu
   staff_count: 5
-  coach_status: patched
+  coach_status: researched
 - name: Auburn Tigers
   slug: auburn-tigers
   nickname: Tigers
@@ -5728,10 +5728,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2
-  head_coach: Bruce Pearl
+  head_coach: Steven Pearl
   best_email: bap0030@auburn.edu
   staff_count: 13
-  coach_status: verified
+  coach_status: researched
 - name: Arkansas Razorbacks
   slug: arkansas-razorbacks
   nickname: Razorbacks
@@ -5752,7 +5752,7 @@
   head_coach: John Calipari
   best_email: ivoryg@uapb.edu
   staff_count: 3
-  coach_status: changed
+  coach_status: researched
 - name: Florida Gators
   slug: florida-gators
   nickname: Gators
@@ -5773,7 +5773,7 @@
   head_coach: Todd Golden
   best_email: mleonard@athletics.ucf.edu
   staff_count: 8
-  coach_status: changed
+  coach_status: researched
 - name: Georgia Bulldogs
   slug: georgia-bulldogs
   nickname: Bulldogs
@@ -5794,7 +5794,7 @@
   head_coach: Mike White
   best_email: rlanier@gsu.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: Kentucky Wildcats
   slug: kentucky-wildcats
   nickname: Wildcats
@@ -5815,7 +5815,7 @@
   head_coach: Mark Pope
   best_email: jvca222@uky.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: LSU Tigers
   slug: lsu-tigers
   nickname: Tigers
@@ -5836,7 +5836,7 @@
   head_coach: Matt McMahon
   best_email: ncaldwell@lsu.edu
   staff_count: 11
-  coach_status: changed
+  coach_status: researched
 - name: Missouri Tigers
   slug: missouri-tigers
   nickname: Tigers
@@ -5857,7 +5857,7 @@
   head_coach: Dennis Gates
   best_email: dford@missouristate.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: Ole Miss Rebels
   slug: ole-miss-rebels
   nickname: Rebels
@@ -5878,7 +5878,7 @@
   head_coach: Chris Beard
   best_email: khhobson@olemiss.edu
   staff_count: 11
-  coach_status: patched
+  coach_status: researched
 - name: Oklahoma Sooners
   slug: oklahoma-sooners
   nickname: Sooners
@@ -5899,7 +5899,7 @@
   head_coach: Porter Moser
   best_email: mike.boynton@okstate.edu
   staff_count: 11
-  coach_status: changed
+  coach_status: researched
 - name: Vanderbilt Commodores
   slug: vanderbilt-commodores
   nickname: Commodores
@@ -5920,7 +5920,7 @@
   head_coach: Mark Byington
   best_email: jerry.stackhouse@vanderbilt.edu
   staff_count: 14
-  coach_status: changed
+  coach_status: researched
 - name: Texas A&M Aggies
   slug: texas-am-aggies
   nickname: Aggies
@@ -5941,7 +5941,7 @@
   head_coach: Bucky McMillan
   best_email: steve.henson@utsa.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Texas Longhorns
   slug: texas-longhorns
   nickname: Longhorns
@@ -5962,7 +5962,7 @@
   head_coach: Sean Miller
   best_email: steve.henson@utsa.edu
   staff_count: 7
-  coach_status: changed
+  coach_status: researched
 - name: Alabama Crimson Tide
   slug: alabama-crimson-tide
   nickname: Crimson Tide
@@ -5983,7 +5983,7 @@
   head_coach: Nate Oats
   best_email: apettway@ia.ua.edu
   staff_count: 6
-  coach_status: verified
+  coach_status: researched
 - name: Mississippi State Bulldogs
   slug: mississippi-state-bulldogs
   nickname: Bulldogs
@@ -6004,7 +6004,7 @@
   head_coach: Chris Jans
   best_email: clarence.g.weatherspoon@usm.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: South Carolina Gamecocks
   slug: south-carolina-gamecocks
   nickname: Gamecocks
@@ -6025,7 +6025,7 @@
   head_coach: Lamont Paris
   best_email: mgarvin3@scsu.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Tennessee Volunteers
   slug: tennessee-volunteers
   nickname: Volunteers
@@ -6046,7 +6046,7 @@
   head_coach: Rick Barnes
   best_email: forbess@etsu.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Furman Paladins
   slug: furman-paladins
   nickname: Paladins
@@ -6067,7 +6067,7 @@
   head_coach: Bob Richey
   best_email: bob.richey@furman.edu
   staff_count: 10
-  coach_status: verified
+  coach_status: researched
 - name: Chattanooga Mocs
   slug: chattanooga-mocs
   nickname: Mocs
@@ -6088,7 +6088,7 @@
   head_coach: Dan Earl
   best_email: lamont-paris@utc.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: East Tennessee State Buccaneers
   slug: east-tennessee-state-buccaneers
   nickname: Buccaneers
@@ -6109,7 +6109,7 @@
   head_coach: Brooks Savage
   best_email: savagebt@etsu.edu
   staff_count: 6
-  coach_status: changed
+  coach_status: researched
 - name: Mercer Bears
   slug: mercer-bears
   nickname: Bears
@@ -6130,7 +6130,7 @@
   head_coach: Ryan Ridder
   best_email: gary_gg@mercer.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: UNC Greensboro Spartans
   slug: unc-greensboro-spartans
   nickname: Spartans
@@ -6151,7 +6151,7 @@
   head_coach: Mike Jones
   best_email: argray2@uncg.edu
   staff_count: 4
-  coach_status: changed
+  coach_status: researched
 - name: Samford Bulldogs
   slug: samford-bulldogs
   nickname: Bulldogs
@@ -6169,10 +6169,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2535.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2535
-  head_coach: Bucky McMillan
+  head_coach: Lennie Acuff
   best_email: bmcmilla@samford.edu
   staff_count: 12
-  coach_status: changed
+  coach_status: researched
 - name: The Citadel Bulldogs
   slug: the-citadel-bulldogs
   nickname: Bulldogs
@@ -6193,7 +6193,7 @@
   head_coach: Ed Conroy
   best_email: rbaucom1@citadel.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: VMI Keydets
   slug: vmi-keydets
   nickname: Keydets
@@ -6214,7 +6214,7 @@
   head_coach: Andrew Wilson
   best_email: earlmd@vmi.edu
   staff_count: 5
-  coach_status: changed
+  coach_status: researched
 - name: Western Carolina Catamounts
   slug: western-carolina-catamounts
   nickname: Catamounts
@@ -6235,7 +6235,7 @@
   head_coach: Tim Craft
   best_email: mprosser@email.wcu.edu
   staff_count: 10
-  coach_status: changed
+  coach_status: researched
 - name: Wofford Terriers
   slug: wofford-terriers
   nickname: Terriers
@@ -6253,10 +6253,10 @@
   logo_url: https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2747.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/2747
-  head_coach: Dwight Perry
+  head_coach: Kevin Giltner
   best_email: perrydd@wofford.edu
   staff_count: 5
-  coach_status: patched
+  coach_status: researched
 - name: University of Alaska Anchorage
   slug: university-of-alaska-anchorage
   nickname: ''
