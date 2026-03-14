@@ -1,0 +1,1057 @@
+---
+layout: default
+title: "College Basketball Coaching Changes | Recruit Impact Tracker"
+description: "Live tracker of college basketball coaching changes—firings, hirings, and open roster spots. See which programs have scholarships available for recruits."
+og_image: /assets/images/coaching-changes-og.jpg
+permalink: /college-basketball-coaching-changes/
+hide_connect_form: false
+body_class: "coaching-changes-page"
+schema_type: "coaching-changes"
+---
+
+{%- assign changes = site.data.coaching_changes.changes -%}
+{%- assign meta = site.data.coaching_changes.meta -%}
+
+<!-- ══════════════════════════════════════════════════════
+     LIVE TICKER
+══════════════════════════════════════════════════════ -->
+<div class="cc-ticker-bar" role="marquee" aria-label="Live coaching change alerts">
+  <div class="cc-ticker-label">
+    <span class="cc-ticker-dot"></span>
+    LIVE UPDATES
+  </div>
+  <div class="cc-ticker-track-wrapper">
+    <div class="cc-ticker-track" id="tickerTrack">
+      {%- for change in changes -%}
+      <span class="cc-ticker-item" data-school="{{ change.school }}" data-type="{{ change.change_type }}"
+            data-note="{{ change.recruiting_note | truncate: 120 }}"
+            tabindex="0" role="button" aria-label="Alert: {{ change.school }} — {{ change.change_type | capitalize }}">
+        <span class="cc-ticker-badge cc-badge-{{ change.change_type }}">
+          {%- if change.change_type == 'fired' -%}🔴 FIRED
+          {%- elsif change.change_type == 'hired' -%}🟢 HIRED
+          {%- elsif change.change_type == 'opening' -%}🟡 OPENING
+          {%- else -%}⚪ RUMOR
+          {%- endif -%}
+        </span>
+        <strong>{{ change.school }}</strong>
+        {%- if change.outgoing_coach -%} — {{ change.outgoing_coach }}{%- endif -%}
+        {%- if change.incoming_coach and change.incoming_coach != '' and change.incoming_coach != null -%}
+          &nbsp;→ {{ change.incoming_coach }}
+        {%- endif -%}
+        &nbsp;&nbsp;·&nbsp;&nbsp;
+      </span>
+      {%- endfor -%}
+      {%- comment -%}Duplicate for seamless loop{%- endcomment -%}
+      {%- for change in changes -%}
+      <span class="cc-ticker-item" aria-hidden="true" data-school="{{ change.school }}" data-type="{{ change.change_type }}"
+            data-note="{{ change.recruiting_note | truncate: 120 }}" tabindex="-1">
+        <span class="cc-ticker-badge cc-badge-{{ change.change_type }}">
+          {%- if change.change_type == 'fired' -%}🔴 FIRED
+          {%- elsif change.change_type == 'hired' -%}🟢 HIRED
+          {%- elsif change.change_type == 'opening' -%}🟡 OPENING
+          {%- else -%}⚪ RUMOR
+          {%- endif -%}
+        </span>
+        <strong>{{ change.school }}</strong>
+        {%- if change.outgoing_coach -%} — {{ change.outgoing_coach }}{%- endif -%}
+        &nbsp;&nbsp;·&nbsp;&nbsp;
+      </span>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+<!-- Ticker Pop-up Alert Modal -->
+<div class="cc-alert-modal" id="alertModal" role="dialog" aria-modal="true" aria-labelledby="alertModalTitle" hidden>
+  <div class="cc-alert-inner">
+    <button class="cc-alert-close" id="alertClose" aria-label="Close alert">&times;</button>
+    <div class="cc-alert-badge-wrap">
+      <span class="cc-alert-badge" id="alertBadge"></span>
+    </div>
+    <h3 id="alertModalTitle" class="cc-alert-school"></h3>
+    <p class="cc-alert-note" id="alertNote"></p>
+    <a href="/apply/" class="btn-primary cc-alert-cta">Get Recruiting Help from FCP</a>
+  </div>
+</div>
+<div class="cc-modal-backdrop" id="modalBackdrop" hidden></div>
+
+
+<!-- ══════════════════════════════════════════════════════
+     PAGE HEADER
+══════════════════════════════════════════════════════ -->
+<section class="cc-hero">
+  <div class="container">
+    <div class="cc-hero-content">
+      <div class="cc-hero-eyebrow">
+        <span class="cc-pulse-dot"></span>
+        Updated {{ meta.last_updated | date: "%B %-d, %Y" }}
+      </div>
+      <h1>College Basketball<br><span class="cc-hero-highlight">Coaching Changes Tracker</span></h1>
+      <p class="cc-hero-lead">Every firing, hiring, and opening — filtered by what it means for <em>your recruiting</em>. New coaches mean open roster spots. We track the chain reactions so you don't miss your window.</p>
+      <div class="cc-hero-stats">
+        <div class="cc-hero-stat">
+          <span class="cc-hero-num cc-red">{{ meta.breakdown.fired }}</span>
+          <span class="cc-hero-label">Fired</span>
+        </div>
+        <div class="cc-hero-stat">
+          <span class="cc-hero-num cc-green">{{ meta.breakdown.hired }}</span>
+          <span class="cc-hero-label">Hired</span>
+        </div>
+        <div class="cc-hero-stat">
+          <span class="cc-hero-num cc-yellow">{{ meta.breakdown.opening }}</span>
+          <span class="cc-hero-label">Openings</span>
+        </div>
+        <div class="cc-hero-stat">
+          <span class="cc-hero-num cc-gray">{{ meta.breakdown.rumor }}</span>
+          <span class="cc-hero-label">Rumors</span>
+        </div>
+        <div class="cc-hero-stat">
+          {%- assign total_spots = 0 -%}
+          {%- for c in changes -%}{%- assign total_spots = total_spots | plus: c.roster_spots -%}{%- endfor -%}
+          <span class="cc-hero-num cc-gold">{{ total_spots }}+</span>
+          <span class="cc-hero-label">Open Spots</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     INTRO BLURB
+══════════════════════════════════════════════════════ -->
+<section class="cc-intro">
+  <div class="container container-narrow">
+    <div class="cc-intro-box">
+      <h2>Why Coaching Changes Matter for Your Recruiting</h2>
+      <p>Every coaching change in college basketball triggers a chain reaction that most recruits never see coming — until it's too late. When a head coach is fired, the entire staff usually follows within weeks. That means the assistant who was building a relationship with you? Gone. The offer letter sitting in a coach's outbox? Canceled. The visit you had scheduled? Postponed indefinitely.</p>
+      <p>On the flip side, new coaches arrive with something valuable: <strong>open roster spots and a mandate to rebuild fast</strong>. A new coach at a Power 4 program typically needs 4–8 transfers in their first portal cycle. They're calling players they never would have recruited under the old staff. Programs that seemed closed now have wide-open doors.</p>
+      <p>The problem is timing. Most recruits find out about these changes through Twitter — days or weeks after the decision is made, when the best portal windows are already closing. Programs fill 3–4 spots within the first 10 days of a new hire. If you're not in the conversation early, you're competing for the last remaining scholarship.</p>
+      <p><strong>That's exactly why we built this tracker.</strong> Florida Coastal Prep monitors every D1 coaching change in real time, filters by conference and impact level, and translates each move into plain-language recruiting intelligence: how many spots are open, what type of player the new staff wants, and what action you should take right now. Use the map below to identify programs near your target region, check the Chain Reaction Tracker for moves that create second-order opportunities, and sign up for weekly alerts so you're never caught off guard again.</p>
+      <p>The portal window is short. Coaches move fast. <strong>Don't let a coaching change end your recruiting — let it start it.</strong></p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     MAP SECTION
+══════════════════════════════════════════════════════ -->
+<section class="cc-map-section" id="map-section">
+  <div class="container">
+    <div class="cc-section-header">
+      <h2>Coaching Change Heat Map</h2>
+      <p>Click any pin to see recruiting impact. Use filters to narrow by conference or change type.</p>
+    </div>
+
+    <!-- Filter Controls -->
+    <div class="cc-map-filters" role="group" aria-label="Map filters">
+      <div class="cc-filter-group">
+        <span class="cc-filter-label">Division:</span>
+        <button class="cc-filter-btn active" data-filter="division" data-value="all">All</button>
+        <button class="cc-filter-btn" data-filter="division" data-value="D1">D1 Only</button>
+      </div>
+      <div class="cc-filter-group">
+        <span class="cc-filter-label">Conference:</span>
+        <button class="cc-filter-btn" data-filter="conference" data-value="all">All</button>
+        <button class="cc-filter-btn" data-filter="conference" data-value="Big Ten">Big Ten</button>
+        <button class="cc-filter-btn" data-filter="conference" data-value="SEC">SEC</button>
+        <button class="cc-filter-btn" data-filter="conference" data-value="ACC">ACC</button>
+        <button class="cc-filter-btn" data-filter="conference" data-value="Big 12">Big 12</button>
+        <button class="cc-filter-btn" data-filter="conference" data-value="Big East">Big East</button>
+      </div>
+      <div class="cc-filter-group">
+        <span class="cc-filter-label">Type:</span>
+        <button class="cc-filter-btn active" data-filter="type" data-value="all">All</button>
+        <button class="cc-filter-btn cc-filter-red" data-filter="type" data-value="fired">Fired</button>
+        <button class="cc-filter-btn cc-filter-green" data-filter="type" data-value="hired">Hired</button>
+        <button class="cc-filter-btn cc-filter-yellow" data-filter="type" data-value="opening">Opening</button>
+        <button class="cc-filter-btn cc-filter-gray" data-filter="type" data-value="rumor">Rumor</button>
+      </div>
+    </div>
+
+    <!-- Map Legend -->
+    <div class="cc-map-legend">
+      <span class="cc-legend-item"><span class="cc-legend-dot" style="background:#e53e3e"></span> Fired</span>
+      <span class="cc-legend-item"><span class="cc-legend-dot" style="background:#38a169"></span> Hired</span>
+      <span class="cc-legend-item"><span class="cc-legend-dot" style="background:#d69e2e"></span> Opening</span>
+      <span class="cc-legend-item"><span class="cc-legend-dot" style="background:#718096"></span> Rumor</span>
+    </div>
+
+    <!-- Leaflet Map -->
+    <div id="coachingMap" class="cc-map" role="application" aria-label="Interactive map of coaching changes"></div>
+
+    <!-- Inject data for JS -->
+    <script id="cc-data" type="application/json">
+      [
+        {%- for change in changes -%}
+        {
+          "school": {{ change.school | jsonify }},
+          "slug": {{ change.slug | jsonify }},
+          "espn_id": {{ change.espn_id | jsonify }},
+          "abbreviation": {{ change.abbreviation | jsonify }},
+          "conference": {{ change.conference | jsonify }},
+          "division": {{ change.division | jsonify }},
+          "state": {{ change.state | jsonify }},
+          "lat": {{ change.lat }},
+          "lng": {{ change.lng }},
+          "city": {{ change.city | jsonify }},
+          "logo_url": {{ change.logo_url | jsonify }},
+          "change_type": {{ change.change_type | jsonify }},
+          "impact": {{ change.impact | jsonify }},
+          "outgoing_coach": {{ change.outgoing_coach | jsonify }},
+          "incoming_coach": {{ change.incoming_coach | jsonify }},
+          "date": {{ change.date | jsonify }},
+          "story_url": {{ change.story_url | jsonify }},
+          "recruiting_note": {{ change.recruiting_note | jsonify }},
+          "roster_spots": {{ change.roster_spots }},
+          "chain_reaction": {{ change.chain_reaction | jsonify }},
+          "tags": {{ change.tags | jsonify }}
+        }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor -%}
+      ]
+    </script>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     CHANGE CARDS GRID
+══════════════════════════════════════════════════════ -->
+<section class="cc-cards-section" id="changes-list">
+  <div class="container">
+    <div class="cc-section-header">
+      <h2>All Coaching Changes</h2>
+      <p>Sorted by recruiting impact. High-impact changes are shown first.</p>
+    </div>
+
+    <div class="cc-cards-grid" id="cardsGrid">
+      {%- assign sorted_changes = changes | sort: "roster_spots" | reverse -%}
+      {%- for change in sorted_changes -%}
+      <article class="cc-card cc-card-{{ change.change_type }}"
+               data-division="{{ change.division }}"
+               data-conference="{{ change.conference }}"
+               data-type="{{ change.change_type }}"
+               data-impact="{{ change.impact }}">
+        <div class="cc-card-header">
+          <div class="cc-card-logo-wrap">
+            <img src="{{ change.logo_url }}"
+                 alt="{{ change.school }} logo"
+                 class="cc-card-logo"
+                 width="48" height="48"
+                 loading="lazy"
+                 onerror="this.style.display='none'">
+          </div>
+          <div class="cc-card-meta">
+            <span class="cc-card-badge cc-badge-{{ change.change_type }}">
+              {%- if change.change_type == 'fired' -%}🔴 Fired
+              {%- elsif change.change_type == 'hired' -%}🟢 Hired
+              {%- elsif change.change_type == 'opening' -%}🟡 Opening
+              {%- else -%}⚪ Rumor
+              {%- endif -%}
+            </span>
+            <span class="cc-card-conf">{{ change.conference }}</span>
+          </div>
+        </div>
+
+        <div class="cc-card-body">
+          <h3 class="cc-card-school">{{ change.school }}</h3>
+          <div class="cc-card-coaches">
+            {%- if change.outgoing_coach -%}
+            <span class="cc-coach-out">
+              <span class="cc-coach-icon">→</span>
+              Out: <strong>{{ change.outgoing_coach }}</strong>
+            </span>
+            {%- endif -%}
+            {%- if change.incoming_coach and change.incoming_coach != '' -%}
+            <span class="cc-coach-in">
+              <span class="cc-coach-icon">✓</span>
+              In: <strong>{{ change.incoming_coach }}</strong>
+            </span>
+            {%- endif -%}
+          </div>
+
+          <div class="cc-card-recruiting">
+            <div class="cc-recruiting-header">
+              <span class="cc-recruiting-icon">🏀</span>
+              <strong>Recruit Impact</strong>
+              {%- if change.roster_spots > 0 -%}
+              <span class="cc-spots-badge">{{ change.roster_spots }} Open Spots</span>
+              {%- elsif change.change_type == 'rumor' -%}
+              <span class="cc-spots-badge cc-spots-watch">Watch Closely</span>
+              {%- endif -%}
+            </div>
+            <p class="cc-recruiting-note">{{ change.recruiting_note }}</p>
+          </div>
+
+          <div class="cc-card-tags">
+            {%- for tag in change.tags -%}
+            <span class="cc-tag">{{ tag }}</span>
+            {%- endfor -%}
+          </div>
+        </div>
+
+        <div class="cc-card-footer">
+          <span class="cc-card-date">{{ change.date | date: "%b %-d, %Y" }}</span>
+          <div class="cc-card-actions">
+            <a href="{{ change.story_url }}" class="cc-card-link" target="_blank" rel="noopener noreferrer"
+               aria-label="Read full story about {{ change.school }} coaching change">
+              Full Story ↗
+            </a>
+            <a href="/apply/" class="cc-card-apply">Get Help →</a>
+          </div>
+        </div>
+      </article>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     CHAIN REACTION TRACKER
+══════════════════════════════════════════════════════ -->
+<section class="cc-chain-section" id="chain-reaction">
+  <div class="container">
+    <div class="cc-section-header">
+      <h2>⛓ Chain Reaction Tracker</h2>
+      <p>How coaching moves create second-order recruiting opportunities.</p>
+    </div>
+
+    <div class="cc-timeline">
+      {%- assign timeline_changes = changes | sort: "date" | reverse -%}
+      {%- for change in timeline_changes -%}
+      {%- if change.chain_reaction and change.chain_reaction != '' -%}
+      <div class="cc-timeline-item cc-tl-{{ change.change_type }}">
+        <div class="cc-tl-dot"></div>
+        <div class="cc-tl-content">
+          <div class="cc-tl-header">
+            <img src="{{ change.logo_url }}" alt="{{ change.school }}" class="cc-tl-logo" width="28" height="28" loading="lazy" onerror="this.style.display='none'">
+            <strong>{{ change.school }}</strong>
+            <span class="cc-tl-badge cc-badge-{{ change.change_type }}">
+              {%- if change.change_type == 'fired' -%}Fired
+              {%- elsif change.change_type == 'hired' -%}Hired
+              {%- elsif change.change_type == 'opening' -%}Opening
+              {%- else -%}Rumor
+              {%- endif -%}
+            </span>
+            <span class="cc-tl-date">{{ change.date | date: "%b %-d" }}</span>
+          </div>
+          <p class="cc-tl-reaction">{{ change.chain_reaction }}</p>
+        </div>
+      </div>
+      {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     EMAIL ALERT SIGNUP
+══════════════════════════════════════════════════════ -->
+<section class="cc-signup-section" id="weekly-alerts">
+  <div class="container container-narrow">
+    <div class="cc-signup-box">
+      <div class="cc-signup-icon">📬</div>
+      <h2>Get Weekly Coaching Change Alerts</h2>
+      <p>Every Friday morning: new coaching changes, open roster spots, and FCP's recruiting intelligence — delivered to your inbox before your competition sees it.</p>
+
+      <div class="cc-ghl-form-wrapper">
+        <iframe
+          src="https://api.leadconnectorhq.com/widget/form/41vI0yGp6HJG0JBllaVt"
+          style="width:100%;border:none;border-radius:8px;min-height:500px"
+          id="inline-41vI0yGp6HJG0JBllaVt"
+          data-layout="{'id':'INLINE'}"
+          data-trigger-type="alwaysShow"
+          data-trigger-value=""
+          data-activation-type="alwaysActivated"
+          data-activation-value=""
+          data-deactivation-type="neverDeactivate"
+          data-deactivation-value=""
+          data-form-name="Get Weekly Coaching Change Alerts"
+          data-height="500"
+          data-layout-iframe-id="inline-41vI0yGp6HJG0JBllaVt"
+          data-form-id="41vI0yGp6HJG0JBllaVt"
+          title="Get Weekly Coaching Change Alerts"
+        ></iframe>
+        <script src="https://api.leadconnectorhq.com/js/form_embed.js"></script>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     CTA BAND
+══════════════════════════════════════════════════════ -->
+<section class="cc-cta-band">
+  <div class="container">
+    <div class="cc-cta-content">
+      <h2>Coaching changes move fast. Your recruiting plan should too.</h2>
+      <p>FCP helps players identify which open programs match their profile, reach out at exactly the right time, and navigate the portal window before it closes.</p>
+      <div class="cc-cta-buttons">
+        <a href="/apply/" class="btn-primary">Apply to FCP</a>
+        <a href="/contact/" class="btn-secondary">Talk to a Coach</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     DISCLAIMER & SOURCES
+══════════════════════════════════════════════════════ -->
+<section class="cc-disclaimer-section">
+  <div class="container container-narrow">
+    <details class="cc-disclaimer">
+      <summary>Sources & Disclaimer</summary>
+      <div class="cc-disclaimer-content">
+        <p><strong>Data Sources:</strong></p>
+        <ul>
+          <li><a href="https://hoopdirt.com/coaching-changes/" target="_blank" rel="noopener noreferrer">HoopDirt Coaching Changes Tracker</a></li>
+          <li><a href="{{ meta.source_2 }}" target="_blank" rel="noopener noreferrer">ESPN Coaching Carousel Tracker</a></li>
+          <li>On3.com, 247Sports, and program official announcements</li>
+        </ul>
+        <p><strong>Disclaimer:</strong> This tracker is updated weekly via automated scraping and manual review. Roster spot estimates are projections based on historical patterns and are not official program communications. Recruiting notes reflect FCP's independent analysis and not statements from any coaching staff. Always verify information directly with programs before making recruiting decisions.</p>
+        <p>Last updated: {{ meta.last_updated | date: "%B %-d, %Y" }} · Scraper v{{ meta.scraper_version }}</p>
+      </div>
+    </details>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     LEAFLET + MAP JS
+══════════════════════════════════════════════════════ -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLjM=" crossorigin="" defer></script>
+
+<script>
+(function() {
+  /* ── Ticker ── */
+  var track = document.getElementById('tickerTrack');
+  var modal = document.getElementById('alertModal');
+  var backdrop = document.getElementById('modalBackdrop');
+  var closeBtn = document.getElementById('alertClose');
+  var alertBadge = document.getElementById('alertBadge');
+  var alertTitle = document.getElementById('alertModalTitle');
+  var alertNote = document.getElementById('alertNote');
+  var tickerPaused = false;
+
+  function openAlert(el) {
+    var school = el.dataset.school || '';
+    var type = el.dataset.type || '';
+    var note = el.dataset.note || '';
+    alertTitle.textContent = school;
+    alertNote.textContent = note;
+    var labels = { fired: '🔴 FIRED', hired: '🟢 HIRED', opening: '🟡 OPENING', rumor: '⚪ RUMOR' };
+    alertBadge.textContent = labels[type] || type.toUpperCase();
+    alertBadge.className = 'cc-alert-badge cc-badge-' + type;
+    modal.hidden = false;
+    backdrop.hidden = false;
+    document.body.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
+
+  function closeAlert() {
+    modal.hidden = true;
+    backdrop.hidden = true;
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.cc-ticker-item[tabindex="0"]').forEach(function(item) {
+    item.addEventListener('click', function() { openAlert(this); });
+    item.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openAlert(this); }
+    });
+  });
+
+  if (closeBtn) closeBtn.addEventListener('click', closeAlert);
+  if (backdrop) backdrop.addEventListener('click', closeAlert);
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeAlert(); });
+
+  /* Pause ticker on hover/focus */
+  if (track) {
+    track.addEventListener('mouseenter', function() { track.style.animationPlayState = 'paused'; });
+    track.addEventListener('mouseleave', function() { track.style.animationPlayState = 'running'; });
+    track.addEventListener('focusin', function() { track.style.animationPlayState = 'paused'; });
+    track.addEventListener('focusout', function() { track.style.animationPlayState = 'running'; });
+  }
+
+  /* ── Map ── */
+  var DATA = JSON.parse(document.getElementById('cc-data').textContent);
+
+  var COLOR_MAP = {
+    fired:   '#e53e3e',
+    hired:   '#38a169',
+    opening: '#d69e2e',
+    rumor:   '#718096'
+  };
+
+  var activeFilters = { division: 'all', conference: 'all', type: 'all' };
+  var leafletMarkers = [];
+  var mapInitialized = false;
+  var mapInstance = null;
+
+  function makeIcon(type, spots) {
+    var color = COLOR_MAP[type] || '#718096';
+    var size = spots > 4 ? 38 : spots > 0 ? 32 : 26;
+    var svg = [
+      '<svg xmlns="http://www.w3.org/2000/svg" width="' + size + '" height="' + size + '" viewBox="0 0 40 40">',
+      '<circle cx="20" cy="20" r="18" fill="' + color + '" opacity="0.92" stroke="#fff" stroke-width="2.5"/>',
+      spots > 0 ? '<text x="20" y="25" text-anchor="middle" font-size="13" font-weight="700" font-family="Inter,sans-serif" fill="#fff">' + spots + '</text>' : '',
+      '</svg>'
+    ].join('');
+    return L.divIcon({
+      html: svg,
+      className: 'cc-map-pin',
+      iconSize: [size, size],
+      iconAnchor: [size / 2, size / 2],
+      popupAnchor: [0, -(size / 2) - 4]
+    });
+  }
+
+  function buildPopup(d) {
+    var badgeColor = COLOR_MAP[d.change_type] || '#718096';
+    var typeLabel = { fired: 'FIRED', hired: 'HIRED', opening: 'OPENING', rumor: 'RUMOR' }[d.change_type] || d.change_type.toUpperCase();
+    var spotsHtml = d.roster_spots > 0
+      ? '<div class="cc-popup-spots"><strong>' + d.roster_spots + '</strong> estimated open spots</div>'
+      : '<div class="cc-popup-spots cc-spots-watch">Monitoring — no confirmed spots yet</div>';
+    var coachHtml = '';
+    if (d.outgoing_coach) coachHtml += '<div class="cc-popup-coach">Out: <strong>' + d.outgoing_coach + '</strong></div>';
+    if (d.incoming_coach) coachHtml += '<div class="cc-popup-coach">In: <strong>' + d.incoming_coach + '</strong></div>';
+
+    return [
+      '<div class="cc-popup">',
+      '  <div class="cc-popup-header" style="border-left:4px solid ' + badgeColor + '">',
+      '    <img src="' + d.logo_url + '" alt="' + d.school + '" class="cc-popup-logo" width="40" height="40" onerror="this.style.display=\'none\'">',
+      '    <div>',
+      '      <div class="cc-popup-badge" style="background:' + badgeColor + '">' + typeLabel + '</div>',
+      '      <div class="cc-popup-school">' + d.school + '</div>',
+      '      <div class="cc-popup-conf">' + d.conference + ' · ' + d.state + '</div>',
+      '    </div>',
+      '  </div>',
+      coachHtml,
+      spotsHtml,
+      '  <div class="cc-popup-note">' + d.recruiting_note + '</div>',
+      '  <div class="cc-popup-links">',
+      '    <a href="' + d.story_url + '" target="_blank" rel="noopener noreferrer" class="cc-popup-story">Full Story ↗</a>',
+      '    <a href="/apply/" class="cc-popup-apply">Get Help from FCP →</a>',
+      '  </div>',
+      '</div>'
+    ].join('');
+  }
+
+  function initMap() {
+    if (mapInitialized) return;
+    mapInitialized = true;
+
+    mapInstance = L.map('coachingMap', {
+      center: [38.5, -96],
+      zoom: 4,
+      minZoom: 3,
+      maxZoom: 10,
+      zoomControl: true,
+      scrollWheelZoom: false
+    });
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 20
+    }).addTo(mapInstance);
+
+    DATA.forEach(function(d) {
+      var marker = L.marker([d.lat, d.lng], { icon: makeIcon(d.change_type, d.roster_spots) })
+        .bindPopup(buildPopup(d), { maxWidth: 320, className: 'cc-leaflet-popup' });
+
+      marker._ccData = d;
+      marker.addTo(mapInstance);
+      leafletMarkers.push(marker);
+    });
+  }
+
+  function applyFilters() {
+    if (!mapInitialized) return;
+    leafletMarkers.forEach(function(m) {
+      var d = m._ccData;
+      var show = true;
+      if (activeFilters.division !== 'all' && d.division !== activeFilters.division) show = false;
+      if (activeFilters.conference !== 'all') {
+        /* Partial match: "Big Ten" in "Big Ten Conference" */
+        if (d.conference.indexOf(activeFilters.conference) === -1) show = false;
+      }
+      if (activeFilters.type !== 'all' && d.change_type !== activeFilters.type) show = false;
+      if (show) {
+        if (!mapInstance.hasLayer(m)) m.addTo(mapInstance);
+      } else {
+        if (mapInstance.hasLayer(m)) mapInstance.removeLayer(m);
+      }
+    });
+
+    /* Filter cards */
+    document.querySelectorAll('.cc-card').forEach(function(card) {
+      var show = true;
+      if (activeFilters.division !== 'all' && card.dataset.division !== activeFilters.division) show = false;
+      if (activeFilters.conference !== 'all' && card.dataset.conference.indexOf(activeFilters.conference) === -1) show = false;
+      if (activeFilters.type !== 'all' && card.dataset.type !== activeFilters.type) show = false;
+      card.style.display = show ? '' : 'none';
+    });
+  }
+
+  document.querySelectorAll('.cc-filter-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var filterGroup = this.dataset.filter;
+      var value = this.dataset.value;
+      activeFilters[filterGroup] = value;
+
+      /* Update active state within group */
+      document.querySelectorAll('[data-filter="' + filterGroup + '"]').forEach(function(b) {
+        b.classList.toggle('active', b.dataset.value === value);
+      });
+
+      if (!mapInitialized) initMap();
+      applyFilters();
+    });
+  });
+
+  /* Lazy-init map when section scrolls into view */
+  var mapSection = document.getElementById('map-section');
+  if ('IntersectionObserver' in window && mapSection) {
+    var io = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) {
+        initMap();
+        io.disconnect();
+      }
+    }, { threshold: 0.1 });
+    io.observe(mapSection);
+  } else {
+    /* Fallback: init on DOMContentLoaded */
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initMap);
+    } else {
+      initMap();
+    }
+  }
+
+})();
+</script>
+
+
+<!-- ══════════════════════════════════════════════════════
+     PAGE-SPECIFIC STYLES
+══════════════════════════════════════════════════════ -->
+<style>
+/* ── Ticker ── */
+.cc-ticker-bar {
+  display: flex;
+  align-items: center;
+  background: #0a1628;
+  border-bottom: 2px solid #b22234;
+  overflow: hidden;
+  height: 44px;
+  position: sticky;
+  top: 0;
+  z-index: 900;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+}
+.cc-ticker-label {
+  flex-shrink: 0;
+  background: #b22234;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0 1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+.cc-ticker-dot {
+  width: 7px; height: 7px;
+  background: #fff;
+  border-radius: 50%;
+  animation: cc-blink 1.2s ease-in-out infinite;
+}
+@keyframes cc-blink { 0%,100%{opacity:1} 50%{opacity:0.2} }
+.cc-ticker-track-wrapper {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.cc-ticker-track {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: cc-scroll 60s linear infinite;
+  will-change: transform;
+}
+@keyframes cc-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.cc-ticker-item {
+  color: #e2e8f0;
+  font-size: 0.82rem;
+  padding: 0 0.75rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: color 0.15s;
+}
+.cc-ticker-item:hover, .cc-ticker-item:focus { color: #d4a843; outline: none; }
+.cc-ticker-item:focus-visible { box-shadow: inset 0 0 0 2px #d4a843; border-radius: 2px; }
+
+/* ── Badges ── */
+.cc-ticker-badge, .cc-card-badge, .cc-tl-badge, .cc-alert-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 2px 7px;
+  border-radius: 3px;
+  white-space: nowrap;
+  display: inline-block;
+}
+.cc-badge-fired   { background: rgba(229,62,62,0.2);  color: #fc8181; border: 1px solid rgba(229,62,62,0.4); }
+.cc-badge-hired   { background: rgba(56,161,105,0.2); color: #68d391; border: 1px solid rgba(56,161,105,0.4); }
+.cc-badge-opening { background: rgba(214,158,46,0.2); color: #f6e05e; border: 1px solid rgba(214,158,46,0.4); }
+.cc-badge-rumor   { background: rgba(113,128,150,0.2);color: #a0aec0; border: 1px solid rgba(113,128,150,0.4); }
+
+/* ── Alert Modal ── */
+.cc-modal-backdrop {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1000;
+  backdrop-filter: blur(2px);
+}
+.cc-alert-modal {
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+  background: #0f1f3d;
+  border: 1px solid #2d3e5c;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 420px;
+  width: calc(100% - 2rem);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+}
+.cc-alert-close {
+  position: absolute; top: 0.75rem; right: 1rem;
+  background: none; border: none;
+  color: #a0aec0; font-size: 1.5rem;
+  cursor: pointer; line-height: 1;
+}
+.cc-alert-close:hover { color: #fff; }
+.cc-alert-badge-wrap { margin-bottom: 0.75rem; }
+.cc-alert-school {
+  font-size: 1.25rem; color: #fff; margin: 0 0 0.5rem;
+}
+.cc-alert-note { color: #a0aec0; font-size: 0.9rem; margin: 0 0 1.25rem; line-height: 1.6; }
+.cc-alert-cta { display: block; text-align: center; }
+
+/* ── Hero ── */
+.cc-hero {
+  background: linear-gradient(135deg, #0a1628 0%, #1a2744 60%, #0f2040 100%);
+  padding: 4rem 0 3rem;
+  border-bottom: 1px solid rgba(178,34,52,0.3);
+}
+.cc-hero-eyebrow {
+  display: flex; align-items: center; gap: 0.5rem;
+  color: #a0aec0; font-size: 0.8rem;
+  text-transform: uppercase; letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+.cc-pulse-dot {
+  width: 8px; height: 8px;
+  background: #e53e3e; border-radius: 50%;
+  animation: cc-pulse 2s ease-in-out infinite;
+}
+@keyframes cc-pulse {
+  0%,100% { transform: scale(1); opacity:1; }
+  50%      { transform: scale(1.5); opacity:0.6; }
+}
+.cc-hero h1 { color: #fff; font-size: clamp(1.8rem,4vw,3rem); margin: 0 0 1rem; line-height: 1.15; }
+.cc-hero-highlight { color: #d4a843; }
+.cc-hero-lead { color: #cbd5e0; font-size: 1.1rem; max-width: 680px; line-height: 1.7; margin: 0 0 2rem; }
+.cc-hero-stats {
+  display: flex; flex-wrap: wrap; gap: 1.5rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 1.5rem;
+}
+.cc-hero-stat { display: flex; flex-direction: column; }
+.cc-hero-num {
+  font-size: 2.2rem; font-weight: 800; line-height: 1;
+}
+.cc-hero-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: #718096; margin-top: 0.2rem; }
+.cc-red   { color: #fc8181; }
+.cc-green { color: #68d391; }
+.cc-yellow{ color: #f6e05e; }
+.cc-gray  { color: #a0aec0; }
+.cc-gold  { color: #d4a843; }
+
+/* ── Intro ── */
+.cc-intro { padding: 3rem 0; background: #f7f9fc; }
+.cc-intro-box {
+  background: #fff;
+  border-left: 4px solid #b22234;
+  padding: 2rem 2.5rem;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+}
+.cc-intro-box h2 { color: #0a1628; margin-top: 0; }
+.cc-intro-box p { color: #4a5568; line-height: 1.8; margin-bottom: 1rem; }
+.cc-intro-box p:last-child { margin-bottom: 0; }
+
+/* ── Section headers ── */
+.cc-section-header { text-align: center; margin-bottom: 2rem; }
+.cc-section-header h2 { font-size: 1.75rem; color: #0a1628; margin-bottom: 0.5rem; }
+.cc-section-header p  { color: #718096; font-size: 0.95rem; }
+
+/* ── Map ── */
+.cc-map-section { padding: 3rem 0; background: #1a1a2e; }
+.cc-map-section .cc-section-header h2 { color: #fff; }
+.cc-map-section .cc-section-header p  { color: #a0aec0; }
+.cc-map { height: 480px; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); }
+@media(max-width:768px){ .cc-map { height: 320px; } }
+
+.cc-map-filters {
+  display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.cc-filter-group { display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem; }
+.cc-filter-label { color: #a0aec0; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; margin-right: 0.25rem; }
+.cc-filter-btn {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #cbd5e0;
+  font-size: 0.78rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+.cc-filter-btn:hover { background: rgba(255,255,255,0.15); color: #fff; }
+.cc-filter-btn.active { background: #b22234; border-color: #b22234; color: #fff; }
+.cc-filter-red.active    { background: #e53e3e; border-color: #e53e3e; }
+.cc-filter-green.active  { background: #38a169; border-color: #38a169; }
+.cc-filter-yellow.active { background: #d69e2e; border-color: #d69e2e; }
+.cc-filter-gray.active   { background: #718096; border-color: #718096; }
+
+.cc-map-legend {
+  display: flex; gap: 1.25rem; flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+.cc-legend-item { display: flex; align-items: center; gap: 0.4rem; color: #a0aec0; font-size: 0.8rem; }
+.cc-legend-dot  { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+
+/* Leaflet popup overrides */
+.cc-leaflet-popup .leaflet-popup-content-wrapper {
+  background: #0f1f3d; border: 1px solid #2d3e5c;
+  border-radius: 10px; padding: 0; box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+.cc-leaflet-popup .leaflet-popup-tip-container { display: none; }
+.cc-leaflet-popup .leaflet-popup-content { margin: 0; width: 300px !important; }
+.cc-popup { padding: 1rem; }
+.cc-popup-header { display: flex; align-items: flex-start; gap: 0.75rem; padding-bottom: 0.75rem; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 0.75rem; }
+.cc-popup-logo { border-radius: 4px; }
+.cc-popup-badge { font-size: 0.65rem; font-weight: 800; letter-spacing: 0.08em; color: #fff; padding: 2px 6px; border-radius: 3px; margin-bottom: 3px; display: inline-block; }
+.cc-popup-school { color: #fff; font-weight: 700; font-size: 1rem; }
+.cc-popup-conf   { color: #718096; font-size: 0.78rem; }
+.cc-popup-coach  { color: #a0aec0; font-size: 0.82rem; margin-bottom: 3px; }
+.cc-popup-spots  { display: inline-block; background: rgba(212,168,67,0.15); color: #d4a843; border: 1px solid rgba(212,168,67,0.3); font-size: 0.8rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; margin: 0.5rem 0; }
+.cc-popup-spots.cc-spots-watch { background: rgba(113,128,150,0.15); color: #a0aec0; border-color: rgba(113,128,150,0.3); }
+.cc-popup-note { color: #cbd5e0; font-size: 0.82rem; line-height: 1.55; margin: 0.5rem 0 0.75rem; }
+.cc-popup-links { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.cc-popup-story  { color: #a0aec0; font-size: 0.8rem; text-decoration: none; border: 1px solid rgba(255,255,255,0.1); padding: 4px 10px; border-radius: 4px; }
+.cc-popup-story:hover { color: #fff; border-color: rgba(255,255,255,0.3); }
+.cc-popup-apply  { color: #fff; font-size: 0.8rem; background: #b22234; padding: 4px 10px; border-radius: 4px; text-decoration: none; font-weight: 700; }
+.cc-popup-apply:hover { background: #9b1830; color: #fff; }
+.cc-map-pin { background: transparent !important; border: none !important; }
+
+/* ── Cards ── */
+.cc-cards-section { padding: 3rem 0; background: #f7f9fc; }
+.cc-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.25rem;
+}
+@media(max-width:480px){ .cc-cards-grid { grid-template-columns: 1fr; } }
+.cc-card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  transition: box-shadow 0.2s, transform 0.2s;
+  border-top: 3px solid transparent;
+}
+.cc-card:hover { box-shadow: 0 8px 30px rgba(0,0,0,0.1); transform: translateY(-2px); }
+.cc-card-fired   { border-top-color: #e53e3e; }
+.cc-card-hired   { border-top-color: #38a169; }
+.cc-card-opening { border-top-color: #d69e2e; }
+.cc-card-rumor   { border-top-color: #718096; }
+.cc-card-header { display: flex; align-items: flex-start; justify-content: space-between; padding: 1rem 1rem 0; gap: 0.75rem; }
+.cc-card-logo-wrap { width: 48px; height: 48px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+.cc-card-logo { max-width: 48px; max-height: 48px; object-fit: contain; }
+.cc-card-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 0.3rem; }
+.cc-card-conf { color: #718096; font-size: 0.72rem; text-align: right; }
+.cc-card-body { padding: 0.75rem 1rem 0; flex: 1; }
+.cc-card-school { font-size: 1.05rem; margin: 0 0 0.5rem; color: #0a1628; font-weight: 700; }
+.cc-card-coaches { display: flex; flex-direction: column; gap: 0.2rem; margin-bottom: 0.75rem; }
+.cc-coach-out { color: #e53e3e; font-size: 0.82rem; }
+.cc-coach-in  { color: #38a169; font-size: 0.82rem; }
+.cc-coach-icon { opacity: 0.7; margin-right: 2px; }
+.cc-card-recruiting { background: #f7f9fc; border-radius: 6px; padding: 0.75rem; margin-bottom: 0.75rem; }
+.cc-recruiting-header { display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.4rem; flex-wrap: wrap; font-size: 0.82rem; }
+.cc-recruiting-icon { font-size: 1rem; }
+.cc-spots-badge { background: rgba(212,168,67,0.15); color: #92400e; border: 1px solid rgba(212,168,67,0.4); font-size: 0.7rem; font-weight: 700; padding: 1px 7px; border-radius: 3px; margin-left: auto; }
+.cc-spots-watch { background: rgba(113,128,150,0.1); color: #4a5568; border-color: rgba(113,128,150,0.3); }
+.cc-recruiting-note { color: #4a5568; font-size: 0.83rem; line-height: 1.6; margin: 0; }
+.cc-card-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.75rem; }
+.cc-tag { background: #edf2f7; color: #4a5568; font-size: 0.7rem; padding: 2px 8px; border-radius: 20px; }
+.cc-card-footer { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 1rem; border-top: 1px solid #e2e8f0; gap: 0.5rem; flex-wrap: wrap; }
+.cc-card-date { color: #a0aec0; font-size: 0.75rem; }
+.cc-card-actions { display: flex; gap: 0.5rem; }
+.cc-card-link { color: #718096; font-size: 0.78rem; text-decoration: none; border: 1px solid #e2e8f0; padding: 3px 10px; border-radius: 4px; }
+.cc-card-link:hover { color: #0a1628; border-color: #cbd5e0; }
+.cc-card-apply { color: #fff; font-size: 0.78rem; background: #b22234; padding: 3px 10px; border-radius: 4px; text-decoration: none; font-weight: 700; }
+.cc-card-apply:hover { background: #9b1830; color: #fff; }
+
+/* ── Chain Reaction ── */
+.cc-chain-section { padding: 3rem 0; background: #0a1628; }
+.cc-chain-section .cc-section-header h2 { color: #fff; }
+.cc-chain-section .cc-section-header p  { color: #a0aec0; }
+.cc-timeline { position: relative; padding-left: 2rem; }
+.cc-timeline::before {
+  content: '';
+  position: absolute; left: 0.55rem; top: 0; bottom: 0;
+  width: 2px; background: rgba(255,255,255,0.08);
+}
+.cc-timeline-item {
+  position: relative;
+  padding: 0 0 1.5rem 1.25rem;
+}
+.cc-timeline-item:last-child { padding-bottom: 0; }
+.cc-tl-dot {
+  position: absolute; left: -1.55rem; top: 0.35rem;
+  width: 12px; height: 12px; border-radius: 50%;
+  border: 2px solid #0a1628;
+}
+.cc-tl-fired   .cc-tl-dot { background: #e53e3e; box-shadow: 0 0 8px rgba(229,62,62,0.5); }
+.cc-tl-hired   .cc-tl-dot { background: #38a169; box-shadow: 0 0 8px rgba(56,161,105,0.5); }
+.cc-tl-opening .cc-tl-dot { background: #d69e2e; box-shadow: 0 0 8px rgba(214,158,46,0.5); }
+.cc-tl-rumor   .cc-tl-dot { background: #718096; }
+.cc-tl-content {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 1rem;
+}
+.cc-tl-header { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+.cc-tl-logo { border-radius: 3px; }
+.cc-tl-header strong { color: #fff; font-size: 0.92rem; }
+.cc-tl-date { margin-left: auto; color: #718096; font-size: 0.75rem; }
+.cc-tl-reaction { color: #a0aec0; font-size: 0.85rem; line-height: 1.65; margin: 0; }
+
+/* ── Email Signup ── */
+.cc-signup-section { padding: 3rem 0; background: #f7f9fc; }
+.cc-signup-box {
+  background: #0a1628;
+  border-radius: 16px;
+  padding: 2.5rem;
+  text-align: center;
+  border: 1px solid rgba(178,34,52,0.3);
+}
+.cc-signup-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+.cc-signup-box h2 { color: #fff; margin: 0 0 0.75rem; font-size: 1.5rem; }
+.cc-signup-box > p { color: #a0aec0; margin: 0 0 1.5rem; line-height: 1.7; }
+.cc-signup-form { max-width: 640px; margin: 0 auto; }
+.cc-signup-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  gap: 0.5rem;
+  align-items: stretch;
+}
+@media(max-width:768px) { .cc-signup-fields { grid-template-columns: 1fr 1fr; } }
+@media(max-width:480px) { .cc-signup-fields { grid-template-columns: 1fr; } }
+.cc-field-group { display: flex; }
+.cc-signup-fields input, .cc-signup-fields select {
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 6px;
+  color: #fff;
+  font-size: 0.88rem;
+  font-family: inherit;
+}
+.cc-signup-fields input::placeholder { color: rgba(255,255,255,0.35); }
+.cc-signup-fields select option { background: #0a1628; color: #fff; }
+.cc-signup-fields input:focus, .cc-signup-fields select:focus {
+  outline: 2px solid #b22234; border-color: transparent;
+}
+.cc-signup-btn {
+  white-space: nowrap;
+  padding: 0.65rem 1.25rem;
+  font-size: 0.88rem;
+  cursor: pointer;
+  border: none;
+}
+.cc-signup-fine { color: #718096; font-size: 0.75rem; margin-top: 0.75rem; }
+
+/* ── CTA Band ── */
+.cc-cta-band {
+  background: linear-gradient(135deg, #b22234 0%, #9b1830 100%);
+  padding: 3rem 0;
+  text-align: center;
+}
+.cc-cta-content h2 { color: #fff; font-size: 1.6rem; margin: 0 0 0.75rem; }
+.cc-cta-content p  { color: rgba(255,255,255,0.85); max-width: 580px; margin: 0 auto 1.75rem; line-height: 1.7; }
+.cc-cta-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.btn-secondary {
+  display: inline-block;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.6);
+  color: #fff;
+  padding: 0.75rem 1.75rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.btn-secondary:hover { background: rgba(255,255,255,0.1); border-color: #fff; color: #fff; }
+
+/* ── Disclaimer ── */
+.cc-disclaimer-section { padding: 2rem 0; background: #f7f9fc; }
+.cc-disclaimer { border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+.cc-disclaimer summary {
+  padding: 0.75rem 1.25rem;
+  font-size: 0.85rem;
+  color: #718096;
+  cursor: pointer;
+  list-style: none;
+  display: flex; align-items: center; gap: 0.5rem;
+  background: #edf2f7;
+}
+.cc-disclaimer summary::before { content: '▶'; font-size: 0.65rem; transition: transform 0.2s; }
+.cc-disclaimer[open] summary::before { transform: rotate(90deg); }
+.cc-disclaimer-content { padding: 1.25rem; font-size: 0.83rem; color: #4a5568; line-height: 1.7; }
+.cc-disclaimer-content ul { margin: 0.5rem 0 1rem 1.25rem; }
+.cc-disclaimer-content a { color: #b22234; }
+
+/* ── Utility ── */
+.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+</style>

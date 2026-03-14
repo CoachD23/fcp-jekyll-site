@@ -1,0 +1,18 @@
+{
+  "name": "fcp-scraper",
+  "version": "1.0.0",
+  "description": "FCP data scrapers — coaching changes, commitments, rankings",
+  "type": "module",
+  "scripts": {
+    "scrape:coaching": "node scrape-coaching-changes.js",
+    "scrape:coaching:write": "node scrape-coaching-changes.js --write",
+    "scrape:coaching:dry": "node scrape-coaching-changes.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

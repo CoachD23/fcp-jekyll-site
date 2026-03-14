@@ -244,6 +244,97 @@
 </script>
 {% endif %}
 
+{% if page.schema_type == 'coaching-changes' %}
+{% assign cc_changes = site.data.coaching_changes.changes %}
+{% assign cc_meta = site.data.coaching_changes.meta %}
+<!-- Structured Data: NewsArticle (Coaching Changes page) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | escape }}",
+  "datePublished": "{{ cc_meta.last_updated }}T00:00:00-05:00",
+  "dateModified": "{{ cc_meta.last_updated }}T00:00:00-05:00",
+  "url": "{{ page.url | absolute_url }}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ page.og_image | default: '/assets/images/about-fcp.jpg' | absolute_url }}",
+    "width": 1200,
+    "height": 630
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Florida Coastal Prep Sports Academy",
+    "url": "https://floridacoastalprep.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Florida Coastal Prep Sports Academy",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://floridacoastalprep.com/assets/images/fcp-logo.png",
+      "width": 512,
+      "height": 512
+    }
+  },
+  "mainEntityOfPage": "{{ page.url | absolute_url }}",
+  "about": [
+    {
+      "@type": "SportsOrganization",
+      "name": "NCAA Division I Men's Basketball",
+      "sport": "Basketball"
+    }
+  ],
+  "keywords": "college basketball coaching changes 2026, coaching carousel, coaching firings 2026, coaching hirings 2026, open roster spots, transfer portal, basketball recruiting"
+}
+</script>
+
+<!-- Structured Data: ItemList of Coaching Changes -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "2026 College Basketball Coaching Changes",
+  "description": "Complete tracker of 2026 college basketball coaching changes including firings, hirings, and open roster spots for recruits.",
+  "url": "{{ page.url | absolute_url }}",
+  "numberOfItems": {{ cc_meta.total_changes }},
+  "itemListElement": [
+    {%- assign cc_idx = 0 -%}
+    {%- for change in cc_changes -%}
+    {%- assign cc_idx = cc_idx | plus: 1 -%}
+    {
+      "@type": "ListItem",
+      "position": {{ cc_idx }},
+      "item": {
+        "@type": "Event",
+        "name": "{{ change.school | escape }} — {{ change.change_type | capitalize }}{% if change.outgoing_coach %}: {{ change.outgoing_coach | escape }}{% endif %}",
+        "startDate": "{{ change.date }}",
+        "description": "{{ change.recruiting_note | escape | truncate: 200 }}",
+        "location": {
+          "@type": "Place",
+          "name": "{{ change.school | escape }}",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "{{ change.state }}",
+            "addressCountry": "US"
+          }
+        },
+        "url": "{{ change.story_url | escape }}"
+      }
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+
+<!-- Preconnect for Leaflet tiles (CARTO dark map) -->
+<link rel="preconnect" href="https://unpkg.com">
+<link rel="dns-prefetch" href="https://a.basemaps.cartocdn.com">
+<link rel="dns-prefetch" href="https://b.basemaps.cartocdn.com">
+<link rel="dns-prefetch" href="https://a.espncdn.com">
+{% endif %}
+
 <!-- DNS prefetch for third-party domains -->
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 <link rel="dns-prefetch" href="https://widgets.leadconnectorhq.com">

@@ -1,0 +1,301 @@
+# Florida Coastal Prep — College Basketball Coaching Changes Tracker
+# Source: HoopDirt, ESPN Coaching Carousel, on3.com
+# Updated: 2026-03-13
+# Maintained by: automated scraper (scripts/scrape-coaching-changes.js)
+#
+# change_type values: fired | hired | opening | rumor
+# impact values: high | medium | low
+# roster_spots: estimated open scholarships created by the change
+
+changes:
+
+  - school: "Syracuse Orange"
+    slug: "syracuse-orange"
+    espn_id: "183"
+    abbreviation: "SYR"
+    conference: "Atlantic Coast Conference"
+    conference_slug: "atlantic-coast-conference"
+    division: "D1"
+    state: "NY"
+    lat: 43.0481
+    lng: -76.1474
+    city: "Syracuse"
+    logo_url: "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png"
+    change_type: "fired"
+    impact: "high"
+    outgoing_coach: "Adrian Autry"
+    incoming_coach: null
+    date: "2026-03-10"
+    story_url: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+    recruiting_note: "Expect 4–6 open roster spots. All uncommitted recruits should reopen their decisions. Syracuse historically pursues high-IQ guards and versatile wings."
+    roster_spots: 5
+    chain_reaction: "Jim Boeheim era fully closed. New staff will bring completely new recruiting geography. Watch for graduate transfer wave in April."
+    tags: ["ACC", "Power 4", "Guard Opportunity", "Transfer Portal Surge"]
+
+  - school: "Indiana Hoosiers"
+    slug: "indiana-hoosiers"
+    espn_id: "84"
+    abbreviation: "IU"
+    conference: "Big Ten Conference"
+    conference_slug: "big-ten-conference"
+    division: "D1"
+    state: "IN"
+    lat: 39.1653
+    lng: -86.5264
+    city: "Bloomington"
+    logo_url: "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png"
+    change_type: "hired"
+    impact: "high"
+    outgoing_coach: "Mike Woodson"
+    incoming_coach: "Darian DeVries"
+    date: "2026-03-05"
+    story_url: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+    recruiting_note: "DeVries brings Drake/Iowa State system. Expect aggressive portal pursuit. 3–5 open spots for guards and forwards who can play in motion offense."
+    roster_spots: 4
+    chain_reaction: "DeVries' former players at Drake/Iowa State may follow. Indiana recruiting shifts back toward Midwest corridor after years of national reach."
+    tags: ["Big Ten", "Power 4", "New Staff", "Portal Opportunity"]
+
+  - school: "Arizona State Sun Devils"
+    slug: "arizona-state-sun-devils"
+    espn_id: "9"
+    abbreviation: "ASU"
+    conference: "Big 12 Conference"
+    conference_slug: "big-12-conference"
+    division: "D1"
+    state: "AZ"
+    lat: 33.4255
+    lng: -111.9400
+    city: "Tempe"
+    logo_url: "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png"
+    change_type: "opening"
+    impact: "high"
+    outgoing_coach: "Bobby Hurley"
+    incoming_coach: null
+    date: "2026-03-08"
+    story_url: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+    recruiting_note: "Full roster evaluation underway. Big 12 exposure is a major draw. Program needs scoring guards and a shot-blocking big. 5–7 open spots expected."
+    roster_spots: 6
+    chain_reaction: "Hurley departure after years of mid-level Big 12 finishes. Search is nationwide. Multiple assistants from neighboring Pac-12/Big 12 programs rumored."
+    tags: ["Big 12", "Power 4", "Opening", "Transfer Portal Surge", "Big Needed"]
+
+  - school: "Auburn Tigers"
+    slug: "auburn-tigers"
+    espn_id: "2"
+    abbreviation: "AUB"
+    conference: "Southeastern Conference"
+    conference_slug: "southeastern-conference"
+    division: "D1"
+    state: "AL"
+    lat: 32.6099
+    lng: -85.4808
+    city: "Auburn"
+    logo_url: "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png"
+    change_type: "rumor"
+    impact: "high"
+    outgoing_coach: "Bruce Pearl"
+    incoming_coach: null
+    date: "2026-03-11"
+    story_url: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+    recruiting_note: "Rumor only — Pearl's future uncertain post-NCAA investigation. If he departs, Auburn becomes one of the most attractive jobs in the country. Watch closely."
+    roster_spots: 0
+    chain_reaction: "SEC championship program in flux. If Pearl leaves, expect immediate top-10 coaching hire. All current commits should pause until situation resolves."
+    tags: ["SEC", "Power 4", "Rumor", "Watch List", "High Stakes"]
+
+  - school: "St. John's Red Storm"
+    slug: "st-johns-red-storm"
+    espn_id: "2599"
+    abbreviation: "STJ"
+    conference: "Big East Conference"
+    conference_slug: "big-east-conference"
+    division: "D1"
+    state: "NY"
+    lat: 40.7282
+    lng: -73.7949
+    city: "Queens"
+    logo_url: "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png"
+    change_type: "hired"
+    impact: "high"
+    outgoing_coach: "Rick Pitino"
+    incoming_coach: "Pitino Retained / Staff Overhaul"
+    date: "2026-03-01"
+    story_url: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+    recruiting_note: "Pitino rebuilding staff after NCAA Tournament. NYC market exposure + Big East = premium opportunity. Guards and wings with size are priority targets."
+    roster_spots: 3
+    chain_reaction: "Staff shake-up opens some portal slots. NYC recruiting pipeline staying active. Players who want New York exposure and Big East stage should reach out now."
+    tags: ["Big East", "Power 4", "NYC Market", "Staff Overhaul"]
+
+  - school: "USC Trojans"
+    slug: "usc-trojans"
+    espn_id: "30"
+    abbreviation: "USC"
+    conference: "Big Ten Conference"
+    conference_slug: "big-ten-conference"
+    division: "D1"
+    state: "CA"
+    lat: 34.0224
+    lng: -118.2851
+    city: "Los Angeles"
+    logo_url: "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png"
+    change_type: "fired"
+    impact: "high"
+    outgoing_coach: "Eric Musselman"
+    incoming_coach: null
+    date: "2026-03-09"
+    story_url: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+    recruiting_note: "Muss experiment ends. Big Ten USC job is top-5 most attractive opening nationally. LA market, NIL upside, Power brand. Expect 6–8 portal spots immediately."
+    roster_spots: 7
+    chain_reaction: "All Musselman transfer recruits should expect free release. LA-based players entering portal this spring have a major opening. New staff will rebuild from scratch."
+    tags: ["Big Ten", "Power 4", "LA Market", "Major Opening", "Portal Surge"]
+
+  - school: "Ole Miss Rebels"
+    slug: "ole-miss-rebels"
+    espn_id: "145"
+    abbreviation: "MISS"
+    conference: "Southeastern Conference"
+    conference_slug: "southeastern-conference"
+    division: "D1"
+    state: "MS"
+    lat: 34.3654
+    lng: -89.5373
+    city: "Oxford"
+    logo_url: "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png"
+    change_type: "fired"
+    impact: "medium"
+    outgoing_coach: "Chris Beard"
+    incoming_coach: null
+    date: "2026-03-07"
+    story_url: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+    recruiting_note: "SEC job with solid NIL and facilities. 4–5 open spots. Program needs a scoring point guard and a wing who can defend multiple positions."
+    roster_spots: 4
+    chain_reaction: "Beard out after one season. Players committed to Ole Miss should confirm their status immediately. SEC rebuild means major portal activity in April."
+    tags: ["SEC", "Power 4", "Opening", "Guard Needed"]
+
+  - school: "Georgetown Hoyas"
+    slug: "georgetown-hoyas"
+    espn_id: "46"
+    abbreviation: "GTWN"
+    conference: "Big East Conference"
+    conference_slug: "big-east-conference"
+    division: "D1"
+    state: "DC"
+    lat: 38.9076
+    lng: -77.0723
+    city: "Washington"
+    logo_url: "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png"
+    change_type: "hired"
+    impact: "medium"
+    outgoing_coach: "Ed Cooley"
+    incoming_coach: "TBD – Search Active"
+    date: "2026-03-06"
+    story_url: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+    recruiting_note: "Historic Big East program beginning rebuild. DC market. 5–6 spots open. Program favors long, versatile athletes. Good NIL for power 6 market."
+    roster_spots: 5
+    chain_reaction: "Georgetown's NCAA Tournament drought continues as new coach tries to restore Ewing-era prestige. DC/Maryland/Virginia recruits should monitor this closely."
+    tags: ["Big East", "DC Market", "Rebuild", "Portal Opportunity"]
+
+  - school: "Memphis Tigers"
+    slug: "memphis-tigers"
+    espn_id: "235"
+    abbreviation: "MEM"
+    conference: "American Athletic Conference"
+    conference_slug: "american-athletic-conference"
+    division: "D1"
+    state: "TN"
+    lat: 35.1495
+    lng: -90.0490
+    city: "Memphis"
+    logo_url: "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png"
+    change_type: "rumor"
+    impact: "medium"
+    outgoing_coach: "Penny Hardaway"
+    incoming_coach: null
+    date: "2026-03-12"
+    story_url: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+    recruiting_note: "Penny's seat hot after NCAA Tournament miss. If opening occurs, Memphis becomes a top AAC opportunity with NBA draft pathway appeal and elite NIL."
+    roster_spots: 0
+    chain_reaction: "Penny's recruiting class is high-upside but results haven't materialized. Outcome of AAC Tournament may decide his fate. Decision expected by April 1."
+    tags: ["AAC", "Rumor", "High NIL", "Watch List"]
+
+  - school: "Gonzaga Bulldogs"
+    slug: "gonzaga-bulldogs"
+    espn_id: "2250"
+    abbreviation: "GONZ"
+    conference: "West Coast Conference"
+    conference_slug: "west-coast-conference"
+    division: "D1"
+    state: "WA"
+    lat: 47.6670
+    lng: -117.4020
+    city: "Spokane"
+    logo_url: "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png"
+    change_type: "rumor"
+    impact: "medium"
+    outgoing_coach: "Mark Few"
+    incoming_coach: null
+    date: "2026-03-11"
+    story_url: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+    recruiting_note: "Retirement speculation only. If Few steps down, assistant Tommy Lloyd successor path most likely. Program continuity expected. Current commits likely safe."
+    roster_spots: 0
+    chain_reaction: "If Few retires, Gonzaga faces first real succession test. WCC job with Final Four prestige. International recruiting pipeline is key institutional asset."
+    tags: ["WCC", "Rumor", "Succession Watch", "Stable Program"]
+
+  - school: "Florida State Seminoles"
+    slug: "florida-state-seminoles"
+    espn_id: "52"
+    abbreviation: "FSU"
+    conference: "Atlantic Coast Conference"
+    conference_slug: "atlantic-coast-conference"
+    division: "D1"
+    state: "FL"
+    lat: 30.4381
+    lng: -84.2806
+    city: "Tallahassee"
+    logo_url: "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png"
+    change_type: "opening"
+    impact: "medium"
+    outgoing_coach: "Leonard Hamilton"
+    incoming_coach: null
+    date: "2026-03-04"
+    story_url: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+    recruiting_note: "FSU opening is huge for Florida-based recruits. ACC program, elite facilities, Florida talent pipeline. 4–5 spots open. Guards and athletic forwards wanted."
+    roster_spots: 4
+    chain_reaction: "Hamilton's retirement ends a 25-year era. ACC FSU is a premium job for Southeast-based coaches. Tallahassee recruits and Florida Panhandle players should apply now."
+    tags: ["ACC", "Power 4", "Florida", "Southeast", "Portal Opportunity"]
+
+  - school: "Oklahoma State Cowboys"
+    slug: "oklahoma-state-cowboys"
+    espn_id: "197"
+    abbreviation: "OKST"
+    conference: "Big 12 Conference"
+    conference_slug: "big-12-conference"
+    division: "D1"
+    state: "OK"
+    lat: 36.1269
+    lng: -97.0691
+    city: "Stillwater"
+    logo_url: "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png"
+    change_type: "fired"
+    impact: "medium"
+    outgoing_coach: "Steve Lutz"
+    incoming_coach: null
+    date: "2026-03-08"
+    story_url: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+    recruiting_note: "Big 12 job with major NIL resources and Boone Pickens money. 4–6 open spots. Program needs a complete rebuild. High upside for the right coach and right transfers."
+    roster_spots: 5
+    chain_reaction: "OSU basketball consistently underperforms vs. football resources. New AD wants serious upgrade. Big 12 exposure means this rebuild could move fast with right hire."
+    tags: ["Big 12", "Power 4", "Rebuild", "High NIL Resources"]
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Meta — used by scraper to track freshness
+# ──────────────────────────────────────────────────────────────────────────────
+meta:
+  last_updated: "2026-03-13"
+  source_1: "https://hoopdirt.com/coaching-changes/"
+  source_2: "https://www.espn.com/mens-college-basketball/story/_/id/48167700/coaching-carousel-tracker-firings-openings-candidates-hirings-buzz-2026"
+  scraper_version: "1.0.0"
+  total_changes: 12
+  breakdown:
+    fired: 4
+    hired: 3
+    opening: 3
+    rumor: 3

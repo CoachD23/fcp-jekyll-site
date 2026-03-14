@@ -1,0 +1,90 @@
+name: Scrape Coaching Changes
+
+on:
+  schedule:
+    # Every Monday at 10:00 UTC (6:00 AM ET)
+    - cron: '0 10 * * 1'
+  workflow_dispatch:
+    # Manual trigger from GitHub Actions UI
+    inputs:
+      dry_run:
+        description: 'Dry run (do not write or commit)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  scrape:
+    name: Update Coaching Changes Data
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # needed to commit back to repo
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: scripts/package.json
+
+      - name: Install script dependencies
+        working-directory: scripts
+        run: |
+          if [ ! -f package.json ]; then
+            npm init -y
+            npm install js-yaml node-fetch@3
+          else
+            npm ci
+          fi
+
+      - name: Install OpenClaw (Lightpanda headless browser)
+        run: |
+          # Download latest openclaw binary for Linux x86_64
+          curl -fsSL -o /tmp/openclaw \
+            https://github.com/lightpanda-io/openclaw/releases/latest/download/openclaw-linux-x86_64 \
+            || echo "OpenClaw download failed — plain fetch fallback will be used"
+          if [ -f /tmp/openclaw ]; then
+            chmod +x /tmp/openclaw
+            sudo mv /tmp/openclaw /usr/local/bin/openclaw
+            openclaw --version && echo "OpenClaw installed successfully"
+          fi
+        continue-on-error: true  # Non-fatal: scraper has plain-fetch fallback
+
+      - name: Configure git identity
+        run: |
+          git config user.name  "FCP Scraper Bot"
+          git config user.email "130697360+CoachD23@users.noreply.github.com"
+
+      - name: Run scraper
+        run: |
+          MODE="--write"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            MODE=""
+            echo "DRY RUN MODE — no files will be written"
+          fi
+          node scripts/scrape-coaching-changes.js $MODE
+        env:
+          NODE_OPTIONS: '--experimental-vm-modules'
+
+      - name: Push changes
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          # Only push if there are commits ahead of origin
+          if git diff --quiet origin/master HEAD; then
+            echo "No new commits to push."
+          else
+            git push origin master
+            echo "Pushed coaching changes update to master."
+          fi
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "::warning::Coaching changes scraper failed. Check logs and update selectors if ESPN/HoopDirt changed their HTML structure."
