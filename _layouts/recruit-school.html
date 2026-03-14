@@ -7,7 +7,7 @@ layout: default
 {% assign state_obj = site.data.recruiting.states | where: "abbr", school.state | first %}
 {% assign state_display = state_obj.name | default: school.state %}
 
-<section class="page-header recruit-hero recruit-school-hero">
+<section class="recruit-school-header">
   <div class="container">
     <nav class="recruit-breadcrumb" aria-label="Breadcrumb">
       <a href="/college-basketball-programs-directory/">All Programs</a> ›
@@ -16,38 +16,25 @@ layout: default
       <span>{{ school.name }}</span>
     </nav>
 
-    <div class="recruit-school-hero-inner">
-      <div class="recruit-school-hero-logo">
+    <div class="recruit-school-header-inner">
+      <div class="recruit-school-header-logo">
         <img src="{{ school.logo_url | default: '/assets/images/basketball-placeholder.jpg' }}"
              alt="{{ school.name }} logo"
-             width="100" height="100"
+             width="120" height="120"
              fetchpriority="high"
              onerror="this.src='/assets/images/basketball-placeholder.jpg'">
       </div>
-      <div class="recruit-school-hero-text">
-        <h1>{{ school.name }} Men's Basketball — {{ school.division }} Recruiting Profile</h1>
-        <p class="page-subtitle">
-          {% if school.conference %}<a href="/{{ conf_slug }}-basketball-programs/" class="hero-conf-link">{{ school.conference }}</a> · {% endif %}
-          {{ school.division }} ·
-          <a href="/{{ div_slug }}/{{ school.state_slug }}/">{{ state_display }}</a>
-        </p>
-      </div>
-    </div>
-
-    <div class="recruit-hero-stats">
-      <div class="recruit-stat">
-        <span class="recruit-stat-num">{{ school.division }}</span>
-        <span class="recruit-stat-label">Division</span>
-      </div>
-      {% if school.staff_count %}
-      <div class="recruit-stat">
-        <span class="recruit-stat-num">{{ school.staff_count }}</span>
-        <span class="recruit-stat-label">Staff Contacts</span>
-      </div>
-      {% endif %}
-      <div class="recruit-stat">
-        <span class="recruit-stat-num" style="font-size:0.95rem">{{ school.conference | truncate: 20 }}</span>
-        <span class="recruit-stat-label">Conference</span>
+      <div class="recruit-school-header-text">
+        <h1>{{ school.name }} Men's Basketball</h1>
+        <div class="recruit-school-header-meta">
+          <span class="recruit-division-pill">{{ school.division }}</span>
+          {% if school.conference %}
+          <span class="recruit-meta-sep">·</span>
+          <a href="/{{ conf_slug }}-basketball-programs/" class="recruit-meta-link">{{ school.conference }}</a>
+          {% endif %}
+          <span class="recruit-meta-sep">·</span>
+          <a href="/{{ div_slug }}/{{ school.state_slug }}/" class="recruit-meta-link">{{ state_display }}</a>
+        </div>
       </div>
     </div>
   </div>
