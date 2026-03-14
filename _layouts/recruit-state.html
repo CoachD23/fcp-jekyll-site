@@ -2,9 +2,8 @@
 layout: default
 ---
 <!-- State × Division page: /d1-basketball-programs/florida/ etc. -->
-<!-- page.division, page.state, page.schools injected by generator plugin -->
 
-<section class="page-header recruit-hero">
+<section class="recruit-school-header">
   <div class="container">
     <nav class="recruit-breadcrumb" aria-label="Breadcrumb">
       <a href="/college-basketball-programs-directory/">All Programs</a> ›
@@ -12,73 +11,133 @@ layout: default
       <span>{{ page.state.name }}</span>
     </nav>
     <h1>{{ page.title }}</h1>
-    <p class="page-subtitle">
+    <p class="page-subtitle" style="color:#6b7280;margin:0.4rem 0 0;font-size:1rem;">
       {{ page.school_count }} {{ page.division.label }} men's basketball
       {% if page.school_count == 1 %}program{% else %}programs{% endif %}
-      in {{ page.state.name }} — coaches, rosters, conference affiliations, and recruiting info.
+      in {{ page.state.name }}
     </p>
-    <div class="recruit-hero-stats">
-      <div class="recruit-stat">
-        <span class="recruit-stat-num">{{ page.school_count }}</span>
-        <span class="recruit-stat-label">Programs</span>
-      </div>
-      {% assign state_confs = page.schools | map: "conference" | uniq %}
-      <div class="recruit-stat">
-        <span class="recruit-stat-num">{{ state_confs | size }}</span>
-        <span class="recruit-stat-label">Conferences</span>
-      </div>
-    </div>
   </div>
 </section>
 
 <section class="page-content">
   <div class="container">
 
-    <!-- School Cards Grid -->
-    <h2 class="recruit-section-title">{{ page.division.label }} Programs in {{ page.state.name }}</h2>
-    <div class="recruit-school-grid">
-      {% for school in page.schools %}
-      <div class="recruit-school-card">
-        {% if school.logo_url %}
-        <div class="recruit-school-logo">
-          <img src="{{ school.logo_url }}"
-               alt="{{ school.name }} logo"
-               width="80" height="80"
-               loading="lazy"
-               onerror="this.style.display='none'">
-        </div>
-        {% endif %}
-        <div class="recruit-school-info">
-          <h3 class="recruit-school-name">
-            {% if school.slug %}
-            <a href="/{{ school.division_slug }}/{{ school.slug }}/">{{ school.name }}</a>
-            {% else %}{{ school.name }}{% endif %}
+    {% assign grouped = page.schools | group_by: "conference" %}
+    {% assign grouped_clean = "" | split: "" %}
+    {% for g in grouped %}{% if g.name != "" %}{% assign grouped_clean = grouped_clean | push: g %}{% endif %}{% endfor %}
+    {% assign no_conf = page.schools | where: "conference", "" %}
+
+    <!-- Conference nav bar -->
+    {% if grouped_clean.size > 1 %}
+    <nav class="recruit-conf-nav" aria-label="Conference navigation">
+      <a href="#all-programs" class="recruit-conf-nav-pill active">All</a>
+      {% for group in grouped_clean %}
+      <a href="#conf-{{ group.name | slugify }}" class="recruit-conf-nav-pill">{{ group.name }}</a>
+      {% endfor %}
+      {% if no_conf.size > 0 %}
+      <a href="#conf-independent" class="recruit-conf-nav-pill">Independent</a>
+      {% endif %}
+    </nav>
+    {% endif %}
+
+    <!-- Schools grouped by conference -->
+    <div id="all-programs">
+      {% for group in grouped_clean %}
+      <div class="recruit-school-row-group" id="conf-{{ group.name | slugify }}">
+        <div class="recruit-school-row-group-header">
+          <h3>
+            {% assign conf_anchor = group.items[0].conference_slug %}
+            {% if conf_anchor and conf_anchor != "" %}
+            <a href="/{{ conf_anchor }}-basketball-programs/">{{ group.name }}</a>
+            {% else %}
+            {{ group.name }}
+            {% endif %}
           </h3>
-          {% if school.conference != "" and school.conference %}
-          <p class="recruit-school-conf">
-            <a href="/{{ school.conference_slug }}-basketball-programs/">{{ school.conference }}</a>
-          </p>
-          {% endif %}
-          {% if school.head_coach %}
-          <p class="recruit-school-coach">Coach: {{ school.head_coach }}</p>
-          {% endif %}
+          <span class="chip-count">{{ group.items | size }}</span>
         </div>
-        <div class="recruit-school-actions">
-          {% if school.slug %}
-          <a href="/{{ school.division_slug }}/{{ school.slug }}/" class="recruit-school-link">
-            Program Info →
-          </a>
-          {% elsif school.espn_url %}
-          <a href="{{ school.espn_url }}" class="recruit-school-link" target="_blank" rel="noopener">
-            ESPN ↗
-          </a>
-          {% endif %}
+        {% for school in group.items %}
+        <div class="recruit-school-row">
+          <div class="recruit-school-row-logo">
+            {% if school.logo_url %}
+            <img src="{{ school.logo_url }}"
+                 alt="{{ school.name }} logo"
+                 width="48" height="48"
+                 loading="lazy"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="recruit-logo-placeholder" style="display:none">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="16" cy="16" r="14" stroke="#d1d5db" stroke-width="2"/>
+                <path d="M8 16 Q16 8 24 16 Q16 24 8 16Z" stroke="#d1d5db" stroke-width="1.5" fill="none"/>
+                <line x1="16" y1="2" x2="16" y2="30" stroke="#d1d5db" stroke-width="1.5"/>
+                <line x1="2" y1="16" x2="30" y2="16" stroke="#d1d5db" stroke-width="1.5"/>
+              </svg>
+            </div>
+            {% else %}
+            <div class="recruit-logo-placeholder">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="16" cy="16" r="14" stroke="#d1d5db" stroke-width="2"/>
+                <path d="M8 16 Q16 8 24 16 Q16 24 8 16Z" stroke="#d1d5db" stroke-width="1.5" fill="none"/>
+                <line x1="16" y1="2" x2="16" y2="30" stroke="#d1d5db" stroke-width="1.5"/>
+                <line x1="2" y1="16" x2="30" y2="16" stroke="#d1d5db" stroke-width="1.5"/>
+              </svg>
+            </div>
+            {% endif %}
+          </div>
+          <div>
+            {% if school.slug %}
+            <a href="/{{ school.division_slug }}/{{ school.slug }}/" class="recruit-school-row-name">{{ school.name }}</a>
+            {% else %}
+            <span class="recruit-school-row-name" style="cursor:default">{{ school.name }}</span>
+            {% endif %}
+          </div>
+          <div class="recruit-school-row-coach">
+            {% if school.head_coach %}{{ school.head_coach }}{% else %}<span class="recruit-school-row-muted">—</span>{% endif %}
+          </div>
+          <div class="recruit-school-row-email">
+            {% if school.best_email %}
+            <a href="mailto:{{ school.best_email }}">{{ school.best_email }}</a>
+            {% else %}
+            <span class="recruit-school-row-muted">—</span>
+            {% endif %}
+          </div>
         </div>
+        {% endfor %}
       </div>
       {% endfor %}
+
+      {% if no_conf.size > 0 %}
+      <div class="recruit-school-row-group" id="conf-independent">
+        <div class="recruit-school-row-group-header">
+          <h3>Independent</h3>
+          <span class="chip-count">{{ no_conf | size }}</span>
+        </div>
+        {% for school in no_conf %}
+        <div class="recruit-school-row">
+          <div class="recruit-school-row-logo">
+            {% if school.logo_url %}
+            <img src="{{ school.logo_url }}" alt="{{ school.name }} logo" width="48" height="48" loading="lazy" onerror="this.style.display='none'">
+            {% else %}
+            <div class="recruit-logo-placeholder">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="14" stroke="#d1d5db" stroke-width="2"/></svg>
+            </div>
+            {% endif %}
+          </div>
+          <div>
+            {% if school.slug %}<a href="/{{ school.division_slug }}/{{ school.slug }}/" class="recruit-school-row-name">{{ school.name }}</a>{% else %}<span class="recruit-school-row-name" style="cursor:default">{{ school.name }}</span>{% endif %}
+          </div>
+          <div class="recruit-school-row-coach">
+            {% if school.head_coach %}{{ school.head_coach }}{% else %}<span class="recruit-school-row-muted">—</span>{% endif %}
+          </div>
+          <div class="recruit-school-row-email">
+            {% if school.best_email %}<a href="mailto:{{ school.best_email }}">{{ school.best_email }}</a>{% else %}<span class="recruit-school-row-muted">—</span>{% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
 
-    <!-- State description: D1 uses plain-string key (state slug); non-D1 uses title/body key (abbr_division) -->
+    <!-- State description -->
     {% if page.division.id == 'D1' %}
       {% assign state_desc = site.data.recruiting.state_descriptions[page.state.slug] %}
       {% if state_desc %}
@@ -97,29 +156,6 @@ layout: default
         {% if div_state_desc.body %}{{ div_state_desc.body | markdownify }}{% endif %}
       </div>
       {% endif %}
-    {% endif %}
-
-    <!-- Conference breakdown for this state -->
-    {% assign state_confs_raw = page.schools | group_by: "conference" %}
-    {% assign state_confs = "" | split: "" %}
-    {% for g in state_confs_raw %}{% if g.name != "" %}{% assign state_confs = state_confs | push: g %}{% endif %}{% endfor %}
-    {% if state_confs.size > 1 %}
-    <h2 class="recruit-section-title">By Conference</h2>
-    <div class="recruit-conf-breakdown">
-      {% for group in state_confs %}
-      <div class="recruit-conf-group">
-        <h3>
-          <a href="/{{ group.items[0].conference_slug }}-basketball-programs/">{{ group.name }}</a>
-          <span class="chip-count">{{ group.items | size }}</span>
-        </h3>
-        <ul>
-          {% for s in group.items %}
-          <li>{{ s.name }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endfor %}
-    </div>
     {% endif %}
 
     <!-- Other divisions in this state -->
