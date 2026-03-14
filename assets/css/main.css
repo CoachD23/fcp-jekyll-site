@@ -8000,6 +8000,182 @@ iframe { max-width: 100%; }
   .recruit-school-hero-logo img { width: 70px; height: 70px; }
 }
 
+/* ── Conference nav bar (state page) ── */
+.recruit-conf-nav {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  padding: 0.75rem 0 1rem;
+  margin-bottom: 1.5rem;
+  scrollbar-width: none;
+}
+.recruit-conf-nav::-webkit-scrollbar { display: none; }
+.recruit-conf-nav-pill {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  background: #f0f2f7;
+  border: 1px solid #d8dce8;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: all 0.15s;
+}
+.recruit-conf-nav-pill:hover,
+.recruit-conf-nav-pill.active {
+  background: var(--navy);
+  color: #fff;
+  border-color: var(--navy);
+}
+
+/* ── School rows (state page — replaces grid cards) ── */
+.recruit-school-row-group {
+  margin-bottom: 2.5rem;
+}
+.recruit-school-row-group-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid #e5e7eb;
+  margin-bottom: 0.25rem;
+}
+.recruit-school-row-group-header h3 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--navy);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+.recruit-school-row-group-header a { color: var(--navy); text-decoration: none; }
+.recruit-school-row-group-header a:hover { text-decoration: underline; }
+.recruit-school-row {
+  display: grid;
+  grid-template-columns: 52px 1fr 1fr 1fr;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.5rem;
+  border-bottom: 1px solid #f3f4f6;
+  transition: background 0.12s;
+}
+.recruit-school-row:hover { background: #f8f9fa; }
+.recruit-school-row-logo {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.recruit-school-row-logo img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+.recruit-logo-placeholder {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d1d5db;
+}
+.recruit-school-row-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--navy);
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.recruit-school-row-name:hover { text-decoration: underline; }
+.recruit-school-row-coach {
+  font-size: 0.82rem;
+  color: #6b7280;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.recruit-school-row-email {
+  font-size: 0.82rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.recruit-school-row-email a {
+  color: var(--navy);
+  text-decoration: none;
+}
+.recruit-school-row-email a:hover { text-decoration: underline; }
+.recruit-school-row-muted { color: #d1d5db; }
+
+/* ── School detail header (white card) ── */
+.recruit-school-header {
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 2rem 0 1.5rem;
+}
+.recruit-school-header-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.recruit-school-header-logo img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 8px;
+  border: 1px solid #e5e7eb;
+}
+.recruit-school-header-text h1 {
+  font-size: clamp(1.4rem, 3vw, 2.1rem);
+  font-weight: 800;
+  color: var(--navy);
+  margin: 0 0 0.5rem;
+}
+.recruit-school-header-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.88rem;
+}
+.recruit-division-pill {
+  display: inline-block;
+  background: var(--navy);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.2rem 0.7rem;
+  border-radius: 12px;
+}
+.recruit-meta-sep { color: #d1d5db; }
+.recruit-meta-link { color: #6b7280; text-decoration: none; font-weight: 500; }
+.recruit-meta-link:hover { color: var(--navy); text-decoration: underline; }
+
+/* Responsive: school rows collapse on mobile */
+@media (max-width: 640px) {
+  .recruit-school-row {
+    grid-template-columns: 40px 1fr;
+    grid-template-rows: auto auto;
+  }
+  .recruit-school-row-coach,
+  .recruit-school-row-email { font-size: 0.78rem; }
+  .recruit-school-row-email { display: none; }
+  .recruit-school-header-inner { flex-direction: column; text-align: center; }
+  .recruit-school-header-logo img { width: 90px; height: 90px; }
+}
+
 /* ═══════════════════════════════════════════════════════════
    COACH SEARCH PAGE  (/coach-search/)
    ═══════════════════════════════════════════════════════════ */
