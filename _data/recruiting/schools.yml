@@ -8581,7 +8581,7 @@
   conference_slug: great-lakes-intercollegiate-athletic-conference
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://gliac.org/images/logos/Ferris_State.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Andy Bronkema
@@ -8686,7 +8686,7 @@
   conference_slug: great-lakes-intercollegiate-athletic-conference
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/nmuwildcats.com/images/logos/site/site.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Matt Majkrzak
@@ -8707,7 +8707,7 @@
   conference_slug: great-midwest-athletic-conference
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://dbukjj6eu5tsf.cloudfront.net/sidearm.sites/northwood.sidearmsports.com/images/logos/site/site.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Lonnie Griffin
@@ -8728,7 +8728,7 @@
   conference_slug: great-lakes-intercollegiate-athletic-conference
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://gliac.org/images/2024/7/27/SVSU_New_Logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Randy Baruth
@@ -8749,7 +8749,7 @@
   conference_slug: great-lakes-intercollegiate-athletic-conference
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/wsuathletics.com/images/logos/site/site.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Bryan Smothers
@@ -15427,7 +15427,7 @@
   conference_slug: michigan-intercollegiate-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://miaa.org/images/logos/Adrian_College.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Tim Kaiser
@@ -15448,7 +15448,7 @@
   conference_slug: michigan-intercollegiate-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://miaa.org/images/logos/Albion_Britons.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Jody May
@@ -15532,7 +15532,7 @@
   conference_slug: michigan-intercollegiate-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/athletics.hope.edu/images/logos/site/site.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Greg Mitchell
@@ -15574,7 +15574,7 @@
   conference_slug: michigan-intercollegiate-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://miaa.org/images/logos/the%20university%20of%20olivet.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Sam Hargraves
@@ -25307,7 +25307,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/alpena-cc-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Bobby Allen
@@ -25329,7 +25329,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/bay-college-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Matt Johnson
@@ -25351,7 +25351,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/delta-college-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Rich Ressa
@@ -25373,7 +25373,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/glen-oaks-cc-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Mike Elliott
@@ -25417,7 +25417,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/grccraiders.com/images/logos/site/site.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Joe Fox
@@ -25439,7 +25439,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/henry-ford-college-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: CHRISTOPHER SHEPARD
@@ -25461,7 +25461,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/jackson-college-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Chris Johnston
@@ -25483,7 +25483,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/kalamazoo-valley-cc-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Jim Horn
@@ -25505,7 +25505,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/kellogg-cc-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Steve Proefrock
@@ -25527,7 +25527,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/lake-michigan-college-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Rickey Hampton
@@ -25549,7 +25549,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/lansing-cc-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Mike Ingram
@@ -25571,7 +25571,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/macombcc.sidearmsports.com/images/logos/site/site.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Hassan Nizam
@@ -25593,7 +25593,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/mid-michigan-college-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Kaleb House - Men's Basketball Head Coach
@@ -25615,7 +25615,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/mott-cc-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Steve Schmidt
@@ -25637,7 +25637,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/muskegon_logo_2025_copy.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Gene Gifford
@@ -25659,7 +25659,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/north-central-michigan-college-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Jeff Corcoran
@@ -25681,7 +25681,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/oakland-cc-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Antoine Joubert
@@ -25703,7 +25703,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/schoolcraft-college-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: EJ Haralson
@@ -25725,7 +25725,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/southwestern-michigan-college-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Rodell Davis
@@ -25747,7 +25747,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/st-clair-county-cc-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Richard Field
@@ -25769,7 +25769,7 @@
   conference_slug: michigan-community-college-athletic-association
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://mccaa.prestosports.com/images/setup/wayne-county-cc-logo.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Rogeric Turner
@@ -33235,7 +33235,7 @@
   conference_slug: wolverinehoosier-athletic-conference
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/aqsaints.com/images/logos/site/site.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Ryan Bertoia
@@ -33256,7 +33256,7 @@
   conference_slug: wolverinehoosier-athletic-conference
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://whac.prestosports.com/images/partners/cu.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Carl Thomas
@@ -33319,7 +33319,7 @@
   conference_slug: wolverinehoosier-athletic-conference
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/ltuathletics.com/images/logos/site/site.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Josh Pickens
@@ -33403,7 +33403,7 @@
   conference_slug: crossroads-league
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/saucougars.com/images/logos/site/site.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Ryan Cottingham
@@ -33424,7 +33424,7 @@
   conference_slug: wolverinehoosier-athletic-conference
   color: ''
   alt_color: ''
-  logo_url: ''
+  logo_url: https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/umd.sidearmsports.com/images/logos/site/site.png
   logo_dark_url: ''
   espn_url: ''
   head_coach: Domenic Policicchio III
