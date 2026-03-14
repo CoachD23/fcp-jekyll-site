@@ -72,17 +72,9 @@ layout: default
       <!-- Staff Contacts (JS-loaded from d1-staff.min.json) -->
       {% if school.espn_id %}
       <div class="recruit-info-card" id="staff-contacts-card">
-        <h2>Basketball Staff Contacts
-          <button class="recruit-load-staff btn btn-sm btn-outline-dark"
-                  data-espn-id="{{ school.espn_id }}"
-                  onclick="loadStaff(this)">Show All Staff</button>
-        </h2>
+        <h2>Basketball Staff Contacts</h2>
         <div id="staff-list-{{ school.espn_id }}" class="recruit-staff-list" aria-live="polite">
-          {% if school.best_email %}
-          <p class="recruit-muted">Click "Show All Staff" to see the full coaching staff directory for {{ school.name }}.</p>
-          {% else %}
-          <p class="recruit-muted">Staff contact data not yet available for this program.</p>
-          {% endif %}
+          <p class="recruit-muted">Loading staff directory…</p>
         </div>
       </div>
       {% endif %}
@@ -214,47 +206,42 @@ layout: default
 
 <script>
 (function() {
-  var cache = null;
-  window.loadStaff = function(btn) {
-    var espnId = btn.getAttribute('data-espn-id');
-    var container = document.getElementById('staff-list-' + espnId);
-    btn.disabled = true;
-    btn.textContent = 'Loading…';
+  var espnId = '{{ school.espn_id }}';
+  if (!espnId) return;
+  var container = document.getElementById('staff-list-' + espnId);
+  if (!container) return;
 
-    function escHtml(str) {
-      return String(str || '')
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;');
+  function escHtml(str) {
+    return String(str || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function renderStaff(data) {
+    var entry = data.find(function(s) { return String(s.i) === String(espnId); });
+    if (!entry || !entry.st || !entry.st.length) {
+      container.innerHTML = '<p class="recruit-muted">Staff directory not yet available for this program.</p>';
+      return;
     }
+    var html = '<table class="recruit-staff-table"><thead><tr><th>Name</th><th>Position</th><th>Email</th></tr></thead><tbody>';
+    entry.st.forEach(function(s, idx) {
+      var rowStyle = idx === 0 ? ' style="background:#f8f9fa;font-weight:600"' : '';
+      html += '<tr' + rowStyle + '><td>' + escHtml(s.n) + '</td><td>' + escHtml(s.p) + '</td>';
+      html += '<td>' + (s.e ? '<a href="mailto:' + escHtml(s.e) + '">' + escHtml(s.e) + '</a>' : '—') + '</td></tr>';
+    });
+    html += '</tbody></table>';
+    container.innerHTML = html;
+  }
 
-    function renderStaff(data) {
-      var entry = data.find(function(s) { return String(s.i) === String(espnId); });
-      if (!entry || !entry.st || !entry.st.length) {
-        container.innerHTML = '<p class="recruit-muted">No staff contact data available.</p>';
-        btn.style.display = 'none';
-        return;
-      }
-      var html = '<table class="recruit-staff-table"><thead><tr><th>Name</th><th>Position</th><th>Email</th></tr></thead><tbody>';
-      entry.st.forEach(function(s) {
-        html += '<tr><td>' + escHtml(s.n) + '</td><td>' + escHtml(s.p) + '</td>';
-        html += '<td>' + (s.e ? '<a href="mailto:' + escHtml(s.e) + '">' + escHtml(s.e) + '</a>' : '—') + '</td></tr>';
-      });
-      html += '</tbody></table>';
-      container.innerHTML = html;
-      btn.style.display = 'none';
-    }
-
-    if (cache) { renderStaff(cache); return; }
+  document.addEventListener('DOMContentLoaded', function() {
     fetch('/assets/data/d1-staff.min.json')
       .then(function(r) { return r.json(); })
-      .then(function(data) { cache = data; renderStaff(data); })
+      .then(function(data) { renderStaff(data); })
       .catch(function() {
-        container.innerHTML = '<p class="recruit-muted">Could not load staff data. Try refreshing.</p>';
-        btn.disabled = false;
-        btn.textContent = 'Retry';
+        container.innerHTML = '<p class="recruit-muted">Could not load staff data.</p>';
       });
-  };
+  });
 })();
 </script>
