@@ -7718,22 +7718,21 @@ iframe { max-width: 100%; }
 
 /* ── Bottom CTA ── */
 .recruit-bottom-cta {
-  background: #f0f2f7;
-  border-left: 4px solid var(--red);
-  border-radius: 0 12px 12px 0;
+  background: var(--bg-alt);
+  border-radius: 12px;
   padding: 2.5rem;
-  margin: 3rem 0 1.5rem;
+  margin: 2rem 0 3rem;
   text-align: center;
 }
 .recruit-bottom-cta h2 {
-  font-size: 1.5rem;
   color: var(--navy);
+  font-size: 1.5rem;
   margin-bottom: 0.6rem;
 }
 .recruit-bottom-cta p {
-  color: #445;
+  color: #374151;
   font-size: 0.95rem;
-  max-width: 600px;
+  max-width: 560px;
   margin: 0 auto 1.5rem;
 }
 .recruit-cta-buttons {
