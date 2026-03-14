@@ -1,0 +1,187 @@
+{% comment %}
+  JUCO Interactive US Map
+  Placed on juco-basketball-programs/index.html
+  Data: site.data.recruiting.schools filtered by division=JUCO
+  Colors: NJCAA=blue scale, CCCAA(CA)=gold, NWAC(WA+OR)=teal, none=gray
+{% endcomment %}
+
+{% assign juco_schools = site.data.recruiting.schools | where: "division", "JUCO" %}
+
+<script>
+const JUCO_SCHOOLS_RAW = [
+{% for school in juco_schools %}{% if school.state != "" %}{"st":"{{ school.state }}","slug":"{{ school.state_slug }}"}{% unless forloop.last %},{% endunless %}{% endif %}
+{% endfor %}
+];
+</script>
+
+<section class="juco-map-section">
+  <h2>JUCO Coverage by State</h2>
+
+  <div class="juco-map-legend">
+    <div class="juco-map-legend-item">
+      <div class="juco-map-legend-swatch" style="background:#1a5276"></div>
+      NJCAA (21+ programs)
+    </div>
+    <div class="juco-map-legend-item">
+      <div class="juco-map-legend-swatch" style="background:#5b9bd5"></div>
+      NJCAA (6–20)
+    </div>
+    <div class="juco-map-legend-item">
+      <div class="juco-map-legend-swatch" style="background:#c6d9f0"></div>
+      NJCAA (1–5)
+    </div>
+    <div class="juco-map-legend-item">
+      <div class="juco-map-legend-swatch" style="background:#c8a84b"></div>
+      CCCAA — California
+    </div>
+    <div class="juco-map-legend-item">
+      <div class="juco-map-legend-swatch" style="background:#2e8b6e"></div>
+      NWAC — WA / OR
+    </div>
+    <div class="juco-map-legend-item">
+      <div class="juco-map-legend-swatch" style="background:#e8e8e8;border:1px solid #ccc"></div>
+      No NJCAA coverage
+    </div>
+  </div>
+
+  <div class="juco-map-wrap">
+    <svg id="juco-us-map" viewBox="0 0 959 593" xmlns="http://www.w3.org/2000/svg" aria-label="US map showing JUCO basketball program counts by state">
+      {% include us-states-paths.html %}
+    </svg>
+    <div class="juco-map-tooltip" id="juco-tooltip" role="tooltip"></div>
+  </div>
+</section>
+
+<script>
+(function() {
+  // Build counts and slug map from Jekyll-generated list
+  var counts = {};
+  var slugs = {};
+  JUCO_SCHOOLS_RAW.forEach(function(s) {
+    if (!s.st) return;
+    counts[s.st] = (counts[s.st] || 0) + 1;
+    if (s.slug && !slugs[s.st]) slugs[s.st] = s.slug;
+  });
+
+  var CCCAA = { CA: true };
+  var NWAC  = { WA: true, OR: true };
+
+  function getAssociation(st) {
+    if (CCCAA[st]) return 'CCCAA';
+    if (NWAC[st])  return 'NWAC';
+    return 'NJCAA';
+  }
+
+  function getFill(st) {
+    var assoc = getAssociation(st);
+    var n = counts[st] || 0;
+    if (assoc === 'CCCAA') return '#c8a84b';
+    if (assoc === 'NWAC')  return '#2e8b6e';
+    if (n === 0)           return '#e8e8e8';
+    if (n <= 5)            return '#c6d9f0';
+    if (n <= 20)           return '#5b9bd5';
+    return '#1a5276';
+  }
+
+  // Centroid positions (in viewBox 0 0 959 593 coords) for states large enough for a label
+  var LABEL_POS = {
+    MT:{x:200,y:115}, ID:{x:155,y:210}, WY:{x:248,y:205}, CO:{x:258,y:278},
+    NM:{x:240,y:358}, AZ:{x:168,y:362}, NV:{x:122,y:275}, CA:{x:96,y:335},
+    OR:{x:108,y:170}, WA:{x:128,y:105}, ND:{x:338,y:112}, SD:{x:340,y:178},
+    NE:{x:362,y:228}, KS:{x:378,y:290}, OK:{x:396,y:352}, TX:{x:408,y:435},
+    MN:{x:442,y:138}, IA:{x:462,y:225}, MO:{x:472,y:305}, AR:{x:480,y:374},
+    LA:{x:487,y:445}, WI:{x:492,y:180}, IL:{x:500,y:270}, MS:{x:508,y:408},
+    MI:{x:548,y:182}, IN:{x:550,y:275}, AL:{x:545,y:398}, TN:{x:555,y:352},
+    GA:{x:582,y:398}, FL:{x:592,y:463}, SC:{x:614,y:380}, NC:{x:630,y:345},
+    VA:{x:648,y:310}, OH:{x:595,y:262}, PA:{x:660,y:258}, NY:{x:695,y:222},
+    ME:{x:770,y:138}
+  };
+
+  var svg = document.getElementById('juco-us-map');
+  var tooltip = document.getElementById('juco-tooltip');
+  if (!svg) return;
+
+  // Color all state paths and tag them
+  svg.querySelectorAll('path[id]').forEach(function(path) {
+    var st = path.id;
+    if (!st || st.length !== 2) return;
+    path.setAttribute('fill', getFill(st));
+    path.setAttribute('data-state', st);
+  });
+
+  // Inject count labels on large states
+  Object.keys(LABEL_POS).forEach(function(st) {
+    var n = counts[st] || 0;
+    if (n === 0) return;
+    var pos = LABEL_POS[st];
+    var fill = getFill(st);
+    var textColor = (fill === '#c6d9f0' || fill === '#e8e8e8') ? '#1a2744' : '#fff';
+    var text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    text.setAttribute('x', pos.x);
+    text.setAttribute('y', pos.y);
+    text.setAttribute('fill', textColor);
+    text.setAttribute('font-size', '9');
+    text.setAttribute('font-weight', '700');
+    text.setAttribute('text-anchor', 'middle');
+    text.setAttribute('dominant-baseline', 'central');
+    text.setAttribute('pointer-events', 'none');
+    text.textContent = n;
+    svg.appendChild(text);
+  });
+
+  // Tooltip helpers
+  function toTitleCase(slug) {
+    return slug ? slug.replace(/-/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); }) : '';
+  }
+
+  function showTooltip(e, st) {
+    var n = counts[st] || 0;
+    var assoc = getAssociation(st);
+    var name = toTitleCase(slugs[st]) || st;
+    var note = '';
+    if (assoc === 'CCCAA') note = '<div class="tt-assoc">California — separate association (not NJCAA)</div>';
+    if (assoc === 'NWAC')  note = '<div class="tt-assoc">Northwest Athletic Conference — not NJCAA</div>';
+    var body = n > 0
+      ? n + ' ' + assoc + ' program' + (n !== 1 ? 's' : '')
+      : 'No NJCAA coverage';
+    tooltip.innerHTML = '<strong>' + name + '</strong>' + body + note;
+    tooltip.classList.add('visible');
+    moveTooltip(e);
+  }
+
+  function moveTooltip(e) {
+    var x = e.clientX + 14;
+    var y = e.clientY - 10;
+    if (x + 215 > window.innerWidth)  x = e.clientX - 220;
+    if (y + 90  > window.innerHeight) y = e.clientY - 90;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top  = y + 'px';
+  }
+
+  svg.addEventListener('mouseover', function(e) {
+    var path = e.target.closest ? e.target.closest('path[data-state]') : null;
+    if (!path) { tooltip.classList.remove('visible'); return; }
+    showTooltip(e, path.dataset.state);
+  });
+
+  svg.addEventListener('mousemove', function(e) {
+    if (tooltip.classList.contains('visible')) moveTooltip(e);
+  });
+
+  svg.addEventListener('mouseleave', function() {
+    tooltip.classList.remove('visible');
+  });
+
+  // Click → navigate to state JUCO page
+  svg.addEventListener('click', function(e) {
+    var path = e.target.closest ? e.target.closest('path[data-state]') : null;
+    if (!path) return;
+    var st = path.dataset.state;
+    var slug = slugs[st];
+    if (slug && (counts[st] || 0) > 0) {
+      window.location.href = '/juco-basketball-programs/' + slug + '/';
+    }
+  });
+
+})();
+</script>
