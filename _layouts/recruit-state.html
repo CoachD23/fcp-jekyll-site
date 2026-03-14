@@ -115,7 +115,10 @@ layout: default
         <div class="recruit-school-row">
           <div class="recruit-school-row-logo">
             {% if school.logo_url %}
-            <img src="{{ school.logo_url }}" alt="{{ school.name }} logo" width="48" height="48" loading="lazy" onerror="this.style.display='none'">
+            <img src="{{ school.logo_url }}" alt="{{ school.name }} logo" width="48" height="48" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="recruit-logo-placeholder" style="display:none">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="14" stroke="#d1d5db" stroke-width="2"/></svg>
+            </div>
             {% else %}
             <div class="recruit-logo-placeholder">
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="14" stroke="#d1d5db" stroke-width="2"/></svg>
