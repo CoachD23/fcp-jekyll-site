@@ -14,7 +14,7 @@ og_image: /assets/images/post-grad/florida-coastal-prep-basketball-team-florida.
     <p class="cp-hero-sub fade-in">From College to the Pros</p>
     <div class="cp-stats fade-in">
       <div class="cp-stat">
-        <span class="cp-stat-num">All Levels</span>
+        <span class="cp-stat-num" data-count="300" data-suffix="+">0</span>
         <span class="cp-stat-label">Athletes Placed</span>
       </div>
       <div class="cp-stat-divider"></div>
@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', function() {
           var timer = setInterval(function() {
             current += step;
             if (current >= target) { current = target; clearInterval(timer); }
-            n.textContent = current;
+            n.textContent = current + (n.getAttribute('data-suffix') || '');
           }, 30);
         });
       }
