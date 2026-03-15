@@ -2,131 +2,247 @@
 layout: page
 title: National High School Program
 subtitle: High School Basketball Academy
-hero_image: /assets/images/homepage-hero.jpeg
+description: "Florida Coastal Prep's national high school basketball academy (grades 9-12) in Fort Walton Beach, FL combines elite training, national competition, accredited academics, and college recruiting exposure. Limited roster spots available."
+hero_image: /assets/images/high-school/fcp-brochure-040.png
+og_image: /assets/images/high-school/fcp-brochure-040.png
 hero_title: National High School Program
 hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
 ---
 
-<div class="page-intro fade-in">
-  <p>Our National High School Program combines elite basketball training with accredited academics, giving student-athletes the exposure, development, and education they need to compete at the next level.</p>
+<section class="fade-in" style="background: #f2f3f5; border-left: 4px solid #c41e3a; margin: 0 auto 2.5rem; padding: 2.5rem 3rem; max-width: 960px; border-radius: 0 12px 12px 0;">
+  <h2 style="font-size: 2rem; font-weight: 800; color: #0a1628; line-height: 1.3; margin: 0 0 1rem;">Compete Nationally. Prepare Academically. Get Recruited.</h2>
+  <p style="font-size: 1.1rem; line-height: 1.8; color: #333; text-align: justify; margin: 0;">FCP's National High School Program (grades 9–12) combines two-a-day court sessions, <a href="/academics/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">NCAA-approved academics</a>, and a national game schedule — all inside our <a href="/training/" style="color: #0a1628; font-weight: 600; text-decoration: underline;">training facility</a> on Florida's Emerald Coast. Players from <strong>43 states and 22 countries</strong> have trained here since 2019.</p>
+</section>
+
+<!-- FCP BLUEPRINT — Combined Program Section -->
+<div class="staff-section staff-section-dark fade-in" style="padding: 5rem 0; margin-top: 0;">
+  <div class="container">
+    <div class="staff-section-header">
+      <p class="section-label" style="text-align:center; color:#d4a843;">THE FCP HIGH SCHOOL SYSTEM</p>
+      <h2 style="text-align:center; color:#fff;">Everything Included. Nothing Held Back.</h2>
+      <div class="gold-rule" style="margin: 0.75rem auto 3rem;"></div>
+    </div>
+
+    <p class="blueprint-zone-label">WHAT'S INCLUDED</p>
+    <div class="feature-grid">
+      <div class="feature-card blueprint-card fade-in">
+        <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 4.2c3.4 2.8 3.4 12.8 0 15.6M18 4.2c-3.4 2.8-3.4 12.8 0 15.6M2 12h20" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></div>
+        <h3>Daily Court Work</h3>
+        <p>Two on-court practices and workouts per day with our <a href="/coaches/">coaching staff</a>.</p>
+      </div>
+      <div class="feature-card blueprint-card fade-in">
+        <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M6.5 6.5v11M17.5 6.5v11M6.5 12h11M2 9v6M4 7v10M20 7v10M22 9v6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+        <h3>Strength & Conditioning</h3>
+        <p>Three dedicated S&C sessions per week plus beach workouts and team conditioning.</p>
+      </div>
+      <div class="feature-card blueprint-card fade-in">
+        <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="1.5"/><line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="1.5"/><line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="1.5"/></svg></div>
+        <h3>National Schedule</h3>
+        <p>Up to 30 games per season against top prep programs and junior colleges nationwide.</p>
+      </div>
+      <div class="feature-card blueprint-card fade-in">
+        <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg></div>
+        <h3>Film & Recruiting</h3>
+        <p>All games professionally recorded and uploaded to YouTube for maximum college recruiting exposure.</p>
+      </div>
+      <div class="feature-card blueprint-card fade-in">
+        <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M4 10v7h3v-7H4zm6 0v7h4v-7h-4zm8 0v7h3v-7h-3zM2 22h20v-3H2v3zm0-12l10-6 10 6H2z" fill="currentColor"/></svg></div>
+        <h3>Campus Visits</h3>
+        <p>Campus and sports facility tours at visiting universities throughout the season.</p>
+      </div>
+      <div class="feature-card blueprint-card fade-in">
+        <div class="feature-icon-svg icon-red"><svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" fill="currentColor"/></svg></div>
+        <h3>Accredited Academics</h3>
+        <p>Full <a href="/academics/">NCAA-approved academic program</a> with accredited coursework and college credit options.</p>
+      </div>
+    </div>
+
+    <div class="blueprint-divider"><span>GO DEEPER — HOW WE DEVELOP PLAYERS</span></div>
+
+    <div class="feature-grid methods-grid">
+      <div class="feature-card fade-in">
+        <div class="method-icon">🏀</div>
+        <h3>Individual Skill Development</h3>
+        <p>Position-specific 1-on-1 sessions — handles, footwork, finishing, and decision-making with live film review.</p>
+        <a href="/training/">Explore Training →</a>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="method-icon">🎬</div>
+        <h3>Film Study & Game Prep</h3>
+        <p>Every game and workout recorded. Athletes break down film with coaches to build recruiting portfolios.</p>
+        <a href="/training/">See the Facility →</a>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="method-icon">🏋️</div>
+        <h3>Strength & Conditioning</h3>
+        <p>Westside Barbell conjugate programming developing explosive power and basketball-specific athleticism.</p>
+        <a href="/training/">S&C Program →</a>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="method-icon">📈</div>
+        <h3>College Recruiting</h3>
+        <p>Professional highlight tapes, individual recruiting plans, and exposure at national events.</p>
+        <a href="/commitments/">View Alumni →</a>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="method-icon">📚</div>
+        <h3>Academic Foundation</h3>
+        <p>NCAA-approved coursework, college credit options, and guided application support.</p>
+        <a href="/academics/">Academic Program →</a>
+      </div>
+    </div>
+  </div>
 </div>
 
-<!-- Program Highlights -->
-<div class="program-highlights fade-in">
-  <div class="program-highlight">
-    <strong>Aug 10 – May 30</strong>
-    <span>Season Duration</span>
+<!-- Day in the Life — Two Column with Photo -->
+<section class="program-offers fade-in" style="margin-top: 3rem;">
+  <div class="staff-section-header">
+    <span class="section-label">Daily Life</span>
+    <h2>A Day at FCP</h2>
+    <div class="gold-rule"></div>
   </div>
-  <div class="program-highlight">
-    <strong>2x Daily</strong>
-    <span>Court Sessions</span>
-  </div>
-  <div class="program-highlight">
-    <strong>30</strong>
-    <span>Games Per Season</span>
-  </div>
-  <div class="program-highlight">
-    <strong>5</strong>
-    <span>FL Tournaments</span>
-  </div>
-</div>
-
-<div class="program-grid">
-  <!-- Left: Image -->
-  <div class="program-image fade-in">
-    <img src="/assets/images/whatsapp-team.jpeg" alt="FCP High School team during practice">
-  </div>
-
-  <!-- Right: Details -->
-  <div class="program-details fade-in">
-    <div class="staff-section-header" style="text-align: left;">
-      <span class="section-label">Program</span>
-      <h2>What's Included</h2>
-      <div class="gold-rule" style="margin: 0;"></div>
+  <div class="day-layout fade-in">
+    <div class="day-schedule">
+      <div class="daily-schedule daily-schedule-light" style="grid-template-columns: 1fr; max-width: 100%;">
+        <div class="schedule-block">
+          <div class="schedule-time">Morning</div>
+          <div class="schedule-activity">Optional morning workout</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">8:00 AM</div>
+          <div class="schedule-activity">Breakfast</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">8:30 – 1:30</div>
+          <div class="schedule-activity">Academics</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">12:00 PM</div>
+          <div class="schedule-activity">Lunch</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">1:30 – 5:30</div>
+          <div class="schedule-activity">Team practices, individual workouts & sports performance training</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">6:00 PM</div>
+          <div class="schedule-activity">Dinner</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">6:30 – 8:30</div>
+          <div class="schedule-activity">Optional open gym / study hall / maintenance / recovery</div>
+        </div>
+        <div class="schedule-block">
+          <div class="schedule-time">9:00 PM</div>
+          <div class="schedule-activity">Curfew and room checks</div>
+        </div>
+      </div>
     </div>
-    <ul class="program-list">
-      <li>2 on-court practices/workouts per day</li>
-      <li>3 strength and conditioning sessions per week</li>
-      <li>Schooling through Rocky Bayou Christian School</li>
-      <li>AP, Honors, and Dual Credit Courses through NW Florida State</li>
-      <li>Beach workouts and team conditioning</li>
-      <li>Up to 30 games on a national schedule</li>
-      <li>All games recorded through Hudl and YouTube</li>
-      <li>1 full highlight video for each athlete</li>
-      <li>Professional photos for each athlete</li>
-      <li>Campus and sports facility tours at visiting universities</li>
-    </ul>
-  </div>
-</div>
-
-<!-- Three Pillars -->
-<div class="staff-section staff-section-dark" style="margin-top: 3rem;">
-  <div class="feature-grid" style="max-width: 1000px; margin: 0 auto;">
-    <div class="feature-card fade-in">
-      <div class="feature-icon">🏀</div>
-      <h3>Instruction</h3>
-      <p>World-class daily basketball training and instruction ensuring players achieve college readiness on the court.</p>
-    </div>
-    <div class="feature-card fade-in">
-      <div class="feature-icon">📹</div>
-      <h3>Exposure</h3>
-      <p>Highlight tapes and game film that leverages our network of coaches to facilitate scholarship opportunities.</p>
-    </div>
-    <div class="feature-card fade-in">
-      <div class="feature-icon">🏆</div>
-      <h3>Competition</h3>
-      <p>A national schedule against the best prep programs and junior colleges in the country.</p>
+    <div class="day-photo">
+      <img src="/assets/images/high-school/fcp-book-010.jpeg" alt="FCP student-athletes training in the Spartan Training Center gym in Fort Walton Beach, Florida" loading="lazy">
     </div>
   </div>
-</div>
+</section>
 
 <div id="schedule"></div>
 
-<!-- Structured Data: SportsEvent -->
+<!-- Docuseries -->
+<section class="staff-section staff-section-dark fade-in" style="margin-top: 3rem;">
+  <div class="staff-section-header">
+    <span class="section-label">Watch</span>
+    <h2>See the High School Experience</h2>
+    <div class="gold-rule"></div>
+  </div>
+  <div class="program-grid" style="max-width: 900px; margin: 1.5rem auto 0; align-items: center;">
+    <div class="program-image" style="background: #0a1628;">
+      <a href="/docuseries/">
+        <img src="/assets/images/about/docuseries-thumbnail.jpg" alt="6 Months to Change Everything — FCP docuseries" loading="lazy" style="object-fit: contain; min-height: auto; border-radius: 10px;">
+      </a>
+    </div>
+    <div style="color: rgba(255,255,255,0.8);">
+      <h3 style="color: #fff; font-size: 1.3rem; font-weight: 800; margin: 0 0 0.75rem;">6 Months to Change Everything</h3>
+      <p style="font-size: 1rem; line-height: 1.7; margin: 0 0 1.25rem;">Our original docuseries follows FCP athletes through a full season — training, competition, recruiting, and the daily grind. With <strong style="color: #fff;">hundreds of thousands of views</strong>, it's the best way to see what life is really like inside the academy.</p>
+      <a href="/docuseries/" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff; display: inline-flex; align-items: center; gap: 0.5rem;">
+        <svg viewBox="0 0 24 24" style="width: 18px; height: 18px; fill: currentColor;"><path d="M8 5v14l11-7z"/></svg>
+        Watch the Series
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-section" style="margin-top: 0;">
+  <h2>Apply for the High School Program</h2>
+  <p>Roster spots are limited. Talk to our <a href="/coaches/" style="color: #d4a843;">coaching staff</a> or apply today.</p>
+  <div class="hero-cta">
+    <a href="/apply/" class="btn btn-primary">Apply Now</a>
+    <a href="/commitments/" class="btn btn-gold">See Our Results</a>
+  </div>
+</div>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SportsEvent",
-  "name": "FCP Spartans 2025-2026 National High School Basketball Season",
+  "@type": "SportsOrganization",
+  "name": "Florida Coastal Prep — National High School Basketball Program",
+  "description": "Florida Coastal Prep's national high school basketball academy (grades 9-12) combines elite training, national competition, accredited academics, and college recruiting exposure in Fort Walton Beach, FL.",
+  "url": "https://floridacoastalprep.com/high-school/",
   "sport": "Basketball",
-  "startDate": "2025-08-10",
-  "endDate": "2026-05-30",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-    "@type": "Place",
-    "name": "Spartan Training Center",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "33 Jet Drive NW",
-      "addressLocality": "Fort Walton Beach",
-      "addressRegion": "FL",
-      "postalCode": "32548",
-      "addressCountry": "US"
-    }
-  },
-  "organizer": {
-    "@type": "SportsOrganization",
-    "name": "Florida Coastal Prep Sports Academy",
-    "url": "https://floridacoastalprep.com"
-  },
-  "offers": {
-    "@type": "Offer",
-    "name": "High School Program Enrollment",
-    "price": "0",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock",
-    "url": "https://floridacoastalprep.com/apply/",
-    "description": "Game admission is free. Contact admissions for program enrollment pricing."
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Fort Walton Beach",
+    "addressRegion": "FL",
+    "postalCode": "32548",
+    "addressCountry": "US"
   }
 }
 </script>
 
-<div class="cta-section" style="margin-top: 0; border-radius: 0;">
-  <h2>Apply for the High School Program</h2>
-  <p>Roster spots are limited. Don't wait.</p>
-  <div class="hero-cta">
-    <a href="/apply/" class="btn btn-primary">Apply Now</a>
-    <a href="/tuition/" class="btn btn-outline">View Tuition</a>
-  </div>
-</div>
+<style>
+.hero-bg-img { object-position: center 30% !important; }
+
+/* Day at FCP — two-column layout with photo */
+.day-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  max-width: 960px;
+  margin: 1.5rem auto 0;
+  align-items: start;
+}
+.day-schedule .daily-schedule {
+  gap: 0.75rem;
+}
+.day-photo {
+  position: sticky;
+  top: 2rem;
+}
+.day-photo img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+@media (max-width: 768px) {
+  .day-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .day-photo { order: -1; }
+}
+
+/* Clean link styling for feature cards */
+.feature-card a,
+.program-details a {
+  color: #c41e3a;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1.5px solid rgba(196, 30, 58, 0.3);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.feature-card a:hover,
+.program-details a:hover {
+  color: #0a1628;
+  border-color: #0a1628;
+}
+</style>
