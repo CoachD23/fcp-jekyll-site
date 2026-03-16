@@ -285,7 +285,7 @@ exports.handler = async function (event) {
     const airtableResult = await createAirtableStudent(airtableFields);
 
     // ── 2. Create GHL contact ─────────────────────────────────
-    const ghlTags = ["applicant", "paid-applicant", origin_type.toLowerCase()];
+    const ghlTags = ["applicant", origin_type.toLowerCase()];
     if (program === "Post Grad") ghlTags.push("post-grad");
     if (program === "High School") ghlTags.push("high-school");
 
