@@ -137,27 +137,56 @@ hero_subtitle: Real Families. Real Results.
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Testimonials — Florida Coastal Prep",
-  "description": "Read what parents, athletes, and ESPN scouts say about Florida Coastal Prep.",
-  "url": "https://floridacoastalprep.com/testimonials/",
-  "mainEntity": {
-    "@type": "ItemList",
-    "itemListElement": [
-      {
-        "@type": "Review",
-        "author": {"@type": "Person", "name": "Sean East Sr."},
-        "reviewBody": "Coach Lee DeForest was instrumental in putting my son in the position to compete against high level competition.",
-        "itemReviewed": {"@type": "SportsOrganization", "name": "Florida Coastal Prep"}
-      },
-      {
-        "@type": "Review",
-        "author": {"@type": "Person", "name": "Shawn Roy"},
-        "reviewBody": "My son had zero offers coming out high school, and after completing his time at FCP, he had plenty of offers.",
-        "itemReviewed": {"@type": "SportsOrganization", "name": "Florida Coastal Prep"}
-      }
-    ]
-  }
+  "@type": "SportsOrganization",
+  "name": "Florida Coastal Prep",
+  "url": "https://floridacoastalprep.com",
+  "description": "Elite post-graduate and high school basketball academy in Fort Walton Beach, FL with D1, D2, NAIA, and JUCO placements.",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "6",
+    "reviewCount": "6"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Sean East Sr."},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "Coach Lee DeForest was instrumental in putting my son in the position to compete against high level competition as well as in front of college coaches. My son matured and received a D1 scholarship and now plays for the Missouri Tigers."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Shawn Roy"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "My son had zero offers coming out high school, and after completing his time at FCP, he had plenty of offers. Thank you Coach and FCP!!!"
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Deanna Costello"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "He is a talented coach and very passionate about the game and truly connected with his players. His commitment to see them succeed on and off the court sets him apart."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Andrej Zelenbaba"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "He is a real professional as a coach and great person with a lot of patience for teaching today's kids. He knows how to approach each kid and get a maximum of them. I highly recommend!"
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "James McCravy"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "By selecting Coach DeForest, you have secured a giant of a coach who understands how to teach the boys life skills as he teaches them basketball."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Spanky Parks"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "I have had several kids play for Coach DeForest! All of them have received scholarships to Colleges. He has been awesome for our Future Prospects Program. Great Guy and Coach!"
+    }
+  ]
 }
 </script>
 
