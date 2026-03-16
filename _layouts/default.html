@@ -22,12 +22,6 @@
   </script>
   {% endif %}
 
-  <!-- GHL Chat Widget: defer until user interaction or 5s idle -->
-  <script>
-  (function(){var d=false;function l(){if(d)return;d=true;var s=document.createElement('script');s.src='https://widgets.leadconnectorhq.com/loader.js';s.setAttribute('data-resources-url','https://widgets.leadconnectorhq.com/chat-widget/loader.js');s.setAttribute('data-widget-id','jBDUi7Sma6tCl3eXKBmX');document.body.appendChild(s);}
-  ['scroll','mousemove','touchstart','keydown','click'].forEach(function(e){window.addEventListener(e,l,{once:true,passive:true});});setTimeout(l,5000);})();
-  </script>
-
   <!-- Netlify Identity redirect (after CMS login, go to /admin/) -->
   <script>
   (function ni(){if(window.netlifyIdentity){window.netlifyIdentity.on("init",function(u){if(!u){window.netlifyIdentity.on("login",function(){document.location.href="/admin/";})}});}else if(document.cookie.indexOf('nf_jwt')>-1){setTimeout(ni,200);}})();

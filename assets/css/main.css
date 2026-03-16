@@ -1736,19 +1736,6 @@ section { padding: 4rem 0; }
 }
 .footer-logo img { height: 48px; width: auto; }
 .footer-social { display: flex; gap: 0.75rem; flex-wrap: wrap; }
-.footer-social-link {
-  color: #6b7280;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.4rem 0.75rem;
-  border-radius: 20px;
-  border: 1px solid #d1d5db;
-  text-decoration: none;
-  font-size: 0.8rem;
-  white-space: nowrap;
-}
-.footer-social-label { color: #6b7280; font-size: 0.8rem; }
 .footer-social a {
   color: #6b7280;
   transition: color 0.2s;
@@ -1760,11 +1747,6 @@ section { padding: 4rem 0; }
   border-radius: 50%;
   border: 1px solid #d1d5db;
   transition: color 0.2s, border-color 0.2s, background 0.2s;
-}
-.footer-social-link:hover, .footer-social-link:hover .footer-social-label {
-  color: #c41e3a;
-  border-color: #c41e3a;
-  background: rgba(196,30,58,0.05);
 }
 .footer-social a:hover {
   color: #c41e3a;
