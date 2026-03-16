@@ -15,9 +15,6 @@ sitemap: false
   <input type="text" name="program" />
   <input type="text" name="first-name" /><input type="text" name="last-name" />
   <input type="email" name="email" /><input type="tel" name="phone" />
-  <input type="text" name="grad-year" />
-  <input type="text" name="position" />
-  <input type="text" name="state" />
 </form>
 
 <div class="apply-page-bg">
@@ -49,6 +46,9 @@ sitemap: false
             <label class="apply-radio-label"><input type="radio" name="program" value="High School" /> High School Program</label>
           </div>
         </div>
+        <div class="apply-field-group">
+          <label class="apply-label apply-section-header">Participant Name</label>
+        </div>
         <div class="apply-row">
           <div class="apply-field">
             <label class="apply-label" for="firstName">First Name <span class="req-star">*</span></label>
@@ -68,39 +68,6 @@ sitemap: false
             <label class="apply-label" for="phone">Phone <span class="req-star">*</span></label>
             <input type="tel" id="phone" name="phone" class="apply-input" required autocomplete="tel" />
           </div>
-        </div>
-        <div class="apply-row">
-          <div class="apply-field">
-            <label class="apply-label" for="gradYear">Graduation Year</label>
-            <select id="gradYear" name="grad-year" class="apply-select">
-              <option value="">Select year…</option>
-              <option value="2025">2025</option><option value="2026">2026</option>
-              <option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029</option>
-            </select>
-          </div>
-          <div class="apply-field">
-            <label class="apply-label" for="position">Position</label>
-            <input type="text" id="position" name="position" class="apply-input" placeholder="e.g. Point Guard, Forward" />
-          </div>
-        </div>
-        <div class="apply-field-group">
-          <label class="apply-label" for="stateSelect">State</label>
-          <select id="stateSelect" name="state" class="apply-select">
-            <option value="">Select state…</option>
-            <option>Alabama</option><option>Alaska</option><option>Arizona</option><option>Arkansas</option>
-            <option>California</option><option>Colorado</option><option>Connecticut</option><option>Delaware</option>
-            <option>Florida</option><option>Georgia</option><option>Hawaii</option><option>Idaho</option>
-            <option>Illinois</option><option>Indiana</option><option>Iowa</option><option>Kansas</option>
-            <option>Kentucky</option><option>Louisiana</option><option>Maine</option><option>Maryland</option>
-            <option>Massachusetts</option><option>Michigan</option><option>Minnesota</option><option>Mississippi</option>
-            <option>Missouri</option><option>Montana</option><option>Nebraska</option><option>Nevada</option>
-            <option>New Hampshire</option><option>New Jersey</option><option>New Mexico</option><option>New York</option>
-            <option>North Carolina</option><option>North Dakota</option><option>Ohio</option><option>Oklahoma</option>
-            <option>Oregon</option><option>Pennsylvania</option><option>Rhode Island</option><option>South Carolina</option>
-            <option>South Dakota</option><option>Tennessee</option><option>Texas</option><option>Utah</option>
-            <option>Vermont</option><option>Virginia</option><option>Washington</option><option>West Virginia</option>
-            <option>Wisconsin</option><option>Wyoming</option>
-          </select>
         </div>
         <div class="apply-nav apply-nav-right">
           <button type="button" class="btn-apply-next" onclick="handleStep1()">Continue &rarr;</button>
@@ -166,6 +133,7 @@ sitemap: false
 .apply-steps-container { padding: 32px 32px 24px; }
 .apply-step-title { font-size: 1.2rem; font-weight: 700; color: #1a1a2e; margin: 0 0 24px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; }
 .req-star { color: #b22234; font-weight: 700; }
+.apply-section-header { font-size: 1rem; font-weight: 700; color: #1a1a2e; text-transform: none; letter-spacing: 0; margin-bottom: 0; }
 /* Form fields */
 .apply-field-group { margin-bottom: 20px; }
 .apply-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
@@ -327,7 +295,7 @@ function validateAndGo(fromStep, toStep) {
 
     function submitToNetlify() {
       var form = document.getElementById('netlify-hidden-form');
-      var fields = ['program','first-name','last-name','email','phone','grad-year','position','state'];
+      var fields = ['program','first-name','last-name','email','phone'];
       fields.forEach(function(id) {
         var dst = form.querySelector('[name="' + id + '"]');
         if (!dst) return;
