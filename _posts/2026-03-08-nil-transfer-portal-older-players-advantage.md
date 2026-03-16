@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why Older Players Win the Transfer Portal — And What Younger Players Must Do About It"
-date: 2026-03-10
+date: 2026-03-08
 categories: [recruiting]
 image: /assets/images/post-grad/florida-coastal-prep-basketball-team-florida.jpeg
 description: "Transfer portal basketball rewards older, proven players. Here's why college coaches prefer experienced portal transfers over young recruits — and how younger players can compete."

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mastering the Pick and Roll: The Complete Basketball Guide"
-date: 2026-03-10
+date: 2026-03-05
 categories: [training]
 image: /assets/images/blog/pick-and-roll-training.jpg
 description: "What is a pick and roll in basketball? Learn how to execute, defend, and master the most effective play in the game — from basic mechanics to advanced reads."

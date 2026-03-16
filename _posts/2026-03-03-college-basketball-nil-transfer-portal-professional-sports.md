@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "College Basketball Is Now a Professional Sport. Is Your Player Ready?"
-date: 2026-03-10
+date: 2026-03-03
 categories: [recruiting]
 image: /assets/images/blog/fcp-basketball-team.jpg
 description: "NIL deals, the transfer portal, and overseas pros are reshaping college basketball. What young players need to understand about the new professional reality of college athletics."

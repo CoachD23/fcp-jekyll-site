@@ -5,54 +5,134 @@ description: "Latest news, alumni stories, and recruiting guides from Florida Co
 og_image: /assets/images/post-grad/florida-coastal-prep-basketball-team-florida.jpeg
 ---
 
-<!-- ═══ DARK HERO ═══ -->
-<section class="blog-hero-section">
-  <div class="container">
-    <span class="blog-hero-tag fade-in">News & Updates</span>
-    <h1 class="blog-hero-heading fade-in">FCP Newsroom</h1>
-  </div>
-</section>
-
-<!-- ═══ BLOG INTRO LINKS ═══ -->
-<section class="blog-intro-links">
-  <div class="container">
-    <p class="blog-intro-text fade-in">Stay up to date with <strong>Florida Coastal Prep</strong> — from alumni making it to the next level to recruiting tips and daily life at FCP. Explore our <a href="/post-grad/">Post-Grad Program</a>, <a href="/high-school/">High School Academy</a>, and <a href="/training/">Training Center</a> to learn how we develop college-ready athletes.</p>
-  </div>
-</section>
-
 {% assign all_posts = site.posts %}
 {% if all_posts.size > 0 %}
 
-<!-- ═══ Pinned featured slugs ═══ -->
-{% assign pinned_slugs = "nathan-mariano-from-fcp-to-the-nba,sean-east-from-coach-deforest-to-the-nba" | split: "," %}
-{% assign pinned_posts = "" | split: "" %}
-{% for slug in pinned_slugs %}
+<!-- ═══ Pinned hero slugs (4 alumni stories, randomly selected) ═══ -->
+{% assign hero_slugs = "nathan-mariano-from-fcp-to-the-nba,sean-east-from-coach-deforest-to-the-nba,brandon-maclin-jackson-to-the-big-east,kylin-green-fcp-alumni-spotlight" | split: "," %}
+{% assign hero_posts = "" | split: "" %}
+{% for slug in hero_slugs %}
   {% for p in all_posts %}
     {% if p.url contains slug %}
-      {% assign pinned_posts = pinned_posts | push: p %}
+      {% assign hero_posts = hero_posts | push: p %}
       {% break %}
     {% endif %}
   {% endfor %}
 {% endfor %}
 
-<!-- ═══ FEATURED — dark section ═══ -->
-<section class="blog-feat-section">
+<!-- ═══ Pinned sidebar slugs (always visible) ═══ -->
+{% assign sidebar_pin_slugs = "how-to-get-noticed-by-college-scouts,inside-the-grind-session-fcp-national-competition" | split: "," %}
+{% assign sidebar_pinned = "" | split: "" %}
+{% for slug in sidebar_pin_slugs %}
+  {% for p in all_posts %}
+    {% if p.url contains slug %}
+      {% assign sidebar_pinned = sidebar_pinned | push: p %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+<!-- ═══ Collect all pinned slugs to exclude from auto feeds ═══ -->
+{% assign all_pinned_slugs = "nathan-mariano-from-fcp-to-the-nba,sean-east-from-coach-deforest-to-the-nba,brandon-maclin-jackson-to-the-big-east,kylin-green-fcp-alumni-spotlight,how-to-get-noticed-by-college-scouts,inside-the-grind-session-fcp-national-competition" | split: "," %}
+
+{% assign auto_posts = "" | split: "" %}
+{% for post in all_posts %}
+  {% assign is_pinned = false %}
+  {% for slug in all_pinned_slugs %}
+    {% if post.url contains slug %}{% assign is_pinned = true %}{% break %}{% endif %}
+  {% endfor %}
+  {% unless is_pinned %}{% assign auto_posts = auto_posts | push: post %}{% endunless %}
+{% endfor %}
+
+<!-- Sidebar auto slots: 3 most recent -->
+{% assign sidebar_auto = auto_posts | slice: 0, 3 %}
+
+<!-- Secondary row: next 4 after sidebar auto -->
+{% assign secondary_posts = auto_posts | slice: 3, 4 %}
+
+<!-- Remaining for grid: everything after secondary -->
+{% assign grid_posts = auto_posts | slice: 7, 999 %}
+
+<!-- ═══ SECTION 1: HERO + SIDEBAR (dark) ═══ -->
+<section class="espn-hero-section">
   <div class="container">
-    <div class="blog-feat-header fade-in">
-      <span class="blog-feat-label">Featured Stories</span>
-    </div>
-    <div class="blog-feat-grid fade-in">
-      {% for post in pinned_posts %}
-      <a href="{{ post.url | relative_url }}" class="blog-feat-card">
-        <div class="blog-feat-img">
-          {% if post.image %}
-          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
-          {% else %}
-          <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
-          {% endif %}
-        </div>
-        <div class="blog-feat-overlay">
-          <div class="blog-feat-top">
+    <div class="espn-hero-grid">
+
+      <!-- Left 60%: Featured alumni story -->
+      <div class="espn-hero-left">
+        {% for post in hero_posts %}
+        <a href="{{ post.url | relative_url }}" class="espn-hero-card" data-hero-index="{{ forloop.index0 }}" {% if forloop.index0 > 0 %}style="display:none"{% endif %}>
+          <div class="espn-hero-img">
+            {% if post.image %}
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
+            {% else %}
+            <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
+            {% endif %}
+          </div>
+          <div class="espn-hero-overlay">
+            <div class="espn-hero-top">
+              {% assign cat = post.categories | first %}
+              {% if cat == "alumni" %}
+                <span class="blog-badge blog-badge-alumni">Alumni Story</span>
+              {% elsif cat == "commitments" %}
+                <span class="blog-badge blog-badge-commit">Commitment</span>
+              {% elsif cat == "highlights" %}
+                <span class="blog-badge blog-badge-highlight">Highlight</span>
+              {% elsif cat == "recruiting" or cat == "basketball" %}
+                <span class="blog-badge blog-badge-guide">Recruiting Guide</span>
+              {% else %}
+                <span class="blog-badge blog-badge-highlight">News</span>
+              {% endif %}
+            </div>
+            <div class="espn-hero-bottom">
+              <h2 class="espn-hero-title">{{ post.title }}</h2>
+              {% if post.excerpt %}<p class="espn-hero-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>{% endif %}
+              <span class="espn-hero-link">Read Story &rarr;</span>
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+
+      <!-- Right 40%: Sidebar headlines -->
+      <div class="espn-sidebar">
+        {% for post in sidebar_pinned %}
+        <a href="{{ post.url | relative_url }}" class="espn-sidebar-row">
+          <div class="espn-sidebar-thumb">
+            {% if post.image %}
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+            {% else %}
+            <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
+            {% endif %}
+          </div>
+          <div class="espn-sidebar-text">
+            {% assign cat = post.categories | first %}
+            {% if cat == "alumni" %}
+              <span class="blog-badge blog-badge-alumni">Alumni Story</span>
+            {% elsif cat == "recruiting" or cat == "basketball" %}
+              <span class="blog-badge blog-badge-guide">Recruiting Guide</span>
+            {% elsif cat == "training" %}
+              <span class="blog-badge blog-badge-training">Training</span>
+            {% elsif cat == "program-news" or cat == "program" %}
+              <span class="blog-badge blog-badge-program">Program News</span>
+            {% else %}
+              <span class="blog-badge blog-badge-highlight">News</span>
+            {% endif %}
+            <h3 class="espn-sidebar-title">{{ post.title }}</h3>
+          </div>
+        </a>
+        {% endfor %}
+
+        {% for post in sidebar_auto %}
+        <a href="{{ post.url | relative_url }}" class="espn-sidebar-row">
+          <div class="espn-sidebar-thumb">
+            {% if post.image %}
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+            {% else %}
+            <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
+            {% endif %}
+          </div>
+          <div class="espn-sidebar-text">
             {% assign cat = post.categories | first %}
             {% if cat == "alumni" %}
               <span class="blog-badge blog-badge-alumni">Alumni Story</span>
@@ -73,39 +153,69 @@ og_image: /assets/images/post-grad/florida-coastal-prep-basketball-team-florida.
             {% else %}
               <span class="blog-badge blog-badge-highlight">News</span>
             {% endif %}
+            <h3 class="espn-sidebar-title">{{ post.title }}</h3>
           </div>
-          <div class="blog-feat-bottom">
-            <h2 class="blog-feat-title">{{ post.title }}</h2>
-            {% if post.excerpt %}<p class="blog-feat-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>{% endif %}
-            <div class="blog-feat-footer">
-              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-              <span class="blog-feat-link">Read Story →</span>
-            </div>
-          </div>
+        </a>
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SECTION 2: SECONDARY STORIES (4-card row, dark) ═══ -->
+{% if secondary_posts.size > 0 %}
+<section class="espn-secondary-section">
+  <div class="container">
+    <div class="espn-secondary-grid">
+      {% for post in secondary_posts %}
+      <a href="{{ post.url | relative_url }}" class="espn-secondary-card">
+        <div class="espn-secondary-img">
+          {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+          {% else %}
+          <img src="/assets/images/blog/blog-default.jpg" alt="{{ post.title }}" loading="lazy">
+          {% endif %}
+        </div>
+        <div class="espn-secondary-overlay">
+          {% assign cat = post.categories | first %}
+          {% if cat == "alumni" %}
+            <span class="blog-badge blog-badge-alumni">Alumni Story</span>
+          {% elsif cat == "commitments" %}
+            <span class="blog-badge blog-badge-commit">Commitment</span>
+          {% elsif cat == "highlights" %}
+            <span class="blog-badge blog-badge-highlight">Highlight</span>
+          {% elsif cat == "game-recap" %}
+            <span class="blog-badge blog-badge-recap">Game Recap</span>
+          {% elsif cat == "recruiting" or cat == "basketball" %}
+            <span class="blog-badge blog-badge-guide">Recruiting Guide</span>
+          {% elsif cat == "daily-life" %}
+            <span class="blog-badge blog-badge-daily">Daily Life</span>
+          {% elsif cat == "training" %}
+            <span class="blog-badge blog-badge-training">Training</span>
+          {% elsif cat == "program-news" or cat == "program" %}
+            <span class="blog-badge blog-badge-program">Program News</span>
+          {% else %}
+            <span class="blog-badge blog-badge-highlight">News</span>
+          {% endif %}
+          <h3 class="espn-secondary-title">{{ post.title }}</h3>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
         </div>
       </a>
       {% endfor %}
     </div>
   </div>
 </section>
+{% endif %}
 
-<!-- ═══ ALL STORIES — light section ═══ -->
-{% assign remaining_posts = "" | split: "" %}
-{% for post in all_posts %}
-  {% assign is_pinned = false %}
-  {% for slug in pinned_slugs %}
-    {% if post.url contains slug %}{% assign is_pinned = true %}{% break %}{% endif %}
-  {% endfor %}
-  {% unless is_pinned %}{% assign remaining_posts = remaining_posts | push: post %}{% endunless %}
-{% endfor %}
-{% assign remaining = remaining_posts %}
-{% if remaining.size > 0 %}
+<!-- ═══ SECTION 3: ALL STORIES (light, with filter) ═══ -->
+{% if grid_posts.size > 0 %}
 <section class="blog-stories-section">
   <div class="container">
     <div class="blog-stories-bar fade-in">
       <div class="blog-stories-left">
         <span class="blog-stories-label">All Stories</span>
-        <span class="blog-stories-count">{{ remaining.size }} articles</span>
+        <span class="blog-stories-count">{{ grid_posts.size }} articles</span>
       </div>
       <div class="blog-stories-filters" id="blogFilters">
         <button class="blog-sfilt active" data-filter="all">All</button>
@@ -121,7 +231,7 @@ og_image: /assets/images/post-grad/florida-coastal-prep-basketball-team-florida.
     </div>
 
     <div class="blog-stories-grid fade-in" id="blogGrid">
-      {% for post in remaining %}
+      {% for post in grid_posts %}
       {% assign cat = post.categories | first %}
       {% if cat == "basketball" %}{% assign filter_cat = "recruiting" %}{% else %}{% assign filter_cat = cat %}{% endif %}
       <a href="{{ post.url | relative_url }}" class="blog-story-card" data-category="{{ filter_cat }}">
@@ -156,7 +266,7 @@ og_image: /assets/images/post-grad/florida-coastal-prep-basketball-team-florida.
           {% if post.excerpt %}<p class="blog-story-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>{% endif %}
           <div class="blog-story-footer">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-            <span class="blog-story-link">Read Story →</span>
+            <span class="blog-story-link">Read Story &rarr;</span>
           </div>
         </div>
       </a>
@@ -189,6 +299,16 @@ og_image: /assets/images/post-grad/florida-coastal-prep-basketball-team-florida.
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  /* Random hero rotation */
+  var heroes = document.querySelectorAll('.espn-hero-card');
+  if (heroes.length > 1) {
+    var idx = Math.floor(Math.random() * heroes.length);
+    heroes.forEach(function(h, i) {
+      h.style.display = i === idx ? '' : 'none';
+    });
+  }
+
+  /* Category filter */
   var filters = document.querySelectorAll('.blog-sfilt');
   var cards = document.querySelectorAll('.blog-story-card');
   filters.forEach(function(btn) {

@@ -823,98 +823,33 @@ section { padding: 4rem 0; }
 /* ===== Blog / Newsroom — Premium Layout ===== */
 
 /* --- Hero Section --- */
-.blog-hero-section {
+/* --- ESPN-Style Hero + Sidebar --- */
+.espn-hero-section {
   background: #0a1628;
-  padding: 9rem 0 3rem;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+  padding: 6.5rem 0 2.5rem;
 }
-.blog-hero-section::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 120%;
-  height: 200%;
-  background: radial-gradient(ellipse at center, rgba(196,30,58,0.08) 0%, transparent 65%);
-  pointer-events: none;
-}
-.blog-hero-tag {
-  display: inline-block;
-  padding: 0.35rem 1.2rem;
-  background: rgba(212,168,67,0.12);
-  color: #d4a843;
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  border-radius: 3px;
-  margin-bottom: 1.25rem;
-}
-.blog-hero-heading {
-  color: #fff;
-  font-size: 2.8rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  margin: 0 0 0.75rem;
-}
-.blog-hero-desc {
-  color: rgba(255,255,255,0.75);
-  font-size: 1.25rem;
-  font-weight: 300;
-  font-style: italic;
-  margin: 0;
+.espn-hero-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 1.25rem;
+  align-items: stretch;
 }
 
-/* --- Featured Section (dark) --- */
-.blog-feat-section {
-  background: #0d1b30;
-  padding: 4rem 0 4.5rem;
-}
-.blog-feat-header {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-.blog-feat-label {
-  display: inline-block;
-  padding: 0.3rem 1rem;
-  background: rgba(212,168,67,0.12);
-  color: #d4a843;
-  font-size: 0.65rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  border-radius: 3px;
-  margin-bottom: 0.75rem;
-}
-.blog-feat-sub {
-  color: rgba(255,255,255,0.78);
-  font-size: 1.15rem;
-  font-weight: 300;
-  font-style: italic;
-  margin: 0;
-}
-.blog-feat-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
-}
-.blog-feat-card {
-  position: relative;
+/* Hero card (left) */
+.espn-hero-left { position: relative; min-height: 520px; }
+.espn-hero-card {
+  position: absolute;
+  inset: 0;
   display: block;
-  min-height: 440px;
   border-radius: 14px;
   overflow: hidden;
   text-decoration: none;
-  cursor: pointer;
 }
-.blog-feat-img {
+.espn-hero-img {
   position: absolute;
   inset: 0;
 }
-.blog-feat-img img {
+.espn-hero-img img {
   display: block;
   width: 100%;
   height: 100%;
@@ -922,10 +857,10 @@ section { padding: 4rem 0; }
   object-position: center 20%;
   transition: transform 0.6s ease;
 }
-.blog-feat-card:hover .blog-feat-img img {
-  transform: scale(1.05);
+.espn-hero-card:hover .espn-hero-img img {
+  transform: scale(1.04);
 }
-.blog-feat-overlay {
+.espn-hero-overlay {
   position: absolute;
   inset: 0;
   display: flex;
@@ -934,63 +869,173 @@ section { padding: 4rem 0; }
   background: linear-gradient(
     to top,
     rgba(10,22,40,0.95) 0%,
-    rgba(10,22,40,0.7) 35%,
-    rgba(10,22,40,0.15) 70%,
+    rgba(10,22,40,0.65) 40%,
+    rgba(10,22,40,0.1) 75%,
     transparent 100%
   );
   z-index: 2;
 }
-.blog-feat-top {
-  padding: 1.5rem;
-}
-.blog-feat-bottom {
-  padding: 0 1.75rem 1.75rem;
+.espn-hero-top { padding: 1.5rem; }
+.espn-hero-bottom {
+  padding: 0 2rem 2rem;
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.5rem;
 }
-.blog-feat-title {
+.espn-hero-title {
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 800;
-  line-height: 1.3;
+  line-height: 1.25;
   margin: 0;
 }
-.blog-feat-excerpt {
-  color: rgba(255,255,255,0.7);
-  font-size: 0.88rem;
-  line-height: 1.55;
+.espn-hero-excerpt {
+  color: rgba(255,255,255,0.72);
+  font-size: 0.95rem;
+  line-height: 1.6;
   margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.blog-feat-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 0.4rem;
-}
-.blog-feat-footer time {
-  color: rgba(255,255,255,0.5);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-.blog-feat-link {
+.espn-hero-link {
   color: #d4a843;
   font-weight: 700;
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  text-decoration: none;
+  margin-top: 0.25rem;
   transition: color 0.3s ease, letter-spacing 0.3s ease;
 }
-.blog-feat-card:hover .blog-feat-link {
+.espn-hero-card:hover .espn-hero-link {
   color: #f0c860;
   letter-spacing: 2.5px;
 }
+
+/* Sidebar (right) */
+.espn-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.espn-sidebar-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  transition: background 0.2s ease;
+}
+.espn-sidebar-row:last-child { border-bottom: none; }
+.espn-sidebar-row:hover { background: rgba(255,255,255,0.04); }
+.espn-sidebar-thumb {
+  flex-shrink: 0;
+  width: 80px;
+  height: 60px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.espn-sidebar-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.espn-sidebar-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.espn-sidebar-text .blog-badge {
+  align-self: flex-start;
+  font-size: 0.55rem;
+  padding: 0.15rem 0.5rem;
+}
+.espn-sidebar-title {
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.espn-sidebar-row:hover .espn-sidebar-title { color: #d4a843; }
+
+/* --- Secondary Stories (4-card row) --- */
+.espn-secondary-section {
+  background: #0d1b30;
+  padding: 2rem 0 2.5rem;
+}
+.espn-secondary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.espn-secondary-card {
+  position: relative;
+  display: block;
+  min-height: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.espn-secondary-img {
+  position: absolute;
+  inset: 0;
+}
+.espn-secondary-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.5s ease;
+}
+.espn-secondary-card:hover .espn-secondary-img img {
+  transform: scale(1.05);
+}
+.espn-secondary-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 1.25rem 1.25rem;
+  background: linear-gradient(
+    to top,
+    rgba(10,22,40,0.95) 0%,
+    rgba(10,22,40,0.7) 50%,
+    transparent 100%
+  );
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.espn-secondary-title {
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.espn-secondary-overlay time {
+  color: rgba(255,255,255,0.45);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.espn-secondary-card:hover .espn-secondary-title { color: #d4a843; }
 
 /* --- Category badges (shared) --- */
 .blog-badge {
@@ -1882,11 +1927,13 @@ section { padding: 4rem 0; }
   .editorial-feature-text time { color: #999; font-size: 0.7rem; text-transform: uppercase; }
   .editorial-sidebar { flex-direction: column; }
   .editorial-card { flex: 1 1 100%; min-width: 0; }
-  /* Blog / Newsroom responsive */
-  .blog-hero-heading { font-size: 2.2rem; }
-  .blog-feat-grid { grid-template-columns: 1fr; }
-  .blog-feat-card { min-height: 380px; }
-  .blog-feat-title { font-size: 1.25rem; }
+  /* Blog / ESPN responsive */
+  .espn-hero-section { padding: 5.5rem 0 2rem; }
+  .espn-hero-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .espn-hero-left { min-height: 380px; }
+  .espn-hero-title { font-size: 1.5rem; }
+  .espn-secondary-grid { grid-template-columns: 1fr 1fr; }
+  .espn-secondary-card { min-height: 220px; }
   .blog-stories-grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
   .blog-story-card { min-height: 280px; }
   .blog-stories-bar { flex-direction: column; gap: 1rem; align-items: flex-start; }
@@ -1917,15 +1964,18 @@ section { padding: 4rem 0; }
   .editorial-card-image { min-height: 80px; }
   .editorial-card-text { padding: 0.5rem 0.75rem 0.5rem 0; }
   .editorial-card-text h4 { font-size: 0.82rem; }
-  /* Blog / Newsroom small mobile */
-  .blog-hero-section { padding: 7rem 0 2rem; }
-  .blog-hero-heading { font-size: 1.8rem; }
-  .blog-hero-desc { font-size: 1rem; }
-  .blog-feat-section { padding: 2.5rem 0 3rem; }
-  .blog-feat-card { min-height: 320px; }
-  .blog-feat-title { font-size: 1.1rem; }
-  .blog-feat-excerpt { font-size: 0.82rem; }
-  .blog-feat-bottom { padding: 0 1.25rem 1.25rem; }
+  /* Blog / ESPN small mobile */
+  .espn-hero-section { padding: 5rem 0 1.5rem; }
+  .espn-hero-left { min-height: 320px; }
+  .espn-hero-title { font-size: 1.25rem; }
+  .espn-hero-excerpt { font-size: 0.85rem; }
+  .espn-hero-bottom { padding: 0 1.25rem 1.25rem; }
+  .espn-secondary-section { padding: 1.5rem 0 2rem; }
+  .espn-secondary-grid { grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+  .espn-secondary-card { min-height: 180px; }
+  .espn-secondary-title { font-size: 0.82rem; }
+  .espn-sidebar-thumb { width: 65px; height: 50px; }
+  .espn-sidebar-title { font-size: 0.82rem; }
   .blog-stories-grid { grid-template-columns: 1fr; }
   .blog-story-card { min-height: 260px; }
   .blog-story-title { font-size: 1rem; }

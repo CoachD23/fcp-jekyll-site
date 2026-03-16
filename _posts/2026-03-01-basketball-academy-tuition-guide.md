@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Basketball Academy Tuition: What Do Top Programs Cost?"
-date: 2026-03-10
+date: 2026-03-01
 categories: [recruiting]
 image: /assets/images/blog/basketball-academy-tuition.jpeg
 description: "Compare basketball prep academy tuition costs — IMG Academy, SPIRE, FCP, and more. See what's included, how financial aid works, and what families actually pay."
