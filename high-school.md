@@ -170,6 +170,21 @@ hero_subtitle: Compete Nationally. Prepare Academically. Get Recruited.
   </div>
 </section>
 
+<!-- Recruiting Resources -->
+<section class="section-light" style="padding: 3rem 0;">
+  <div class="container" style="text-align:center;">
+    <h2 style="margin-bottom:0.5rem;">Research College Basketball Programs</h2>
+    <p style="max-width:600px; margin:0 auto 1.5rem;">Explore every college basketball program in the country. Find the right fit — from D1 powerhouses to NAIA and JUCO programs ready to recruit high school players.</p>
+    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:0.75rem;">
+      <a href="/d1-basketball-programs/" class="btn btn-outline" style="padding:0.6rem 1.2rem;">D1 Programs</a>
+      <a href="/d2-basketball-programs/" class="btn btn-outline" style="padding:0.6rem 1.2rem;">D2 Programs</a>
+      <a href="/naia-basketball-programs/" class="btn btn-outline" style="padding:0.6rem 1.2rem;">NAIA Programs</a>
+      <a href="/juco-basketball-programs/" class="btn btn-outline" style="padding:0.6rem 1.2rem;">JUCO Programs</a>
+    </div>
+    <p style="margin-top:1rem;"><a href="/college-basketball-programs-directory/">Browse All 1,800+ Programs &rarr;</a></p>
+  </div>
+</section>
+
 <!-- CTA -->
 <div class="cta-section" style="margin-top: 0;">
   <h2>Apply for the High School Program</h2>
