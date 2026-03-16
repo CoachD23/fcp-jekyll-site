@@ -1,0 +1,236 @@
+---
+layout: page
+title: "Apply — International Applicants | Florida Coastal Prep"
+subtitle: International Application
+description: "Apply to Florida Coastal Prep as an international student-athlete. I-20 visa support, post-grad and high school basketball programs in Fort Walton Beach, FL."
+hero_image: /assets/images/about-fcp.jpg
+hero_title: International Application
+hero_subtitle: I-20 Support &bull; Post-Grad & High School Programs
+og_image: /assets/images/apply-now.jpeg
+---
+
+<section style="max-width: 720px; margin: 0 auto 2rem;">
+  <p style="text-align: center; margin-bottom: 0.5rem;"><a href="/apply/" style="color: #c41e3a; font-weight: 600;">&larr; Back to Application Options</a></p>
+
+  <!-- Success State (hidden by default) -->
+  <div id="apply-success" style="display:none; background: #f0fdf4; border: 2px solid #22c55e; border-radius: 16px; padding: 3rem 2rem; text-align: center; margin-top: 2rem;">
+    <div style="font-size: 3rem; margin-bottom: 1rem;">&#10003;</div>
+    <h2 style="color: #166534; font-size: 1.8rem; margin: 0 0 1rem;">Application Received!</h2>
+    <p style="color: #333; font-size: 1.1rem; line-height: 1.7; max-width: 500px; margin: 0 auto 1.5rem;">Thank you, <strong id="apply-success-name"></strong>. Our coaching staff will review your application and contact you within 24 hours.</p>
+    <p style="color: #555; font-size: 0.95rem;">Check your email at <strong id="apply-success-email"></strong> for a confirmation and next steps.</p>
+    <p style="color: #555; font-size: 0.9rem; margin-top: 1rem; background: #f8fafc; padding: 12px 16px; border-radius: 8px; display: inline-block;">International applicants: Our team will guide you through the I-20 and visa process after review.</p>
+  </div>
+
+  <!-- Error State (hidden by default) -->
+  <div id="apply-error" style="display:none; background: #fef2f2; border: 2px solid #ef4444; border-radius: 12px; padding: 1rem 1.5rem; margin-top: 1rem;">
+    <p style="color: #b91c1c; font-weight: 600; margin: 0;" id="apply-error-msg">Something went wrong. Please try again.</p>
+  </div>
+
+  <!-- Application Form -->
+  <form id="apply-form" style="background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); padding: 2.5rem; margin-top: 1rem;">
+
+    <div style="text-align: center; margin-bottom: 2rem;">
+      <span style="display: inline-block; background: #eff6ff; color: #1e40af; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 16px; border-radius: 20px;">&#127758; International Applicant</span>
+    </div>
+
+    <!-- Hidden origin field -->
+    <input type="hidden" name="origin" value="International" />
+
+    <!-- Name Row -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.25rem;">
+      <div>
+        <label for="apply-first" style="display: block; font-weight: 700; color: #0a1628; margin-bottom: 6px; font-size: 0.9rem;">First Name <span style="color: #c41e3a;">*</span></label>
+        <input type="text" id="apply-first" name="firstName" required autocomplete="given-name"
+          style="width: 100%; padding: 12px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; color: #333; transition: border-color 0.2s;"
+          onfocus="this.style.borderColor='#1e40af'" onblur="this.style.borderColor='#e2e8f0'" />
+      </div>
+      <div>
+        <label for="apply-last" style="display: block; font-weight: 700; color: #0a1628; margin-bottom: 6px; font-size: 0.9rem;">Last Name <span style="color: #c41e3a;">*</span></label>
+        <input type="text" id="apply-last" name="lastName" required autocomplete="family-name"
+          style="width: 100%; padding: 12px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; color: #333; transition: border-color 0.2s;"
+          onfocus="this.style.borderColor='#1e40af'" onblur="this.style.borderColor='#e2e8f0'" />
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div style="margin-bottom: 1.25rem;">
+      <label for="apply-email" style="display: block; font-weight: 700; color: #0a1628; margin-bottom: 6px; font-size: 0.9rem;">Email <span style="color: #c41e3a;">*</span></label>
+      <input type="email" id="apply-email" name="email" required autocomplete="email"
+        style="width: 100%; padding: 12px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; color: #333; transition: border-color 0.2s;"
+        onfocus="this.style.borderColor='#1e40af'" onblur="this.style.borderColor='#e2e8f0'" />
+    </div>
+
+    <!-- Phone -->
+    <div style="margin-bottom: 1.25rem;">
+      <label for="apply-phone" style="display: block; font-weight: 700; color: #0a1628; margin-bottom: 6px; font-size: 0.9rem;">Phone (include country code) <span style="color: #c41e3a;">*</span></label>
+      <input type="tel" id="apply-phone" name="phone" required autocomplete="tel" placeholder="+1 555-123-4567"
+        style="width: 100%; padding: 12px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; color: #333; transition: border-color 0.2s;"
+        onfocus="this.style.borderColor='#1e40af'" onblur="this.style.borderColor='#e2e8f0'" />
+    </div>
+
+    <!-- Country -->
+    <div style="margin-bottom: 1.25rem;">
+      <label for="apply-country" style="display: block; font-weight: 700; color: #0a1628; margin-bottom: 6px; font-size: 0.9rem;">Country <span style="color: #c41e3a;">*</span></label>
+      <input type="text" id="apply-country" name="country" required placeholder="e.g. Japan, Brazil, Nigeria"
+        style="width: 100%; padding: 12px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; color: #333; transition: border-color 0.2s;"
+        onfocus="this.style.borderColor='#1e40af'" onblur="this.style.borderColor='#e2e8f0'" />
+    </div>
+
+    <!-- Program -->
+    <div style="margin-bottom: 1.25rem;">
+      <label for="apply-program" style="display: block; font-weight: 700; color: #0a1628; margin-bottom: 6px; font-size: 0.9rem;">Program <span style="color: #c41e3a;">*</span></label>
+      <select id="apply-program" name="program" required
+        style="width: 100%; padding: 12px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; color: #333; background: #fff; transition: border-color 0.2s;"
+        onfocus="this.style.borderColor='#1e40af'" onblur="this.style.borderColor='#e2e8f0'">
+        <option value="">Select a program...</option>
+        <option value="Post Grad">Post Graduate Program (Ages 18-20)</option>
+        <option value="High School">National High School Program (Grades 9-12)</option>
+      </select>
+    </div>
+
+    <!-- Section divider -->
+    <div style="border-top: 1px solid #e2e8f0; margin: 1.5rem 0; padding-top: 1.5rem;">
+      <p style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; margin: 0 0 1rem;">Basketball Info <span style="text-transform: none; font-weight: 400;">(optional but helpful)</span></p>
+    </div>
+
+    <!-- Position + Grad Year -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.25rem;">
+      <div>
+        <label for="apply-position" style="display: block; font-weight: 600; color: #333; margin-bottom: 6px; font-size: 0.9rem;">Position</label>
+        <select id="apply-position" name="position"
+          style="width: 100%; padding: 12px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; color: #333; background: #fff;">
+          <option value="">Select...</option>
+          <option value="PG">Point Guard</option>
+          <option value="SG">Shooting Guard</option>
+          <option value="SF">Small Forward</option>
+          <option value="PF">Power Forward</option>
+          <option value="C">Center</option>
+        </select>
+      </div>
+      <div>
+        <label for="apply-grad" style="display: block; font-weight: 600; color: #333; margin-bottom: 6px; font-size: 0.9rem;">Graduation Year</label>
+        <select id="apply-grad" name="gradYear"
+          style="width: 100%; padding: 12px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; color: #333; background: #fff;">
+          <option value="">Select...</option>
+          <option value="2025">2025</option>
+          <option value="2026">2026</option>
+          <option value="2027">2027</option>
+          <option value="2028">2028</option>
+          <option value="2029">2029</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- High School + City -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem;">
+      <div>
+        <label for="apply-hs" style="display: block; font-weight: 600; color: #333; margin-bottom: 6px; font-size: 0.9rem;">Current School</label>
+        <input type="text" id="apply-hs" name="highSchool"
+          style="width: 100%; padding: 12px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; color: #333;" />
+      </div>
+      <div>
+        <label for="apply-city" style="display: block; font-weight: 600; color: #333; margin-bottom: 6px; font-size: 0.9rem;">City</label>
+        <input type="text" id="apply-city" name="city"
+          style="width: 100%; padding: 12px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; color: #333;" />
+      </div>
+    </div>
+
+    <!-- I-20 Note -->
+    <div style="background: #eff6ff; border-radius: 10px; padding: 1rem 1.25rem; margin-bottom: 1.5rem;">
+      <p style="color: #1e40af; font-size: 0.85rem; line-height: 1.6; margin: 0;"><strong>I-20 & Visa Support:</strong> After acceptance, our admissions team will guide you through the I-20 document process and F-1 student visa requirements. No visa documentation is needed to apply.</p>
+    </div>
+
+    <!-- Submit -->
+    <button type="submit" id="apply-submit"
+      style="width: 100%; padding: 16px; background: #0a1628; color: #fff; font-size: 1.1rem; font-weight: 800; border: none; border-radius: 10px; cursor: pointer; transition: background 0.2s; letter-spacing: 0.02em;"
+      onmouseover="this.style.background='#1a2d4a'" onmouseout="this.style.background='#0a1628'">
+      Submit International Application
+    </button>
+
+    <p style="text-align: center; color: #94a3b8; font-size: 0.8rem; margin-top: 1rem;">By submitting, you agree to be contacted by FCP coaching staff about your application.</p>
+  </form>
+</section>
+
+<script>
+(function() {
+  var form = document.getElementById('apply-form');
+  var submitBtn = document.getElementById('apply-submit');
+  var successDiv = document.getElementById('apply-success');
+  var errorDiv = document.getElementById('apply-error');
+  var errorMsg = document.getElementById('apply-error-msg');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    errorDiv.style.display = 'none';
+
+    // Gather form data
+    var data = {
+      firstName: form.firstName.value.trim(),
+      lastName: form.lastName.value.trim(),
+      email: form.email.value.trim(),
+      phone: form.phone.value.trim(),
+      program: form.program.value,
+      origin: form.origin.value,
+      country: form.country ? form.country.value.trim() : '',
+      position: form.position ? form.position.value : '',
+      gradYear: form.gradYear ? form.gradYear.value : '',
+      highSchool: form.highSchool ? form.highSchool.value.trim() : '',
+      city: form.city ? form.city.value.trim() : ''
+    };
+
+    // Basic validation
+    if (!data.firstName || !data.lastName || !data.email || !data.phone || !data.program) {
+      errorMsg.textContent = 'Please fill in all required fields.';
+      errorDiv.style.display = 'block';
+      return;
+    }
+    if (!data.country) {
+      errorMsg.textContent = 'Please enter your country.';
+      errorDiv.style.display = 'block';
+      return;
+    }
+
+    // Submit
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Submitting...';
+
+    fetch('/.netlify/functions/submit-application', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    })
+    .then(function(res) { return res.json(); })
+    .then(function(result) {
+      if (result.success) {
+        form.style.display = 'none';
+        document.getElementById('apply-success-name').textContent = data.firstName + ' ' + data.lastName;
+        document.getElementById('apply-success-email').textContent = data.email;
+        successDiv.style.display = 'block';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        var msg = result.errors ? result.errors.join('. ') : (result.error || 'Something went wrong. Please try again.');
+        errorMsg.textContent = msg;
+        errorDiv.style.display = 'block';
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit International Application';
+      }
+    })
+    .catch(function() {
+      errorMsg.textContent = 'Network error. Please check your connection and try again, or call 850-961-2323.';
+      errorDiv.style.display = 'block';
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit International Application';
+    });
+  });
+})();
+</script>
+
+<style>
+.hero-bg-img { object-position: center 30% !important; }
+@media (max-width: 600px) {
+  #apply-form { padding: 1.5rem !important; }
+  #apply-form div[style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
