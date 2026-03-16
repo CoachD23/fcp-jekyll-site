@@ -46,6 +46,10 @@ Disallow: /wp-json/
 Disallow: /wp-includes/
 Disallow: /xmlrpc.php
 
+# Legacy hosting artifacts
+Disallow: /cgi-sys/
+Disallow: /elementor-hf/
+
 # WordPress category/tag/pagination archives
 Disallow: /category/
 Disallow: /tag/

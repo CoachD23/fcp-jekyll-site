@@ -432,6 +432,78 @@
   to = "/feed.xml"
   status = 301
 
+# --- GSC 404 fixes (Mar 2026) ---
+[[redirects]]
+  from = "/apply-3"
+  to = "/apply/"
+  status = 301
+
+[[redirects]]
+  from = "/Spartan-Training-Center/"
+  to = "/training/"
+  status = 301
+
+[[redirects]]
+  from = "/home/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/elementor-hf/haeder/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/elementor-hf/*"
+  to = "/"
+  status = 301
+
+# --- GSC crawled-not-indexed fixes (Mar 2026) ---
+[[redirects]]
+  from = "/apply2025/"
+  to = "/apply/"
+  status = 301
+
+[[redirects]]
+  from = "/tag/*"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/cgi-sys/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-includes/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-json/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/forms"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/gear-sizes"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/hs-virtual-tour"
+  to = "/high-school/"
+  status = 301
+
 # --- WordPress wp-content image hotlinks (keep working) ---
 [[redirects]]
   from = "/wp-content/uploads/*"
