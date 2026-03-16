@@ -3,7 +3,7 @@ layout: post
 title: "Basketball Recruiting Timeline: Year-by-Year Guide for Players & Parents"
 date: 2026-03-16
 categories: [recruiting]
-image: /assets/images/blog/scholarships.jpg
+image: /assets/images/blog/college-basketball-scholarships-student-athletes.jpg
 description: "A complete basketball recruiting timeline from 8th grade through post-grad. Know exactly what coaches look for at every stage and when to make your move."
 excerpt: "Most players miss their recruiting window not because they lack talent — but because they don't know the timeline. Here's exactly what to do and when, from freshman year through post-grad."
 ---
