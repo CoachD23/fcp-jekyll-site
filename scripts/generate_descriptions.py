@@ -12,9 +12,15 @@ Usage:
     python3 scripts/generate_descriptions.py --limit 50   # process only N schools
     python3 scripts/generate_descriptions.py --workers 10 # concurrency (default: 10)
     python3 scripts/generate_descriptions.py --reset-slug some-school-slug  # rewrite one
+    python3 scripts/generate_descriptions.py --max-cost 0.50  # stop if estimated cost exceeds $0.50
 
 Output appends to: _data/recruiting/school_descriptions.yml
 Progress tracked:  scripts/desc_progress.json
+
+Rate limit notes (Haiku, 5-hour rolling window):
+    - If you hit rate limits, the script retries with exponential backoff (2s, 4s, 8s)
+    - Reduce --workers to 5 if you see sustained rate limit errors
+    - A full run of ~1,553 schools should complete in one 5-hour window at 10 workers
 """
 
 import argparse
@@ -41,6 +47,19 @@ PROGRESS_FILE     = Path(__file__).parent / "desc_progress.json"
 # ─── Model ────────────────────────────────────────────────────────────────────
 MODEL = "claude-haiku-4-5-20251001"
 MAX_TOKENS = 600
+
+# ─── Cost estimation (Haiku pricing as of 2026-03) ───────────────────────────
+# Input:  $0.80 / 1M tokens  |  Output: $4.00 / 1M tokens
+COST_PER_INPUT_TOKEN  = 0.80  / 1_000_000
+COST_PER_OUTPUT_TOKEN = 4.00  / 1_000_000
+# Approximate prompt size: ~450 input tokens per school
+EST_INPUT_TOKENS_PER_SCHOOL  = 450
+# Approximate description size: ~220 output tokens per school
+EST_OUTPUT_TOKENS_PER_SCHOOL = 220
+EST_COST_PER_SCHOOL = (
+    EST_INPUT_TOKENS_PER_SCHOOL  * COST_PER_INPUT_TOKEN +
+    EST_OUTPUT_TOKENS_PER_SCHOOL * COST_PER_OUTPUT_TOKEN
+)
 
 # ─── Logging ──────────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -337,14 +356,26 @@ async def run(args: argparse.Namespace) -> None:
     if args.limit:
         todo = todo[: args.limit]
 
+    est_cost = len(todo) * EST_COST_PER_SCHOOL
     log.info(f"Schools total:      {len(schools)}")
     log.info(f"Already have desc:  {len(done_slugs)}")
     log.info(f"Need descriptions:  {total_missing}")
     log.info(f"This run will do:   {len(todo)}")
+    log.info(f"Est. cost:          ${est_cost:.4f}  (~${EST_COST_PER_SCHOOL*1000:.2f} per 1k schools)")
     log.info(f"Workers:            {args.workers}")
     log.info(f"Model:              {MODEL}")
     log.info(f"Dry run:            {args.dry_run}")
+    if args.max_cost and est_cost > args.max_cost:
+        log.warning(f"Estimated cost ${est_cost:.4f} exceeds --max-cost ${args.max_cost:.2f}")
+        log.warning("Reduce --limit or raise --max-cost to proceed.")
+        sys.exit(1)
     log.info("─" * 60)
+    # Rate limit reminder for large runs
+    if len(todo) > 200:
+        log.info("NOTE: Haiku rate limits run on a 5-hour rolling window.")
+        log.info("      If you hit sustained limits, rerun — failed slugs retry automatically.")
+        log.info("      Reduce --workers to 5 if rate errors persist.")
+        log.info("─" * 60)
 
     if not todo:
         log.info("Nothing to do — all schools have descriptions.")
@@ -440,6 +471,12 @@ def main() -> None:
         type=str,
         default="",
         help="Force-regenerate a specific school slug even if it already has a description.",
+    )
+    parser.add_argument(
+        "--max-cost",
+        type=float,
+        default=0.0,
+        help="Abort before starting if estimated cost exceeds this USD amount (0 = no cap).",
     )
     args = parser.parse_args()
 
