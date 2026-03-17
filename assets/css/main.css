@@ -8174,3 +8174,219 @@ iframe { max-width: 100%; }
   .player-stat-value { font-size: 1.4rem; }
 }
 
+/* ═══════════════════════════════════════════════════════════════
+   DIVISION PAGE — ESPN-STYLE UPGRADE
+   Tab nav + notable programs grid + map section + division accents
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Tab navigation */
+.division-tab-nav {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid #e5e7eb;
+  margin: 2rem 0 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.division-tab-nav::-webkit-scrollbar { display: none; }
+.division-tab-btn {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 0.75rem 1.4rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #6b7280;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-bottom: -2px;
+  transition: color 0.15s, border-color 0.15s;
+  letter-spacing: 0.01em;
+}
+.division-tab-btn:hover { color: #1a1a2e; }
+.division-tab-btn.active {
+  color: #b22234;
+  border-bottom-color: #b22234;
+}
+.division-tab-panel { display: none; padding: 1.5rem 0; }
+.division-tab-panel.active { display: block; }
+
+/* Recruit map section (generic, all divisions) */
+.recruit-map-section { margin: 0 0 1.5rem; }
+.recruit-map-section h2 {
+  font-size: 1.1rem;
+  color: #1a1a2e;
+  margin: 0 0 0.75rem;
+  font-weight: 700;
+}
+.recruit-map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.2rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.82rem;
+  color: #4b5563;
+}
+.recruit-map-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.recruit-map-legend-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.recruit-map-wrap {
+  position: relative;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.recruit-map-wrap svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.recruit-map-wrap svg path {
+  stroke: #fff;
+  stroke-width: 0.8;
+  transition: opacity 0.15s;
+}
+.recruit-map-wrap svg path:hover { opacity: 0.82; }
+.recruit-map-tooltip {
+  position: fixed;
+  background: rgba(20,20,40,0.95);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  pointer-events: none;
+  z-index: 9999;
+  max-width: 220px;
+  line-height: 1.5;
+  display: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+.recruit-map-tooltip.visible { display: block; }
+.recruit-map-tooltip strong { display: block; font-size: 0.88rem; margin-bottom: 2px; }
+
+/* Notable programs grid */
+.division-notable-intro {
+  color: #4b5563;
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.65;
+}
+.division-notable-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.division-notable-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.1rem 0.9rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.15s, border-color 0.15s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.division-notable-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+  border-color: #b22234;
+}
+.division-notable-card-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+.division-notable-card-name {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  line-height: 1.3;
+}
+.division-notable-card-conf {
+  font-size: 0.72rem;
+  color: #6b7280;
+  background: #f3f4f6;
+  padding: 2px 8px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+.division-notable-card-note {
+  font-size: 0.72rem;
+  color: #b22234;
+  font-weight: 600;
+}
+
+/* Division hero accent bar */
+.division-hero-accent {
+  display: inline-block;
+  background: rgba(178,34,52,0.18);
+  border: 1px solid rgba(178,34,52,0.4);
+  color: #fca5a5;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 12px;
+  border-radius: 20px;
+  margin-bottom: 0.6rem;
+}
+
+/* FCP commitments spotlight strip */
+.division-fcp-commits {
+  background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4e 100%);
+  border-radius: 10px;
+  padding: 1.5rem 1.75rem;
+  margin: 1.5rem 0;
+  color: #fff;
+}
+.division-fcp-commits h3 {
+  font-size: 1rem;
+  color: #fca5a5;
+  margin: 0 0 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.8rem;
+}
+.division-fcp-commits-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.division-commit-chip {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  color: #e9d5ff;
+  white-space: nowrap;
+}
+.division-commit-chip strong { color: #fff; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .division-tab-btn { padding: 0.6rem 1rem; font-size: 0.85rem; }
+  .division-notable-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.75rem; }
+  .division-fcp-commits { padding: 1.1rem 1.2rem; }
+}
+@media (max-width: 480px) {
+  .division-notable-grid { grid-template-columns: repeat(3, 1fr); gap: 0.6rem; }
+  .division-notable-card { padding: 0.8rem 0.5rem; }
+  .division-notable-card-logo { width: 40px; height: 40px; }
+}
+
