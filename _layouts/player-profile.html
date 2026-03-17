@@ -1,0 +1,75 @@
+---
+layout: default
+---
+{% assign player = page.player %}
+<article class="player-profile">
+  <div class="container">
+
+    <!-- Breadcrumb -->
+    <nav class="recruit-breadcrumb">
+      <a href="/">Home</a> › <a href="/players/">FCP Alumni</a> › <span>{{ player.name }}</span>
+    </nav>
+
+    <!-- Header -->
+    <div class="player-header">
+      {% if player.image %}
+      <div class="player-header-img">
+        <img src="{{ player.image }}" alt="{{ player.name }} basketball" width="200" height="200">
+      </div>
+      {% endif %}
+      <div class="player-header-info">
+        <h1>{{ player.name }}</h1>
+        <div class="player-meta">
+          {% if player.position %}<span class="player-pill">{{ player.position }}</span>{% endif %}
+          {% if player.height %}<span class="player-pill">{{ player.height }}</span>{% endif %}
+          {% if player.now_division %}<span class="player-pill recruit-division-pill">{{ player.now_division }}</span>{% endif %}
+        </div>
+        <p class="player-team">{{ player.now_team }}{% if player.now_conference %} · {{ player.now_conference }}{% endif %}</p>
+        {% if player.hometown %}<p class="player-hometown">From {{ player.hometown }}</p>{% endif %}
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    {% if player.stats %}
+    <div class="player-stats-bar">
+      {% for stat in player.stats %}
+      <div class="player-stat">
+        <span class="player-stat-value">{{ stat.value }}</span>
+        <span class="player-stat-label">{{ stat.label }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Bio -->
+    {% if player.bio %}
+    <div class="player-bio">
+      <h2>About {{ player.name }}</h2>
+      <p>{{ player.bio }}</p>
+    </div>
+    {% endif %}
+
+    <!-- FCP Journey -->
+    <div class="player-fcp-journey">
+      <h2>The FCP Journey</h2>
+      <p>{{ player.name }} trained at Florida Coastal Prep in Fort Walton Beach, FL{% if player.fcp_year %} during the {{ player.fcp_year }} season{% endif %}. Under the guidance of Director Lee DeForest and NBA All-Star Kenny Anderson, {{ player.name }} developed the skills and earned the exposure needed to compete at the {{ player.now_division }} level.</p>
+      {% if player.alumni_post %}
+      <p><a href="{{ player.alumni_post }}">Read {{ player.name }}'s full story →</a></p>
+      {% endif %}
+      {% if player.espn_url %}
+      <p><a href="{{ player.espn_url }}" target="_blank" rel="noopener">View {{ player.name }} on ESPN →</a></p>
+      {% endif %}
+    </div>
+
+    <!-- CTA -->
+    <div class="recruit-bottom-cta">
+      <h2>Follow in {{ player.name }}'s Footsteps</h2>
+      <p>FCP has helped players from across the country earn offers at every level of college basketball. If you're serious about playing at the next level, let's talk.</p>
+      <div class="recruit-cta-buttons">
+        <a href="/apply/" class="btn btn-primary">Apply to FCP</a>
+        <a href="/post-grad/" class="btn btn-outline-dark">Learn About the Program</a>
+      </div>
+    </div>
+
+  </div>
+</article>
