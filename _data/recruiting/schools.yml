@@ -11486,6 +11486,27 @@
   best_email: markv@usca.edu
   staff_count: 2
   coach_status: imported
+- name: University of South Carolina Beaufort
+  slug: university-of-south-carolina-beaufort
+  nickname: Sand Sharks
+  abbreviation: USCB
+  espn_id: ''
+  city: Bluffton
+  state: SC
+  state_slug: south-carolina
+  division: D2
+  division_slug: d2-basketball-programs
+  conference: Peach Belt Conference
+  conference_slug: peach-belt-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
 - name: Augustana University
   slug: augustana-university
   nickname: ''
@@ -31252,11 +31273,11 @@
   nickname: ''
   abbreviation: ''
   espn_id: ''
-  city: ''
+  city: Santa Barbara
   state: CA
   state_slug: california
-  division: NAIA
-  division_slug: naia-basketball-programs
+  division: D2
+  division_slug: d2-basketball-programs
   conference: Golden State Athletic Conference
   conference_slug: golden-state-athletic-conference
   color: ''
