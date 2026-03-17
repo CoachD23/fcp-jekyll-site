@@ -10,10 +10,10 @@
  *
  * Dependencies:
  *   npm install yaml js-yaml node-fetch@3 simple-git
- *   (Lightpanda via OpenClaw for JS-rendered pages — install separately)
+ *   (Lightpanda headless browser for JS-rendered pages — install separately)
  *
- * OpenClaw docs:  https://github.com/lightpanda-io/openclaw
- * Lightpanda:     https://github.com/lightpanda-io/browser
+ * Lightpanda docs: https://lightpanda.io/docs/open-source/getting-started/usage
+ * Lightpanda repo: https://github.com/lightpanda-io/browser
  *
  * Usage:
  *   node scripts/scrape-coaching-changes.js           # dry run (stdout only)
@@ -164,36 +164,36 @@ function normalizeChangeType(raw) {
   return 'rumor';
 }
 
-// ── Source 2: HoopDirt (JS-rendered — uses OpenClaw + Lightpanda) ─────────────
+// ── Source 2: HoopDirt (JS-rendered — uses Lightpanda headless browser) ───────
 /**
- * OpenClaw is a headless browser CLI built on Lightpanda (Zig-based, fast).
- * It renders JS-heavy pages and returns clean text/HTML.
+ * Lightpanda is a Zig-based headless browser optimized for AI & automation.
+ * It renders JS-heavy pages and returns clean HTML.
  *
- * Install: https://github.com/lightpanda-io/openclaw#installation
- *   curl -LO https://github.com/lightpanda-io/openclaw/releases/latest/download/openclaw-linux-x86_64
- *   chmod +x openclaw-linux-x86_64 && mv openclaw-linux-x86_64 /usr/local/bin/openclaw
+ * Install: https://lightpanda.io/docs/open-source/getting-started/usage
+ *   curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux
+ *   chmod +x lightpanda && mv lightpanda /usr/local/bin/lightpanda
  *
- * Usage: openclaw fetch <url> --format text --wait 2000
+ * Usage: lightpanda fetch --dump <url>
  */
 async function scrapeHoopDirt() {
-  log('Fetching HoopDirt via OpenClaw + Lightpanda...');
+  log('Fetching HoopDirt via Lightpanda...');
   const HOOPDIRT_URL = 'https://hoopdirt.com/coaching-changes/';
 
-  // Check if openclaw is available
-  let hasOpenClaw = false;
+  // Check if lightpanda is available
+  let hasLightpanda = false;
   try {
-    execSync('openclaw --version', { stdio: 'pipe' });
-    hasOpenClaw = true;
+    execSync('lightpanda --version', { stdio: 'pipe' });
+    hasLightpanda = true;
   } catch {
-    warn('OpenClaw not found — falling back to plain fetch for HoopDirt');
+    warn('Lightpanda not found — falling back to plain fetch for HoopDirt');
   }
 
   try {
     let html;
-    if (hasOpenClaw) {
-      // Render JS, wait 2s for dynamic content, return full HTML
+    if (hasLightpanda) {
+      // Render JS and dump full HTML to stdout
       const result = execSync(
-        `openclaw fetch "${HOOPDIRT_URL}" --format html --wait 2000 --timeout 30000`,
+        `lightpanda fetch --dump --http_timeout 30000 "${HOOPDIRT_URL}"`,
         { encoding: 'utf8', maxBuffer: 5 * 1024 * 1024, timeout: 45000 }
       );
       html = result;

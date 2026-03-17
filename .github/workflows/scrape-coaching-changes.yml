@@ -44,16 +44,17 @@ jobs:
             npm ci
           fi
 
-      - name: Install OpenClaw (Lightpanda headless browser)
+      - name: Install Lightpanda headless browser
         run: |
-          # Download latest openclaw binary for Linux x86_64
-          curl -fsSL -o /tmp/openclaw \
-            https://github.com/lightpanda-io/openclaw/releases/latest/download/openclaw-linux-x86_64 \
-            || echo "OpenClaw download failed — plain fetch fallback will be used"
-          if [ -f /tmp/openclaw ]; then
-            chmod +x /tmp/openclaw
-            sudo mv /tmp/openclaw /usr/local/bin/openclaw
-            openclaw --version && echo "OpenClaw installed successfully"
+          # Download latest Lightpanda binary for Linux x86_64
+          # Repo moved from lightpanda-io/openclaw → lightpanda-io/browser
+          curl -fsSL -L -o /tmp/lightpanda \
+            https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux \
+            || echo "Lightpanda download failed — plain fetch fallback will be used"
+          if [ -f /tmp/lightpanda ]; then
+            chmod +x /tmp/lightpanda
+            sudo mv /tmp/lightpanda /usr/local/bin/lightpanda
+            echo "Lightpanda installed successfully"
           fi
         continue-on-error: true  # Non-fatal: scraper has plain-fetch fallback
 
