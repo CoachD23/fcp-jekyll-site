@@ -4,7 +4,7 @@ title: "Train Like a Pro Before College: The New Standard for Player Development
 date: 2026-03-10
 categories: [training]
 image: /assets/images/blog/pro-training-basketball.jpg
-description: "College basketball now rewards players who arrive ready. Here's what professional-level development looks like before college — and how FCP's training program builds it."
+description: "How to train like a pro before your college career starts — the habits, routines, and intensity level that separate FCP players from the competition."
 excerpt: "In the NIL era, college basketball coaches don't have time to develop players. The players who earn and keep scholarships are the ones who arrived already developed. Here's what that preparation looks like."
 ---
 

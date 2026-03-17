@@ -4,7 +4,7 @@ title: "Brandon Maclin Earns Big East Honor Roll as DePaul Chases History"
 date: 2026-02-20
 categories: [alumni]
 image: /assets/images/blog/brandon-maclin-bmac.webp
-description: "FCP alum Brandon Maclin earns Big East Honor Roll honors at DePaul, averaging 19.5 PPG over wins against Creighton and Marquette — leading the Blue Demons toward a historic Big East Tournament bid."
+description: "Brandon Maclin earns Big East Academic Honor Roll at DePaul — from FCP post-grad to one of college basketball's most prestigious academic conferences."
 excerpt: "Brandon Maclin is playing his best basketball at the biggest moment. The FCP product just earned Big East Honor Roll at DePaul after back-to-back wins over Creighton and Marquette — and Senior Night is next."
 ---
 

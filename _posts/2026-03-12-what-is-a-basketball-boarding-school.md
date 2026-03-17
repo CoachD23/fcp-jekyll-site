@@ -4,7 +4,7 @@ title: "What Is a Basketball Boarding School? A Guide for Players & Parents"
 date: 2026-03-12
 categories: [recruiting]
 image: /assets/images/blog/postgrad-program-wp.jpg
-description: "What is a boarding school for basketball players? Learn how basketball boarding schools and prep programs work, what they cost, and whether the path is right for your athlete."
+description: "What is a basketball boarding school? How it differs from prep school, post-grad programs, and AAU — and whether it's the right path for your development."
 excerpt: "Basketball boarding schools combine elite training with academics in a residential setting. Here's how they work, what they cost, and what families should know before enrolling."
 ---
 
