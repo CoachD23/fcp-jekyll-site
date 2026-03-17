@@ -22,4 +22,6 @@ Residential students enjoy comfortable accommodations just steps away from the b
 
 Coach Lee DeForest directs the program with focus on developing outstanding young men who excel both on the court and in their communities. The coaching staff collaborates with NBA veteran Kenny Anderson, who delivers personalized attention needed to succeed through individual sessions and mentoring.
 
+Ready to apply to the post-grad program? Start your journey today. [Apply now](/apply/) or [contact us](/contact/) to learn more.
+
 ---

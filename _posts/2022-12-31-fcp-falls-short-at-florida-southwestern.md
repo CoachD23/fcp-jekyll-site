@@ -14,4 +14,6 @@ The Bucs dominated the opening minutes with aggressive three-point shooting and 
 
 Despite the loss, the Florida Coastal squad gained valuable experience competing against a top-tier program. The coaching staff and players view this contest as an instructive opportunity rather than a setback. They recognize areas needing improvement and remain focused on their championship aspirations.
 
+See how FCP players develop through adversity and elite competition. Our program builds champions both on and off the court. [Learn more about our post-grad program](/post-grad/) or [apply now](/apply/).
+
 ---

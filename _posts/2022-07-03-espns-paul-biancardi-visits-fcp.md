@@ -16,4 +16,6 @@ FCP invited Biancardi to spend several days teaching basketball drills and conce
 
 Biancardi toured all FCP residences and facilities during his stay. FCP is among Florida's first programs to adopt luxury bus transportation and was the first in the state to invite ESPN to campus.
 
+Get in front of scouts like Biancardi. Florida Coastal Prep brings elite evaluators to campus year-round. [Learn more about the program](/post-grad/) or [apply today](/apply/).
+
 ---

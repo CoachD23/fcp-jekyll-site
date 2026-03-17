@@ -38,4 +38,6 @@ Coaches serve as advocates during recruitment. Demonstrating commitment and acce
 
 Continuous improvement signals serious collegiate aspirations. Dedication and visibility combined create recruitment opportunities.
 
+FCP puts you in front of the right coaches and scouts. Our program hosts elite evaluators and positions athletes for success. [Learn more about the program](/post-grad/) or [apply now](/apply/).
+
 ---

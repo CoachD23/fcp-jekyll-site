@@ -22,4 +22,6 @@ The Spartans faced Jacksonville's Oakleaf Academy, which played aggressively wit
 
 The championship featured an exceptionally skilled opponent in a closely contested battle. Brandon Maclin from Odessa JC delivered standout defensive performance. FCP held on with timely free throw shooting and rebounding to secure the championship victory.
 
+Ready to compete at FCP's level? Our post-grad program attracts elite talent from across the country. [Explore the program](/post-grad/) or [apply to join us](/apply/).
+
 ---
