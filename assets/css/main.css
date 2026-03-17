@@ -4510,6 +4510,18 @@ iframe { max-width: 100%; }
   transform: translateX(-50%) scale(1);
 }
 
+/* Browse Directory — post pages */
+.post-browse-directory {
+  background: #1a1a2e;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+}
+.post-browse-directory a { color: #f5c518; }
+.post-browse-directory a:hover { color: #fff; }
+
 /* =============================================
    AUTHOR CARD
    ============================================= */
@@ -7430,6 +7442,46 @@ iframe { max-width: 100%; }
   color: #fff;
 }
 .recruit-guide-chip-icon { font-size: 1rem; }
+
+/* Related Guides — school pages */
+.recruit-related-guides {
+  background: #f8f9fa;
+  border-left: 4px solid #b22234;
+  border-radius: 6px;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+}
+.recruit-related-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 1rem 0;
+}
+.recruit-related-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.recruit-guide-link {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.85rem;
+  color: #1a1a2e;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.recruit-guide-link:hover {
+  background: #b22234;
+  color: #fff;
+  border-color: #b22234;
+}
+@media (max-width: 768px) {
+  .recruit-related-guides { padding: 1rem 1.2rem; }
+  .recruit-guide-link { font-size: 0.8rem; }
+}
 
 /* ── Bottom CTA ──────────────────────────────────────────────── */
 .recruit-bottom-cta {
