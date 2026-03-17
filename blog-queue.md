@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FCP Blog Queue
 # Format: STATUS | PRIORITY | TARGET KEYWORD | TITLE | AUDIENCE | ANGLE
 # STATUS: TODO / DONE
