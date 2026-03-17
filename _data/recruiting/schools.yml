@@ -39205,3 +39205,213 @@
   staff_count: 0
   coach_status: ''
   juco_org: NJCAA
+- name: Troy Trojans
+  slug: troy-trojans
+  nickname: Trojans
+  abbreviation: TROY
+  espn_id: ''
+  city: Troy
+  state: AL
+  state_slug: alabama
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Sun Belt Conference
+  conference_slug: sun-belt-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: South Alabama Jaguars
+  slug: south-alabama-jaguars
+  nickname: Jaguars
+  abbreviation: USA
+  espn_id: ''
+  city: Mobile
+  state: AL
+  state_slug: alabama
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Sun Belt Conference
+  conference_slug: sun-belt-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Arkansas Pine Bluff Golden Lions
+  slug: arkansas-pine-bluff-golden-lions
+  nickname: Golden Lions
+  abbreviation: UAPB
+  espn_id: ''
+  city: Pine Bluff
+  state: AR
+  state_slug: arkansas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southwestern Athletic Conference
+  conference_slug: southwestern-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Cal Baptist Lancers
+  slug: cal-baptist-lancers
+  nickname: Lancers
+  abbreviation: CBU
+  espn_id: ''
+  city: Riverside
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Western Athletic Conference
+  conference_slug: western-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Loyola Marymount Lions
+  slug: loyola-marymount-lions
+  nickname: Lions
+  abbreviation: LMU
+  espn_id: ''
+  city: Los Angeles
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: West Coast Conference
+  conference_slug: west-coast-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Pepperdine Waves
+  slug: pepperdine-waves
+  nickname: Waves
+  abbreviation: PEPP
+  espn_id: ''
+  city: Malibu
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: West Coast Conference
+  conference_slug: west-coast-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Saint Mary's Gaels
+  slug: saint-marys-gaels
+  nickname: Gaels
+  abbreviation: SMC
+  espn_id: ''
+  city: Moraga
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: West Coast Conference
+  conference_slug: west-coast-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Santa Clara Broncos
+  slug: santa-clara-broncos
+  nickname: Broncos
+  abbreviation: SCU
+  espn_id: ''
+  city: Santa Clara
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: West Coast Conference
+  conference_slug: west-coast-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: San Francisco Dons
+  slug: san-francisco-dons
+  nickname: Dons
+  abbreviation: USF
+  espn_id: ''
+  city: San Francisco
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: West Coast Conference
+  conference_slug: west-coast-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Pacific Tigers
+  slug: pacific-tigers
+  nickname: Tigers
+  abbreviation: UOP
+  espn_id: ''
+  city: Stockton
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: West Coast Conference
+  conference_slug: west-coast-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
