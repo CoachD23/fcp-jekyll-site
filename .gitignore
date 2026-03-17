@@ -19,3 +19,5 @@ FCP-Project-Docs/
 assets/images/Good Photos/
 scripts/__pycache__/
 scripts/desc_progress.json
+scripts/run.log
+scripts/run2.log
