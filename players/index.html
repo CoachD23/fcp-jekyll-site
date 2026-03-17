@@ -1,0 +1,33 @@
+---
+layout: page
+title: "FCP Alumni — College Basketball Placements"
+description: "Florida Coastal Prep alumni playing college basketball at D1, D2, NAIA, and JUCO programs. See where FCP players go after their post-grad year."
+og_image: /assets/images/post-grad/florida-coastal-prep-basketball-team-florida.jpeg
+---
+
+<section class="page-content">
+  <div class="container-narrow">
+    <h1>FCP Alumni</h1>
+    <p class="lead">Florida Coastal Prep has placed players at programs across every level of college basketball. Here are some of the standout alumni who've gone on to compete at the next level.</p>
+
+    <div class="player-grid">
+      {% assign players = site.data.players %}
+      {% for player in players %}
+      <a href="/players/{{ player.slug }}/" class="player-card">
+        {% if player.image %}
+        <img src="{{ player.image }}" alt="{{ player.name }}" width="120" height="120">
+        {% endif %}
+        <div class="player-card-info">
+          <strong>{{ player.name }}</strong>
+          <span>{{ player.now_team }}</span>
+          <span class="recruit-division-pill">{{ player.now_division }}</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <div class="text-center" style="margin-top:3rem">
+      <a href="/commitments/" class="btn btn-primary">See All 59 Commitments</a>
+    </div>
+  </div>
+</section>

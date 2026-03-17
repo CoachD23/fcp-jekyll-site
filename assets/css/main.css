@@ -8146,3 +8146,31 @@ iframe { max-width: 100%; }
   .recruit-school-header-text h1 { font-size: 1.15rem; }
 }
 
+/* ── Player Profiles ─────────────────────────────── */
+.player-profile { padding: 2rem 0 4rem; }
+.player-header { display: flex; gap: 2rem; align-items: flex-start; margin: 1.5rem 0 2rem; }
+.player-header-img img { width: 180px; height: 180px; object-fit: cover; border-radius: 12px; }
+.player-header-info h1 { font-size: 2rem; margin: 0 0 0.5rem; }
+.player-meta { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+.player-pill { background: #f0f0f0; border-radius: 20px; padding: 0.2rem 0.7rem; font-size: 0.85rem; color: #1a1a2e; }
+.player-team { font-size: 1.1rem; font-weight: 600; color: #1a1a2e; margin: 0.3rem 0; }
+.player-hometown { color: #666; font-size: 0.9rem; margin: 0; }
+.player-stats-bar { display: flex; gap: 1.5rem; background: #1a1a2e; border-radius: 10px; padding: 1.5rem 2rem; margin: 1.5rem 0; flex-wrap: wrap; }
+.player-stat { text-align: center; }
+.player-stat-value { display: block; font-size: 1.8rem; font-weight: 800; color: #fff; }
+.player-stat-label { font-size: 0.75rem; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
+.player-bio, .player-fcp-journey { margin: 2rem 0; }
+.player-bio h2, .player-fcp-journey h2 { font-size: 1.3rem; color: #1a1a2e; border-bottom: 2px solid #b22234; padding-bottom: 0.4rem; margin-bottom: 1rem; }
+.player-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+.player-card { display: flex; flex-direction: column; align-items: center; text-align: center; border: 1px solid #dee2e6; border-radius: 10px; padding: 1.2rem; text-decoration: none; color: #1a1a2e; transition: all 0.2s; }
+.player-card:hover { border-color: #b22234; box-shadow: 0 4px 12px rgba(178,34,52,0.1); }
+.player-card img { width: 100px; height: 100px; object-fit: cover; border-radius: 50%; margin-bottom: 0.8rem; }
+.player-card-info { display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.9rem; }
+.player-card-info strong { font-size: 1rem; }
+@media (max-width: 768px) {
+  .player-header { flex-direction: column; }
+  .player-header-img img { width: 120px; height: 120px; }
+  .player-stats-bar { gap: 1rem; padding: 1rem; }
+  .player-stat-value { font-size: 1.4rem; }
+}
+
