@@ -7,7 +7,7 @@ layout: default
 {% assign conferences = site.data.recruiting.conferences | where: "division", page.division_id | sort: "name" %}
 {% assign fcp_commits = site.data.commitments | where: "level", page.division_id %}
 
-<section class="page-header recruit-hero">
+<section class="page-header recruit-hero" {% if page.hero_image %}style="background-image: url('{{ page.hero_image | relative_url }}')"{% endif %}>
   <div class="container">
     <nav class="recruit-breadcrumb" aria-label="Breadcrumb">
       <a href="/college-basketball-programs-directory/">All Programs</a> › <span>{{ page.title }}</span>
