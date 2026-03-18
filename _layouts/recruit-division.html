@@ -99,19 +99,33 @@ layout: default
       <!-- Tab 3: Notable Programs -->
       {% if page.notable_programs %}
       <div class="division-tab-panel" id="tab-panel-notable" role="tabpanel">
-        <p class="division-notable-intro">{{ page.notable_intro | default: "A selection of prominent programs at this level — click any card to see the full program profile." }}</p>
-        <div class="division-notable-grid">
-          {% for prog in page.notable_programs %}
-          <a href="/{{ page.division_slug }}/{{ prog.state_slug }}/{{ prog.slug }}/" class="division-notable-card">
-            <img src="{{ prog.logo | default: '/assets/images/basketball-placeholder.jpg' }}"
-                 alt="{{ prog.name }} logo"
-                 class="division-notable-card-logo"
-                 onerror="this.src='/assets/images/basketball-placeholder.jpg'">
-            <span class="division-notable-card-name">{{ prog.name }}</span>
-            {% if prog.conference %}<span class="division-notable-card-conf">{{ prog.conference }}</span>{% endif %}
-            {% if prog.note %}<span class="division-notable-card-note">{{ prog.note }}</span>{% endif %}
-          </a>
-          {% endfor %}
+        <p class="division-notable-intro">{{ page.notable_intro | default: "A selection of prominent programs at this level — click any to see the full program profile." }}</p>
+        <div class="division-notable-table-wrap">
+          <table class="division-notable-table">
+            <thead>
+              <tr>
+                <th class="notable-th-rank">#</th>
+                <th class="notable-th-program">Program</th>
+                <th class="notable-th-conf">Conference</th>
+                <th class="notable-th-state">State</th>
+                <th class="notable-th-note">Notable</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for prog in page.notable_programs %}
+              {% assign prog_state = states | where: "slug", prog.state_slug | first %}
+              <tr class="notable-row" onclick="window.location='/{{ page.division_slug }}/{{ prog.state_slug }}/{{ prog.slug }}/'">
+                <td class="notable-td-rank">{{ forloop.index }}</td>
+                <td class="notable-td-program">
+                  <a href="/{{ page.division_slug }}/{{ prog.state_slug }}/{{ prog.slug }}/">{{ prog.name }}</a>
+                </td>
+                <td class="notable-td-conf"><span class="notable-conf-badge">{{ prog.conference }}</span></td>
+                <td class="notable-td-state">{{ prog_state.name | default: prog.state_slug | replace: "-", " " | capitalize }}</td>
+                <td class="notable-td-note">{% if prog.note %}{{ prog.note }}{% endif %}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
         </div>
       </div>
       {% endif %}

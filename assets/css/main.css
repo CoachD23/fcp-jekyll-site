@@ -8274,61 +8274,95 @@ iframe { max-width: 100%; }
 .recruit-map-tooltip.visible { display: block; }
 .recruit-map-tooltip strong { display: block; font-size: 0.88rem; margin-bottom: 2px; }
 
-/* Notable programs grid */
+/* Notable programs — ESPN-style table */
 .division-notable-intro {
   color: #4b5563;
   font-size: 0.95rem;
   margin-bottom: 1.25rem;
   line-height: 1.65;
 }
-.division-notable-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-}
-.division-notable-card {
-  background: #fff;
+.division-notable-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   border: 1px solid #e5e7eb;
   border-radius: 10px;
-  padding: 1.1rem 0.9rem;
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-  transition: box-shadow 0.2s, transform 0.15s, border-color 0.15s;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  background: #fff;
 }
-.division-notable-card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-  transform: translateY(-2px);
-  border-color: #b22234;
+.division-notable-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
 }
-.division-notable-card-logo {
-  width: 52px;
-  height: 52px;
-  object-fit: contain;
+.division-notable-table thead {
+  background: #0a1628;
+  color: #fff;
 }
-.division-notable-card-name {
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: #1a1a2e;
-  line-height: 1.3;
-}
-.division-notable-card-conf {
+.division-notable-table th {
+  padding: 0.7rem 1rem;
   font-size: 0.72rem;
-  color: #6b7280;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: left;
+  white-space: nowrap;
+  border-bottom: 2px solid #b22234;
+}
+.notable-th-rank { width: 40px; text-align: center; }
+.notable-th-program { min-width: 180px; }
+.notable-th-conf { min-width: 110px; }
+.notable-th-state { min-width: 110px; }
+.notable-th-note { min-width: 120px; }
+.division-notable-table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  transition: background 0.12s;
+}
+.division-notable-table tbody tr:last-child { border-bottom: none; }
+.division-notable-table tbody tr:nth-child(even) { background: #fafbfc; }
+.division-notable-table tbody tr:hover {
+  background: #fff5f5;
+}
+.division-notable-table td {
+  padding: 0.75rem 1rem;
+  vertical-align: middle;
+}
+.notable-td-rank {
+  text-align: center;
+  font-weight: 700;
+  color: #9ca3af;
+  font-size: 0.82rem;
+  border-left: 3px solid transparent;
+}
+.notable-row:hover .notable-td-rank {
+  border-left-color: #b22234;
+  color: #b22234;
+}
+.notable-td-program a {
+  font-weight: 700;
+  color: #0a1628;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.notable-td-program a:hover { color: #b22234; }
+.notable-conf-badge {
+  display: inline-block;
   background: #f3f4f6;
-  padding: 2px 8px;
-  border-radius: 10px;
+  color: #374151;
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
   white-space: nowrap;
 }
-.division-notable-card-note {
-  font-size: 0.72rem;
+.notable-td-state {
+  color: #6b7280;
+  font-size: 0.88rem;
+}
+.notable-td-note {
   color: #b22234;
   font-weight: 600;
+  font-size: 0.82rem;
 }
 
 /* Division hero accent bar */
@@ -8381,12 +8415,17 @@ iframe { max-width: 100%; }
 /* Responsive */
 @media (max-width: 768px) {
   .division-tab-btn { padding: 0.6rem 1rem; font-size: 0.85rem; }
-  .division-notable-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.75rem; }
   .division-fcp-commits { padding: 1.1rem 1.2rem; }
+  .division-notable-table { font-size: 0.85rem; }
+  .division-notable-table th,
+  .division-notable-table td { padding: 0.6rem 0.75rem; }
+  .notable-th-state,
+  .notable-td-state { display: none; }
 }
 @media (max-width: 480px) {
-  .division-notable-grid { grid-template-columns: repeat(3, 1fr); gap: 0.6rem; }
-  .division-notable-card { padding: 0.8rem 0.5rem; }
-  .division-notable-card-logo { width: 40px; height: 40px; }
+  .division-notable-table th,
+  .division-notable-table td { padding: 0.5rem 0.6rem; }
+  .notable-th-rank,
+  .notable-td-rank { display: none; }
 }
 
