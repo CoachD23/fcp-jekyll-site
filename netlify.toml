@@ -252,7 +252,7 @@
 
 [[redirects]]
   from = "/red-team-roster/"
-  to = "/post-grad/"
+    to = "/"
   status = 301
 
 [[redirects]]
