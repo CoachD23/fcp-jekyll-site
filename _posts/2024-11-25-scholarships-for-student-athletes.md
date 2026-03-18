@@ -40,4 +40,6 @@ Many athletic and academic scholarships have deadlines months before the academi
 
 Your performance on the court matters, but so does your success in the classroom. Stay organized, utilize college resources like tutoring, and communicate proactively with coaches and professors.
 
+Florida Coastal Prep has helped hundreds of players earn scholarships at every level — D1, D2, NAIA, and JUCO. [Learn more about the program](/post-grad/) or [apply today](/apply/).
+
 ---

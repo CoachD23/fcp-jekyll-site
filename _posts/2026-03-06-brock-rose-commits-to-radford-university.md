@@ -7,7 +7,7 @@ image: /assets/images/alumni/brock-rose.jpeg
 player_name: Brock Rose
 current_team: Radford Highlanders
 fcp_label: FCP Spartans
-description: "Brock Rose earned a Division I scholarship to Radford University in the Big South Conference after developing his game at Florida Coastal Prep's post-graduate basketball program."
+description: "Brock Rose commits to Radford University from Florida Coastal Prep — how the post-grad year gave him the development and exposure to earn a D1 offer."
 excerpt: "FCP's Brock Rose has committed to Radford University, joining the Highlanders in the Big South Conference and continuing FCP's tradition of producing D1 talent."
 bio: "Post-graduate basketball player who developed at Florida Coastal Prep before earning a Division I scholarship to Radford University in the Big South Conference."
 stats:

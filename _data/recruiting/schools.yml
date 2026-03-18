@@ -11486,6 +11486,27 @@
   best_email: markv@usca.edu
   staff_count: 2
   coach_status: imported
+- name: University of South Carolina Beaufort
+  slug: university-of-south-carolina-beaufort
+  nickname: Sand Sharks
+  abbreviation: USCB
+  espn_id: ''
+  city: Bluffton
+  state: SC
+  state_slug: south-carolina
+  division: D2
+  division_slug: d2-basketball-programs
+  conference: Peach Belt Conference
+  conference_slug: peach-belt-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
 - name: Augustana University
   slug: augustana-university
   nickname: ''
@@ -31252,11 +31273,11 @@
   nickname: ''
   abbreviation: ''
   espn_id: ''
-  city: ''
+  city: Santa Barbara
   state: CA
   state_slug: california
-  division: NAIA
-  division_slug: naia-basketball-programs
+  division: D2
+  division_slug: d2-basketball-programs
   conference: Golden State Athletic Conference
   conference_slug: golden-state-athletic-conference
   color: ''
@@ -39174,6 +39195,1800 @@
   division_slug: juco-basketball-programs
   conference: Scenic West Athletic Conference
   conference_slug: scenic-west-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Troy Trojans
+  slug: troy-trojans
+  nickname: Trojans
+  abbreviation: TROY
+  espn_id: ''
+  city: Troy
+  state: AL
+  state_slug: alabama
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Sun Belt Conference
+  conference_slug: sun-belt-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: South Alabama Jaguars
+  slug: south-alabama-jaguars
+  nickname: Jaguars
+  abbreviation: USA
+  espn_id: ''
+  city: Mobile
+  state: AL
+  state_slug: alabama
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Sun Belt Conference
+  conference_slug: sun-belt-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Arkansas Pine Bluff Golden Lions
+  slug: arkansas-pine-bluff-golden-lions
+  nickname: Golden Lions
+  abbreviation: UAPB
+  espn_id: ''
+  city: Pine Bluff
+  state: AR
+  state_slug: arkansas
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Southwestern Athletic Conference
+  conference_slug: southwestern-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Cal Baptist Lancers
+  slug: cal-baptist-lancers
+  nickname: Lancers
+  abbreviation: CBU
+  espn_id: ''
+  city: Riverside
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: Western Athletic Conference
+  conference_slug: western-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Loyola Marymount Lions
+  slug: loyola-marymount-lions
+  nickname: Lions
+  abbreviation: LMU
+  espn_id: ''
+  city: Los Angeles
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: West Coast Conference
+  conference_slug: west-coast-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Pepperdine Waves
+  slug: pepperdine-waves
+  nickname: Waves
+  abbreviation: PEPP
+  espn_id: ''
+  city: Malibu
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: West Coast Conference
+  conference_slug: west-coast-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Saint Mary's Gaels
+  slug: saint-marys-gaels
+  nickname: Gaels
+  abbreviation: SMC
+  espn_id: ''
+  city: Moraga
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: West Coast Conference
+  conference_slug: west-coast-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Santa Clara Broncos
+  slug: santa-clara-broncos
+  nickname: Broncos
+  abbreviation: SCU
+  espn_id: ''
+  city: Santa Clara
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: West Coast Conference
+  conference_slug: west-coast-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: San Francisco Dons
+  slug: san-francisco-dons
+  nickname: Dons
+  abbreviation: USF
+  espn_id: ''
+  city: San Francisco
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: West Coast Conference
+  conference_slug: west-coast-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Pacific Tigers
+  slug: pacific-tigers
+  nickname: Tigers
+  abbreviation: UOP
+  espn_id: ''
+  city: Stockton
+  state: CA
+  state_slug: california
+  division: D1
+  division_slug: d1-basketball-programs
+  conference: West Coast Conference
+  conference_slug: west-coast-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: imported
+- name: Arkansas State University – Mid-South
+  slug: arkansas-state-university-mid-south
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: West Memphis
+  state: AR
+  state_slug: arkansas
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Bi-State Conference
+  conference_slug: bi-state-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Bismarck State College
+  slug: bismarck-state-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Bismarck
+  state: ND
+  state_slug: north-dakota
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Mon-Dak Conference
+  conference_slug: mon-dak-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Black Hawk College – Quad Cities
+  slug: black-hawk-college-quad-cities
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Moline
+  state: IL
+  state_slug: illinois
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Arrowhead Conference
+  conference_slug: arrowhead-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Bryant & Stratton College – Milwaukee
+  slug: bryant-stratton-college-milwaukee
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Milwaukee
+  state: WI
+  state_slug: wisconsin
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Independent
+  conference_slug: independent
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Bryant & Stratton College – Ohio
+  slug: bryant-stratton-college-ohio
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Solon
+  state: OH
+  state_slug: ohio
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Ohio Community College Athletic Conference
+  conference_slug: ohio-community-college-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Bryant & Stratton College – Virginia
+  slug: bryant-stratton-college-virginia
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Hampton
+  state: VA
+  state_slug: virginia
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Carolinas Athletic Association
+  conference_slug: carolinas-athletic-association
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Bucks County Community College
+  slug: bucks-county-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Newtown
+  state: PA
+  state_slug: pennsylvania
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Penn-Jersey Athletic Conference
+  conference_slug: penn-jersey-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Butler Community College
+  slug: butler-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: El Dorado
+  state: KS
+  state_slug: kansas
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Kansas Jayhawk Community College Conference
+  conference_slug: kansas-jayhawk-community-college-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Butler County Community College
+  slug: butler-county-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Butler
+  state: PA
+  state_slug: pennsylvania
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Western Pennsylvania Collegiate Conference
+  conference_slug: western-pennsylvania-collegiate-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Central Community College
+  slug: central-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Columbus
+  state: NE
+  state_slug: nebraska
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Region 9
+  conference_slug: region-9
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Central Lakes College – Brainerd
+  slug: central-lakes-college-brainerd
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Brainerd
+  state: MN
+  state_slug: minnesota
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Minnesota College Athletic Conference
+  conference_slug: minnesota-college-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Central Maine Community College
+  slug: central-maine-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Auburn
+  state: ME
+  state_slug: maine
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: New England Athletic Conference
+  conference_slug: new-england-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: City Colleges of Chicago – Kennedy-King College
+  slug: city-colleges-of-chicago-kennedy-king-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Chicago
+  state: IL
+  state_slug: illinois
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Chicago Area Athletic Conference
+  conference_slug: chicago-area-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: City Colleges of Chicago – Malcolm X College
+  slug: city-colleges-of-chicago-malcolm-x-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Chicago
+  state: IL
+  state_slug: illinois
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Chicago Area Athletic Conference
+  conference_slug: chicago-area-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: City Colleges of Chicago – Olive-Harvey College
+  slug: city-colleges-of-chicago-olive-harvey-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Chicago
+  state: IL
+  state_slug: illinois
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Chicago Area Athletic Conference
+  conference_slug: chicago-area-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Clark State College
+  slug: clark-state-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Springfield
+  state: OH
+  state_slug: ohio
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Ohio Community College Athletic Conference
+  conference_slug: ohio-community-college-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Cleveland Community College
+  slug: cleveland-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Shelby
+  state: NC
+  state_slug: north-carolina
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Carolinas Athletic Association
+  conference_slug: carolinas-athletic-association
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Coalinga College
+  slug: coalinga-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Coalinga
+  state: CA
+  state_slug: california
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Central Valley Conference
+  conference_slug: central-valley-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: CCCAA
+- name: Coastal Alabama Community College – Bay Minette
+  slug: coastal-alabama-community-college-bay-minette
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Bay Minette
+  state: AL
+  state_slug: alabama
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Alabama Community College Conference
+  conference_slug: alabama-community-college-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Coastal Alabama Community College – Monroeville
+  slug: coastal-alabama-community-college-monroeville
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Monroeville
+  state: AL
+  state_slug: alabama
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Alabama Community College Conference
+  conference_slug: alabama-community-college-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: College of the Sequoias
+  slug: college-of-the-sequoias
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Visalia
+  state: CA
+  state_slug: california
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Central Valley Conference
+  conference_slug: central-valley-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: CCCAA
+- name: Columbia College – California
+  slug: columbia-college-california
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Sonora
+  state: CA
+  state_slug: california
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Central Valley Conference
+  conference_slug: central-valley-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: CCCAA
+- name: Copper Mountain College
+  slug: copper-mountain-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Joshua Tree
+  state: CA
+  state_slug: california
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Inland Empire Athletic Conference
+  conference_slug: inland-empire-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: CCCAA
+- name: Dallas College – Richland
+  slug: dallas-college-richland
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Dallas
+  state: TX
+  state_slug: texas
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Dallas Athletic Conference
+  conference_slug: dallas-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Dallas College – Mountain View
+  slug: dallas-college-mountain-view
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Dallas
+  state: TX
+  state_slug: texas
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Dallas Athletic Conference
+  conference_slug: dallas-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Davidson County Community College
+  slug: davidson-county-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Thomasville
+  state: NC
+  state_slug: north-carolina
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Carolinas Athletic Association
+  conference_slug: carolinas-athletic-association
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Delta College – Michigan
+  slug: delta-college-michigan
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: University Center
+  state: MI
+  state_slug: michigan
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Michigan Community College Athletic Association
+  conference_slug: michigan-community-college-athletic-association
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Eastfield College
+  slug: eastfield-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Mesquite
+  state: TX
+  state_slug: texas
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Southwest Junior College Football Conference
+  conference_slug: southwest-junior-college-football-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Fresno City College
+  slug: fresno-city-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Fresno
+  state: CA
+  state_slug: california
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Central Valley Conference
+  conference_slug: central-valley-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: CCCAA
+- name: Glendale Community College – Arizona
+  slug: glendale-community-college-arizona
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Glendale
+  state: AZ
+  state_slug: arizona
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Arizona Community College Athletic Conference
+  conference_slug: arizona-community-college-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Glendale Community College – California
+  slug: glendale-community-college-california
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Glendale
+  state: CA
+  state_slug: california
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Western State Conference
+  conference_slug: western-state-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: CCCAA
+- name: Great Bay Community College
+  slug: great-bay-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Portsmouth
+  state: NH
+  state_slug: new-hampshire
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: New England Athletic Conference
+  conference_slug: new-england-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Hesston College
+  slug: hesston-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Hesston
+  state: KS
+  state_slug: kansas
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Kansas Jayhawk Community College Conference
+  conference_slug: kansas-jayhawk-community-college-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Jacksonville College
+  slug: jacksonville-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Jacksonville
+  state: TX
+  state_slug: texas
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Region 14
+  conference_slug: region-14
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Kirtland Community College
+  slug: kirtland-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Grayling
+  state: MI
+  state_slug: michigan
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Michigan Community College Athletic Association
+  conference_slug: michigan-community-college-athletic-association
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Lake Region State College
+  slug: lake-region-state-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Devils Lake
+  state: ND
+  state_slug: north-dakota
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Mon-Dak Conference
+  conference_slug: mon-dak-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Lamar State College
+  slug: lamar-state-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Port Arthur
+  state: TX
+  state_slug: texas
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Region 14
+  conference_slug: region-14
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Lawson State Community College – Birmingham
+  slug: lawson-state-community-college-birmingham
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Birmingham
+  state: AL
+  state_slug: alabama
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Alabama Community College Conference
+  conference_slug: alabama-community-college-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Manor College
+  slug: manor-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Jenkintown
+  state: PA
+  state_slug: pennsylvania
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Penn-Jersey Athletic Conference
+  conference_slug: penn-jersey-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Marian University's Ancilla College
+  slug: marian-universitys-ancilla-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Plymouth
+  state: IN
+  state_slug: indiana
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Michigan Community College Athletic Association
+  conference_slug: michigan-community-college-athletic-association
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Massachusetts Bay Community College
+  slug: massachusetts-bay-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Wellesley Hills
+  state: MA
+  state_slug: massachusetts
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: New England Athletic Conference
+  conference_slug: new-england-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Miami University – Hamilton
+  slug: miami-university-hamilton
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Hamilton
+  state: OH
+  state_slug: ohio
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Ohio Community College Athletic Conference
+  conference_slug: ohio-community-college-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Miami University – Middletown
+  slug: miami-university-middletown
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Middletown
+  state: OH
+  state_slug: ohio
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Ohio Community College Athletic Conference
+  conference_slug: ohio-community-college-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Middlesex College
+  slug: middlesex-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Edison
+  state: NJ
+  state_slug: new-jersey
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Garden State Athletic Conference
+  conference_slug: garden-state-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Monroe College – New Rochelle
+  slug: monroe-college-new-rochelle
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Bronx
+  state: NY
+  state_slug: new-york
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Hudson Valley Athletic Conference
+  conference_slug: hudson-valley-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Northampton County Area Community College
+  slug: northampton-county-area-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Bethlehem
+  state: PA
+  state_slug: pennsylvania
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Penn-Jersey Athletic Conference
+  conference_slug: penn-jersey-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Rainy River Community College
+  slug: rainy-river-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: International Falls
+  state: MN
+  state_slug: minnesota
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Minnesota College Athletic Conference
+  conference_slug: minnesota-college-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Rochester Community & Technical College
+  slug: rochester-community-technical-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Rochester
+  state: MN
+  state_slug: minnesota
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Minnesota College Athletic Conference
+  conference_slug: minnesota-college-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Rowan College – South Jersey (Gloucester)
+  slug: rowan-college-south-jersey-gloucester
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Sewell
+  state: NJ
+  state_slug: new-jersey
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Garden State Athletic Conference
+  conference_slug: garden-state-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Simmons College of Kentucky
+  slug: simmons-college-of-kentucky
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Louisville
+  state: KY
+  state_slug: kentucky
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Mid-East Region
+  conference_slug: mid-east-region
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: SUNY Adirondack Community College
+  slug: suny-adirondack-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Queensbury
+  state: NY
+  state_slug: new-york
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Hudson Valley Athletic Conference
+  conference_slug: hudson-valley-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: SUNY Cayuga Community College
+  slug: suny-cayuga-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Auburn
+  state: NY
+  state_slug: new-york
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Hudson Valley Athletic Conference
+  conference_slug: hudson-valley-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: SUNY Herkimer County Community College
+  slug: suny-herkimer-county-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Herkimer
+  state: NY
+  state_slug: new-york
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Hudson Valley Athletic Conference
+  conference_slug: hudson-valley-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: SUNY North Country Community College
+  slug: suny-north-country-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Saranac Lake
+  state: NY
+  state_slug: new-york
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Hudson Valley Athletic Conference
+  conference_slug: hudson-valley-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: SUNY Orange County Community College
+  slug: suny-orange-county-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Middletown
+  state: NY
+  state_slug: new-york
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Hudson Valley Athletic Conference
+  conference_slug: hudson-valley-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: SUNY Rockland Community College
+  slug: suny-rockland-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Suffern
+  state: NY
+  state_slug: new-york
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Hudson Valley Athletic Conference
+  conference_slug: hudson-valley-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: SUNY Sullivan County Community College
+  slug: suny-sullivan-county-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Loch Sheldrake
+  state: NY
+  state_slug: new-york
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Hudson Valley Athletic Conference
+  conference_slug: hudson-valley-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: SUNY Tompkins Cortland Community College
+  slug: suny-tompkins-cortland-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Dryden
+  state: NY
+  state_slug: new-york
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Hudson Valley Athletic Conference
+  conference_slug: hudson-valley-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: SUNY Ulster County Community College
+  slug: suny-ulster-county-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Stone Ridge
+  state: NY
+  state_slug: new-york
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Hudson Valley Athletic Conference
+  conference_slug: hudson-valley-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: SUNY Westchester Community College
+  slug: suny-westchester-community-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Valhalla
+  state: NY
+  state_slug: new-york
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Hudson Valley Athletic Conference
+  conference_slug: hudson-valley-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: The Community College of Baltimore County – Catonsville
+  slug: the-community-college-of-baltimore-county-catonsville
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Baltimore
+  state: MD
+  state_slug: maryland
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Maryland-District of Columbia Athletic Conference
+  conference_slug: maryland-district-of-columbia-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: The Community College of Baltimore County – Dundalk
+  slug: the-community-college-of-baltimore-county-dundalk
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Baltimore
+  state: MD
+  state_slug: maryland
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Maryland-District of Columbia Athletic Conference
+  conference_slug: maryland-district-of-columbia-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Trinidad State College
+  slug: trinidad-state-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Trinidad
+  state: CO
+  state_slug: colorado
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Scenic West Athletic Conference
+  conference_slug: scenic-west-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: University of Arkansas – Cossatot
+  slug: university-of-arkansas-cossatot
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: De Queen
+  state: AR
+  state_slug: arkansas
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Arkansas Community Colleges
+  conference_slug: arkansas-community-colleges
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: University of Connecticut – Avery Point
+  slug: university-of-connecticut-avery-point
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Groton
+  state: CT
+  state_slug: connecticut
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: New England Athletic Conference
+  conference_slug: new-england-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: University of South Carolina – Salkehatchie
+  slug: university-of-south-carolina-salkehatchie
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Walterboro
+  state: SC
+  state_slug: south-carolina
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Carolinas Athletic Association
+  conference_slug: carolinas-athletic-association
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: University of Wisconsin – Baraboo-Sauk County
+  slug: university-of-wisconsin-baraboo-sauk-county
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Baraboo
+  state: WI
+  state_slug: wisconsin
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Northern Athletic Conference
+  conference_slug: northern-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: University of Wisconsin – Fond du Lac
+  slug: university-of-wisconsin-fond-du-lac
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Fond Du Lac
+  state: WI
+  state_slug: wisconsin
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Northern Athletic Conference
+  conference_slug: northern-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: Utah State University Eastern
+  slug: utah-state-university-eastern
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Price
+  state: UT
+  state_slug: utah
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Scenic West Athletic Conference
+  conference_slug: scenic-west-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: UW-Stevens Point at Marshfield
+  slug: uw-stevens-point-at-marshfield
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Marshfield
+  state: WI
+  state_slug: wisconsin
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Northern Athletic Conference
+  conference_slug: northern-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: UW-Stevens Point at Wausau
+  slug: uw-stevens-point-at-wausau
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Wausau
+  state: WI
+  state_slug: wisconsin
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Northern Athletic Conference
+  conference_slug: northern-athletic-conference
+  color: ''
+  alt_color: ''
+  logo_url: ''
+  logo_dark_url: ''
+  espn_url: ''
+  head_coach: ''
+  best_email: ''
+  staff_count: 0
+  coach_status: ''
+  juco_org: NJCAA
+- name: West Virginia University Potomac State College
+  slug: west-virginia-university-potomac-state-college
+  nickname: ''
+  abbreviation: ''
+  espn_id: ''
+  city: Keyser
+  state: WV
+  state_slug: west-virginia
+  division: JUCO
+  division_slug: juco-basketball-programs
+  conference: Penn-Jersey Athletic Conference
+  conference_slug: penn-jersey-athletic-conference
   color: ''
   alt_color: ''
   logo_url: ''

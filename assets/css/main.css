@@ -4510,6 +4510,18 @@ iframe { max-width: 100%; }
   transform: translateX(-50%) scale(1);
 }
 
+/* Browse Directory — post pages */
+.post-browse-directory {
+  background: #1a1a2e;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+}
+.post-browse-directory a { color: #f5c518; }
+.post-browse-directory a:hover { color: #fff; }
+
 /* =============================================
    AUTHOR CARD
    ============================================= */
@@ -7132,5 +7144,1288 @@ iframe { max-width: 100%; }
 }
 @media (max-width: 480px) {
   .methods-grid { grid-template-columns: 1fr !important; }
+}
+
+/* =============================================================
+   RECRUITING DIRECTORY — Complete Mobile-Responsive Styles
+   Covers: hub, division, state, conference, school pages
+   ============================================================= */
+
+/* ── Shared utilities ──────────────────────────────────────── */
+.recruit-section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #b22234;
+}
+
+.recruit-breadcrumb {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  align-items: center;
+}
+.recruit-breadcrumb a {
+  color: #b22234;
+  text-decoration: none;
+}
+.recruit-breadcrumb a:hover { text-decoration: underline; }
+
+.chip-count {
+  display: inline-block;
+  background: #b22234;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 10px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+/* ── Hero section ──────────────────────────────────────────── */
+.recruit-hero {
+  background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4e 100%);
+  color: #fff;
+  padding: 3rem 0 2.5rem;
+}
+.recruit-hero h1 {
+  color: #fff;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  margin: 0.5rem 0 0.75rem;
+}
+.recruit-hero .page-subtitle {
+  color: #c9d1e0;
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+}
+
+.recruit-hero-badge {
+  display: inline-block;
+  background: rgba(178, 34, 52, 0.25);
+  border: 1px solid #b22234;
+  color: #fca5a5;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 3px 12px;
+  border-radius: 20px;
+  margin-bottom: 0.75rem;
+}
+
+.recruit-hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  margin-top: 1.25rem;
+}
+.recruit-stat {
+  display: flex;
+  flex-direction: column;
+  min-width: 80px;
+}
+.recruit-stat-num {
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+}
+.recruit-stat-label {
+  font-size: 0.78rem;
+  color: #9ca3af;
+  margin-top: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ── Callout box ────────────────────────────────────────────── */
+.recruit-callout {
+  background: #f0f4ff;
+  border: 1px solid #c7d2fe;
+  border-radius: 10px;
+  padding: 1.75rem;
+  margin: 2rem 0;
+}
+.recruit-callout-inner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.recruit-callout-text {
+  flex: 1;
+}
+.recruit-callout-text h2 {
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem;
+  color: #1a1a2e;
+}
+.recruit-callout-text p {
+  margin: 0;
+  color: #374151;
+  font-size: 0.95rem;
+}
+.recruit-callout-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  flex-shrink: 0;
+}
+
+/* ── Division grid (hub page) ───────────────────────────────── */
+.recruit-division-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+.recruit-division-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.5rem 1.25rem;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+  display: block;
+}
+.recruit-division-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+.recruit-division-card-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.recruit-division-icon {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+.recruit-division-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 0.4rem;
+}
+.recruit-division-card p {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: 0 0 auto;
+  line-height: 1.5;
+}
+.recruit-card-count {
+  display: inline-block;
+  background: #f3f4f6;
+  color: #374151;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-top: 0.75rem;
+}
+.recruit-card-link {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #b22234;
+  margin-top: 0.5rem;
+}
+
+/* ── State alpha chips ──────────────────────────────────────── */
+.recruit-state-alpha-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.recruit-state-chip {
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 0.85rem;
+  color: #1a1a2e;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+.recruit-state-chip:hover {
+  background: #b22234;
+  border-color: #b22234;
+  color: #fff;
+}
+.recruit-state-chip:hover .chip-count { background: rgba(255,255,255,0.3); }
+
+/* ── Conference chips ────────────────────────────────────────── */
+.recruit-conf-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.recruit-conf-chip {
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  color: #1a1a2e;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+.recruit-conf-chip:hover {
+  background: #1a1a2e;
+  border-color: #1a1a2e;
+  color: #fff;
+}
+
+/* ── Coach finder promo ─────────────────────────────────────── */
+.recruit-coach-finder-promo {
+  background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4e 100%);
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem 0;
+  color: #fff;
+}
+.recruit-coach-finder-promo-inner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.recruit-coach-finder-promo h2 {
+  font-size: 1.3rem;
+  color: #fff;
+  margin: 0 0 0.4rem;
+}
+.recruit-coach-finder-promo p {
+  color: #c9d1e0;
+  margin: 0;
+  font-size: 0.95rem;
+}
+.recruit-coach-finder-promo .btn {
+  flex-shrink: 0;
+}
+
+/* ── Guide chips ─────────────────────────────────────────────── */
+.recruit-guides-section { margin: 2rem 0; }
+.recruit-guide-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.recruit-guide-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  color: #1a1a2e;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.recruit-guide-chip:hover {
+  background: #b22234;
+  border-color: #b22234;
+  color: #fff;
+}
+.recruit-guide-chip-icon { font-size: 1rem; }
+
+/* Related Guides — school pages */
+.recruit-related-guides {
+  background: #f8f9fa;
+  border-left: 4px solid #b22234;
+  border-radius: 6px;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+}
+.recruit-related-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 1rem 0;
+}
+.recruit-related-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.recruit-guide-link {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.85rem;
+  color: #1a1a2e;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.recruit-guide-link:hover {
+  background: #b22234;
+  color: #fff;
+  border-color: #b22234;
+}
+@media (max-width: 768px) {
+  .recruit-related-guides { padding: 1rem 1.2rem; }
+  .recruit-guide-link { font-size: 0.8rem; }
+}
+
+/* ── Bottom CTA ──────────────────────────────────────────────── */
+.recruit-bottom-cta {
+  background: #f5f5f5;
+  border-top: 3px solid #b22234;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2.5rem 0;
+  text-align: center;
+}
+.recruit-bottom-cta h2 {
+  font-size: 1.4rem;
+  color: #1a1a2e;
+  margin: 0 0 0.6rem;
+}
+.recruit-bottom-cta p {
+  color: #4b5563;
+  margin: 0 0 1.25rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recruit-cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+/* ── School header ───────────────────────────────────────────── */
+.recruit-school-header {
+  background: linear-gradient(180deg, #f9fafb 0%, #ffffff 100%);
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1.5rem 0 1.75rem;
+}
+.recruit-school-header-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 0.75rem;
+}
+.recruit-school-header-logo {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+}
+.recruit-school-header-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.recruit-school-header-text h1 {
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  margin: 0 0 0.4rem;
+  color: #1a1a2e;
+}
+.recruit-school-header-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+}
+.recruit-division-pill {
+  background: #b22234;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.recruit-meta-sep { color: #9ca3af; }
+.recruit-meta-link {
+  color: #b22234;
+  text-decoration: none;
+  font-weight: 500;
+}
+.recruit-meta-link:hover { text-decoration: underline; }
+
+/* ── School page two-column layout ──────────────────────────── */
+.recruit-school-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  padding-top: 1.5rem;
+}
+.recruit-school-main { flex: 1; min-width: 0; }
+.recruit-school-sidebar {
+  width: 280px;
+  flex-shrink: 0;
+}
+
+/* ── Info cards ──────────────────────────────────────────────── */
+.recruit-info-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.recruit-info-card h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f3f4f6;
+}
+.recruit-info-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f3f4f6;
+}
+.recruit-head-coach-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 0.4rem;
+}
+.recruit-coach-contact { font-size: 0.9rem; margin: 0; }
+.recruit-email-link {
+  color: #b22234;
+  word-break: break-all;
+}
+.recruit-muted { color: #9ca3af; font-style: italic; font-size: 0.9rem; }
+.recruit-school-link {
+  color: #b22234;
+  font-weight: 600;
+  text-decoration: none;
+}
+.recruit-school-link:hover { text-decoration: underline; }
+
+/* Quick facts DL */
+.recruit-quick-facts dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.4rem 1rem;
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+}
+.recruit-quick-facts dt {
+  font-weight: 600;
+  color: #6b7280;
+  white-space: nowrap;
+}
+.recruit-quick-facts dd {
+  margin: 0;
+  color: #1a1a2e;
+  word-break: break-word;
+}
+.recruit-quick-facts dd a {
+  color: #b22234;
+  text-decoration: none;
+}
+
+.recruit-espn-btn {
+  display: inline-flex;
+  align-items: center;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  color: #1a1a2e;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.recruit-espn-btn:hover { background: #e5e7eb; }
+
+.recruit-sidebar-list {
+  list-style: none;
+  margin: 0 0 0.75rem;
+  padding: 0;
+}
+.recruit-sidebar-list li {
+  padding: 4px 0;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 0.88rem;
+}
+.recruit-sidebar-list li:last-child { border-bottom: none; }
+.recruit-sidebar-list a {
+  color: #374151;
+  text-decoration: none;
+}
+.recruit-sidebar-list a:hover { color: #b22234; }
+
+.recruit-see-all {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #b22234;
+  text-decoration: none;
+  margin-top: 0.25rem;
+}
+
+/* Staff table */
+.recruit-staff-list { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.recruit-staff-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  min-width: 420px;
+}
+.recruit-staff-table th {
+  background: #f3f4f6;
+  color: #374151;
+  font-weight: 700;
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 2px solid #e5e7eb;
+  white-space: nowrap;
+}
+.recruit-staff-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #f3f4f6;
+  vertical-align: top;
+  word-break: break-word;
+}
+.recruit-staff-table tr:last-child td { border-bottom: none; }
+.recruit-staff-table a { color: #b22234; word-break: break-all; }
+
+/* ── Conference nav bar (state pages) ───────────────────────── */
+.recruit-conf-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1.5rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+.recruit-conf-nav-pill {
+  display: inline-block;
+  background: #f3f4f6;
+  color: #374151;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+.recruit-conf-nav-pill:hover,
+.recruit-conf-nav-pill.active {
+  background: #1a1a2e;
+  border-color: #1a1a2e;
+  color: #fff;
+}
+
+/* ── School rows (state pages) ───────────────────────────────── */
+.recruit-school-row-group { margin-bottom: 2rem; }
+.recruit-school-row-group-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 0.75rem;
+  background: #f9fafb;
+  border-left: 3px solid #b22234;
+  border-bottom: 1px solid #e5e7eb;
+  border-radius: 0 4px 0 0;
+  margin-bottom: 0;
+}
+.recruit-school-row-group-header h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0;
+}
+.recruit-school-row-group-header h3 a {
+  color: #1a1a2e;
+  text-decoration: none;
+}
+.recruit-school-row-group-header h3 a:hover { color: #b22234; }
+
+.recruit-school-row {
+  display: grid;
+  grid-template-columns: 56px 1fr 180px 240px;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.7rem 0.5rem;
+  border-bottom: 1px solid #f3f4f6;
+  border-radius: 4px;
+  transition: background 0.1s;
+}
+.recruit-school-row:hover { background: #fafafa; }
+.recruit-school-row:last-child { border-bottom: none; }
+
+.recruit-school-row-logo {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.recruit-school-row-logo img {
+  max-width: 48px;
+  max-height: 48px;
+  object-fit: contain;
+}
+.recruit-logo-placeholder {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+}
+
+.recruit-school-row-name {
+  font-weight: 600;
+  color: #1a1a2e;
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+.recruit-school-row-name:hover { color: #b22234; }
+
+.recruit-school-row-coach {
+  font-size: 0.85rem;
+  color: #4b5563;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.recruit-school-row-email {
+  font-size: 0.82rem;
+  color: #374151;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.recruit-school-row-email a { color: #b22234; }
+.recruit-school-row-muted { color: #d1d5db; }
+
+/* ── Region description ──────────────────────────────────────── */
+.recruit-region-description {
+  background: #f9fafb;
+  border-left: 3px solid #b22234;
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-size: 0.93rem;
+  color: #374151;
+  line-height: 1.65;
+}
+.recruit-region-description p { margin: 0; }
+.recruit-region-description h2 {
+  font-size: 1.1rem;
+  color: #1a1a2e;
+  margin: 0 0 0.5rem;
+}
+
+/* ── Other division links ────────────────────────────────────── */
+.recruit-other-divisions { margin: 2rem 0; }
+.recruit-division-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.recruit-div-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  color: #374151;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.recruit-div-link:hover {
+  background: #b22234;
+  border-color: #b22234;
+  color: #fff;
+}
+.recruit-div-link:hover .chip-count { background: rgba(255,255,255,0.3); }
+
+/* ── School grid (conference pages) ─────────────────────────── */
+.recruit-school-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+.recruit-school-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.recruit-school-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+.recruit-school-logo {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: #f9fafb;
+  border: 1px solid #f3f4f6;
+  border-radius: 8px;
+  padding: 4px;
+  overflow: hidden;
+}
+.recruit-school-logo img {
+  max-width: 62px;
+  max-height: 62px;
+  object-fit: contain;
+}
+.recruit-school-logo .recruit-logo-placeholder {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: transparent;
+}
+.recruit-school-info { flex: 1; }
+.recruit-school-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem;
+}
+.recruit-school-name a { color: #1a1a2e; text-decoration: none; }
+.recruit-school-name a:hover { color: #b22234; }
+.recruit-school-state, .recruit-school-coach {
+  font-size: 0.82rem;
+  color: #6b7280;
+  margin: 0 0 0.2rem;
+}
+.recruit-school-state a { color: #6b7280; text-decoration: none; }
+.recruit-school-state a:hover { color: #b22234; }
+.recruit-school-actions { margin-top: auto; }
+.recruit-school-link {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #b22234;
+  text-decoration: none;
+}
+.recruit-school-link:hover { text-decoration: underline; }
+
+/* Conference breakdown (schools by state) */
+.recruit-conf-breakdown {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.recruit-conf-group h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.recruit-conf-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.recruit-conf-group li {
+  font-size: 0.85rem;
+  padding: 3px 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+.recruit-conf-group li a { color: #374151; text-decoration: none; }
+.recruit-conf-group li a:hover { color: #b22234; }
+
+.recruit-other-conf { margin: 2rem 0; }
+
+/* ── Division index: state cards ─────────────────────────────── */
+.recruit-state-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+.recruit-state-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.recruit-state-card:hover {
+  background: #b22234;
+  border-color: #b22234;
+}
+.recruit-state-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+.recruit-state-card:hover .recruit-state-name { color: #fff; }
+.recruit-state-count {
+  font-size: 0.78rem;
+  color: #6b7280;
+  margin-top: 2px;
+}
+.recruit-state-card:hover .recruit-state-count { color: rgba(255,255,255,0.8); }
+
+/* ── Intro prose ──────────────────────────────────────────────── */
+.recruit-intro { margin-bottom: 2rem; }
+.recruit-intro p { font-size: 0.95rem; color: #374151; line-height: 1.7; }
+
+/* =============================================================
+   RESPONSIVE — Tablet (≤ 1024px)
+   ============================================================= */
+@media (max-width: 1024px) {
+  .recruit-division-grid { grid-template-columns: repeat(2, 1fr); }
+  .recruit-school-grid { grid-template-columns: repeat(2, 1fr); }
+  .recruit-conf-breakdown { grid-template-columns: repeat(2, 1fr); }
+  .recruit-state-grid { grid-template-columns: repeat(3, 1fr); }
+  .recruit-school-sidebar { width: 240px; }
+  /* Tablet: show logo + name + coach, hide email */
+  .recruit-school-row { grid-template-columns: 52px 1fr 150px; }
+  .recruit-school-row-email { display: none; }
+}
+
+/* =============================================================
+   RESPONSIVE — Mobile (≤ 768px)
+   ============================================================= */
+@media (max-width: 768px) {
+  /* Hero */
+  .recruit-hero { padding: 2rem 0 1.5rem; }
+  .recruit-hero-stats { gap: 0.75rem 1.5rem; }
+
+  /* Callout */
+  .recruit-callout-inner { flex-direction: column; gap: 1rem; }
+  .recruit-callout-cta { flex-direction: row; flex-wrap: wrap; }
+
+  /* Division grid */
+  .recruit-division-grid { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
+
+  /* School layout stacks */
+  .recruit-school-layout {
+    flex-direction: column;
+    gap: 0;
+    padding-top: 1rem;
+  }
+  .recruit-school-sidebar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  /* School rows: logo + name + coach (no email on mobile) */
+  .recruit-school-row {
+    grid-template-columns: 44px 1fr;
+    gap: 0.5rem;
+    padding: 0.6rem 0.25rem;
+  }
+  .recruit-school-row-coach { display: none; }
+  .recruit-school-row-email { display: none; }
+
+  /* School grid */
+  .recruit-school-grid { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
+
+  /* Conf breakdown */
+  .recruit-conf-breakdown { grid-template-columns: 1fr 1fr; }
+
+  /* State grid */
+  .recruit-state-grid { grid-template-columns: repeat(3, 1fr); }
+
+  /* Coach finder promo */
+  .recruit-coach-finder-promo-inner { flex-direction: column; gap: 1rem; }
+
+  /* CTA buttons */
+  .recruit-cta-buttons { flex-direction: column; align-items: center; }
+  .recruit-cta-buttons .btn { width: 100%; max-width: 320px; text-align: center; }
+
+  /* School header */
+  .recruit-school-header-logo { width: 80px; height: 80px; }
+
+  /* Section title smaller */
+  .recruit-section-title { font-size: 1.25rem; }
+}
+
+/* =============================================================
+   RESPONSIVE — Phone (≤ 480px)
+   ============================================================= */
+@media (max-width: 480px) {
+  /* Hero stats wrap tighter */
+  .recruit-hero-stats { gap: 0.6rem 1.25rem; }
+  .recruit-stat-num { font-size: 1.6rem; }
+
+  /* Division grid single column */
+  .recruit-division-grid { grid-template-columns: 1fr; }
+
+  /* School grid single column */
+  .recruit-school-grid { grid-template-columns: 1fr; }
+
+  /* State grid 2 columns */
+  .recruit-state-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* Conf breakdown single column */
+  .recruit-conf-breakdown { grid-template-columns: 1fr; }
+
+  /* Sidebar single column */
+  .recruit-school-sidebar { grid-template-columns: 1fr; }
+
+  /* Info card padding */
+  .recruit-info-card { padding: 1rem; }
+
+  /* Quick facts: stack dt/dd */
+  .recruit-quick-facts dl {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .recruit-quick-facts dt { color: #6b7280; font-size: 0.78rem; margin-top: 0.5rem; }
+  .recruit-quick-facts dd { margin-bottom: 0; }
+
+  /* Callout */
+  .recruit-callout { padding: 1.25rem; }
+  .recruit-callout-cta { flex-direction: column; }
+
+  /* Bottom CTA */
+  .recruit-bottom-cta { padding: 1.5rem 1rem; }
+
+  /* Coach finder */
+  .recruit-coach-finder-promo { padding: 1.25rem; }
+
+  /* Breadcrumb */
+  .recruit-breadcrumb { font-size: 0.78rem; }
+
+  /* Section title */
+  .recruit-section-title { font-size: 1.1rem; margin-top: 1.75rem; }
+
+  /* School header inner stack */
+  .recruit-school-header-inner { flex-direction: row; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
+  .recruit-school-header-logo { width: 64px; height: 64px; }
+  .recruit-school-header-text h1 { font-size: 1.15rem; }
+}
+
+/* ── Player Profiles ─────────────────────────────── */
+.player-profile { padding: 2rem 0 4rem; }
+.player-header { display: flex; gap: 2rem; align-items: flex-start; margin: 1.5rem 0 2rem; }
+.player-header-img img { width: 180px; height: 180px; object-fit: cover; border-radius: 12px; }
+.player-header-info h1 { font-size: 2rem; margin: 0 0 0.5rem; }
+.player-meta { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+.player-pill { background: #f0f0f0; border-radius: 20px; padding: 0.2rem 0.7rem; font-size: 0.85rem; color: #1a1a2e; }
+.player-team { font-size: 1.1rem; font-weight: 600; color: #1a1a2e; margin: 0.3rem 0; }
+.player-hometown { color: #666; font-size: 0.9rem; margin: 0; }
+.player-stats-bar { display: flex; gap: 1.5rem; background: #1a1a2e; border-radius: 10px; padding: 1.5rem 2rem; margin: 1.5rem 0; flex-wrap: wrap; }
+.player-stat { text-align: center; }
+.player-stat-value { display: block; font-size: 1.8rem; font-weight: 800; color: #fff; }
+.player-stat-label { font-size: 0.75rem; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
+.player-bio, .player-fcp-journey { margin: 2rem 0; }
+.player-bio h2, .player-fcp-journey h2 { font-size: 1.3rem; color: #1a1a2e; border-bottom: 2px solid #b22234; padding-bottom: 0.4rem; margin-bottom: 1rem; }
+.player-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+.player-card { display: flex; flex-direction: column; align-items: center; text-align: center; border: 1px solid #dee2e6; border-radius: 10px; padding: 1.2rem; text-decoration: none; color: #1a1a2e; transition: all 0.2s; }
+.player-card:hover { border-color: #b22234; box-shadow: 0 4px 12px rgba(178,34,52,0.1); }
+.player-card img { width: 100px; height: 100px; object-fit: cover; border-radius: 50%; margin-bottom: 0.8rem; }
+.player-card-info { display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.9rem; }
+.player-card-info strong { font-size: 1rem; }
+@media (max-width: 768px) {
+  .player-header { flex-direction: column; }
+  .player-header-img img { width: 120px; height: 120px; }
+  .player-stats-bar { gap: 1rem; padding: 1rem; }
+  .player-stat-value { font-size: 1.4rem; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   DIVISION PAGE — ESPN-STYLE UPGRADE
+   Tab nav + notable programs grid + map section + division accents
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Tab navigation */
+.division-tab-nav {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid #e5e7eb;
+  margin: 2rem 0 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.division-tab-nav::-webkit-scrollbar { display: none; }
+.division-tab-btn {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 0.75rem 1.4rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #6b7280;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-bottom: -2px;
+  transition: color 0.15s, border-color 0.15s;
+  letter-spacing: 0.01em;
+}
+.division-tab-btn:hover { color: #1a1a2e; }
+.division-tab-btn.active {
+  color: #b22234;
+  border-bottom-color: #b22234;
+}
+.division-tab-panel { display: none; padding: 1.5rem 0; }
+.division-tab-panel.active { display: block; }
+
+/* Recruit map section (generic, all divisions) */
+.recruit-map-section { margin: 0 0 1.5rem; }
+.recruit-map-section h2 {
+  font-size: 1.1rem;
+  color: #1a1a2e;
+  margin: 0 0 0.75rem;
+  font-weight: 700;
+}
+.recruit-map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.2rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.82rem;
+  color: #4b5563;
+}
+.recruit-map-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.recruit-map-legend-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.recruit-map-wrap {
+  position: relative;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.recruit-map-wrap svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.recruit-map-wrap svg path {
+  stroke: #fff;
+  stroke-width: 0.8;
+  transition: opacity 0.15s;
+}
+.recruit-map-wrap svg path:hover { opacity: 0.82; }
+.recruit-map-tooltip {
+  position: fixed;
+  background: rgba(20,20,40,0.95);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  pointer-events: none;
+  z-index: 9999;
+  max-width: 220px;
+  line-height: 1.5;
+  display: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+.recruit-map-tooltip.visible { display: block; }
+.recruit-map-tooltip strong { display: block; font-size: 0.88rem; margin-bottom: 2px; }
+
+/* Notable programs — ESPN-style table */
+.division-notable-intro {
+  color: #4b5563;
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.65;
+}
+.division-notable-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  background: #fff;
+}
+.division-notable-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+.division-notable-table thead {
+  background: #0a1628;
+  color: #fff;
+}
+.division-notable-table th {
+  padding: 0.7rem 1rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: left;
+  white-space: nowrap;
+  border-bottom: 2px solid #b22234;
+}
+.notable-th-rank { width: 40px; text-align: center; }
+.notable-th-program { min-width: 180px; }
+.notable-th-conf { min-width: 110px; }
+.notable-th-state { min-width: 110px; }
+.notable-th-note { min-width: 120px; }
+.division-notable-table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  transition: background 0.12s;
+}
+.division-notable-table tbody tr:last-child { border-bottom: none; }
+.division-notable-table tbody tr:nth-child(even) { background: #fafbfc; }
+.division-notable-table tbody tr:hover {
+  background: #fff5f5;
+}
+.division-notable-table td {
+  padding: 0.75rem 1rem;
+  vertical-align: middle;
+}
+.notable-td-rank {
+  text-align: center;
+  font-weight: 700;
+  color: #9ca3af;
+  font-size: 0.82rem;
+  border-left: 3px solid transparent;
+}
+.notable-row:hover .notable-td-rank {
+  border-left-color: #b22234;
+  color: #b22234;
+}
+.notable-td-program a {
+  font-weight: 700;
+  color: #0a1628;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.notable-td-program a:hover { color: #b22234; }
+.notable-conf-badge {
+  display: inline-block;
+  background: #f3f4f6;
+  color: #374151;
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+.notable-td-state {
+  color: #6b7280;
+  font-size: 0.88rem;
+}
+.notable-td-note {
+  color: #b22234;
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+/* Division hero accent bar */
+.division-hero-accent {
+  display: inline-block;
+  background: rgba(178,34,52,0.18);
+  border: 1px solid rgba(178,34,52,0.4);
+  color: #fca5a5;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 12px;
+  border-radius: 20px;
+  margin-bottom: 0.6rem;
+}
+
+/* FCP commitments spotlight strip */
+.division-fcp-commits {
+  background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4e 100%);
+  border-radius: 10px;
+  padding: 1.5rem 1.75rem;
+  margin: 1.5rem 0;
+  color: #fff;
+}
+.division-fcp-commits h3 {
+  font-size: 1rem;
+  color: #fca5a5;
+  margin: 0 0 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.8rem;
+}
+.division-fcp-commits-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.division-commit-chip {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  color: #e9d5ff;
+  white-space: nowrap;
+}
+.division-commit-chip strong { color: #fff; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .division-tab-btn { padding: 0.6rem 1rem; font-size: 0.85rem; }
+  .division-fcp-commits { padding: 1.1rem 1.2rem; }
+  .division-notable-table { font-size: 0.85rem; }
+  .division-notable-table th,
+  .division-notable-table td { padding: 0.6rem 0.75rem; }
+  .notable-th-state,
+  .notable-td-state { display: none; }
+}
+@media (max-width: 480px) {
+  .division-notable-table th,
+  .division-notable-table td { padding: 0.5rem 0.6rem; }
+  .notable-th-rank,
+  .notable-td-rank { display: none; }
 }
 

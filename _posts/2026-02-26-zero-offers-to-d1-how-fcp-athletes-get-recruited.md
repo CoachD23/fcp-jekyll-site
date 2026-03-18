@@ -4,7 +4,7 @@ title: "From Zero Offers to D1: How FCP Athletes Get Recruited"
 date: 2026-02-26
 categories: [recruiting]
 image: /assets/images/post-grad/florida-coastal-prep-postgrad-basketball-training.jpeg
-description: "How Florida Coastal Prep's post-graduate program turns athletes with zero college offers into recruited Division I basketball players through daily training, professional film, national exposure, and a staff that knows how to open doors."
+description: "How FCP athletes go from zero offers to D1 commitments — the real recruiting process, what coaches look for, and why the post-grad year changes everything."
 excerpt: "No offers after high school doesn't mean no future. Here's how FCP's training system, national schedule, and recruiting pipeline turn overlooked athletes into college basketball players."
 ---
 

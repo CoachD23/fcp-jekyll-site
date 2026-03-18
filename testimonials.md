@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Parent & Athlete Testimonials"
+title: "Florida Coastal Prep Testimonials — Parents & Athletes"
 subtitle: Hear From Our Athletes and Families
-description: "Read what parents, athletes, and ESPN scouts say about Florida Coastal Prep. Real testimonials from families whose sons earned college basketball scholarships through FCP."
+description: "Read what parents and athletes say about Florida Coastal Prep. Real testimonials from families whose sons earned college basketball scholarships through FCP."
 hero_image: /assets/images/fcp-arena-coaching.jpg
 og_image: /assets/images/fcp-arena-coaching.jpg
 hero_title: Testimonials

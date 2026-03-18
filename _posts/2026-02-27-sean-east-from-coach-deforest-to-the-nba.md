@@ -8,7 +8,7 @@ image_fcp: /assets/images/players/sean-east-florida-coastal-prep.jpeg
 player_name: Sean East II
 current_team: LA Lakers
 fcp_label: Coach DeForest Era
-description: "Sean East II went from Coach DeForest's program to NJCAA Player of the Year, SEC Scholar-Athlete of the Year, and the LA Lakers."
+description: "Sean East's journey from Coach DeForest's program to the NBA — how Florida Coastal Prep's development model prepared him for professional basketball."
 excerpt: "Sean East II went from playing under Coach DeForest to the NJCAA Player of the Year, signing with the LA Lakers, and earning an NBA Rising Stars selection."
 bio: "6'3\" point guard currently playing for the Salt Lake City Stars in the NBA G League. Former NJCAA Player of the Year, SEC Scholar-Athlete of the Year, and 2026 NBA Rising Stars selection."
 stats:

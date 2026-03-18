@@ -16,4 +16,6 @@ The visit served multiple purposes. Players gained insights into college basketb
 
 We thank Coach B for his continued support and look forward to future engagements.
 
+Get evaluated by elite scouts. Our program hosts top evaluators and recruiting experts throughout the year. [Learn more about FCP](/post-grad/) or [apply now](/apply/).
+
 ---

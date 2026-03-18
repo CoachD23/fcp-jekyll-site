@@ -1,0 +1,196 @@
+# FCP Recruiting Directory — Voice Guide
+# 10 named archetypes to ensure SEO diversity across 1,852 school descriptions.
+# Used by scripts/generate_descriptions.py — do not rename keys.
+
+voices:
+  - id: V01
+    name: The Scout
+    tone: Analytical, observational
+    best_for: Programs with a clear recruiting identity, defined system, or notable player development pipeline
+    writing_style: >
+      Reads like a scouting report. Uses specific details — conference standing,
+      playing style, typical player profile. Speaks to a player evaluating fit.
+      Confident, data-informed, no fluff.
+    opener_pattern: Lead with what the program demands or what it produces — not where it is.
+
+  - id: V02
+    name: The Mentor
+    tone: Warm, second-person, encouraging
+    best_for: Programs a player might underestimate or doubt reaching
+    writing_style: >
+      Addresses the recruit directly ("you"). Acknowledges the challenge, then reframes
+      the program as an achievable next step. Feels like advice from someone who's been
+      in the game. Not patronizing — honest and constructive.
+    opener_pattern: Start with a challenge or question the recruit faces, then introduce the program.
+
+  - id: V03
+    name: The Insider
+    tone: Detailed, specific, knowledgeable
+    best_for: Programs with unique pipelines, coach histories, or conference dynamics worth knowing
+    writing_style: >
+      Shares specific context a recruit might not find on a quick Google search.
+      Conference nuances, coaching staff background, what type of player fits.
+      Speaks like someone who has watched the program closely for years.
+    opener_pattern: Lead with a specific, non-obvious insight about the program or conference.
+
+  - id: V04
+    name: The Motivator
+    tone: Urgent, punchy, direct
+    best_for: Competitive programs where readiness and hunger are prerequisites
+    writing_style: >
+      Short sentences. Active verbs. Makes the recruit feel the urgency of preparation.
+      This program doesn't wait for you — you have to be ready. High-energy without
+      being cliché. Every sentence earns its place.
+    opener_pattern: Open with what the program requires of a player — lead with the standard, not the school.
+
+  - id: V05
+    name: The Realist
+    tone: Honest, matter-of-fact, no spin
+    best_for: Skeptical parents, programs that reward grinders, mid-to-lower tier programs where expectations need calibrating
+    writing_style: >
+      Doesn't oversell. Acknowledges the program's level honestly. Shows what it
+      actually offers — real playing time, real development, real academic value.
+      Parents trust this voice. Players respect it.
+    opener_pattern: Lead with an honest assessment of the program's tier or what kind of player succeeds there.
+
+  - id: V06
+    name: The Storyteller
+    tone: Narrative, vivid, history-aware
+    best_for: Programs with notable alumni, championship history, or a compelling program arc
+    writing_style: >
+      Opens with a detail that sets a scene or captures the program's identity.
+      Weaves in history or alumni naturally — not as a list, but as context.
+      Makes the recruit feel like they're stepping into something with meaning.
+    opener_pattern: Open with a scene, a moment, or a legacy detail that grounds the program's identity.
+
+  - id: V07
+    name: The Tactician
+    tone: Strategic, systems-thinking, methodical
+    best_for: Players who think analytically about their recruiting path; programs with defined systems
+    writing_style: >
+      Frames the college decision as a strategic move on a chess board.
+      Talks about conference positioning, development pathways, what a player
+      gains over four years. Respects the recruit's intelligence.
+    opener_pattern: Lead with the strategic value proposition — what the program gives a player in the long game.
+
+  - id: V08
+    name: The Advocate
+    tone: Enthusiastic, celebratory, aspirational
+    best_for: Dream schools, elite programs, marquee conferences
+    writing_style: >
+      Makes the program feel special and earned. Doesn't just describe — champions
+      the opportunity. Speaks to the recruit who has dreamed about this program.
+      Keeps it grounded with specifics so it doesn't read as hollow hype.
+    opener_pattern: Open with what makes this program genuinely elite or aspirational — earned, specific praise.
+
+  - id: V09
+    name: The Pragmatist
+    tone: Practical, value-focused, career-aware
+    best_for: Mid-major programs, JUCO programs, realistic options for a wide range of recruits
+    writing_style: >
+      Focuses on practical outcomes: degree value, playing time, development track,
+      transfer portal positioning. Speaks to the recruit and the parent simultaneously.
+      This voice says: "Here's what you actually get."
+    opener_pattern: Lead with the practical value proposition — degree, development, opportunity.
+
+  - id: V10
+    name: The Connector
+    tone: Community-focused, relational, belonging-oriented
+    best_for: Small schools, NAIA programs, tight-knit program cultures
+    writing_style: >
+      Emphasizes the human element — relationships between coaches and players,
+      campus culture, what it feels like to be part of the program. Shows that
+      smaller can mean more invested, more personal, more impactful.
+    opener_pattern: Lead with the relational or community aspect that makes this program different.
+
+# ─── GLOBAL BAN LIST ────────────────────────────────────────────────────────
+# These patterns must NEVER appear in any generated description.
+banned_openers:
+  - "The {nickname} compete"
+  - "The {name} compete"
+  - "Located in"
+  - "Founded in"
+  - "Situated in"
+  - "Nestled in"
+  - "Known for"
+
+banned_phrases:
+  - "look no further"
+  - "don't miss out"
+  - "without a doubt"
+  - "one of the best"
+  - "world-class"        # reserved for FCP's own Spartan Training Center
+  - "state-of-the-art"  # reserved for FCP's own facility
+  - "second to none"
+  - "truly unique"
+  - "amazing opportunity"
+  - "dream come true"
+
+# ─── FCP CTA VARIANTS ───────────────────────────────────────────────────────
+# Every description ends with one of these. Rotate by (school_index % 8).
+# The CTA must feel like a natural conclusion, not an ad.
+fcp_cta_variants:
+  - index: 0
+    text: >
+      Players who arrive at college campus-ready—technically polished and physically
+      prepared—get noticed faster. Florida Coastal Prep's post-graduate program in
+      Fort Walton Beach, FL is built to close that gap. Learn more at
+      floridacoastalprep.com or visit /apply/ to start the conversation.
+
+  - index: 1
+    text: >
+      The gap between a recruit who gets offers and one who doesn't is rarely talent
+      alone—it's preparation. Florida Coastal Prep specializes in exactly that bridge
+      year. Explore the program at floridacoastalprep.com or reach out via /contact/.
+
+  - index: 2
+    text: >
+      If you're serious about competing at this level, the preparation has to match
+      the ambition. Florida Coastal Prep in Fort Walton Beach, FL works with post-grad
+      and high school athletes to build the skills that college coaches recruit. See
+      what's possible at floridacoastalprep.com.
+
+  - index: 3
+    text: >
+      Coaches at programs like this recruit players who come in ready to contribute.
+      Florida Coastal Prep—a prep academy in Fort Walton Beach, FL—develops athletes
+      specifically for opportunities like this one. Learn how at floridacoastalprep.com
+      or apply at /apply/.
+
+  - index: 4
+    text: >
+      The recruiting process rewards players who can demonstrate consistent growth and
+      readiness. Florida Coastal Prep's training environment in Fort Walton Beach, FL
+      is designed to produce exactly that profile. Explore the program at
+      floridacoastalprep.com.
+
+  - index: 5
+    text: >
+      Before you reach out to a program at this level, make sure your game is where it
+      needs to be. Florida Coastal Prep exists to help serious players close that gap—
+      through elite training, academic support, and real exposure. Start at
+      floridacoastalprep.com or /contact/.
+
+  - index: 6
+    text: >
+      Coaches recruiting for programs like this one look for players who've been
+      developed in serious environments. Florida Coastal Prep in Fort Walton Beach, FL
+      prepares post-grad and high school athletes for exactly these conversations.
+      Learn more at floridacoastalprep.com.
+
+  - index: 7
+    text: >
+      Every serious recruiting conversation starts with preparation. Florida Coastal
+      Prep—located in Fort Walton Beach, FL—trains post-grad and high school players
+      to compete at the college level and attract the right attention. See if it's the
+      right fit at floridacoastalprep.com or /apply/.
+
+# ─── DESCRIPTION SPEC ───────────────────────────────────────────────────────
+spec:
+  min_words: 150
+  max_words: 250
+  format: yaml_block_scalar   # >- in school_descriptions.yml
+  must_include_fcp_cta: true
+  must_name_head_coach: true  # always reference the coach by name
+  must_name_conference: true
+  no_fabricated_stats: true   # never invent win totals, rankings, or specific records

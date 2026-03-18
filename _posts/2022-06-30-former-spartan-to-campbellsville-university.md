@@ -16,4 +16,6 @@ Following a successful 2019 season with the Spartans, Graham committed to Olney 
 
 In an interview, Graham offered advice to incoming players: "Attack everyday with something to prove." Graham credited Coach DeForest's vision and family-like approach for his decision to join FCP.
 
+See how FCP can help you get placed at the college level. Our programs have a proven track record of launching student-athletes into successful college careers. [Learn more about our post-grad program](/post-grad/) or [apply today](/apply/).
+
 ---

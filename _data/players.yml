@@ -1,0 +1,172 @@
+# Florida Coastal Prep — Player Profiles
+# Full alumni data for featured players with alumni posts
+# Used by _plugins/player_pages.rb to generate /players/{slug}/ pages
+
+- slug: brandon-maclin
+  name: Brandon Maclin
+  position: Forward
+  height: "6'5\""
+  hometown: Jackson, TN
+  high_school: South Side High School
+  fcp_year: "2021-22"
+  now_team: DePaul University
+  now_division: D1
+  now_conference: Big East
+  image: /assets/images/players/brandon-maclin-depaul-university-big-east.jpeg
+  bio: "Brandon Maclin arrived at FCP as an overlooked forward from Jackson, Tennessee. After a post-graduate year of development under Lee DeForest and Kenny Anderson, he earned a D1 offer and went on to a JUCO breakout at Odessa College (11.9 PPG) before transferring to Radford and ultimately landing at DePaul University in the Big East Conference. He surpassed 500 career D1 points and hit a game-winning layup to end DePaul's 10-year losing streak against Creighton."
+  stats:
+    - label: "PPG at DePaul"
+      value: "10.3"
+    - label: "D1 Points"
+      value: "500+"
+    - label: "Conference"
+      value: "Big East"
+  espn_url: https://www.espn.com/mens-college-basketball/player/_/id/5106196/brandon-maclin
+  alumni_post: /2026/02/27/brandon-maclin-jackson-to-the-big-east/
+
+- slug: gerald-gittens-jr
+  name: Gerald Gittens Jr.
+  position: Guard
+  height: "6'1\""
+  hometown: Brooklyn, NY
+  high_school: Brooklyn, NY
+  fcp_year: "2020-21"
+  now_team: Northern Michigan University
+  now_division: D1
+  now_conference: GLIAC
+  image: /assets/images/players/gerald-gittens-northern-michigan-university.png
+  bio: "Gerald Gittens Jr. brought Brooklyn toughness to Florida Coastal Prep and turned it into a four-year college basketball career. After sharpening his game at FCP, he averaged 12.9 PPG at North Central Missouri College before exploding for 13.8 PPG at the University of Mary. He earned his Division I opportunity at Northern Michigan University, where he became one of the GLIAC's most disruptive perimeter defenders while averaging 8.6 PPG and starting 26 of 32 games as a senior."
+  stats:
+    - label: "PPG at U. Mary"
+      value: "13.8"
+    - label: "D1 Starts"
+      value: "26"
+    - label: "APG at NMU"
+      value: "2.2"
+  alumni_post: /2025/03/20/gerald-gittens-jr-brooklyn-grit-d1-finish/
+
+- slug: jack-hatten
+  name: Jack Hatten
+  position: Guard
+  height: "6'6\""
+  hometown: Bakersfield, CA
+  high_school: Garces Memorial High School
+  fcp_year: "2020-21"
+  now_team: University of Idaho
+  now_division: D1
+  now_conference: Big Sky
+  image: /assets/images/players/jack-hatten-university-of-idaho.jpeg
+  bio: "Jack Hatten drove 2,300 miles from Bakersfield, California to Fort Walton Beach during the COVID-19 pandemic to attend Florida Coastal Prep. The son of a former Long Beach State player, Hatten bet on himself when the recruiting pipeline froze. His FCP year opened the door to a Division I roster spot at the University of Idaho in the Big Sky Conference. He is also an NABC Honors Court member, recognized for academic and athletic excellence."
+  stats:
+    - label: "Conference"
+      value: "Big Sky"
+    - label: "HS PPG"
+      value: "11.2"
+    - label: "HS RPG"
+      value: "5.0"
+  alumni_post: /2023/06/15/jack-hatten-from-fcp-to-d1-at-idaho/
+
+- slug: ring-malith
+  name: Ring Malith
+  position: Guard/Forward
+  height: "6'9\""
+  hometown: Twic, South Sudan
+  high_school: South Sudan
+  fcp_year: "2021-22"
+  now_team: SIU-Edwardsville
+  now_division: D1
+  now_conference: Ohio Valley Conference
+  image: /assets/images/players/ring-malith-siu-edwardsville-d1.jpeg
+  bio: "Ring Malith's journey from Twic, South Sudan to the NCAA Tournament is one of the most remarkable stories in FCP history. At Florida Coastal Prep, the 6'9\" guard/forward developed the versatility that would define his career. He won an NJCAA National Championship at Barton CC, set a Division I rebounding record at SIUE with 19 boards in a single game, earned the OVC All-Tournament Team, won two OVC Player of the Week awards, and helped lead SIUE to its first-ever NCAA Tournament appearance — all while leading the Ohio Valley Conference in scoring at 17.0 PPG as a senior."
+  stats:
+    - label: "PPG (Senior)"
+      value: "17.0"
+    - label: "D1 Reb Record"
+      value: "19"
+    - label: "NJCAA Title"
+      value: "Champion"
+  alumni_post: /2024/08/10/ring-malith-fcp-to-college-basketball/
+
+- slug: kylin-green
+  name: Kylin Green
+  position: Point Guard
+  height: "6'0\""
+  hometown: Lewisville, TX
+  high_school: Lewisville High School
+  fcp_year: "2021-22"
+  now_team: Houston Christian University
+  now_division: D1
+  now_conference: Southland Conference
+  image: /assets/images/players/kylin-green-houston-christian-university.jpeg
+  bio: "Kylin Green scored 1,634 career high school points at Lewisville High School before taking his game to the next level at Florida Coastal Prep. His post-graduate year at FCP was the springboard for a career that included a JUCO breakout at Daytona State (13.7 PPG, 55% from three), a WAC championship at Utah Valley, and ultimately a D1 starting role at Houston Christian University in the Southland Conference, where he averaged 10.2 points and 4.6 assists per game."
+  stats:
+    - label: "PPG at HCU"
+      value: "10.2"
+    - label: "APG"
+      value: "4.6"
+    - label: "HS Points"
+      value: "1,634"
+  alumni_post: /2024/09/15/kylin-green-fcp-alumni-spotlight/
+
+- slug: nathan-mariano
+  name: Nathan Mariano
+  position: Forward
+  height: "6'9\""
+  hometown: Franca, Brazil
+  high_school: Brazil
+  fcp_year: "2019-20"
+  now_team: Phoenix Suns Organization
+  now_division: Pro
+  now_conference: NBA G League
+  image: /assets/images/players/nathan-mariano-pro-basketball-valley-suns.jpeg
+  bio: "Nathan Mariano arrived at Florida Coastal Prep from Franca, Brazil as a raw but physically gifted 6'9\" forward. The development at FCP — competing daily in the Grind Session circuit — laid the foundation for a professional career that includes four consecutive NBB championships with Sesi Franca, a Basketball Champions League Americas title, a FIBA AmeriCup 2025 gold medal with Brazil's national team, and a contract with the Phoenix Suns organization."
+  stats:
+    - label: "NBB Titles"
+      value: "4x"
+    - label: "National Team"
+      value: "Brazil"
+    - label: "Organization"
+      value: "PHX Suns"
+  alumni_post: /2026/02/27/nathan-mariano-from-fcp-to-the-nba/
+
+- slug: sean-east-ii
+  name: Sean East II
+  position: Point Guard
+  height: "6'3\""
+  hometown: Louisville, KY
+  high_school: Louisville, KY
+  fcp_year: "2018-19"
+  now_team: LA Lakers Organization
+  now_division: Pro
+  now_conference: NBA G League
+  image: /assets/images/players/sean-east-nba-la-lakers.jpeg
+  bio: "Sean East II played under Coach DeForest at a pivotal moment in his development, averaging over 20 points and 8 assists per game in his post-graduate year. That foundation propelled him to the NJCAA Player of the Year award at John A. Logan College, SEC Scholar-Athlete of the Year honors at Missouri, and ultimately a contract with the Los Angeles Lakers. The 6'3\" point guard was selected 3rd in the NBA G League Draft and earned a 2026 NBA Rising Stars selection."
+  stats:
+    - label: "APG"
+      value: "5.6"
+    - label: "G League Draft"
+      value: "3rd Pick"
+    - label: "Award"
+      value: "Rising Stars"
+  alumni_post: /2026/02/27/sean-east-from-coach-deforest-to-the-nba/
+
+- slug: brock-rose
+  name: Brock Rose
+  position: Guard/Forward
+  height: ""
+  hometown: ""
+  high_school: ""
+  fcp_year: "2024-25"
+  now_team: Radford University
+  now_division: D1
+  now_conference: Big South Conference
+  image: /assets/images/alumni/brock-rose.jpeg
+  bio: "Brock Rose came to Florida Coastal Prep to bridge the gap between high school and high-major college basketball. Training daily at the Spartan Training Center and competing against elite post-graduate talent, Rose developed the skills and earned the exposure needed to attract Division I interest. His commitment to Radford University in the Big South Conference is the latest proof that FCP's development model works."
+  stats:
+    - label: "Level"
+      value: "D1"
+    - label: "Conference"
+      value: "Big South"
+    - label: "Class"
+      value: "2025"
+  alumni_post: /2026/03/06/brock-rose-commits-to-radford-university/

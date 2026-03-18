@@ -1,0 +1,193 @@
+# FCP Content Voice Guide — Machine-Readable Reference
+# Version: 1.0 | Created: 2026-03-17
+# Used by content agents to assign and apply voice archetypes to school descriptions
+
+voices:
+  - id: "V01"
+    name: "The Scout"
+    tone: "analytical"
+    reader: "Parent or serious recruit doing research"
+    style: "Declarative, specific, occasionally blunt. Confident assessments."
+    fcp_angle: "FCP develops the exact player profile this program recruits."
+    cta_variants:
+      - "FCP develops the kind of player {school} looks for — physically ready, academically eligible, and with film that gets a response. If this level is the goal, the time to prepare is now."
+      - "Players who thrive at {school} arrive ready. FCP's post-grad season is built to get you there."
+      - "This program rewards preparation. FCP can help you build the profile {head_coach}'s staff needs to take notice."
+    forbidden_openers:
+      - "The {mascot} compete"
+      - "Located in"
+      - "Founded in"
+    best_for: "Programs with a clear, consistent recruiting identity"
+
+  - id: "V02"
+    name: "The Mentor"
+    tone: "warm"
+    reader: "Player who doubts whether this level is possible"
+    style: "Conversational, second-person (you), encouraging. Uses we/us to include FCP."
+    fcp_angle: "FCP has walked this path with players before and can do the same for you."
+    cta_variants:
+      - "If you see yourself competing at {school}, FCP can help make that real. We've worked with players who had the same goal — and we know what it takes."
+      - "This is the right level for certain players. The question is whether you're ready to do the work. FCP can show you the way."
+      - "You don't have to figure this out alone. FCP's coaches have built recruiting plans for players targeting programs exactly like {school}."
+    forbidden_openers:
+      - "The {mascot} compete"
+      - "Located in"
+      - "Founded in"
+    best_for: "Programs a player might doubt they can reach"
+
+  - id: "V03"
+    name: "The Insider"
+    tone: "insider"
+    reader: "Serious recruits who want information nobody else publishes"
+    style: "Longer sentences, specific details, names coaches and conference context."
+    fcp_angle: "FCP puts players in front of coaches at this level because we understand how they recruit."
+    cta_variants:
+      - "Programs like {school} recruit heavily from the prep and post-grad pipeline. FCP's schedule puts you directly in front of the coaches and evaluators who fill those rosters."
+      - "Understanding how {school} builds its roster is half the battle. FCP's staff knows this recruiting world well — and we help players navigate it."
+      - "FCP athletes are on the radar of programs at this level. If {school} is on your list, we can help put you in the right rooms."
+    forbidden_openers:
+      - "The {mascot} compete"
+      - "Located in"
+      - "Founded in"
+    best_for: "Programs with unique recruiting pipelines or active prep/post-grad pipelines"
+
+  - id: "V04"
+    name: "The Motivator"
+    tone: "urgent"
+    reader: "Talented player who needs focus and urgency"
+    style: "Short, punchy, commands. Minimal hedging. High energy."
+    fcp_angle: "FCP is the bridge between where you are and where this program needs you to be."
+    cta_variants:
+      - "This level demands preparation. FCP exists to bridge the gap. The question is whether you're ready to use it."
+      - "You want to play at {school}? Prove it. FCP's post-grad season puts you in the environments that show coaches exactly what you've got."
+      - "Don't show up to {head_coach}'s program unprepared. FCP is where you get ready. Start now."
+    forbidden_openers:
+      - "The {mascot} compete"
+      - "Located in"
+      - "Founded in"
+    best_for: "Competitive programs that demand physical and mental readiness"
+
+  - id: "V05"
+    name: "The Realist"
+    tone: "honest"
+    reader: "Player or parent burned by vague promises; wants the truth"
+    style: "Matter-of-fact, acknowledges difficulty, uses specific numbers where possible."
+    fcp_angle: "FCP helps players build the real credentials this program needs to see."
+    cta_variants:
+      - "Getting a look from {school} isn't easy — limited scholarships, a full recruiting class, and a coaching staff that moves fast. FCP helps you build the film, grades, and exposure to put yourself in that conversation."
+      - "Most players who reach this level didn't get here by accident. FCP's post-grad program is designed to close the gap between potential and proof."
+      - "Here's the reality: {school} sees hundreds of recruits. FCP helps you stand out in the ones that matter."
+    forbidden_openers:
+      - "The {mascot} compete"
+      - "Located in"
+      - "Founded in"
+    best_for: "Highly selective programs with limited scholarships"
+
+  - id: "V06"
+    name: "The Storyteller"
+    tone: "aspirational"
+    reader: "Player with big dreams who responds to imagery and possibility"
+    style: "Narrative, scene-setting, present tense for vividness. Mentions specific places."
+    fcp_angle: "FCP alumni have made this walk. Your chapter starts with preparation."
+    cta_variants:
+      - "Picture yourself on the court at {arena} on a conference game night. FCP alumni have stood in that moment. Your path to it starts with the right preparation."
+      - "Every player who walks out for {school} on opening night was, at some point, exactly where you are now. FCP is where you close that distance."
+      - "The journey from where you are to {school}'s roster is real and it's been made before. FCP knows the route."
+    forbidden_openers:
+      - "The {mascot} compete"
+      - "Located in"
+      - "Founded in"
+    best_for: "Marquee programs with strong brand recognition"
+
+  - id: "V07"
+    name: "The Advisor"
+    tone: "strategic"
+    reader: "Player or parent in active recruiting mode building a school list"
+    style: "Balanced, uses conditional logic, acknowledges multiple recruiting paths."
+    fcp_angle: "FCP helps players build a recruiting portfolio that generates options at this level."
+    cta_variants:
+      - "Whether {school} is your primary target or a strong backup, FCP helps you build a recruiting portfolio that gives you real options at this level — not just a hope."
+      - "A smart recruiting strategy at this level includes programs like {school}. FCP can help you identify where you fit, make the right connections, and get in front of the right coaches."
+      - "FCP's staff works with players every year who are building lists that include {school}. We know what these programs need and how to position you to get a real look."
+    forbidden_openers:
+      - "The {mascot} compete"
+      - "Located in"
+      - "Founded in"
+    best_for: "Programs that frequently appear as realistic targets on recruiting lists"
+
+  - id: "V08"
+    name: "The Connector"
+    tone: "cultural"
+    reader: "Player who cares about fit, culture, and program values"
+    style: "Warm but substantive, talks about people, systems, and culture."
+    fcp_angle: "FCP's culture of accountability directly prepares players for character-first programs."
+    cta_variants:
+      - "Programs like {school} recruit character as deliberately as they recruit skill. FCP's culture of accountability and team-first development prepares players for exactly that environment."
+      - "The coaches at {school} are building something — and they want players who fit what they're building. FCP helps you become the player that fits."
+      - "Finding the right program is about more than offers and scholarship numbers. FCP helps players understand the culture of programs like {school} — and whether it's truly the right fit."
+    forbidden_openers:
+      - "The {mascot} compete"
+      - "Located in"
+      - "Founded in"
+    best_for: "Programs known for a distinctive coaching philosophy or team culture"
+
+  - id: "V09"
+    name: "The Educator"
+    tone: "informative"
+    reader: "Family new to recruiting who needs information more than inspiration"
+    style: "Clear, well-organized, uses context to explain unfamiliar concepts."
+    fcp_angle: "FCP helps players understand and navigate the recruiting process for programs at this level."
+    cta_variants:
+      - "Understanding what {conference} programs like {school} look for in recruits is step one. FCP works with players to make sure they meet those standards — academically and athletically — before the recruiting window opens."
+      - "For families navigating this process for the first time, FCP offers more than training. We offer guidance on how programs like {school} evaluate and recruit players — and how to put your player in front of them."
+      - "The college basketball recruiting process is more structured than most families realize. FCP helps players targeting programs like {school} understand the timeline, the academic requirements, and the evaluation process."
+    forbidden_openers:
+      - "The {mascot} compete"
+      - "Located in"
+      - "Founded in"
+    best_for: "Lesser-known programs; content targeting families new to recruiting"
+
+  - id: "V10"
+    name: "The Challenger"
+    tone: "bold"
+    reader: "Confident player who responds to being tested"
+    style: "Short, sharp, rhetorical questions. No hand-holding."
+    fcp_angle: "FCP is the arena where you prove you belong at this level before you get there."
+    cta_variants:
+      - "Think you can play at {school}? FCP's post-grad season is where you prove it — to yourself and to the coaches watching."
+      - "This level isn't for everyone. FCP helps you figure out if you're the exception — and then helps you prove it."
+      - "The players who make {school}'s roster don't wonder if they're ready. They already know. FCP is how you get to that certainty."
+    forbidden_openers:
+      - "The {mascot} compete"
+      - "Located in"
+      - "Founded in"
+    best_for: "Elite or D1 programs where competition for spots is genuinely fierce"
+
+# Assignment Rules
+assignment_rules:
+  per_conference:
+    max_same_voice: 3
+    alternation: "Alternate analytical voices (V01,V03,V05,V07,V09) with inspirational voices (V02,V04,V06,V08,V10)"
+    if_le_10_schools: "Use all 10 different voices"
+  per_state:
+    max_same_voice: 4
+    method: "Round-robin within state grouping"
+  global:
+    target_distribution: "10% per voice across all 1852 schools"
+    tracking_field: "voice"
+
+# Forbidden Phrases (ban list — never use in any voice)
+banned_phrases:
+  - "The {mascot} compete in"
+  - "Located in {city}"
+  - "Founded in {year}"
+  - "With a strong commitment to"
+  - "The program is dedicated to"
+  - "both on and off the court"
+  - "student-athletes"
+  - "a tradition of excellence"
+  - "at the next level"
+  - "the coaching staff works tirelessly"
+  - "look no further"
+  - "takes great pride in"
+  - "is committed to developing"

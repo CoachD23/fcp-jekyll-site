@@ -2,7 +2,7 @@
 layout: page
 title: "Post-Graduate Basketball Program | Florida Coastal Prep"
 subtitle: Florida Coastal Prep Post-Grad Academy
-description: "Florida Coastal Prep's post-graduate basketball program — D1, D2, NAIA & JUCO placements across 43+ states. NBA-level coaching, 14,000 sq ft facility, Fort Walton Beach, FL."
+description: "FCP's post-graduate basketball program — D1, D2, NAIA & JUCO placements across 43+ states. NBA-level coaching, 14,000 sq ft facility, Fort Walton Beach, FL."
 hero_image: /assets/images/post-grad/fcp-book-072.jpeg
 og_image: /assets/images/post-grad/fcp-book-072.jpeg
 hero_title: Post-Graduate Program

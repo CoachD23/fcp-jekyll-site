@@ -18,4 +18,6 @@ Anderson expressed enthusiasm about the opportunity: "I am honored to be a part 
 
 With Anderson on board, Florida Coastal Prep is positioned to enhance its training programs and provide greater opportunities for athletes. His mentorship will be central to developing well-rounded individuals who excel in both academics and athletics.
 
+Train under NBA All-Star Kenny Anderson and Coach Lee DeForest. Experience championship-caliber coaching and mentorship. [Learn more about the program](/post-grad/) or [apply today](/apply/).
+
 ---

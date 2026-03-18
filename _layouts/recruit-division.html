@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-<!-- Division Index Page: /d1-basketball-programs/, /d2-basketball-programs/, etc. -->
-
 {% assign division = site.data.recruiting.divisions | where: "slug", page.division_slug | first %}
 {% assign all_schools = site.data.recruiting.schools | where: "division", page.division_id %}
 {% assign states = site.data.recruiting.states | sort: "name" %}
 {% assign conferences = site.data.recruiting.conferences | where: "division", page.division_id | sort: "name" %}
+{% assign fcp_commits = site.data.commitments | where: "level", page.division_id %}
 
 <section class="page-header recruit-hero">
   <div class="container">
     <nav class="recruit-breadcrumb" aria-label="Breadcrumb">
       <a href="/college-basketball-programs-directory/">All Programs</a> › <span>{{ page.title }}</span>
     </nav>
+    {% if page.hero_badge %}<span class="division-hero-accent">{{ page.hero_badge }}</span>{% endif %}
     <h1>{{ page.title }}</h1>
     <p class="page-subtitle">{{ page.subtitle | default: division.description }}</p>
     <div class="recruit-hero-stats">
@@ -28,6 +28,12 @@ layout: default
         <span class="recruit-stat-num">50</span>
         <span class="recruit-stat-label">States</span>
       </div>
+      {% if fcp_commits.size > 0 %}
+      <div class="recruit-stat">
+        <span class="recruit-stat-num">{{ fcp_commits | size }}</span>
+        <span class="recruit-stat-label">FCP Alumni</span>
+      </div>
+      {% endif %}
     </div>
   </div>
 </section>
@@ -35,38 +41,98 @@ layout: default
 <section class="page-content">
   <div class="container">
 
-    <!-- Intro text (injected by content field or default) -->
     {% if content and content != "" %}
     <div class="recruit-intro prose">{{ content }}</div>
     {% endif %}
 
-    <!-- Browse by State -->
-    <h2 class="recruit-section-title">Browse {{ page.division_label | default: division.label }} Programs by State</h2>
-    <div class="recruit-state-grid">
-      {% for state in states %}
-        {% assign state_schools = all_schools | where: "state_slug", state.slug %}
-        {% if state_schools.size > 0 %}
-        <a href="/{{ page.division_slug }}/{{ state.slug }}/" class="recruit-state-card">
-          <span class="recruit-state-name">{{ state.name }}</span>
-          <span class="recruit-state-count">{{ state_schools.size }} program{% if state_schools.size != 1 %}s{% endif %}</span>
-        </a>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <!-- Browse by Conference -->
-    {% if conferences.size > 0 %}
-    <h2 class="recruit-section-title">{{ page.division_label | default: division.label }} Conferences</h2>
-    <div class="recruit-conf-grid">
-      {% for conf in conferences %}
-      <a href="/{{ conf.slug }}-basketball-programs/" class="recruit-conf-chip">
-        {{ conf.name }} <span class="chip-count">{{ conf.school_count }}</span>
-      </a>
-      {% endfor %}
+    {% if fcp_commits.size > 0 %}
+    <div class="division-fcp-commits">
+      <h3>FCP Athletes Who Earned {{ page.division_label | default: division.label }} Offers</h3>
+      <div class="division-fcp-commits-list">
+        {% for commit in fcp_commits limit:12 %}
+        <span class="division-commit-chip"><strong>{{ commit.name }}</strong> → {{ commit.school }}{% if commit.year %} '{{ commit.year | modulo: 100 | prepend: "0" | slice: -2, 2 }}{% endif %}</span>
+        {% endfor %}
+        {% if fcp_commits.size > 12 %}<span class="division-commit-chip">+{{ fcp_commits.size | minus: 12 }} more</span>{% endif %}
+      </div>
     </div>
     {% endif %}
 
-    <!-- FCP CTA -->
+    <!-- Tab navigation -->
+    <div class="division-tabs" id="division-tabs">
+      <div class="division-tab-nav" role="tablist">
+        <button class="division-tab-btn active" role="tab" aria-selected="true" data-tab="state">Explore by State</button>
+        {% if conferences.size > 0 %}<button class="division-tab-btn" role="tab" aria-selected="false" data-tab="conf">Browse Conferences</button>{% endif %}
+        {% if page.notable_programs %}<button class="division-tab-btn" role="tab" aria-selected="false" data-tab="notable">Notable Programs</button>{% endif %}
+      </div>
+
+      <!-- Tab 1: By State (map + cards) -->
+      <div class="division-tab-panel active" id="tab-panel-state" role="tabpanel">
+        {% include recruit-map.html %}
+        <h2 class="recruit-section-title">All States</h2>
+        <div class="recruit-state-grid">
+          {% for state in states %}
+            {% assign state_schools = all_schools | where: "state_slug", state.slug %}
+            {% if state_schools.size > 0 %}
+            <a href="/{{ page.division_slug }}/{{ state.slug }}/" class="recruit-state-card">
+              <span class="recruit-state-name">{{ state.name }}</span>
+              <span class="recruit-state-count">{{ state_schools.size }} program{% if state_schools.size != 1 %}s{% endif %}</span>
+            </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- Tab 2: By Conference -->
+      {% if conferences.size > 0 %}
+      <div class="division-tab-panel" id="tab-panel-conf" role="tabpanel">
+        <p class="division-notable-intro">{{ page.conf_intro | default: "Every conference in this division — click to browse all member programs." }}</p>
+        <div class="recruit-conf-grid">
+          {% for conf in conferences %}
+          <a href="/{{ conf.slug }}-basketball-programs/" class="recruit-conf-chip">
+            {{ conf.name }} <span class="chip-count">{{ conf.school_count }}</span>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Tab 3: Notable Programs -->
+      {% if page.notable_programs %}
+      <div class="division-tab-panel" id="tab-panel-notable" role="tabpanel">
+        <p class="division-notable-intro">{{ page.notable_intro | default: "A selection of prominent programs at this level — click any to see the full program profile." }}</p>
+        <div class="division-notable-table-wrap">
+          <table class="division-notable-table">
+            <thead>
+              <tr>
+                <th class="notable-th-rank">#</th>
+                <th class="notable-th-program">Program</th>
+                <th class="notable-th-conf">Conference</th>
+                <th class="notable-th-state">State</th>
+                <th class="notable-th-note">Notable</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for prog in page.notable_programs %}
+              {% assign prog_state = states | where: "slug", prog.state_slug | first %}
+              <tr class="notable-row" onclick="window.location='/{{ page.division_slug }}/{{ prog.state_slug }}/{{ prog.slug }}/'">
+                <td class="notable-td-rank">{{ forloop.index }}</td>
+                <td class="notable-td-program">
+                  <a href="/{{ page.division_slug }}/{{ prog.state_slug }}/{{ prog.slug }}/">{{ prog.name }}</a>
+                </td>
+                <td class="notable-td-conf"><span class="notable-conf-badge">{{ prog.conference }}</span></td>
+                <td class="notable-td-state">{{ prog_state.name | default: prog.state_slug | replace: "-", " " | capitalize }}</td>
+                <td class="notable-td-note">{% if prog.note %}{{ prog.note }}{% endif %}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      {% endif %}
+
+    </div><!-- /.division-tabs -->
+
+    <!-- Bottom CTA -->
     <div class="recruit-bottom-cta">
       <h2>FCP Develops Players Who Earn {{ page.division_label | default: division.label }} Offers</h2>
       <p>Florida Coastal Prep — Fort Walton Beach, FL. Our staff has relationships with coaches across the country and knows how to get your film in front of the right programs.</p>
@@ -76,7 +142,6 @@ layout: default
       </div>
     </div>
 
-    <!-- Related guides -->
     {% if page.related_guides %}
     <h2 class="recruit-section-title">Recruiting Guides</h2>
     <ul class="recruit-guide-list">
@@ -88,3 +153,21 @@ layout: default
 
   </div>
 </section>
+
+<script>
+(function() {
+  var tabs = document.querySelectorAll('.division-tab-btn');
+  var panels = document.querySelectorAll('.division-tab-panel');
+  tabs.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var target = this.dataset.tab;
+      tabs.forEach(function(b) { b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
+      panels.forEach(function(p) { p.classList.remove('active'); });
+      this.classList.add('active');
+      this.setAttribute('aria-selected','true');
+      var panel = document.getElementById('tab-panel-' + target);
+      if (panel) panel.classList.add('active');
+    });
+  });
+})();
+</script>

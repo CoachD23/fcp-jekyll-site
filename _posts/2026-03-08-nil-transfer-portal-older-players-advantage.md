@@ -4,7 +4,7 @@ title: "Why Older Players Win the Transfer Portal — And What Younger Players M
 date: 2026-03-08
 categories: [recruiting]
 image: /assets/images/post-grad/florida-coastal-prep-basketball-team-florida.jpeg
-description: "Transfer portal basketball rewards older, proven players. Here's why college coaches prefer experienced portal transfers over young recruits — and how younger players can compete."
+description: "How older players can use NIL and the transfer portal to their advantage — what experienced college basketball recruits need to know right now."
 excerpt: "Coaches don't go to the transfer portal looking for upside. They go looking for production. Here's what that means for younger players who want to build a college career."
 ---
 

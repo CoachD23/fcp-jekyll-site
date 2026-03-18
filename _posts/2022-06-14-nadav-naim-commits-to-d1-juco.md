@@ -20,4 +20,6 @@ His favorite memory involved the state tournament semifinals, when his team defe
 
 Regarding his college choice, Naim explained he selected FCP because he heard only good things about Coach DeForest and valued a place with good people that care about him.
 
+Want to follow a similar path? Florida Coastal Prep helps students earn college offers at the D1, D2, NAIA, and JUCO levels. [Learn more about the program](/post-grad/) or [apply today](/apply/).
+
 ---
