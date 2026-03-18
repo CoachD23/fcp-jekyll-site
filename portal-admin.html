@@ -1,0 +1,185 @@
+---
+layout: default
+title: "Portal Login Admin | FCP"
+description: "Internal admin tool — manually trigger player portal login for paid applicants."
+noindex: true
+permalink: /portal-admin/
+---
+<style>
+  .admin-wrap {
+    max-width: 560px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  .admin-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 2.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
+  .admin-card h1 {
+    font-size: 1.4rem;
+    color: #0a1628;
+    margin: 0 0 0.4rem;
+  }
+  .admin-card p.sub {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0 0 1.75rem;
+  }
+  .admin-card label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.35rem;
+  }
+  .admin-card input[type="text"],
+  .admin-card input[type="email"],
+  .admin-card input[type="password"],
+  .admin-card textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.65rem 0.85rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    margin-bottom: 1.1rem;
+    color: #111;
+  }
+  .admin-card textarea {
+    height: 90px;
+    resize: vertical;
+    font-family: monospace;
+    font-size: 0.875rem;
+  }
+  .admin-card button {
+    width: 100%;
+    padding: 0.8rem;
+    background: #b22234;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .admin-card button:hover { background: #8e1a28; }
+  .admin-card button:disabled { background: #aaa; cursor: not-allowed; }
+  #admin-result {
+    margin-top: 1.25rem;
+    padding: 1rem 1.1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    display: none;
+  }
+  #admin-result.success { background: #e8f5e9; border: 1px solid #a5d6a7; color: #1b5e20; }
+  #admin-result.error   { background: #fdecea; border: 1px solid #f5c6cb; color: #721c24; }
+  .result-row { margin: 0.3rem 0; }
+  .result-ok   { color: #2e7d32; font-weight: 600; }
+  .result-fail { color: #c62828; font-weight: 600; }
+  .divider { border: none; border-top: 1px solid #eee; margin: 1.5rem 0; }
+</style>
+
+<div class="admin-wrap">
+  <div class="admin-card">
+    <h1>🔐 Portal Login Trigger</h1>
+    <p class="sub">Manually send player portal login credentials. Use after a payment is confirmed but the automatic email was not received.</p>
+
+    <form id="admin-form" autocomplete="off">
+      <label for="admin-secret">Admin Password</label>
+      <input type="password" id="admin-secret" placeholder="Enter admin password" required />
+
+      <label for="email-single">Email Address</label>
+      <input type="email" id="email-single" placeholder="player@example.com" />
+
+      <hr class="divider" />
+
+      <label for="email-bulk">Bulk — one email per line (optional)</label>
+      <textarea id="email-bulk" placeholder="player1@example.com&#10;player2@example.com&#10;player3@example.com"></textarea>
+
+      <button type="submit" id="admin-btn">Send Portal Login</button>
+    </form>
+
+    <div id="admin-result"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var form = document.getElementById("admin-form");
+  var resultEl = document.getElementById("admin-result");
+  var btn = document.getElementById("admin-btn");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    var secret = document.getElementById("admin-secret").value.trim();
+    var single = document.getElementById("email-single").value.trim().toLowerCase();
+    var bulk = document.getElementById("email-bulk").value.trim();
+
+    if (!secret) { showResult("error", "Password is required."); return; }
+
+    // Collect emails
+    var emails = [];
+    if (single) emails.push(single);
+    if (bulk) {
+      bulk.split(/[\n,]+/).forEach(function (e) {
+        var v = e.trim().toLowerCase();
+        if (v && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v) && !emails.includes(v)) emails.push(v);
+      });
+    }
+    if (emails.length === 0) { showResult("error", "Enter at least one email address."); return; }
+
+    btn.disabled = true;
+    btn.textContent = "Sending…";
+    resultEl.style.display = "none";
+
+    try {
+      var res = await fetch("/.netlify/functions/trigger-portal-login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-Admin-Secret": secret
+        },
+        body: JSON.stringify({ emails: emails })
+      });
+
+      if (res.status === 403) {
+        showResult("error", "Invalid password. Please try again.");
+        return;
+      }
+
+      var data = await res.json();
+
+      if (data.results) {
+        var lines = data.results.map(function (r) {
+          if (r.success) {
+            return '<div class="result-row result-ok">✓ ' + r.email + ' — portal login triggered</div>';
+          } else {
+            return '<div class="result-row result-fail">✗ ' + r.email + ' — ' + (r.error || "failed") + '</div>';
+          }
+        });
+        var allOk = data.results.every(function (r) { return r.success; });
+        showResult(allOk ? "success" : "error", lines.join(""));
+      } else {
+        showResult("error", data.error || "Unknown error. Check Netlify function logs.");
+      }
+    } catch (err) {
+      showResult("error", "Network error: " + err.message);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = "Send Portal Login";
+    }
+  });
+
+  function showResult(type, html) {
+    resultEl.className = type;
+    resultEl.innerHTML = html;
+    resultEl.style.display = "block";
+  }
+})();
+</script>
