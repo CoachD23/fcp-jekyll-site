@@ -17,12 +17,94 @@ noindex: true
     </div>
     <h2 style="font-size: 1.75rem; font-weight: 800; color: #0a1628; margin: 0 0 1rem;">Payment Successful</h2>
     <p style="font-size: 1.1rem; line-height: 1.75; color: #555; margin: 0 0 1.5rem;">Your payment has been processed and a confirmation receipt has been sent to the email address you provided. If you don't see it, check your spam folder.</p>
+
+    <!-- Player Portal Email Confirmation -->
+    <div id="portal-email-form" style="background: #f0f7ff; border: 2px solid #1a1a2e; border-radius: 10px; padding: 1.75rem; margin: 0 0 1.5rem; text-align: left;">
+      <p style="font-weight: 800; color: #1a1a2e; font-size: 1.1rem; margin: 0 0 0.25rem;">Activate Your FCP Student Portal</p>
+      <p style="color: #555; font-size: 0.88rem; margin: 0 0 1.25rem; line-height: 1.6;">Enter the <strong>player's email address</strong> below to receive portal login credentials. Parent/guardian access is granted through the player's portal.</p>
+      <div style="margin-bottom: 0.75rem;">
+        <label for="portal-email" style="display: block; font-size: 0.82rem; font-weight: 700; color: #333; margin-bottom: 0.35rem; text-transform: uppercase; letter-spacing: 0.04em;">Player Email Address</label>
+        <input type="email" id="portal-email" placeholder="player@email.com" required style="width: 100%; box-sizing: border-box; padding: 0.75rem 0.9rem; border: 1.5px solid #ccc; border-radius: 6px; font-size: 1rem; color: #222;">
+        <span style="display: block; font-size: 0.78rem; color: #888; margin-top: 0.3rem;">This must be the player's personal email — portal login will be sent here</span>
+      </div>
+      <button type="button" id="portal-submit-btn" onclick="submitPortalEmail()" style="width: 100%; padding: 0.85rem; background: #b22234; color: #fff; border: none; border-radius: 8px; font-size: 1rem; font-weight: 700; cursor: pointer; transition: background 0.2s;">Send My Portal Login</button>
+      <div id="portal-result" style="display: none; margin-top: 0.75rem; padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.9rem;"></div>
+    </div>
+
+    <!-- What Happens Next -->
+    <div style="background: #f8f9fb; border: 1px solid #e0e0e0; border-radius: 10px; padding: 1.25rem 1.5rem; margin: 0 0 1.5rem; text-align: left;">
+      <p style="font-weight: 700; color: #1a1a2e; font-size: 0.95rem; margin: 0 0 0.5rem;">What Happens Next</p>
+      <ol style="margin: 0; padding-left: 1.25rem; color: #444; font-size: 0.9rem; line-height: 1.8;">
+        <li>A payment receipt is being sent to the billing email now</li>
+        <li>Portal login credentials will be emailed to the player within 24 hours</li>
+        <li>Complete your full athletic &amp; academic profile in the portal</li>
+        <li>Our coaching staff will review your application and be in touch</li>
+      </ol>
+    </div>
+
     <div style="background: #f8f9fa; border-radius: 8px; padding: 1.25rem; margin: 0 0 2rem;">
-      <p style="font-size: 0.9rem; color: #666; margin: 0;"><strong style="color: #0a1628;">Questions about your payment?</strong><br>Contact our admissions team at <a href="tel:8509612323" style="color: #c41e3a; font-weight: 600;">850-961-2323</a> or <a href="mailto:info@floridacoastalprep.com" style="color: #c41e3a; font-weight: 600;">info@floridacoastalprep.com</a></p>
+      <p style="font-size: 0.9rem; color: #666; margin: 0;"><strong style="color: #0a1628;">Questions?</strong><br>Contact our admissions team at <a href="tel:8509612323" style="color: #c41e3a; font-weight: 600;">850-961-2323</a> or <a href="mailto:info@floridacoastalprep.com" style="color: #c41e3a; font-weight: 600;">info@floridacoastalprep.com</a></p>
     </div>
     <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-      <a href="/payment/" style="display: inline-block; padding: 0.75rem 1.75rem; background: #0a1628; color: #fff; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 0.95rem;">Make Another Payment</a>
-      <a href="/" style="display: inline-block; padding: 0.75rem 1.75rem; border: 2px solid #0a1628; color: #0a1628; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 0.95rem;">Go to Homepage</a>
+      <a href="/" style="display: inline-block; padding: 0.75rem 1.75rem; background: #0a1628; color: #fff; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 0.95rem;">Go to Homepage</a>
+      <a href="/payment/" style="display: inline-block; padding: 0.75rem 1.75rem; border: 2px solid #0a1628; color: #0a1628; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 0.95rem;">Make Another Payment</a>
     </div>
   </div>
 </section>
+
+<script>
+function submitPortalEmail() {
+  var emailEl = document.getElementById('portal-email');
+  var btn = document.getElementById('portal-submit-btn');
+  var resultEl = document.getElementById('portal-result');
+  var email = (emailEl.value || '').trim().toLowerCase();
+
+  if (!email || email.indexOf('@') < 1) {
+    showPortalResult('error', 'Please enter a valid email address.');
+    emailEl.focus();
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Sending...';
+  resultEl.style.display = 'none';
+
+  fetch('/.netlify/functions/request-portal-access', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email: email })
+  })
+  .then(function(res) { return res.json(); })
+  .then(function(data) {
+    if (data.success) {
+      showPortalResult('success', 'Portal login request sent to <strong>' + email + '</strong>. Check your inbox (and spam folder) within 24 hours.');
+      btn.textContent = 'Sent!';
+      btn.style.background = '#2e7d32';
+    } else {
+      showPortalResult('error', data.error || 'Something went wrong. Please email info@floridacoastalprep.com');
+      btn.disabled = false;
+      btn.textContent = 'Send My Portal Login';
+    }
+  })
+  .catch(function() {
+    showPortalResult('error', 'Connection error. Please try again or email info@floridacoastalprep.com');
+    btn.disabled = false;
+    btn.textContent = 'Send My Portal Login';
+  });
+}
+
+function showPortalResult(type, html) {
+  var el = document.getElementById('portal-result');
+  el.innerHTML = html;
+  el.style.display = 'block';
+  if (type === 'success') {
+    el.style.background = '#e8f5e9';
+    el.style.border = '1px solid #a5d6a7';
+    el.style.color = '#1b5e20';
+  } else {
+    el.style.background = '#fdecea';
+    el.style.border = '1px solid #f5c6cb';
+    el.style.color = '#721c24';
+  }
+}
+</script>

@@ -12,7 +12,7 @@
 # =============================================================
 # POST-PROCESSING — CSS/JS/image optimization
 # =============================================================
-[build.processing
+[build.processing]
   [build.processing.css]
     bundle = true
     minify = true
