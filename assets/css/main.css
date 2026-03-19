@@ -5,7 +5,7 @@
 
 /* --- Reset & Base --- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; font-size: 17px; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; font-size: 16px; }
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   color: #1a1a2e;
@@ -22,9 +22,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   color: #0a1628;
 }
-h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
-h2 { font-size: clamp(1.5rem, 3.5vw, 2.5rem); margin-bottom: 1rem; }
-h3 { font-size: clamp(1.2rem, 2.5vw, 1.75rem); }
+h1 { font-size: clamp(1.75rem, 3.5vw, 2.75rem); }
+h2 { font-size: clamp(1.35rem, 2.8vw, 2rem); margin-bottom: 1rem; }
+h3 { font-size: clamp(1.1rem, 2vw, 1.5rem); }
 
 /* --- Layout --- */
 .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
@@ -173,7 +173,7 @@ section { padding: 4rem 0; }
 }
 .hero-content h1 {
   color: #fff;
-  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-size: clamp(2rem, 5vw, 4rem);
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: -0.02em;
@@ -1905,7 +1905,7 @@ section { padding: 4rem 0; }
 /* --- Responsive: Mobile (<=768px) --- */
 @media (max-width: 768px) {
   .hero { min-height: 80vh; }
-  .hero-content h1 { font-size: 2.25rem; }
+  .hero-content h1 { font-size: 1.9rem; }
   .hero-stats { flex-direction: column; gap: 1.5rem; }
   .hero-scroll-indicator { display: none; }
   .impact-grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
