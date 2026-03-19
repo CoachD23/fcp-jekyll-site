@@ -1,4 +1,4 @@
-  - name: UW-Stevens Point at Wausau
+- name: UW-Stevens Point at Wausau
   slug: uw-stevens-point-at-wausau
   nickname: ''
   abbreviation: ''
@@ -42,7 +42,6 @@
   staff_count: 0
   coach_status: ''
   juco_org: NJCAA
-Page_Down
 - name: "Auburn Tigers"
   slug: "auburn-tigers"
   nickname: "Tigers"
