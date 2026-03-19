@@ -68,7 +68,7 @@ layout: default
 
       <!-- Tab 1: By State (map + cards) -->
       <div class="division-tab-panel active" id="tab-panel-state" role="tabpanel">
-        {% include recruit-map.html %}
+        {% unless page.custom_map %}{% include recruit-map.html %}{% endunless %}
         <h2 class="recruit-section-title">All States</h2>
         <div class="recruit-state-grid">
           {% for state in states %}
