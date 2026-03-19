@@ -109,7 +109,7 @@ sitemap: false
           <input type="text" id="pay-city" required autocomplete="address-level2" placeholder="City">
         </div>
         <div class="pay-field" style="flex: 0.8;">
-          <label for="pay-state">State <span class="pay-req">*</span></label>
+          <label for="pay-state" id="pay-state-label">State <span class="pay-req" id="pay-state-req">*</span></label>
           <input type="text" id="pay-state" required autocomplete="address-level1" placeholder="FL" maxlength="40">
         </div>
         <div class="pay-field" style="flex: 0.8;">
@@ -120,7 +120,7 @@ sitemap: false
 
       <div class="pay-field">
         <label for="pay-country">Country <span class="pay-req">*</span></label>
-        <select id="pay-country" required autocomplete="country">
+        <select id="pay-country" required autocomplete="country" onchange="handleCountryChange(this.value)">
           <option value="US" selected>United States</option>
           <option value="CA">Canada</option>
           <option disabled>──────────</option>
@@ -418,7 +418,7 @@ sitemap: false
     if (!firstName || !lastName) return err("Please enter your billing first and last name.", "pay-first");
     if (!address) return err("Please enter your billing street address.", "pay-address");
     if (!city) return err("Please enter your billing city.", "pay-city");
-    if (!state) return err("Please enter your billing state or province.", "pay-state");
+    if (!state && (country === "US" || country === "CA")) return err("Please enter your billing state or province.", "pay-state");
     if (!zip) return err("Please enter your billing ZIP or postal code.", "pay-zip");
 
     var expYear = "20" + expRaw.substring(2, 4);
@@ -514,4 +514,27 @@ sitemap: false
     document.getElementById("pay-submit").disabled = false;
   }
 })();
+
+// Adapt state/province field label and requirement based on country selection
+function handleCountryChange(country) {
+  var stateInput = document.getElementById("pay-state");
+  var stateLabel = document.getElementById("pay-state-label");
+  var stateReq   = document.getElementById("pay-state-req");
+  if (country === "US") {
+    stateLabel.childNodes[0].textContent = "State ";
+    stateInput.required    = true;
+    stateInput.placeholder = "FL";
+    stateReq.style.display = "";
+  } else if (country === "CA") {
+    stateLabel.childNodes[0].textContent = "Province ";
+    stateInput.required    = true;
+    stateInput.placeholder = "ON";
+    stateReq.style.display = "";
+  } else {
+    stateLabel.childNodes[0].textContent = "State / Province ";
+    stateInput.required    = false;
+    stateInput.placeholder = "Optional";
+    stateReq.style.display = "none";
+  }
+}
 </script>
