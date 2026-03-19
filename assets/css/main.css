@@ -8291,12 +8291,26 @@ iframe { max-width: 100%; }
   /* Callout */
   .recruit-callout { padding: 1.25rem; }
   .recruit-callout-cta { flex-direction: column; }
+  .recruit-callout-cta .btn { width: 100%; text-align: center; }
 
   /* Bottom CTA */
   .recruit-bottom-cta { padding: 1.5rem 1rem; }
 
   /* Coach finder */
   .recruit-coach-finder-promo { padding: 1.25rem; }
+
+  /* Hub page: guide chips smaller on phone */
+  .recruit-guide-chip { font-size: 0.82rem; padding: 0.4rem 0.75rem; }
+
+  /* Hub page: state chips tighter */
+  .recruit-state-chip { font-size: 0.8rem; padding: 0.3rem 0.6rem; }
+  .recruit-state-alpha-grid { gap: 0.35rem; }
+
+  /* Hub page: conf chips tighter */
+  .recruit-conf-chip { font-size: 0.8rem; padding: 0.3rem 0.6rem; }
+
+  /* Hub hero badge wraps */
+  .recruit-hero-badge { font-size: 0.75rem; }
 
   /* Breadcrumb */
   .recruit-breadcrumb { font-size: 0.78rem; }
