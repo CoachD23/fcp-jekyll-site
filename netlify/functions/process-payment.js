@@ -73,18 +73,95 @@ async function tagApplicantInGhl(email) {
   });
   if (!addRes.ok) throw new Error("GHL addTag " + addRes.status);
 
-  // 3. Remove "Started Application - Incomplete" tag
+  // 3. Remove "started application - incomplete" tag
   var delRes = await fetch(ghlBase + "/contacts/" + contactId + "/tags", {
     method: "DELETE",
     headers: ghlHeaders,
-    body: JSON.stringify({ tags: ["Started Application - Incomplete"] })
+    body: JSON.stringify({ tags: ["started application - incomplete"] })
   });
   if (!delRes.ok) {
-    // Non-fatal: log but don't throw — the "applied" tag already triggered the workflow
     console.warn("[process-payment] Could not remove incomplete tag:", delRes.status);
   }
 
-  console.log("[process-payment] GHL tagged as 'applied': contactId=" + contactId);
+  // 4. Remove contact from the Incomplete Application Follow-Up workflow so they
+  //    stop getting "you didn't finish" messages now that they've paid
+  var incompleteWfId = "c7b69fc5-0af8-4369-a393-3c4ae38d7bf4";
+  var removeWfRes = await fetch(
+    ghlBase + "/contacts/" + contactId + "/workflow/" + incompleteWfId,
+    { method: "DELETE", headers: ghlHeaders }
+  );
+  if (!removeWfRes.ok) {
+    console.warn("[process-payment] Could not remove from incomplete workflow:", removeWfRes.status);
+  } else {
+    console.log("[process-payment] Removed from Incomplete Follow-Up workflow: contactId=" + contactId);
+  }
+
+  // 5. Send portal access email immediately via GHL conversation
+  var firstName = contact.firstName || "Athlete";
+  var portalEmailBody = "Hi " + firstName + ",\n\n" +
+    "Your $25 registration fee has been received — you're officially in the system!\n\n" +
+    "ACCESS YOUR PLAYER PORTAL:\n" +
+    "https://ops.floridacoastalprep.com\n\n" +
+    "Your login email is: " + email + "\n" +
+    "If this is your first time logging in, use the \"Forgot Password\" link to set your password.\n\n" +
+    "In the portal you can:\n" +
+    "• Submit your player forms and documents\n" +
+    "• View your enrollment status\n" +
+    "• Communicate with our coaching staff\n\n" +
+    "If you have any trouble accessing the portal, reply to this email or call us at (850) 961-2323.\n\n" +
+    "Welcome to FCP!\n\n" +
+    "Florida Coastal Prep\n" +
+    "33 Jet Drive NW, Fort Walton Beach, FL 32548\n" +
+    "(850) 961-2323\n" +
+    "floridacoastalprep.com";
+
+  // Get or create conversation for this contact
+  var convSearchRes = await fetch(
+    ghlBase + "/conversations/search?locationId=" + ghlLocationId + "&contactId=" + contactId + "&limit=1",
+    { headers: ghlHeaders }
+  );
+  var convId = null;
+  if (convSearchRes.ok) {
+    var convData = await convSearchRes.json();
+    convId = convData.conversations && convData.conversations[0] && convData.conversations[0].id;
+  }
+
+  if (!convId) {
+    // Create a new conversation
+    var createConvRes = await fetch(ghlBase + "/conversations/", {
+      method: "POST",
+      headers: ghlHeaders,
+      body: JSON.stringify({ locationId: ghlLocationId, contactId: contactId })
+    });
+    if (createConvRes.ok) {
+      var createConvData = await createConvRes.json();
+      convId = createConvData.conversation && createConvData.conversation.id;
+    }
+  }
+
+  if (convId) {
+    var sendEmailRes = await fetch(ghlBase + "/conversations/messages", {
+      method: "POST",
+      headers: ghlHeaders,
+      body: JSON.stringify({
+        type: "Email",
+        contactId: contactId,
+        conversationId: convId,
+        subject: "Your FCP Player Portal Access — Action Required",
+        body: portalEmailBody
+      })
+    });
+    if (sendEmailRes.ok) {
+      console.log("[process-payment] Portal access email sent: contactId=" + contactId);
+    } else {
+      var sendErr = await sendEmailRes.text();
+      console.warn("[process-payment] Portal email send failed:", sendEmailRes.status, sendErr.substring(0, 200));
+    }
+  } else {
+    console.warn("[process-payment] Could not find/create conversation for portal email: contactId=" + contactId);
+  }
+
+  console.log("[process-payment] GHL processing complete: contactId=" + contactId);
 }
 
 // ── Main handler ─────────────────────────────────────────────────
