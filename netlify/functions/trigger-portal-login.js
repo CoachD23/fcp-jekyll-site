@@ -52,7 +52,77 @@ async function upsertContact(email, firstName, lastName) {
     throw new Error(`GHL upsert ${res.status}: ${text}`);
   }
   const data = await res.json();
-  return data.contact?.id || data.id;
+  return data.contact || { id: data.id, firstName: firstName || "", email };
+}
+
+async function sendPortalEmail(contactId, email, firstName) {
+  const locationId = process.env.GHL_LOCATION_ID;
+  const name = firstName || "Athlete";
+
+  const portalEmailBody =
+    "Hi " + name + ",\n\n" +
+    "Your FCP application is confirmed — your Player Portal is ready.\n\n" +
+    "ACCESS YOUR PLAYER PORTAL:\n" +
+    "https://ops.floridacoastalprep.com\n\n" +
+    "Your login email is: " + email + "\n" +
+    "If this is your first time logging in, use the \"Forgot Password\" link to set your password.\n\n" +
+    "In the portal you can:\n" +
+    "• Submit your player forms and documents\n" +
+    "• View your enrollment status\n" +
+    "• Communicate with our coaching staff\n\n" +
+    "If you have any trouble accessing the portal, reply to this email or call us at (850) 961-2323.\n\n" +
+    "Welcome to FCP!\n\n" +
+    "Florida Coastal Prep\n" +
+    "33 Jet Drive NW, Fort Walton Beach, FL 32548\n" +
+    "(850) 961-2323\n" +
+    "floridacoastalprep.com";
+
+  // Get or create a conversation for this contact
+  let convId = null;
+  const convSearchRes = await fetch(
+    `${GHL_BASE}/conversations/search?locationId=${locationId}&contactId=${contactId}&limit=1`,
+    { headers: GHL_HEADERS() }
+  );
+  if (convSearchRes.ok) {
+    const convData = await convSearchRes.json();
+    convId = convData.conversations && convData.conversations[0] && convData.conversations[0].id;
+  }
+
+  if (!convId) {
+    const createRes = await fetch(`${GHL_BASE}/conversations/`, {
+      method: "POST",
+      headers: GHL_HEADERS(),
+      body: JSON.stringify({ locationId, contactId })
+    });
+    if (createRes.ok) {
+      const createData = await createRes.json();
+      convId = createData.conversation && createData.conversation.id;
+    }
+  }
+
+  if (!convId) {
+    console.warn(`[trigger-portal-login] Could not find/create conversation for contactId=${contactId}`);
+    return;
+  }
+
+  const sendRes = await fetch(`${GHL_BASE}/conversations/messages`, {
+    method: "POST",
+    headers: GHL_HEADERS(),
+    body: JSON.stringify({
+      type: "Email",
+      contactId,
+      conversationId: convId,
+      subject: "Your FCP Player Portal Access — Action Required",
+      body: portalEmailBody
+    })
+  });
+
+  if (sendRes.ok) {
+    console.log(`[trigger-portal-login] Portal email sent: contactId=${contactId}`);
+  } else {
+    const err = await sendRes.text();
+    console.warn(`[trigger-portal-login] Portal email failed ${sendRes.status}:`, err.substring(0, 200));
+  }
 }
 
 async function addTag(contactId, tag) {
@@ -110,9 +180,11 @@ exports.handler = async function (event) {
   const results = [];
   for (const target of targets) {
     try {
-      const contactId = await upsertContact(target.email, target.firstName, target.lastName);
+      const contact = await upsertContact(target.email, target.firstName, target.lastName);
+      const contactId = contact.id;
       await addTag(contactId, "applied");
       console.log(`[trigger-portal-login] Tagged as applied: ${target.email} (contactId=${contactId})`);
+      await sendPortalEmail(contactId, target.email, contact.firstName || target.firstName || "");
       results.push({ email: target.email, success: true, contactId });
     } catch (err) {
       console.error(`[trigger-portal-login] Failed for ${target.email}:`, err.message);
