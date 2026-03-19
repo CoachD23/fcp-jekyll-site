@@ -94,7 +94,7 @@ async function tagApplicantInGhl(email, firstName, lastName, program) {
   var contactId = contact.id;
 
   // Provision player record in Airtable + get magic link
-  var magicLink = await provisionPlayer(firstName, lastName, email, null, null);
+  var magicLink = await provisionPlayer(firstName, lastName, email, null, program);
   var portalUrl = magicLink || 'https://ops.floridacoastalprep.com/player/';
 
   // 2. Add "applied" tag
@@ -135,7 +135,7 @@ async function tagApplicantInGhl(email, firstName, lastName, program) {
     "ACCESS YOUR PLAYER PORTAL:\n" +
     portalUrl + "\n\n" +
     (magicLink
-      ? "This is your personal one-time login link — click it to access your portal directly. It expires in 7 days.\n\n"
+      ? "This is your personal one-time login link — click it to access your portal directly. It expires in 30 days.\n\n"
       : "To log in, visit the link above and enter your email address (" + email + "). We'll send you a magic link instantly — no password needed.\n\n"
     ) +
     "In the portal you can:\n" +
