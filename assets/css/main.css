@@ -7550,6 +7550,52 @@ iframe { max-width: 100%; }
   text-align: center;
 }
 
+/* ── Division page stat boxes + callouts ──────────────────── */
+.div-stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.div-stat-box {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-align: center;
+}
+.div-stat-box .num {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1a1a2e;
+  line-height: 1.1;
+}
+.div-stat-box .lbl {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+  margin-top: 0.25rem;
+}
+.div-callout {
+  background: #fffbeb;
+  border-left: 4px solid #d4a843;
+  border-radius: 0 8px 8px 0;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+}
+.div-callout p {
+  margin: 0;
+  color: #1a1a2e;
+  line-height: 1.6;
+}
+@media (max-width: 480px) {
+  .div-stat-row { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
+  .div-stat-box .num { font-size: 1.5rem; }
+}
+
 /* ── School header ───────────────────────────────────────────── */
 .recruit-school-header {
   background: linear-gradient(180deg, #f9fafb 0%, #ffffff 100%);
