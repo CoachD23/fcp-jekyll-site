@@ -108,13 +108,13 @@
 /ccu/                          /about/         301
 
 # ----------------------------------------------------------
-# 11. SUMMER CAMPS → /apply/
+# 11. SUMMER CAMPS → summer.floridacoastalprep.com
 # ----------------------------------------------------------
-/summercamps/                  /apply/         301
-/elite-summer-camp-commuter/   /apply/         301
-/elite-summer-camp-boarding/   /apply/         301
-/spartan-skills-camp-23-27/    /apply/         301
-/spartan-skills-camp-16-20/    /apply/         301
+/summercamps/                 https://summer.floridacoastalprep.com  301
+/elite-summer-camp-commuter/  https://summer.floridacoastalprep.com  301
+/elite-summer-camp-boarding/  https://summer.floridacoastalprep.com  301
+/spartan-skills-camp-23-27/   https://summer.floridacoastalprep.com  301
+/spartan-skills-camp-16-20/   https://summer.floridacoastalprep.com  3011
 
 # ----------------------------------------------------------
 # 12. SOCCER pages → homepage (program not on new site)
