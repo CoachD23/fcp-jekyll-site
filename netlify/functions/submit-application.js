@@ -324,7 +324,7 @@ exports.handler = async function (event) {
   }
 
   const formName = raw['form-name'] || '';
-  const isInternational = formName === 'international-application';
+  const isInternational = formName === 'fcp-intl-application';
 
   const sanitized = sanitize(raw);
   const fields = isInternational
