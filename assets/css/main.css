@@ -7370,6 +7370,36 @@ iframe { max-width: 100%; }
   margin-top: 0.5rem;
 }
 
+/* ── Compact division cards (hub page) ──────────────────────── */
+.recruit-division-grid--compact {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+.recruit-division-card--compact {
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+.recruit-division-card--compact h3 {
+  font-size: 0.95rem;
+  margin: 0;
+}
+.recruit-division-card--compact .recruit-card-count {
+  margin-top: 0.25rem;
+}
+.recruit-division-card--compact .recruit-card-link {
+  margin-top: 0.25rem;
+  font-size: 0.78rem;
+}
+@media (max-width: 600px) {
+  .recruit-division-grid--compact {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* ── State alpha chips ──────────────────────────────────────── */
 .recruit-state-alpha-grid {
   display: flex;

@@ -49,27 +49,14 @@ layout: default
 
     <!-- Division Cards -->
     <h2 class="recruit-section-title">Browse by Division</h2>
-    <div class="recruit-division-grid">
+    <div class="recruit-division-grid recruit-division-grid--compact">
       {% assign divisions = site.data.recruiting.divisions %}
       {% for div in divisions %}
-      <a href="/{{ div.slug }}/" class="recruit-division-card">
-        <div class="recruit-division-card-inner">
-          <div class="recruit-division-icon">
-            {% if div.id == 'D1' %}🏆
-            {% elsif div.id == 'D2' %}🥈
-            {% elsif div.id == 'D3' %}🎓
-            {% elsif div.id == 'NAIA' %}⭐
-            {% elsif div.id == 'JUCO' %}⚡
-            {% elsif div.id == 'USCAA' %}🏫
-            {% else %}🏀{% endif %}
-          </div>
-          <h3>{{ div.label }}</h3>
-          <p>{{ div.description }}</p>
-          {% if div.school_count > 0 %}
-          <span class="recruit-card-count">{{ div.school_count }} programs</span>
-          {% endif %}
-          <span class="recruit-card-link">View All Programs →</span>
-        </div>
+      <a href="/{{ div.slug }}/" class="recruit-division-card recruit-division-card--compact">
+        <h3>{{ div.label }}</h3>
+        {% assign school_count = site.data.recruiting.schools | where: "division", div.id | size %}
+        <span class="recruit-card-count">{{ school_count }} programs</span>
+        <span class="recruit-card-link">Browse →</span>
       </a>
       {% endfor %}
     </div>
@@ -115,39 +102,16 @@ layout: default
     <div class="recruit-guides-section">
       <h2 class="recruit-section-title">Recruiting Guides &amp; Tools</h2>
       <div class="recruit-guide-chips">
-        <a href="/how-to-get-recruited-for-college-basketball/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">📋</span> How to Get Recruited
-        </a>
-        <a href="/how-to-contact-college-basketball-coaches/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">📧</span> How to Contact Coaches
-        </a>
-        <a href="/best-prep-schools-for-basketball/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">🏫</span> Best Prep Schools
-        </a>
-        <a href="/post-grad-basketball-program-guide/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">📅</span> Post-Grad Program Guide
-        </a>
-        <a href="/how-naia-basketball-recruiting-works/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">⭐</span> NAIA Recruiting Guide
-        </a>
-        <a href="/how-juco-basketball-recruiting-works/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">⚡</span> JUCO Recruiting Guide
-        </a>
-        <a href="/d1-basketball-scholarship-guide/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">🏆</span> D1 Scholarship Guide
-        </a>
-        <a href="/d1-basketball-coaches/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">🔍</span> D1 Coach Finder Tool
-        </a>
-        <a href="/newsletter/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">📬</span> FCP Recruiting Newsletter
-        </a>
-        <a href="/international-basketball-players/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">🌍</span> International Players Guide
-        </a>
-        <a href="/florida-basketball-prep-school/" class="recruit-guide-chip">
-          <span class="recruit-guide-chip-icon">🏀</span> Florida Prep School
-        </a>
+        <a href="/how-to-get-recruited-for-college-basketball/" class="recruit-guide-chip">How to Get Recruited</a>
+        <a href="/how-to-contact-college-basketball-coaches/" class="recruit-guide-chip">How to Contact Coaches</a>
+        <a href="/best-prep-schools-for-basketball/" class="recruit-guide-chip">Best Prep Schools</a>
+        <a href="/post-grad-basketball-program-guide/" class="recruit-guide-chip">Post-Grad Program Guide</a>
+        <a href="/how-naia-basketball-recruiting-works/" class="recruit-guide-chip">NAIA Recruiting Guide</a>
+        <a href="/how-juco-basketball-recruiting-works/" class="recruit-guide-chip">JUCO Recruiting Guide</a>
+        <a href="/d1-basketball-scholarship-guide/" class="recruit-guide-chip">D1 Scholarship Guide</a>
+        <a href="/d1-basketball-coaches/" class="recruit-guide-chip">D1 Coach Finder</a>
+        <a href="/newsletter/" class="recruit-guide-chip">FCP Newsletter</a>
+        <a href="/international-basketball-players/" class="recruit-guide-chip">International Players</a>
       </div>
     </div>
 

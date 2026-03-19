@@ -134,6 +134,17 @@ layout: default
 
     </div><!-- /.division-tabs -->
 
+    {% if page.related_guides %}
+    <div class="recruit-guides-section">
+      <h2 class="recruit-section-title">Recruiting Guides &amp; Tools</h2>
+      <div class="recruit-guide-chips">
+        {% for guide in page.related_guides %}
+        <a href="{{ guide.url }}" class="recruit-guide-chip">{{ guide.title }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
     <!-- Bottom CTA -->
     <div class="recruit-bottom-cta">
       <h2>FCP Develops Players Who Earn {{ page.division_label | default: division.label }} Offers</h2>
@@ -143,15 +154,6 @@ layout: default
         <a href="/contact/" class="btn btn-outline-dark">Contact a Coach</a>
       </div>
     </div>
-
-    {% if page.related_guides %}
-    <h2 class="recruit-section-title">Recruiting Guides</h2>
-    <ul class="recruit-guide-list">
-      {% for guide in page.related_guides %}
-      <li><a href="{{ guide.url }}">{{ guide.title }}</a></li>
-      {% endfor %}
-    </ul>
-    {% endif %}
 
   </div>
 </section>
