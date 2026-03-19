@@ -138,10 +138,12 @@ layout: default
       <h2 class="recruit-section-title">Other {{ conf.division }} Conferences</h2>
       <div class="recruit-conf-grid">
         {% assign other_confs = site.data.recruiting.conferences | where: "division", conf.division | sort: "name" %}
+        {% assign div_schools = site.data.recruiting.schools | where: "division", conf.division %}
         {% for c in other_confs %}
           {% unless c.slug == conf.slug %}
+          {% assign c_schools = div_schools | where: "conference", c.name %}
           <a href="/{{ c.slug }}-basketball-programs/" class="recruit-conf-chip">
-            {{ c.name }} <span class="chip-count">{{ c.school_count }}</span>
+            {{ c.name }} <span class="chip-count">{{ c_schools | size }}</span>
           </a>
           {% endunless %}
         {% endfor %}

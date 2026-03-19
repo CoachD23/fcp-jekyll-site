@@ -24,8 +24,9 @@ layout: default
         <span class="recruit-stat-num">{{ conferences | size }}</span>
         <span class="recruit-stat-label">Conferences</span>
       </div>
+      {% assign div_states = all_schools | map: "state" | uniq %}
       <div class="recruit-stat">
-        <span class="recruit-stat-num">50</span>
+        <span class="recruit-stat-num">{{ div_states | size }}</span>
         <span class="recruit-stat-label">States</span>
       </div>
       {% if fcp_commits.size > 0 %}
@@ -88,8 +89,9 @@ layout: default
         <p class="division-notable-intro">{{ page.conf_intro | default: "Every conference in this division — click to browse all member programs." }}</p>
         <div class="recruit-conf-grid">
           {% for conf in conferences %}
+          {% assign conf_schools = all_schools | where: "conference", conf.name %}
           <a href="/{{ conf.slug }}-basketball-programs/" class="recruit-conf-chip">
-            {{ conf.name }} <span class="chip-count">{{ conf.school_count }}</span>
+            {{ conf.name }} <span class="chip-count">{{ conf_schools | size }}</span>
           </a>
           {% endfor %}
         </div>
