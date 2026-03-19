@@ -38,8 +38,36 @@ function sanitize(str, maxLen) {
   return str.replace(/[<>"'&]/g, "").trim().substring(0, maxLen);
 }
 
+// ── Provision player in ops system + get magic link ──────────────
+async function provisionPlayer(firstName, lastName, email, phone, program) {
+  var provisionSecret = process.env.PROVISION_SECRET;
+  if (!provisionSecret) {
+    console.warn('[process-payment] PROVISION_SECRET not set — skipping provision');
+    return null;
+  }
+  try {
+    var res = await fetch('https://ops.floridacoastalprep.com/.netlify/functions/provision-player', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Provision-Secret': provisionSecret
+      },
+      body: JSON.stringify({ firstName: firstName, lastName: lastName, email: email, phone: phone || '', program: program || '' })
+    });
+    if (!res.ok) {
+      console.warn('[process-payment] provision-player returned', res.status);
+      return null;
+    }
+    var data = await res.json();
+    return data.magicLink || null;
+  } catch (err) {
+    console.warn('[process-payment] provision-player error:', err.message);
+    return null;
+  }
+}
+
 // ── GHL: tag applicant as "applied" after successful payment ─────
-async function tagApplicantInGhl(email) {
+async function tagApplicantInGhl(email, firstName, lastName, program) {
   var ghlApiKey = process.env.GHL_API_KEY;
   var ghlLocationId = process.env.GHL_LOCATION_ID;
   if (!ghlApiKey || !ghlLocationId) {
@@ -64,6 +92,10 @@ async function tagApplicantInGhl(email) {
   var contact = searchData.contacts && searchData.contacts[0];
   if (!contact) throw new Error("GHL contact not found for " + email);
   var contactId = contact.id;
+
+  // Provision player record in Airtable + get magic link
+  var magicLink = await provisionPlayer(firstName, lastName, email, null, null);
+  var portalUrl = magicLink || 'https://ops.floridacoastalprep.com/player/';
 
   // 2. Add "applied" tag
   var addRes = await fetch(ghlBase + "/contacts/" + contactId + "/tags", {
@@ -97,12 +129,15 @@ async function tagApplicantInGhl(email) {
   }
 
   // 5. Send portal access email immediately via GHL conversation
-  var firstName = contact.firstName || "Athlete";
-  var portalEmailBody = "Hi " + firstName + ",\n\n" +
+  var displayFirstName = firstName || contact.firstName || "Athlete";
+  var portalEmailBody = "Hi " + displayFirstName + ",\n\n" +
     "Your $25 registration fee has been received — you're officially in the system!\n\n" +
     "ACCESS YOUR PLAYER PORTAL:\n" +
-    "https://ops.floridacoastalprep.com/player/\n\n" +
-    "To log in, visit the link above and enter your email address (" + email + "). We'll send you a magic link instantly — no password needed.\n\n" +
+    portalUrl + "\n\n" +
+    (magicLink
+      ? "This is your personal one-time login link — click it to access your portal directly. It expires in 7 days.\n\n"
+      : "To log in, visit the link above and enter your email address (" + email + "). We'll send you a magic link instantly — no password needed.\n\n"
+    ) +
     "In the portal you can:\n" +
     "• Submit your player forms and documents\n" +
     "• View your enrollment status\n" +
@@ -371,7 +406,14 @@ exports.handler = async function (event) {
 
       // Tag applicant in GHL if this payment came from either application form
       if ((source === "intl-apply" || source === "us-apply") && email) {
-        try { await tagApplicantInGhl(email); }
+        try {
+          await tagApplicantInGhl(
+            email,
+            billFirstName || participantName.split(' ')[0] || '',
+            billLastName || participantName.split(' ').slice(1).join(' ') || '',
+            source === 'us-apply' ? 'Post Grad / High School' : 'International'
+          );
+        }
         catch (ghlErr) { console.error("[process-payment] GHL tagging failed:", ghlErr.message); }
       }
 
