@@ -236,6 +236,53 @@ layout: default
     </div>
   </div>
 
+  <!-- FCP Program Links (E-E-A-T internal linking) -->
+  <div class="container">
+    <div class="recruit-info-card">
+      {% if school.division == "D1" or school.division == "D2" %}
+      <h2>How FCP Prepares Players for {{ school.division }} Programs</h2>
+      <p>
+        Earning a roster spot at a {{ school.division }} program like {{ school.name }} takes more than athleticism.
+        Coaches evaluate game film, academic eligibility, and competitive exposure before extending offers.
+        FCP's <a href="/post-grad/">post-graduate program</a> gives players the structured development and
+        national exposure needed to get evaluated by {{ school.division }} coaching staffs.
+      </p>
+      {% elsif school.division == "JUCO" %}
+      <h2>Using a Post-Grad Year to Reach JUCO Programs</h2>
+      <p>
+        JUCO programs like {{ school.name }} offer a proven pathway to four-year basketball.
+        FCP's <a href="/post-grad/">post-graduate basketball program</a> helps players build the film,
+        grades, and exposure that NJCAA coaches need to see before offering roster spots.
+        Many FCP alumni have gone on to compete at the JUCO level and transfer to NCAA programs.
+      </p>
+      {% elsif school.division == "NAIA" %}
+      <h2>Preparing for NAIA Basketball at {{ school.name }}</h2>
+      <p>
+        NAIA programs recruit players who show consistent improvement and competitive readiness.
+        FCP's <a href="/post-grad/">post-graduate year</a> bridges the gap between high school
+        and college-level play, giving athletes the film and academic standing NAIA coaches require.
+      </p>
+      {% else %}
+      <h2>Getting Ready for College Basketball</h2>
+      <p>
+        FCP's <a href="/post-grad/">post-graduate basketball program</a> prepares student-athletes
+        for the next level with competitive scheduling, academic support, and exposure to college coaches.
+      </p>
+      {% endif %}
+      <p>
+        Whether you're a current high school player exploring options through our
+        <a href="/high-school/">high school program</a> or a graduate looking for a
+        <a href="/why-post-grad/">post-grad year</a>, FCP provides the coaching, competition,
+        and college placement support to help you reach programs like {{ school.name }}.
+      </p>
+      <div class="recruit-cta-mini">
+        <a href="/post-grad/" class="btn btn-outline-dark btn-sm">Post-Grad Program</a>
+        <a href="/high-school/" class="btn btn-outline-dark btn-sm">High School Program</a>
+        <a href="/apply/" class="btn btn-primary btn-sm">Apply to FCP</a>
+      </div>
+    </div>
+  </div>
+
   <!-- FCP CTA -->
   <div class="container">
     <div class="recruit-bottom-cta">
@@ -249,6 +296,9 @@ layout: default
         <a href="/apply/" class="btn btn-primary">Apply to FCP</a>
         <a href="/contact/" class="btn btn-outline-dark">Talk to a Coach</a>
       </div>
+      <p class="recruit-attribution">
+        <small>Research compiled by the FCP recruiting staff · Last updated March 2026</small>
+      </p>
     </div>
   </div>
 

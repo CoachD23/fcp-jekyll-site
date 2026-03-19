@@ -7544,6 +7544,11 @@ iframe { max-width: 100%; }
   justify-content: center;
   gap: 0.75rem;
 }
+.recruit-attribution {
+  margin-top: 1rem;
+  color: #9ca3af;
+  text-align: center;
+}
 
 /* ── School header ───────────────────────────────────────────── */
 .recruit-school-header {

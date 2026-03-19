@@ -7,6 +7,8 @@
 #
 # Safe for Netlify: no network calls, pure data-driven page generation.
 
+require 'set'
+
 module FCP
   class RecruitingPageGenerator < Jekyll::Generator
     safe true
@@ -46,7 +48,11 @@ module FCP
 
       # ── Individual school pages (all divisions) ───────────────────────────
       all_schools = schools.select { |s| s['slug'] && s['division_slug'] }
+      seen_slugs = Set.new
       all_schools.each do |school|
+        slug_key = "#{school['division_slug']}/#{school['slug']}"
+        next if seen_slugs.include?(slug_key)
+        seen_slugs.add(slug_key)
         site.pages << SchoolPage.new(site, school)
       end
     end
@@ -114,11 +120,14 @@ module FCP
       city_part  = school['city'].to_s.empty? ? school['state'] : school['city']
       div_label  = school['division']
 
+      thin_page = school['head_coach'].to_s.empty? && school['city'].to_s.empty?
+
       self.data = {
         'layout'      => 'recruit-school',
         'title'       => "#{school['name']} #{div_label} Basketball — Coach, Roster & Recruiting | FCP",
         'description' => "#{school['name']} #{div_label} basketball (#{conf_name}) in #{city_part}: view #{coach_name}'s contact, staff directory, and recruiting guide.",
-        'og_image'    => (school['logo_url'].to_s.empty? ? '/assets/images/basketball-placeholder.jpg' : school['logo_url']),
+        'og_image'    => (school['logo_url'].to_s.empty? ? '/assets/images/about-fcp.jpg' : school['logo_url']),
+        'noindex'     => thin_page,
         'school'      => school,
       }
       self.content = ''
