@@ -21,13 +21,13 @@ noindex: true
     <!-- Player Portal Email Confirmation -->
     <div id="portal-email-form" style="background: #f0f7ff; border: 2px solid #1a1a2e; border-radius: 10px; padding: 1.75rem; margin: 0 0 1.5rem; text-align: left;">
       <p style="font-weight: 800; color: #1a1a2e; font-size: 1.1rem; margin: 0 0 0.25rem;">Activate Your FCP Student Portal</p>
-      <p style="color: #555; font-size: 0.88rem; margin: 0 0 1.25rem; line-height: 1.6;">Enter the <strong>player's email address</strong> below to receive portal login credentials. Parent/guardian access is granted through the player's portal.</p>
+      <p style="color: #555; font-size: 0.88rem; margin: 0 0 1.25rem; line-height: 1.6;">Enter the <strong>player's email address</strong> below to receive a magic login link for the portal. Parent/guardian access is granted through the player's portal.</p>
       <div style="margin-bottom: 0.75rem;">
         <label for="portal-email" style="display: block; font-size: 0.82rem; font-weight: 700; color: #333; margin-bottom: 0.35rem; text-transform: uppercase; letter-spacing: 0.04em;">Player Email Address</label>
         <input type="email" id="portal-email" placeholder="player@email.com" required style="width: 100%; box-sizing: border-box; padding: 0.75rem 0.9rem; border: 1.5px solid #ccc; border-radius: 6px; font-size: 1rem; color: #222;">
         <span style="display: block; font-size: 0.78rem; color: #888; margin-top: 0.3rem;">This must be the player's personal email — portal login will be sent here</span>
       </div>
-      <button type="button" id="portal-submit-btn" onclick="submitPortalEmail()" style="width: 100%; padding: 0.85rem; background: #b22234; color: #fff; border: none; border-radius: 8px; font-size: 1rem; font-weight: 700; cursor: pointer; transition: background 0.2s;">Send My Portal Login</button>
+      <button type="button" id="portal-submit-btn" onclick="submitPortalEmail()" style="width: 100%; padding: 0.85rem; background: #b22234; color: #fff; border: none; border-radius: 8px; font-size: 1rem; font-weight: 700; cursor: pointer; transition: background 0.2s;">Send Magic Login Link</button>
       <div id="portal-result" style="display: none; margin-top: 0.75rem; padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.9rem;"></div>
     </div>
 
@@ -36,7 +36,7 @@ noindex: true
       <p style="font-weight: 700; color: #1a1a2e; font-size: 0.95rem; margin: 0 0 0.5rem;">What Happens Next</p>
       <ol style="margin: 0; padding-left: 1.25rem; color: #444; font-size: 0.9rem; line-height: 1.8;">
         <li>A payment receipt is being sent to the billing email now</li>
-        <li>Portal login credentials will be emailed to the player within 24 hours</li>
+        <li>A magic login link will be emailed to the player within minutes</li>
         <li>Complete your full athletic &amp; academic profile in the portal</li>
         <li>Our coaching staff will review your application and be in touch</li>
       </ol>
@@ -77,13 +77,13 @@ function submitPortalEmail() {
   .then(function(res) { return res.json(); })
   .then(function(data) {
     if (data.success) {
-      showPortalResult('success', 'Portal login request sent to <strong>' + email + '</strong>. Check your inbox (and spam folder) within 24 hours.');
+      showPortalResult('success', 'Magic login link sent to <strong>' + email + '</strong>. Check your inbox (and spam folder) within a few minutes.');
       btn.textContent = 'Sent!';
       btn.style.background = '#2e7d32';
     } else {
       showPortalResult('error', data.error || 'Something went wrong. Please email info@floridacoastalprep.com');
       btn.disabled = false;
-      btn.textContent = 'Send My Portal Login';
+      btn.textContent = 'Send Magic Login Link';
     }
   })
   .catch(function() {

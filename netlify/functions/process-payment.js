@@ -101,9 +101,8 @@ async function tagApplicantInGhl(email) {
   var portalEmailBody = "Hi " + firstName + ",\n\n" +
     "Your $25 registration fee has been received — you're officially in the system!\n\n" +
     "ACCESS YOUR PLAYER PORTAL:\n" +
-    "https://ops.floridacoastalprep.com\n\n" +
-    "Your login email is: " + email + "\n" +
-    "If this is your first time logging in, use the \"Forgot Password\" link to set your password.\n\n" +
+    "https://ops.floridacoastalprep.com/player/\n\n" +
+    "To log in, visit the link above and enter your email address (" + email + "). We'll send you a magic link instantly — no password needed.\n\n" +
     "In the portal you can:\n" +
     "• Submit your player forms and documents\n" +
     "• View your enrollment status\n" +

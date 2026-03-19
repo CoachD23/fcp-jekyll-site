@@ -346,6 +346,8 @@ sitemap: false
     var ln = p.get('lastName')  || '';
     var fullName = (fn + ' ' + ln).trim();
     if (fullName) document.getElementById('pay-name').value  = fullName;
+    if (fn) document.getElementById('pay-first').value = fn;
+    if (ln) document.getElementById('pay-last').value  = ln;
     if (p.get('email')) document.getElementById('pay-email').value = p.get('email');
     if (_source === 'intl-apply' || _source === 'us-apply') {
       document.getElementById('pay-purpose').value = 'Registration Fee';

@@ -63,9 +63,8 @@ async function sendPortalEmail(contactId, email, firstName) {
     "Hi " + name + ",\n\n" +
     "Your FCP application is confirmed — your Player Portal is ready.\n\n" +
     "ACCESS YOUR PLAYER PORTAL:\n" +
-    "https://ops.floridacoastalprep.com\n\n" +
-    "Your login email is: " + email + "\n" +
-    "If this is your first time logging in, use the \"Forgot Password\" link to set your password.\n\n" +
+    "https://ops.floridacoastalprep.com/player/\n\n" +
+    "To log in, visit the link above and enter your email address. We'll send you a magic link instantly — no password needed.\n\n" +
     "In the portal you can:\n" +
     "• Submit your player forms and documents\n" +
     "• View your enrollment status\n" +
