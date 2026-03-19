@@ -46,8 +46,8 @@
   slug: "auburn-tigers"
   nickname: "Tigers"
   abbreviation: "AUB"
-  espn_id: ''
-  city: ''
+  espn_id: '2'
+  city: "Auburn"
   state: "AL"
   state_slug: "alabama"
   division: "D1"
@@ -58,29 +58,8 @@
   alt_color: ''
   logo_url: ""
   logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Auburn Tigers"
-  slug: "auburn-tigers"
-  nickname: "Tigers"
-  abbreviation: "AUB"
-  espn_id: ''
-  city: ''
-  state: "AL"
-  state_slug: "alabama"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "SEC"
-  conference_slug: "sec-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  espn_url: "https://www.espn.com/mens-college-basketball/team/_/id/2/auburn-tigers"
+  head_coach: "Bruce Pearl"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -88,8 +67,8 @@
   slug: "arizona-wildcats"
   nickname: "Wildcats"
   abbreviation: "ARI"
-  espn_id: ''
-  city: ''
+  espn_id: '12'
+  city: "Tucson"
   state: "AZ"
   state_slug: "arizona"
   division: "D1"
@@ -100,8 +79,8 @@
   alt_color: ''
   logo_url: ""
   logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  espn_url: "https://www.espn.com/mens-college-basketball/team/_/id/12/arizona-wildcats"
+  head_coach: "Tommy Lloyd"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -109,8 +88,8 @@
   slug: "ucla-bruins"
   nickname: "Bruins"
   abbreviation: "UCLA"
-  espn_id: ''
-  city: ''
+  espn_id: '26'
+  city: "Los Angeles"
   state: "CA"
   state_slug: "california"
   division: "D1"
@@ -121,8 +100,8 @@
   alt_color: ''
   logo_url: ""
   logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  espn_url: "https://www.espn.com/mens-college-basketball/team/_/id/26/ucla-bruins"
+  head_coach: "Mick Cronin"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -130,8 +109,8 @@
   slug: "uconn-huskies"
   nickname: "Huskies"
   abbreviation: "UCONN"
-  espn_id: ''
-  city: ''
+  espn_id: '41'
+  city: "Storrs"
   state: "CT"
   state_slug: "connecticut"
   division: "D1"
@@ -142,8 +121,8 @@
   alt_color: ''
   logo_url: ""
   logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  espn_url: "https://www.espn.com/mens-college-basketball/team/_/id/41/connecticut-huskies"
+  head_coach: "Dan Hurley"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -151,8 +130,8 @@
   slug: "kansas-jayhawks"
   nickname: "Jayhawks"
   abbreviation: "KAN"
-  espn_id: ''
-  city: ''
+  espn_id: '2305'
+  city: "Lawrence"
   state: "KS"
   state_slug: "kansas"
   division: "D1"
@@ -163,8 +142,8 @@
   alt_color: ''
   logo_url: ""
   logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  espn_url: "https://www.espn.com/mens-college-basketball/team/_/id/2305/kansas-jayhawks"
+  head_coach: "Bill Self"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -172,8 +151,8 @@
   slug: "kentucky-wildcats"
   nickname: "Wildcats"
   abbreviation: "UK"
-  espn_id: ''
-  city: ''
+  espn_id: '96'
+  city: "Lexington"
   state: "KY"
   state_slug: "kentucky"
   division: "D1"
@@ -184,8 +163,8 @@
   alt_color: ''
   logo_url: ""
   logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  espn_url: "https://www.espn.com/mens-college-basketball/team/_/id/96/kentucky-wildcats"
+  head_coach: "Mark Pope"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -193,8 +172,8 @@
   slug: "michigan-state-spartans"
   nickname: "Spartans"
   abbreviation: "MSU"
-  espn_id: ''
-  city: ''
+  espn_id: '127'
+  city: "East Lansing"
   state: "MI"
   state_slug: "michigan"
   division: "D1"
@@ -205,8 +184,8 @@
   alt_color: ''
   logo_url: ""
   logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  espn_url: "https://www.espn.com/mens-college-basketball/team/_/id/127/michigan-state-spartans"
+  head_coach: "Tom Izzo"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -214,8 +193,8 @@
   slug: "duke-blue-devils"
   nickname: "Blue Devils"
   abbreviation: "DUKE"
-  espn_id: ''
-  city: ''
+  espn_id: '150'
+  city: "Durham"
   state: "NC"
   state_slug: "north-carolina"
   division: "D1"
@@ -226,8 +205,8 @@
   alt_color: ''
   logo_url: ""
   logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  espn_url: "https://www.espn.com/mens-college-basketball/team/_/id/150/duke-blue-devils"
+  head_coach: "Jon Scheyer"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -235,8 +214,8 @@
   slug: "north-carolina-tar-heels"
   nickname: "Tar Heels"
   abbreviation: "UNC"
-  espn_id: ''
-  city: ''
+  espn_id: '153'
+  city: "Chapel Hill"
   state: "NC"
   state_slug: "north-carolina"
   division: "D1"
@@ -247,8 +226,8 @@
   alt_color: ''
   logo_url: ""
   logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  espn_url: "https://www.espn.com/mens-college-basketball/team/_/id/153/north-carolina-tar-heels"
+  head_coach: "Hubert Davis"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -256,8 +235,8 @@
   slug: "villanova-wildcats"
   nickname: "Wildcats"
   abbreviation: "NOVA"
-  espn_id: ''
-  city: ''
+  espn_id: '222'
+  city: "Villanova"
   state: "PA"
   state_slug: "pennsylvania"
   division: "D1"
@@ -268,8 +247,8 @@
   alt_color: ''
   logo_url: ""
   logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  espn_url: "https://www.espn.com/mens-college-basketball/team/_/id/222/villanova-wildcats"
+  head_coach: "Kevin Willard"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -277,8 +256,8 @@
   slug: "houston-cougars"
   nickname: "Cougars"
   abbreviation: "HOU"
-  espn_id: ''
-  city: ''
+  espn_id: '248'
+  city: "Houston"
   state: "TX"
   state_slug: "texas"
   division: "D1"
@@ -289,8 +268,8 @@
   alt_color: ''
   logo_url: ""
   logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  espn_url: "https://www.espn.com/mens-college-basketball/team/_/id/248/houston-cougars"
+  head_coach: "Kelvin Sampson"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -298,8 +277,8 @@
   slug: "gonzaga-bulldogs"
   nickname: "Bulldogs"
   abbreviation: "GNZ"
-  espn_id: ''
-  city: ''
+  espn_id: '2250'
+  city: "Spokane"
   state: "WA"
   state_slug: "washington"
   division: "D1"
@@ -310,8 +289,8 @@
   alt_color: ''
   logo_url: ""
   logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  espn_url: "https://www.espn.com/mens-college-basketball/team/_/id/2250/gonzaga-bulldogs"
+  head_coach: "Mark Few"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -320,7 +299,7 @@
   nickname: "Sharks"
   abbreviation: "NSU"
   espn_id: ''
-  city: ''
+  city: "Fort Lauderdale"
   state: "FL"
   state_slug: "florida"
   division: "D2"
@@ -332,7 +311,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Jim Crutchfield"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -341,7 +320,7 @@
   nickname: "Wolves"
   abbreviation: "WG"
   espn_id: ''
-  city: ''
+  city: "Carrollton"
   state: "GA"
   state_slug: "georgia"
   division: "D2"
@@ -353,7 +332,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Dave Moore"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -362,7 +341,7 @@
   nickname: "Bulldogs"
   abbreviation: "FSU"
   espn_id: ''
-  city: ''
+  city: "Big Rapids"
   state: "MI"
   state_slug: "michigan"
   division: "D2"
@@ -374,7 +353,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Alex Fodness"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -383,7 +362,7 @@
   nickname: "Panthers"
   abbreviation: "DRURY"
   espn_id: ''
-  city: ''
+  city: "Springfield"
   state: "MO"
   state_slug: "missouri"
   division: "D2"
@@ -395,7 +374,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Chris Foster"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -404,7 +383,7 @@
   nickname: "Bearcats"
   abbreviation: "NWMSU"
   espn_id: ''
-  city: ''
+  city: "Maryville"
   state: "MO"
   state_slug: "missouri"
   division: "D2"
@@ -416,7 +395,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Matt Keeley"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -425,7 +404,7 @@
   nickname: "Bulldogs"
   abbreviation: "WINGATE"
   espn_id: ''
-  city: ''
+  city: "Wingate"
   state: "NC"
   state_slug: "north-carolina"
   division: "D2"
@@ -437,7 +416,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Brian Good"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -446,7 +425,7 @@
   nickname: "Oilers"
   abbreviation: "FINDLAY"
   espn_id: ''
-  city: ''
+  city: "Findlay"
   state: "OH"
   state_slug: "ohio"
   division: "D2"
@@ -458,7 +437,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Charlie Ernst"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -467,7 +446,7 @@
   nickname: "Railsplitters"
   abbreviation: "LMU"
   espn_id: ''
-  city: ''
+  city: "Harrogate"
   state: "TN"
   state_slug: "tennessee"
   division: "D2"
@@ -479,7 +458,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Tony Jasick"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -488,7 +467,7 @@
   nickname: "Raiders"
   abbreviation: "NWFSC"
   espn_id: ''
-  city: ''
+  city: "Niceville"
   state: "FL"
   state_slug: "florida"
   division: "JUCO"
@@ -500,7 +479,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Steve DeMeo"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -509,7 +488,7 @@
   nickname: "Red Ravens"
   abbreviation: "COFFEY"
   espn_id: ''
-  city: ''
+  city: "Coffeyville"
   state: "KS"
   state_slug: "kansas"
   division: "JUCO"
@@ -521,7 +500,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Jay Herkelman"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -530,7 +509,7 @@
   nickname: "Blue Dragons"
   abbreviation: "HUTCH"
   espn_id: ''
-  city: ''
+  city: "Hutchinson"
   state: "KS"
   state_slug: "kansas"
   division: "JUCO"
@@ -542,7 +521,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Kyle Fisher"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -551,7 +530,7 @@
   nickname: "Rangers"
   abbreviation: "KILGORE"
   espn_id: ''
-  city: ''
+  city: "Kilgore"
   state: "TX"
   state_slug: "texas"
   division: "JUCO"
@@ -563,7 +542,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Robert Byrd"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -572,7 +551,7 @@
   nickname: "Bulldogs"
   abbreviation: "NAVARRO"
   espn_id: ''
-  city: ''
+  city: "Corsicana"
   state: "TX"
   state_slug: "texas"
   division: "JUCO"
@@ -584,7 +563,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Grant McMillan"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -593,7 +572,7 @@
   nickname: "Apaches"
   abbreviation: "TYLER"
   espn_id: ''
-  city: ''
+  city: "Tyler"
   state: "TX"
   state_slug: "texas"
   division: "JUCO"
@@ -605,7 +584,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Mike Marquis"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -614,7 +593,7 @@
   nickname: "Wildcats"
   abbreviation: "IWU"
   espn_id: ''
-  city: ''
+  city: "Marion"
   state: "IN"
   state_slug: "indiana"
   division: "NAIA"
@@ -626,7 +605,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Greg Tonagel"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -635,7 +614,7 @@
   nickname: "Mustangs"
   abbreviation: "MU"
   espn_id: ''
-  city: ''
+  city: "Sioux City"
   state: "IA"
   state_slug: "iowa"
   division: "NAIA"
@@ -647,7 +626,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Trent Miller"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -656,7 +635,7 @@
   nickname: "Tigers"
   abbreviation: "CAMPBELL"
   espn_id: ''
-  city: ''
+  city: "Campbellsville"
   state: "KY"
   state_slug: "kentucky"
   division: "NAIA"
@@ -668,7 +647,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Brent Vernon"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -677,7 +656,7 @@
   nickname: "Tigers"
   abbreviation: "GT"
   espn_id: ''
-  city: ''
+  city: "Georgetown"
   state: "KY"
   state_slug: "kentucky"
   division: "NAIA"
@@ -689,7 +668,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Chris Briggs"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -698,7 +677,7 @@
   nickname: "Blue Raiders"
   abbreviation: "LWCC"
   espn_id: ''
-  city: ''
+  city: "Columbia"
   state: "KY"
   state_slug: "kentucky"
   division: "NAIA"
@@ -710,7 +689,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Chris Starks"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -719,7 +698,7 @@
   nickname: "Stars"
   abbreviation: "OCU"
   espn_id: ''
-  city: ''
+  city: "Oklahoma City"
   state: "OK"
   state_slug: "oklahoma"
   division: "NAIA"
@@ -731,7 +710,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Vinay Patel"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -740,7 +719,7 @@
   nickname: "Lions"
   abbreviation: "PSU-DuBois"
   espn_id: ''
-  city: ''
+  city: "DuBois"
   state: "PA"
   state_slug: "pennsylvania"
   division: "USCAA"
@@ -752,7 +731,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Dan Smay"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -761,7 +740,7 @@
   nickname: "Nittany Lions"
   abbreviation: "PSU-Hazleton"
   espn_id: ''
-  city: ''
+  city: "Hazleton"
   state: "PA"
   state_slug: "pennsylvania"
   division: "USCAA"
@@ -773,7 +752,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
+  head_coach: "Jeff Rush"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
@@ -782,7 +761,7 @@
   nickname: "Nittany Lions"
   abbreviation: "PSU-Schuylkill"
   espn_id: ''
-  city: ''
+  city: "Schuylkill Haven"
   state: "PA"
   state_slug: "pennsylvania"
   division: "USCAA"
@@ -794,742 +773,7 @@
   logo_url: ""
   logo_dark_url: ""
   espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Auburn Tigers"
-  slug: "auburn-tigers"
-  nickname: "Tigers"
-  abbreviation: "AUB"
-  espn_id: ''
-  city: ''
-  state: "AL"
-  state_slug: "alabama"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "SEC"
-  conference_slug: "sec-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Arizona Wildcats"
-  slug: "arizona-wildcats"
-  nickname: "Wildcats"
-  abbreviation: "ARI"
-  espn_id: ''
-  city: ''
-  state: "AZ"
-  state_slug: "arizona"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "Big 12"
-  conference_slug: "big-12-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "UCLA Bruins"
-  slug: "ucla-bruins"
-  nickname: "Bruins"
-  abbreviation: "UCLA"
-  espn_id: ''
-  city: ''
-  state: "CA"
-  state_slug: "california"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "Big Ten"
-  conference_slug: "big-ten-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "UConn Huskies"
-  slug: "uconn-huskies"
-  nickname: "Huskies"
-  abbreviation: "UCONN"
-  espn_id: ''
-  city: ''
-  state: "CT"
-  state_slug: "connecticut"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "Big East"
-  conference_slug: "big-east-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Kansas Jayhawks"
-  slug: "kansas-jayhawks"
-  nickname: "Jayhawks"
-  abbreviation: "KAN"
-  espn_id: ''
-  city: ''
-  state: "KS"
-  state_slug: "kansas"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "Big 12"
-  conference_slug: "big-12-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Kentucky Wildcats"
-  slug: "kentucky-wildcats"
-  nickname: "Wildcats"
-  abbreviation: "UK"
-  espn_id: ''
-  city: ''
-  state: "KY"
-  state_slug: "kentucky"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "SEC"
-  conference_slug: "sec-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Michigan State Spartans"
-  slug: "michigan-state-spartans"
-  nickname: "Spartans"
-  abbreviation: "MSU"
-  espn_id: ''
-  city: ''
-  state: "MI"
-  state_slug: "michigan"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "Big Ten"
-  conference_slug: "big-ten-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Duke Blue Devils"
-  slug: "duke-blue-devils"
-  nickname: "Blue Devils"
-  abbreviation: "DUKE"
-  espn_id: ''
-  city: ''
-  state: "NC"
-  state_slug: "north-carolina"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "ACC"
-  conference_slug: "acc-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "North Carolina Tar Heels"
-  slug: "north-carolina-tar-heels"
-  nickname: "Tar Heels"
-  abbreviation: "UNC"
-  espn_id: ''
-  city: ''
-  state: "NC"
-  state_slug: "north-carolina"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "ACC"
-  conference_slug: "acc-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Villanova Wildcats"
-  slug: "villanova-wildcats"
-  nickname: "Wildcats"
-  abbreviation: "NOVA"
-  espn_id: ''
-  city: ''
-  state: "PA"
-  state_slug: "pennsylvania"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "Big East"
-  conference_slug: "big-east-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Houston Cougars"
-  slug: "houston-cougars"
-  nickname: "Cougars"
-  abbreviation: "HOU"
-  espn_id: ''
-  city: ''
-  state: "TX"
-  state_slug: "texas"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "Big 12"
-  conference_slug: "big-12-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Gonzaga Bulldogs"
-  slug: "gonzaga-bulldogs"
-  nickname: "Bulldogs"
-  abbreviation: "GNZ"
-  espn_id: ''
-  city: ''
-  state: "WA"
-  state_slug: "washington"
-  division: "D1"
-  division_slug: "d1-basketball-programs"
-  conference: "West Coast Conference"
-  conference_slug: "west-coast-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Nova Southeastern Sharks"
-  slug: "nova-southeastern-university"
-  nickname: "Sharks"
-  abbreviation: "NSU"
-  espn_id: ''
-  city: ''
-  state: "FL"
-  state_slug: "florida"
-  division: "D2"
-  division_slug: "d2-basketball-programs"
-  conference: "Sunshine State Conference"
-  conference_slug: "sunshine-state-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "West Georgia Wolves"
-  slug: "university-of-west-georgia"
-  nickname: "Wolves"
-  abbreviation: "WG"
-  espn_id: ''
-  city: ''
-  state: "GA"
-  state_slug: "georgia"
-  division: "D2"
-  division_slug: "d2-basketball-programs"
-  conference: "Gulf South Conference"
-  conference_slug: "gulf-south-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Ferris State Bulldogs"
-  slug: "ferris-state-university"
-  nickname: "Bulldogs"
-  abbreviation: "FSU"
-  espn_id: ''
-  city: ''
-  state: "MI"
-  state_slug: "michigan"
-  division: "D2"
-  division_slug: "d2-basketball-programs"
-  conference: "GLIAC"
-  conference_slug: "gliac-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Drury Panthers"
-  slug: "drury-university"
-  nickname: "Panthers"
-  abbreviation: "DRURY"
-  espn_id: ''
-  city: ''
-  state: "MO"
-  state_slug: "missouri"
-  division: "D2"
-  division_slug: "d2-basketball-programs"
-  conference: "Great Lakes Valley Conference"
-  conference_slug: "great-lakes-valley-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Northwest Missouri State Bearcats"
-  slug: "northwest-missouri-state-university"
-  nickname: "Bearcats"
-  abbreviation: "NWMSU"
-  espn_id: ''
-  city: ''
-  state: "MO"
-  state_slug: "missouri"
-  division: "D2"
-  division_slug: "d2-basketball-programs"
-  conference: "MIAA"
-  conference_slug: "miaa-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Wingate Bulldogs"
-  slug: "wingate-university"
-  nickname: "Bulldogs"
-  abbreviation: "WINGATE"
-  espn_id: ''
-  city: ''
-  state: "NC"
-  state_slug: "north-carolina"
-  division: "D2"
-  division_slug: "d2-basketball-programs"
-  conference: "South Atlantic Conference"
-  conference_slug: "south-atlantic-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Findlay Oilers"
-  slug: "university-of-findlay"
-  nickname: "Oilers"
-  abbreviation: "FINDLAY"
-  espn_id: ''
-  city: ''
-  state: "OH"
-  state_slug: "ohio"
-  division: "D2"
-  division_slug: "d2-basketball-programs"
-  conference: "Great Midwest Athletic Conference"
-  conference_slug: "great-midwest-athletic-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Lincoln Memorial Railsplitters"
-  slug: "lincoln-memorial-university"
-  nickname: "Railsplitters"
-  abbreviation: "LMU"
-  espn_id: ''
-  city: ''
-  state: "TN"
-  state_slug: "tennessee"
-  division: "D2"
-  division_slug: "d2-basketball-programs"
-  conference: "South Atlantic Conference"
-  conference_slug: "south-atlantic-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Northwest Florida State Raiders"
-  slug: "northwest-florida-state-college"
-  nickname: "Raiders"
-  abbreviation: "NWFSC"
-  espn_id: ''
-  city: ''
-  state: "FL"
-  state_slug: "florida"
-  division: "JUCO"
-  division_slug: "juco-basketball-programs"
-  conference: "Panhandle Conference"
-  conference_slug: "panhandle-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Coffeyville Red Ravens"
-  slug: "coffeyville-community-college"
-  nickname: "Red Ravens"
-  abbreviation: "COFFEY"
-  espn_id: ''
-  city: ''
-  state: "KS"
-  state_slug: "kansas"
-  division: "JUCO"
-  division_slug: "juco-basketball-programs"
-  conference: "KJCCC"
-  conference_slug: "kjccc-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Hutchinson Blue Dragons"
-  slug: "hutchinson-community-college"
-  nickname: "Blue Dragons"
-  abbreviation: "HUTCH"
-  espn_id: ''
-  city: ''
-  state: "KS"
-  state_slug: "kansas"
-  division: "JUCO"
-  division_slug: "juco-basketball-programs"
-  conference: "KJCCC"
-  conference_slug: "kjccc-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Kilgore Rangers"
-  slug: "kilgore-college"
-  nickname: "Rangers"
-  abbreviation: "KILGORE"
-  espn_id: ''
-  city: ''
-  state: "TX"
-  state_slug: "texas"
-  division: "JUCO"
-  division_slug: "juco-basketball-programs"
-  conference: "Region 14"
-  conference_slug: "region-14-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Navarro Bulldogs"
-  slug: "navarro-college"
-  nickname: "Bulldogs"
-  abbreviation: "NAVARRO"
-  espn_id: ''
-  city: ''
-  state: "TX"
-  state_slug: "texas"
-  division: "JUCO"
-  division_slug: "juco-basketball-programs"
-  conference: "Region 14"
-  conference_slug: "region-14-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Tyler Apaches"
-  slug: "tyler-junior-college"
-  nickname: "Apaches"
-  abbreviation: "TYLER"
-  espn_id: ''
-  city: ''
-  state: "TX"
-  state_slug: "texas"
-  division: "JUCO"
-  division_slug: "juco-basketball-programs"
-  conference: "Region 14"
-  conference_slug: "region-14-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Indiana Wesleyan Wildcats"
-  slug: "indiana-wesleyan-university"
-  nickname: "Wildcats"
-  abbreviation: "IWU"
-  espn_id: ''
-  city: ''
-  state: "IN"
-  state_slug: "indiana"
-  division: "NAIA"
-  division_slug: "naia-basketball-programs"
-  conference: "Crossroads League"
-  conference_slug: "crossroads-league-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Morningside Mustangs"
-  slug: "morningside-university"
-  nickname: "Mustangs"
-  abbreviation: "MU"
-  espn_id: ''
-  city: ''
-  state: "IA"
-  state_slug: "iowa"
-  division: "NAIA"
-  division_slug: "naia-basketball-programs"
-  conference: "GPAC"
-  conference_slug: "gpac-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Campbellsville Tigers"
-  slug: "campbellsville-university"
-  nickname: "Tigers"
-  abbreviation: "CAMPBELL"
-  espn_id: ''
-  city: ''
-  state: "KY"
-  state_slug: "kentucky"
-  division: "NAIA"
-  division_slug: "naia-basketball-programs"
-  conference: "Mid-South Conference"
-  conference_slug: "mid-south-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Georgetown Tigers"
-  slug: "georgetown-college"
-  nickname: "Tigers"
-  abbreviation: "GT"
-  espn_id: ''
-  city: ''
-  state: "KY"
-  state_slug: "kentucky"
-  division: "NAIA"
-  division_slug: "naia-basketball-programs"
-  conference: "Mid-South Conference"
-  conference_slug: "mid-south-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Lindsey Wilson Blue Raiders"
-  slug: "lindsey-wilson-college"
-  nickname: "Blue Raiders"
-  abbreviation: "LWCC"
-  espn_id: ''
-  city: ''
-  state: "KY"
-  state_slug: "kentucky"
-  division: "NAIA"
-  division_slug: "naia-basketball-programs"
-  conference: "Mid-South Conference"
-  conference_slug: "mid-south-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Oklahoma City Stars"
-  slug: "oklahoma-city-university"
-  nickname: "Stars"
-  abbreviation: "OCU"
-  espn_id: ''
-  city: ''
-  state: "OK"
-  state_slug: "oklahoma"
-  division: "NAIA"
-  division_slug: "naia-basketball-programs"
-  conference: "Sooner Athletic Conference"
-  conference_slug: "sooner-athletic-conference-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Penn State DuBois Lions"
-  slug: "penn-state-dubois"
-  nickname: "Lions"
-  abbreviation: "PSU-DuBois"
-  espn_id: ''
-  city: ''
-  state: "PA"
-  state_slug: "pennsylvania"
-  division: "USCAA"
-  division_slug: "uscaa-basketball-programs"
-  conference: "PSUAC"
-  conference_slug: "psuac-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Penn State Hazleton Nittany Lions"
-  slug: "penn-state-hazleton"
-  nickname: "Nittany Lions"
-  abbreviation: "PSU-Hazleton"
-  espn_id: ''
-  city: ''
-  state: "PA"
-  state_slug: "pennsylvania"
-  division: "USCAA"
-  division_slug: "uscaa-basketball-programs"
-  conference: "PSUAC"
-  conference_slug: "psuac-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
-  best_email: ""
-  staff_count: 0
-  coach_status: "pending"
-- name: "Penn State Schuylkill Nittany Lions"
-  slug: "penn-state-schuylkill"
-  nickname: "Nittany Lions"
-  abbreviation: "PSU-Schuylkill"
-  espn_id: ''
-  city: ''
-  state: "PA"
-  state_slug: "pennsylvania"
-  division: "USCAA"
-  division_slug: "uscaa-basketball-programs"
-  conference: "PSUAC"
-  conference_slug: "psuac-basketball-programs"
-  color: ''
-  alt_color: ''
-  logo_url: ""
-  logo_dark_url: ""
-  espn_url: ""
-  head_coach: ""
+  head_coach: "Travis Williams"
   best_email: ""
   staff_count: 0
   coach_status: "pending"
