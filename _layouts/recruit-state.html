@@ -3,15 +3,15 @@ layout: default
 ---
 <!-- State × Division page: /d1-basketball-programs/florida/ etc. -->
 
-<section class="recruit-school-header">
+<section class="recruit-state-hero">
   <div class="container">
-    <nav class="recruit-breadcrumb" aria-label="Breadcrumb">
+    <nav class="recruit-breadcrumb recruit-breadcrumb--light" aria-label="Breadcrumb">
       <a href="/college-basketball-programs-directory/">All Programs</a> ›
       <a href="/{{ page.division.slug }}/">{{ page.division.label }}</a> ›
       <span>{{ page.state.name }}</span>
     </nav>
     <h1>{{ page.title }}</h1>
-    <p class="page-subtitle" style="color:#6b7280;margin:0.4rem 0 0;font-size:1rem;">
+    <p class="recruit-state-hero-sub">
       {{ page.school_count }} {{ page.division.label }} men's basketball
       {% if page.school_count == 1 %}program{% else %}programs{% endif %}
       in {{ page.state.name }}
@@ -54,6 +54,12 @@ layout: default
             {% endif %}
           </h3>
           <span class="chip-count">{{ group.items | size }}</span>
+        </div>
+        <div class="recruit-school-row recruit-school-row--header" aria-hidden="true">
+          <div class="recruit-school-row-logo"></div>
+          <div class="recruit-col-label">School</div>
+          <div class="recruit-col-label">Head Coach</div>
+          <div class="recruit-col-label">Email</div>
         </div>
         {% for school in group.items %}
         <div class="recruit-school-row">
@@ -110,6 +116,12 @@ layout: default
         <div class="recruit-school-row-group-header">
           <h3>Independent</h3>
           <span class="chip-count">{{ no_conf | size }}</span>
+        </div>
+        <div class="recruit-school-row recruit-school-row--header" aria-hidden="true">
+          <div class="recruit-school-row-logo"></div>
+          <div class="recruit-col-label">School</div>
+          <div class="recruit-col-label">Head Coach</div>
+          <div class="recruit-col-label">Email</div>
         </div>
         {% for school in no_conf %}
         <div class="recruit-school-row">

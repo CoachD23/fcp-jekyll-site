@@ -7861,30 +7861,77 @@ iframe { max-width: 100%; }
   color: #fff;
 }
 
+/* ── State page hero ─────────────────────────────────────────── */
+.recruit-state-hero {
+  background: #0a1628;
+  padding: 4rem 0 2rem;
+  color: #fff;
+}
+.recruit-state-hero h1 {
+  color: #fff;
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  margin: 0.5rem 0 0.4rem;
+}
+.recruit-state-hero-sub {
+  color: #94a3b8;
+  margin: 0;
+  font-size: 1rem;
+}
+.recruit-breadcrumb--light a {
+  color: #94a3b8;
+}
+.recruit-breadcrumb--light a:hover {
+  color: #fff;
+}
+.recruit-breadcrumb--light span {
+  color: #cbd5e1;
+}
+
 /* ── School rows (state pages) ───────────────────────────────── */
-.recruit-school-row-group { margin-bottom: 2rem; }
+.recruit-school-row-group {
+  margin-bottom: 2.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+}
 .recruit-school-row-group-header {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  padding: 0.6rem 0.75rem;
-  background: #f9fafb;
-  border-left: 3px solid #b22234;
-  border-bottom: 1px solid #e5e7eb;
-  border-radius: 0 4px 0 0;
+  padding: 0.75rem 1rem;
+  background: #1a1a2e;
   margin-bottom: 0;
 }
 .recruit-school-row-group-header h3 {
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 700;
-  color: #1a1a2e;
+  color: #fff;
   margin: 0;
 }
 .recruit-school-row-group-header h3 a {
-  color: #1a1a2e;
+  color: #fff;
   text-decoration: none;
 }
-.recruit-school-row-group-header h3 a:hover { color: #b22234; }
+.recruit-school-row-group-header h3 a:hover { color: #e5e7eb; }
+.recruit-school-row-group-header .chip-count {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+}
+
+/* Column header row */
+.recruit-school-row--header {
+  background: #f1f5f9;
+  border-bottom: 2px solid #e2e8f0;
+  padding: 0.4rem 0.5rem;
+}
+.recruit-school-row--header:hover { background: #f1f5f9; }
+.recruit-col-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
 
 .recruit-school-row {
   display: grid;
@@ -8143,6 +8190,7 @@ iframe { max-width: 100%; }
   /* Tablet: show logo + name + coach, hide email */
   .recruit-school-row { grid-template-columns: 52px 1fr 150px; }
   .recruit-school-row-email { display: none; }
+  .recruit-school-row--header .recruit-col-label:last-child { display: none; }
 }
 
 /* =============================================================
@@ -8181,6 +8229,7 @@ iframe { max-width: 100%; }
   }
   .recruit-school-row-coach { display: none; }
   .recruit-school-row-email { display: none; }
+  .recruit-school-row--header { display: none; }
 
   /* School grid */
   .recruit-school-grid { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
