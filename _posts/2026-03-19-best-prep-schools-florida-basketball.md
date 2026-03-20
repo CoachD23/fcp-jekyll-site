@@ -3,7 +3,7 @@ layout: post
 title: "Best Prep Schools in Florida for Basketball: What to Look for and Why FCP Stands Out"
 date: 2026-03-19
 categories: [recruiting]
-image: /assets/images/post-grad/florida-coastal-prep-post-graduate-basketball-program.jpeg
+image: /assets/images/blog/prep-schools-florida.jpg
 description: "Explore the best basketball prep schools in Florida. Learn what separates elite programs from average ones and why Florida Coastal Prep belongs on your shortlist."
 excerpt: "Choosing the right basketball prep school can define a player's path to college. Here is what to look for in Florida's top programs."
 ---
