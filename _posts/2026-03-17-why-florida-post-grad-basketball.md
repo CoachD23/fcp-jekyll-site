@@ -4,7 +4,7 @@ title: "Why Florida Is One of the Best States to Play Post-Grad Basketball"
 date: 2026-03-17
 author: "Lee DeForest"
 excerpt: "I've run basketball programs in different parts of the country. Here's why I built FCP in Florida — and why the state's geography, climate, and college landscape make it one of the most strategically valuable places in America to do a post-grad year."
-image: /assets/images/blog/florida-post-grad-basketball.jpg
+image: /assets/images/blog/florida-panhandle-basketball.jpeg
 description: "FCP Director Lee DeForest explains why Florida's climate, college density, AAU circuit, and Emerald Coast location make it one of the best states for post-grad basketball development."
 schema: "Article"
 ---

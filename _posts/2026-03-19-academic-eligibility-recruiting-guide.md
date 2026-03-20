@@ -4,7 +4,7 @@ title: "The Academic Side of Recruiting: What Eligibility Officers Actually Chec
 date: 2026-03-19
 author: "Alba Reyes"
 excerpt: "Most players don't think about NCAA eligibility until it's too late to fix. Here's what the Eligibility Center actually evaluates — and the specific mistakes I see players make every year."
-image: /assets/images/blog/academic-eligibility-basketball.jpg
+image: /assets/images/blog/college-basketball-scholarships-student-athletes.jpg
 description: "FCP Academic Coordinator Alba Reyes breaks down NCAA eligibility requirements — core courses, GPA minimums, the sliding scale, NAIA and JUCO rules, and how FCP prepares every player."
 schema: "Article"
 ---

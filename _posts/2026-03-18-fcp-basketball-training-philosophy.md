@@ -4,7 +4,7 @@ title: "What Our Players Do in the Gym That Most Programs Skip"
 date: 2026-03-18
 author: "Kenny Anderson"
 excerpt: "In 14 years in the NBA, I watched what separated the players who stuck from the players who didn't. At FCP, we train those things deliberately — and most programs never even touch them."
-image: /assets/images/blog/fcp-training-philosophy.jpg
+image: /assets/images/blog/pro-training-basketball.jpg
 description: "NBA All-Star Kenny Anderson breaks down FCP's training philosophy — the specific drills, habits, and methods that separate elite players from the pack, drawn from 14 years in the NBA."
 schema: "Article"
 ---
