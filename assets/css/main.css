@@ -764,11 +764,15 @@ section { padding: 3rem 0; }
   border-right: 1px solid rgba(255,255,255,0.1);
 }
 .impact-bar-stat:last-child { border-right: none; }
+.impact-bar-numrow {
+  display: flex;
+  align-items: baseline;
+}
 .impact-bar .impact-number,
 .impact-bar .impact-number-plus {
   font-family: 'Barlow Condensed', 'Inter', sans-serif;
-  font-size: clamp(2.4rem, 4vw, 3.5rem);
-  font-weight: 900;
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-weight: 700;
   color: #d4a843;
   line-height: 1;
 }
@@ -789,7 +793,7 @@ section { padding: 3rem 0; }
   .impact-bar-stat:nth-child(3),
   .impact-bar-stat:nth-child(4) { border-top: 1px solid rgba(255,255,255,0.08); padding-top: 1rem; }
   .impact-bar .impact-number,
-  .impact-bar .impact-number-plus { font-size: 1.9rem; }
+  .impact-bar .impact-number-plus { font-size: 1.75rem; }
   .impact-bar .impact-label { font-size: 0.65rem; letter-spacing: 0.08em; }
 }
 
@@ -831,7 +835,7 @@ section { padding: 3rem 0; }
   width: 60px;
   height: 60px;
   object-fit: contain;
-  filter: grayscale(100%) opacity(0.55);
+  filter: grayscale(30%) opacity(0.85);
   transition: filter 0.3s ease, transform 0.2s ease;
   margin: 0;
 }
