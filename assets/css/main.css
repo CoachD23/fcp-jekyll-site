@@ -746,7 +746,7 @@ section { padding: 3rem 0; }
 /* --- Impact Stats Bar --- */
 .impact-bar {
   background: #0a1628;
-  padding: 2.5rem 0;
+  padding: 1.75rem 0;
   border-bottom: 2px solid rgba(196,30,58,0.4);
 }
 .impact-bar-grid {
@@ -782,18 +782,21 @@ section { padding: 3rem 0; }
 @media (max-width: 640px) {
   .impact-bar-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem 0;
+    gap: 1rem 0;
   }
   .impact-bar-stat:nth-child(2) { border-right: none; }
   .impact-bar-stat:nth-child(odd) { border-right: 1px solid rgba(255,255,255,0.1); }
   .impact-bar-stat:nth-child(3),
-  .impact-bar-stat:nth-child(4) { border-top: 1px solid rgba(255,255,255,0.08); padding-top: 1.5rem; }
+  .impact-bar-stat:nth-child(4) { border-top: 1px solid rgba(255,255,255,0.08); padding-top: 1rem; }
+  .impact-bar .impact-number,
+  .impact-bar .impact-number-plus { font-size: 1.9rem; }
+  .impact-bar .impact-label { font-size: 0.65rem; letter-spacing: 0.08em; }
 }
 
 /* --- College Logo Wall --- */
 .logo-wall-section {
   background: #f7f8fa;
-  padding: 2.5rem 0;
+  padding: 1.5rem 0;
   border-bottom: 1px solid #e8eaed;
 }
 .logo-wall-label {
