@@ -764,7 +764,8 @@ section { padding: 3rem 0; }
   border-right: 1px solid rgba(255,255,255,0.1);
 }
 .impact-bar-stat:last-child { border-right: none; }
-.impact-bar .impact-number {
+.impact-bar .impact-number,
+.impact-bar .impact-number-plus {
   font-family: 'Barlow Condensed', 'Inter', sans-serif;
   font-size: clamp(2.4rem, 4vw, 3.5rem);
   font-weight: 900;
