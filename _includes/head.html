@@ -341,7 +341,11 @@
 
 <!-- Fonts: inline @font-face eliminates render-blocking CSS fetch to fonts.googleapis.com -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preload" href="https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2" as="font" type="font/woff2" crossorigin>
+<!-- Barlow Condensed: display headings — loaded non-blocking -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&display=swap"></noscript>
 
 <!-- Critical CSS: inline above-the-fold styles (nav + hero + buttons + fonts) -->
 <style>
@@ -355,7 +359,7 @@ body{font-family:'Inter','Inter Fallback',system-ui,-apple-system,sans-serif;col
 a{text-decoration:none;color:inherit}
 img,video{max-width:100%;height:auto;display:block}
 ul{list-style:none}
-h1,h2,h3,h4,h5,h6{font-weight:700;line-height:1.2;color:#0a1628}
+h1,h2,h3,h4,h5,h6{font-weight:700;line-height:1.2;color:#0a1628}.section-header h2,.cta-section h2,.hero-content h1{font-family:'Barlow Condensed','Inter',sans-serif;font-weight:800;letter-spacing:.01em}
 .container{max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .site-header{position:fixed;top:0;left:0;right:0;z-index:1000;background:var(--navy);transition:background .3s,box-shadow .3s}
 .site-header.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.3)}
