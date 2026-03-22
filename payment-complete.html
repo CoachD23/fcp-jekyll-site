@@ -53,6 +53,17 @@ noindex: true
 </section>
 
 <script>
+/* Google Ads conversion — fires once on payment-complete load */
+if (typeof gtag === 'function') {
+  gtag('event', 'conversion', {'send_to': 'AW-11158472206/purchase', 'value': 1.0, 'currency': 'USD'});
+} else {
+  window.addEventListener('load', function() {
+    if (typeof gtag === 'function') gtag('event', 'conversion', {'send_to': 'AW-11158472206/purchase', 'value': 1.0, 'currency': 'USD'});
+  });
+}
+</script>
+
+<script>
 function submitPortalEmail() {
   var emailEl = document.getElementById('portal-email');
   var btn = document.getElementById('portal-submit-btn');
