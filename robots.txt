@@ -17,44 +17,27 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
-# WordPress artifact pages (legacy, all redirect to real pages via _redirects)
-Disallow: /elementor-10225/
-Disallow: /elementor-7032/
-Disallow: /all-groups/
-Disallow: /my-profile/
-Disallow: /search-users/
-Disallow: /default-user-group/
-Disallow: /test/
-Disallow: /sample-page/
-Disallow: /home-7-10/
-Disallow: /japan/
-Disallow: /login/
-Disallow: /forgot-password/
-
-# Site utility pages (no SEO value)
+# CMS admin (no SEO value, not public)
 Disallow: /admin/
+
+# Payment flow (sensitive, noindex via meta tag instead)
 Disallow: /payment/
 Disallow: /payment-complete/
-Disallow: /apply/
+
+# Internal tools
 Disallow: /roster/
 
-# WordPress system paths
+# Legacy WordPress paths (site migrated to Jekyll, these 404 anyway)
 Disallow: /wp-admin/
 Disallow: /wp-login.php
 Disallow: /wp-content/
 Disallow: /wp-json/
 Disallow: /wp-includes/
 Disallow: /xmlrpc.php
-
-# Legacy hosting artifacts
 Disallow: /cgi-sys/
 Disallow: /elementor-hf/
-
-# WordPress category/tag/pagination archives
-Disallow: /category/
-Disallow: /tag/
-Disallow: /page/
-Disallow: /blog/page/
+Disallow: /elementor-10225/
+Disallow: /elementor-7032/
 
 Sitemap: https://floridacoastalprep.com/sitemap.xml
 Sitemap: https://floridacoastalprep.com/sitemap-images.xml
