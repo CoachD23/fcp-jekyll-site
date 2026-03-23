@@ -1,3 +1,4 @@
+---
 - name: New Hampshire Wildcats
   slug: new-hampshire-wildcats
   nickname: Wildcats
@@ -308,7 +309,7 @@
   logo_dark_url: https://a.espncdn.com/i/teamlogos/ncaa/500-dark/235.png
   espn_url: https://www.espn.com/mens-college-basketball/team/_/id/235
   head_coach: Penny Hardaway
-  best_email: '@coach_shawn10'
+  best_email: "@coach_shawn10"
   staff_count: 6
   coach_status: researched
 - name: Rice Owls
@@ -6695,7 +6696,7 @@
   logo_dark_url: ''
   espn_url: ''
   head_coach: Greg Kamansky
-  best_email: (909) 869-2833
+  best_email: "(909) 869-2833"
   staff_count: 2
   coach_status: imported
 - name: California State University, Chico
@@ -21733,7 +21734,7 @@
   nickname: ''
   abbreviation: ''
   espn_id: ''
-  city: ''
+  city: West Memphis
   state: AR
   state_slug: arkansas
   division: JUCO
@@ -21748,7 +21749,7 @@
   head_coach: Chris Parker
   best_email: crparker@asumidsouth.edu
   staff_count: 3
-  coach_status: imported
+  coach_status: researched
   juco_org: NJCAA
 - name: National Park College
   slug: national-park-college
@@ -21881,7 +21882,7 @@
   best_email: ''
   staff_count: 1
   coach_status: imported
-  juco_org: null
+  juco_org:
 - name: Arizona Western College
   slug: arizona-western-college
   nickname: ''
@@ -24433,7 +24434,7 @@
   best_email: matt.hiebert@hesston.edu
   staff_count: 2
   coach_status: imported
-  juco_org: null
+  juco_org:
 - name: Highland Community College – Kansas
   slug: highland-community-college-kansas
   nickname: ''
@@ -25825,7 +25826,7 @@
   nickname: ''
   abbreviation: ''
   espn_id: ''
-  city: ''
+  city: Brainerd
   state: MN
   state_slug: minnesota
   division: JUCO
@@ -25840,7 +25841,7 @@
   head_coach: Jim Russell
   best_email: james.russell@clcmn.edu
   staff_count: 3
-  coach_status: imported
+  coach_status: researched
   juco_org: NJCAA
 - name: Dakota County Technical College
   slug: dakota-county-technical-college
@@ -27073,7 +27074,7 @@
   best_email: kevin.rice.1@bismarckstate.edu
   staff_count: 1
   coach_status: imported
-  juco_org: null
+  juco_org:
 - name: Dakota College at Bottineau
   slug: dakota-college-at-bottineau
   nickname: ''
@@ -29295,7 +29296,7 @@
   best_email: johnsonn@smcsc.edu
   staff_count: 6
   coach_status: imported
-  juco_org: null
+  juco_org:
 - name: USC Salkehatchie
   slug: usc-salkehatchie
   nickname: ''
@@ -30225,7 +30226,7 @@
   nickname: ''
   abbreviation: ''
   espn_id: ''
-  city: ''
+  city: Price
   state: UT
   state_slug: utah
   division: JUCO
@@ -30240,7 +30241,7 @@
   head_coach: Bill Evans
   best_email: bill.evans@usu.edu
   staff_count: 2
-  coach_status: imported
+  coach_status: researched
   juco_org: NJCAA
 - name: Bryant & Stratton College – VA
   slug: bryant-stratton-college-va
@@ -32735,7 +32736,7 @@
   logo_dark_url: ''
   espn_url: ''
   head_coach: Adam Hepker
-  best_email: '@ahepker14'
+  best_email: "@ahepker14"
   staff_count: 4
   coach_status: imported
 - name: Ottawa University
@@ -39415,28 +39416,6 @@
   best_email: ''
   staff_count: 0
   coach_status: imported
-- name: Arkansas State University – Mid-South
-  slug: arkansas-state-university-mid-south
-  nickname: ''
-  abbreviation: ''
-  espn_id: ''
-  city: West Memphis
-  state: AR
-  state_slug: arkansas
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Bi-State Conference
-  conference_slug: bi-state-conference
-  color: ''
-  alt_color: ''
-  logo_url: ''
-  logo_dark_url: ''
-  espn_url: ''
-  head_coach: ''
-  best_email: ''
-  staff_count: 0
-  coach_status: ''
-  juco_org: NJCAA
 - name: Bismarck State College
   slug: bismarck-state-college
   nickname: ''
@@ -39625,28 +39604,6 @@
   division_slug: juco-basketball-programs
   conference: Region 9
   conference_slug: region-9
-  color: ''
-  alt_color: ''
-  logo_url: ''
-  logo_dark_url: ''
-  espn_url: ''
-  head_coach: ''
-  best_email: ''
-  staff_count: 0
-  coach_status: ''
-  juco_org: NJCAA
-- name: Central Lakes College – Brainerd
-  slug: central-lakes-college-brainerd
-  nickname: ''
-  abbreviation: ''
-  espn_id: ''
-  city: Brainerd
-  state: MN
-  state_slug: minnesota
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Minnesota College Athletic Conference
-  conference_slug: minnesota-college-athletic-conference
   color: ''
   alt_color: ''
   logo_url: ''
@@ -40901,28 +40858,6 @@
   division_slug: juco-basketball-programs
   conference: Northern Athletic Conference
   conference_slug: northern-athletic-conference
-  color: ''
-  alt_color: ''
-  logo_url: ''
-  logo_dark_url: ''
-  espn_url: ''
-  head_coach: ''
-  best_email: ''
-  staff_count: 0
-  coach_status: ''
-  juco_org: NJCAA
-- name: Utah State University Eastern
-  slug: utah-state-university-eastern
-  nickname: ''
-  abbreviation: ''
-  espn_id: ''
-  city: Price
-  state: UT
-  state_slug: utah
-  division: JUCO
-  division_slug: juco-basketball-programs
-  conference: Scenic West Athletic Conference
-  conference_slug: scenic-west-athletic-conference
   color: ''
   alt_color: ''
   logo_url: ''
