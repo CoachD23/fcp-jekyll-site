@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Spartan Training Center — Basketball Facility Fort Walton Beach"
+title: "Spartan Training Center | FCP Basketball Facility"
 subtitle: Our Brand New 14,000 sq ft Home
 description: "Tour FCP's Spartan Training Center — 14,000 sq ft basketball facility in Fort Walton Beach with pro hardwood court, strength training, and 24/7 athlete access."
 hero_image: /assets/images/training/florida-coastal-prep-basketball-training-fort-walton-beach.jpeg

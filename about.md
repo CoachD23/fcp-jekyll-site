@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Florida Coastal Prep — Premier Basketball Academy
+title: "About Florida Coastal Prep | Basketball Academy"
 subtitle: Where Potential Meets Preparation
 description: "Florida Coastal Prep — premier basketball academy in Fort Walton Beach, FL. NBA-level coaching, 500+ college commits across 43 states, 25+ years of development."
 hero_image: /assets/images/about/about-hero.jpg

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Accredited Academics & NCAA-Approved Coursework"
+title: "Accredited Academics & NCAA Coursework | FCP Academy"
 subtitle: Education That Prepares You for College
 description: "FCP offers accredited academics, Colorado Christian University dual enrollment, and NCAA-approved coursework built around a student-athlete's training schedule."
 hero_image: /assets/images/academics/florida-coastal-prep-student-athletes-studying.jpg
