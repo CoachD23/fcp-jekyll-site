@@ -38,7 +38,7 @@ Some programs focus exclusively on post-grad players, while others offer both hi
 
 ## Why Florida Coastal Prep Stands Out
 
-[Florida Coastal Prep](https://floridacoastalprep.com/) is located in Fort Walton Beach on Florida's Gulf Coast. Founded by Head Coach Lee DeForest, FCP offers both a high school basketball program and a [post-grad basketball program](https://floridacoastalprep.com/post-grad-basketball/), giving families flexibility depending on where a player is in their development.
+[Florida Coastal Prep](https://floridacoastalprep.com/) is located in Fort Walton Beach on Florida's Gulf Coast. Led by Head Coach Lee DeForest, FCP offers both a high school basketball program and a [post-grad basketball program](https://floridacoastalprep.com/post-grad-basketball/), giving families flexibility depending on where a player is in their development.
 
 Here is what makes FCP different:
 

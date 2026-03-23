@@ -12,7 +12,7 @@ If you are researching basketball academies and someone mentions Florida Coastal
 
 ## What Is Florida Coastal Prep?
 
-Florida Coastal Prep is a basketball academy located in Fort Walton Beach, Florida, on the state's Gulf Coast. Founded by Head Coach Lee DeForest, FCP offers two distinct basketball programs: a high school program for student-athletes in grades 9 through 12, and a [post-grad basketball program](https://floridacoastalprep.com/post-grad-basketball/) for players who have graduated high school and want an additional year of development before college.
+Florida Coastal Prep is a basketball academy located in Fort Walton Beach, Florida, on the state's Gulf Coast. Led by Head Coach Lee DeForest, FCP offers two distinct basketball programs: a high school program for student-athletes in grades 9 through 12, and a [post-grad basketball program](https://floridacoastalprep.com/post-grad-basketball/) for players who have graduated high school and want an additional year of development before college.
 
 The academy's mission is straightforward — develop student-athletes who are prepared to compete at the college level, both on the court and in the classroom. Every aspect of the program, from daily practice to academic tutoring to the competitive schedule, is built around that goal.
 
@@ -26,7 +26,7 @@ What separates Florida Coastal Prep from many other prep programs is the caliber
 
 At FCP, Anderson works directly with players every day. He runs skill development sessions, breaks down film, and brings a level of basketball knowledge that most prep school athletes never get access to. His coaching style focuses on fundamentals, decision-making, and the mental discipline required to compete at higher levels.
 
-**Lee DeForest** is the founder and head coach of Florida Coastal Prep. DeForest built the program from the ground up and oversees both the high school and post-grad teams. His coaching philosophy emphasizes discipline, accountability, and player development — and his track record of placing athletes into college programs speaks for itself.
+**Lee DeForest** is the director and head coach of Florida Coastal Prep. DeForest oversees both the high school and post-grad teams. His coaching philosophy emphasizes discipline, accountability, and player development — and his track record of placing athletes into college programs speaks for itself.
 
 ## The High School Program
 
